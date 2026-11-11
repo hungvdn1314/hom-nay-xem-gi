@@ -1,0 +1,40 @@
+name: YouTube 30-Minute Auto-Updater
+
+on:
+  schedule:
+    # Chạy tự động mỗi 30 phút
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Cho phép bấm nút chạy thủ công bất kỳ lúc nào
+
+permissions:
+  contents: write
+
+jobs:
+  sync-youtube-feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run YouTube Auto-Update Engine
+        run: python scripts/update_youtube_feed.py
+
+      - name: Commit and push changes if catalog updated
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          if [ -n "$(git status --porcelain data.js)" ]; then
+            echo "New YouTube videos discovered! Committing changes..."
+            git add data.js youtube_films_catalog.json
+            git commit -m "chore(auto-update): sync latest YouTube episodes from 8 channels"
+            git push origin main
+          else
+            echo "No new YouTube videos found. Repository is already up to date."
+          fi
