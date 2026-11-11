@@ -24,10 +24,17 @@
   - Enhanced `app.js` to render live fetched YouTube timestamps (`publishedAt` / `updatedAt`) directly into the 24h newfeed.
   - Puppeteer screenshots verified: `new_live_youtube_feed` and `theater_modal_new_film`.
 
+- **Feature 4: 100% Real YouTube Publish Dates (Fixed Fake Mock Timestamps)**:
+  - Eliminated simulated `timeDeltas` mock array entirely.
+  - Implemented `formatRealTimeAgo(isoString)` to compute true elapsed time from actual YouTube ISO timestamps.
+  - Updated `film_2` ("Đô Thị Dị Năng: SSS Bị Phong Ấn 99%...") with its exact YouTube publish date (`2026-11-06T12:15:21Z`), changing its badge from fake "15 phút trước" to accurate "4 ngày trước".
+  - Recent updates feed and notifications now strictly show real timestamps (e.g. 14 giờ trước, 1 ngày trước, 4 ngày trước).
+  - Cleaned any legacy mock notifications from localStorage.
+
 ## Verification Completed
 - End-to-end Puppeteer verification executed and passed:
   - Duration badge cleanup verified with 0 violations across all 1,564 films.
   - YouTube RSS feed crawler ran locally with 0 errors and successfully ingested 56 new films & 14 parts.
   - Idempotency test passed (0 duplicate commits when no new videos exist).
-  - 24h Newfeed rendered live YouTube updates (`new_live_youtube_feed`).
-  - Cinema Theater Modal successfully loaded newly discovered video in full HD (`theater_modal_new_film`).
+  - Real YouTube publish timestamps verified on `film_2` (`⚡ 4 ngày trước`) and today's new videos (`14 giờ trước`).
+  - Notification Popover screenshot taken with 100% real dates (`notif_popover_real_dates`).

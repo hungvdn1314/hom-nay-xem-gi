@@ -13,4 +13,5 @@
 - [x] Implemented YouTube Auto-Updater Engine (`scripts/update_youtube_feed.py`).
 - [x] Created GitHub Actions 30-minute cron workflow (`.github/workflows/auto_update_youtube.yml`).
 - [x] Updated catalog with 56 newly discovered films & 14 episodes (1,620 total films).
+- [x] Switched 100% to real YouTube publish timestamps (fixed fake mock timeAgo).
 - [x] Ready for 1-click Vercel deployment with automated 30-min sync.

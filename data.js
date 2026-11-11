@@ -1957,7 +1957,9 @@ window.FILMS_DATA = {
           "durationStr": "5:51:47",
           "isRedundant": false
         }
-      ]
+      ],
+      "publishedAt": "2026-11-06T12:15:21Z",
+      "updatedAt": "2026-11-06T12:15:21Z"
     },
     {
       "id": "film_3",

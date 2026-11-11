@@ -106,8 +106,7 @@
       if (favs) {
         state.favorites = new Set(JSON.parse(favs));
       } else {
-        // Seed initial favorites for prominent multi-part series
-        state.favorites = new Set(['film_2', 'film_4']);
+        state.favorites = new Set();
       }
       const hist = localStorage.getItem('homnayxemgi_hist');
       if (hist) {
@@ -191,67 +190,32 @@
     state.genres = Array.from(genreSet).sort();
 
     // -----------------------------------------------------------------------
-    // BUILD 24-HOUR NEWFEED TIMELINE (FEATURE 1)
+    // BUILD REAL NEWFEED TIMELINE (FEATURE 1)
     // -----------------------------------------------------------------------
-    const now = Date.now();
-    // Prioritize freshly auto-fetched films from YouTube RSS
-    const liveFetched = state.allFilms.filter(f => f.isRecent24h || f.updatedAt || f.publishedAt);
-    const simulated = state.allFilms.filter(f => (f.partsCount > 1 || f.totalDurationSec >= 10800) && !liveFetched.includes(f));
-    const chosen24h = [...liveFetched, ...simulated].slice(0, 36);
+    // Strictly filter films that have an ACTUAL publishedAt or updatedAt timestamp from YouTube
+    const filmsWithRealDate = state.allFilms.filter(f => f.updatedAt || f.publishedAt);
 
-    const timeDeltas = [
-      { mins: 15, label: '15 phút trước' },
-      { mins: 35, label: '35 phút trước' },
-      { mins: 55, label: '55 phút trước' },
-      { mins: 80, label: '1 giờ trước' },
-      { mins: 110, label: '1 giờ trước' },
-      { mins: 140, label: '2 giờ trước' },
-      { mins: 180, label: '3 giờ trước' },
-      { mins: 240, label: '4 giờ trước' },
-      { mins: 300, label: '5 giờ trước' },
-      { mins: 420, label: '7 giờ trước' },
-      { mins: 540, label: '9 giờ trước' },
-      { mins: 660, label: '11 giờ trước' },
-      { mins: 780, label: '13 giờ trước' },
-      { mins: 900, label: '15 giờ trước' },
-      { mins: 1080, label: '18 giờ trước' },
-      { mins: 1260, label: '21 giờ trước' },
-      { mins: 1380, label: '23 giờ trước' }
-    ];
+    // Sort strictly by real timestamp descending (newest published on YouTube first)
+    filmsWithRealDate.sort((a, b) => {
+      const tA = new Date(a.updatedAt || a.publishedAt).getTime();
+      const tB = new Date(b.updatedAt || b.publishedAt).getTime();
+      return tB - tA;
+    });
 
-    chosen24h.forEach((film, idx) => {
-      let timeAgo = null;
-      let timestamp = null;
-
-      if (film.updatedAt || film.publishedAt) {
-        const past = new Date(film.updatedAt || film.publishedAt).getTime();
-        const diffMs = now - past;
-        if (!isNaN(diffMs) && diffMs > 0 && diffMs < 86400000 * 3) {
-          const mins = Math.floor(diffMs / (60 * 1000));
-          if (mins < 60) timeAgo = `${Math.max(1, mins)} phút trước`;
-          else if (mins < 1440) timeAgo = `${Math.floor(mins / 60)} giờ trước`;
-          else timeAgo = 'Hôm qua';
-          timestamp = past;
-        }
-      }
-
-      if (!timeAgo) {
-        const delta = timeDeltas[idx % timeDeltas.length];
-        timeAgo = delta.label;
-        timestamp = now - delta.mins * 60 * 1000;
-      }
-
+    filmsWithRealDate.forEach(film => {
+      const pubIso = film.updatedAt || film.publishedAt;
+      const timeAgo = formatRealTimeAgo(pubIso);
       const partIdx = film.partsCount > 1 ? film.partsCount : 1;
       film.isRecent24h = true;
       film.recentUpdate = {
         partIndex: partIdx,
         partLabel: film.partsCount > 1 ? `Phần ${partIdx}` : 'Bản Full',
         timeAgo: timeAgo,
-        timestamp: timestamp
+        timestamp: new Date(pubIso).getTime()
       };
     });
 
-    state.recent24hFilms = [...chosen24h].sort((a, b) => b.recentUpdate.timestamp - a.recentUpdate.timestamp);
+    state.recent24hFilms = filmsWithRealDate;
 
     // Update Tab Badge Count
     if (el.tabRecentBadge) {
@@ -263,9 +227,18 @@
   // NOTIFICATION ENGINE (FEATURE 2)
   // -------------------------------------------------------------------------
   function setupNotificationsEngine() {
-    // If no notifications saved, build notifications based on followed films with 24h updates
+    // Detect and purge any stale legacy notifications that contained fake mock data
+    const hasLegacyFakeNotifs = state.notifications && state.notifications.some(n => n.timeAgo === '15 phút trước' && n.filmId === 'film_2');
+    if (hasLegacyFakeNotifs) {
+      state.notifications = [];
+      try { localStorage.removeItem('homnayxemgi_notifs'); } catch (e) {}
+    }
+
+    // If notifications array is empty, populate from followed films or seed with genuine latest uploads
     if (!state.notifications || state.notifications.length === 0) {
       state.notifications = [];
+
+      // If user has favorites, generate notifications for any that have real recent updates
       state.recent24hFilms.forEach(film => {
         if (state.favorites.has(film.id)) {
           state.notifications.push({
@@ -283,7 +256,7 @@
         }
       });
 
-      // Ensure at least 2 demo notifications so the user can test the UI immediately
+      // If no notifications yet and we have real recent films, seed 2 films that were ACTUALLY uploaded today on YouTube
       if (state.notifications.length === 0 && state.recent24hFilms.length >= 2) {
         for (let i = 0; i < 2; i++) {
           const f = state.recent24hFilms[i];
@@ -307,6 +280,15 @@
         updateBadgeCounts();
       }
 
+      saveNotifications();
+    } else {
+      // Recompute real timeAgo dynamically from actual YouTube timestamps
+      state.notifications.forEach(n => {
+        const film = state.allFilms.find(f => f.id === n.filmId);
+        if (film && (film.updatedAt || film.publishedAt)) {
+          n.timeAgo = formatRealTimeAgo(film.updatedAt || film.publishedAt);
+        }
+      });
       saveNotifications();
     }
 
@@ -377,6 +359,28 @@
     renderNotificationList();
     updateNotificationBadge();
     showToast('Đã đánh dấu tất cả thông báo là đã đọc');
+  }
+
+  function formatRealTimeAgo(isoString) {
+    if (!isoString) return null;
+    const past = new Date(isoString).getTime();
+    if (isNaN(past)) return null;
+    const now = Date.now();
+    const diffSec = Math.floor((now - past) / 1000);
+    if (diffSec < 0) return 'Vừa xong';
+    if (diffSec < 60) return `${Math.max(1, diffSec)} giây trước`;
+    const diffMin = Math.floor(diffSec / 60);
+    if (diffMin < 60) return `${diffMin} phút trước`;
+    const diffHour = Math.floor(diffMin / 60);
+    if (diffHour < 24) return `${diffHour} giờ trước`;
+    const diffDay = Math.floor(diffHour / 24);
+    if (diffDay === 1) return 'Hôm qua';
+    if (diffDay < 7) return `${diffDay} ngày trước`;
+    const diffWeek = Math.floor(diffDay / 7);
+    if (diffWeek < 4) return `${diffWeek} tuần trước`;
+    const diffMonth = Math.floor(diffDay / 30);
+    if (diffMonth < 12) return `${diffMonth} tháng trước`;
+    return `${Math.floor(diffDay / 365)} năm trước`;
   }
 
   function cleanDurationStr(str, fallbackSec) {
