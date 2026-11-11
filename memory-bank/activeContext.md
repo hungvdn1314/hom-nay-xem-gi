@@ -30,6 +30,10 @@
   - Updated `film_2` ("Đô Thị Dị Năng: SSS Bị Phong Ấn 99%...") with its exact YouTube publish date (`2026-11-06T12:15:21Z`), changing its badge from fake "15 phút trước" to accurate "4 ngày trước".
   - Recent updates feed and notifications now strictly show real timestamps (e.g. 14 giờ trước, 1 ngày trước, 4 ngày trước).
   - Cleaned any legacy mock notifications from localStorage.
+- **Cache-Busting & Instant Update Enforcement**:
+  - Added cache-busting version hashes to asset links in `index.html` (`data.js?v=2.1`, `app.js?v=2.1`, `style.css?v=2.1`).
+  - Updated `vercel.json` to enforce `max-age=0, must-revalidate` across all routes.
+  - Added schema version validation `20261111_v2_realtime` in `app.js` to automatically purge stale browser localStorage caches.
 
 ## Verification Completed
 - End-to-end Puppeteer verification executed and passed:

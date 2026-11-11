@@ -100,8 +100,18 @@
     el.mobileBottomBar = document.getElementById('mobileBottomBar');
   }
 
+  const SCHEMA_VERSION = '20261111_v2_realtime';
+
   function loadStoredData() {
     try {
+      const v = localStorage.getItem('homnayxemgi_version');
+      if (v !== SCHEMA_VERSION) {
+        // Automatically purge any stale legacy notifications with mock timestamps
+        localStorage.removeItem('homnayxemgi_notifs');
+        localStorage.removeItem('homnayxemgi_favs');
+        localStorage.setItem('homnayxemgi_version', SCHEMA_VERSION);
+      }
+
       const favs = localStorage.getItem('homnayxemgi_favs');
       if (favs) {
         state.favorites = new Set(JSON.parse(favs));
