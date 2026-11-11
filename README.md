@@ -75,3 +75,24 @@ vercel
   ```bash
   python -m http.server 8080
   ```
+
+---
+
+## ⚡ Hệ Thống Tự Động Cập Nhật Video YouTube (GitHub Actions Cron)
+
+Dự án tích hợp sẵn hệ thống **Tự Động Fetch & Cập Nhật Video Mới (100% Free)**:
+
+- **Tần suất quét:** Chạy tự động **mỗi 30 phút** (`cron: '*/30 * * * *'`) qua GitHub Actions.
+- **Nguồn cấp:** Đọc XML RSS chính thức của 8 kênh YouTube đối tác (không cần API Key, không lo quota giới hạn).
+- **Cơ chế thông minh:**
+  - Tự động nhận diện video thuộc tập mới của series cũ hay là phim hoàn toàn mới.
+  - Phân tích từ khóa để gán thể loại chuẩn xác.
+  - **Chỉ commit & kích hoạt Vercel deploy khi thực sự có video mới**, đảm bảo tối ưu 100% tài nguyên miễn phí.
+- **Kích hoạt thủ công bất cứ lúc nào:**
+  1. Vào tab **Actions** trên GitHub repository: [`hungvdn1314/hom-nay-xem-gi/actions`](https://github.com/hungvdn1314/hom-nay-xem-gi/actions).
+  2. Chọn workflow **"YouTube 30-Minute Auto-Updater"**.
+  3. Bấm **"Run workflow"** $\rightarrow$ Hệ thống sẽ quét ngay lập tức sau 20 giây!
+- **Chạy trực tiếp tại máy cục bộ:**
+  ```bash
+  python scripts/update_youtube_feed.py
+  ```

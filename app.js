@@ -172,7 +172,9 @@
         totalDurationSec: totalSec,
         thumbnailUrl: thumb,
         synopsis: film.review || film.synopsis || 'Một bộ phim hoạt hình đặc sắc tuyển chọn.',
-        isRecent24h: false,
+        publishedAt: film.publishedAt || null,
+        updatedAt: film.updatedAt || null,
+        isRecent24h: !!(film.isRecent24h || film.updatedAt || film.publishedAt),
         recentUpdate: null
       };
     });
@@ -191,9 +193,11 @@
     // -----------------------------------------------------------------------
     // BUILD 24-HOUR NEWFEED TIMELINE (FEATURE 1)
     // -----------------------------------------------------------------------
-    // Pick 32 prominent ongoing & multi-part series across channels
-    const candidates = state.allFilms.filter(f => f.partsCount > 1 || f.totalDurationSec >= 10800);
-    const chosen24h = candidates.slice(0, 32);
+    const now = Date.now();
+    // Prioritize freshly auto-fetched films from YouTube RSS
+    const liveFetched = state.allFilms.filter(f => f.isRecent24h || f.updatedAt || f.publishedAt);
+    const simulated = state.allFilms.filter(f => (f.partsCount > 1 || f.totalDurationSec >= 10800) && !liveFetched.includes(f));
+    const chosen24h = [...liveFetched, ...simulated].slice(0, 36);
 
     const timeDeltas = [
       { mins: 15, label: '15 phút trước' },
@@ -215,16 +219,35 @@
       { mins: 1380, label: '23 giờ trước' }
     ];
 
-    const now = Date.now();
     chosen24h.forEach((film, idx) => {
-      const delta = timeDeltas[idx % timeDeltas.length];
+      let timeAgo = null;
+      let timestamp = null;
+
+      if (film.updatedAt || film.publishedAt) {
+        const past = new Date(film.updatedAt || film.publishedAt).getTime();
+        const diffMs = now - past;
+        if (!isNaN(diffMs) && diffMs > 0 && diffMs < 86400000 * 3) {
+          const mins = Math.floor(diffMs / (60 * 1000));
+          if (mins < 60) timeAgo = `${Math.max(1, mins)} phút trước`;
+          else if (mins < 1440) timeAgo = `${Math.floor(mins / 60)} giờ trước`;
+          else timeAgo = 'Hôm qua';
+          timestamp = past;
+        }
+      }
+
+      if (!timeAgo) {
+        const delta = timeDeltas[idx % timeDeltas.length];
+        timeAgo = delta.label;
+        timestamp = now - delta.mins * 60 * 1000;
+      }
+
       const partIdx = film.partsCount > 1 ? film.partsCount : 1;
       film.isRecent24h = true;
       film.recentUpdate = {
         partIndex: partIdx,
         partLabel: film.partsCount > 1 ? `Phần ${partIdx}` : 'Bản Full',
-        timeAgo: delta.label,
-        timestamp: now - delta.mins * 60 * 1000
+        timeAgo: timeAgo,
+        timestamp: timestamp
       };
     });
 

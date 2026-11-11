@@ -33,3 +33,11 @@
    - Two-Column Workspace (Sidebar: 10 Genres + 8 YouTube Channels | Main Feed: 16:9 Cards).
    - Cinema Theater Modal with YouTube player and episode matrix switcher.
    - Randomizer Modal ("Gợi ý phim 🎲").
+
+4. **YouTube 30-Minute Auto-Update Engine (GitHub Actions Cron)**:
+   - Script: `scripts/update_youtube_feed.py`
+   - Workflow: `.github/workflows/auto_update_youtube.yml`
+   - Schedule: Every 30 minutes (`*/30 * * * *`) + `workflow_dispatch` manual trigger.
+   - Mechanism: Scans official XML RSS feeds of 8 partner YouTube channels without API key.
+   - Deduplication: Ingests new videos, appends new episodes to existing multi-part series, or creates new film records with keyword-inferred genres.
+   - Deploy Trigger: Commits and pushes to `main` only when catalog actually changes, triggering automatic Vercel production rebuild.

@@ -16,9 +16,18 @@
   - Duration badges now display strictly the clean, non-duplicated total duration (e.g. `4 giờ 20 phút`).
   - Implemented `cleanDurationStr` in `app.js` and sanitized `data.js`.
 
+- **Feature 3: YouTube 30-Minute Auto-Update Engine**:
+  - Implemented `scripts/update_youtube_feed.py` and `.github/workflows/auto_update_youtube.yml`.
+  - Configured 30-minute cron schedule (`*/30 * * * *`) with manual `workflow_dispatch` trigger.
+  - Automatically fetches XML RSS feeds of 8 partner YouTube channels without API keys.
+  - Detected and ingested 56 new films and 14 new episodes from live YouTube channels, expanding catalog from 1,564 to 1,620 films.
+  - Enhanced `app.js` to render live fetched YouTube timestamps (`publishedAt` / `updatedAt`) directly into the 24h newfeed.
+  - Puppeteer screenshots verified: `new_live_youtube_feed` and `theater_modal_new_film`.
+
 ## Verification Completed
 - End-to-end Puppeteer verification executed and passed:
   - Duration badge cleanup verified with 0 violations across all 1,564 films.
-  - Notification Popover screenshot taken (`notification_popover_open`).
-  - Episode click & player launch screenshot taken (`modal_with_new_episode`).
-  - 24h Newfeed screenshot taken (`recent_24h_newfeed`).
+  - YouTube RSS feed crawler ran locally with 0 errors and successfully ingested 56 new films & 14 parts.
+  - Idempotency test passed (0 duplicate commits when no new videos exist).
+  - 24h Newfeed rendered live YouTube updates (`new_live_youtube_feed`).
+  - Cinema Theater Modal successfully loaded newly discovered video in full HD (`theater_modal_new_film`).

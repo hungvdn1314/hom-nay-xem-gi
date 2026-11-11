@@ -10,4 +10,7 @@
 - [x] Created remote repository on GitHub: `https://github.com/hungvdn1314/hom-nay-xem-gi`.
 - [x] Pushed all code to `origin/main` successfully.
 - [x] Sanitized duration strings to concise format (removed duplicate annotations).
-- [x] Ready for 1-click Vercel deployment.
+- [x] Implemented YouTube Auto-Updater Engine (`scripts/update_youtube_feed.py`).
+- [x] Created GitHub Actions 30-minute cron workflow (`.github/workflows/auto_update_youtube.yml`).
+- [x] Updated catalog with 56 newly discovered films & 14 episodes (1,620 total films).
+- [x] Ready for 1-click Vercel deployment with automated 30-min sync.
