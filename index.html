@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hôm Nay Xem Gì - Kho Phim Hoạt Hình & Review 3D Chiếu Rạp</title>
+  <meta name="description" content="Khám phá và thưởng thức hơn 1.564 bộ phim hoạt hình 2D/3D, tu tiên, mạt thế, hệ thống tuyển chọn từ 8 kênh review hàng đầu YouTube.">
+
+  <!-- Google Fonts: Plus Jakarta Sans for flawless typography & Vietnamese diacritics -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2338bdf8'><polygon points='5 3 19 12 5 21 5 3'/></svg>">
+</head>
+<body class="nordic-app">
+
+  <!-- ==========================================
+       FLOATING FROSTED HEADER (64PX)
+       ========================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      
+      <!-- Brand Identity -->
+      <a href="#" class="brand-link" id="brandHomeBtn" title="Về trang chủ Hôm Nay Xem Gì">
+        <div class="brand-icon-box">
+          <svg class="icon brand-icon" viewBox="0 0 24 24">
+            <polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon>
+          </svg>
+        </div>
+        <div class="brand-text-stack">
+          <span class="brand-title">HÔM NAY XEM GÌ</span>
+          <span class="brand-caption">TUYỂN CHỌN 1.564 PHIM HOẠT HÌNH & 3D</span>
+        </div>
+      </a>
+
+      <!-- Live Audience Counter -->
+      <div class="audience-badge" id="liveAudienceBadge" title="Số lượng khán giả đang cùng xem">
+        <span class="audience-dot"></span>
+        <span class="audience-label" id="audienceLabel">842 người đang xem</span>
+      </div>
+
+      <!-- Header Action Buttons -->
+      <div class="header-actions">
+        <!-- Dice Randomizer Action -->
+        <button type="button" class="btn-dice-pill" id="btnDiceRandom" title="Quay ngẫu nhiên một phim">
+          <svg class="icon icon-sm" viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <circle cx="8" cy="8" r="1.5" fill="currentColor"></circle>
+            <circle cx="16" cy="16" r="1.5" fill="currentColor"></circle>
+            <circle cx="12" cy="12" r="1.5" fill="currentColor"></circle>
+            <circle cx="16" cy="8" r="1.5" fill="currentColor"></circle>
+            <circle cx="8" cy="16" r="1.5" fill="currentColor"></circle>
+          </svg>
+          <span>Gợi ý phim 🎲</span>
+        </button>
+
+        <!-- Notification Bell Action & Popover -->
+        <div class="notification-wrapper" id="notifWrapper">
+          <button type="button" class="btn-circle-action notif-bell-btn" id="btnNotifOpen" title="Thông báo tập mới của phim bạn theo dõi">
+            <svg class="icon icon-sm" viewBox="0 0 24 24">
+              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+              <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+            </svg>
+            <span class="count-pill notif-count-pill" id="notifCountBadge">0</span>
+          </button>
+
+          <!-- Notification Popover Panel -->
+          <div class="notification-popover" id="notificationPopover" role="dialog" aria-label="Thông báo cập nhật phim">
+            <div class="notif-popover-head">
+              <div class="notif-head-title-wrap">
+                <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                <span class="notif-popover-title">THÔNG BÁO TẬP MỚI</span>
+              </div>
+              <button type="button" class="btn-mark-all-read" id="btnMarkAllRead" title="Đánh dấu tất cả là đã đọc">
+                Đã đọc hết
+              </button>
+            </div>
+            
+            <div class="notif-list-container" id="notifListContainer">
+              <!-- Rendered dynamically via JS -->
+            </div>
+
+            <div class="notif-popover-foot">
+              <svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Tự động báo khi phim bạn theo dõi có tập mới</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Saved Bookmark Button -->
+        <button type="button" class="btn-circle-action" id="btnFavoritesOpen" title="Phim đã lưu & đang theo dõi">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+          <span class="count-pill" id="favCountBadge">0</span>
+        </button>
+
+        <!-- Watch History Button -->
+        <button type="button" class="btn-circle-action" id="btnHistoryOpen" title="Lịch sử xem gần đây">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <span class="count-pill" id="histCountBadge">0</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ==========================================
+       MAIN WORKSPACE (SCANDINAVIAN 2-COLUMN LAYOUT)
+       ========================================== -->
+  <main class="container app-layout">
+
+    <!-- LEFT SIDEBAR: GENRES & CHANNELS -->
+    <aside class="app-sidebar" id="appSidebar">
+      
+      <!-- Box 1: Genres -->
+      <section class="sidebar-card">
+        <div class="sidebar-card-head">
+          <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          <h2 class="sidebar-card-title">THỂ LOẠI PHIM</h2>
+        </div>
+        <nav class="sidebar-menu-list" id="genreNavList" aria-label="Danh mục thể loại">
+          <!-- Rendered dynamically via JS -->
+        </nav>
+      </section>
+
+      <!-- Box 2: Curated YouTube Channels -->
+      <section class="sidebar-card">
+        <div class="sidebar-card-head">
+          <svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
+          <h2 class="sidebar-card-title">KÊNH REVIEW UY TÍN</h2>
+        </div>
+        <nav class="sidebar-menu-list" id="channelNavList" aria-label="Danh sách kênh review">
+          <!-- Rendered dynamically via JS -->
+        </nav>
+      </section>
+
+    </aside>
+
+    <!-- RIGHT FEED: SEARCH, TABS, 16:9 FILM CARDS -->
+    <section class="app-feed" id="appFeed">
+
+      <!-- Glass Search Command Bar -->
+      <div class="search-bar-shell">
+        <div class="search-input-box">
+          <svg class="icon search-glass-icon" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input 
+            type="text" 
+            id="searchInput" 
+            class="search-text-input" 
+            placeholder="Tìm kiếm phim, nhân vật, thể loại, kênh review..." 
+            autocomplete="off"
+            aria-label="Tìm kiếm phim"
+          >
+          <button type="button" id="searchClearBtn" class="search-clear-icon" aria-label="Xóa nội dung tìm kiếm">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+          <div class="key-hint" title="Bấm phím '/' để tìm nhanh">/</div>
+        </div>
+      </div>
+
+      <!-- Master Category Tabs -->
+      <div class="feed-tabs-header">
+        <div class="category-tabs-group" id="categoryTabsGroup">
+          <button type="button" class="tab-pill active" data-tab="all">Tất Cả Phim</button>
+          <button type="button" class="tab-pill tab-pill-recent" data-tab="recent24h">
+            <span>⚡ Mới Cập Nhật 24h</span>
+            <span class="tab-badge-recent" id="tabRecentBadge">32</span>
+          </button>
+          <button type="button" class="tab-pill" data-tab="hot">🔥 Xem Nhiều / Cày Đêm</button>
+          <button type="button" class="tab-pill" data-tab="multipart">Series Nhiều Phần</button>
+          <button type="button" class="tab-pill" data-tab="single">Phim 1 Tập (Full)</button>
+          <button type="button" class="tab-pill" data-tab="favorites">❤️ Đang Theo Dõi</button>
+        </div>
+
+        <div class="feed-count-summary" id="feedCountSummary">
+          Đang nạp kho phim...
+        </div>
+      </div>
+
+      <!-- Mobile Horizontal Genre Chips (Visible when sidebar hidden on small screens) -->
+      <div class="mobile-chips-row" id="mobileChipsRow" aria-label="Lọc thể loại trên di động">
+        <!-- Rendered dynamically via JS -->
+      </div>
+
+      <!-- Main 16:9 Film Cards Grid -->
+      <div class="cards-widescreen-grid" id="cardsWidescreenGrid">
+        <!-- Rendered dynamically via JS -->
+      </div>
+
+      <!-- Pagination Navigation -->
+      <nav class="pagination-bar" id="paginationBar" aria-label="Phân trang danh sách phim">
+        <!-- Rendered dynamically via JS -->
+      </nav>
+
+    </section>
+
+  </main>
+
+  <!-- ==========================================
+       NORDIC CINEMA THEATER MODAL PLAYER
+       ========================================== -->
+  <div class="cinema-modal" id="theaterModal" role="dialog" aria-modal="true" aria-labelledby="modalFilmTitle">
+    <div class="modal-dim-backdrop" id="modalBackdrop"></div>
+    
+    <div class="cinema-dialog-shell">
+      <!-- Modal Top Header -->
+      <div class="cinema-dialog-head">
+        <div class="cinema-title-stack">
+          <span class="cinema-channel-kicker" id="modalChannelKicker">REVIEW PHIM</span>
+          <h2 class="cinema-film-title" id="modalFilmTitle">Tên phim đang chiếu</h2>
+        </div>
+        <button type="button" class="cinema-close-circle" id="modalCloseBtn" aria-label="Đóng rạp chiếu">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <!-- 16:9 Cinema Viewport -->
+      <div class="cinema-screen-wrap">
+        <iframe 
+          id="youtubeIframe" 
+          src="" 
+          title="YouTube Video Player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <!-- Modal Bottom Panel: Episode Selector -->
+      <div class="cinema-dialog-body">
+        <div class="episodes-bar-head">
+          <div class="episodes-heading">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            <span>DANH SÁCH TẬP PHIM:</span>
+            <span class="episodes-badge-count" id="modalEpCounter">1 Tập</span>
+          </div>
+          <button type="button" class="btn-modal-bookmark" id="btnModalBookmark">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+            <span>Lưu Vào Bộ Sưu Tập</span>
+          </button>
+        </div>
+
+        <!-- Episode Matrix Buttons Grid -->
+        <div class="episode-capsules-grid" id="modalEpMatrix">
+          <!-- Rendered dynamically via JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       NORDIC RANDOMIZER MODAL (GỢI Ý PHIM 🎲)
+       ========================================== -->
+  <div class="random-modal" id="randomModal" role="dialog" aria-modal="true">
+    <div class="random-backdrop" id="randomBackdrop"></div>
+    <div class="random-dialog">
+      <div class="random-card-body">
+        <div class="random-dice-icon">🎲</div>
+        <span class="random-kicker">HÔM NAY XEM GÌ?</span>
+        <h3 class="random-film-title" id="randomFilmTitle">Đang chọn ngẫu nhiên một siêu phẩm...</h3>
+        <p class="random-meta-info" id="randomFilmMeta">Thời lượng • Kênh review • Thể loại</p>
+        <div class="random-actions">
+          <button type="button" class="btn-play-suggestion" id="btnRandomWatchNow">
+            <svg class="icon icon-sm" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
+            <span>Xem Ngay Tập 1</span>
+          </button>
+          <button type="button" class="btn-roll-again" id="btnRandomRollAgain">
+            <svg class="icon icon-sm" viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+            <span>Đổi Phim Khác</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Bubble -->
+  <div class="toast-pill" id="toastPill" role="status" aria-live="polite"></div>
+
+  <!-- Mobile Bottom Dock Navigation -->
+  <nav class="mobile-bottom-bar" id="mobileBottomBar" aria-label="Điều hướng nhanh di động">
+    <button type="button" class="dock-item active" data-dock="all">
+      <svg class="icon icon-sm" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+      <span>Khám Phá</span>
+    </button>
+    <button type="button" class="dock-item" data-dock="hot">
+      <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
+      <span>Top Hot</span>
+    </button>
+    <button type="button" class="dock-item" id="dockDiceBtn">
+      <svg class="icon icon-sm" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><circle cx="12" cy="12" r="2" fill="currentColor"></circle></svg>
+      <span>Gợi Ý 🎲</span>
+    </button>
+    <button type="button" class="dock-item" data-dock="favorites">
+      <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+      <span>Đã Lưu</span>
+    </button>
+  </nav>
+
+  <!-- Load Data and Application Controller -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+# Node / Package managers
+node_modules/
+.npm
+.yarn
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vercel & Deployment
+.vercel/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
