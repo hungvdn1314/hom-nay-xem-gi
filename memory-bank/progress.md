@@ -9,4 +9,5 @@
 - [x] Initialized Git repository, renamed branch to `main`.
 - [x] Created remote repository on GitHub: `https://github.com/hungvdn1314/hom-nay-xem-gi`.
 - [x] Pushed all code to `origin/main` successfully.
+- [x] Sanitized duration strings to concise format (removed duplicate annotations).
 - [x] Ready for 1-click Vercel deployment.

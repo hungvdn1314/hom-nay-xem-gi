@@ -140,6 +140,7 @@
 
     state.allFilms = rawFilms.map((film, index) => {
       const totalSec = film.totalDurationSec || parseDurationToSec(film.totalDurationStr || film.totalDuration);
+      const cleanDuration = cleanDurationStr(film.totalDurationStr || film.totalDuration, totalSec);
       const genreName = Array.isArray(film.genres) && film.genres.length > 0 ? film.genres[0] : (film.genre || 'Hoạt hình 2D/3D');
       const firstPartId = film.parts && film.parts.length > 0 ? (film.parts[0].id || film.parts[0].videoId) : (film.videoId || 'p7xLcOrLvbo');
       const thumb = film.thumbnail || film.thumbnailUrl || `https://i.ytimg.com/vi/${firstPartId}/hqdefault.jpg`;
@@ -148,13 +149,13 @@
         partNumber: p.index || (pIdx + 1),
         title: p.title || `Tập ${p.index || (pIdx + 1)}`,
         videoId: p.id || p.videoId || firstPartId,
-        duration: p.durationStr || formatSecToHms(p.duration || 3600),
+        duration: cleanDurationStr(p.durationStr, p.duration || 3600),
         durationSec: p.duration || 3600
       })) : [{
         partNumber: 1,
         title: film.title,
         videoId: firstPartId,
-        duration: film.totalDurationStr || formatSecToHms(totalSec),
+        duration: cleanDuration,
         durationSec: totalSec
       }];
 
@@ -167,7 +168,7 @@
         genres: film.genres || [genreName],
         partsCount: film.totalParts || normalizedParts.length,
         parts: normalizedParts,
-        totalDuration: film.totalDurationStr || formatSecToHms(totalSec),
+        totalDuration: cleanDuration,
         totalDurationSec: totalSec,
         thumbnailUrl: thumb,
         synopsis: film.review || film.synopsis || 'Một bộ phim hoạt hình đặc sắc tuyển chọn.',
@@ -353,6 +354,13 @@
     renderNotificationList();
     updateNotificationBadge();
     showToast('Đã đánh dấu tất cả thông báo là đã đọc');
+  }
+
+  function cleanDurationStr(str, fallbackSec) {
+    if (!str || typeof str !== 'string') return formatSecToHms(fallbackSec);
+    // Remove parenthetical verbose notes like "(đã trừ video gộp trùng; ...)"
+    const cleaned = str.replace(/\s*\([^)]*\)/g, '').trim();
+    return cleaned || formatSecToHms(fallbackSec);
   }
 
   function parseDurationToSec(str) {
