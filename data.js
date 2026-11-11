@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 1620,
+    "totalFilms": 1629,
     "totalChannels": 8,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-11T11:28:18.295875+00:00"
+    "lastUpdated": "2026-11-11T19:04:14.971529+00:00"
   },
   "channels": [
     {
@@ -57,6 +57,297 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_1621",
+      "title": "Sinh Tồn Thế Giới Quỷ Dị: Ta Sở Hữu Vô Số Đạo Cụ Quy Tắc Để Chống Lại Quỷ Dị",
+      "channelId": "thienphatreview",
+      "channelName": "Thiên Phạt Review",
+      "channelUrl": "https://www.youtube.com/@thienphatreview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7200,
+      "totalDurationStr": "2 giờ 00 phút",
+      "review": "Sinh Tồn Thế Giới Quỷ Dị: Ta Sở Hữu Vô Số Đạo Cụ Quy Tắc Để Chống Lại Quỷ Dị\n\nThiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các thể loại.\nReview ",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/3-mmaY1iXCM/hqdefault.jpg",
+      "publishedAt": "2026-11-11T12:00:22+00:00",
+      "updatedAt": "2026-11-11T12:00:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Sinh Tồn Thế Giới Quỷ Dị: Ta Sở Hữu Vô Số Đạo Cụ Quy Tắc Để Chống Lại Quỷ Dị",
+          "url": "https://www.youtube.com/watch?v=3-mmaY1iXCM",
+          "id": "3-mmaY1iXCM",
+          "duration": 7200,
+          "durationStr": "2:00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1622",
+      "title": "(Phần 2) MẠT THẾ TRĂNG MÁU: Ta Thức Tỉnh Hệ Thống Sát Lục - Nâng Cấp Xe Tối Thượng",
+      "channelId": "chiuchiusubtv",
+      "channelName": "ChiuChiuSubTV",
+      "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7200,
+      "totalDurationStr": "2 giờ 00 phút",
+      "review": "Các phần của bộ này ở đây: https://www.youtube.com/playlist?list=PLDBPHcJA5fmo\n\n🔥Đăng ký kênh để xem fim hay mỗi ngày: https://www.youtube.com/@UCWsKmJAGnozzktv5A-duTaA \n\n📌 Tóm Tắt Phim: \nMặt Trăng Má",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/yMKNH4Z-ME8/hqdefault.jpg",
+      "publishedAt": "2026-11-11T13:05:41+00:00",
+      "updatedAt": "2026-11-11T13:05:41+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "(Phần 2) MẠT THẾ TRĂNG MÁU: Ta Thức Tỉnh Hệ Thống Sát Lục - Nâng Cấp Xe Tối Thượng",
+          "url": "https://www.youtube.com/watch?v=yMKNH4Z-ME8",
+          "id": "yMKNH4Z-ME8",
+          "duration": 7200,
+          "durationStr": "2:00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1623",
+      "title": "Mùa 9 | Phàm Nhân Bách Thế Thư - Ta Có Hệ Thống Luân Hồi, Trăm Năm Ẩn Nhẫn Trảm Thảo Trừ Căn",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7200,
+      "totalDurationStr": "2 giờ 00 phút",
+      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 9 | Phàm Nhân Bách Thế Thư - Ta Có Hệ Thống Luân Hồi, Trăm Năm Ẩn Nhẫn Trảm Thảo Trừ Căn(Nội dung giải trí hư cấu hỗ trợ bởi AI • Ph",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/LPCvhfVOJS8/hqdefault.jpg",
+      "publishedAt": "2026-11-11T18:52:20+00:00",
+      "updatedAt": "2026-11-11T18:52:20+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Mùa 9 | Phàm Nhân Bách Thế Thư - Ta Có Hệ Thống Luân Hồi, Trăm Năm Ẩn Nhẫn Trảm Thảo Trừ Căn",
+          "url": "https://www.youtube.com/watch?v=LPCvhfVOJS8",
+          "id": "LPCvhfVOJS8",
+          "duration": 7200,
+          "durationStr": "2:00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1624",
+      "title": "Mùa 26 | Thái Huyền Thai Châu Truyện",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7200,
+      "totalDurationStr": "2 giờ 00 phút",
+      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 26 | Thái Huyền Thai Châu Truyện(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi)Trần Trường An, người đã vạn n",
+      "genres": [
+        "Hoạt hình 2D/3D"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/_YGLfRyA8-E/hqdefault.jpg",
+      "publishedAt": "2026-11-11T18:52:15+00:00",
+      "updatedAt": "2026-11-11T18:52:15+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Mùa 26 | Thái Huyền Thai Châu Truyện",
+          "url": "https://www.youtube.com/watch?v=_YGLfRyA8-E",
+          "id": "_YGLfRyA8-E",
+          "duration": 7200,
+          "durationStr": "2:00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1625",
+      "title": "Mùa 5 - P2 | Thiên Đạo Dư Đồ: Phàm Nhân Vấn Đạo",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7200,
+      "totalDurationStr": "2 giờ 00 phút",
+      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\n[16+] Mùa 5 - P2 | Thiên Đạo Dư Đồ: Phàm Nhân Vấn Đạo\nThiên đạo sụp đổ, tàn đạo sót lại nơi nhân gian, ấy gọi là \"Thiên Đạo Dư Đồ\".Thiếu",
+      "genres": [
+        "Huyền huyễn / Tu tiên"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/WeHZRJdyjhI/hqdefault.jpg",
+      "publishedAt": "2026-11-11T16:06:01+00:00",
+      "updatedAt": "2026-11-11T16:06:01+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Mùa 5 - P2 | Thiên Đạo Dư Đồ: Phàm Nhân Vấn Đạo",
+          "url": "https://www.youtube.com/watch?v=WeHZRJdyjhI",
+          "id": "WeHZRJdyjhI",
+          "duration": 7200,
+          "durationStr": "2:00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1626",
+      "title": "【Mùa 3】Siêu Thần Rút Thưởng Sư! Nhờ Rút Thưởng Ta Liền Vô Địch Thiên Hạ",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7200,
+      "totalDurationStr": "2 giờ 00 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Mùa 3】Siêu Thần Rút Thưởng Sư! Nhờ Rút Thưởng Ta Liền Vô Địch Thiên Hạ\n\n🎰 Trong thế giới nơi",
+      "genres": [
+        "Hoạt hình 2D/3D"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/DTSOlvAAm4M/hqdefault.jpg",
+      "publishedAt": "2026-11-11T12:22:37+00:00",
+      "updatedAt": "2026-11-11T12:22:37+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "【Mùa 3】Siêu Thần Rút Thưởng Sư! Nhờ Rút Thưởng Ta Liền Vô Địch Thiên Hạ",
+          "url": "https://www.youtube.com/watch?v=DTSOlvAAm4M",
+          "id": "DTSOlvAAm4M",
+          "duration": 7200,
+          "durationStr": "2:00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1627",
+      "title": "Full Phần 1 |【Tôi Nuôi Cả Đội Nhân Viên Trung Thành Trong Công Ty, Tất Cả Nhờ Hệ Thống Hoàn Tiền!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7200,
+      "totalDurationStr": "2 giờ 00 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Tôi Nuôi Cả Đội Nhân Viên Trung Thành Trong Công Ty, Tất Cả Nhờ Hệ Thống Hoàn Tiền!】\n\n💰 Nam ",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/fv0OkwHIr1Q/hqdefault.jpg",
+      "publishedAt": "2026-11-11T15:26:56+00:00",
+      "updatedAt": "2026-11-11T15:26:56+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Tôi Nuôi Cả Đội Nhân Viên Trung Thành Trong Công Ty, Tất Cả Nhờ Hệ Thống Hoàn Tiền!】",
+          "url": "https://www.youtube.com/watch?v=fv0OkwHIr1Q",
+          "id": "fv0OkwHIr1Q",
+          "duration": 7200,
+          "durationStr": "2:00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1628",
+      "title": "P1 | Trong Cơ Thể Tôi Có Một Quỷ Y Vô Lương Tâm! Thôn Phệ Quỷ Để Mạnh Lên Tung Hoành Khắp Linh Dị",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7200,
+      "totalDurationStr": "2 giờ 00 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Trong Cơ Thể Tôi Có Một Quỷ Y Vô Lương Tâm!】Thôn Phệ Quỷ Để Mạnh Lên, Coi Lệ Quỷ Như Bữa Ăn ",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hài hước / Giải trí"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/oGQOFbEoCks/hqdefault.jpg",
+      "publishedAt": "2026-11-11T15:24:40+00:00",
+      "updatedAt": "2026-11-11T15:24:40+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1 | Trong Cơ Thể Tôi Có Một Quỷ Y Vô Lương Tâm! Thôn Phệ Quỷ Để Mạnh Lên Tung Hoành Khắp Linh Dị",
+          "url": "https://www.youtube.com/watch?v=oGQOFbEoCks",
+          "id": "oGQOFbEoCks",
+          "duration": 7200,
+          "durationStr": "2:00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1629",
+      "title": "Full Phần 1 |【Tôi Sắp Luyện Tà Thần Đến Max Cấp Rồi, Ngươi Lại Khuyên Tôi Chuyển Chức Triệu Hồi Sư?】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7200,
+      "totalDurationStr": "2 giờ 00 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Tôi Sắp Luyện Tà Thần Đến Max Cấp Rồi, Ngươi Lại Khuyên Tôi Chuyển Chức Triệu Hồi Sư?!】\n\n⚔️ ",
+      "genres": [
+        "Hoạt hình 2D/3D"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/dZSbeXPs0xQ/hqdefault.jpg",
+      "publishedAt": "2026-11-11T12:23:46+00:00",
+      "updatedAt": "2026-11-11T12:23:46+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Tôi Sắp Luyện Tà Thần Đến Max Cấp Rồi, Ngươi Lại Khuyên Tôi Chuyển Chức Triệu Hồi Sư?】",
+          "url": "https://www.youtube.com/watch?v=dZSbeXPs0xQ",
+          "id": "dZSbeXPs0xQ",
+          "duration": 7200,
+          "durationStr": "2:00:00",
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1565",
       "title": "Sinh Tồn Sương Mù: Xuyên Không Với Nhà Gỗ Cấp 1, Ta Thu Thập Vật Tư Xây Dựng Căn Cứ",
@@ -35083,7 +35374,7 @@ window.FILMS_DATA = {
       "channelName": "Thiên Ảnh Studio",
       "channelUrl": "https://www.youtube.com/@thienanhstudio9",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLQ61hbYZsJXU",
-      "totalParts": 2,
+      "totalParts": 3,
       "partsStr": "2 phần / 2 video (Phần 5, Phần 6)",
       "totalDurationSec": 19532,
       "totalDurationStr": "5 giờ 25 phút",
@@ -35113,8 +35404,20 @@ window.FILMS_DATA = {
           "duration": 10211,
           "durationStr": "2:50:11",
           "isRedundant": false
+        },
+        {
+          "index": 7,
+          "label": "Phần 7",
+          "title": "Full Phần 7 | Xuyên Không Thành Cương Thi, Ta Bật Chế Độ Báo Đời",
+          "url": "https://www.youtube.com/watch?v=swATQnSYfzY",
+          "id": "swATQnSYfzY",
+          "duration": 7200,
+          "durationStr": "2:00:00",
+          "isRedundant": false
         }
-      ]
+      ],
+      "updatedAt": "2026-11-11T15:23:33+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_892",
@@ -44737,7 +45040,7 @@ window.FILMS_DATA = {
       "channelName": "Mộng Ảnh Studio",
       "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
       "playlistUrl": null,
-      "totalParts": 1,
+      "totalParts": 2,
       "partsStr": "1 phần (Phần 1)",
       "totalDurationSec": 11867,
       "totalDurationStr": "3 giờ 17 phút",
@@ -44756,8 +45059,20 @@ window.FILMS_DATA = {
           "duration": 11867,
           "durationStr": "3:17:47",
           "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Full Phần 2 |【Sau Lưng Có Cả Thiên Đình Chư Tiên, Mà Ngươi Lại Bảo Ta Sợ Quỷ Dị Phục Tô Sao?!】",
+          "url": "https://www.youtube.com/watch?v=cNDp0Q-vhqI",
+          "id": "cNDp0Q-vhqI",
+          "duration": 7200,
+          "durationStr": "2:00:00",
+          "isRedundant": false
         }
-      ]
+      ],
+      "updatedAt": "2026-11-11T12:24:15+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_1203",
