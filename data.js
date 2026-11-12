@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 1633,
+    "totalFilms": 1639,
     "totalChannels": 8,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-12T01:24:33.206818+00:00"
+    "lastUpdated": "2026-11-12T09:02:04.331927+00:00"
   },
   "channels": [
     {
@@ -57,6 +57,206 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_1637",
+      "title": "Full P1 |【Xuyên Qua Tiên Giới Và Phàm Giới, Giọng Hát Trời Ban Của Tôi Gây Chấn Động Giới Giải Trí!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Xuyên Qua Tiên Giới Và Phàm Giới, Giọng Hát Trời Ban Của Tôi Gây Chấn Động Giới Giải Trí!】\n\n",
+      "genres": [
+        "Hoạt hình 2D/3D"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/J1XIc4u7ExY/hqdefault.jpg",
+      "publishedAt": "2026-11-12T05:57:24+00:00",
+      "updatedAt": "2026-11-12T05:57:24+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full P1 |【Xuyên Qua Tiên Giới Và Phàm Giới, Giọng Hát Trời Ban Của Tôi Gây Chấn Động Giới Giải Trí!】",
+          "url": "https://www.youtube.com/watch?v=J1XIc4u7ExY",
+          "id": "J1XIc4u7ExY",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T05:57:24+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1639",
+      "title": "Full Phần 1 |【Trọng Sinh Tận Thế: Không Gian Trữ Đồ Của Tôi Được Khuếch Đại Gấp 10.000 Lần!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Trọng Sinh Tận Thế: Không Gian Trữ Đồ Của Tôi Được Khuếch Đại Gấp 10.000 Lần!】\n\n🌍 Bất ngờ tr",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/mB5lzeq9l1g/hqdefault.jpg",
+      "publishedAt": "2026-11-12T05:56:37+00:00",
+      "updatedAt": "2026-11-12T05:56:37+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Trọng Sinh Tận Thế: Không Gian Trữ Đồ Của Tôi Được Khuếch Đại Gấp 10.000 Lần!】",
+          "url": "https://www.youtube.com/watch?v=mB5lzeq9l1g",
+          "id": "mB5lzeq9l1g",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T05:56:37+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1634",
+      "title": "Đô Thị Quỷ Dị: Ta Là Shipper Giao Đồ Ăn, Sở Hữu Hệ Thống Đánh Quỷ Bằng Vật Lý",
+      "channelId": "thienphatreview",
+      "channelName": "Thiên Phạt Review",
+      "channelUrl": "https://www.youtube.com/@thienphatreview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "Đô Thị Quỷ Dị: Ta Là Shipper Giao Đồ Ăn, Sở Hữu Hệ Thống Đánh Quỷ Bằng Vật Lý\n\nThiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các thể loại.\nReview",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/MvGpv7ktIYk/hqdefault.jpg",
+      "publishedAt": "2026-11-12T04:00:25+00:00",
+      "updatedAt": "2026-11-12T04:00:25+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Đô Thị Quỷ Dị: Ta Là Shipper Giao Đồ Ăn, Sở Hữu Hệ Thống Đánh Quỷ Bằng Vật Lý",
+          "url": "https://www.youtube.com/watch?v=MvGpv7ktIYk",
+          "id": "MvGpv7ktIYk",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T04:00:25+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1636",
+      "title": "Full Phần 2 |【Cả Nhà Đều Là Phản Diện, Tôi Mới Là Đại Boss!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Full Phần 2 | Cả Nhà Đều Là Phản Diện, Tôi Mới Là Đại Boss!】\n\n😈 Trong một gia đình mà ai ai ",
+      "genres": [
+        "Hoạt hình 2D/3D"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/yd6MXolo_hQ/hqdefault.jpg",
+      "publishedAt": "2026-11-12T03:37:13+00:00",
+      "updatedAt": "2026-11-12T03:37:13+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Full Phần 2 |【Cả Nhà Đều Là Phản Diện, Tôi Mới Là Đại Boss!】",
+          "url": "https://www.youtube.com/watch?v=yd6MXolo_hQ",
+          "id": "yd6MXolo_hQ",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T03:37:13+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1638",
+      "title": "Phần 1 |Lấy Thân Ngươi Làm Lò Luyện, Dung Nạp Linh Hồn Vạn Binh, Cuối Cùng Trở Thành Thần Chủ Bất Hủ",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Lấy Thân Ngươi Làm Lò Luyện, Dung Nạp Linh Hồn Vạn Binh, Dung Hợp Sát Phạt Vô Tận, Cuối Cùng",
+      "genres": [
+        "Hoạt hình 2D/3D"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/hfcrbW3Ie8k/hqdefault.jpg",
+      "publishedAt": "2026-11-12T03:36:55+00:00",
+      "updatedAt": "2026-11-12T03:36:55+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1 |Lấy Thân Ngươi Làm Lò Luyện, Dung Nạp Linh Hồn Vạn Binh, Cuối Cùng Trở Thành Thần Chủ Bất Hủ",
+          "url": "https://www.youtube.com/watch?v=hfcrbW3Ie8k",
+          "id": "hfcrbW3Ie8k",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T03:36:55+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1635",
+      "title": "Phần 10 | Phàm Nhân Bách Thế Thư: Hệ thống Trăm Kiếp Luân Hồi, Mỗi Lần Chuyển Thế Ta Lại Mạnh Hơn",
+      "channelId": "tieuho_review",
+      "channelName": "Tiểu Hồ Review (Dorovietsub)",
+      "channelUrl": "https://www.youtube.com/@Ti%E1%BB%83u-H%E1%BB%93_Review",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "Trần Mặc cải trang thành Vương Tiểu Nhị, trà trộn vào thế giới tà ma, đối đầu với các thế lực thù địch. Anh khám phá bí mật tàn khốc của đấu trường Thăng Tà, nhận được truyền thừa Tung Hoành Thuật và ",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/_uk8hHWFnWE/hqdefault.jpg",
+      "publishedAt": "2026-11-12T03:13:27+00:00",
+      "updatedAt": "2026-11-12T03:13:27+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 10,
+          "label": "Phần 10",
+          "title": "Phần 10 | Phàm Nhân Bách Thế Thư: Hệ thống Trăm Kiếp Luân Hồi, Mỗi Lần Chuyển Thế Ta Lại Mạnh Hơn",
+          "url": "https://www.youtube.com/watch?v=_uk8hHWFnWE",
+          "id": "_uk8hHWFnWE",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T03:13:27+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1633",
       "title": "Phần 1-2 -TẬN THẾ QUỶ DỊ GIÁNG XUỐNG – NÀNG CHỈ CẦN XEM QUẢNG CÁO LÀ NHẬN THẦN KHÍ",
@@ -7781,8 +7981,8 @@ window.FILMS_DATA = {
       "channelName": "Thiên Phạt Review",
       "channelUrl": "https://www.youtube.com/@thienphatreview",
       "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần (Phần 1 -> 2)",
+      "totalParts": 3,
+      "partsStr": "3 phần",
       "totalDurationSec": 24054,
       "totalDurationStr": "6 giờ 40 phút",
       "review": "Xuyên Thành Zombie Cấp Thấp, Ta Được Nữ Cường Giả Bá Đạo Cưng Chiều. (2 phần (Phần 1 -> 2))",
@@ -7811,8 +8011,21 @@ window.FILMS_DATA = {
           "duration": 13472,
           "durationStr": "3:44:32",
           "isRedundant": false
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Phần 3 | Sinh Tồn Mạt Thế: Xuyên Thành Zombie Cấp Thấp, Ta Được Nữ Cường Giả Bá Đạo Cưng Chiều",
+          "url": "https://www.youtube.com/watch?v=DybkGv_YMQk",
+          "id": "DybkGv_YMQk",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T06:00:34+00:00",
+          "isRedundant": false
         }
-      ]
+      ],
+      "updatedAt": "2026-11-12T06:00:34+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_144",
@@ -11647,8 +11860,8 @@ window.FILMS_DATA = {
       "channelName": "Tiểu Hồ Review (Dorovietsub)",
       "channelUrl": "https://www.youtube.com/@Ti%E1%BB%83u-H%E1%BB%93_Review",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLeF95uThGsfM",
-      "totalParts": 1,
-      "partsStr": "1 video (Phần 5)",
+      "totalParts": 2,
+      "partsStr": "2 phần",
       "totalDurationSec": 8100,
       "totalDurationStr": "2 giờ 15 phút",
       "review": "Xuyên Thành Hoàng Tử Phản Diện, Ta Có Hệ Thống Công Lược Nữ Nhân Khí Vận Chi Tử.. (1 video (Phần 5))",
@@ -11667,8 +11880,21 @@ window.FILMS_DATA = {
           "duration": 8100,
           "durationStr": "2:15:00",
           "isRedundant": false
+        },
+        {
+          "index": 6,
+          "label": "Phần 6",
+          "title": "Phần 6 | Xuyên Thành Hoàng Tử Phản Diện, Ta Có Hệ Thống Công Lược Nữ Nhân Khí Vận Chi Tử.",
+          "url": "https://www.youtube.com/watch?v=cNRa9fBMKmY",
+          "id": "cNRa9fBMKmY",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T06:05:32+00:00",
+          "isRedundant": false
         }
-      ]
+      ],
+      "updatedAt": "2026-11-12T06:05:32+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_269",
@@ -23673,8 +23899,8 @@ window.FILMS_DATA = {
       "channelName": "ChiuChiuSubTV",
       "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
+      "totalParts": 2,
+      "partsStr": "2 phần",
       "totalDurationSec": 27061,
       "totalDurationStr": "7 giờ 31 phút",
       "review": "Thức Tỉnh Nghề Quay Thưởng Bị Cả Thành Khinh Bỉ, Nào Ngờ Thần Cấp Cũng Phải Quỳ Lạy Xin Quay. (1 phần (Phần 1))",
@@ -23692,8 +23918,21 @@ window.FILMS_DATA = {
           "duration": 27061,
           "durationStr": "7:31:01",
           "isRedundant": false
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Phần 3| Thức Tỉnh Nghề Quay Thưởng Bị Cả Thành Khinh Bỉ, Nào Ngờ Thần Cấp Cũng Phải Quỳ Lạy Xin Quay",
+          "url": "https://www.youtube.com/watch?v=3WigNXyfu2I",
+          "id": "3WigNXyfu2I",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T07:07:07+00:00",
+          "isRedundant": false
         }
-      ]
+      ],
+      "updatedAt": "2026-11-12T07:07:07+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_586",
@@ -35371,8 +35610,8 @@ window.FILMS_DATA = {
       "channelName": "Thiên Ảnh Studio",
       "channelUrl": "https://www.youtube.com/@thienanhstudio9",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLLN2EFEJ_7pQ",
-      "totalParts": 2,
-      "partsStr": "2 phần / 2 video (Phần 5, Phần 6)",
+      "totalParts": 3,
+      "partsStr": "3 phần",
       "totalDurationSec": 19138,
       "totalDurationStr": "5 giờ 18 phút",
       "review": "Tôi Nuôi Một Người Đàn Ông Trong Trò Chơi Tử Vong. (2 phần / 2 video (Phần 5, Phần 6))",
@@ -35400,8 +35639,21 @@ window.FILMS_DATA = {
           "duration": 10631,
           "durationStr": "2:57:11",
           "isRedundant": false
+        },
+        {
+          "index": 7,
+          "label": "Phần 7",
+          "title": "Full Phần 7 | Tôi Nuôi Một Người Đàn Ông Trong Trò Chơi Tử Vong",
+          "url": "https://www.youtube.com/watch?v=L8JQ5aWypLk",
+          "id": "L8JQ5aWypLk",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T03:34:38+00:00",
+          "isRedundant": false
         }
-      ]
+      ],
+      "updatedAt": "2026-11-12T03:34:38+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_886",
@@ -37327,8 +37579,8 @@ window.FILMS_DATA = {
       "channelName": "Thiên Ảnh Studio",
       "channelUrl": "https://www.youtube.com/@thienanhstudio9",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Full (END))",
+      "totalParts": 2,
+      "partsStr": "2 phần",
       "totalDurationSec": 22858,
       "totalDurationStr": "6 giờ 20 phút",
       "review": "Nhà Tư Bản Có Lương Tâm Nhất! Mua Xe Sang Cho Nhân Viên, Còn Cho Ở Biệt Thự. (Đã hoàn (Full/End))",
@@ -37346,8 +37598,21 @@ window.FILMS_DATA = {
           "duration": 22858,
           "durationStr": "6:20:58",
           "isRedundant": false
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Full Phần 3 | Nhà Tư Bản Có Lương Tâm Nhất! Mua Xe Sang Cho Nhân Viên, Còn Cho Ở Biệt Thự",
+          "url": "https://www.youtube.com/watch?v=uoRhsZoW-cs",
+          "id": "uoRhsZoW-cs",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T05:54:57+00:00",
+          "isRedundant": false
         }
-      ]
+      ],
+      "updatedAt": "2026-11-12T05:54:57+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_942",
