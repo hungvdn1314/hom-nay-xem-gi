@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 1651,
+    "totalFilms": 1652,
     "totalChannels": 8,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-12T17:40:19.252894+00:00"
+    "lastUpdated": "2026-11-12T23:01:57.070660+00:00"
   },
   "channels": [
     {
@@ -57,6 +57,39 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_1652",
+      "title": "Mùa 9 | Sơn Hải Tàng Khư, Bất Nhãn Khuy Thiên - Thiếu Niên Mù Mang Theo Kiếm Quan Xuất Thế",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 9 | Sơn Hải Tàng Khư, Bất Nhãn Khuy Thiên - Thiếu Niên Mù Mang Theo Kiếm Quan Xuất ThếLý Quan Kỳ bẩm sinh là một cậu bé mù phải chịu",
+      "genres": [
+        "Hoạt hình 2D/3D"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/saweAmok6kM/hqdefault.jpg",
+      "publishedAt": "2026-11-12T22:31:58+00:00",
+      "updatedAt": "2026-11-12T22:31:58+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 9,
+          "label": "Phần 9",
+          "title": "Mùa 9 | Sơn Hải Tàng Khư, Bất Nhãn Khuy Thiên - Thiếu Niên Mù Mang Theo Kiếm Quan Xuất Thế",
+          "url": "https://www.youtube.com/watch?v=saweAmok6kM",
+          "id": "saweAmok6kM",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T22:31:58+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1645",
       "title": "Full P1 | Bất Ngờ Biến Thành Một Đóa Thanh Liên Trên Núi Thanh Vân, Tôi Kích Hoạt Hệ Thống Thôn Phệ",
@@ -29775,8 +29808,8 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLdBBMj6NIHTQ",
-      "totalParts": 2,
-      "partsStr": "2 phần / 2 video (Mùa 10, Mùa 11)",
+      "totalParts": 3,
+      "partsStr": "3 phần",
       "totalDurationSec": 18581,
       "totalDurationStr": "5 giờ 09 phút",
       "review": "Giác Tỉnh Thập Điện Diêm La, Ta Chính Là Hồng Tán Quỷ Tiên. (2 phần / 2 video (Mùa 10, Mùa 11))",
@@ -29804,8 +29837,21 @@ window.FILMS_DATA = {
           "duration": 10110,
           "durationStr": "2:48:30",
           "isRedundant": false
+        },
+        {
+          "index": 12,
+          "label": "Phần 12",
+          "title": "Mùa 12 | Giác Tỉnh Thập Điện Diêm La, Ta Chính Là Hồng Tán Quỷ Tiên",
+          "url": "https://www.youtube.com/watch?v=Z-II3mbe3qw",
+          "id": "Z-II3mbe3qw",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T18:25:40+00:00",
+          "isRedundant": false
         }
-      ]
+      ],
+      "updatedAt": "2026-11-12T18:25:40+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_754",
