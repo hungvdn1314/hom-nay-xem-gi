@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 1629,
+    "totalFilms": 1633,
     "totalChannels": 8,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-11T19:04:14.971529+00:00"
+    "lastUpdated": "2026-11-12T01:24:33.206818+00:00"
   },
   "channels": [
     {
@@ -58,6 +58,140 @@
   ],
   "films": [
     {
+      "id": "film_1633",
+      "title": "Phần 1-2 -TẬN THẾ QUỶ DỊ GIÁNG XUỐNG – NÀNG CHỈ CẦN XEM QUẢNG CÁO LÀ NHẬN THẦN KHÍ",
+      "channelId": "tieusumuoi",
+      "channelName": "Tiểu Sư Muội",
+      "channelUrl": "https://www.youtube.com/@Tieusumuoi-u3e",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 34597,
+      "totalDurationStr": "9 giờ 36 phút",
+      "review": "Dị thường bất ngờ giáng xuống, toàn bộ nhân loại bị cuốn vào trò chơi sinh tồn ký túc xá quỷ dị, nơi mỗi người bị nhốt trong một căn phòng nhỏ bé và phải đối mặt với những con quỷ đáng sợ mỗi khi màn ",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/23xEf-XeJVA/hqdefault.jpg",
+      "publishedAt": "2026-11-12T00:54:59+00:00",
+      "updatedAt": "2026-11-12T00:54:59+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1-2 -TẬN THẾ QUỶ DỊ GIÁNG XUỐNG – NÀNG CHỈ CẦN XEM QUẢNG CÁO LÀ NHẬN THẦN KHÍ",
+          "url": "https://www.youtube.com/watch?v=23xEf-XeJVA",
+          "id": "23xEf-XeJVA",
+          "duration": 34597,
+          "durationStr": "9:36:37",
+          "publishedAt": "2026-11-12T00:54:59+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1631",
+      "title": "Full Phần 1 |【Livestream Chứng Kiến Thần Thoại: Bắt Đầu Từ Giao Long Hóa Rồng Trên Tuyến Ngao Thái!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 16502,
+      "totalDurationStr": "4 giờ 35 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Livestream Chứng Kiến Thần Thoại: Bắt Đầu Từ Giao Long Hóa Rồng Trên Tuyến Ngao Thái!】\n\n🐉 Tr",
+      "genres": [
+        "Hoạt hình 2D/3D"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/2ZWRXk09NPs/hqdefault.jpg",
+      "publishedAt": "2026-11-12T00:48:59+00:00",
+      "updatedAt": "2026-11-12T00:48:59+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Livestream Chứng Kiến Thần Thoại: Bắt Đầu Từ Giao Long Hóa Rồng Trên Tuyến Ngao Thái!】",
+          "url": "https://www.youtube.com/watch?v=2ZWRXk09NPs",
+          "id": "2ZWRXk09NPs",
+          "duration": 16502,
+          "durationStr": "4:35:02",
+          "publishedAt": "2026-11-12T00:48:59+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1632",
+      "title": "P1|Để Trở Về Nhà Tiêu Tiền, Anh Nghiên Cứu Trong Tháp Pháp Sư Chế Tạo Thành Công Cỗ Máy Xuyên Không!",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5745,
+      "totalDurationStr": "1 giờ 35 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Đám Người Chơi Này Lại Coi Tôi Là Boss!】\n\n⚔️ Bất ngờ lạc vào thế giới kỳ ảo, nam chính chỉ c",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/l3Ux2inU5_8/hqdefault.jpg",
+      "publishedAt": "2026-11-12T00:48:35+00:00",
+      "updatedAt": "2026-11-12T00:48:35+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1|Để Trở Về Nhà Tiêu Tiền, Anh Nghiên Cứu Trong Tháp Pháp Sư Chế Tạo Thành Công Cỗ Máy Xuyên Không!",
+          "url": "https://www.youtube.com/watch?v=l3Ux2inU5_8",
+          "id": "l3Ux2inU5_8",
+          "duration": 5745,
+          "durationStr": "1:35:45",
+          "publishedAt": "2026-11-12T00:48:35+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1630",
+      "title": "Phần 9 | Phàm Nhân Bách Thế Thư: Hệ Thống Trăm Kiếp Luân Hồi, Mỗi Lần Chuyển Thế Ta Lại Mạnh Hơn",
+      "channelId": "tieuho_review",
+      "channelName": "Tiểu Hồ Review (Dorovietsub)",
+      "channelUrl": "https://www.youtube.com/@Ti%E1%BB%83u-H%E1%BB%93_Review",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11209,
+      "totalDurationStr": "3 giờ 06 phút",
+      "review": "Trần Mặc trải qua trăm kiếp luân hồi, đến đời thứ 16 chuyển sinh thành Lăng Thiên, thiếu tinh chủ Diệu Khung Tinh. Mang Đạo Thể Tinh Khung, hắn dựa vào tín ngưỡng chúng sinh để tích lũy nguyện lực, bố",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/pQENXqE-abU/hqdefault.jpg",
+      "publishedAt": "2026-11-11T23:39:02+00:00",
+      "updatedAt": "2026-11-11T23:39:02+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 9,
+          "label": "Phần 9",
+          "title": "Phần 9 | Phàm Nhân Bách Thế Thư: Hệ Thống Trăm Kiếp Luân Hồi, Mỗi Lần Chuyển Thế Ta Lại Mạnh Hơn",
+          "url": "https://www.youtube.com/watch?v=pQENXqE-abU",
+          "id": "pQENXqE-abU",
+          "duration": 11209,
+          "durationStr": "3:06:49",
+          "publishedAt": "2026-11-11T23:39:02+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_1621",
       "title": "Sinh Tồn Thế Giới Quỷ Dị: Ta Sở Hữu Vô Số Đạo Cụ Quy Tắc Để Chống Lại Quỷ Dị",
       "channelId": "thienphatreview",
@@ -66,8 +200,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 23371,
+      "totalDurationStr": "6 giờ 29 phút",
       "review": "Sinh Tồn Thế Giới Quỷ Dị: Ta Sở Hữu Vô Số Đạo Cụ Quy Tắc Để Chống Lại Quỷ Dị\n\nThiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các thể loại.\nReview ",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -84,9 +218,10 @@
           "title": "Sinh Tồn Thế Giới Quỷ Dị: Ta Sở Hữu Vô Số Đạo Cụ Quy Tắc Để Chống Lại Quỷ Dị",
           "url": "https://www.youtube.com/watch?v=3-mmaY1iXCM",
           "id": "3-mmaY1iXCM",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 23371,
+          "durationStr": "6:29:31",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T12:00:22+00:00"
         }
       ]
     },
@@ -99,8 +234,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 14598,
+      "totalDurationStr": "4 giờ 03 phút",
       "review": "Các phần của bộ này ở đây: https://www.youtube.com/playlist?list=PLDBPHcJA5fmo\n\n🔥Đăng ký kênh để xem fim hay mỗi ngày: https://www.youtube.com/@UCWsKmJAGnozzktv5A-duTaA \n\n📌 Tóm Tắt Phim: \nMặt Trăng Má",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -117,9 +252,10 @@
           "title": "(Phần 2) MẠT THẾ TRĂNG MÁU: Ta Thức Tỉnh Hệ Thống Sát Lục - Nâng Cấp Xe Tối Thượng",
           "url": "https://www.youtube.com/watch?v=yMKNH4Z-ME8",
           "id": "yMKNH4Z-ME8",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 14598,
+          "durationStr": "4:03:18",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T13:05:41+00:00"
         }
       ]
     },
@@ -130,17 +266,17 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 25766,
+      "totalDurationStr": "7 giờ 09 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 9 | Phàm Nhân Bách Thế Thư - Ta Có Hệ Thống Luân Hồi, Trăm Năm Ẩn Nhẫn Trảm Thảo Trừ Căn(Nội dung giải trí hư cấu hỗ trợ bởi AI • Ph",
       "genres": [
         "Hệ thống / Thức tỉnh"
       ],
       "thumbnail": "https://i1.ytimg.com/vi/LPCvhfVOJS8/hqdefault.jpg",
       "publishedAt": "2026-11-11T18:52:20+00:00",
-      "updatedAt": "2026-11-11T18:52:20+00:00",
+      "updatedAt": "2026-11-11T22:56:26+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -149,8 +285,20 @@
           "title": "Mùa 9 | Phàm Nhân Bách Thế Thư - Ta Có Hệ Thống Luân Hồi, Trăm Năm Ẩn Nhẫn Trảm Thảo Trừ Căn",
           "url": "https://www.youtube.com/watch?v=LPCvhfVOJS8",
           "id": "LPCvhfVOJS8",
-          "duration": 7200,
-          "durationStr": "2:00:00",
+          "duration": 10372,
+          "durationStr": "2:52:52",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T18:52:20+00:00"
+        },
+        {
+          "index": 10,
+          "label": "Phần 10",
+          "title": "Mùa 10 | Phàm Nhân Bách Thế Thư - Ta Có Hệ Thống Luân Hồi, Trăm Năm Ẩn Nhẫn Trảm Thảo Trừ Căn",
+          "url": "https://www.youtube.com/watch?v=TOMs8IrU0qU",
+          "id": "TOMs8IrU0qU",
+          "duration": 15394,
+          "durationStr": "4:16:34",
+          "publishedAt": "2026-11-11T22:56:26+00:00",
           "isRedundant": false
         }
       ]
@@ -164,8 +312,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 9001,
+      "totalDurationStr": "2 giờ 30 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 26 | Thái Huyền Thai Châu Truyện(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi)Trần Trường An, người đã vạn n",
       "genres": [
         "Hoạt hình 2D/3D"
@@ -181,9 +329,10 @@
           "title": "Mùa 26 | Thái Huyền Thai Châu Truyện",
           "url": "https://www.youtube.com/watch?v=_YGLfRyA8-E",
           "id": "_YGLfRyA8-E",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 9001,
+          "durationStr": "2:30:01",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T18:52:15+00:00"
         }
       ]
     },
@@ -196,8 +345,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 15778,
+      "totalDurationStr": "4 giờ 22 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\n[16+] Mùa 5 - P2 | Thiên Đạo Dư Đồ: Phàm Nhân Vấn Đạo\nThiên đạo sụp đổ, tàn đạo sót lại nơi nhân gian, ấy gọi là \"Thiên Đạo Dư Đồ\".Thiếu",
       "genres": [
         "Huyền huyễn / Tu tiên"
@@ -213,9 +362,10 @@
           "title": "Mùa 5 - P2 | Thiên Đạo Dư Đồ: Phàm Nhân Vấn Đạo",
           "url": "https://www.youtube.com/watch?v=WeHZRJdyjhI",
           "id": "WeHZRJdyjhI",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 15778,
+          "durationStr": "4:22:58",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T16:06:01+00:00"
         }
       ]
     },
@@ -228,8 +378,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 10605,
+      "totalDurationStr": "2 giờ 56 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Mùa 3】Siêu Thần Rút Thưởng Sư! Nhờ Rút Thưởng Ta Liền Vô Địch Thiên Hạ\n\n🎰 Trong thế giới nơi",
       "genres": [
         "Hoạt hình 2D/3D"
@@ -245,9 +395,10 @@
           "title": "【Mùa 3】Siêu Thần Rút Thưởng Sư! Nhờ Rút Thưởng Ta Liền Vô Địch Thiên Hạ",
           "url": "https://www.youtube.com/watch?v=DTSOlvAAm4M",
           "id": "DTSOlvAAm4M",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 10605,
+          "durationStr": "2:56:45",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T12:22:37+00:00"
         }
       ]
     },
@@ -260,8 +411,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 23097,
+      "totalDurationStr": "6 giờ 24 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Tôi Nuôi Cả Đội Nhân Viên Trung Thành Trong Công Ty, Tất Cả Nhờ Hệ Thống Hoàn Tiền!】\n\n💰 Nam ",
       "genres": [
         "Hệ thống / Thức tỉnh"
@@ -277,9 +428,10 @@
           "title": "Full Phần 1 |【Tôi Nuôi Cả Đội Nhân Viên Trung Thành Trong Công Ty, Tất Cả Nhờ Hệ Thống Hoàn Tiền!】",
           "url": "https://www.youtube.com/watch?v=fv0OkwHIr1Q",
           "id": "fv0OkwHIr1Q",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 23097,
+          "durationStr": "6:24:57",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T15:26:56+00:00"
         }
       ]
     },
@@ -292,8 +444,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 11120,
+      "totalDurationStr": "3 giờ 05 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Trong Cơ Thể Tôi Có Một Quỷ Y Vô Lương Tâm!】Thôn Phệ Quỷ Để Mạnh Lên, Coi Lệ Quỷ Như Bữa Ăn ",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -310,9 +462,10 @@
           "title": "P1 | Trong Cơ Thể Tôi Có Một Quỷ Y Vô Lương Tâm! Thôn Phệ Quỷ Để Mạnh Lên Tung Hoành Khắp Linh Dị",
           "url": "https://www.youtube.com/watch?v=oGQOFbEoCks",
           "id": "oGQOFbEoCks",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 11120,
+          "durationStr": "3:05:20",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T15:24:40+00:00"
         }
       ]
     },
@@ -325,8 +478,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 9992,
+      "totalDurationStr": "2 giờ 46 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Tôi Sắp Luyện Tà Thần Đến Max Cấp Rồi, Ngươi Lại Khuyên Tôi Chuyển Chức Triệu Hồi Sư?!】\n\n⚔️ ",
       "genres": [
         "Hoạt hình 2D/3D"
@@ -342,9 +495,10 @@
           "title": "Full Phần 1 |【Tôi Sắp Luyện Tà Thần Đến Max Cấp Rồi, Ngươi Lại Khuyên Tôi Chuyển Chức Triệu Hồi Sư?】",
           "url": "https://www.youtube.com/watch?v=dZSbeXPs0xQ",
           "id": "dZSbeXPs0xQ",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 9992,
+          "durationStr": "2:46:32",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T12:23:46+00:00"
         }
       ]
     },
@@ -357,8 +511,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 9856,
+      "totalDurationStr": "2 giờ 44 phút",
       "review": "Sinh Tồn Sương Mù: Xuyên Không Với Nhà Gỗ Cấp 1, Ta Thu Thập Vật Tư Xây Dựng Căn Cứ\n\nThiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các thể loại.\n",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -375,9 +529,10 @@
           "title": "Sinh Tồn Sương Mù: Xuyên Không Với Nhà Gỗ Cấp 1, Ta Thu Thập Vật Tư Xây Dựng Căn Cứ",
           "url": "https://www.youtube.com/watch?v=dRdJFAeUqlQ",
           "id": "dRdJFAeUqlQ",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 9856,
+          "durationStr": "2:44:16",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T06:00:10+00:00"
         }
       ]
     },
@@ -388,10 +543,10 @@
       "channelName": "Thiên Phạt Review",
       "channelUrl": "https://www.youtube.com/@thienphatreview",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 20899,
+      "totalDurationStr": "5 giờ 48 phút",
       "review": "Sinh Tồn Mạt Thế: Trọng Sinh Trước 3 Tháng, Ta Mang Con Tích Trữ Vật Tư Chống Thiên Tai\n\nThiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các thể lo",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -399,7 +554,7 @@
       ],
       "thumbnail": "https://i3.ytimg.com/vi/2hSMue2QyDM/hqdefault.jpg",
       "publishedAt": "2026-11-11T04:00:07+00:00",
-      "updatedAt": "2026-11-11T04:00:07+00:00",
+      "updatedAt": "2026-11-12T00:00:05+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -408,8 +563,20 @@
           "title": "Sinh Tồn Mạt Thế: Trọng Sinh Trước 3 Tháng, Ta Mang Con Tích Trữ Vật Tư Chống Thiên Tai",
           "url": "https://www.youtube.com/watch?v=2hSMue2QyDM",
           "id": "2hSMue2QyDM",
-          "duration": 7200,
-          "durationStr": "2:00:00",
+          "duration": 10840,
+          "durationStr": "3:00:40",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T04:00:07+00:00"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Phần 2 | Sinh Tồn Mạt Thế: Trọng Sinh Trước 3 Tháng, Ta Mang Con Tích Trữ Vật Tư Chống Thiên Tai",
+          "url": "https://www.youtube.com/watch?v=7vYbS1txyIU",
+          "id": "7vYbS1txyIU",
+          "duration": 10059,
+          "durationStr": "2:47:39",
+          "publishedAt": "2026-11-12T00:00:05+00:00",
           "isRedundant": false
         }
       ]
@@ -423,8 +590,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 10816,
+      "totalDurationStr": "3 giờ 00 phút",
       "review": "Sinh Tồn Thế Giới Quỷ Dị: Xuyên Không Thành Phế Vật, Ta Khế Ước Ác Quỷ Để Mạnh Lên\n\nThiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các thể loại.\nR",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -441,9 +608,10 @@
           "title": "Sinh Tồn Thế Giới Quỷ Dị: Xuyên Không Thành Phế Vật, Ta Khế Ước Ác Quỷ Để Mạnh Lên",
           "url": "https://www.youtube.com/watch?v=PVkUIk1Pi3Y",
           "id": "PVkUIk1Pi3Y",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 10816,
+          "durationStr": "3:00:16",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T12:00:34+00:00"
         }
       ]
     },
@@ -456,8 +624,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 9658,
+      "totalDurationStr": "2 giờ 40 phút",
       "review": "Xuyên Không: Bị Chê Hệ Bóng Tối Phế Vật, Ta Dùng Hệ Thống Sát Lục Trở Thành Ám Ảnh Quân Vương\n\nThiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các ",
       "genres": [
         "Xuyên không / Trọng sinh",
@@ -474,9 +642,10 @@
           "title": "Phần 3 |Xuyên Không: Bị Chê Hệ Bóng Tối Phế Vật,Ta Dùng Hệ Thống Sát Lục Trở Thành Ám Ảnh Quân Vương",
           "url": "https://www.youtube.com/watch?v=CucA78mV4AM",
           "id": "CucA78mV4AM",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 9658,
+          "durationStr": "2:40:58",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T10:00:21+00:00"
         }
       ]
     },
@@ -489,8 +658,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 8435,
+      "totalDurationStr": "2 giờ 20 phút",
       "review": "Xuyên Không: Bị Chê Hệ Bóng Tối Phế Vật, Ta Dùng Hệ Thống Sát Lục Trở Thành Ám Ảnh Quân Vương\n\nThiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các ",
       "genres": [
         "Xuyên không / Trọng sinh",
@@ -507,9 +676,10 @@
           "title": "Phần 2 |Xuyên Không: Bị Chê Hệ Bóng Tối Phế Vật,Ta Dùng Hệ Thống Sát Lục Trở Thành Ám Ảnh Quân Vương",
           "url": "https://www.youtube.com/watch?v=sJDkjd1IJkM",
           "id": "sJDkjd1IJkM",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 8435,
+          "durationStr": "2:20:35",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T06:00:16+00:00"
         }
       ]
     },
@@ -522,8 +692,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 5784,
+      "totalDurationStr": "1 giờ 36 phút",
       "review": "Sinh Tồn Mạt Thế: Heo Đột Biến Báo Tận Thế, Ta Bán Nhà Xây Căn Cứ Chống Cực Hàn\n\nThiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các thể loại.\nRevi",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -540,9 +710,10 @@
           "title": "Sinh Tồn Mạt Thế: Heo Đột Biến Báo Tận Thế, Ta Bán Nhà Xây Căn Cứ Chống Cực Hàn",
           "url": "https://www.youtube.com/watch?v=I48bATvZkN8",
           "id": "I48bATvZkN8",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 5784,
+          "durationStr": "1:36:24",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T12:00:22+00:00"
         }
       ]
     },
@@ -555,8 +726,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 6702,
+      "totalDurationStr": "1 giờ 51 phút",
       "review": "Toàn Dân Sinh Tồn: Ta Làm Nông Trại Giữa Sa Mạc, Nhận X2 Phần Thưởng\n\nThiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các thể loại.\nReview và tóm t",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -573,9 +744,10 @@
           "title": "Toàn Dân Sinh Tồn: Ta Làm Nông Trại Giữa Sa Mạc, Nhận X2 Phần Thưởng",
           "url": "https://www.youtube.com/watch?v=BBr_zjxlzCY",
           "id": "BBr_zjxlzCY",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 6702,
+          "durationStr": "1:51:42",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T10:00:33+00:00"
         }
       ]
     },
@@ -588,8 +760,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 18513,
+      "totalDurationStr": "5 giờ 08 phút",
       "review": "Người khác xuyên không thành nhân vật chính, Cố Thiên Hành lại xuyên thành phản diện sắp bị nam chính giết chết ngay trong ngày đại hôn. Không có hệ thống, chỉ có một trái tim đen tối và ký ức về cốt ",
       "genres": [
         "Xuyên không / Trọng sinh",
@@ -606,9 +778,10 @@
           "title": "Xuyên Thành Phản Diện Không Có Hệ Thống, Ta Dựa Vào Cốt Truyện Đoạt Cơ Duyên.",
           "url": "https://www.youtube.com/watch?v=uONLQ2AMoQE",
           "id": "uONLQ2AMoQE",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 18513,
+          "durationStr": "5:08:33",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T14:03:20+00:00"
         }
       ]
     },
@@ -621,8 +794,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 18236,
+      "totalDurationStr": "5 giờ 03 phút",
       "review": "🔥Đăng ký kênh để xem fim hay mỗi ngày: https://www.youtube.com/@UCWsKmJAGnozzktv5A-duTaA \n\n📌 Tóm Tắt Phim: \nỞ một thế giới nơi con người lập thân bằng cách triệu hồi Lệ Quỷ làm Quỷ Sủng, Lục Bạch bị c",
       "genres": [
         "Hệ thống / Thức tỉnh",
@@ -639,9 +812,10 @@
           "title": "Toàn Dân Ngự Quỷ Sư, Quỷ Sủng Của Ta Là HẮC NGỘ KHÔNG",
           "url": "https://www.youtube.com/watch?v=PKr9Bu1SB5o",
           "id": "PKr9Bu1SB5o",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 18236,
+          "durationStr": "5:03:56",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T03:53:11+00:00"
         }
       ]
     },
@@ -654,8 +828,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 33470,
+      "totalDurationStr": "9 giờ 17 phút",
       "review": "🔥Đăng ký kênh để xem fim hay mỗi ngày: https://www.youtube.com/@UCWsKmJAGnozzktv5A-duTaA \n\n📌 Tóm Tắt Phim: \nLăng Tiêu - Nữ đại lão Độ Kiếp Kỳ tu luyện 20.000 năm tại Tu Tiên Giới bất ngờ xuyên không t",
       "genres": [
         "Xuyên không / Trọng sinh",
@@ -672,9 +846,10 @@
           "title": "Tu Tiên Vạn Năm Nữ Đế Trở Về Trái Đất",
           "url": "https://www.youtube.com/watch?v=bNRxZjWqPT8",
           "id": "bNRxZjWqPT8",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 33470,
+          "durationStr": "9:17:50",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T12:57:12+00:00"
         }
       ]
     },
@@ -687,8 +862,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 22794,
+      "totalDurationStr": "6 giờ 19 phút",
       "review": "🔥Đăng ký kênh để xem fim hay mỗi ngày: https://www.youtube.com/@UCWsKmJAGnozzktv5A-duTaA \n\n📌 Tóm Tắt Phim: \nKiếp trước bị phản bội chết thảm nơi mạt thế, Trần Bình Uyên bất ngờ trọng sinh về thời điểm",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -705,9 +880,10 @@
           "title": "TẬN THẾ GIÁNG LÂM, Main Trùng Sinh Bá Đạo, Tuyệt Đối Không Thánh Mẫu!",
           "url": "https://www.youtube.com/watch?v=VFHbXwOfcNE",
           "id": "VFHbXwOfcNE",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 22794,
+          "durationStr": "6:19:54",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T11:55:53+00:00"
         }
       ]
     },
@@ -720,8 +896,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 14624,
+      "totalDurationStr": "4 giờ 03 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 5 | Kiếm Thần Trở Lại: Ta Và Con Lừa Suốt Mười Vạn Năm(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi)Lục Xuyê",
       "genres": [
         "Hệ thống / Thức tỉnh",
@@ -738,9 +914,10 @@
           "title": "Mùa 5 | Kiếm Thần Trở Lại: Ta Và Con Lừa Suốt Mười Vạn Năm",
           "url": "https://www.youtube.com/watch?v=zYpZDCoZJyY",
           "id": "zYpZDCoZJyY",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 14624,
+          "durationStr": "4:03:44",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T01:11:05+00:00"
         }
       ]
     },
@@ -753,8 +930,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 8945,
+      "totalDurationStr": "2 giờ 29 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 48 | Vô Linh Chứng Đạo - Ai bảo không có linh căn không thể tu tiên?(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16",
       "genres": [
         "Huyền huyễn / Tu tiên"
@@ -770,9 +947,10 @@
           "title": "Mùa 48 | Vô Linh Chứng Đạo - Ai bảo không có linh căn không thể tu tiên?",
           "url": "https://www.youtube.com/watch?v=irtmlPo_Fms",
           "id": "irtmlPo_Fms",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 8945,
+          "durationStr": "2:29:05",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T22:49:34+00:00"
         }
       ]
     },
@@ -785,8 +963,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 6976,
+      "totalDurationStr": "1 giờ 56 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 5 - P1 | Thiên Đạo Dư Đồ: Phàm Nhân Vấn ĐạoThiên đạo sụp đổ, tàn đạo sót lại nơi nhân gian, ấy gọi là \"Thiên Đạo Dư Đồ\".Thiếu niên D",
       "genres": [
         "Huyền huyễn / Tu tiên"
@@ -802,9 +980,10 @@
           "title": "Mùa 5 - P1 | Thiên Đạo Dư Đồ: Phàm Nhân Vấn Đạo",
           "url": "https://www.youtube.com/watch?v=YLo2E9-7wUA",
           "id": "YLo2E9-7wUA",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 6976,
+          "durationStr": "1:56:16",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T19:14:34+00:00"
         }
       ]
     },
@@ -817,8 +996,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 12005,
+      "totalDurationStr": "3 giờ 20 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 9 | Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu Thiên(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả",
       "genres": [
         "Huyền huyễn / Tu tiên"
@@ -834,9 +1013,10 @@
           "title": "Mùa 9 | Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu Thiên",
           "url": "https://www.youtube.com/watch?v=IFe7eOvM9MQ",
           "id": "IFe7eOvM9MQ",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 12005,
+          "durationStr": "3:20:05",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T19:14:30+00:00"
         }
       ]
     },
@@ -849,8 +1029,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 7599,
+      "totalDurationStr": "2 giờ 06 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 8 | Sơn Hải Hiển Thánh.(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi)Bộ phim kể về hành trình sinh tồn và vư",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -867,9 +1047,10 @@
           "title": "Mùa 8 | Sơn Hải Hiển Thánh",
           "url": "https://www.youtube.com/watch?v=I8i1Jbpj6gE",
           "id": "I8i1Jbpj6gE",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 7599,
+          "durationStr": "2:06:39",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T14:26:16+00:00"
         }
       ]
     },
@@ -882,8 +1063,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 7899,
+      "totalDurationStr": "2 giờ 11 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 9 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần.(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi)Tóm",
       "genres": [
         "Hệ thống / Thức tỉnh",
@@ -900,9 +1081,10 @@
           "title": "Mùa 9 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần",
           "url": "https://www.youtube.com/watch?v=NEibLQJ2VrM",
           "id": "NEibLQJ2VrM",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 7899,
+          "durationStr": "2:11:39",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T05:49:36+00:00"
         }
       ]
     },
@@ -915,8 +1097,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 7537,
+      "totalDurationStr": "2 giờ 05 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 47 | Vô Linh Chứng Đạo - Ai bảo không có linh căn không thể tu tiên?(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16",
       "genres": [
         "Huyền huyễn / Tu tiên"
@@ -932,9 +1114,10 @@
           "title": "Mùa 47 | Vô Linh Chứng Đạo - Ai bảo không có linh căn không thể tu tiên?",
           "url": "https://www.youtube.com/watch?v=2z8LPnqM-Uo",
           "id": "2z8LPnqM-Uo",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 7537,
+          "durationStr": "2:05:37",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T20:56:23+00:00"
         }
       ]
     },
@@ -947,8 +1130,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 14425,
+      "totalDurationStr": "4 giờ 00 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 4 | Ngự Hồ(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi)Giới thiệu: Ôm mối huyết thù trên vai, Sở Thiếu Dã t",
       "genres": [
         "Hệ thống / Thức tỉnh"
@@ -964,9 +1147,10 @@
           "title": "Mùa 4 | Ngự Hồ",
           "url": "https://www.youtube.com/watch?v=CWSoiMjSv5o",
           "id": "CWSoiMjSv5o",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 14425,
+          "durationStr": "4:00:25",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T19:39:58+00:00"
         }
       ]
     },
@@ -979,8 +1163,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 8167,
+      "totalDurationStr": "2 giờ 16 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 25 | Thái Huyền Thai Châu Truyện(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi)Trần Trường An, người đã vạn n",
       "genres": [
         "Hoạt hình 2D/3D"
@@ -996,9 +1180,10 @@
           "title": "Mùa 25 | Thái Huyền Thai Châu Truyện",
           "url": "https://www.youtube.com/watch?v=KvIHSqyeiWk",
           "id": "KvIHSqyeiWk",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 8167,
+          "durationStr": "2:16:07",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T17:59:59+00:00"
         }
       ]
     },
@@ -1011,8 +1196,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 27319,
+      "totalDurationStr": "7 giờ 35 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 3| Tôi Hợp Thành Cả Thế Giới(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi)Sau khi nền văn minh Kỷ Nguyên Thứ",
       "genres": [
         "Hệ thống / Thức tỉnh"
@@ -1028,9 +1213,10 @@
           "title": "Mùa 3| Tôi Hợp Thành Cả Thế Giới",
           "url": "https://www.youtube.com/watch?v=CISnacM7PIw",
           "id": "CISnacM7PIw",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 27319,
+          "durationStr": "7:35:19",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T09:46:58+00:00"
         }
       ]
     },
@@ -1043,8 +1229,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 6955,
+      "totalDurationStr": "1 giờ 55 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Mùa 7】Lãnh Chúa: Mỗi Người Mỗi Ngày Đều Phải Nộp Cho Ta Một Đồng Vàng!\n\n👑 Trong thế giới Lãn",
       "genres": [
         "Sinh tồn / Mạt thế"
@@ -1060,9 +1246,10 @@
           "title": "【Mùa 7】Lãnh Chúa: Mỗi Người Mỗi Ngày Đều Phải Nộp Cho Ta Một Đồng Vàng!",
           "url": "https://www.youtube.com/watch?v=EWwE4WB8W_0",
           "id": "EWwE4WB8W_0",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 6955,
+          "durationStr": "1:55:55",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T05:05:25+00:00"
         }
       ]
     },
@@ -1075,8 +1262,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 23093,
+      "totalDurationStr": "6 giờ 24 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Tái Khởi Cuộc Đời: Cẩm Nang Quán Xuyến Gia Đình Của Cô Vợ Cá Tính Thập Niên 70!】\n\n🌸 Có cơ hộ",
       "genres": [
         "Hoạt hình 2D/3D"
@@ -1092,9 +1279,10 @@
           "title": "Full Phần 1 |【Tái Khởi Cuộc Đời: Cẩm Nang Quán Xuyến Gia Đình Của Cô Vợ Cá Tính Thập Niên 70!",
           "url": "https://www.youtube.com/watch?v=KgS5Nkght9w",
           "id": "KgS5Nkght9w",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 23093,
+          "durationStr": "6:24:53",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T02:34:00+00:00"
         }
       ]
     },
@@ -1107,8 +1295,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 25061,
+      "totalDurationStr": "6 giờ 57 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Mùa 3】Trọng Sinh Về Năm 1970, Thức Tỉnh Không Gian Tùy Thân!\n\n🌾 Bất ngờ trọng sinh về những ",
       "genres": [
         "Xuyên không / Trọng sinh",
@@ -1125,9 +1313,10 @@
           "title": "【Mùa 3】Trọng Sinh Về Năm 1970, Thức Tỉnh Không Gian Tùy Thân!",
           "url": "https://www.youtube.com/watch?v=eNLI9KS_N3I",
           "id": "eNLI9KS_N3I",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 25061,
+          "durationStr": "6:57:41",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T23:28:25+00:00"
         }
       ]
     },
@@ -1140,8 +1329,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 18407,
+      "totalDurationStr": "5 giờ 06 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Người Khác Khổ Luyện, Tôi Nhặt Thuộc Tính Để Thành Thần!】\n\n⚔️ Trong thế giới võ đạo nơi cườn",
       "genres": [
         "Hệ thống / Thức tỉnh",
@@ -1158,9 +1347,10 @@
           "title": "Full Phần 1 |【Người Khác Khổ Luyện, Tôi Nhặt Thuộc Tính Để Thành Thần!】",
           "url": "https://www.youtube.com/watch?v=5_PIzw5vvmE",
           "id": "5_PIzw5vvmE",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 18407,
+          "durationStr": "5:06:47",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T13:09:10+00:00"
         }
       ]
     },
@@ -1173,8 +1363,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 14891,
+      "totalDurationStr": "4 giờ 08 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Mùa 1】Tôi Trồng Cả Giới Tu Tiên Trong Một Chiếc Giỏ Rau!\n\n🌱 Một chiếc giỏ rau tưởng chừng bì",
       "genres": [
         "Huyền huyễn / Tu tiên"
@@ -1190,9 +1380,10 @@
           "title": "【Mùa 1】Tôi Trồng Cả Giới Tu Tiên Trong Một Chiếc Giỏ Rau!",
           "url": "https://www.youtube.com/watch?v=8vN1n_85bX8",
           "id": "8vN1n_85bX8",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 14891,
+          "durationStr": "4:08:11",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T10:41:49+00:00"
         }
       ]
     },
@@ -1205,8 +1396,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 8554,
+      "totalDurationStr": "2 giờ 22 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Toàn Dân Câu Cá: Tôi Dựa Vào Câu Cá Để Quét Ngang Vạn Tộc!】\n\n🎣 Khi toàn dân bước vào thế giớ",
       "genres": [
         "Sinh tồn / Mạt thế"
@@ -1222,9 +1413,10 @@
           "title": "Full Phần 1 |【Toàn Dân Câu Cá: Tôi Dựa Vào Câu Cá Để Quét Ngang Vạn Tộc!】",
           "url": "https://www.youtube.com/watch?v=bO5ijDyBwX4",
           "id": "bO5ijDyBwX4",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 8554,
+          "durationStr": "2:22:34",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T06:56:53+00:00"
         }
       ]
     },
@@ -1237,8 +1429,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 8307,
+      "totalDurationStr": "2 giờ 18 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Quỷ Dị Hoành Hành, Ta Mới Chính Là Chúa Tể Kinh Hoàng Thực Sự!】\n\n👻 Khi thế giới quỷ dị giáng",
       "genres": [
         "Hoạt hình 2D/3D"
@@ -1254,9 +1446,10 @@
           "title": "Full Phần 1 |【Quỷ Dị Hoành Hành, Ta Mới Chính Là Chúa Tể Kinh Hoàng Thực Sự!】",
           "url": "https://www.youtube.com/watch?v=PnCppGs1sog",
           "id": "PnCppGs1sog",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 8307,
+          "durationStr": "2:18:27",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T01:24:17+00:00"
         }
       ]
     },
@@ -1269,8 +1462,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 7363,
+      "totalDurationStr": "2 giờ 02 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Dẫm Chân Định Duyên: Một Cú Giẫm Giày Khiến Tôi Gặp Được Chàng Trai Miêu Trại!】\n\n💖 Chỉ vì mộ",
       "genres": [
         "Hoạt hình 2D/3D"
@@ -1286,9 +1479,10 @@
           "title": "Full END | Dẫm Chân Định Duyên: Một Cú Giẫm Giày Khiến Tôi Gặp Được Chàng Trai Miêu Trại!",
           "url": "https://www.youtube.com/watch?v=ZvnQxjJW8hs",
           "id": "ZvnQxjJW8hs",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 7363,
+          "durationStr": "2:02:43",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T23:20:59+00:00"
         }
       ]
     },
@@ -1301,8 +1495,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 8144,
+      "totalDurationStr": "2 giờ 15 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Toàn Dân Triệu Hồi: Ngự Thú Của Tôi Là Cấp SSS!】\n\n⚔️ Khi toàn dân bước vào thời đại triệu hồ",
       "genres": [
         "Hệ thống / Thức tỉnh",
@@ -1319,9 +1513,10 @@
           "title": "Full Phần 1 |【Toàn Dân Triệu Hồi: Ngự Thú Của Tôi Là Cấp SSS!】",
           "url": "https://www.youtube.com/watch?v=wgMmZ1nT7GQ",
           "id": "wgMmZ1nT7GQ",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 8144,
+          "durationStr": "2:15:44",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T12:37:30+00:00"
         }
       ]
     },
@@ -1334,8 +1529,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 31660,
+      "totalDurationStr": "8 giờ 47 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Full Phần 1 | Mô Phỏng Trăm Kiếp Cuối Cùng Thành Tiên: Hãy Để Thuộc Tính Phát Huy Tác Dụng!】",
       "genres": [
         "Hệ thống / Thức tỉnh",
@@ -1352,9 +1547,10 @@
           "title": "Full Phần 1 |【Mô Phỏng Trăm Kiếp Cuối Cùng Thành Tiên: Hãy Để Thuộc Tính Phát Huy Tác Dụng!】",
           "url": "https://www.youtube.com/watch?v=tafzdfJt2uU",
           "id": "tafzdfJt2uU",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 31660,
+          "durationStr": "8:47:40",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T05:07:30+00:00"
         }
       ]
     },
@@ -1367,8 +1563,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 22744,
+      "totalDurationStr": "6 giờ 19 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Trọng Sinh Về Hắc Giới: Tôi Có Thể Nhìn Thấy Thanh Máu Quái Vật!】\n\n👻 Bất ngờ trọng sinh trở ",
       "genres": [
         "Xuyên không / Trọng sinh"
@@ -1384,9 +1580,10 @@
           "title": "Full Phần 1 |Trọng Sinh Về Hắc Giới: Tôi Có Thể Nhìn Thấy Thanh Máu Quái Vật!",
           "url": "https://www.youtube.com/watch?v=9MnV8IEz7js",
           "id": "9MnV8IEz7js",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 22744,
+          "durationStr": "6:19:04",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T00:15:08+00:00"
         }
       ]
     },
@@ -1399,8 +1596,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 9232,
+      "totalDurationStr": "2 giờ 33 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Sinh Tồn Tận Thế: Tôi Dùng Lông Chân Cường Hóa Vạn Vật!】\n\n🌍 Khi tận thế giáng lâm, quái vật ",
       "genres": [
         "Sinh tồn / Mạt thế"
@@ -1416,9 +1613,10 @@
           "title": "Full Phần 1 |【Sinh Tồn Tận Thế: Tôi Dùng Lông Chân Cường Hóa Vạn Vật!】",
           "url": "https://www.youtube.com/watch?v=PLk19U9oedU",
           "id": "PLk19U9oedU",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 9232,
+          "durationStr": "2:33:52",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T13:11:00+00:00"
         }
       ]
     },
@@ -1431,8 +1629,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 9722,
+      "totalDurationStr": "2 giờ 42 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Bé Con Siêu Đáng Yêu: Tiểu Công Chúa Đại Tần Bất Ngờ Đến Nhà Tôi!】\n\n👑 Một ngày nọ, nam chính",
       "genres": [
         "Hoạt hình 2D/3D"
@@ -1448,9 +1646,10 @@
           "title": "Full Phần 1 |【Bé Con Siêu Đáng Yêu: Tiểu Công Chúa Đại Tần Bất Ngờ Đến Nhà Tôi!】",
           "url": "https://www.youtube.com/watch?v=Iz18XUsWEaM",
           "id": "Iz18XUsWEaM",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 9722,
+          "durationStr": "2:42:02",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T10:41:25+00:00"
         }
       ]
     },
@@ -1463,8 +1662,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 8946,
+      "totalDurationStr": "2 giờ 29 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Sinh Tồn Giữa Thế Giới Người Giả: Đêm Nay Tôi Phải Kiểm Tra Thân Phận!】\n\n👻 Khi những kẻ giả ",
       "genres": [
         "Sinh tồn / Mạt thế"
@@ -1480,9 +1679,10 @@
           "title": "Full Phần 1 | Sinh Tồn Giữa Thế Giới Người Giả: Đêm Nay Tôi Phải Kiểm Tra Thân Phận!",
           "url": "https://www.youtube.com/watch?v=mqyuVm6UyI4",
           "id": "mqyuVm6UyI4",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 8946,
+          "durationStr": "2:29:06",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T06:57:40+00:00"
         }
       ]
     },
@@ -1495,8 +1695,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 9282,
+      "totalDurationStr": "2 giờ 34 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Ông Chủ Tư Bản Hắc Tâm, Nhân Viên Lại Quỳ Xin Được Trả Tiền Để Đi Làm!】\n\n💰 Sau khi bị ông ch",
       "genres": [
         "Hệ thống / Thức tỉnh"
@@ -1512,9 +1712,10 @@
           "title": "Full Phần 1 |【Ông Chủ Tư Bản Hắc Tâm, Nhân Viên Lại Quỳ Xin Được Trả Tiền Để Đi Làm!】",
           "url": "https://www.youtube.com/watch?v=SssQZqvmBek",
           "id": "SssQZqvmBek",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 9282,
+          "durationStr": "2:34:42",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T04:10:21+00:00"
         }
       ]
     },
@@ -1527,8 +1728,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 11574,
+      "totalDurationStr": "3 giờ 12 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Mùa 1 | Nữ Phụ Tận Thế: Vệ Sĩ Trung Thành Của Tôi Lại Chính Là Zombie Hoàng!】\n\n🧟‍♂️ Bất ngờ ",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -1545,9 +1746,10 @@
           "title": "【Mùa 1 | Nữ Phụ Tận Thế: Vệ Sĩ Trung Thành Của Tôi Lại Chính Là Zombie Hoàng!】",
           "url": "https://www.youtube.com/watch?v=qpuiNfluJCs",
           "id": "qpuiNfluJCs",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 11574,
+          "durationStr": "3:12:54",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T01:25:04+00:00"
         }
       ]
     },
@@ -1560,7 +1762,7 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
+      "totalDurationSec": 7223,
       "totalDurationStr": "2 giờ 00 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Mở Đầu Sở Hữu Một Con Khủng Long Bạo Chúa Tốc Độ Làm Linh Thú Đồng Sinh!】\n\n🦖 Trong một thế g",
       "genres": [
@@ -1578,9 +1780,10 @@
           "title": "Full Phần 1 |【Mở Đầu Sở Hữu Một Con Khủng Long Bạo Chúa Tốc Độ Làm Linh Thú Đồng Sinh!】",
           "url": "https://www.youtube.com/watch?v=2lmEn-2I8ic",
           "id": "2lmEn-2I8ic",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 7223,
+          "durationStr": "2:00:23",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T23:21:29+00:00"
         }
       ]
     },
@@ -1593,8 +1796,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 7373,
+      "totalDurationStr": "2 giờ 02 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Tôi Tiếp Đón Các Vị Hoàng Đế Qua Các Triều Đại Ngay Tại Thế Giới Hiện Đại!】\n\n👑 Vốn chỉ là mộ",
       "genres": [
         "Xuyên không / Trọng sinh",
@@ -1611,9 +1814,10 @@
           "title": "Full Phần 1 | Tôi Tiếp Đón Các Vị Hoàng Đế Qua Các Triều Đại Ngay Tại Thế Giới Hiện Đại!",
           "url": "https://www.youtube.com/watch?v=08tV8xpmaBM",
           "id": "08tV8xpmaBM",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 7373,
+          "durationStr": "2:02:53",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T12:38:14+00:00"
         }
       ]
     },
@@ -1626,8 +1830,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 8776,
+      "totalDurationStr": "2 giờ 26 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Mùa 1 | Tận Thế: Ta Tự Mình Thành Thần!】\n\n⚔️ Khi tận thế bất ngờ giáng lâm, nền văn minh nhâ",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -1644,9 +1848,10 @@
           "title": "【Mùa 1 | Tận Thế: Ta Tự Mình Thành Thần!】",
           "url": "https://www.youtube.com/watch?v=hoI17keBo6c",
           "id": "hoI17keBo6c",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 8776,
+          "durationStr": "2:26:16",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T09:42:45+00:00"
         }
       ]
     },
@@ -1659,8 +1864,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 22995,
+      "totalDurationStr": "6 giờ 23 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Xuyên Đến Đại Lục Thiên Võ, Thức Tỉnh Hệ Thống Và Sở Hữu Ngộ Tính Đỉnh Cấp】\n\n⚔️ Bất ngờ xuyê",
       "genres": [
         "Hệ thống / Thức tỉnh"
@@ -1676,9 +1881,10 @@
           "title": "Full Phần 1 | Xuyên Đến Đại Lục Thiên Võ, Thức Tỉnh Hệ Thống Và Sở Hữu Ngộ Tính Đỉnh Cấp",
           "url": "https://www.youtube.com/watch?v=r219eJ5it8o",
           "id": "r219eJ5it8o",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 22995,
+          "durationStr": "6:23:15",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T09:17:13+00:00"
         }
       ]
     },
@@ -1691,8 +1897,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 9109,
+      "totalDurationStr": "2 giờ 31 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Toàn Dân Sinh Tồn Trên Đảo Bay, Vừa Bắt Đầu Đảo Của Tôi Đã Biến Mất!】\n\n🌍 Khi toàn dân bị đưa",
       "genres": [
         "Sinh tồn / Mạt thế"
@@ -1708,9 +1914,10 @@
           "title": "Full Phần 1 | Toàn Dân Sinh Tồn Trên Đảo Bay, Vừa Bắt Đầu Đảo Của Tôi Đã Biến Mất!",
           "url": "https://www.youtube.com/watch?v=RuZqdzA5E-8",
           "id": "RuZqdzA5E-8",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 9109,
+          "durationStr": "2:31:49",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T05:06:50+00:00"
         }
       ]
     },
@@ -1723,8 +1930,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 15767,
+      "totalDurationStr": "4 giờ 22 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Chuyến Tàu Hoàng Tuyền: Lên Tàu Là Bước Vào Dị Giới, Xuống Ga Là Đối Mặt Với Tử Vong!】\n\n🚂 Mộ",
       "genres": [
         "Hoạt hình 2D/3D"
@@ -1740,9 +1947,10 @@
           "title": "Full Phần 1 |【Chuyến Tàu Hoàng Tuyền: Lên Tàu Là Bước Vào Dị Giới, Xuống Ga Là Đối Mặt Với Tử Vong!】",
           "url": "https://www.youtube.com/watch?v=Zroy020_r0M",
           "id": "Zroy020_r0M",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 15767,
+          "durationStr": "4:22:47",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T02:33:34+00:00"
         }
       ]
     },
@@ -1755,8 +1963,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 7878,
+      "totalDurationStr": "2 giờ 11 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Bảo Tôi Đi Nằm Vùng, Ai Cho Tôi Làm Đại Ca Giang Hồ?!】\n\n⚔️ Tạ Văn Uyên, một cảnh sát có tính",
       "genres": [
         "Võ hiệp / Cổ trang"
@@ -1772,9 +1980,10 @@
           "title": "Full Phần 1 |【Bảo Tôi Đi Nằm Vùng, Ai Cho Tôi Làm Đại Ca Giang Hồ?!】",
           "url": "https://www.youtube.com/watch?v=mwr5gfUwi0Y",
           "id": "mwr5gfUwi0Y",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 7878,
+          "durationStr": "2:11:18",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T23:30:30+00:00"
         }
       ]
     },
@@ -1787,8 +1996,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 8205,
+      "totalDurationStr": "2 giờ 16 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Mùa 2】Sinh Tồn Vô Hạn: Mỗi Ngày Một Thế Giới Mới!\n\n🌍 Trong thế giới Sinh Tồn Vô Hạn, mỗi ngà",
       "genres": [
         "Sinh tồn / Mạt thế"
@@ -1804,9 +2013,10 @@
           "title": "【Mùa 2】Sinh Tồn Vô Hạn: Mỗi Ngày Một Thế Giới Mới!",
           "url": "https://www.youtube.com/watch?v=PCNdIhcHd-U",
           "id": "PCNdIhcHd-U",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 8205,
+          "durationStr": "2:16:45",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T13:09:43+00:00"
         }
       ]
     },
@@ -1819,8 +2029,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 8115,
+      "totalDurationStr": "2 giờ 15 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Mùa 1–2】Quy Tắc Quỷ Dị: Tôi Có Thể Thôn Phệ Tất Cả Quỷ Dị!\n\n👻 Khi thế giới Quy Tắc Quỷ Dị gi",
       "genres": [
         "Hệ thống / Thức tỉnh",
@@ -1837,9 +2047,10 @@
           "title": "【Mùa 1–2】Quy Tắc Quỷ Dị: Tôi Có Thể Thôn Phệ Tất Cả Quỷ Dị!",
           "url": "https://www.youtube.com/watch?v=gsRrCb_dDX8",
           "id": "gsRrCb_dDX8",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 8115,
+          "durationStr": "2:15:15",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T06:57:14+00:00"
         }
       ]
     },
@@ -1852,8 +2063,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 9784,
+      "totalDurationStr": "2 giờ 43 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Bé Con Tham Gia Cuộc Thi Sinh Tồn Hoang Giới! Dị Thú Tranh Nhau Tặng Rương Báu, Anh Trai Bộ ",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -1870,9 +2081,10 @@
           "title": "P1 | Bé Con Sinh Tồn Hoang Giới! Dị Thú Tranh Nhau Tặng Rương Báu, Anh Trai Bộ Đội Đặc Chủng Bảo Vệ!",
           "url": "https://www.youtube.com/watch?v=pPbTu0L32FA",
           "id": "pPbTu0L32FA",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 9784,
+          "durationStr": "2:43:04",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T04:09:13+00:00"
         }
       ]
     },
@@ -1885,8 +2097,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 8668,
+      "totalDurationStr": "2 giờ 24 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Nghĩa Trang Tận Thế: Đàn Em Của Tôi Toàn Là Zombie Vương!】\n\n💀 Khi tận thế zombie bất ngờ giá",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -1903,9 +2115,10 @@
           "title": "Full Phần 1 |【Nghĩa Trang Tận Thế: Đàn Em Của Tôi Toàn Là Zombie Vương!】",
           "url": "https://www.youtube.com/watch?v=pM1gsyLqztk",
           "id": "pM1gsyLqztk",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 8668,
+          "durationStr": "2:24:28",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T01:24:36+00:00"
         }
       ]
     },
@@ -1918,8 +2131,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 5231,
+      "totalDurationStr": "1 giờ 27 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Quán Ăn Nhỏ Ở Trường An: Tể Tướng Ngày Nào Cũng Đến Ăn Chực!】\n\n🍜 Giữa kinh thành Trường An p",
       "genres": [
         "Võ hiệp / Cổ trang"
@@ -1935,9 +2148,10 @@
           "title": "Full Phần 1 | Quán Ăn Nhỏ Ở Trường An: Tể Tướng Ngày Nào Cũng Đến Ăn Chực!",
           "url": "https://www.youtube.com/watch?v=nx1uM-3tEqU",
           "id": "nx1uM-3tEqU",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 5231,
+          "durationStr": "1:27:11",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T23:20:13+00:00"
         }
       ]
     },
@@ -1950,8 +2164,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 12026,
+      "totalDurationStr": "3 giờ 20 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Cao Võ: Bắt Đầu Thức Tỉnh Hệ Thống, Một Đường Nghịch Tập!】\n\n⚔️ Trong một thế giới Cao Võ nơi",
       "genres": [
         "Hệ thống / Thức tỉnh",
@@ -1968,9 +2182,10 @@
           "title": "Full Phần 1 |Cao Võ: Bắt Đầu Thức Tỉnh Hệ Thống, Một Đường Nghịch Tập!】",
           "url": "https://www.youtube.com/watch?v=ppywvjnPvvA",
           "id": "ppywvjnPvvA",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 12026,
+          "durationStr": "3:20:26",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T12:37:55+00:00"
         }
       ]
     },
@@ -1983,8 +2198,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 9581,
+      "totalDurationStr": "2 giờ 39 phút",
       "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Ẩn Mình Giữa Bầy Ma Chủng, Hắn Liên Tục Săn Giết Đồng Loại Để Mạnh Lên!】\n\n👹 Giữa một thế giớ",
       "genres": [
         "Sinh tồn / Mạt thế"
@@ -2000,9 +2215,10 @@
           "title": "Full Phần 1 | Ẩn Mình Giữa Bầy Ma Chủng, Hắn Liên Tục Săn Giết Đồng Loại Để Mạnh Lên",
           "url": "https://www.youtube.com/watch?v=Qimd5dfe2nc",
           "id": "Qimd5dfe2nc",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 9581,
+          "durationStr": "2:39:41",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T09:42:22+00:00"
         }
       ]
     },
@@ -2015,8 +2231,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 24519,
+      "totalDurationStr": "6 giờ 48 phút",
       "review": "Quân Tiểu Thất bất ngờ xuyên đến thế giới tu tiên, vừa mở mắt đã trở thành đệ tử phế vật bị vu oan hủy hoại linh cốt của sư muội. Không chỉ bị đồng môn khinh thường, nàng còn đứng trước nguy cơ bị chí",
       "genres": [
         "Xuyên không / Trọng sinh",
@@ -2033,9 +2249,10 @@
           "title": "XUYÊN KHÔNG THÀNH TIỂU SƯ MUỘI BỊ VU OAN – KÍCH HOẠT HỆ THỐNG PHÁ GIA, TIÊU TIỀN TU VI CÀNG TĂNG",
           "url": "https://www.youtube.com/watch?v=RtGQYh-L6yI",
           "id": "RtGQYh-L6yI",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 24519,
+          "durationStr": "6:48:39",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T00:57:51+00:00"
         }
       ]
     },
@@ -2048,8 +2265,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 13643,
+      "totalDurationStr": "3 giờ 47 phút",
       "review": "Một cô gái hiện đại bất ngờ xuyên vào thế giới tiểu thuyết tu tiên, trở thành Lý Nhiễm – ác độc thứ tỷ có kết cục chết thảm ngay đầu truyện!\n\nTheo nguyên tác, nàng vì hãm hại muội muội Giang Thanh Nhị",
       "genres": [
         "Hệ thống / Thức tỉnh",
@@ -2066,9 +2283,10 @@
           "title": "NỮ PHỤ ĐỘC ÁC NGHỊCH THIÊN CẢI MỆNH – DÙNG CÔNG NGHỆ HIỆN ĐẠI QUẬY TUNG TIÊN GIỚI!",
           "url": "https://www.youtube.com/watch?v=hY8GGUdLMAs",
           "id": "hY8GGUdLMAs",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 13643,
+          "durationStr": "3:47:23",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T11:00:30+00:00"
         }
       ]
     },
@@ -2081,8 +2299,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 8939,
+      "totalDurationStr": "2 giờ 28 phút",
       "review": "Tần Tư Tư bất ngờ xuyên vào cuốn tiểu thuyết tiên hiệp cẩu huyết vừa đọc, trở thành nữ phụ pháo hôi có kết cục vô cùng thê thảm!\n\nTheo nguyên tác, nàng vốn là đệ tử bị Hoa Thanh Tông ruồng bỏ, suốt bả",
       "genres": [
         "Huyền huyễn / Tu tiên"
@@ -2098,9 +2316,10 @@
           "title": "BỊ SƯ PHỤ RUỒNG BỎ VÌ NỮ CHÍNH TRÀ XANH –NÀO NGỜ NÀNG BÁI ĐƯỢC ĐẠI LÃO, TRỞ THÀNH THIÊN TÀI TU TIÊN!",
           "url": "https://www.youtube.com/watch?v=QJSyoP21NIU",
           "id": "QJSyoP21NIU",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 8939,
+          "durationStr": "2:28:59",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T07:00:14+00:00"
         }
       ]
     },
@@ -2113,8 +2332,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 10384,
+      "totalDurationStr": "2 giờ 53 phút",
       "review": "Nàng vốn là một tiểu sư muội có tính cách vô tư, không tim không phổi, chẳng sợ trời cũng chẳng sợ đất. Vừa đặt chân vào tông môn, nàng đã khiến các sư huynh, sư tỷ phải đau đầu vì những hành động kỳ ",
       "genres": [
         "Huyền huyễn / Tu tiên"
@@ -2130,9 +2349,10 @@
           "title": "Phần 7 - TIỂU SƯ MUỘI KHÔNG TIM KHÔNG PHỔI",
           "url": "https://www.youtube.com/watch?v=MoNVcwHu6QY",
           "id": "MoNVcwHu6QY",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 10384,
+          "durationStr": "2:53:04",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T04:20:53+00:00"
         }
       ]
     },
@@ -2145,8 +2365,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7200,
-      "totalDurationStr": "2 giờ 00 phút",
+      "totalDurationSec": 17697,
+      "totalDurationStr": "4 giờ 54 phút",
       "review": "Một cô gái hiện đại bất ngờ xuyên vào thế giới tiểu thuyết tu tiên, nhưng trớ trêu thay, nàng không trở thành thiên kim tiểu thư hay thiên tài tu luyện mà lại biến thành một người luyện  cổ trùng nhỏ ",
       "genres": [
         "Huyền huyễn / Tu tiên"
@@ -2162,9 +2382,10 @@
           "title": "Phần 7 - Chuyên Gia Côn Trùng Xuyên Vào Truyện Tu Tiên Luyện Vạn Cổ Chí Tôn - Tu tiên Giới Khiếp Sợ",
           "url": "https://www.youtube.com/watch?v=NeTYQA4PxIc",
           "id": "NeTYQA4PxIc",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 17697,
+          "durationStr": "4:54:57",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T10:05:44+00:00"
         }
       ]
     },
@@ -2176,9 +2397,9 @@
       "channelUrl": "https://www.youtube.com/@thienphatreview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLZOXHPBklDro",
       "totalParts": 2,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 10344,
-      "totalDurationStr": "2 giờ 52 phút",
+      "partsStr": "2 phần",
+      "totalDurationSec": 17233,
+      "totalDurationStr": "4 giờ 47 phút",
       "review": "Trọng Sinh Trước 30 Ngày, Bán Công Ty Gom Vật Tư, Săn Dị Thú Đoạt Cơ Duyên. (1 phần (Phần 1))",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -2202,9 +2423,10 @@
           "title": "Phần 2 |Sinh Tồn Mạt Thế: Trọng Sinh Trước 30 Ngày, Bán Công Ty Gom Vật Tư, Săn Dị Thú Đoạt Cơ Duyên",
           "url": "https://www.youtube.com/watch?v=OdhurvgMtMg",
           "id": "OdhurvgMtMg",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 6889,
+          "durationStr": "1:54:49",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T00:00:15+00:00"
         }
       ],
       "updatedAt": "2026-11-10T00:00:15+00:00",
@@ -3357,9 +3579,9 @@
       "channelUrl": "https://www.youtube.com/@thienphatreview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLbGn31RTlsZM",
       "totalParts": 2,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 9873,
-      "totalDurationStr": "2 giờ 44 phút",
+      "partsStr": "2 phần",
+      "totalDurationSec": 19038,
+      "totalDurationStr": "5 giờ 17 phút",
       "review": "Giữa 10 Vạn Người, Ta Thức Tỉnh Thiên Phú Đoạt Lấy Vạn Vật. (1 phần (Phần 1))",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -3383,9 +3605,10 @@
           "title": "Phần 2 | Toàn Dân Sinh Tồn Lãnh Địa: Giữa 10 Vạn Người, Ta Thức Tỉnh Thiên Phú Đoạt Lấy Vạn Vật",
           "url": "https://www.youtube.com/watch?v=cEigMbymjW4",
           "id": "cEigMbymjW4",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 9165,
+          "durationStr": "2:32:45",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T04:00:15+00:00"
         }
       ],
       "updatedAt": "2026-11-10T04:00:15+00:00",
@@ -7088,9 +7311,9 @@
       "channelUrl": "https://www.youtube.com/@thienphatreview",
       "playlistUrl": null,
       "totalParts": 2,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 11152,
-      "totalDurationStr": "3 giờ 05 phút",
+      "partsStr": "2 phần",
+      "totalDurationSec": 19503,
+      "totalDurationStr": "5 giờ 25 phút",
       "review": "Ta Dùng Hệ Thống Nâng Cấp Xe Ba Gác Thành Chiến Xa Mạt Thế. (1 phần (Phần 1))",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -7114,9 +7337,10 @@
           "title": "Phần 2 | Trò Chơi Sinh Tồn Cao Tốc: Ta Dùng Hệ Thống Nâng Cấp Xe Ba Gác Thành Chiến Xa Mạt Thế",
           "url": "https://www.youtube.com/watch?v=A6kvVeqeIlc",
           "id": "A6kvVeqeIlc",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 8351,
+          "durationStr": "2:19:11",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T00:00:08+00:00"
         }
       ],
       "updatedAt": "2026-11-11T00:00:08+00:00",
@@ -8372,9 +8596,9 @@
       "channelUrl": "https://www.youtube.com/@thienphatreview",
       "playlistUrl": null,
       "totalParts": 2,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 46788,
-      "totalDurationStr": "12 giờ 59 phút",
+      "partsStr": "2 phần",
+      "totalDurationSec": 67886,
+      "totalDurationStr": "18 giờ 51 phút",
       "review": "Cha Liều Mạng Cứu Con, Thiếu Niên Trưởng Thành Quyết Tâm Báo Thù. (1 phần (Phần 1))",
       "genres": [
         "Cao võ / Nhiệt huyết"
@@ -8397,9 +8621,10 @@
           "title": "Phần 2-4 | Võ Đạo Dị Năng: Cha Liều Mạng Cứu Con, Thiếu Niên Trưởng Thành Quyết Tâm Báo Thù",
           "url": "https://www.youtube.com/watch?v=PAsQcymekjQ",
           "id": "PAsQcymekjQ",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 21098,
+          "durationStr": "5:51:38",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T10:00:00+00:00"
         }
       ],
       "updatedAt": "2026-11-11T10:00:00+00:00",
@@ -13083,9 +13308,9 @@
       "channelUrl": "https://www.youtube.com/@Ti%E1%BB%83u-H%E1%BB%93_Review",
       "playlistUrl": null,
       "totalParts": 6,
-      "partsStr": "4 phần / 4 video (Phần 43, Phần 44, Phần 45, Phần 46)",
-      "totalDurationSec": 33494,
-      "totalDurationStr": "9 giờ 18 phút",
+      "partsStr": "6 phần",
+      "totalDurationSec": 49557,
+      "totalDurationStr": "13 giờ 45 phút",
       "review": "Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. (4 phần / 4 video (Phần 43, Phần 44, Phần 45, Phần 46))",
       "genres": [
         "Tu tiên / Huyền huyễn"
@@ -13133,27 +13358,29 @@
           "isRedundant": false
         },
         {
-          "index": 48,
-          "label": "Phần 48",
-          "title": "Phần 48 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh",
-          "url": "https://www.youtube.com/watch?v=GRnhern5-z0",
-          "id": "GRnhern5-z0",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
-        },
-        {
           "index": 47,
           "label": "Phần 47",
           "title": "Phần 47 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh.",
           "url": "https://www.youtube.com/watch?v=v-Hz9063N_o",
           "id": "v-Hz9063N_o",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 7332,
+          "durationStr": "2:02:12",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T17:38:33+00:00"
+        },
+        {
+          "index": 48,
+          "label": "Phần 48",
+          "title": "Phần 48 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh",
+          "url": "https://www.youtube.com/watch?v=GRnhern5-z0",
+          "id": "GRnhern5-z0",
+          "duration": 8731,
+          "durationStr": "2:25:31",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T17:50:29+00:00"
         }
       ],
-      "updatedAt": "2026-11-09T17:38:33+00:00",
+      "updatedAt": "2026-11-10T17:50:29+00:00",
       "isRecent24h": true
     },
     {
@@ -18644,9 +18871,9 @@
       "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLCx3DCQ4o-lE",
       "totalParts": 2,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 51818,
-      "totalDurationStr": "14 giờ 23 phút",
+      "partsStr": "2 phần",
+      "totalDurationSec": 78206,
+      "totalDurationStr": "21 giờ 43 phút",
       "review": "Thời Gian Chi Long! (Bắt Đầu Từ Trứng Rồng Phế Vật, Lục Long Thức Tỉnh Ma Pháp Thời Gian Trấn Áp Thâm Uyên). (1 phần (Phần 1))",
       "genres": [
         "Hệ thống / Thức tỉnh",
@@ -18670,9 +18897,10 @@
           "title": "Phần 3 | Bắt Đầu Từ Trứng Rồng Phế Vật, Lục Long Thức Tỉnh Ma Pháp Thời Gian Trấn Áp Thâm Uyên",
           "url": "https://www.youtube.com/watch?v=D2GtkQ47dD0",
           "id": "D2GtkQ47dD0",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 26388,
+          "durationStr": "7:19:48",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T10:50:41+00:00"
         }
       ],
       "updatedAt": "2026-11-11T10:50:41+00:00",
@@ -21214,9 +21442,9 @@
       "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLYv9wdqJjjro",
       "totalParts": 91,
-      "partsStr": "1 phần (90 video, có bản gộp)",
-      "totalDurationSec": 39835,
-      "totalDurationStr": "11 giờ 03 phút",
+      "partsStr": "91 phần",
+      "totalDurationSec": 40493,
+      "totalDurationStr": "11 giờ 14 phút",
       "review": "(Fix lỗi) | NGỰ THÚ SƯ MẠNH NHẤT. (1 phần (90 video, có bản gộp))",
       "genres": [
         "Ngự thú / Tiến hóa"
@@ -22129,9 +22357,10 @@
           "title": "TẬP 793+794 | NGỰ THÚ SƯ MẠNH NHẤT | chiuchiu subtv",
           "url": "https://www.youtube.com/watch?v=QjQrSqYIvxk",
           "id": "QjQrSqYIvxk",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 658,
+          "durationStr": "10:58",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T11:30:22+00:00"
         }
       ],
       "updatedAt": "2026-11-10T11:30:22+00:00",
@@ -23796,9 +24025,9 @@
       "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
       "playlistUrl": null,
       "totalParts": 2,
-      "partsStr": "2 phần (Gộp Phần 1+2 trong 1 video)",
-      "totalDurationSec": 24181,
-      "totalDurationStr": "6 giờ 43 phút",
+      "partsStr": "2 phần",
+      "totalDurationSec": 37352,
+      "totalDurationStr": "10 giờ 22 phút",
       "review": "Xuyên Không Làm Lãnh Chúa, Ta Có Binh Chủng Thiên Sứ San Bằng Vạn Giới. (2 phần (Gộp Phần 1+2 trong 1 video))",
       "genres": [
         "Xuyên không / Trọng sinh"
@@ -23821,9 +24050,10 @@
           "title": "Phần 3 | Xuyên Không Làm Lãnh Chúa, Ta Có Binh Chủng Thiên Sứ San Bằng Vạn Giới",
           "url": "https://www.youtube.com/watch?v=BbdNPidYlrE",
           "id": "BbdNPidYlrE",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 13171,
+          "durationStr": "3:39:31",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T09:12:03+00:00"
         }
       ],
       "updatedAt": "2026-11-10T09:12:03+00:00",
@@ -34715,9 +34945,9 @@
       "channelUrl": "https://www.youtube.com/@thienanhstudio9",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLHo3EcYZixVc",
       "totalParts": 2,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 12431,
-      "totalDurationStr": "3 giờ 27 phút",
+      "partsStr": "2 phần",
+      "totalDurationSec": 21389,
+      "totalDurationStr": "5 giờ 56 phút",
       "review": "Bắt Đầu Từ Việc Giẫm Chết Kiến Để Thành Thần!. (1 phần (Phần 1))",
       "genres": [
         "Cao võ / Nhiệt huyết"
@@ -34740,9 +34970,10 @@
           "title": "Full Phần 2 |【Cao Võ: Bắt Đầu Từ Việc Giẫm Chết Kiến Để Thành Thần!】",
           "url": "https://www.youtube.com/watch?v=WdLeYz6fDgk",
           "id": "WdLeYz6fDgk",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 8958,
+          "durationStr": "2:29:18",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T04:08:49+00:00"
         }
       ],
       "updatedAt": "2026-11-10T04:08:49+00:00",
@@ -34756,9 +34987,9 @@
       "channelUrl": "https://www.youtube.com/@thienanhstudio9",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLAnzDCINrZkM",
       "totalParts": 2,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 10157,
-      "totalDurationStr": "2 giờ 49 phút",
+      "partsStr": "2 phần",
+      "totalDurationSec": 20050,
+      "totalDurationStr": "5 giờ 34 phút",
       "review": "Ta Có Thiên Phú Cướp Đoạt. (1 phần (Phần 1))",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -34782,9 +35013,10 @@
           "title": "Full Phần 2 |  Lãnh Chúa Sinh Tồn: Ta Có Thiên Phú Cướp Đoạt",
           "url": "https://www.youtube.com/watch?v=3Ir4EccqrxA",
           "id": "3Ir4EccqrxA",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 9893,
+          "durationStr": "2:44:53",
+          "isRedundant": false,
+          "publishedAt": "2026-11-09T09:41:10+00:00"
         }
       ],
       "updatedAt": "2026-11-09T09:41:10+00:00",
@@ -35375,9 +35607,9 @@
       "channelUrl": "https://www.youtube.com/@thienanhstudio9",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLQ61hbYZsJXU",
       "totalParts": 3,
-      "partsStr": "2 phần / 2 video (Phần 5, Phần 6)",
-      "totalDurationSec": 19532,
-      "totalDurationStr": "5 giờ 25 phút",
+      "partsStr": "3 phần",
+      "totalDurationSec": 29917,
+      "totalDurationStr": "8 giờ 18 phút",
       "review": "Xuyên Không Thành Cương Thi, Ta Bật Chế Độ Báo Đời. (2 phần / 2 video (Phần 5, Phần 6))",
       "genres": [
         "Xuyên không / Trọng sinh",
@@ -35411,9 +35643,10 @@
           "title": "Full Phần 7 | Xuyên Không Thành Cương Thi, Ta Bật Chế Độ Báo Đời",
           "url": "https://www.youtube.com/watch?v=swATQnSYfzY",
           "id": "swATQnSYfzY",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 10385,
+          "durationStr": "2:53:05",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T15:23:33+00:00"
         }
       ],
       "updatedAt": "2026-11-11T15:23:33+00:00",
@@ -38300,9 +38533,9 @@
       "channelUrl": "https://www.youtube.com/@thienanhstudio9",
       "playlistUrl": null,
       "totalParts": 2,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 22955,
-      "totalDurationStr": "6 giờ 22 phút",
+      "partsStr": "2 phần",
+      "totalDurationSec": 32053,
+      "totalDurationStr": "8 giờ 54 phút",
       "review": "Bắt Đầu Từ Việc Xem Quảng Cáo Để Mạnh Lên. (1 phần (Phần 1))",
       "genres": [
         "Sinh tồn / Mạt thế"
@@ -38325,9 +38558,10 @@
           "title": "Full Phần 2 |【Sinh Tồn Ký Túc Xá Quỷ Dữ: Bắt Đầu Từ Việc Xem Quảng Cáo Để Mạnh Lên】",
           "url": "https://www.youtube.com/watch?v=FPJp-4vD5Vk",
           "id": "FPJp-4vD5Vk",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 9098,
+          "durationStr": "2:31:38",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T09:20:37+00:00"
         }
       ],
       "updatedAt": "2026-11-11T09:20:37+00:00",
@@ -39107,10 +39341,10 @@
       "channelName": "Thiên Ảnh Studio",
       "channelUrl": "https://www.youtube.com/@thienanhstudio9",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 17476,
-      "totalDurationStr": "4 giờ 51 phút",
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 38428,
+      "totalDurationStr": "10 giờ 40 phút",
       "review": "Hắc Triều Giáng Lâm, Quỷ Vật Hoành Hành, Cả Thế Giới Chỉ Còn Lại Một Con Đường Sinh Tồn Duy Nhất?!. (1 phần (Phần 1))",
       "genres": [
         "Sinh tồn / Mạt thế"
@@ -39126,8 +39360,21 @@
           "duration": 17476,
           "durationStr": "4:51:16",
           "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "P 2 - 3 | Hắc Triều Giáng Lâm, Quỷ Vật Hoành Hành, Cả Thế Giới Chỉ Còn Lại Một Con Đường Sinh Tồn",
+          "url": "https://www.youtube.com/watch?v=ACNWEPzGFFg",
+          "id": "ACNWEPzGFFg",
+          "duration": 20952,
+          "durationStr": "5:49:12",
+          "publishedAt": "2026-11-12T00:49:29+00:00",
+          "isRedundant": false
         }
-      ]
+      ],
+      "updatedAt": "2026-11-12T00:49:29+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_1010",
@@ -45041,9 +45288,9 @@
       "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
       "playlistUrl": null,
       "totalParts": 2,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 11867,
-      "totalDurationStr": "3 giờ 17 phút",
+      "partsStr": "2 phần",
+      "totalDurationSec": 21594,
+      "totalDurationStr": "5 giờ 59 phút",
       "review": "Sau Lưng Có Cả Thiên Đình Chư Tiên, Mà Ngươi Lại Bảo Ta Sợ Quỷ Dị Phục Tô Sao?!. (1 phần (Phần 1))",
       "genres": [
         "Quỷ dị / Linh dị"
@@ -45066,9 +45313,10 @@
           "title": "Full Phần 2 |【Sau Lưng Có Cả Thiên Đình Chư Tiên, Mà Ngươi Lại Bảo Ta Sợ Quỷ Dị Phục Tô Sao?!】",
           "url": "https://www.youtube.com/watch?v=cNDp0Q-vhqI",
           "id": "cNDp0Q-vhqI",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 9727,
+          "durationStr": "2:42:07",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T12:24:15+00:00"
         }
       ],
       "updatedAt": "2026-11-11T12:24:15+00:00",
@@ -50128,9 +50376,9 @@
       "channelUrl": "https://www.youtube.com/@vanmonggiao",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLRQ3UriR_QzE",
       "totalParts": 3,
-      "partsStr": "2 phần (Phần 1 -> 2)",
-      "totalDurationSec": 19762,
-      "totalDurationStr": "5 giờ 29 phút",
+      "partsStr": "3 phần",
+      "totalDurationSec": 31723,
+      "totalDurationStr": "8 giờ 48 phút",
       "review": "Người Khác Ngự Thú, Tôi Ngự Thiên Sứ. (2 phần (Phần 1 -> 2))",
       "genres": [
         "Ngự thú / Tiến hóa"
@@ -50163,9 +50411,10 @@
           "title": "Full Phần 3 | 【Người Khác Ngự Thú, Tôi Ngự Thiên Sứ】",
           "url": "https://www.youtube.com/watch?v=M4A9xXsN8zQ",
           "id": "M4A9xXsN8zQ",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 11961,
+          "durationStr": "3:19:21",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T10:40:15+00:00"
         }
       ],
       "updatedAt": "2026-11-10T10:40:15+00:00",
@@ -52294,9 +52543,9 @@
       "channelUrl": "https://www.youtube.com/@vanmonggiao",
       "playlistUrl": null,
       "totalParts": 2,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 9026,
-      "totalDurationStr": "2 giờ 30 phút",
+      "partsStr": "2 phần",
+      "totalDurationSec": 20427,
+      "totalDurationStr": "5 giờ 40 phút",
       "review": "Shipper Thức Tỉnh Hệ Thống Nghề Nghiệp Ngẫu Nhiên Mỗi Tuần!. (1 phần (Phần 1))",
       "genres": [
         "Hệ thống / Thức tỉnh"
@@ -52319,9 +52568,10 @@
           "title": "Fulll Phần 2 | Shipper Thức Tỉnh Hệ Thống Nghề Nghiệp Ngẫu Nhiên Mỗi Tuần!",
           "url": "https://www.youtube.com/watch?v=_X8w8-4XdxA",
           "id": "_X8w8-4XdxA",
-          "duration": 7200,
-          "durationStr": "2:00:00",
-          "isRedundant": false
+          "duration": 11401,
+          "durationStr": "3:10:01",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T09:17:58+00:00"
         }
       ],
       "updatedAt": "2026-11-11T09:17:58+00:00",

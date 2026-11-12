@@ -15,4 +15,7 @@
 - [x] Updated catalog with 56 newly discovered films & 14 episodes (1,620 total films).
 - [x] Switched 100% to real YouTube publish timestamps (fixed fake mock timeAgo).
 - [x] Added cache-busting versioning and instant update enforcement in vercel.json and index.html.
-- [x] Ready for 1-click Vercel deployment with automated 30-min sync.
+- [x] Added Vercel Serverless `api/live-feed.js` (5-min Edge cache) + `scripts/dev_server.py` for real-time YouTube RSS + duration fetching.
+- [x] Backfilled real `lengthSeconds` across 80 films & repaired chronological episode ordering (1,633 total films).
+- [x] Fixed `openPlayer` episode lookup by `partNumber` (e.g., Phần 48) and strict 24h feed filtering.
+- [x] Live on Vercel & GitHub with dual real-time + scheduled synchronization.

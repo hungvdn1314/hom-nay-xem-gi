@@ -31,14 +31,21 @@
   - Recent updates feed and notifications now strictly show real timestamps (e.g. 14 giờ trước, 1 ngày trước, 4 ngày trước).
   - Cleaned any legacy mock notifications from localStorage.
 - **Cache-Busting & Instant Update Enforcement**:
-  - Added cache-busting version hashes to asset links in `index.html` (`data.js?v=2.1`, `app.js?v=2.1`, `style.css?v=2.1`).
-  - Updated `vercel.json` to enforce `max-age=0, must-revalidate` across all routes.
-  - Added schema version validation `20261111_v2_realtime` in `app.js` to automatically purge stale browser localStorage caches.
+  - Added cache-busting version hashes to asset links in `index.html` and automated bump inside `scripts/update_youtube_feed.py`.
+  - Updated `vercel.json` to enforce `max-age=0, must-revalidate` for static files and `s-maxage=300, stale-while-revalidate=600` for `/api/(.*)`.
+  - Updated schema version `20261112_v3_realtime` in `app.js` to purge stale caches.
+
+- **Feature 5: Real-Time Vercel Live Feed API & True Duration Extraction**:
+  - Created Vercel Serverless endpoint `api/live-feed.js` and local mirror `scripts/dev_server.py` (supporting `GET /api/live-feed`).
+  - Enhanced `scripts/update_youtube_feed.py` to fetch real `lengthSeconds` & `publishDate` concurrently from YouTube watch pages (`ThreadPoolExecutor`), reverse-chronologically ingest RSS entries (preventing backward `updatedAt` overwrites), sort parts cleanly, and recalculate summed durations.
+  - Executed `--backfill` across all 80 placeholder `7200s` films (`film_1621` -> `6 giờ 29 phút`, `film_1627` -> `6 giờ 24 phút`, etc.) + ingested 7 latest morning uploads (catalog now 1,633 films).
+  - Updated `app.js` (`syncLiveYouTubeFeed`, strict 24h window in `Mới Cập Nhật 24h`, accurate part-number resolution in `openPlayer` fixing Part 48 playback).
 
 ## Verification Completed
-- End-to-end Puppeteer verification executed and passed:
-  - Duration badge cleanup verified with 0 violations across all 1,564 films.
-  - YouTube RSS feed crawler ran locally with 0 errors and successfully ingested 56 new films & 14 parts.
-  - Idempotency test passed (0 duplicate commits when no new videos exist).
-  - Real YouTube publish timestamps verified on `film_2` (`⚡ 4 ngày trước`) and today's new videos (`14 giờ trước`).
-  - Notification Popover screenshot taken with 100% real dates (`notif_popover_real_dates`).
+- End-to-end verification executed and passed after final edits:
+  - Direct Node execution of `api/live-feed.js`: HTTP 200, 24 live videos with real durations in ~2.5s.
+  - Puppeteer verification via `scripts/dev_server.py` on `http://localhost:8080`:
+    - `⚡ Mới Cập Nhật 24h` badge: `29` films strictly within 24h (newest `34 phút trước`, `9 giờ 36 phút`).
+    - `film_1621` verified `6 giờ 29 phút` instead of `2 giờ 00 phút`.
+    - `film_301` (`Nhất Kiếm Trường Sinh`) Theater Modal verified playing `Phần 48` (`GRnhern5-z0`) with ordered episodes `Phần 43..48` and exact durations (`2:25:31 [MỚI]`).
+    - Screenshot taken (`fixed_24h_live_feed`).
