@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 1639,
+    "totalFilms": 1651,
     "totalChannels": 8,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-12T09:02:04.331927+00:00"
+    "lastUpdated": "2026-11-12T17:40:19.252894+00:00"
   },
   "channels": [
     {
@@ -57,6 +57,407 @@
     }
   ],
   "films": [
+    {
+      "id": "film_1645",
+      "title": "Full P1 | Bất Ngờ Biến Thành Một Đóa Thanh Liên Trên Núi Thanh Vân, Tôi Kích Hoạt Hệ Thống Thôn Phệ",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Bất Ngờ Biến Thành Một Đóa Thanh Liên Trên Núi Thanh Vân, Tôi Kích Hoạt Hệ Thống Thôn Phệ Ti",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/9hS3WAKTEos/hqdefault.jpg",
+      "publishedAt": "2026-11-12T15:02:27+00:00",
+      "updatedAt": "2026-11-12T15:02:27+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full P1 | Bất Ngờ Biến Thành Một Đóa Thanh Liên Trên Núi Thanh Vân, Tôi Kích Hoạt Hệ Thống Thôn Phệ",
+          "url": "https://www.youtube.com/watch?v=9hS3WAKTEos",
+          "id": "9hS3WAKTEos",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T15:02:27+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1651",
+      "title": "Full P1 |【Xuyên Đến Thế Giới Người Giả, Tôi Dựa Vào Livestream Ăn Uống Kỳ Quái Để Duy Trì Mạng Sống】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Xuyên Đến Thế Giới Người Giả, Tôi Dựa Vào Livestream Ăn Uống Kỳ Quái Để Duy Trì Mạng Sống!】\n",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/rnqKV3GkKGs/hqdefault.jpg",
+      "publishedAt": "2026-11-12T15:02:01+00:00",
+      "updatedAt": "2026-11-12T15:02:01+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full P1 |【Xuyên Đến Thế Giới Người Giả, Tôi Dựa Vào Livestream Ăn Uống Kỳ Quái Để Duy Trì Mạng Sống】",
+          "url": "https://www.youtube.com/watch?v=rnqKV3GkKGs",
+          "id": "rnqKV3GkKGs",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T15:02:01+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1648",
+      "title": "Full Phần 1 |【Ta Là Giả Tiên Nhân, Chuyên Mở Hộp Quà Công Nghệ!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Ta Là Giả Tiên Nhân, Chuyên Mở Hộp Quà Công Nghệ!】\n\n📦 Trong thế giới tu tiên đầy bí ẩn, nam ",
+      "genres": [
+        "Huyền huyễn / Tu tiên"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/86e1QmB0qQc/hqdefault.jpg",
+      "publishedAt": "2026-11-12T15:01:10+00:00",
+      "updatedAt": "2026-11-12T15:01:10+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Ta Là Giả Tiên Nhân, Chuyên Mở Hộp Quà Công Nghệ!】",
+          "url": "https://www.youtube.com/watch?v=86e1QmB0qQc",
+          "id": "86e1QmB0qQc",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T15:01:10+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1642",
+      "title": "Xuyên Không Tu Tiên Thức Tỉnh Luân Hồi Thư, Trùng Sinh 6 Kiếp Ta Là Cực Cảnh Đạo Thể",
+      "channelId": "chiuchiusubtv",
+      "channelName": "ChiuChiuSubTV",
+      "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "🔥Đăng ký kênh để xem fim hay mỗi ngày: https://www.youtube.com/@UCWsKmJAGnozzktv5A-duTaA \n\n📌 Tóm Tắt Phim: \nMỗi một kiếp ngã xuống là một lần tái sinh nghịch chuyển càn khôn! Chàng trai xuyên không ma",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/kRzCuWUC6Yw/hqdefault.jpg",
+      "publishedAt": "2026-11-12T13:05:01+00:00",
+      "updatedAt": "2026-11-12T13:05:01+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Tu Tiên Thức Tỉnh Luân Hồi Thư, Trùng Sinh 6 Kiếp Ta Là Cực Cảnh Đạo Thể",
+          "url": "https://www.youtube.com/watch?v=kRzCuWUC6Yw",
+          "id": "kRzCuWUC6Yw",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T13:05:01+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1641",
+      "title": "Sinh Tồn Mạt Thế, Khởi Đầu Với Hầm Trú Ẩn 30m²,Ta Có Thiên Phú Mô Phỏng Cấp D | Thiên Phạt Review",
+      "channelId": "thienphatreview",
+      "channelName": "Thiên Phạt Review",
+      "channelUrl": "https://www.youtube.com/@thienphatreview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "Sinh Tồn Mạt Thế, Khởi Đầu Với Hầm Trú Ẩn 30m²,Ta Có Thiên Phú Mô Phỏng Cấp D \n\nThiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các thể loại.\nRevie",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/GhVPApgkpDA/hqdefault.jpg",
+      "publishedAt": "2026-11-12T12:00:09+00:00",
+      "updatedAt": "2026-11-12T12:00:09+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Sinh Tồn Mạt Thế, Khởi Đầu Với Hầm Trú Ẩn 30m²,Ta Có Thiên Phú Mô Phỏng Cấp D | Thiên Phạt Review",
+          "url": "https://www.youtube.com/watch?v=GhVPApgkpDA",
+          "id": "GhVPApgkpDA",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T12:00:09+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1644",
+      "title": "Full Phần 2 | 【Mất Tích 5 Năm, Tôi Trở Thành Vua Của Phó Bản Quỷ Dị!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Full Phần 2 | Mất Tích 5 Năm, Tôi Trở Thành Vua Của Phó Bản Quỷ Dị!】\n\n👻 Sau 5 năm mất tích b",
+      "genres": [
+        "Hoạt hình 2D/3D"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/Ys0zhY6sAHo/hqdefault.jpg",
+      "publishedAt": "2026-11-12T11:57:53+00:00",
+      "updatedAt": "2026-11-12T11:57:53+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Full Phần 2 | 【Mất Tích 5 Năm, Tôi Trở Thành Vua Của Phó Bản Quỷ Dị!】",
+          "url": "https://www.youtube.com/watch?v=Ys0zhY6sAHo",
+          "id": "Ys0zhY6sAHo",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T11:57:53+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1650",
+      "title": "Full Phần 1 | Thức Tỉnh! Nữ Phụ Độc Ác Lại Chính Là Bạch Nguyệt Quang Của Đại Lão!",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Thức Tỉnh! Nữ Phụ Độc Ác Lại Chính Là Bạch Nguyệt Quang Của Đại Lão!】\n\n🌸 Tưởng chừng chỉ là ",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/OdEvFZ4yo7U/hqdefault.jpg",
+      "publishedAt": "2026-11-12T11:57:19+00:00",
+      "updatedAt": "2026-11-12T11:57:19+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Thức Tỉnh! Nữ Phụ Độc Ác Lại Chính Là Bạch Nguyệt Quang Của Đại Lão!",
+          "url": "https://www.youtube.com/watch?v=OdEvFZ4yo7U",
+          "id": "OdEvFZ4yo7U",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T11:57:19+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1647",
+      "title": "Full Phần 1 |【Tôi Lái Tàu Cao Tốc Giữa Tận Thế, Càng Nhiều Hành Khách, Tôi Càng Mạnh!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Tôi Lái Tàu Cao Tốc Giữa Tận Thế, Càng Nhiều Hành Khách, Tôi Càng Mạnh!】\n\n🚄 Giữa thế giới tậ",
+      "genres": [
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/Z6XF2T-RRL4/hqdefault.jpg",
+      "publishedAt": "2026-11-12T11:56:54+00:00",
+      "updatedAt": "2026-11-12T11:56:54+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Tôi Lái Tàu Cao Tốc Giữa Tận Thế, Càng Nhiều Hành Khách, Tôi Càng Mạnh!】",
+          "url": "https://www.youtube.com/watch?v=Z6XF2T-RRL4",
+          "id": "Z6XF2T-RRL4",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T11:56:54+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1640",
+      "title": "P2 | Sinh Tồn Mạt Thế: Huyết Nguyệt Giáng Lâm,Thức Tỉnh trình tự Siêu Phàm Cùng Đoàn Xe Chống Quỷ Dị",
+      "channelId": "thienphatreview",
+      "channelName": "Thiên Phạt Review",
+      "channelUrl": "https://www.youtube.com/@thienphatreview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "Sinh Tồn Mạt Thế: Huyết Nguyệt Giáng Lâm, Thức Tỉnh trình tự Siêu Phàm Cùng Đoàn Xe Chống Quỷ Dị  \n\nThiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/cF6yJnPKhYM/hqdefault.jpg",
+      "publishedAt": "2026-11-12T10:00:22+00:00",
+      "updatedAt": "2026-11-12T10:00:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "P2 | Sinh Tồn Mạt Thế: Huyết Nguyệt Giáng Lâm,Thức Tỉnh trình tự Siêu Phàm Cùng Đoàn Xe Chống Quỷ Dị",
+          "url": "https://www.youtube.com/watch?v=cF6yJnPKhYM",
+          "id": "cF6yJnPKhYM",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T10:00:22+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1643",
+      "title": "P1 | Tôi Hóa Thân Thành Đấu Giá Sư, Mời Các Đại Gia Và Doanh Nhân Hàng Đầu Đến Tranh Giành Bảo Vật!",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Tôi Hóa Thân Thành Đấu Giá Sư Bí Ẩn, Mời Các Đại Gia Và Doanh Nhân Hàng Đầu Đến Tranh Giành ",
+      "genres": [
+        "Hoạt hình 2D/3D"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/0Ox3mqBeHPs/hqdefault.jpg",
+      "publishedAt": "2026-11-12T09:27:12+00:00",
+      "updatedAt": "2026-11-12T09:27:12+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1 | Tôi Hóa Thân Thành Đấu Giá Sư, Mời Các Đại Gia Và Doanh Nhân Hàng Đầu Đến Tranh Giành Bảo Vật!",
+          "url": "https://www.youtube.com/watch?v=0Ox3mqBeHPs",
+          "id": "0Ox3mqBeHPs",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T09:27:12+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1649",
+      "title": "P1 | Thức Tỉnh Hệ Thống Đại Diện Luân Hồi, Dẫn Dắt Những Vong Hồn Để Nhận Công Đức Kéo Dài Tuổi Thọ",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Thức Tỉnh Hệ Thống Đại Diện Luân Hồi, Có Thể Dẫn Dắt Những Vong Hồn Chết Oan Để Nhận Công Đứ",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/Xf0r9c48a5k/hqdefault.jpg",
+      "publishedAt": "2026-11-12T09:26:51+00:00",
+      "updatedAt": "2026-11-12T09:26:51+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1 | Thức Tỉnh Hệ Thống Đại Diện Luân Hồi, Dẫn Dắt Những Vong Hồn Để Nhận Công Đức Kéo Dài Tuổi Thọ",
+          "url": "https://www.youtube.com/watch?v=Xf0r9c48a5k",
+          "id": "Xf0r9c48a5k",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T09:26:51+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1646",
+      "title": "Bỏ 500 Tệ Thuê Bạn Gái Về Ăn Tết Để Trốn Giục Cưới, Ai Ngờ Thức Tỉnh Hệ Thống Người Yêu Chân Thành",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Bỏ 500 Tệ Thuê Bạn Gái Về Ăn Tết Để Trốn Bị Giục Cưới, Ai Ngờ Thức Tỉnh Hệ Thống Người Yêu C",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/YoKcB4vKKls/hqdefault.jpg",
+      "publishedAt": "2026-11-12T09:25:51+00:00",
+      "updatedAt": "2026-11-12T09:25:51+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Bỏ 500 Tệ Thuê Bạn Gái Về Ăn Tết Để Trốn Giục Cưới, Ai Ngờ Thức Tỉnh Hệ Thống Người Yêu Chân Thành",
+          "url": "https://www.youtube.com/watch?v=YoKcB4vKKls",
+          "id": "YoKcB4vKKls",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T09:25:51+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1637",
       "title": "Full P1 |【Xuyên Qua Tiên Giới Và Phàm Giới, Giọng Hát Trời Ban Của Tôi Gây Chấn Động Giới Giải Trí!】",
@@ -30299,8 +30700,8 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLfzn8JbYO0VE",
-      "totalParts": 9,
-      "partsStr": "9 phần (Phần 1 -> 9)",
+      "totalParts": 10,
+      "partsStr": "10 phần",
       "totalDurationSec": 77881,
       "totalDurationStr": "21 giờ 38 phút",
       "review": "Pháp Bảo Của Sư Thúc Có Chút Kỳ Quái. (9 phần (Phần 1 -> 9))",
@@ -30398,8 +30799,21 @@
           "duration": 10750,
           "durationStr": "2:59:10",
           "isRedundant": false
+        },
+        {
+          "index": 10,
+          "label": "Phần 10",
+          "title": "Mùa 10 | Bạo Tiếu Tu Tiên: Pháp Bảo Của Sư Thúc Có Chút Kỳ Quái",
+          "url": "https://www.youtube.com/watch?v=DzF-d5KhVTU",
+          "id": "DzF-d5KhVTU",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-12T14:33:34+00:00",
+          "isRedundant": false
         }
-      ]
+      ],
+      "updatedAt": "2026-11-12T14:33:34+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_770",
