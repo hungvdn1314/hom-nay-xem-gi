@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 1703,
+    "totalFilms": 1704,
     "totalChannels": 8,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-14T13:28:17.059109+00:00"
+    "lastUpdated": "2026-11-14T18:54:45.752916+00:00"
   },
   "channels": [
     {
@@ -57,6 +57,40 @@
     }
   ],
   "films": [
+    {
+      "id": "film_1704",
+      "title": "Full Phần 1 | 【Phân Thân Của Tôi Trải Khắp Chư Thiên Vạn Giới!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11801,
+      "totalDurationStr": "3 giờ 16 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Phân Thân Của Tôi Trải Khắp Chư Thiên Vạn Giới!】\n\n📖 Xuyên không đến Liên bang Nhân loại, Hạ ",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/myiqr7fhRe8/hqdefault.jpg",
+      "publishedAt": "2026-11-14T14:39:04+00:00",
+      "updatedAt": "2026-11-14T14:39:04+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Phân Thân Của Tôi Trải Khắp Chư Thiên Vạn Giới!】",
+          "url": "https://www.youtube.com/watch?v=myiqr7fhRe8",
+          "id": "myiqr7fhRe8",
+          "duration": 11801,
+          "durationStr": "3:16:41",
+          "publishedAt": "2026-11-14T14:39:04+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1684",
       "title": "Sinh Tồn Nguyên Thủy: 10 Tỷ Người Xuyên Không, Ta Dùng Súng Hiện Đại Săn Hung Thú",
@@ -30804,10 +30838,10 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLH6Memg4Q1eM",
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 33052,
-      "totalDurationStr": "9 giờ 10 phút",
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 44144,
+      "totalDurationStr": "12 giờ 15 phút",
       "review": "Đại Sư Huyền Thuật Đi Học Luật, Lạ Lắm Sao?. (2 phần (Phần 1 -> 2))",
       "genres": [
         "Hoạt hình 2D/3D (Manhua/Donghua)"
@@ -30844,9 +30878,20 @@
           "durationStr": "3:02:36",
           "publishedAt": "2026-11-13T19:34:42+00:00",
           "isRedundant": false
+        },
+        {
+          "index": 4,
+          "label": "Mùa 3",
+          "title": "Mùa 3 (FIX) | Đại Sư Huyền Thuật Đi Học Luật, Lạ Lắm Sao?",
+          "url": "https://www.youtube.com/watch?v=HwJXhKCPZiI",
+          "id": "HwJXhKCPZiI",
+          "duration": 11092,
+          "durationStr": "3:04:52",
+          "publishedAt": "2026-11-14T14:08:19+00:00",
+          "isRedundant": false
         }
       ],
-      "updatedAt": "2026-11-13T19:34:42+00:00",
+      "updatedAt": "2026-11-14T14:08:19+00:00",
       "isRecent24h": true
     },
     {
