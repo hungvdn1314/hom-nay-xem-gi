@@ -4,7 +4,7 @@
     "totalChannels": 8,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-14T18:54:45.752916+00:00"
+    "lastUpdated": "2026-11-14T22:49:51.176722+00:00"
   },
   "channels": [
     {
@@ -31388,10 +31388,10 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLZrnQ6_csBO4",
-      "totalParts": 4,
-      "partsStr": "4 phần",
-      "totalDurationSec": 74655,
-      "totalDurationStr": "20 giờ 44 phút",
+      "totalParts": 5,
+      "partsStr": "5 phần",
+      "totalDurationSec": 87509,
+      "totalDurationStr": "24 giờ 18 phút",
       "review": "Ta Đã Nguyên Anh Kỳ Rồi, Ngươi Còn Bảo Ta Đi Học?. (4 phần / 4 video (Mùa 1-P1, Mùa 1-P2, Mùa 3, Mùa 4))",
       "genres": [
         "Tu tiên / Huyền huyễn"
@@ -31420,6 +31420,17 @@
         },
         {
           "index": 3,
+          "label": "Mùa 5",
+          "title": "Mùa 5 | Ta Đã Nguyên Anh Kỳ Rồi, Ngươi Còn Bảo Ta Đi Học?",
+          "url": "https://www.youtube.com/watch?v=AiFeKWww324",
+          "id": "AiFeKWww324",
+          "duration": 12854,
+          "durationStr": "3:34:14",
+          "publishedAt": "2026-11-14T19:07:58+00:00",
+          "isRedundant": false
+        },
+        {
+          "index": 4,
           "label": "Mùa 1 - P1",
           "title": "Mùa 1 - P1 | Ta Đã Nguyên Anh Kỳ Rồi, Ngươi Còn Bảo Ta Đi Học?",
           "url": "https://www.youtube.com/watch?v=_aky8y_H_RI",
@@ -31429,7 +31440,7 @@
           "isRedundant": false
         },
         {
-          "index": 4,
+          "index": 5,
           "label": "Mùa 1 - P2",
           "title": "Mùa 1 - P2 | Ta Đã Nguyên Anh Kỳ Rồi, Ngươi Còn Bảo Ta Đi Học?",
           "url": "https://www.youtube.com/watch?v=PcYaj4-U6-o",
@@ -31438,7 +31449,9 @@
           "durationStr": "4:23:10",
           "isRedundant": false
         }
-      ]
+      ],
+      "updatedAt": "2026-11-14T19:07:58+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_748",
