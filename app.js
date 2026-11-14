@@ -1,6 +1,6 @@
 /**
  * HÔM NAY XEM GÌ - NORDIC MINIMALIST APPLICATION CONTROLLER
- * 1,564 Animated & Donghua Films from 8 Curated Channels
+ * Curated Animated & Donghua Films from 8 YouTube Channels
  * Features: 24h Newfeed Live Updates & Notification Tracker
  */
 
@@ -49,12 +49,10 @@
 
   function cacheDomElements() {
     el.brandHomeBtn = document.getElementById('brandHomeBtn');
-    el.liveAudienceBadge = document.getElementById('liveAudienceBadge');
+    el.brandCaption = document.getElementById('brandCaption');
     el.btnDiceRandom = document.getElementById('btnDiceRandom');
     el.btnFavoritesOpen = document.getElementById('btnFavoritesOpen');
-    el.btnHistoryOpen = document.getElementById('btnHistoryOpen');
     el.favCountBadge = document.getElementById('favCountBadge');
-    el.histCountBadge = document.getElementById('histCountBadge');
 
     // Notification Elements
     el.notifWrapper = document.getElementById('notifWrapper');
@@ -135,7 +133,6 @@
 
   function updateBadgeCounts() {
     if (el.favCountBadge) el.favCountBadge.textContent = state.favorites.size;
-    if (el.histCountBadge) el.histCountBadge.textContent = state.history.length;
   }
 
   // -------------------------------------------------------------------------
@@ -396,6 +393,9 @@
     if (el.tabRecentBadge) {
       el.tabRecentBadge.textContent = state.recent24hFilms.length;
     }
+    if (el.brandCaption && state.allFilms.length > 0) {
+      el.brandCaption.textContent = `${state.allFilms.length.toLocaleString('vi-VN')} BỘ PHIM • 8 KÊNH YOUTUBE`;
+    }
   }
 
   async function syncLiveYouTubeFeed() {
@@ -655,7 +655,9 @@
     if (!state.notifications || state.notifications.length === 0) {
       el.notifListContainer.innerHTML = `
         <div class="notif-empty">
-          <div style="font-size: 2rem; margin-bottom: 0.5rem;">🔔</div>
+          <div style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: var(--sky-50); color: var(--sky-500); margin-bottom: 0.65rem;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+          </div>
           <p style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem;">Chưa có thông báo tập mới</p>
           <p style="font-size: 0.75rem;">Hãy bấm nút trái tim để theo dõi các bộ phim bạn yêu thích. Khi có tập mới, bạn sẽ nhận được thông báo ngay tại đây!</p>
         </div>
@@ -669,7 +671,7 @@
         <div class="notif-body">
           <h4 class="notif-title">${escapeHtml(item.filmTitle)}</h4>
           <div class="notif-badge-row">
-            <span class="notif-part-pill">✨ Vừa ra ${item.partLabel}</span>
+            <span class="notif-part-pill">Vừa ra ${escapeHtml(item.partLabel)}</span>
             <span>•</span>
             <span class="notif-channel">${escapeHtml(item.channelName)}</span>
           </div>
@@ -878,7 +880,9 @@
     if (items.length === 0) {
       el.cardsWidescreenGrid.innerHTML = `
         <div style="grid-column: 1 / -1; text-align: center; padding: 4.5rem 1rem; color: var(--text-muted);">
-          <div style="font-size: 2.75rem; margin-bottom: 0.5rem;">🎬</div>
+          <div style="display: inline-flex; align-items: center; justify-content: center; width: 52px; height: 52px; border-radius: 14px; background: var(--sky-50); color: var(--sky-500); margin-bottom: 0.75rem;">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          </div>
           <p style="font-size: 1.0625rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem;">
             Không tìm thấy phim phù hợp với tiêu chí lọc
           </p>
@@ -913,8 +917,8 @@
 
             <!-- RECENT 24H LIVE UPDATE PILL -->
             ${hasRecentBadge ? `
-              <div class="card-update-pill" title="Cập nhật ${film.recentUpdate.timeAgo}">
-                <span>⚡ ${film.recentUpdate.timeAgo}</span>
+              <div class="card-update-pill" title="Cập nhật ${escapeHtml(film.recentUpdate.timeAgo)}">
+                <span>${escapeHtml(film.recentUpdate.timeAgo)}</span>
               </div>
             ` : ''}
 
@@ -1094,7 +1098,7 @@
       updateNotificationBadge();
     } else {
       state.favorites.add(filmId);
-      showToast(`Đã theo dõi: ${film ? film.title : 'Phim'} • Bạn sẽ nhận được thông báo khi có tập mới! ❤️`);
+      showToast(`Đã theo dõi: ${film ? film.title : 'Phim'} • Sẽ báo khi có tập mới!`);
 
       // If this film has a recent 24h update, create a notification immediately!
       if (film && film.recentUpdate) {
@@ -1234,6 +1238,7 @@
       el.categoryTabsGroup.querySelectorAll('.tab-pill').forEach(b => b.classList.remove('active'));
       tabBtn.classList.add('active');
       state.activeTab = tabBtn.dataset.tab;
+      syncMobileDockActive();
       applyFiltersAndRender(1);
     });
 
@@ -1335,7 +1340,7 @@
       }
     });
 
-    // Header Favorite and History Buttons
+    // Header Favorite Button
     el.btnFavoritesOpen?.addEventListener('click', () => {
       const favTab = document.querySelector('.tab-pill[data-tab="favorites"]');
       if (favTab) favTab.click();
@@ -1345,11 +1350,10 @@
     el.mobileBottomBar?.addEventListener('click', e => {
       const btn = e.target.closest('.dock-item');
       if (!btn || btn.id === 'dockDiceBtn') return;
-      el.mobileBottomBar.querySelectorAll('.dock-item').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
       const targetTab = btn.dataset.dock;
       const feedTab = document.querySelector(`.tab-pill[data-tab="${targetTab}"]`);
       if (feedTab) feedTab.click();
+      syncMobileDockActive();
     });
 
     // Global Keyboard Shortcuts
@@ -1362,6 +1366,12 @@
         if (el.randomModal?.classList.contains('active')) closeRandomizer();
         if (el.notificationPopover?.classList.contains('active')) el.notificationPopover.classList.remove('active');
       }
+    });
+  }
+
+  function syncMobileDockActive() {
+    el.mobileBottomBar?.querySelectorAll('.dock-item[data-dock]').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.dock === state.activeTab);
     });
   }
 

@@ -19,3 +19,4 @@
 - [x] Backfilled real `lengthSeconds` across 80 films & repaired chronological episode ordering (1,633 total films).
 - [x] Fixed `openPlayer` episode lookup by `partNumber` (e.g., Phần 48) and strict 24h feed filtering.
 - [x] Fixed cloud IP `"Đang cập nhật"` durations via Innertube `/youtubei/v1/browse` (`VLUU...`) in `api/live-feed.js` & `scripts/update_youtube_feed.py`, and repaired merged-episode numbering/playback (`1+2`, `1+2+3`, `film_40` -> 1,703 total films).
+- [x] Decluttered UI (removed fake "842 người đang xem", dead history button, stale counts, UI emojis) and fixed mobile/tablet responsive layout across `375px`, `414px`, `768px`, and `1280px` (`0px` horizontal overflow).

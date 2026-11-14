@@ -48,11 +48,16 @@
   - Updated `app.js` (`SCHEMA_VERSION = '20261114_v4_browse_fix'`, `openPlayer`, `modalEpMatrix`, `rebuildRecentFeedAndGenres`, `syncLiveYouTubeFeed`) to resolve clicked episodes & notifications by `videoId` and array position (`data-ep-pos`), fixing `film_40` where clicking `Phần 5` previously matched `Phần 3`'s colliding `partNumber: 5`.
   - Backfilled 60/61 zero-duration parts (only removed video `cNRa9fBMKmY` in `film_268` remains 0), repaired 119 films with missing durations or misordered/colliding indices, and ingested 25 new films + 4 parts (catalog now 1,703 films).
 
+- **Feature 7: UI Declutter & Full Responsive Fix (`index.html`, `style.css`, `app.js`)**:
+  - Removed fake `#liveAudienceBadge` (`"842 người đang xem"`), dead `#btnHistoryOpen` / `#histCountBadge`, hardcoded `"1.564"` copy, and misleading `"Xem Nhiều"` label (renamed to accurate `"Cày Đêm (Dài Nhất)"` / `"Cày Đêm"`).
+  - Replaced inline UI emojis (`🎲`, `⚡`, `🔥`, `❤️`, `🔔`, `✨`, `🎬`) with crisp SVG vectors / clean typography, and made `.brand-caption` (`#brandCaption`) update dynamically from `state.allFilms.length`.
+  - Synced `.mobile-bottom-bar` `.dock-item.active` whenever category tabs or header favorites button change active tab.
+  - Added `@media (max-width: 960px)`, `@media (max-width: 768px)`, and `@media (max-width: 480px)` responsive rules in `style.css`: `overflow-x: clip`, single-line header truncation (`min-width: 0`), fixed full-width `.notification-popover`, horizontal-scroll `.category-tabs-group` & `.mobile-chips-row` (hidden native scrollbar), hidden mobile `.key-hint` and duplicate `#btnDiceRandom`, safe modal/pagination/bottom-dock sizing.
+
 ## Verification Completed
-- Local verification executed and passed after final edits:
-  - Direct Node execution of `api/live-feed.js`: HTTP 200, 24 live videos with 0 `"Đang cập nhật"` durations (`ZERO_DURS: 0`).
-  - Post-backfill Python catalog audit: 1,703 films, 0 duplicate `part.index` films, `film_40` ordered cleanly (`Phần 1..5`, `Phần 5` = `Hc83MN9mAyU` `1:56:38`).
-  - Puppeteer verification via `scripts/dev_server.py` on `http://localhost:8080`:
-    - `/api/live-feed`: 24 videos, 0 missing durations.
-    - Page 1 (`24` cards) and `Mới Cập Nhật 24h` (`24` shown of `34` badge): 0 `"Đang cập nhật"` cards.
-    - `film_40` Theater Modal verified clicking `Phần 5` opens `Hc83MN9mAyU` (`[Phần 5] Mạt Thế Sinh Tồn...`) and clicking `Phần 3` opens `URwF81sXZ7M`.
+- Syntax check: `node --check app.js` exited `0`.
+- Puppeteer responsive & UI verification via `scripts/dev_server.py 18088` across 4 viewports after final edits (`v=20261114_212500`):
+  - `375×812` (mobile): `docSw: 375`, `overflowX: false` (fixed from `489px`), `#liveAudienceBadge` / `#btnHistoryOpen` / `#histCountBadge` removed (`true`), header `h: 60` (`brandLink` `w: 178, h: 34`, `headerActions` `277..361`), `notifPopoverOpen` `12..363` (`docSwWithNotif: 375`), `theaterModal` (`docSwWithTheater: 375`), `randomModal` (`docSwWithRandom: 375`), screenshot visually inspected.
+  - `414×896` (large mobile): `docSw: 414`, `overflowX: false`, Theater Modal episode capsules & `syncMobileDockActive` (`hot`) verified.
+  - `768×1024` (tablet): `docSw: 751`, `overflowX: false`, 2-column grid & notification popover inside viewport.
+  - `1280×800` (desktop): `docSw: 1263`, `overflowX: false`, `#brandCaption` renders `"1.703 BỘ PHIM • 8 KÊNH YOUTUBE"`, 3-column grid (`24` cards), screenshot visually inspected.

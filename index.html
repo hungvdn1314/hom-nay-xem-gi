@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hôm Nay Xem Gì - Kho Phim Hoạt Hình & Review 3D Chiếu Rạp</title>
-  <meta name="description" content="Khám phá và thưởng thức hơn 1.564 bộ phim hoạt hình 2D/3D, tu tiên, mạt thế, hệ thống tuyển chọn từ 8 kênh review hàng đầu YouTube.">
+  <title>Hôm Nay Xem Gì - Kho Phim Hoạt Hình & Review 3D</title>
+  <meta name="description" content="Khám phá kho phim hoạt hình 2D/3D, tu tiên, mạt thế, hệ thống tuyển chọn từ 8 kênh review trên YouTube.">
 
   <!-- Google Fonts: Plus Jakarta Sans for flawless typography & Vietnamese diacritics -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=20261114_132817">
+  <link rel="stylesheet" href="style.css?v=20261114_212500">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2338bdf8'><polygon points='5 3 19 12 5 21 5 3'/></svg>">
 </head>
 <body class="nordic-app">
@@ -31,15 +31,9 @@
         </div>
         <div class="brand-text-stack">
           <span class="brand-title">HÔM NAY XEM GÌ</span>
-          <span class="brand-caption">TUYỂN CHỌN 1.564 PHIM HOẠT HÌNH & 3D</span>
+          <span class="brand-caption" id="brandCaption">KHO PHIM HOẠT HÌNH &amp; 3D</span>
         </div>
       </a>
-
-      <!-- Live Audience Counter -->
-      <div class="audience-badge" id="liveAudienceBadge" title="Số lượng khán giả đang cùng xem">
-        <span class="audience-dot"></span>
-        <span class="audience-label" id="audienceLabel">842 người đang xem</span>
-      </div>
 
       <!-- Header Action Buttons -->
       <div class="header-actions">
@@ -53,7 +47,7 @@
             <circle cx="16" cy="8" r="1.5" fill="currentColor"></circle>
             <circle cx="8" cy="16" r="1.5" fill="currentColor"></circle>
           </svg>
-          <span>Gợi ý phim 🎲</span>
+          <span>Gợi ý phim</span>
         </button>
 
         <!-- Notification Bell Action & Popover -->
@@ -90,15 +84,9 @@
         </div>
 
         <!-- Saved Bookmark Button -->
-        <button type="button" class="btn-circle-action" id="btnFavoritesOpen" title="Phim đã lưu & đang theo dõi">
+        <button type="button" class="btn-circle-action" id="btnFavoritesOpen" title="Phim đã lưu & đang theo dõi" aria-label="Phim đã lưu và đang theo dõi">
           <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
           <span class="count-pill" id="favCountBadge">0</span>
-        </button>
-
-        <!-- Watch History Button -->
-        <button type="button" class="btn-circle-action" id="btnHistoryOpen" title="Lịch sử xem gần đây">
-          <svg class="icon icon-sm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-          <span class="count-pill" id="histCountBadge">0</span>
         </button>
       </div>
 
@@ -167,13 +155,20 @@
         <div class="category-tabs-group" id="categoryTabsGroup">
           <button type="button" class="tab-pill active" data-tab="all">Tất Cả Phim</button>
           <button type="button" class="tab-pill tab-pill-recent" data-tab="recent24h">
-            <span>⚡ Mới Cập Nhật 24h</span>
-            <span class="tab-badge-recent" id="tabRecentBadge">32</span>
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            <span>Mới Cập Nhật 24h</span>
+            <span class="tab-badge-recent" id="tabRecentBadge">0</span>
           </button>
-          <button type="button" class="tab-pill" data-tab="hot">🔥 Xem Nhiều / Cày Đêm</button>
+          <button type="button" class="tab-pill" data-tab="hot">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
+            <span>Cày Đêm (Dài Nhất)</span>
+          </button>
           <button type="button" class="tab-pill" data-tab="multipart">Series Nhiều Phần</button>
           <button type="button" class="tab-pill" data-tab="single">Phim 1 Tập (Full)</button>
-          <button type="button" class="tab-pill" data-tab="favorites">❤️ Đang Theo Dõi</button>
+          <button type="button" class="tab-pill" data-tab="favorites">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+            <span>Đang Theo Dõi</span>
+          </button>
         </div>
 
         <div class="feed-count-summary" id="feedCountSummary">
@@ -258,7 +253,16 @@
     <div class="random-backdrop" id="randomBackdrop"></div>
     <div class="random-dialog">
       <div class="random-card-body">
-        <div class="random-dice-icon">🎲</div>
+        <div class="random-dice-icon" aria-hidden="true">
+          <svg class="icon" viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <circle cx="8" cy="8" r="1.5" fill="currentColor"></circle>
+            <circle cx="16" cy="16" r="1.5" fill="currentColor"></circle>
+            <circle cx="12" cy="12" r="1.5" fill="currentColor"></circle>
+            <circle cx="16" cy="8" r="1.5" fill="currentColor"></circle>
+            <circle cx="8" cy="16" r="1.5" fill="currentColor"></circle>
+          </svg>
+        </div>
         <span class="random-kicker">HÔM NAY XEM GÌ?</span>
         <h3 class="random-film-title" id="randomFilmTitle">Đang chọn ngẫu nhiên một siêu phẩm...</h3>
         <p class="random-meta-info" id="randomFilmMeta">Thời lượng • Kênh review • Thể loại</p>
@@ -287,11 +291,11 @@
     </button>
     <button type="button" class="dock-item" data-dock="hot">
       <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
-      <span>Top Hot</span>
+      <span>Cày Đêm</span>
     </button>
     <button type="button" class="dock-item" id="dockDiceBtn">
       <svg class="icon icon-sm" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><circle cx="12" cy="12" r="2" fill="currentColor"></circle></svg>
-      <span>Gợi Ý 🎲</span>
+      <span>Gợi Ý</span>
     </button>
     <button type="button" class="dock-item" data-dock="favorites">
       <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
@@ -300,7 +304,7 @@
   </nav>
 
   <!-- Load Data and Application Controller -->
-  <script src="data.js?v=20261114_132817"></script>
-  <script src="app.js?v=20261114_132817"></script>
+  <script src="data.js?v=20261114_212500"></script>
+  <script src="app.js?v=20261114_212500"></script>
 </body>
 </html>
