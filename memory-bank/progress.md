@@ -18,4 +18,4 @@
 - [x] Added Vercel Serverless `api/live-feed.js` (5-min Edge cache) + `scripts/dev_server.py` for real-time YouTube RSS + duration fetching.
 - [x] Backfilled real `lengthSeconds` across 80 films & repaired chronological episode ordering (1,633 total films).
 - [x] Fixed `openPlayer` episode lookup by `partNumber` (e.g., Phần 48) and strict 24h feed filtering.
-- [x] Live on Vercel & GitHub with dual real-time + scheduled synchronization.
+- [x] Fixed cloud IP `"Đang cập nhật"` durations via Innertube `/youtubei/v1/browse` (`VLUU...`) in `api/live-feed.js` & `scripts/update_youtube_feed.py`, and repaired merged-episode numbering/playback (`1+2`, `1+2+3`, `film_40` -> 1,703 total films).

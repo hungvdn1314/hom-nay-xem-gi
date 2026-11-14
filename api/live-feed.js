@@ -72,6 +72,72 @@ function formatPartDurationHms(sec) {
   return h > 0 ? `${h}:${pad(m)}:${pad(s)}` : `${m}:${pad(s)}`;
 }
 
+function parseHmsToSec(text) {
+  if (!text) return 0;
+  const nums = String(text).trim().split(':').map(n => parseInt(n, 10));
+  if (nums.some(n => Number.isNaN(n))) return 0;
+  if (nums.length === 3) return nums[0] * 3600 + nums[1] * 60 + nums[2];
+  if (nums.length === 2) return nums[0] * 60 + nums[1];
+  return nums[0] || 0;
+}
+
+/**
+ * Fetch up to 100 latest video durations for a channel in a single Innertube browse call.
+ * Uses the channel's uploads playlist (UU...) because /youtubei/v1/browse is not gated
+ * by /watch player bot checks on cloud datacenter IPs (Vercel / GitHub Actions).
+ */
+async function fetchChannelDurationsBrowse(channelId) {
+  const durationMap = new Map();
+  if (!channelId || !channelId.startsWith('UC')) return durationMap;
+  const uploadsPlaylistId = `VLUU${channelId.slice(2)}`;
+  try {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 5500);
+    const resp = await fetch('https://www.youtube.com/youtubei/v1/browse?prettyPrint=false', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'User-Agent': FETCH_HEADERS['User-Agent']
+      },
+      body: JSON.stringify({
+        browseId: uploadsPlaylistId,
+        context: {
+          client: {
+            clientName: 'WEB',
+            clientVersion: '2.20241111.01.00'
+          }
+        }
+      }),
+      signal: controller.signal
+    });
+    clearTimeout(timer);
+    if (!resp.ok) return durationMap;
+    const text = await resp.text();
+
+    // Primary lockup pattern: thumbnailBadgeViewModel -> text + animationActivationTargetId
+    const badgeRegex = /"thumbnailBadgeViewModel":\{"text":"([0-9:]+)"[^}]*"animationActivationTargetId":"([^"]+)"/g;
+    let m;
+    while ((m = badgeRegex.exec(text)) !== null) {
+      const sec = parseHmsToSec(m[1]);
+      if (sec > 0 && !durationMap.has(m[2])) {
+        durationMap.set(m[2], sec);
+      }
+    }
+
+    // Secondary fallback: playlistVideoRenderer with videoId + lengthSeconds
+    const pvrRegex = /"playlistVideoRenderer":\{"videoId":"([a-zA-Z0-9_-]{11})"[\s\S]{0,2000}?"lengthSeconds":"(\d+)"/g;
+    while ((m = pvrRegex.exec(text)) !== null) {
+      const sec = parseInt(m[2], 10);
+      if (sec > 0 && !durationMap.has(m[1])) {
+        durationMap.set(m[1], sec);
+      }
+    }
+  } catch {
+    // Best-effort; watch fallback handles uncovered videos
+  }
+  return durationMap;
+}
+
 function parseRssEntries(xml, channel, limit = 4) {
   const entries = [];
   const entryRegex = /<entry>([\s\S]*?)<\/entry>/g;
@@ -117,9 +183,13 @@ async function fetchVideoMetadata(videoId) {
     if (!resp.ok) return { durationSec: 0, publishDate: null };
     const html = await resp.text();
     const lenMatch = html.match(/"lengthSeconds":"(\d+)"/);
+    const approxMatch = !lenMatch ? html.match(/"approxDurationMs":"(\d+)"/) : null;
     const pubMatch = html.match(/"publishDate":"([^"]+)"/) || html.match(/"uploadDate":"([^"]+)"/);
+    const durationSec = lenMatch
+      ? parseInt(lenMatch[1], 10)
+      : (approxMatch ? Math.round(parseInt(approxMatch[1], 10) / 1000) : 0);
     return {
-      durationSec: lenMatch ? parseInt(lenMatch[1], 10) : 0,
+      durationSec,
       publishDate: pubMatch ? pubMatch[1] : null
     };
   } catch {
@@ -134,21 +204,37 @@ module.exports = async function handler(req, res) {
   res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=600');
 
   try {
-    // 1. Fetch RSS feeds for all 8 channels concurrently
-    const rssResults = await Promise.allSettled(
-      CHANNELS.map(async ch => {
-        const controller = new AbortController();
-        const timer = setTimeout(() => controller.abort(), 5000);
-        const resp = await fetch(`https://www.youtube.com/feeds/videos.xml?channel_id=${ch.channelId}`, {
-          headers: FETCH_HEADERS,
-          signal: controller.signal
+    // 1. Fetch RSS feeds AND Innertube browse duration maps for all 8 channels concurrently
+    const [rssResults, browseResults] = await Promise.all([
+      Promise.allSettled(
+        CHANNELS.map(async ch => {
+          const controller = new AbortController();
+          const timer = setTimeout(() => controller.abort(), 5000);
+          const resp = await fetch(`https://www.youtube.com/feeds/videos.xml?channel_id=${ch.channelId}`, {
+            headers: FETCH_HEADERS,
+            signal: controller.signal
+          });
+          clearTimeout(timer);
+          if (!resp.ok) return [];
+          const xml = await resp.text();
+          return parseRssEntries(xml, ch, 4);
+        })
+      ),
+      Promise.allSettled(
+        CHANNELS.map(ch => fetchChannelDurationsBrowse(ch.channelId))
+      )
+    ]);
+
+    const browseDurationMap = new Map();
+    for (const r of browseResults) {
+      if (r.status === 'fulfilled' && r.value instanceof Map) {
+        r.value.forEach((sec, vid) => {
+          if (sec > 0 && !browseDurationMap.has(vid)) {
+            browseDurationMap.set(vid, sec);
+          }
         });
-        clearTimeout(timer);
-        if (!resp.ok) return [];
-        const xml = await resp.text();
-        return parseRssEntries(xml, ch, 3);
-      })
-    );
+      }
+    }
 
     const candidateVideos = [];
     for (const r of rssResults) {
@@ -157,18 +243,27 @@ module.exports = async function handler(req, res) {
       }
     }
 
-    // 2. Fetch real lengthSeconds & publishDate concurrently for top 24 newest videos
+    // 2. Keep top 24 newest videos; only call /watch fallback for IDs missing from browseDurationMap
     candidateVideos.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
     const topVideos = candidateVideos.slice(0, 24);
 
-    const metaResults = await Promise.allSettled(
-      topVideos.map(v => fetchVideoMetadata(v.videoId))
-    );
+    const missingWatchVideos = topVideos.filter(v => !browseDurationMap.has(v.videoId));
+    const fallbackMetaMap = new Map();
+    if (missingWatchVideos.length > 0) {
+      const watchResults = await Promise.allSettled(
+        missingWatchVideos.map(v => fetchVideoMetadata(v.videoId))
+      );
+      missingWatchVideos.forEach((v, idx) => {
+        if (watchResults[idx].status === 'fulfilled') {
+          fallbackMetaMap.set(v.videoId, watchResults[idx].value);
+        }
+      });
+    }
 
-    const enriched = topVideos.map((v, idx) => {
-      const meta = metaResults[idx].status === 'fulfilled' ? metaResults[idx].value : { durationSec: 0, publishDate: null };
-      const durationSec = meta.durationSec || 0;
-      const publishedAt = v.publishedAt || meta.publishDate;
+    const enriched = topVideos.map(v => {
+      const fallbackMeta = fallbackMetaMap.get(v.videoId) || { durationSec: 0, publishDate: null };
+      const durationSec = browseDurationMap.get(v.videoId) || fallbackMeta.durationSec || 0;
+      const publishedAt = v.publishedAt || fallbackMeta.publishDate;
       return {
         videoId: v.videoId,
         title: v.title,

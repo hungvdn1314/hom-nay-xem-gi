@@ -101,7 +101,7 @@
     el.mobileBottomBar = document.getElementById('mobileBottomBar');
   }
 
-  const SCHEMA_VERSION = '20261112_v3_realtime';
+  const SCHEMA_VERSION = '20261114_v4_browse_fix';
 
   function loadStoredData() {
     try {
@@ -149,9 +149,114 @@
       .trim();
   }
 
+  function parsePartInfoClient(text) {
+    const s = String(text || '').replace(/\[.*?\]/g, '').trim();
+    const mSeasonPart = s.match(/\bMùa\s*(\d+)\s*[-–|]\s*(?:Phần|P)\s*(\d+)/i);
+    if (mSeasonPart) {
+      const seasonNum = parseInt(mSeasonPart[1], 10);
+      const partNum = parseInt(mSeasonPart[2], 10);
+      return {
+        prefix: 'Mùa',
+        startNum: partNum,
+        endNum: partNum,
+        seasonNum,
+        subNum: 0,
+        isMerged: false,
+        label: `Mùa ${seasonNum} - P${partNum}`
+      };
+    }
+
+    const mDec = s.match(/\b(Phần|Tập|Mùa|P)\s*(\d+)\.(\d+)\b/i);
+    if (mDec) {
+      const kw = mDec[1].toLowerCase();
+      const prefix = kw === 'tập' ? 'Tập' : (kw === 'mùa' ? 'Mùa' : 'Phần');
+      const a = parseInt(mDec[2], 10);
+      const b = parseInt(mDec[3], 10);
+      return {
+        prefix,
+        startNum: a,
+        endNum: a,
+        seasonNum: 0,
+        subNum: b,
+        isMerged: false,
+        label: `${prefix} ${a}.${b}`
+      };
+    }
+
+    const mEp = s.match(/\b(Phần|Tập|Mùa|P)\s*(\d+)((?:\s*[+\-–&]\s*(?:(?:Phần|Tập|Mùa|P)\s*)?\d+)*)/i);
+    if (!mEp) return null;
+
+    const kw = mEp[1].toLowerCase();
+    const prefix = kw === 'tập' ? 'Tập' : (kw === 'mùa' ? 'Mùa' : 'Phần');
+    const firstNum = parseInt(mEp[2], 10);
+    const tail = mEp[3] || '';
+    const tokens = Array.from(tail.matchAll(/([+\-–&])\s*(?:(?:Phần|Tập|Mùa|P)\s*)?(\d+)/gi));
+
+    if (tokens.length === 0) {
+      return {
+        prefix,
+        startNum: firstNum,
+        endNum: firstNum,
+        seasonNum: 0,
+        subNum: 0,
+        isMerged: false,
+        label: `${prefix} ${firstNum}`
+      };
+    }
+
+    const nums = [firstNum, ...tokens.map(t => parseInt(t[2], 10))];
+    if (tokens.length === 1 && (tokens[0][1] === '-' || tokens[0][1] === '–') && nums[1] < firstNum) {
+      return {
+        prefix,
+        startNum: firstNum,
+        endNum: firstNum,
+        seasonNum: 0,
+        subNum: nums[1],
+        isMerged: false,
+        label: `${prefix} ${firstNum}.${nums[1]}`
+      };
+    }
+
+    if (nums[nums.length - 1] > firstNum) {
+      const formattedTail = tokens.map(t => `${t[1] === '–' ? '-' : t[1]}${t[2]}`).join('');
+      return {
+        prefix,
+        startNum: firstNum,
+        endNum: nums[nums.length - 1],
+        seasonNum: 0,
+        subNum: 0,
+        isMerged: true,
+        label: `${prefix} ${firstNum}${formattedTail}`
+      };
+    }
+
+    return {
+      prefix,
+      startNum: firstNum,
+      endNum: firstNum,
+      seasonNum: 0,
+      subNum: 0,
+      isMerged: false,
+      label: `${prefix} ${firstNum}`
+    };
+  }
+
   function parsePartNumberClient(title) {
-    const m = (title || '').match(/(?:Phần|Tập|Mùa|P)\s*(\d+)/i);
-    return m ? parseInt(m[1], 10) : null;
+    const info = parsePartInfoClient(title);
+    return info ? info.endNum : null;
+  }
+
+  function comparePartsClient(a, b, posA, posB) {
+    const infoA = parsePartInfoClient(a.label) || parsePartInfoClient(a.title);
+    const infoB = parsePartInfoClient(b.label) || parsePartInfoClient(b.title);
+    if (infoA && infoB) {
+      if ((infoA.seasonNum || 0) !== (infoB.seasonNum || 0)) return (infoA.seasonNum || 0) - (infoB.seasonNum || 0);
+      if (infoA.endNum !== infoB.endNum) return infoA.endNum - infoB.endNum;
+      if (infoA.isMerged !== infoB.isMerged) return infoA.isMerged ? 1 : -1;
+      if (infoA.startNum !== infoB.startNum) return infoA.startNum - infoB.startNum;
+      if ((infoA.subNum || 0) !== (infoB.subNum || 0)) return (infoA.subNum || 0) - (infoB.subNum || 0);
+    }
+    return posA - posB;
   }
 
   function formatTotalDurationViClient(sec) {
@@ -196,7 +301,8 @@
         videoId: p.id || p.videoId || firstPartId,
         duration: cleanDurationStr(p.durationStr, p.duration || 0),
         durationSec: p.duration || 0,
-        publishedAt: p.publishedAt || null
+        publishedAt: p.publishedAt || null,
+        isRedundant: !!p.isRedundant
       })) : [{
         partNumber: 1,
         label: 'Phần 1',
@@ -204,7 +310,8 @@
         videoId: firstPartId,
         duration: cleanDuration,
         durationSec: totalSec,
-        publishedAt: film.publishedAt || null
+        publishedAt: film.publishedAt || null,
+        isRedundant: false
       }];
 
       return {
@@ -254,7 +361,17 @@
 
     filmsWithRealDate.forEach(film => {
       const pubIso = film.updatedAt || film.publishedAt;
-      const latestPart = film.parts && film.parts.length > 0 ? film.parts[film.parts.length - 1] : null;
+      let latestPart = film.parts && film.parts.length > 0 ? film.parts[film.parts.length - 1] : null;
+      if (film.parts && film.parts.length > 1) {
+        let bestTs = -1;
+        film.parts.forEach(p => {
+          const ts = p.publishedAt ? new Date(p.publishedAt).getTime() : 0;
+          if (!Number.isNaN(ts) && ts >= bestTs) {
+            bestTs = ts;
+            latestPart = p;
+          }
+        });
+      }
       const partIdx = latestPart ? latestPart.partNumber : (film.partsCount > 1 ? film.partsCount : 1);
       const partLabel = film.partsCount > 1
         ? (latestPart && latestPart.label ? latestPart.label : `Phần ${partIdx}`)
@@ -263,6 +380,7 @@
       film.recentUpdate = {
         partIndex: partIdx,
         partLabel: partLabel,
+        videoId: latestPart ? latestPart.videoId : null,
         timeAgo: formatRealTimeAgo(pubIso),
         timestamp: new Date(pubIso).getTime()
       };
@@ -313,7 +431,7 @@
           if (v.durationSec > 0 && (part.durationSec === 0 || (part.durationSec === 7200 && part.duration === '2:00:00'))) {
             part.durationSec = v.durationSec;
             part.duration = v.durationStr || formatPartDurationHmsClient(v.durationSec);
-            const sumSec = film.parts.reduce((acc, p) => acc + (p.durationSec || 0), 0);
+            const sumSec = film.parts.reduce((acc, p) => acc + (!p.isRedundant && p.durationSec ? p.durationSec : 0), 0);
             if (sumSec > 0) {
               film.totalDurationSec = sumSec;
               film.totalDuration = formatTotalDurationViClient(sumSec);
@@ -324,7 +442,9 @@
         }
 
         // Brand-new video discovered live via YouTube RSS!
-        const partNum = parsePartNumberClient(v.title);
+        const partInfo = parsePartInfoClient(v.title);
+        const partNum = partInfo ? partInfo.endNum : null;
+        const partLabel = partInfo ? partInfo.label : null;
         const coreTitle = cleanCoreTitleClient(v.title);
         let matchedFilm = null;
 
@@ -337,29 +457,37 @@
         }
 
         if (matchedFilm) {
-          const newIdx = partNum || (matchedFilm.parts.length + 1);
+          const fallbackIdx = matchedFilm.parts.length + 1;
+          const resolvedLabel = partLabel || `Phần ${fallbackIdx}`;
           const newPart = {
-            partNumber: newIdx,
-            label: `Phần ${newIdx}`,
+            partNumber: fallbackIdx,
+            label: resolvedLabel,
             title: v.title,
             videoId: v.videoId,
             duration: v.durationStr || formatPartDurationHmsClient(v.durationSec),
             durationSec: v.durationSec || 0,
-            publishedAt: v.publishedAt
+            publishedAt: v.publishedAt,
+            isRedundant: false
           };
           matchedFilm.parts.push(newPart);
+          matchedFilm.parts = matchedFilm.parts
+            .map((p, idx) => ({ p, idx }))
+            .sort((a, b) => comparePartsClient(a.p, b.p, a.idx, b.idx))
+            .map((item, idx) => ({ ...item.p, partNumber: idx + 1 }));
+          const sortedPart = matchedFilm.parts.find(p => p.videoId === v.videoId) || newPart;
+          const newIdx = sortedPart.partNumber;
           matchedFilm.partsCount = matchedFilm.parts.length;
           const prevTs = matchedFilm.updatedAt ? new Date(matchedFilm.updatedAt).getTime() : 0;
           const nextTs = new Date(v.publishedAt).getTime();
           if (!isNaN(nextTs) && nextTs >= prevTs) {
             matchedFilm.updatedAt = v.publishedAt;
           }
-          const sumSec = matchedFilm.parts.reduce((acc, p) => acc + (p.durationSec || 0), 0);
+          const sumSec = matchedFilm.parts.reduce((acc, p) => acc + (!p.isRedundant && p.durationSec ? p.durationSec : 0), 0);
           if (sumSec > 0) {
             matchedFilm.totalDurationSec = sumSec;
             matchedFilm.totalDuration = formatTotalDurationViClient(sumSec);
           }
-          knownVideoMap.set(v.videoId, { film: matchedFilm, part: newPart });
+          knownVideoMap.set(v.videoId, { film: matchedFilm, part: sortedPart });
 
           // Notify immediately if user follows this series
           if (state.favorites.has(matchedFilm.id)) {
@@ -370,7 +498,8 @@
                 filmId: matchedFilm.id,
                 filmTitle: matchedFilm.title,
                 partIndex: newIdx,
-                partLabel: `Phần ${newIdx}`,
+                partLabel: resolvedLabel,
+                videoId: v.videoId,
                 channelName: matchedFilm.channelName,
                 thumbnailUrl: matchedFilm.thumbnailUrl,
                 timeAgo: formatRealTimeAgo(v.publishedAt),
@@ -391,13 +520,14 @@
             genres: v.genres || ['Hoạt hình 2D/3D'],
             partsCount: 1,
             parts: [{
-              partNumber: partNum || 1,
-              label: `Phần ${partNum || 1}`,
+              partNumber: 1,
+              label: partLabel || 'Phần 1',
               title: v.title,
               videoId: v.videoId,
               duration: v.durationStr || formatPartDurationHmsClient(v.durationSec),
               durationSec: v.durationSec || 0,
-              publishedAt: v.publishedAt
+              publishedAt: v.publishedAt,
+              isRedundant: false
             }],
             totalDuration: v.totalDurationStr || formatTotalDurationViClient(v.durationSec),
             totalDurationSec: v.durationSec || 0,
@@ -453,6 +583,7 @@
             filmTitle: film.title,
             partIndex: film.recentUpdate.partIndex,
             partLabel: film.recentUpdate.partLabel,
+            videoId: film.recentUpdate.videoId || null,
             channelName: film.channelName,
             thumbnailUrl: film.thumbnailUrl,
             timeAgo: film.recentUpdate.timeAgo,
@@ -473,6 +604,7 @@
             filmTitle: f.title,
             partIndex: f.recentUpdate.partIndex,
             partLabel: f.recentUpdate.partLabel,
+            videoId: f.recentUpdate.videoId || null,
             channelName: f.channelName,
             thumbnailUrl: f.thumbnailUrl,
             timeAgo: f.recentUpdate.timeAgo,
@@ -532,7 +664,7 @@
     }
 
     const html = state.notifications.map(item => `
-      <div class="notif-item ${item.isRead ? '' : 'unread'}" data-notif-id="${item.id}" data-film-id="${item.filmId}" data-part-index="${item.partIndex}">
+      <div class="notif-item ${item.isRead ? '' : 'unread'}" data-notif-id="${item.id}" data-film-id="${item.filmId}" data-part-index="${item.partIndex}" data-video-id="${escapeHtml(item.videoId || '')}">
         <img class="notif-thumb" src="${escapeHtml(item.thumbnailUrl)}" alt="${escapeHtml(item.filmTitle)}" onerror="this.src='https://images.unsplash.com/photo-1534447677768-be436bb09401?w=200&auto=format&fit=crop&q=80'">
         <div class="notif-body">
           <h4 class="notif-title">${escapeHtml(item.filmTitle)}</h4>
@@ -866,12 +998,28 @@
   // -------------------------------------------------------------------------
   // CINEMA THEATER MODAL
   // -------------------------------------------------------------------------
-  function openPlayer(film, partIndex = 1) {
+  function openPlayer(film, partTarget = null) {
     if (!film || !film.parts || film.parts.length === 0) return;
-    const currentPart = film.parts.find(p => p.partNumber === partIndex)
-      || film.parts[partIndex - 1]
-      || film.parts[0];
-    const resolvedPartNum = currentPart.partNumber || partIndex;
+    let currentPart = null;
+    if (partTarget && typeof partTarget === 'object') {
+      if (partTarget.videoId) {
+        currentPart = film.parts.find(p => p.videoId === partTarget.videoId) || null;
+      }
+      if (!currentPart && Number.isInteger(partTarget.partPos) && film.parts[partTarget.partPos]) {
+        currentPart = film.parts[partTarget.partPos];
+      }
+      if (!currentPart && Number.isInteger(partTarget.partNumber)) {
+        currentPart = film.parts.find(p => p.partNumber === partTarget.partNumber) || null;
+      }
+    } else if (typeof partTarget === 'number') {
+      currentPart = film.parts.find(p => p.partNumber === partTarget)
+        || film.parts[partTarget - 1]
+        || null;
+    }
+    if (!currentPart) currentPart = film.parts[0];
+
+    const resolvedPos = film.parts.indexOf(currentPart);
+    const resolvedPartNum = currentPart.partNumber || (resolvedPos + 1);
     state.currentPlayingFilm = film;
     state.currentPlayingPartIndex = resolvedPartNum;
 
@@ -890,14 +1038,20 @@
       el.youtubeIframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`;
     }
 
-    // Render Episode Capsules Matrix with [MỚI] tag for recent parts
+    // Render Episode Capsules Matrix with exact array position & videoId to avoid partNumber collisions
     if (el.modalEpMatrix) {
       const epHtml = film.parts.map((p, idx) => {
         const epNum = p.partNumber || (idx + 1);
-        const isActive = epNum === resolvedPartNum;
-        const isNewEp = film.recentUpdate && epNum === film.recentUpdate.partIndex;
+        const isActive = idx === resolvedPos;
+        const isNewEp = Boolean(
+          film.recentUpdate && (
+            film.recentUpdate.videoId
+              ? p.videoId === film.recentUpdate.videoId
+              : epNum === film.recentUpdate.partIndex
+          )
+        );
         return `
-          <button type="button" class="ep-capsule-btn ${isActive ? 'active' : ''} ${isNewEp ? 'is-new' : ''}" data-ep-index="${epNum}" title="${escapeHtml(p.title || `Tập ${epNum}`)}">
+          <button type="button" class="ep-capsule-btn ${isActive ? 'active' : ''} ${isNewEp ? 'is-new' : ''}" data-ep-pos="${idx}" data-video-id="${escapeHtml(p.videoId || '')}" data-ep-index="${epNum}" title="${escapeHtml(p.title || `Tập ${epNum}`)}">
             <span>${escapeHtml(p.label || `Tập ${epNum}`)}</span>
             <span class="ep-dur-note">${escapeHtml(p.duration || '')}</span>
             ${isNewEp ? '<span class="ep-new-badge">MỚI</span>' : ''}
@@ -952,6 +1106,7 @@
             filmTitle: film.title,
             partIndex: film.recentUpdate.partIndex,
             partLabel: film.recentUpdate.partLabel,
+            videoId: film.recentUpdate.videoId || null,
             channelName: film.channelName,
             thumbnailUrl: film.thumbnailUrl,
             timeAgo: film.recentUpdate.timeAgo,
@@ -1031,13 +1186,14 @@
       const notifId = item.dataset.notifId;
       const filmId = item.dataset.filmId;
       const partIndex = parseInt(item.dataset.partIndex, 10) || 1;
+      const videoId = item.dataset.videoId || null;
 
       markNotificationAsRead(notifId);
       el.notificationPopover?.classList.remove('active');
 
       const film = state.allFilms.find(f => f.id === filmId);
       if (film) {
-        openPlayer(film, partIndex);
+        openPlayer(film, { videoId, partNumber: partIndex });
       }
     });
 
@@ -1125,7 +1281,7 @@
       if (card) {
         const filmId = card.dataset.filmId;
         const film = state.allFilms.find(f => f.id === filmId);
-        if (film) openPlayer(film, film.parts[0]?.partNumber || 1);
+        if (film) openPlayer(film, { partPos: 0, videoId: film.parts[0]?.videoId, partNumber: film.parts[0]?.partNumber || 1 });
       }
     });
 
@@ -1153,8 +1309,14 @@
     el.modalEpMatrix?.addEventListener('click', e => {
       const epBtn = e.target.closest('.ep-capsule-btn');
       if (epBtn && state.currentPlayingFilm) {
+        const epPos = parseInt(epBtn.dataset.epPos, 10);
         const epIndex = parseInt(epBtn.dataset.epIndex, 10);
-        openPlayer(state.currentPlayingFilm, epIndex);
+        const videoId = epBtn.dataset.videoId || null;
+        openPlayer(state.currentPlayingFilm, {
+          partPos: Number.isNaN(epPos) ? undefined : epPos,
+          videoId,
+          partNumber: Number.isNaN(epIndex) ? undefined : epIndex
+        });
       }
     });
 
@@ -1169,7 +1331,7 @@
       if (state.randomCandidate) {
         const pick = state.randomCandidate;
         closeRandomizer();
-        openPlayer(pick, 1);
+        openPlayer(pick, { partPos: 0, videoId: pick.parts[0]?.videoId });
       }
     });
 

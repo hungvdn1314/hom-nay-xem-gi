@@ -41,11 +41,18 @@
   - Executed `--backfill` across all 80 placeholder `7200s` films (`film_1621` -> `6 giờ 29 phút`, `film_1627` -> `6 giờ 24 phút`, etc.) + ingested 7 latest morning uploads (catalog now 1,633 films).
   - Updated `app.js` (`syncLiveYouTubeFeed`, strict 24h window in `Mới Cập Nhật 24h`, accurate part-number resolution in `openPlayer` fixing Part 48 playback).
 
+- **Feature 6: Cloud IP Duration Reliability (Innertube Browse) & Merged-Episode Numbering Fix**:
+  - Diagnosed root cause of `"Đang cập nhật"` durations on Vercel & GitHub Actions: YouTube gates `/watch?v=` on cloud datacenter IPs with bot verification HTML pages lacking `"lengthSeconds"`.
+  - Upgraded `api/live-feed.js`, `scripts/update_youtube_feed.py`, and `scripts/dev_server.py` to fetch durations via YouTube Innertube `/youtubei/v1/browse` (`VLUU...` uploads playlist, up to 100 latest videos per channel in 1 call/channel, falling back to `/watch` `lengthSeconds`/`approxDurationMs`).
+  - Replaced simple first-integer part parsing with `parse_part_info` (Python) and `parsePartInfoClient` (JS) supporting merged ranges (`Phần 1+2`, `Phần 1-3`, `Tập 793+794`, `Mùa 1-2`) and decimal sub-parts (`Phần 10.1`), sorting parts monotonically (`endNum, isMerged, startNum, subNum`) with unique `index = 1..N`.
+  - Updated `app.js` (`SCHEMA_VERSION = '20261114_v4_browse_fix'`, `openPlayer`, `modalEpMatrix`, `rebuildRecentFeedAndGenres`, `syncLiveYouTubeFeed`) to resolve clicked episodes & notifications by `videoId` and array position (`data-ep-pos`), fixing `film_40` where clicking `Phần 5` previously matched `Phần 3`'s colliding `partNumber: 5`.
+  - Backfilled 60/61 zero-duration parts (only removed video `cNRa9fBMKmY` in `film_268` remains 0), repaired 119 films with missing durations or misordered/colliding indices, and ingested 25 new films + 4 parts (catalog now 1,703 films).
+
 ## Verification Completed
-- End-to-end verification executed and passed after final edits:
-  - Direct Node execution of `api/live-feed.js`: HTTP 200, 24 live videos with real durations in ~2.5s.
+- Local verification executed and passed after final edits:
+  - Direct Node execution of `api/live-feed.js`: HTTP 200, 24 live videos with 0 `"Đang cập nhật"` durations (`ZERO_DURS: 0`).
+  - Post-backfill Python catalog audit: 1,703 films, 0 duplicate `part.index` films, `film_40` ordered cleanly (`Phần 1..5`, `Phần 5` = `Hc83MN9mAyU` `1:56:38`).
   - Puppeteer verification via `scripts/dev_server.py` on `http://localhost:8080`:
-    - `⚡ Mới Cập Nhật 24h` badge: `29` films strictly within 24h (newest `34 phút trước`, `9 giờ 36 phút`).
-    - `film_1621` verified `6 giờ 29 phút` instead of `2 giờ 00 phút`.
-    - `film_301` (`Nhất Kiếm Trường Sinh`) Theater Modal verified playing `Phần 48` (`GRnhern5-z0`) with ordered episodes `Phần 43..48` and exact durations (`2:25:31 [MỚI]`).
-    - Screenshot taken (`fixed_24h_live_feed`).
+    - `/api/live-feed`: 24 videos, 0 missing durations.
+    - Page 1 (`24` cards) and `Mới Cập Nhật 24h` (`24` shown of `34` badge): 0 `"Đang cập nhật"` cards.
+    - `film_40` Theater Modal verified clicking `Phần 5` opens `Hc83MN9mAyU` (`[Phần 5] Mạt Thế Sinh Tồn...`) and clicking `Phần 3` opens `URwF81sXZ7M`.

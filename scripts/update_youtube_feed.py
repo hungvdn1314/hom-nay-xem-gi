@@ -154,20 +154,249 @@ def clean_core_title(title):
     return s.strip()
 
 
+def hms_to_sec(text):
+    """Convert H:MM:SS or M:SS duration string to integer seconds."""
+    if not text:
+        return 0
+    try:
+        nums = [int(x) for x in str(text).strip().split(":")]
+        if len(nums) == 3:
+            return nums[0] * 3600 + nums[1] * 60 + nums[2]
+        if len(nums) == 2:
+            return nums[0] * 60 + nums[1]
+        return nums[0]
+    except ValueError:
+        return 0
+
+
+def parse_part_info(text, default_prefix="Phần"):
+    """
+    Extract normalized episode prefix, range bounds, merge flag, and clean label
+    from titles/labels such as 'Phần 1+2', 'Phần 1-3', 'TẬP 793+794', 'Phần 10.1', 'Mùa 5 - P2'.
+    """
+    s = re.sub(r'\[.*?\]', '', text or '').strip()
+
+    # Handle season + part combination like 'Mùa 5 - P2'
+    m_season_part = re.search(r'\bMùa\s*(\d+)\s*[-–|]\s*(?:Phần|P)\s*(\d+)', s, flags=re.IGNORECASE)
+    if m_season_part:
+        season_n = int(m_season_part.group(1))
+        part_n = int(m_season_part.group(2))
+        return {
+            "prefix": "Mùa",
+            "startNum": part_n,
+            "endNum": part_n,
+            "seasonNum": season_n,
+            "subNum": 0,
+            "isMerged": False,
+            "label": f"Mùa {season_n} - P{part_n}",
+        }
+
+    # Handle decimal/sub-part like 'Phần 10.1'
+    m_dec = re.search(r'\b(Phần|Tập|Mùa|P)\s*(\d+)\.(\d+)\b', s, flags=re.IGNORECASE)
+    if m_dec:
+        raw_kw = m_dec.group(1).lower()
+        prefix = "Tập" if raw_kw == "tập" else ("Mùa" if raw_kw == "mùa" else "Phần")
+        a = int(m_dec.group(2))
+        b = int(m_dec.group(3))
+        return {
+            "prefix": prefix,
+            "startNum": a,
+            "endNum": a,
+            "seasonNum": 0,
+            "subNum": b,
+            "isMerged": False,
+            "label": f"{prefix} {a}.{b}",
+        }
+
+    # Handle single or chained merged episodes: 'Phần 1+2', 'Phần 1+2+3', 'Phần 1-3', 'TẬP 793+794'
+    m_ep = re.search(
+        r'\b(Phần|Tập|Mùa|P)\s*(\d+)((?:\s*[+\-–&]\s*(?:(?:Phần|Tập|Mùa|P)\s*)?\d+)*)',
+        s,
+        flags=re.IGNORECASE
+    )
+    if not m_ep:
+        return None
+
+    raw_kw = m_ep.group(1).lower()
+    prefix = "Tập" if raw_kw == "tập" else ("Mùa" if raw_kw == "mùa" else ("Phần" if raw_kw in ("phần", "p") else default_prefix))
+    first_num = int(m_ep.group(2))
+    tail = m_ep.group(3) or ""
+
+    # Parse chained numbers and separators
+    chain_tokens = re.findall(r'([+\-–&])\s*(?:(?:Phần|Tập|Mùa|P)\s*)?(\d+)', tail, flags=re.IGNORECASE)
+    if not chain_tokens:
+        return {
+            "prefix": prefix,
+            "startNum": first_num,
+            "endNum": first_num,
+            "seasonNum": 0,
+            "subNum": 0,
+            "isMerged": False,
+            "label": f"{prefix} {first_num}",
+        }
+
+    nums = [first_num] + [int(n) for _, n in chain_tokens]
+    # Sub-part shorthand like 'Phần 10 - 1' where second number < first number
+    if len(chain_tokens) == 1 and chain_tokens[0][0] in ("-", "–") and nums[1] < first_num:
+        return {
+            "prefix": prefix,
+            "startNum": first_num,
+            "endNum": first_num,
+            "seasonNum": 0,
+            "subNum": nums[1],
+            "isMerged": False,
+            "label": f"{prefix} {first_num}.{nums[1]}",
+        }
+
+    # Valid merged range only when sequence progresses upwards (e.g. 1+2, 1-3, 793+794)
+    if nums[-1] > first_num:
+        formatted_tail = "".join(
+            f"{'-' if sep == '–' else sep}{num}"
+            for sep, num in chain_tokens
+        )
+        return {
+            "prefix": prefix,
+            "startNum": first_num,
+            "endNum": nums[-1],
+            "seasonNum": 0,
+            "subNum": 0,
+            "isMerged": True,
+            "label": f"{prefix} {first_num}{formatted_tail}",
+        }
+
+    return {
+        "prefix": prefix,
+        "startNum": first_num,
+        "endNum": first_num,
+        "seasonNum": 0,
+        "subNum": 0,
+        "isMerged": False,
+        "label": f"{prefix} {first_num}",
+    }
+
+
 def parse_part_number(title):
-    m = re.search(r'(?:Phần|Tập|Mùa|P)\s*(\d+)', title or '', flags=re.IGNORECASE)
-    return int(m.group(1)) if m else None
+    info = parse_part_info(title)
+    return info["endNum"] if info else None
+
+
+def normalize_part_label(part):
+    """Ensure merged range labels are preserved cleanly while keeping redundancy notes."""
+    raw_lbl = part.get("label") or ""
+    note_match = re.search(r'(\s*\[[^\]]+\]\s*)$', raw_lbl)
+    note_suffix = note_match.group(1) if note_match else ""
+    clean_lbl = raw_lbl[:note_match.start()].strip() if note_match else raw_lbl.strip()
+
+    lbl_info = parse_part_info(clean_lbl)
+    ttl_info = parse_part_info(part.get("title") or "")
+
+    # Prefer title's merged range if label dropped '+2' / '-3' etc., or if label lost Tập/Mùa prefix
+    chosen = lbl_info
+    if ttl_info:
+        if not lbl_info:
+            chosen = ttl_info
+        elif ttl_info["isMerged"] and not lbl_info["isMerged"] and ttl_info["startNum"] == lbl_info["startNum"]:
+            chosen = ttl_info
+        elif ttl_info["isMerged"] and not lbl_info["isMerged"] and lbl_info["prefix"] == "Phần" and ttl_info["prefix"] in ("Tập", "Mùa"):
+            chosen = ttl_info
+
+    if chosen:
+        return f"{chosen['label']}{note_suffix}", chosen
+    return raw_lbl or f"Phần {part.get('index', 1)}", None
+
+
+def part_sort_key(part, fallback_pos=0):
+    """Sort parts monotonically: standalone episodes in order, merged compilations right after their end episode."""
+    clean_lbl = re.sub(r'\s*\[[^\]]+\]\s*$', '', part.get("label") or "").strip()
+    info = parse_part_info(clean_lbl) or parse_part_info(part.get("title") or "")
+    pub_dt = parse_iso_utc(part.get("publishedAt")) or datetime.min.replace(tzinfo=timezone.utc)
+    if info:
+        return (
+            info.get("seasonNum", 0),
+            info["endNum"],
+            1 if info["isMerged"] else 0,
+            info["startNum"],
+            info.get("subNum", 0),
+            fallback_pos,
+            pub_dt,
+        )
+    return (0, part.get("index", fallback_pos + 1), 0, part.get("index", fallback_pos + 1), 0, fallback_pos, pub_dt)
+
+
+def fetch_channel_durations_browse(channel_id):
+    """
+    Fetch up to 100 latest video durations for a channel via YouTube Innertube browse API.
+    Unlike /watch, /youtubei/v1/browse on VLUU... playlists is not blocked by cloud IP bot checks.
+    """
+    dur_map = {}
+    if not channel_id or not channel_id.startswith("UC"):
+        return dur_map
+    uploads_playlist_id = f"VLUU{channel_id[2:]}"
+    try:
+        payload = json.dumps({
+            "browseId": uploads_playlist_id,
+            "context": {
+                "client": {
+                    "clientName": "WEB",
+                    "clientVersion": "2.20241111.01.00"
+                }
+            }
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            "https://www.youtube.com/youtubei/v1/browse?prettyPrint=false",
+            data=payload,
+            headers={
+                "Content-Type": "application/json",
+                "User-Agent": HEADERS["User-Agent"]
+            },
+            method="POST"
+        )
+        txt = urllib.request.urlopen(req, timeout=15).read().decode("utf-8", errors="ignore")
+        for d_str, vid in re.findall(
+            r'"thumbnailBadgeViewModel":\{"text":"([0-9:]+)"[^}]*"animationActivationTargetId":"([^"]+)"',
+            txt
+        ):
+            sec = hms_to_sec(d_str)
+            if sec > 0 and vid not in dur_map:
+                dur_map[vid] = sec
+        for vid, sec_str in re.findall(
+            r'"playlistVideoRenderer":\{"videoId":"([a-zA-Z0-9_-]{11})"[\s\S]{0,2000}?"lengthSeconds":"(\d+)"',
+            txt
+        ):
+            sec = int(sec_str)
+            if sec > 0 and vid not in dur_map:
+                dur_map[vid] = sec
+    except Exception as e:
+        print(f"  [Warning] Innertube browse failed for {channel_id}: {e}")
+    return dur_map
+
+
+def fetch_all_channel_durations(max_workers=8):
+    """Concurrently collect recent video duration map across all 8 partner channels."""
+    all_durations = {}
+    with ThreadPoolExecutor(max_workers=max_workers) as pool:
+        futs = {pool.submit(fetch_channel_durations_browse, ch["channel_id"]): ch["id"] for ch in CHANNELS}
+        for fut in as_completed(futs):
+            try:
+                res = fut.result()
+                for vid, sec in res.items():
+                    if sec > 0 and vid not in all_durations:
+                        all_durations[vid] = sec
+            except Exception:
+                pass
+    return all_durations
 
 
 def fetch_video_metadata(video_id):
-    """Fetch real lengthSeconds and publishDate directly from YouTube watch page."""
+    """Fetch real lengthSeconds and publishDate directly from YouTube watch page (local/fallback)."""
     url = f"https://www.youtube.com/watch?v={video_id}"
     try:
         req = urllib.request.Request(url, headers=HEADERS)
         html = urllib.request.urlopen(req, timeout=10).read().decode('utf-8', errors='ignore')
         m_len = re.search(r'"lengthSeconds":"(\d+)"', html)
+        m_approx = re.search(r'"approxDurationMs":"(\d+)"', html) if not m_len else None
         m_pub = re.search(r'"publishDate":"([^"]+)"', html) or re.search(r'"uploadDate":"([^"]+)"', html)
-        duration_sec = int(m_len.group(1)) if m_len else None
+        duration_sec = int(m_len.group(1)) if m_len else (round(int(m_approx.group(1)) / 1000) if m_approx else None)
         publish_iso = None
         if m_pub:
             dt = parse_iso_utc(m_pub.group(1))
@@ -179,14 +408,22 @@ def fetch_video_metadata(video_id):
         return {"durationSec": None, "publishDate": None}
 
 
-def batch_fetch_metadata(video_ids, max_workers=10):
+def batch_fetch_metadata(video_ids, known_durations=None, max_workers=10):
     """Fetch real durations & publish dates for a batch of video IDs concurrently."""
+    known_durations = known_durations or {}
     unique_ids = list(dict.fromkeys(vid for vid in video_ids if vid))
     results = {}
-    if not unique_ids:
+    missing_ids = []
+    for vid in unique_ids:
+        if vid in known_durations and known_durations[vid] > 0:
+            results[vid] = {"durationSec": known_durations[vid], "publishDate": None}
+        else:
+            missing_ids.append(vid)
+
+    if not missing_ids:
         return results
     with ThreadPoolExecutor(max_workers=max_workers) as pool:
-        future_map = {pool.submit(fetch_video_metadata, vid): vid for vid in unique_ids}
+        future_map = {pool.submit(fetch_video_metadata, vid): vid for vid in missing_ids}
         for fut in as_completed(future_map):
             vid = future_map[fut]
             try:
@@ -246,28 +483,41 @@ def fetch_channel_videos(channel_id):
 
 
 def recalculate_film_summary(film):
-    """Recalculate parts order, totalDurationSec, totalDurationStr, partsStr, and max updatedAt."""
+    """Recalculate parts labels, monotonic order, unique index (1..N), duration summary, and updatedAt."""
     parts = film.get("parts", [])
     if not parts:
         return
 
-    parts.sort(key=lambda p: (p.get("index", 0), parse_iso_utc(p.get("publishedAt")) or datetime.min.replace(tzinfo=timezone.utc)))
-    film["parts"] = parts
-    film["totalParts"] = len(parts)
-    film["partsStr"] = f"{len(parts)} phần" if len(parts) > 1 else "1 phần (Phần 1)"
+    # Normalize labels so merged ranges (e.g. 1+2, 793+794) are never truncated
+    for p in parts:
+        clean_lbl, _ = normalize_part_label(p)
+        if clean_lbl:
+            p["label"] = clean_lbl
 
-    total_sec = sum(p.get("duration", 0) for p in parts if not p.get("isRedundant") and p.get("duration"))
+    indexed_parts = list(enumerate(parts))
+    indexed_parts.sort(key=lambda item: part_sort_key(item[1], fallback_pos=item[0]))
+    sorted_parts = [item[1] for item in indexed_parts]
+
+    for idx, p in enumerate(sorted_parts, start=1):
+        p["index"] = idx
+
+    film["parts"] = sorted_parts
+    film["totalParts"] = len(sorted_parts)
+    film["partsStr"] = f"{len(sorted_parts)} phần" if len(sorted_parts) > 1 else "1 phần (Phần 1)"
+
+    total_sec = sum(p.get("duration", 0) for p in sorted_parts if not p.get("isRedundant") and p.get("duration"))
     if total_sec > 0:
         film["totalDurationSec"] = total_sec
         film["totalDurationStr"] = format_total_duration_vi(total_sec)
 
     # Keep chronologically newest timestamp across film + parts
     newest_ts = film.get("updatedAt") or film.get("publishedAt")
-    for p in parts:
+    for p in sorted_parts:
         newest_ts = max_iso_date(newest_ts, p.get("publishedAt"))
     if newest_ts:
         film["updatedAt"] = newest_ts
-        film["isRecent24h"] = True
+        dt = parse_iso_utc(newest_ts)
+        film["isRecent24h"] = bool(dt and (datetime.now(timezone.utc) - dt).total_seconds() <= 86400)
 
 
 def bump_html_cache_version(base_dir):
@@ -287,49 +537,87 @@ def bump_html_cache_version(base_dir):
         print(f"[Auto-Update] Bumped asset cache version in index.html to v={ver}.")
 
 
-def backfill_placeholder_durations(films):
-    """Repair existing RSS-added films/parts whose duration was hardcoded to 7200s ('2:00:00')."""
+def needs_duration_repair(part):
+    """Check if a part has a placeholder 7200s ('2:00:00') or missing/zero duration."""
+    dur = part.get("duration") or 0
+    dur_str = part.get("durationStr") or ""
+    if dur <= 0 or "Đang cập nhật" in dur_str:
+        return True
+    if dur == 7200 and dur_str == "2:00:00":
+        return True
+    return False
+
+
+def repair_existing_catalog(films, browse_durations=None, fetch_watch_fallback=False, repair_parts=False):
+    """
+    Self-heal missing/placeholder durations (from browse_durations + optional watch fallback)
+    and optionally normalize duplicate/misordered merged part indices & labels.
+    """
+    browse_durations = browse_durations or {}
     to_fetch = []
     for f in films:
         for p in f.get("parts", []):
-            if p.get("duration") == 7200 and p.get("durationStr") == "2:00:00":
-                to_fetch.append(p.get("id") or p.get("videoId"))
+            if needs_duration_repair(p):
+                vid = p.get("id") or p.get("videoId")
+                if vid and (vid in browse_durations or fetch_watch_fallback):
+                    to_fetch.append(vid)
 
-    if not to_fetch:
-        return 0
+    meta_map = {}
+    if to_fetch:
+        unique_count = len(set(to_fetch))
+        print(f"[Repair] Resolving real durations for {unique_count} missing/placeholder videos (fetch_watch_fallback={fetch_watch_fallback})...")
+        if fetch_watch_fallback:
+            meta_map = batch_fetch_metadata(to_fetch, known_durations=browse_durations, max_workers=10)
+        else:
+            meta_map = {vid: {"durationSec": browse_durations[vid], "publishDate": None} for vid in set(to_fetch) if vid in browse_durations}
 
-    print(f"[Backfill] Fetching real YouTube metadata for {len(to_fetch)} placeholder videos...")
-    meta_map = batch_fetch_metadata(to_fetch, max_workers=10)
     repaired_films = 0
-
     for f in films:
         changed = False
-        for p in f.get("parts", []):
+        parts = f.get("parts", [])
+        for p in parts:
             vid = p.get("id") or p.get("videoId")
-            if vid in meta_map and p.get("duration") == 7200 and p.get("durationStr") == "2:00:00":
+            if vid in meta_map and needs_duration_repair(p):
                 info = meta_map[vid]
-                if info["durationSec"] and info["durationSec"] > 0:
+                if info.get("durationSec") and info["durationSec"] > 0:
                     p["duration"] = info["durationSec"]
                     p["durationStr"] = format_part_duration_hms(info["durationSec"])
                     changed = True
-                if info["publishDate"] and not p.get("publishedAt"):
+                if info.get("publishDate") and not p.get("publishedAt"):
                     p["publishedAt"] = info["publishDate"]
                     changed = True
-        if changed:
+
+        # Always auto-repair films with duplicate part.index or stale "Đang cập nhật" when total > 0
+        idxs = [p.get("index") for p in parts]
+        has_dup_idx = len(set(idxs)) != len(idxs)
+        has_missing_total = ("Đang cập nhật" in (f.get("totalDurationStr") or "")) and any((p.get("duration") or 0) > 0 for p in parts)
+
+        if repair_parts:
+            before_snapshot = [(p.get("index"), p.get("label"), p.get("id")) for p in parts]
             recalculate_film_summary(f)
+            after_snapshot = [(p.get("index"), p.get("label"), p.get("id")) for p in f.get("parts", [])]
+            if after_snapshot != before_snapshot:
+                changed = True
+        elif changed or has_dup_idx or has_missing_total:
+            recalculate_film_summary(f)
+            changed = True
+
+        if changed:
             repaired_films += 1
 
-    print(f"[Backfill] Repaired real durations & ordering on {repaired_films} films.")
+    if repaired_films > 0:
+        print(f"[Repair] Repaired durations and/or part numbering on {repaired_films} films.")
     return repaired_films
 
 
 def main():
     do_backfill = "--backfill" in sys.argv
+    do_repair_parts = "--repair-parts" in sys.argv or do_backfill
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_js_path = os.path.join(base_dir, "data.js")
     catalog_json_path = os.path.join(base_dir, "youtube_films_catalog.json")
 
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting YouTube Auto-Update (backfill={do_backfill})...")
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting YouTube Auto-Update (backfill={do_backfill}, repair_parts={do_repair_parts})...")
 
     if not os.path.exists(data_js_path):
         print(f"[Error] data.js not found at {data_js_path}")
@@ -348,7 +636,16 @@ def main():
     films = data.get("films", [])
     stats = data.get("stats", {})
 
-    repaired_count = backfill_placeholder_durations(films) if do_backfill else 0
+    # Pre-fetch duration map for all 8 channels via Innertube browse (works on cloud datacenter IPs)
+    browse_durations = fetch_all_channel_durations(max_workers=8)
+    print(f"[Browse] Collected {len(browse_durations)} video durations across 8 channels.")
+
+    repaired_count = repair_existing_catalog(
+        films,
+        browse_durations=browse_durations,
+        fetch_watch_fallback=do_backfill,
+        repair_parts=do_repair_parts
+    )
 
     # Build lookup index of all known video IDs
     existing_video_ids = set()
@@ -375,8 +672,8 @@ def main():
             pending_by_channel.append((ch, fresh))
             new_vids_to_fetch.extend(v["videoId"] for v in fresh)
 
-    # Step 2: Concurrently fetch real YouTube durations & publish dates for all new videos
-    meta_map = batch_fetch_metadata(new_vids_to_fetch, max_workers=10) if new_vids_to_fetch else {}
+    # Step 2: Resolve durations (from browse_durations first, /watch fallback for uncovered IDs)
+    meta_map = batch_fetch_metadata(new_vids_to_fetch, known_durations=browse_durations, max_workers=10) if new_vids_to_fetch else {}
 
     new_films_count = 0
     new_parts_count = 0
@@ -400,7 +697,9 @@ def main():
             v_thumb = v["thumbnail"]
 
             core_title = clean_core_title(v_title)
-            part_num = parse_part_number(v_title)
+            part_info = parse_part_info(v_title)
+            part_num = part_info["endNum"] if part_info else None
+            part_label = part_info["label"] if part_info else "Phần 1"
 
             # Attempt to merge into an existing series on the same channel
             matched_film = None
@@ -418,8 +717,8 @@ def main():
                 existing_parts = matched_film.get("parts", [])
                 new_idx = len(existing_parts) + 1
                 new_part = {
-                    "index": part_num or new_idx,
-                    "label": f"Phần {part_num or new_idx}",
+                    "index": new_idx,
+                    "label": part_info["label"] if part_info else f"Phần {new_idx}",
                     "title": v_title,
                     "url": f"https://www.youtube.com/watch?v={vid}",
                     "id": vid,
@@ -433,7 +732,7 @@ def main():
                 recalculate_film_summary(matched_film)
                 existing_video_ids.add(vid)
                 new_parts_count += 1
-                print(f"  [+] Added Part {part_num} ({part_dur_str or 'N/A'}) to: '{matched_film['title']}' ({vid})")
+                print(f"  [+] Added {new_part['label']} ({part_dur_str or 'N/A'}) to: '{matched_film['title']}' ({vid})")
             else:
                 max_film_num += 1
                 film_id = f"film_{max_film_num}"
@@ -458,8 +757,8 @@ def main():
                     "isRecent24h": True,
                     "parts": [
                         {
-                            "index": part_num or 1,
-                            "label": f"Phần {part_num or 1}",
+                            "index": 1,
+                            "label": part_label,
                             "title": v_title,
                             "url": f"https://www.youtube.com/watch?v={vid}",
                             "id": vid,

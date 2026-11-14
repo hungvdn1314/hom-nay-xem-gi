@@ -19,6 +19,7 @@ sys.path.insert(0, os.path.join(BASE_DIR, "scripts"))
 from update_youtube_feed import (
     CHANNELS,
     fetch_channel_videos,
+    fetch_all_channel_durations,
     batch_fetch_metadata,
     format_part_duration_hms,
     format_total_duration_vi,
@@ -36,15 +37,16 @@ def build_live_feed_payload():
         if _CACHE["payload"] and (now_ts - _CACHE["ts"] < 120):
             return _CACHE["payload"]
 
+    browse_durations = fetch_all_channel_durations(max_workers=8)
     candidates = []
     for ch in CHANNELS:
         vids = fetch_channel_videos(ch["channel_id"])
-        for v in vids[-3:]:
+        for v in vids[-4:]:
             candidates.append({**v, "channelId": ch["id"], "channelName": ch["name"], "channelUrl": ch["url"]})
 
     candidates.sort(key=lambda x: parse_iso_utc(x["published"]) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
     top = candidates[:24]
-    meta_map = batch_fetch_metadata([v["videoId"] for v in top], max_workers=8)
+    meta_map = batch_fetch_metadata([v["videoId"] for v in top], known_durations=browse_durations, max_workers=8)
 
     enriched = []
     for v in top:
