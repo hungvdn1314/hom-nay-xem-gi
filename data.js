@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 1704,
+    "totalFilms": 1722,
     "totalChannels": 8,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-14T22:49:51.176722+00:00"
+    "lastUpdated": "2026-11-15T09:41:16.717903+00:00"
   },
   "channels": [
     {
@@ -57,6 +57,609 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_1715",
+      "title": "【Mùa 1–2】Tận Thế Cực Hàn: Phong Vân Đột Biến Ở Khu 10!",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 22254,
+      "totalDurationStr": "6 giờ 10 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Mùa 1–2】Tận Thế Cực Hàn: Phong Vân Đột Biến Ở Khu 10!\n\n❄️ Cái rét bao trùm thế giới. Ở Khu 1",
+      "genres": [
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/h4c4-ZMpbMY/hqdefault.jpg",
+      "publishedAt": "2026-11-15T08:51:44+00:00",
+      "updatedAt": "2026-11-15T08:51:44+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Tận Thế Cực Hàn: Phong Vân Đột Biến Ở Khu 10!",
+          "url": "https://www.youtube.com/watch?v=h4c4-ZMpbMY",
+          "id": "h4c4-ZMpbMY",
+          "duration": 22254,
+          "durationStr": "6:10:54",
+          "publishedAt": "2026-11-15T08:51:44+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1719",
+      "title": "Full Phần 1 | Bất Ngờ Xuyên Đến Thế Giới Song Song, Nơi Ai Cũng Có Thể Thức Tỉnh Hệ Thống Riêng",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7063,
+      "totalDurationStr": "1 giờ 57 phút",
+      "review": "💖 Ủng hộ kênh\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Bất Ngờ Xuyên Đến Thế Giới Song Song, Nơi Ai Cũng Có Thể Thức Tỉnh Hệ Thống Riêng Khi Trưởng ",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/_2hmNAwrPyU/hqdefault.jpg",
+      "publishedAt": "2026-11-15T08:51:07+00:00",
+      "updatedAt": "2026-11-15T08:51:07+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Bất Ngờ Xuyên Đến Thế Giới Song Song, Nơi Ai Cũng Có Thể Thức Tỉnh Hệ Thống Riêng",
+          "url": "https://www.youtube.com/watch?v=_2hmNAwrPyU",
+          "id": "_2hmNAwrPyU",
+          "duration": 7063,
+          "durationStr": "1:57:43",
+          "publishedAt": "2026-11-15T08:51:07+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1711",
+      "title": "Full Phần 1 |【Cự Nhân Vực Sâu Tấn Công: Mỗi Ngày Một Bộ Phận Cơ Thể Tùy Ý Dài Thêm 10cm!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8137,
+      "totalDurationStr": "2 giờ 15 phút",
+      "review": "💖 Ủng hộ kênh\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Cự Nhân Vực Sâu Tấn Công: Mỗi Ngày Một Bộ Phận Cơ Thể Tùy Ý Dài Thêm 10cm!】\n\n⚡ Khi cự nhân từ",
+      "genres": [
+        "Khoa huyễn / Dị năng"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/l6vxQMww9Q4/hqdefault.jpg",
+      "publishedAt": "2026-11-15T08:49:48+00:00",
+      "updatedAt": "2026-11-15T08:49:48+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Cự Nhân Vực Sâu Tấn Công: Mỗi Ngày Một Bộ Phận Cơ Thể Tùy Ý Dài Thêm 10cm!】",
+          "url": "https://www.youtube.com/watch?v=l6vxQMww9Q4",
+          "id": "l6vxQMww9Q4",
+          "duration": 8137,
+          "durationStr": "2:15:37",
+          "publishedAt": "2026-11-15T08:49:48+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1706",
+      "title": "TẠO HÓA NGỌC ĐIỆP - THẦN CẤP VÕ GIẢ",
+      "channelId": "chiuchiusubtv",
+      "channelName": "ChiuChiuSubTV",
+      "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12717,
+      "totalDurationStr": "3 giờ 31 phút",
+      "review": "🔥Đăng ký kênh để xem fim hay mỗi ngày: https://www.youtube.com/@UCWsKmJAGnozzktv5A-duTaA \n\n📌 Tóm Tắt Phim: \nTrần Hạo Vũ – một thanh niên xuyên không suốt 18 năm luôn cam chịu cuộc sống nghèo khó cùng ",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/stlWAL4Horc/hqdefault.jpg",
+      "publishedAt": "2026-11-15T08:01:20+00:00",
+      "updatedAt": "2026-11-15T08:01:20+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "TẠO HÓA NGỌC ĐIỆP - THẦN CẤP VÕ GIẢ",
+          "url": "https://www.youtube.com/watch?v=stlWAL4Horc",
+          "id": "stlWAL4Horc",
+          "duration": 12717,
+          "durationStr": "3:31:57",
+          "publishedAt": "2026-11-15T08:01:20+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1722",
+      "title": "XUYÊN THÀNH THẾ THÂN BỊ TỔNG TÀI COI RẺ –LẬT NGƯỢC KỊCH BẢN, KHIẾN NAM THẦN PHÁT ĐIÊN TRANH SỦNG!",
+      "channelId": "tieusumuoi",
+      "channelName": "Tiểu Sư Muội",
+      "channelUrl": "https://www.youtube.com/@Tieusumuoi-u3e",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 17624,
+      "totalDurationStr": "4 giờ 53 phút",
+      "review": "Tô Mạn là một nhiệm vụ giả cấp S của Cục Xuyên Sách. Sau khi hoàn thành 99 thế giới nhiệm vụ, nàng chỉ còn một nhiệm vụ cuối cùng là có thể nhận 100 tỷ tiền thưởng và chính thức nghỉ hưu!\n\nThế nhưng, ",
+      "genres": [
+        "Đô thị / Ngôn tình - Nghịch tập"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/evwPNN0vOiA/hqdefault.jpg",
+      "publishedAt": "2026-11-15T08:00:19+00:00",
+      "updatedAt": "2026-11-15T08:00:19+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "XUYÊN THÀNH THẾ THÂN BỊ TỔNG TÀI COI RẺ –LẬT NGƯỢC KỊCH BẢN, KHIẾN NAM THẦN PHÁT ĐIÊN TRANH SỦNG!",
+          "url": "https://www.youtube.com/watch?v=evwPNN0vOiA",
+          "id": "evwPNN0vOiA",
+          "duration": 17624,
+          "durationStr": "4:53:44",
+          "publishedAt": "2026-11-15T08:00:19+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1707",
+      "title": "Mùa 3 | Tự Liệt: Một Mình Ta Là Nghị Hội Hoàng Hôn",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10050,
+      "totalDurationStr": "2 giờ 47 phút",
+      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt\nMùa 3 | Tự Liệt: Một Mình Ta Là Nghị Hội Hoàng Hôn\nTrong một thế giới nơi dị thú hoành hành, sự thức tỉnh của thiên phú quyết định tất c",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Khoa huyễn / Dị năng"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/wICookN9uRQ/hqdefault.jpg",
+      "publishedAt": "2026-11-15T05:14:00+00:00",
+      "updatedAt": "2026-11-15T05:14:00+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 3",
+          "title": "Mùa 3 | Tự Liệt: Một Mình Ta Là Nghị Hội Hoàng Hôn",
+          "url": "https://www.youtube.com/watch?v=wICookN9uRQ",
+          "id": "wICookN9uRQ",
+          "duration": 10050,
+          "durationStr": "2:47:30",
+          "publishedAt": "2026-11-15T05:14:00+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1714",
+      "title": "Full Phần 3 | 【Từ Nhỏ Được Lệ Quỷ Nuôi Lớn, Cứ Tưởng Mình Cũng Là Quỷ!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7205,
+      "totalDurationStr": "2 giờ 00 phút",
+      "review": "💖 Ủng hộ kênh\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 Full Phần 3 | 【Từ Nhỏ Được Lệ Quỷ Nuôi Lớn, Cứ Tưởng Mình Cũng Là Quỷ!】\n\n👻 Được lệ quỷ nuôi từ",
+      "genres": [
+        "Hoạt hình 2D/3D"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/G9HgC9rwrOw/hqdefault.jpg",
+      "publishedAt": "2026-11-15T04:27:23+00:00",
+      "updatedAt": "2026-11-15T04:27:23+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 3",
+          "title": "Full Phần 3 | 【Từ Nhỏ Được Lệ Quỷ Nuôi Lớn, Cứ Tưởng Mình Cũng Là Quỷ!】",
+          "url": "https://www.youtube.com/watch?v=G9HgC9rwrOw",
+          "id": "G9HgC9rwrOw",
+          "duration": 7205,
+          "durationStr": "2:00:05",
+          "publishedAt": "2026-11-15T04:27:23+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1718",
+      "title": "Full Phần 1 | Đại Tai Biến Toàn Cầu, Toàn Dân Đồng Loạt Thức Tỉnh Năng Lực Ngôn Linh Theo Trình Tự",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 17820,
+      "totalDurationStr": "4 giờ 57 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 Full Phần 1-2 | Đại Tai Biến Toàn Cầu, Dị Thú Hoành Hành, Toàn Dân Đồng Loạt Thức Tỉnh Năng L",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Khoa huyễn / Dị năng"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/UeCYM3-5X3s/hqdefault.jpg",
+      "publishedAt": "2026-11-15T04:26:50+00:00",
+      "updatedAt": "2026-11-15T04:26:50+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Đại Tai Biến Toàn Cầu, Toàn Dân Đồng Loạt Thức Tỉnh Năng Lực Ngôn Linh Theo Trình Tự",
+          "url": "https://www.youtube.com/watch?v=UeCYM3-5X3s",
+          "id": "UeCYM3-5X3s",
+          "duration": 17820,
+          "durationStr": "4:57:00",
+          "publishedAt": "2026-11-15T04:26:50+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1710",
+      "title": "【Mùa 1–2】Tôi Có Thể Cướp Đoạt Thiên Phú Của Quái Thú, Bắt Đầu Nghịch Tập Từ Năm Ba Đại Học!",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 21342,
+      "totalDurationStr": "5 giờ 55 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Mùa 1–2】Tôi Có Thể Cướp Đoạt Thiên Phú Của Quái Thú, Bắt Đầu Nghịch Tập Từ Năm Ba Đại Học!\n\n",
+      "genres": [
+        "Đô thị / Ngôn tình - Nghịch tập"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/FDYvJT8lqVs/hqdefault.jpg",
+      "publishedAt": "2026-11-15T04:23:40+00:00",
+      "updatedAt": "2026-11-15T04:23:40+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Tôi Có Thể Cướp Đoạt Thiên Phú Của Quái Thú, Bắt Đầu Nghịch Tập Từ Năm Ba Đại Học!",
+          "url": "https://www.youtube.com/watch?v=FDYvJT8lqVs",
+          "id": "FDYvJT8lqVs",
+          "duration": 21342,
+          "durationStr": "5:55:42",
+          "publishedAt": "2026-11-15T04:23:40+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1721",
+      "title": "XUYÊN SÁCH THÀNH NỮ PHỤ PHẢN DIỆN – NÀNG CÀNG NGANG NGƯỢC CÀNG ĐƯỢC NAM THẦN SI MÊ!",
+      "channelId": "tieusumuoi",
+      "channelName": "Tiểu Sư Muội",
+      "channelUrl": "https://www.youtube.com/@Tieusumuoi-u3e",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8152,
+      "totalDurationStr": "2 giờ 15 phút",
+      "review": "Một cô gái hiện đại bất ngờ xuyên vào cuốn tiểu thuyết ngôn tình hào môn, trở thành Thương Đại – đại tiểu thư của gia tộc quyền thế nhất trong năm đại gia tộc, đồng thời là nữ phụ phản diện độc ác có ",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/a-ClwmmNdJY/hqdefault.jpg",
+      "publishedAt": "2026-11-15T04:00:30+00:00",
+      "updatedAt": "2026-11-15T04:00:30+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "XUYÊN SÁCH THÀNH NỮ PHỤ PHẢN DIỆN – NÀNG CÀNG NGANG NGƯỢC CÀNG ĐƯỢC NAM THẦN SI MÊ!",
+          "url": "https://www.youtube.com/watch?v=a-ClwmmNdJY",
+          "id": "a-ClwmmNdJY",
+          "duration": 8152,
+          "durationStr": "2:15:52",
+          "publishedAt": "2026-11-15T04:00:30+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1713",
+      "title": "Full Phần 1 |【Xuyên Không Đến Đại Càn, Tôi Từ Thiếu Gia Phá Gia Chi Tử Trở Thành Ông Chủ Tửu Lâu!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 14779,
+      "totalDurationStr": "4 giờ 06 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Xuyên Không Đến Đại Càn, Tôi Từ Thiếu Gia Phá Gia Chi Tử Trở Thành Ông Chủ Tửu Lâu!】\n\n🍶 Vừa ",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Hài hước / Giải trí"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/Vy1kq8diZKI/hqdefault.jpg",
+      "publishedAt": "2026-11-15T02:09:03+00:00",
+      "updatedAt": "2026-11-15T02:09:03+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Xuyên Không Đến Đại Càn, Tôi Từ Thiếu Gia Phá Gia Chi Tử Trở Thành Ông Chủ Tửu Lâu!】",
+          "url": "https://www.youtube.com/watch?v=Vy1kq8diZKI",
+          "id": "Vy1kq8diZKI",
+          "duration": 14779,
+          "durationStr": "4:06:19",
+          "publishedAt": "2026-11-15T02:09:03+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1717",
+      "title": "Full END | Xuyên Đến Thế Giới Tận Thế, Nữ Chính Kích Hoạt Hệ Thống Bán Hàng!",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10827,
+      "totalDurationStr": "3 giờ 00 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Xuyên Đến Thế Giới Tận Thế, Nữ Chính Kích Hoạt Hệ Thống Bán Hàng!】\n\n🛒 Vừa xuyên đến thế giới",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/eRfrvCcGwL8/hqdefault.jpg",
+      "publishedAt": "2026-11-15T02:08:34+00:00",
+      "updatedAt": "2026-11-15T02:08:34+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full END | Xuyên Đến Thế Giới Tận Thế, Nữ Chính Kích Hoạt Hệ Thống Bán Hàng!",
+          "url": "https://www.youtube.com/watch?v=eRfrvCcGwL8",
+          "id": "eRfrvCcGwL8",
+          "duration": 10827,
+          "durationStr": "3:00:27",
+          "publishedAt": "2026-11-15T02:08:34+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1709",
+      "title": "Full Phần 1 | Toàn Cầu Tu Tiên: Chỉ Mình Tôi Có Thương Thành Giảm Giá Gấp 1 Tỷ Lần!",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8805,
+      "totalDurationStr": "2 giờ 26 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Toàn Cầu Tu Tiên: Chỉ Mình Tôi Có Thương Thành Giảm Giá Gấp 1 Tỷ Lần!】\n\n⚔️ Toàn bộ nhân loại",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Huyền huyễn / Tu tiên"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/fyYQqegzEws/hqdefault.jpg",
+      "publishedAt": "2026-11-15T02:07:48+00:00",
+      "updatedAt": "2026-11-15T02:07:48+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Toàn Cầu Tu Tiên: Chỉ Mình Tôi Có Thương Thành Giảm Giá Gấp 1 Tỷ Lần!",
+          "url": "https://www.youtube.com/watch?v=fyYQqegzEws",
+          "id": "fyYQqegzEws",
+          "duration": 8805,
+          "durationStr": "2:26:45",
+          "publishedAt": "2026-11-15T02:07:48+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1708",
+      "title": "Full Phần 1 | Hệ Thống Bất Ngờ Xâm Lấn, Anh Thức Tỉnh Hào Quang Khiêu Khích Bị Động Cấp SSS!",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8346,
+      "totalDurationStr": "2 giờ 19 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Hệ Thống Bất Ngờ Xâm Lấn, Anh Thức Tỉnh Hào Quang Khiêu Khích Bị Động Cấp SSS!】\n\n🎮 Bị kéo và",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/qYbKcwflBn4/hqdefault.jpg",
+      "publishedAt": "2026-11-15T00:13:00+00:00",
+      "updatedAt": "2026-11-15T00:13:00+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Hệ Thống Bất Ngờ Xâm Lấn, Anh Thức Tỉnh Hào Quang Khiêu Khích Bị Động Cấp SSS!",
+          "url": "https://www.youtube.com/watch?v=qYbKcwflBn4",
+          "id": "qYbKcwflBn4",
+          "duration": 8346,
+          "durationStr": "2:19:06",
+          "publishedAt": "2026-11-15T00:13:00+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1712",
+      "title": "Full Phần 1 |【Trọng Sinh Thành Venom Thôn Phệ Tai Ách, Mở Đầu Ký Sinh Hoa Khôi!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8348,
+      "totalDurationStr": "2 giờ 19 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Trọng Sinh Thành Venom Thôn Phệ Tai Ách, Mở Đầu Ký Sinh Hoa Khôi!】\n\n🖤 Trọng sinh thành Venom",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/Uljk9ywnfy4/hqdefault.jpg",
+      "publishedAt": "2026-11-15T00:12:34+00:00",
+      "updatedAt": "2026-11-15T00:12:34+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Trọng Sinh Thành Venom Thôn Phệ Tai Ách, Mở Đầu Ký Sinh Hoa Khôi!】",
+          "url": "https://www.youtube.com/watch?v=Uljk9ywnfy4",
+          "id": "Uljk9ywnfy4",
+          "duration": 8348,
+          "durationStr": "2:19:08",
+          "publishedAt": "2026-11-15T00:12:34+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1716",
+      "title": "Full Phần 1 |【Kỳ Tích Giáng Lâm Toàn Cầu: Ta Là Thần Khái Niệm, Đứng Trên Cả Chư Thần!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11611,
+      "totalDurationStr": "3 giờ 13 phút",
+      "review": "💖 Ủng hộ kênh:\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Kỳ Tích Giáng Lâm Toàn Cầu: Ta Là Thần Khái Niệm, Đứng Trên Cả Chư Thần!】\n\n✨ Linh khí hồi si",
+      "genres": [
+        "Hoạt hình 2D/3D"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/Wa71fL3jJwE/hqdefault.jpg",
+      "publishedAt": "2026-11-15T00:08:32+00:00",
+      "updatedAt": "2026-11-15T00:08:32+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Kỳ Tích Giáng Lâm Toàn Cầu: Ta Là Thần Khái Niệm, Đứng Trên Cả Chư Thần!】",
+          "url": "https://www.youtube.com/watch?v=Wa71fL3jJwE",
+          "id": "Wa71fL3jJwE",
+          "duration": 11611,
+          "durationStr": "3:13:31",
+          "publishedAt": "2026-11-15T00:08:32+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1720",
+      "title": "XUYÊN THÀNH THIẾU NỮ MANG THÂN PHẬN BÍ ẨN – KÍCH HOẠT HỆ THỐNG, KHIẾN CẢ THẾ GIỚI QUỶ DỊ NÁO LOẠN!",
+      "channelId": "tieusumuoi",
+      "channelName": "Tiểu Sư Muội",
+      "channelUrl": "https://www.youtube.com/@Tieusumuoi-u3e",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 22573,
+      "totalDurationStr": "6 giờ 16 phút",
+      "review": "Thẩm Niệm Niệm bất ngờ xuyên không vào thế giới quái đàm quy tắc, nơi con người bị ép tham gia những phó bản kinh dị, chỉ cần vi phạm một quy tắc nhỏ cũng có thể mất mạng!\n\nMay mắn thay, nàng kích hoạ",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/MILK_PgAMzU/hqdefault.jpg",
+      "publishedAt": "2026-11-15T00:00:33+00:00",
+      "updatedAt": "2026-11-15T00:00:33+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "XUYÊN THÀNH THIẾU NỮ MANG THÂN PHẬN BÍ ẨN – KÍCH HOẠT HỆ THỐNG, KHIẾN CẢ THẾ GIỚI QUỶ DỊ NÁO LOẠN!",
+          "url": "https://www.youtube.com/watch?v=MILK_PgAMzU",
+          "id": "MILK_PgAMzU",
+          "duration": 22573,
+          "durationStr": "6:16:13",
+          "publishedAt": "2026-11-15T00:00:33+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1705",
+      "title": "Sinh Tồn Mạt Thế: Độ Kiếp Thất Bại, Ta Xuyên Không Tu Tiên Giữa Đại Dịch Zombie",
+      "channelId": "thienphatreview",
+      "channelName": "Thiên Phạt Review",
+      "channelUrl": "https://www.youtube.com/@thienphatreview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13294,
+      "totalDurationStr": "3 giờ 41 phút",
+      "review": "Sinh Tồn Mạt Thế: Độ Kiếp Thất Bại, Ta Xuyên Không Tu Tiên Giữa Đại Dịch Zombie\n\nThiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các thể loại.\nRevi",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/OAqPc95PKcQ/hqdefault.jpg",
+      "publishedAt": "2026-11-15T00:00:21+00:00",
+      "updatedAt": "2026-11-15T00:00:21+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Sinh Tồn Mạt Thế: Độ Kiếp Thất Bại, Ta Xuyên Không Tu Tiên Giữa Đại Dịch Zombie",
+          "url": "https://www.youtube.com/watch?v=OAqPc95PKcQ",
+          "id": "OAqPc95PKcQ",
+          "duration": 13294,
+          "durationStr": "3:41:34",
+          "publishedAt": "2026-11-15T00:00:21+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1704",
       "title": "Full Phần 1 | 【Phân Thân Của Tôi Trải Khắp Chư Thiên Vạn Giới!】",
@@ -11511,10 +12114,10 @@ window.FILMS_DATA = {
       "channelName": "Thiên Phạt Review",
       "channelUrl": "https://www.youtube.com/@thienphatreview",
       "playlistUrl": null,
-      "totalParts": 5,
-      "partsStr": "5 phần",
-      "totalDurationSec": 43701,
-      "totalDurationStr": "12 giờ 08 phút",
+      "totalParts": 6,
+      "partsStr": "6 phần",
+      "totalDurationSec": 50643,
+      "totalDurationStr": "14 giờ 04 phút",
       "review": "Xuyên Không Đến Thế Giới Sinh Tồn, Mở Mắt Ra Chỉ Có Một Chiếc Bè Gỗ. (4 phần (5 video, có bản gộp))",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -11571,8 +12174,21 @@ window.FILMS_DATA = {
           "duration": 13350,
           "durationStr": "3:42:30",
           "isRedundant": false
+        },
+        {
+          "index": 6,
+          "label": "Phần 5",
+          "title": "Phần 5 | Xuyên Không Đến Thế Giới Sinh Tồn, Mở Mắt Ra Chỉ Có Một Chiếc Bè Gỗ",
+          "url": "https://www.youtube.com/watch?v=X-uNJXgNd24",
+          "id": "X-uNJXgNd24",
+          "duration": 6942,
+          "durationStr": "1:55:42",
+          "publishedAt": "2026-11-15T04:00:24+00:00",
+          "isRedundant": false
         }
-      ]
+      ],
+      "updatedAt": "2026-11-15T04:00:24+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_185",
