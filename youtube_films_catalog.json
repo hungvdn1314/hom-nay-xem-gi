@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 1733,
+    "totalFilms": 1734,
     "totalChannels": 8,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-15T16:43:27.154342+00:00"
+    "lastUpdated": "2026-11-15T21:25:14.807991+00:00"
   },
   "channels": [
     {
@@ -57,6 +57,39 @@
     }
   ],
   "films": [
+    {
+      "id": "film_1734",
+      "title": "Phần 2 | Hệ Thống Điểm Danh Đăng Nhập Mỗi Ngày, Ta Triệu Hồi Cường Giả Trấn Áp Vạn Giới",
+      "channelId": "tieuho_review",
+      "channelName": "Tiểu Hồ Review (Dorovietsub)",
+      "channelUrl": "https://www.youtube.com/@Ti%E1%BB%83u-H%E1%BB%93_Review",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8101,
+      "totalDurationStr": "2 giờ 15 phút",
+      "review": "Xuyên đến Lâm gia ở Thương Nguyên Giới, Lâm Huyền sống an nhàn 18 năm thì bất ngờ bị một tờ ý chỉ ép đoạt Thiên Sinh Kiếm Cốt, kháng chỉ sẽ bị diệt tộc!\nĐúng lúc nguy cấp, hắn thức tỉnh Hệ Thống Điểm ",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/v7VYNIAYbAI/hqdefault.jpg",
+      "publishedAt": "2026-11-15T16:36:28+00:00",
+      "updatedAt": "2026-11-15T16:36:28+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Phần 2 | Hệ Thống Điểm Danh Đăng Nhập Mỗi Ngày, Ta Triệu Hồi Cường Giả Trấn Áp Vạn Giới",
+          "url": "https://www.youtube.com/watch?v=v7VYNIAYbAI",
+          "id": "v7VYNIAYbAI",
+          "duration": 8101,
+          "durationStr": "2:15:01",
+          "publishedAt": "2026-11-15T16:36:28+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1727",
       "title": "Mùa 1 - Mùa 3 | Mạt Thế Tinh Chủ: Tất Cả Bắt Đầu Từ Con Số Không",
@@ -32934,10 +32967,10 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLPyZGjXwqIOc",
-      "totalParts": 5,
-      "partsStr": "5 phần",
-      "totalDurationSec": 111656,
-      "totalDurationStr": "31 giờ 00 phút",
+      "totalParts": 6,
+      "partsStr": "6 phần",
+      "totalDurationSec": 120231,
+      "totalDurationStr": "33 giờ 23 phút",
       "review": "Thần Tai Chi Thể. (5 phần (Phần 1 -> 5))",
       "genres": [
         "Hoạt hình 2D/3D (Manhua/Donghua)"
@@ -32993,8 +33026,21 @@
           "duration": 19907,
           "durationStr": "5:31:47",
           "isRedundant": false
+        },
+        {
+          "index": 6,
+          "label": "Mùa 6",
+          "title": "Mùa 6 | Trảm Thần Quan: Thần Tai Chi Thể",
+          "url": "https://www.youtube.com/watch?v=Tlbog0v0swo",
+          "id": "Tlbog0v0swo",
+          "duration": 8575,
+          "durationStr": "2:22:55",
+          "publishedAt": "2026-11-15T18:12:01+00:00",
+          "isRedundant": false
         }
-      ]
+      ],
+      "updatedAt": "2026-11-15T18:12:01+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_758",
