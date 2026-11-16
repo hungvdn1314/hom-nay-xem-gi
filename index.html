@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hôm Nay Xem Gì - Kho Phim Hoạt Hình & Review 3D</title>
-  <meta name="description" content="Khám phá kho phim hoạt hình 2D/3D, tu tiên, mạt thế, hệ thống tuyển chọn từ 8 kênh review trên YouTube.">
+  <meta name="description" content="Khám phá kho phim hoạt hình 3D, tu tiên, mạt thế, hệ thống tuyển chọn tự động từ hàng chục kênh YouTube uy tín.">
 
   <!-- Google Fonts: Plus Jakarta Sans for flawless typography & Vietnamese diacritics -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=20261116_104000">
+  <link rel="stylesheet" href="style.css?v=20261116_045430">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2338bdf8'><polygon points='5 3 19 12 5 21 5 3'/></svg>">
 </head>
 <body class="nordic-app">
@@ -149,6 +149,18 @@
         </div>
       </div>
 
+      <!-- Continue Watching Shelf (rendered by JS, hidden when empty) -->
+      <section class="continue-shelf hidden" id="continueShelf" aria-label="Đang xem dở">
+        <div class="continue-head">
+          <div class="continue-title">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span>ĐANG XEM DỞ</span>
+          </div>
+          <button type="button" class="continue-clear" id="btnClearContinue">Xóa lịch sử</button>
+        </div>
+        <div class="continue-row" id="continueRow"></div>
+      </section>
+
       <!-- Master Category Tabs -->
       <div class="feed-tabs-header">
         <div class="category-tabs-group" id="categoryTabsGroup">
@@ -197,6 +209,20 @@
               <option value="views">Xem nhiều nhất</option>
               <option value="likes">Yêu thích nhất</option>
               <option value="duration">Cày đêm (Dài nhất)</option>
+            </select>
+          </div>
+
+          <div class="filter-control-item">
+            <label for="durationSelect" class="filter-label">
+              <svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Thời lượng:</span>
+            </label>
+            <select id="durationSelect" class="filter-select" aria-label="Lọc theo thời lượng phim">
+              <option value="all">Mọi thời lượng</option>
+              <option value="short">Ngắn (dưới 1,5 giờ)</option>
+              <option value="medium">Vừa (1,5 – 3 giờ)</option>
+              <option value="long">Dài (3 – 6 giờ)</option>
+              <option value="marathon">Cày đêm (trên 6 giờ)</option>
             </select>
           </div>
 
@@ -313,6 +339,18 @@
 
       <!-- Modal Bottom Panel: Episode Selector -->
       <div class="cinema-dialog-body">
+        <div class="player-toolbar">
+          <button type="button" class="player-nav-btn" id="btnPrevEp"><svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg><span>Tập trước</span></button>
+          <button type="button" class="player-nav-btn is-primary" id="btnNextEp"><span>Tập tiếp theo</span><svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+          <button type="button" class="player-nav-btn" id="btnShareFilm" title="Sao chép link phim/tập này"><svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg><span>Chia sẻ</span></button>
+          <a class="player-nav-btn" id="btnOpenYoutube" href="#" target="_blank" rel="noopener noreferrer"><svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg><span>Mở trên YouTube</span></a>
+        </div>
+
+        <div class="player-info">
+          <div class="player-tags" id="modalTags"></div>
+          <p class="player-synopsis" id="modalSynopsis"></p>
+        </div>
+
         <div class="episodes-bar-head">
           <div class="episodes-heading">
             <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
@@ -329,6 +367,12 @@
         <div class="episode-capsules-grid" id="modalEpMatrix">
           <!-- Rendered dynamically via JS -->
         </div>
+
+        <div class="related-block" id="relatedBlock">
+          <div class="episodes-heading"><span id="relatedTitle">PHIM 3D CÙNG THỂ LOẠI</span></div>
+          <div class="related-row" id="relatedRow"></div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -433,7 +477,7 @@
   </nav>
 
   <!-- Load Data and Application Controller -->
-  <script src="data.js?v=20261116_103500"></script>
-  <script src="app.js?v=20261116_103500"></script>
+  <script src="data.js?v=20261116_045430"></script>
+  <script src="app.js?v=20261116_045430"></script>
 </body>
 </html>

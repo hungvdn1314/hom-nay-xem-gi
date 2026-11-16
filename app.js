@@ -28,6 +28,8 @@
     pageSize: 24,
     favorites: new Set(),
     history: [],
+    progress: {},
+    durationFilter: 'all',
     currentPlayingFilm: null,
     currentPlayingPartIndex: 1,
     randomCandidate: null
@@ -48,10 +50,25 @@
     renderSidebar();
     renderMobileChips();
     applyFiltersAndRender(1);
+    renderContinueShelf();
+    applyDeepLinkFromUrl();
     syncLiveYouTubeFeed();
   });
 
   function cacheDomElements() {
+    el.continueShelf = document.getElementById('continueShelf');
+    el.continueRow = document.getElementById('continueRow');
+    el.btnClearContinue = document.getElementById('btnClearContinue');
+    el.durationSelect = document.getElementById('durationSelect');
+    el.btnPrevEp = document.getElementById('btnPrevEp');
+    el.btnNextEp = document.getElementById('btnNextEp');
+    el.btnShareFilm = document.getElementById('btnShareFilm');
+    el.btnOpenYoutube = document.getElementById('btnOpenYoutube');
+    el.modalTags = document.getElementById('modalTags');
+    el.modalSynopsis = document.getElementById('modalSynopsis');
+    el.relatedBlock = document.getElementById('relatedBlock');
+    el.relatedTitle = document.getElementById('relatedTitle');
+    el.relatedRow = document.getElementById('relatedRow');
     el.brandHomeBtn = document.getElementById('brandHomeBtn');
     el.btnDiceRandom = document.getElementById('btnDiceRandom');
     el.btnFavoritesOpen = document.getElementById('btnFavoritesOpen');
@@ -162,6 +179,10 @@
         state.history = JSON.parse(hist);
       }
       const notifs = localStorage.getItem('homnayxemgi_notifs');
+      const prog = localStorage.getItem('homnayxemgi_progress');
+      if (prog) {
+        state.progress = JSON.parse(prog) || {};
+      }
       if (notifs) {
         state.notifications = JSON.parse(notifs);
       }
@@ -904,7 +925,7 @@
     if (el.channelNavList) {
       let cHtml = `
         <button type="button" class="sidebar-menu-btn ${state.selectedChannel === 'all' ? 'active' : ''}" data-channel="all">
-          <span>Tất cả 8 kênh</span>
+          <span>Tất cả ${state.channels.length || ''} kênh</span>
           <span class="sidebar-count-tag">${state.allFilms.length}</span>
         </button>
       `;
@@ -1050,7 +1071,14 @@
         continue;
       }
 
-      // 4. Time window filter & period views/likes calculation
+      // 3b. Duration filter
+      if (state.durationFilter !== 'all') {
+        const hrs = (film.totalDurationSec || 0) / 3600;
+        const bucket = hrs < 1.5 ? 'short' : (hrs < 3 ? 'medium' : (hrs < 6 ? 'long' : 'marathon'));
+        if (bucket !== state.durationFilter) continue;
+      }
+
+      // 4. Time window filter &amp; period views/likes calculation
       const pm = getFilmPeriodMetrics(film, activeTimeWindow);
       if (!pm.matches) continue;
 
@@ -1104,8 +1132,7 @@
     }
 
     renderActiveScopeBadges();
-
-    // Summary Text
+    if (state.urlReady) syncScopeToUrl();
     if (el.feedCountSummary) {
       if (totalCount === 0) {
         el.feedCountSummary.textContent = 'Không tìm thấy bộ phim phù hợp';
@@ -1219,11 +1246,17 @@
           </div>
         </div>
 
-        <div class="card-body">
+          <div class="card-body">
           <h3 class="card-title">${escapeHtml(film.title)}</h3>
           <div class="card-meta-row">
             <span class="card-channel-name">${escapeHtml(film.channelName)}</span>
-            <span class="card-genre-text">${escapeHtml(film.genre)}</span>
+            <button type="button" class="card-info-btn" data-info-id="${film.id}" aria-label="Xem tóm tắt cốt truyện" title="Xem tóm tắt cốt truyện">
+              <svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+              <span>Tóm tắt</span>
+            </button>
+          </div>
+          <div class="card-genre-tags">
+            ${(Array.isArray(film.genres) && film.genres.length ? film.genres : [film.genre]).slice(0, 2).map(g => `<span class="card-genre-chip">${escapeHtml(g)}</span>`).join('')}
           </div>
           ${statsMarkup}
         </div>
@@ -1451,6 +1484,9 @@
     }
 
     addToHistory(film.id);
+    saveProgress(film, currentPart, resolvedPos);
+    renderPlayerExtras(film, currentPart, resolvedPos);
+    syncUrl({ film: film.id, ep: resolvedPos > 0 ? resolvedPos + 1 : null });
     el.theaterModal?.classList.add('active');
   }
 
@@ -1460,6 +1496,136 @@
     }
     el.theaterModal?.classList.remove('active');
     state.currentPlayingFilm = null;
+    renderContinueShelf();
+    syncUrl({ film: null, ep: null });
+  }
+
+  // ---- Watch progress (Continue Watching) ----
+  function saveProgress(film, part, pos) {
+    state.progress[film.id] = {
+      videoId: part.videoId,
+      pos,
+      label: part.label || `Tập ${pos + 1}`,
+      total: film.parts.length,
+      ts: Date.now()
+    };
+    const ids = Object.keys(state.progress).sort((a, b) => state.progress[b].ts - state.progress[a].ts);
+    ids.slice(30).forEach(id => delete state.progress[id]);
+    try { localStorage.setItem('homnayxemgi_progress', JSON.stringify(state.progress)); } catch (e) {}
+  }
+
+  function renderContinueShelf() {
+    if (!el.continueShelf || !el.continueRow) return;
+    const items = Object.entries(state.progress)
+      .map(([id, p]) => ({ film: state.allFilms.find(f => f.id === id), p }))
+      .filter(x => x.film)
+      .sort((a, b) => b.p.ts - a.p.ts)
+      .slice(0, 12);
+    el.continueShelf.classList.toggle('hidden', items.length === 0);
+    el.continueRow.innerHTML = items.map(({ film, p }) => `
+      <button type="button" class="continue-card" data-continue-film="${escapeHtml(film.id)}" title="${escapeHtml(film.title)}">
+        <span class="continue-thumb"><img src="${escapeHtml(film.thumbnailUrl)}" alt="" loading="lazy"><span class="continue-badge">${escapeHtml(p.label)}${p.total > 1 ? ` / ${p.total}` : ''}</span></span>
+        <span class="continue-meta">
+          <span class="continue-film-title">${escapeHtml(film.title)}</span>
+          <span class="continue-sub">Xem tiếp • ${escapeHtml(formatRealTimeAgo(new Date(p.ts).toISOString()) || 'vừa xong')}</span>
+        </span>
+      </button>`).join('');
+  }
+
+  // ---- Theater extras: tags, synopsis, prev/next, related films ----
+  function renderPlayerExtras(film, part, pos) {
+    const genres = Array.isArray(film.genres) && film.genres.length ? film.genres : [film.genre];
+    if (el.modalTags) {
+      el.modalTags.innerHTML =
+        `<button type="button" class="random-tag-pill tag-channel" data-scope-channel="${escapeHtml(film.channelId)}">${escapeHtml(film.channelName)}</button>` +
+        genres.map(g => `<button type="button" class="random-tag-pill" data-scope-genre="${escapeHtml(g)}">${escapeHtml(g)}</button>`).join('') +
+        `<span class="random-tag-pill tag-date">${escapeHtml(film.totalDuration || '')}</span>`;
+    }
+    if (el.modalSynopsis) el.modalSynopsis.textContent = film.synopsis || '';
+    if (el.btnPrevEp) el.btnPrevEp.disabled = pos <= 0;
+    if (el.btnNextEp) el.btnNextEp.disabled = pos >= film.parts.length - 1;
+    if (el.btnOpenYoutube) el.btnOpenYoutube.href = `https://www.youtube.com/watch?v=${part.videoId}`;
+
+    if (el.relatedRow && el.relatedBlock) {
+      const sameCh = state.allFilms.filter(f => f.id !== film.id && f.channelId === film.channelId);
+      let pool = state.allFilms.filter(f => f.id !== film.id && genres.some(g => filmMatchesGenre(f, g)));
+      pool.sort((a, b) => (b.totalViews || 0) - (a.totalViews || 0));
+      const related = pool.slice(0, 8);
+      if (related.length < 8) {
+        sameCh.slice(0, 8 - related.length).forEach(f => { if (!related.includes(f)) related.push(f); });
+      }
+      if (el.relatedTitle) el.relatedTitle.textContent = `PHIM 3D CÙNG THỂ LOẠI: ${genres[0].toUpperCase()}`;
+      el.relatedBlock.classList.toggle('hidden', related.length === 0);
+      el.relatedRow.innerHTML = related.map(f => `
+        <button type="button" class="continue-card related-card" data-related-film="${escapeHtml(f.id)}" title="${escapeHtml(f.title)}">
+          <span class="continue-thumb"><img src="${escapeHtml(f.thumbnailUrl)}" alt="" loading="lazy"><span class="continue-badge">${escapeHtml(f.totalDuration || '')}</span></span>
+          <span class="continue-meta">
+            <span class="continue-film-title">${escapeHtml(f.title)}</span>
+            <span class="continue-sub">${escapeHtml(f.channelName)} • ${formatCompactCountVi(f.totalViews)} xem</span>
+          </span>
+        </button>`).join('');
+    }
+    const dlg = el.theaterModal?.querySelector('.cinema-dialog-shell');
+    if (dlg) dlg.scrollTop = 0;
+  }
+
+  function stepEpisode(delta) {
+    const film = state.currentPlayingFilm;
+    if (!film) return;
+    const curPos = film.parts.findIndex(p => p.partNumber === state.currentPlayingPartIndex);
+    const next = curPos + delta;
+    if (next < 0 || next >= film.parts.length) return;
+    openPlayer(film, { partPos: next, videoId: film.parts[next].videoId });
+  }
+
+  // ---- URL deep-linking ----
+  function syncUrl(patch) {
+    if (!window.location.protocol.startsWith('http')) return;
+    const params = new URLSearchParams(window.location.search);
+    Object.entries(patch).forEach(([k, v]) => {
+      if (v === null || v === undefined || v === '' || v === 'all') params.delete(k); else params.set(k, v);
+    });
+    const qs = params.toString();
+    try { history.replaceState(null, '', window.location.pathname + (qs ? `?${qs}` : '')); } catch (e) {}
+  }
+
+  function syncScopeToUrl() {
+    syncUrl({
+      tab: state.activeTab,
+      channel: state.selectedChannel,
+      genre: state.selectedGenre,
+      metric: state.activeTab === 'leaderboard' ? state.leaderboardMetric : null,
+      range: state.activeTab === 'leaderboard' ? state.leaderboardTime : null
+    });
+  }
+
+  function applyDeepLinkFromUrl() {
+    const q = new URLSearchParams(window.location.search);
+    const tab = q.get('tab');
+    if (tab && document.querySelector(`.tab-pill[data-tab="${tab}"]`)) {
+      state.activeTab = tab;
+      el.categoryTabsGroup.querySelectorAll('.tab-pill').forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
+    }
+    if (q.get('channel') && state.channels.some(c => c.id === q.get('channel'))) state.selectedChannel = q.get('channel');
+    if (q.get('genre') && state.genres.includes(q.get('genre'))) state.selectedGenre = q.get('genre');
+    if (['views', 'likes'].includes(q.get('metric'))) {
+      state.leaderboardMetric = q.get('metric');
+      el.lbMetricGroup?.querySelectorAll('.lb-metric-btn').forEach(b => b.classList.toggle('active', b.dataset.metric === state.leaderboardMetric));
+    }
+    if (['day', 'week', 'month', 'year', 'all'].includes(q.get('range'))) {
+      state.leaderboardTime = q.get('range');
+      el.lbTimeGroup?.querySelectorAll('.lb-time-btn').forEach(b => b.classList.toggle('active', b.dataset.range === state.leaderboardTime));
+    }
+    syncAllScopeControls();
+    syncMobileDockActive();
+    state.urlReady = true;
+    applyFiltersAndRender(1);
+    const filmId = q.get('film');
+    const film = filmId && state.allFilms.find(f => f.id === filmId);
+    if (film) {
+      const epPos = Math.max(0, (parseInt(q.get('ep'), 10) || 1) - 1);
+      openPlayer(film, { partPos: Math.min(epPos, film.parts.length - 1) });
+    }
   }
 
   function addToHistory(filmId) {
@@ -1542,7 +1708,8 @@
   // -------------------------------------------------------------------------
   // RANDOMIZER SPOTLIGHT MODAL (GỢI Ý PHIM)
   // -------------------------------------------------------------------------
-  function openRandomizer() {
+  function openRandomizer(forcedFilm) {
+    const forced = forcedFilm && forcedFilm.parts ? forcedFilm : null;
     // Respect current channel/genre filter if active, otherwise pull high-quality 3D films >= 2h
     let scoped = state.allFilms.filter(f =>
       (state.selectedChannel === 'all' || f.channelId === state.selectedChannel) &&
@@ -1554,7 +1721,7 @@
     if (candidates.length > 1 && state.randomCandidate) {
       candidates = candidates.filter(f => f.id !== state.randomCandidate.id);
     }
-    const pick = candidates[Math.floor(Math.random() * candidates.length)];
+    const pick = forced || candidates[Math.floor(Math.random() * candidates.length)];
     if (!pick) return;
 
     state.randomCandidate = pick;
@@ -1672,6 +1839,10 @@
       clearTimeout(searchTimer);
       searchTimer = setTimeout(() => {
         applyFiltersAndRender(1);
+        if (state.searchQuery.trim() && window.innerWidth <= 960 && el.feedCountSummary) {
+          const top = el.feedCountSummary.getBoundingClientRect().top + window.scrollY - 140;
+          if (window.scrollY < top) window.scrollTo({ top, behavior: 'smooth' });
+        }
       }, 160);
     });
 
@@ -1806,12 +1977,74 @@
         return;
       }
 
+      const infoBtn = e.target.closest('.card-info-btn');
+      if (infoBtn) {
+        e.stopPropagation();
+        const f = state.allFilms.find(x => x.id === infoBtn.dataset.infoId);
+        if (f) openRandomizer(f);
+        return;
+      }
+
       const card = e.target.closest('.film-card, .chart-row-card');
       if (card) {
         const filmId = card.dataset.filmId;
         const film = state.allFilms.find(f => f.id === filmId);
-        if (film) openPlayer(film, { partPos: 0, videoId: film.parts[0]?.videoId, partNumber: film.parts[0]?.partNumber || 1 });
+        if (film) {
+          const prog = state.progress[film.id];
+          const resumePos = prog && Number.isInteger(prog.pos) && film.parts[prog.pos] ? prog.pos : 0;
+          openPlayer(film, { partPos: resumePos, videoId: film.parts[resumePos]?.videoId });
+        }
       }
+    });
+
+    // Continue shelf + related films + modal toolbar
+    el.continueRow?.addEventListener('click', e => {
+      const c = e.target.closest('[data-continue-film]');
+      if (!c) return;
+      const f = state.allFilms.find(x => x.id === c.dataset.continueFilm);
+      const p = f && state.progress[f.id];
+      if (f) openPlayer(f, { videoId: p?.videoId, partPos: p?.pos });
+    });
+    el.btnClearContinue?.addEventListener('click', () => {
+      state.progress = {};
+      try { localStorage.removeItem('homnayxemgi_progress'); } catch (err) {}
+      renderContinueShelf();
+      showToast('Đã xóa lịch sử xem dở');
+    });
+    el.relatedRow?.addEventListener('click', e => {
+      const c = e.target.closest('[data-related-film]');
+      const f = c && state.allFilms.find(x => x.id === c.dataset.relatedFilm);
+      if (f) openPlayer(f, { partPos: 0 });
+    });
+    el.modalTags?.addEventListener('click', e => {
+      const chBtn = e.target.closest('[data-scope-channel]');
+      const gBtn = e.target.closest('[data-scope-genre]');
+      if (!chBtn && !gBtn) return;
+      if (chBtn) state.selectedChannel = chBtn.dataset.scopeChannel;
+      if (gBtn) state.selectedGenre = gBtn.dataset.scopeGenre;
+      closePlayer();
+      syncAllScopeControls();
+      applyFiltersAndRender(1);
+      window.scrollTo({ top: 120, behavior: 'smooth' });
+    });
+    el.btnPrevEp?.addEventListener('click', () => stepEpisode(-1));
+    el.btnNextEp?.addEventListener('click', () => stepEpisode(1));
+    el.btnShareFilm?.addEventListener('click', async () => {
+      const url = window.location.href;
+      try {
+        if (navigator.share && /Mobi|Android/i.test(navigator.userAgent)) {
+          await navigator.share({ title: state.currentPlayingFilm?.title || 'Hôm Nay Xem Gì', url });
+        } else {
+          await navigator.clipboard.writeText(url);
+          showToast('Đã sao chép link phim');
+        }
+      } catch (err) {
+        showToast('Không thể sao chép, hãy copy link trên thanh địa chỉ');
+      }
+    });
+    el.durationSelect?.addEventListener('change', e => {
+      state.durationFilter = e.target.value || 'all';
+      applyFiltersAndRender(1);
     });
 
     // Pagination clicks

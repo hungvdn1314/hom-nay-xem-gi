@@ -63,7 +63,24 @@ CHANNELS = [
         "name": "Tiểu Sư Muội",
         "url": "https://www.youtube.com/@Tieusumuoi-u3e",
         "channel_id": "UCQBvrD7zKqhK0l11iTN_HgA"
-    }
+    },
+    # --- Auto-discovered & vetted by the 3D Channel Quality Gate (see --discover-channels) ---
+    {"id": "hh3dtrungquoc", "name": "Anime 3D Trung Quốc", "url": "https://www.youtube.com/@HH3dTrungQuocAI", "channel_id": "UCX6GJ_ErLHnogg5Xhrvh8_Q"},
+    {"id": "besuastudio", "name": "Bé Sữa Studio", "url": "https://www.youtube.com/@besuastudio9", "channel_id": "UCmszEI0HgowAPGQvpWS6p4A"},
+    {"id": "gavangtutien", "name": "Gà Vàng Tu Tiên", "url": "https://www.youtube.com/@GaVangTuTien", "channel_id": "UCN_B07LfBOUEnkONDeftqvA"},
+    {"id": "zzzphim", "name": "Zzzphim", "url": "https://www.youtube.com/@Zzzphim", "channel_id": "UCkaKs808Jt2Mi9F-HJ0OmuQ"},
+    {"id": "thaolac", "name": "Thảo Lác", "url": "https://www.youtube.com/@Thaolac6868", "channel_id": "UCT6QDt-BndIHyzL_E5eza2Q"},
+    {"id": "gianhireview", "name": "Gia Nhi Review", "url": "https://www.youtube.com/@GiaNhiReview", "channel_id": "UC58tvj8MyrryZ8Cci8nR_KA"},
+    {"id": "tydemuoi", "name": "Tỷ Đệ Muội", "url": "https://www.youtube.com/@Tydemuoi666", "channel_id": "UCR7PZM_LOuf70c5nJTMO6vQ"},
+    {"id": "thongocstudio", "name": "Thỏ Ngọc Studio", "url": "https://www.youtube.com/@ThoNgocStudio", "channel_id": "UCoVa9d2un6VLu3yGiw8zWXg"}
+]
+
+DISCOVERY_QUERIES = [
+    "Studio Full Phần 1 Xuyên Không Thức Tỉnh Hệ Thống",
+    "Studio Hoạt Hình 3D Trọn Bộ Thuyết Minh",
+    "Review Hoạt Hình 3D Full Mùa 1 Hệ Thống",
+    "Full Phần 1 Tu Tiên Nghịch Thiên hoạt hình 3D thuyết minh",
+    "Trọn Bộ Hoạt Hình 3D Mạt Thế Trọng Sinh thuyết minh",
 ]
 
 # Weighted canonical 3D genres (Tier 1 world/theme scores higher than Tier 2 trope modifiers)
@@ -1197,7 +1214,91 @@ def clean_and_reclassify_catalog(films, fetch_missing_desc=False):
     return cleaned_films, (removed_films + reclassified)
 
 
+def search_candidate_channels(queries=None):
+    """Search YouTube (videos > 20 min) and return {channel_id: {name, url, hits}} for unknown channels."""
+    known = {c["channel_id"] for c in CHANNELS}
+    found = {}
+    for q in (queries or DISCOVERY_QUERIES):
+        try:
+            payload = json.dumps({
+                "context": {"client": {"clientName": "WEB", "clientVersion": "2.20250201.00.00", "hl": "vi", "gl": "VN"}},
+                "query": q,
+                "params": "EgIYAg=="
+            }).encode("utf-8")
+            req = urllib.request.Request(
+                "https://www.youtube.com/youtubei/v1/search?prettyPrint=false", data=payload,
+                headers={"Content-Type": "application/json", "User-Agent": HEADERS["User-Agent"]}, method="POST")
+            data = json.loads(urllib.request.urlopen(req, timeout=15).read().decode("utf-8", errors="ignore"))
+        except Exception as e:
+            print(f"  [Discover] search failed for '{q}': {e}")
+            continue
+
+        def walk(o):
+            if isinstance(o, dict):
+                vr = o.get("videoRenderer")
+                if vr:
+                    runs = (vr.get("ownerText") or {}).get("runs") or []
+                    if runs:
+                        ep = runs[0].get("navigationEndpoint", {})
+                        cid = ep.get("browseEndpoint", {}).get("browseId", "")
+                        url = ep.get("commandMetadata", {}).get("webCommandMetadata", {}).get("url", "")
+                        if cid.startswith("UC") and cid not in known:
+                            e = found.setdefault(cid, {"name": runs[0].get("text", ""), "url": "https://www.youtube.com" + url, "hits": 0})
+                            e["hits"] += 1
+                for v in o.values():
+                    walk(v)
+            elif isinstance(o, list):
+                for x in o:
+                    walk(x)
+        walk(data)
+    return found
+
+
+def score_channel(channel_id, sample=20):
+    """3D Channel Quality Gate: share of valid 3D (>=40m) long videos among the latest uploads."""
+    _, vids = fetch_channel_browse_data(channel_id)
+    vids = vids[:sample]
+    if len(vids) < 8:
+        return 0.0, len(vids)
+    ok = [v for v in vids if v.get("durationSec", 0) >= 2400 and is_valid_3d_film_video(v["title"], v["durationSec"])]
+    return len(ok) / len(vids), len(vids)
+
+
+def discover_channels(min_ratio=0.8):
+    """Find new candidate channels, score them and stage passing ones in discovered_channels.json (manual approval)."""
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    out_path = os.path.join(base_dir, "discovered_channels.json")
+    candidates = search_candidate_channels()
+    staged = []
+    for cid, info in sorted(candidates.items(), key=lambda kv: -kv[1]["hits"]):
+        ratio, n = score_channel(cid)
+        verdict = "PASS" if ratio >= min_ratio else "reject"
+        print(f"  [Discover] {info['name']} ({cid}) hits={info['hits']} ratio={ratio:.0%}/{n} -> {verdict}")
+        if ratio >= min_ratio:
+            staged.append({"name": info["name"], "url": info["url"], "channel_id": cid,
+                           "score": round(ratio, 2), "hits": info["hits"]})
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump({"generatedAt": datetime.now(timezone.utc).isoformat(), "channels": staged}, f, ensure_ascii=False, indent=2)
+    print(f"[Discover] {len(staged)} channels passed the quality gate -> {out_path}. Add approved ones to CHANNELS.")
+
+
+def sync_channel_meta(data, films):
+    """Keep data['channels'] aligned with CHANNELS and film counts."""
+    counts = {}
+    for f in films:
+        counts[f.get("channelId")] = counts.get(f.get("channelId"), 0) + 1
+    data["channels"] = [
+        {"id": c["id"], "name": c["name"], "url": c["url"], "filmCount": counts.get(c["id"], 0)}
+        for c in CHANNELS
+    ]
+    data.setdefault("stats", {})["totalChannels"] = len(CHANNELS)
+
+
 def main():
+    if "--discover-channels" in sys.argv:
+        discover_channels()
+        return
+
     do_backfill = "--backfill" in sys.argv
     do_backfill_stats = "--backfill-stats" in sys.argv
     do_clean_3d = "--clean-3d" in sys.argv
@@ -1259,7 +1360,15 @@ def main():
     pending_by_channel = []
     new_vids_to_fetch = []
     for ch in CHANNELS:
-        videos = fetch_channel_videos(ch["channel_id"], browse_fallback_videos=browse_videos_map.get(ch["channel_id"]))
+        ch_vids = browse_videos_map.get(ch["channel_id"])
+        if not any(f.get("channelId") == ch["id"] for f in films) and ch_vids:
+            # Brand-new channel: initial backfill from the latest ~60 uploads
+            browse_videos_map[ch["channel_id"]] = ch_vids[:60]
+            print(f"  [New Channel] Backfilling '{ch['name']}' with {len(browse_videos_map[ch['channel_id']])} uploads.")
+            videos = list(browse_videos_map[ch["channel_id"]])
+            videos.sort(key=lambda v: parse_iso_utc(v.get("published")) or datetime.min.replace(tzinfo=timezone.utc))
+        else:
+            videos = fetch_channel_videos(ch["channel_id"], browse_fallback_videos=ch_vids)
         print(f"Channel '{ch['name']}': {len(videos)} entries.")
         fresh = [v for v in videos if v["videoId"] not in existing_video_ids]
         if fresh:
@@ -1392,7 +1501,7 @@ def main():
     # Sort newly created films newest-first before prepending
     new_films_list.sort(key=lambda f: parse_iso_utc(f.get("updatedAt")) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
     data["films"] = new_films_list + films
-
+    sync_channel_meta(data, data["films"])
     stats["totalFilms"] = len(data["films"])
     stats["lastUpdated"] = datetime.now(timezone.utc).isoformat()
     data["stats"] = stats

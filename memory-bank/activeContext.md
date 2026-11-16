@@ -74,3 +74,9 @@
 - Puppeteer verification on `scripts/dev_server.py 18091`:
   - Desktop `1280×800`: `#brandCaption === null`, `bad2dInDom === 0`, 11 clean genres rendered, `#randomModal` opens cleanly (`dlgScrollH = 699, dlgClientH = 699, needsScroll = false`, `docSw = 1263 <= 1280`), visually inspected screenshot (`random_modal_desktop_clean`).
   - Mobile `375×812`: `docSw = 375`, `docSwModal = 375`, `overflowX = false`, `#brandCaption === null`, Randomizer Modal opens and closes cleanly.
+
+
+## Session update — Channel discovery + UX upgrade
+- `scripts/update_youtube_feed.py`: `CHANNELS` now 16 (8 original + 8 auto-discovered vetted channels), `--discover-channels` (Innertube search >20m + 3D Quality Gate: >=80% of latest 20 uploads >=40m & valid 3D) stages candidates in `discovered_channels.json`; new channels auto-backfill ~60 uploads; `sync_channel_meta` keeps `data.channels`. `api/live-feed.js` mirrors the channel list. ToonWarp Studio was rejected (mixed short comedy content).
+- `app.js`: Continue Watching shelf (`homnayxemgi_progress`, resumes last episode), theater modal (prev/next episode, share, open on YouTube, tags->filter, synopsis, related films), URL deep-linking (`?film=&ep=&tab=&channel=&genre=&metric=&range=`), duration filter, 2 genre chips + "Tóm tắt" spotlight on cards, mobile search auto-scroll.
+- Catalog: 2,059 films / 16 channels.

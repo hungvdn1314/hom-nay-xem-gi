@@ -13,7 +13,16 @@ const CHANNELS = [
   { id: 'thienanhstudio9', name: 'Thiên Ảnh Studio', url: 'https://www.youtube.com/@thienanhstudio9', channelId: 'UCVFqXLFQKYzCF0lusDImePA' },
   { id: 'hoathinhmonganh', name: 'Mộng Ảnh Studio', url: 'https://www.youtube.com/@HoatHinhMongAnh', channelId: 'UCcD7v0pn8RcMdOan9fo4Djw' },
   { id: 'vanmonggiao', name: 'Vân Mộng Studio', url: 'https://www.youtube.com/@vanmonggiao', channelId: 'UCwLnjvcUQTB4IDdSMYpYnew' },
-  { id: 'tieusumuoi', name: 'Tiểu Sư Muội', url: 'https://www.youtube.com/@Tieusumuoi-u3e', channelId: 'UCQBvrD7zKqhK0l11iTN_HgA' }
+  { id: 'tieusumuoi', name: 'Tiểu Sư Muội', url: 'https://www.youtube.com/@Tieusumuoi-u3e', channelId: 'UCQBvrD7zKqhK0l11iTN_HgA' },
+  // Auto-discovered channels vetted by the 3D Channel Quality Gate
+  { id: 'hh3dtrungquoc', name: 'Anime 3D Trung Quốc', url: 'https://www.youtube.com/@HH3dTrungQuocAI', channelId: 'UCX6GJ_ErLHnogg5Xhrvh8_Q' },
+  { id: 'besuastudio', name: 'Bé Sữa Studio', url: 'https://www.youtube.com/@besuastudio9', channelId: 'UCmszEI0HgowAPGQvpWS6p4A' },
+  { id: 'gavangtutien', name: 'Gà Vàng Tu Tiên', url: 'https://www.youtube.com/@GaVangTuTien', channelId: 'UCN_B07LfBOUEnkONDeftqvA' },
+  { id: 'zzzphim', name: 'Zzzphim', url: 'https://www.youtube.com/@Zzzphim', channelId: 'UCkaKs808Jt2Mi9F-HJ0OmuQ' },
+  { id: 'thaolac', name: 'Thảo Lác', url: 'https://www.youtube.com/@Thaolac6868', channelId: 'UCT6QDt-BndIHyzL_E5eza2Q' },
+  { id: 'gianhireview', name: 'Gia Nhi Review', url: 'https://www.youtube.com/@GiaNhiReview', channelId: 'UC58tvj8MyrryZ8Cci8nR_KA' },
+  { id: 'tydemuoi', name: 'Tỷ Đệ Muội', url: 'https://www.youtube.com/@Tydemuoi666', channelId: 'UCR7PZM_LOuf70c5nJTMO6vQ' },
+  { id: 'thongocstudio', name: 'Thỏ Ngọc Studio', url: 'https://www.youtube.com/@ThoNgocStudio', channelId: 'UCoVa9d2un6VLu3yGiw8zWXg' }
 ];
 
 const GENRE_RULES = [
