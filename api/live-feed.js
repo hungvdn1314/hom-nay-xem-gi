@@ -16,16 +16,61 @@ const CHANNELS = [
   { id: 'tieusumuoi', name: 'Tiểu Sư Muội', url: 'https://www.youtube.com/@Tieusumuoi-u3e', channelId: 'UCQBvrD7zKqhK0l11iTN_HgA' }
 ];
 
-const GENRE_KEYWORDS = {
-  'Sinh tồn / Mạt thế': ['mạt thế', 'sinh tồn', 'huyết nguyệt', 'thiên tai', 'băng hà', 'zombie', 'quái dị', 'tận thế'],
-  'Xuyên không / Trọng sinh': ['trọng sinh', 'xuyên không', 'chuyển sinh', 'kiếp trước', 'sống lại', 'xuyên về'],
-  'Hệ thống / Thức tỉnh': ['hệ thống', 'thức tỉnh', 'bảng trạng thái', 'bàn tay vàng', 'gacha', 'nâng cấp', 'sign in', 'điểm danh'],
-  'Đô thị / Ngôn tình - Nghịch tập': ['đô thị', 'phú nhị đại', 'tổng tài', 'ở rể', 'phú bà', 'nghịch tập', 'vả mặt', 'thần hào'],
-  'Huyền huyễn / Tu tiên': ['tu tiên', 'tu chân', 'đế tôn', 'tiên đế', 'kiếm thần', 'võ đạo', 'võ hồn', 'đan dược', 'tông môn', 'thần ma'],
-  'Võ hiệp / Cổ trang': ['kiếm hiệp', 'hoàng đế', 'vương gia', 'triều đình', 'giang hồ', 'cung đình'],
-  'Hài hước / Giải trí': ['cá mặn', 'tấu hài', 'nằm lười', 'bựa', 'phá gia', 'bá đạo'],
-  'Khoa huyễn / Dị năng': ['khoa học', 'cơ giáp', 'vũ trụ', 'dị năng', 'dị thú', 'tinh tế']
-};
+const GENRE_RULES = [
+  ['Tu tiên / Huyền huyễn', 3.0, 1.0, [
+    'tu tiên', 'tu chân', 'đế tôn', 'tiên đế', 'kiếm tiên', 'kiếm thần', 'kiếm tông',
+    'linh căn', 'trúc cơ', 'nguyên anh', 'kim đan', 'độ kiếp', 'phi thăng', 'lão tổ',
+    'sư tôn', 'sư muội', 'đạo hữu', 'thánh địa', 'tông môn', 'ma tôn', 'nữ đế', 'thần ma',
+    'trường sinh', 'cẩu đạo', 'vạn giới', 'chư thiên', 'đại đế', 'thần đỉnh', 'hồng hoang',
+    'huyền huyễn', 'tiên giới', 'thần giới', 'huyết mạch'
+  ]],
+  ['Quỷ dị / Linh dị', 3.0, 1.0, [
+    'quỷ dị', 'linh dị', 'lệ quỷ', 'quái đàm', 'quy tắc', 'trấn linh', 'bắt quỷ',
+    'huyền học', 'phong thủy', 'bói toán', 'cương thi', 'minh hôn', 'diêm quân',
+    'tà thần', 'yêu ma', 'trấn ma', 'quỷ thần', 'kinh dị'
+  ]],
+  ['Sinh tồn / Mạt thế', 3.0, 1.0, [
+    'mạt thế', 'tận thế', 'sinh tồn', 'zombie', 'thiên tai', 'băng hà', 'cực hàn',
+    'huyết nguyệt', 'đại hồng thủy', 'sương mù', 'biển sâu', 'đảo hoang', 'sa mạc',
+    'tích trữ vật tư', 'nơi trú ẩn', 'bè gỗ', 'cao tốc'
+  ]],
+  ['Ngự thú / Tiến hóa', 3.0, 1.0, [
+    'ngự thú', 'thần sủng', 'linh thú', 'thú cưng', 'khế ước thú', 'triệu hồi thú',
+    'trùng tộc', 'tiến hóa', 'đột biến', 'thôn phệ', 'hóa long', 'cự long', 'bạch xà',
+    'dị thú', 'quái thú', 'pokémon', 'sủng vật'
+  ]],
+  ['Trò chơi / Phó bản', 3.0, 1.0, [
+    'trò chơi', 'phó bản', 'chuyển chức', 'toàn dân', 'người chơi', 'game', 'lãnh chúa',
+    'lĩnh chủ', 'thẻ bài', 'vực sâu', 'cày cấp', 'boss', 'nghề nghiệp',
+    'mạnh nhất server', 'quân đoàn', 'vong linh', 'triệu hồi'
+  ]],
+  ['Cao võ / Dị năng', 3.0, 1.0, [
+    'cao võ', 'cao vũ', 'võ giả', 'võ đạo', 'võ hồn', 'dị năng', 'thức tỉnh năng lực',
+    'học viện', 'cơ giáp', 'tinh tế', 'vũ trụ', 'khoa huyễn', 'siêu phàm', 'sát thủ', 'đặc công'
+  ]],
+  ['Đô thị / Ngôn tình', 3.0, 1.0, [
+    'đô thị', 'tổng tài', 'phú nhị đại', 'thần hào', 'hào môn', 'thiên kim', 'phu nhân',
+    'thất gia', 'bạc tỷ', 'vợ cũ', 'hôn nhân', 'ly hôn', 'kết hôn', 'sủng', 'thanh mai',
+    'nam thần', 'hoa khôi', 'bác sĩ', 'nghịch tập', 'vả mặt', 'ở rể', 'phản diện',
+    'nữ phụ', 'thế thân', 'bạch nguyệt quang'
+  ]],
+  ['Võ hiệp / Cổ trang', 3.0, 1.0, [
+    'cổ đại', 'cổ trang', 'hoàng đế', 'vương gia', 'thái tử', 'hoàng tử', 'công chúa',
+    'triều đình', 'giang hồ', 'kiếm hiệp', 'võ hiệp', 'nương tử', 'tướng quân', 'phò mã',
+    'tể tướng', 'trường an', 'đại càn', 'lưu đày', 'khai hoang', 'biên ải', 'tửu lâu', 'quán ăn'
+  ]],
+  ['Hệ thống / Thức tỉnh', 1.5, 0.5, [
+    'hệ thống', 'thức tỉnh', 'bảng trạng thái', 'bàn tay vàng', 'điểm danh', 'đăng nhập',
+    'mô phỏng', 'quay thưởng', 'gacha', 'nâng cấp', 'cường hóa', 'thương thành',
+    'bồi thường', 'vạn lần', 'tối cường', 'cấp sss', 'bật hack'
+  ]],
+  ['Xuyên không / Trọng sinh', 1.5, 0.5, [
+    'xuyên không', 'trọng sinh', 'trùng sinh', 'chuyển sinh', 'xuyên sách', 'kiếp trước',
+    'sống lại', 'xuyên về', 'luân hồi'
+  ]]
+];
+
+const NON_3D_TITLE_RE = /\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|truyện tranh|manhua\s*audio|comic\s*audio|\[phim ngắn\]/i;
 
 const FETCH_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
@@ -45,12 +90,45 @@ function decodeXmlEntities(str) {
     .trim();
 }
 
+function cleanPlotSummary(desc) {
+  if (!desc) return '';
+  const skipLineRe = /ủng hộ kênh|ngân hàng|số tài khoản|\bstk\b|chủ tài khoản|vietinbank|vietcombank|mbbank|techcombank|momo\b|đăng ký kênh|subscribe|bản quyền|copyright|liên hệ quảng cáo|tất cả hình ảnh và âm thanh|mọi vấn đề|email:|gmail\.com|https?:\/\/|^\s*#\w+/i;
+  const cleanedLines = [];
+  for (const rawLine of String(desc).split(/\r?\n/)) {
+    const trimmed = rawLine.trim();
+    if (!trimmed || skipLineRe.test(trimmed)) continue;
+    const noUrl = trimmed.replace(/https?:\/\/\S+/g, '').trim();
+    if (noUrl) cleanedLines.push(noUrl);
+  }
+  let summary = cleanedLines.join(' ').replace(/\s+/g, ' ').trim();
+  if (summary.length > 360) {
+    summary = `${summary.slice(0, 357).replace(/\s+\S*$/, '')}...`;
+  }
+  return summary;
+}
+
+function isValid3dFilmVideo(title, durationSec = 0, channelId = '', publishedAt = '') {
+  const t = title || '';
+  if (durationSec > 0 && durationSec < 1200) return false;
+  if (channelId === 'chiuchiusubtv' && String(publishedAt || '').startsWith('2025-')) return false;
+  if (NON_3D_TITLE_RE.test(t)) return false;
+  return true;
+}
+
 function inferGenres(title, desc) {
-  const text = `${title} ${desc || ''}`.toLowerCase();
-  const matched = Object.entries(GENRE_KEYWORDS)
-    .filter(([, kws]) => kws.some(kw => text.includes(kw)))
-    .map(([genre]) => genre);
-  return matched.length > 0 ? matched.slice(0, 2) : ['Hoạt hình 2D/3D'];
+  const tLow = (title || '').toLowerCase();
+  const dLow = (desc || '').toLowerCase();
+  const scored = [];
+  for (const [genreName, wTitle, wDesc, kws] of GENRE_RULES) {
+    let score = 0;
+    for (const kw of kws) {
+      if (tLow.includes(kw)) score += wTitle;
+      else if (dLow && dLow.includes(kw)) score += wDesc;
+    }
+    if (score > 0) scored.push({ genreName, score });
+  }
+  scored.sort((a, b) => b.score - a.score);
+  return scored.length > 0 ? scored.slice(0, 2).map(x => x.genreName) : ['Hoạt hình 3D Chọn Lọc'];
 }
 
 function formatTotalDurationVi(sec) {
@@ -85,13 +163,14 @@ function parseCompactNumber(text) {
   if (text == null) return 0;
   if (typeof text === 'number') return Math.round(text);
   const cleaned = String(text)
+    .replace(/\u00a0/g, ' ')
     .replace(/\s*(?:views?|likes?|người xem|lượt xem|lượt thích)\b/gi, '')
     .trim();
   if (!cleaned) return 0;
-  const abbr = cleaned.match(/^([0-9]+(?:[.,][0-9]+)?)\s*([KMBkmb])$/);
+  const abbr = cleaned.match(/^([0-9]+(?:[.,][0-9]+)?)\s*(Tr|K|M|B|N)$/i);
   if (abbr) {
     const val = parseFloat(abbr[1].replace(',', '.'));
-    const mult = { k: 1e3, m: 1e6, b: 1e9 }[abbr[2].toLowerCase()] || 1;
+    const mult = { k: 1e3, n: 1e3, m: 1e6, tr: 1e6, b: 1e9 }[abbr[2].toLowerCase()] || 1;
     return Math.round(val * mult);
   }
   const digits = cleaned.replace(/[^\d]/g, '');
@@ -115,19 +194,24 @@ function parseEnDateToIso(text, refNow = new Date()) {
     const dt = new Date(`${abs[1]} UTC`);
     if (!Number.isNaN(dt.getTime())) return dt.toISOString();
   }
-  const rel = s.match(/(\d+)\s+(second|minute|hour|day|week|month|year)s?\s+ago/i);
-  if (rel) {
-    const qty = parseInt(rel[1], 10);
+  const relEn = s.match(/(\d+)\s+(second|minute|hour|day|week|month|year)s?\s+ago/i);
+  if (relEn) {
+    const qty = parseInt(relEn[1], 10);
     const secMap = {
-      second: 1,
-      minute: 60,
-      hour: 3600,
-      day: 86400,
-      week: 7 * 86400,
-      month: 30 * 86400,
-      year: 365 * 86400
+      second: 1, minute: 60, hour: 3600,
+      day: 86400, week: 7 * 86400, month: 30 * 86400, year: 365 * 86400
     };
-    const ms = qty * (secMap[rel[2].toLowerCase()] || 0) * 1000;
+    const ms = qty * (secMap[relEn[2].toLowerCase()] || 0) * 1000;
+    return new Date(refNow.getTime() - ms).toISOString();
+  }
+  const relVi = s.match(/(\d+)\s+(giây|phút|giờ|ngày|tuần|tháng|năm)\s+trước/i);
+  if (relVi) {
+    const qty = parseInt(relVi[1], 10);
+    const secMapVi = {
+      'giây': 1, 'phút': 60, 'giờ': 3600,
+      'ngày': 86400, 'tuần': 7 * 86400, 'tháng': 30 * 86400, 'năm': 365 * 86400
+    };
+    const ms = qty * (secMapVi[relVi[2].toLowerCase()] || 0) * 1000;
     return new Date(refNow.getTime() - ms).toISOString();
   }
   return null;
@@ -162,8 +246,8 @@ async function fetchChannelBrowseData(channel) {
           client: {
             clientName: 'WEB',
             clientVersion: '2.20241111.01.00',
-            hl: 'en',
-            gl: 'US'
+            hl: 'vi',
+            gl: 'VN'
           }
         }
       }),
@@ -212,12 +296,12 @@ async function fetchChannelBrowseData(channel) {
         // fallback raw string
       }
 
-      const viewsMatch = chunk.match(/"metadataParts":\[\{"text":\{"content":"([^"]*(?:view|watching)[^"]*)"\}/i);
+      const viewsMatch = chunk.match(/"metadataParts":\[\{"text":\{"content":"([^"]*(?:view|watching|lượt xem|đang xem)[^"]*)"\}/i);
       const views = viewsMatch ? parseCompactNumber(viewsMatch[1]) : 0;
       if (views > 0) viewsMap.set(videoId, views);
 
       let publishedAt = null;
-      const relMatch = chunk.match(/"text":\{"content":"([^"]+ago)"\}/i);
+      const relMatch = chunk.match(/"text":\{"content":"([^"]+(?:ago|trước))"\}/i);
       if (relMatch) {
         publishedAt = parseEnDateToIso(relMatch[1], nowRef);
       }
@@ -347,9 +431,18 @@ async function fetchVideoStatsNext(videoId) {
 
     const mD = txt.match(/"dateText":\{"simpleText":"([^"]+)"\}/);
     const publishDate = mD ? parseEnDateToIso(mD[1]) : null;
-    return { views, likes, publishDate };
+    let description = '';
+    const mDesc = txt.match(/"attributedDescriptionBodyText":\{"content":"((?:[^"\\]|\\.)*)"/);
+    if (mDesc) {
+      try {
+        description = JSON.parse(`"${mDesc[1]}"`);
+      } catch {
+        description = mDesc[1];
+      }
+    }
+    return { views, likes, publishDate, description };
   } catch {
-    return { views: null, likes: null, publishDate: null };
+    return { views: null, likes: null, publishDate: null, description: '' };
   }
 }
 
@@ -468,31 +561,35 @@ module.exports = async function handler(req, res) {
       });
     }
 
-    const enriched = topVideos.map(v => {
-      const apiMeta = apiStatsMap.get(v.videoId);
-      const nextMeta = nextStatsMap.get(v.videoId);
-      const fallbackMeta = fallbackMetaMap.get(v.videoId) || { durationSec: 0, publishDate: null };
-      const durationSec = apiMeta?.durationSec || browseDurationMap.get(v.videoId) || fallbackMeta.durationSec || 0;
-      const publishedAt = apiMeta?.publishDate || v.publishedAt || nextMeta?.publishDate || fallbackMeta.publishDate;
-      const views = apiMeta?.views ?? nextMeta?.views ?? browseViewsMap.get(v.videoId) ?? 0;
-      const likes = apiMeta?.likes ?? nextMeta?.likes ?? 0;
-      return {
-        videoId: v.videoId,
-        title: v.title,
-        channelId: v.channelId,
-        channelName: v.channelName,
-        channelUrl: v.channelUrl,
-        publishedAt,
-        durationSec,
-        durationStr: formatPartDurationHms(durationSec),
-        totalDurationStr: formatTotalDurationVi(durationSec),
-        views,
-        likes,
-        thumbnail: v.thumbnail,
-        genres: inferGenres(v.title, v.description),
-        review: v.description || `Phim hoạt hình mới tuyển chọn từ kênh ${v.channelName}.`
-      };
-    });
+    const enriched = topVideos
+      .map(v => {
+        const apiMeta = apiStatsMap.get(v.videoId);
+        const nextMeta = nextStatsMap.get(v.videoId);
+        const fallbackMeta = fallbackMetaMap.get(v.videoId) || { durationSec: 0, publishDate: null };
+        const durationSec = apiMeta?.durationSec || browseDurationMap.get(v.videoId) || fallbackMeta.durationSec || 0;
+        const publishedAt = apiMeta?.publishDate || v.publishedAt || nextMeta?.publishDate || fallbackMeta.publishDate;
+        if (!isValid3dFilmVideo(v.title, durationSec, v.channelId, publishedAt)) return null;
+        const views = apiMeta?.views ?? nextMeta?.views ?? browseViewsMap.get(v.videoId) ?? 0;
+        const likes = apiMeta?.likes ?? nextMeta?.likes ?? 0;
+        const cleanDesc = cleanPlotSummary(v.description || nextMeta?.description || '');
+        return {
+          videoId: v.videoId,
+          title: v.title,
+          channelId: v.channelId,
+          channelName: v.channelName,
+          channelUrl: v.channelUrl,
+          publishedAt,
+          durationSec,
+          durationStr: formatPartDurationHms(durationSec),
+          totalDurationStr: formatTotalDurationVi(durationSec),
+          views,
+          likes,
+          thumbnail: v.thumbnail,
+          genres: inferGenres(v.title, cleanDesc),
+          review: cleanDesc || `${v.title} — Tuyển tập hoạt hình 3D đặc sắc từ kênh ${v.channelName}.`
+        };
+      })
+      .filter(Boolean);
 
     res.status(200).json({
       fetchedAt: new Date().toISOString(),

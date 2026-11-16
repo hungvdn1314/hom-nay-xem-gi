@@ -25,6 +25,8 @@ from update_youtube_feed import (
     format_part_duration_hms,
     format_total_duration_vi,
     infer_genres,
+    is_valid_3d_film_video,
+    clean_plot_summary,
     parse_iso_utc,
 )
 
@@ -58,8 +60,11 @@ def build_live_feed_payload():
         st = stats_map.get(vid, {})
         sec = info.get("durationSec") or st.get("durationSec") or v.get("durationSec") or 0
         pub = v["published"] or st.get("publishDate") or info.get("publishDate")
+        if not is_valid_3d_film_video(v["title"], sec, channel_id=v["channelId"], published_at=pub):
+            continue
         views = st.get("views") if st.get("views") is not None else (v.get("views") or 0)
         likes = st.get("likes") if st.get("likes") is not None else 0
+        clean_desc = clean_plot_summary(v.get("description") or st.get("description") or "")
         enriched.append({
             "videoId": vid,
             "title": v["title"],
@@ -73,8 +78,8 @@ def build_live_feed_payload():
             "views": views,
             "likes": likes,
             "thumbnail": v["thumbnail"],
-            "genres": infer_genres(v["title"], v.get("description", "")),
-            "review": (v.get("description") or "")[:200] or f"Phim hoạt hình mới tuyển chọn từ kênh {v['channelName']}."
+            "genres": infer_genres(v["title"], clean_desc),
+            "review": clean_desc or f"{v['title']} — Tuyển tập hoạt hình 3D đặc sắc từ kênh {v['channelName']}."
         })
 
     payload = json.dumps({

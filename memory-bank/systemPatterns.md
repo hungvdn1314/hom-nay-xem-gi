@@ -28,11 +28,12 @@
    - LocalStorage synchronization (`homnayxemgi_favs`, `homnayxemgi_notifs`).
 
 3. **Core Streaming Features**:
-   - 16:9 Widescreen Film Cards with high-contrast frosted capsules ("Trọn bộ 1 tập" / "N phần"), SVG icons, and dynamic film count caption (`#brandCaption`).
-   - 64px Floating Frosted Glass Header (Brand, Randomizer on desktop, Notification Bell, Watchlist Bookmark) + Mobile Bottom Dock.
-   - Two-Column Workspace (Sidebar: Genres + 8 YouTube Channels | Main Feed: 16:9 Cards & Chart Mode).
+   - 16:9 Widescreen Film Cards with high-contrast frosted capsules ("Trọn bộ 1 tập" / "N phần") and pure SVG icons.
+   - 64px Floating Frosted Glass Header (Brand title "HÔM NAY XEM GÌ", Randomizer on desktop, Notification Bell, Watchlist Bookmark) + Mobile Bottom Dock.
+   - Two-Column Workspace (Sidebar: 11 weighted 3D Genres sorted by prevalence + 8 YouTube Channels | Main Feed: 16:9 Cards & Chart Mode).
    - Cinema Theater Modal with YouTube player, film engagement totals, and per-episode duration + view/like stats.
-   - Randomizer Modal ("Gợi ý phim").
+   - **Spotlight Randomizer Modal (`#randomModal`)**: Displays 16:9 poster, parts/duration/freshness badges, channel & multi-genre pills, 4 Bento stat boxes (Duration, Parts, Views, Likes), cleaned plot synopsis, and Watch / Roll / Bookmark actions.
+   - **Weighted 3D Genre Classifier & Strict 3D Filter**: `GENRE_RULES` scores world-setting tiers higher than trope modifiers (`clean_plot_summary` removes bank/donate boilerplate); `is_valid_3d_film_video` / `isValid3dFilmClient` exclude 2D Manhua Audio series (`Tập 7xx`, `NGỰ THÚ SƯ MẠNH NHẤT`), 2025 `chiuchiusubtv` 2D uploads, and `<20m` clips.
 
 4. **Dual Real-Time & Scheduled YouTube Synchronization Engine**:
    - **Live Serverless Edge API (`api/live-feed.js`)**: Runs on Vercel Node.js Serverless runtime with 5-minute Edge CDN caching (`s-maxage=300, stale-while-revalidate=600`). Uses YouTube RSS feeds concurrently with Innertube `/youtubei/v1/browse` (`VLUU...`, acting as both duration map and RSS-outage fallback), and enriches `views`, `likes`, and `publishedAt` via `YOUTUBE_API_KEY` (`videos.list?part=statistics,contentDetails,snippet`) or `/youtubei/v1/next`.

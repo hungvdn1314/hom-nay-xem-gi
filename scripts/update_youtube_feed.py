@@ -66,16 +66,65 @@ CHANNELS = [
     }
 ]
 
-GENRE_KEYWORDS = {
-    "Sinh tồn / Mạt thế": ["mạt thế", "sinh tồn", "huyết nguyệt", "thiên tai", "băng hà", "zombie", "quái dị", "tận thế"],
-    "Xuyên không / Trọng sinh": ["trọng sinh", "xuyên không", "chuyển sinh", "kiếp trước", "sống lại", "xuyên về"],
-    "Hệ thống / Thức tỉnh": ["hệ thống", "thức tỉnh", "bảng trạng thái", "bàn tay vàng", "gacha", "nâng cấp", "sign in", "điểm danh"],
-    "Đô thị / Ngôn tình - Nghịch tập": ["đô thị", "phú nhị đại", "tổng tài", "ở rể", "phú bà", "nghịch tập", "vả mặt", "thần hào"],
-    "Huyền huyễn / Tu tiên": ["tu tiên", "tu chân", "đế tôn", "tiên đế", "kiếm thần", "võ đạo", "võ hồn", "đan dược", "tông môn", "thần ma"],
-    "Võ hiệp / Cổ trang": ["kiếm hiệp", "hoàng đế", "vương gia", "triều đình", "giang hồ", "cung đình"],
-    "Hài hước / Giải trí": ["cá mặn", "tấu hài", "nằm lười", "bựa", "phá gia", "bá đạo"],
-    "Khoa huyễn / Dị năng": ["khoa học", "cơ giáp", "vũ trụ", "dị năng", "dị thú", "tinh tế"]
-}
+# Weighted canonical 3D genres (Tier 1 world/theme scores higher than Tier 2 trope modifiers)
+GENRE_RULES = [
+    ("Tu tiên / Huyền huyễn", 3.0, 1.0, [
+        "tu tiên", "tu chân", "đế tôn", "tiên đế", "kiếm tiên", "kiếm thần", "kiếm tông",
+        "linh căn", "trúc cơ", "nguyên anh", "kim đan", "độ kiếp", "phi thăng", "lão tổ",
+        "sư tôn", "sư muội", "đạo hữu", "thánh địa", "tông môn", "ma tôn", "nữ đế", "thần ma",
+        "trường sinh", "cẩu đạo", "vạn giới", "chư thiên", "đại đế", "thần đỉnh", "hồng hoang",
+        "huyền huyễn", "tiên giới", "thần giới", "huyết mạch"
+    ]),
+    ("Quỷ dị / Linh dị", 3.0, 1.0, [
+        "quỷ dị", "linh dị", "lệ quỷ", "quái đàm", "quy tắc", "trấn linh", "bắt quỷ",
+        "huyền học", "phong thủy", "bói toán", "cương thi", "minh hôn", "diêm quân",
+        "tà thần", "yêu ma", "trấn ma", "quỷ thần", "kinh dị"
+    ]),
+    ("Sinh tồn / Mạt thế", 3.0, 1.0, [
+        "mạt thế", "tận thế", "sinh tồn", "zombie", "thiên tai", "băng hà", "cực hàn",
+        "huyết nguyệt", "đại hồng thủy", "sương mù", "biển sâu", "đảo hoang", "sa mạc",
+        "tích trữ vật tư", "nơi trú ẩn", "bè gỗ", "cao tốc"
+    ]),
+    ("Ngự thú / Tiến hóa", 3.0, 1.0, [
+        "ngự thú", "thần sủng", "linh thú", "thú cưng", "khế ước thú", "triệu hồi thú",
+        "trùng tộc", "tiến hóa", "đột biến", "thôn phệ", "hóa long", "cự long", "bạch xà",
+        "dị thú", "quái thú", "pokémon", "sủng vật"
+    ]),
+    ("Trò chơi / Phó bản", 3.0, 1.0, [
+        "trò chơi", "phó bản", "chuyển chức", "toàn dân", "người chơi", "game", "lãnh chúa",
+        "lĩnh chủ", "thẻ bài", "vực sâu", "cày cấp", "boss", "nghề nghiệp",
+        "mạnh nhất server", "quân đoàn", "vong linh", "triệu hồi"
+    ]),
+    ("Cao võ / Dị năng", 3.0, 1.0, [
+        "cao võ", "cao vũ", "võ giả", "võ đạo", "võ hồn", "dị năng", "thức tỉnh năng lực",
+        "học viện", "cơ giáp", "tinh tế", "vũ trụ", "khoa huyễn", "siêu phàm", "sát thủ", "đặc công"
+    ]),
+    ("Đô thị / Ngôn tình", 3.0, 1.0, [
+        "đô thị", "tổng tài", "phú nhị đại", "thần hào", "hào môn", "thiên kim", "phu nhân",
+        "thất gia", "bạc tỷ", "vợ cũ", "hôn nhân", "ly hôn", "kết hôn", "sủng", "thanh mai",
+        "nam thần", "hoa khôi", "bác sĩ", "nghịch tập", "vả mặt", "ở rể", "phản diện",
+        "nữ phụ", "thế thân", "bạch nguyệt quang"
+    ]),
+    ("Võ hiệp / Cổ trang", 3.0, 1.0, [
+        "cổ đại", "cổ trang", "hoàng đế", "vương gia", "thái tử", "hoàng tử", "công chúa",
+        "triều đình", "giang hồ", "kiếm hiệp", "võ hiệp", "nương tử", "tướng quân", "phò mã",
+        "tể tướng", "trường an", "đại càn", "lưu đày", "khai hoang", "biên ải", "tửu lâu", "quán ăn"
+    ]),
+    ("Hệ thống / Thức tỉnh", 1.5, 0.5, [
+        "hệ thống", "thức tỉnh", "bảng trạng thái", "bàn tay vàng", "điểm danh", "đăng nhập",
+        "mô phỏng", "quay thưởng", "gacha", "nâng cấp", "cường hóa", "thương thành",
+        "bồi thường", "vạn lần", "tối cường", "cấp sss", "bật hack"
+    ]),
+    ("Xuyên không / Trọng sinh", 1.5, 0.5, [
+        "xuyên không", "trọng sinh", "trùng sinh", "chuyển sinh", "xuyên sách", "kiếp trước",
+        "sống lại", "xuyên về", "luân hồi"
+    ]),
+]
+
+NON_3D_TITLE_REGEX = re.compile(
+    r'\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|truyện tranh|manhua\s*audio|comic\s*audio|\[phim ngắn\]',
+    flags=re.IGNORECASE
+)
 
 PREFIX_PATTERN = re.compile(
     r'^(?:\s*(?:'
@@ -141,10 +190,63 @@ def format_part_duration_hms(sec):
     return f"{m}:{s:02d}"
 
 
+def clean_plot_summary(desc, title="", channel_name=""):
+    """Strip bank/donate/subscribe/copyright boilerplate from YouTube description to keep story synopsis clean."""
+    if not desc:
+        return ""
+    skip_line_re = re.compile(
+        r'ủng hộ kênh|ngân hàng|số tài khoản|\bstk\b|chủ tài khoản|vietinbank|vietcombank|mbbank|techcombank|momo\b|'
+        r'đăng ký kênh|subscribe|bản quyền|copyright|liên hệ quảng cáo|tất cả hình ảnh và âm thanh|'
+        r'mọi vấn đề|email:|gmail\.com|https?://|^\s*#\w+',
+        flags=re.IGNORECASE
+    )
+    cleaned_lines = []
+    for raw_line in str(desc).splitlines():
+        line = raw_line.strip()
+        if not line:
+            continue
+        if skip_line_re.search(line):
+            continue
+        # Strip inline URLs or repeated hash tags
+        line = re.sub(r'https?://\S+', '', line).strip()
+        if not line:
+            continue
+        cleaned_lines.append(line)
+    summary = " ".join(cleaned_lines)
+    summary = re.sub(r'\s+', ' ', summary).strip()
+    if len(summary) > 360:
+        summary = summary[:357].rsplit(' ', 1)[0] + "..."
+    return summary
+
+
+def is_valid_3d_film_video(title, duration_sec=0, channel_id="", published_at=""):
+    """Filter out 2D Manhua Audio episodes, 5s teasers, and short <20m clips so catalog stays strictly 3D films."""
+    t = title or ""
+    if duration_sec and 0 < duration_sec < 1200:
+        return False
+    if channel_id == "chiuchiusubtv" and str(published_at or "").startswith("2025-"):
+        return False
+    if NON_3D_TITLE_REGEX.search(t):
+        return False
+    return True
+
+
 def infer_genres(title, desc=""):
-    text = (title + " " + desc).lower()
-    matched = [g for g, kw_list in GENRE_KEYWORDS.items() if any(kw in text for kw in kw_list)]
-    return matched[:2] if matched else ["Hoạt hình 2D/3D"]
+    t_low = (title or "").lower()
+    d_low = (desc or "").lower()
+    scored = []
+    for genre_name, w_title, w_desc, kws in GENRE_RULES:
+        score = 0.0
+        for kw in kws:
+            if kw in t_low:
+                score += w_title
+            elif d_low and kw in d_low:
+                score += w_desc
+        if score > 0:
+            scored.append((score, genre_name))
+    scored.sort(key=lambda item: item[0], reverse=True)
+    matched = [g for _, g in scored[:2]]
+    return matched if matched else ["Hoạt hình 3D Chọn Lọc"]
 
 
 def clean_core_title(title):
@@ -341,8 +443,8 @@ def fetch_channel_browse_data(channel_id):
                 "client": {
                     "clientName": "WEB",
                     "clientVersion": "2.20241111.01.00",
-                    "hl": "en",
-                    "gl": "US"
+                    "hl": "vi",
+                    "gl": "VN"
                 }
             }
         }).encode("utf-8")
@@ -397,10 +499,10 @@ def fetch_channel_browse_data(channel_id):
 
             views = 0
             pub_iso = None
-            m_meta = re.search(r'"metadataParts":\[\{"text":\{"content":"([^"]*(?:view|watching)[^"]*)"\}[^\]]*?\}[^\]]*\]', chunk, re.I)
+            m_meta = re.search(r'"metadataParts":\[\{"text":\{"content":"([^"]*(?:view|watching|lượt xem|đang xem)[^"]*)"\}[^\]]*?\}[^\]]*\]', chunk, re.I)
             if m_meta:
                 views = parse_compact_number(m_meta.group(1))
-            for rel_m in re.findall(r'"text":\{"content":"([^"]+ago)"\}', chunk, re.I):
+            for rel_m in re.findall(r'"text":\{"content":"([^"]+(?:ago|trước))"\}', chunk, re.I):
                 parsed_iso = parse_en_date_to_iso(rel_m, ref_now=now_utc)
                 if parsed_iso:
                     pub_iso = parsed_iso
@@ -426,19 +528,20 @@ def fetch_channel_durations_browse(channel_id):
 
 
 def parse_compact_number(text):
-    """Parse counts like '159,879 views', '1.9K', '2.4M', '62' into integer."""
+    """Parse counts like '159,879 views', '8,3 N lượt xem', '1.9K', '2.4M', '62' into integer."""
     if text is None:
         return 0
     if isinstance(text, (int, float)):
         return int(text)
-    s = str(text).strip()
+    s = str(text).replace("\xa0", " ").strip()
     if not s:
         return 0
     s_clean = re.sub(r'\s*(?:views?|likes?|người xem|lượt xem|lượt thích)\b', '', s, flags=re.I).strip()
-    m_abbr = re.match(r'^([0-9]+(?:[.,][0-9]+)?)\s*([KMBkmb])$', s_clean)
+    m_abbr = re.match(r'^([0-9]+(?:[.,][0-9]+)?)\s*(Tr|K|M|B|N)$', s_clean, flags=re.I)
     if m_abbr:
         val = float(m_abbr.group(1).replace(',', '.'))
-        mult = {'k': 1_000, 'm': 1_000_000, 'b': 1_000_000_000}[m_abbr.group(2).lower()]
+        unit = m_abbr.group(2).lower()
+        mult = {'k': 1_000, 'n': 1_000, 'm': 1_000_000, 'tr': 1_000_000, 'b': 1_000_000_000}[unit]
         return int(round(val * mult))
     digits = re.sub(r'[^\d]', '', s_clean)
     return int(digits) if digits else 0
@@ -458,7 +561,7 @@ def parse_iso8601_duration(dur_str):
 
 
 def parse_en_date_to_iso(text, ref_now=None):
-    """Parse English YouTube date ('Nov 14, 2026') or relative age ('2 hours ago') into UTC ISO-8601."""
+    """Parse YouTube dates ('Nov 14, 2026', '2 hours ago', '15 giờ trước') into UTC ISO-8601."""
     if not text:
         return None
     s = str(text).strip()
@@ -470,21 +573,24 @@ def parse_en_date_to_iso(text, ref_now=None):
             return dt.isoformat()
         except ValueError:
             pass
-    m_rel = re.search(r'(\d+)\s+(second|minute|hour|day|week|month|year)s?\s+ago', s, re.I)
-    if m_rel:
-        qty = int(m_rel.group(1))
-        unit = m_rel.group(2).lower()
+    m_rel_en = re.search(r'(\d+)\s+(second|minute|hour|day|week|month|year)s?\s+ago', s, re.I)
+    if m_rel_en:
+        qty = int(m_rel_en.group(1))
+        unit = m_rel_en.group(2).lower()
         sec_map = {
-            "second": 1,
-            "minute": 60,
-            "hour": 3600,
-            "day": 86400,
-            "week": 7 * 86400,
-            "month": 30 * 86400,
-            "year": 365 * 86400,
+            "second": 1, "minute": 60, "hour": 3600,
+            "day": 86400, "week": 7 * 86400, "month": 30 * 86400, "year": 365 * 86400,
         }
-        dt = now_utc - timedelta(seconds=qty * sec_map[unit])
-        return dt.isoformat()
+        return (now_utc - timedelta(seconds=qty * sec_map[unit])).isoformat()
+    m_rel_vi = re.search(r'(\d+)\s+(giây|phút|giờ|ngày|tuần|tháng|năm)\s+trước', s, re.I)
+    if m_rel_vi:
+        qty = int(m_rel_vi.group(1))
+        unit = m_rel_vi.group(2).lower()
+        sec_map_vi = {
+            "giây": 1, "phút": 60, "giờ": 3600,
+            "ngày": 86400, "tuần": 7 * 86400, "tháng": 30 * 86400, "năm": 365 * 86400,
+        }
+        return (now_utc - timedelta(seconds=qty * sec_map_vi[unit])).isoformat()
     return None
 
 
@@ -557,9 +663,57 @@ def fetch_video_stats_next(video_id):
         if m_d:
             pub_iso = parse_en_date_to_iso(m_d.group(1))
 
-        return {"views": views, "likes": likes, "publishDate": pub_iso}
+        desc = ""
+        m_desc = re.search(r'"attributedDescriptionBodyText":\{"content":"((?:[^"\\]|\\.)*)"', txt)
+        if m_desc:
+            try:
+                desc = json.loads(f'"{m_desc.group(1)}"')
+            except Exception:
+                desc = m_desc.group(1)
+
+        return {"views": views, "likes": likes, "publishDate": pub_iso, "description": desc}
     except Exception:
-        return {"views": None, "likes": None, "publishDate": None}
+        return {"views": None, "likes": None, "publishDate": None, "description": ""}
+
+
+def fetch_vn_title_and_desc_next(video_id):
+    """Fetch original Vietnamese title and cleaned synopsis from YouTube Innertube /next (hl=vi)."""
+    try:
+        payload = json.dumps({
+            "videoId": video_id,
+            "context": {
+                "client": {
+                    "clientName": "WEB",
+                    "clientVersion": "2.20241111.01.00",
+                    "hl": "vi",
+                    "gl": "VN"
+                }
+            }
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            "https://www.youtube.com/youtubei/v1/next?prettyPrint=false",
+            data=payload,
+            headers={"Content-Type": "application/json", "User-Agent": HEADERS["User-Agent"]},
+            method="POST"
+        )
+        txt = urllib.request.urlopen(req, timeout=10).read().decode("utf-8", errors="ignore")
+        title = None
+        m_ttl = re.search(r'"videoPrimaryInfoRenderer":\{"title":\{"runs":\[\{"text":"((?:[^"\\]|\\.)*)"', txt)
+        if m_ttl:
+            try:
+                title = json.loads(f'"{m_ttl.group(1)}"')
+            except Exception:
+                title = m_ttl.group(1)
+        desc = ""
+        m_desc = re.search(r'"attributedDescriptionBodyText":\{"content":"((?:[^"\\]|\\.)*)"', txt)
+        if m_desc:
+            try:
+                desc = json.loads(f'"{m_desc.group(1)}"')
+            except Exception:
+                desc = m_desc.group(1)
+        return {"title": title, "description": desc}
+    except Exception:
+        return {"title": None, "description": ""}
 
 
 def batch_fetch_youtube_api_v3(video_ids, api_key):
@@ -941,15 +1095,118 @@ def backfill_catalog_stats(films, refresh_all=False, max_recent=150):
     return updated_films
 
 
+def clean_and_reclassify_catalog(films, fetch_missing_desc=False):
+    """
+    Filter catalog strictly to 3D films (removing 2D Manhua Audio series, short clips < 20m,
+    and 2025 chiuchiusubtv 2D uploads), restore film_559, clean plot summaries, and re-infer 10 canonical 3D genres.
+    """
+    # Step A: Fix film_559 which had 91 2D audio parts ('NGỰ THÚ SƯ MẠNH NHẤT') attached under a 3D Part 1 ('KẺ LÀM MÀU MẠNH NHẤT')
+    for f in films:
+        if f.get("id") == "film_559":
+            kept_parts = [p for p in f.get("parts", []) if (p.get("id") or "") == "Tp6ygCmLXek"]
+            if kept_parts:
+                f["title"] = "FULL MÙA 1 | KẺ LÀM MÀU MẠNH NHẤT"
+                f["parts"] = kept_parts
+                recalculate_film_summary(f)
+
+    # Step B: Remove non-3D films and filter out any non-3D short parts inside series
+    cleaned_films = []
+    removed_films = 0
+    for f in films:
+        ch_id = f.get("channelId", "")
+        valid_parts = []
+        for p in f.get("parts", []):
+            p_dur = p.get("duration") or 0
+            p_title = p.get("title") or ""
+            p_pub = p.get("publishedAt") or f.get("publishedAt") or ""
+            if p_dur > 0 and p_dur < 600:
+                continue
+            if ch_id == "chiuchiusubtv" and str(p_pub).startswith("2025-"):
+                continue
+            if NON_3D_TITLE_REGEX.search(p_title):
+                continue
+            valid_parts.append(p)
+
+        if not valid_parts:
+            removed_films += 1
+            continue
+
+        f["parts"] = valid_parts
+        recalculate_film_summary(f)
+        total_dur = f.get("totalDurationSec") or 0
+        film_pub = f.get("publishedAt") or f.get("updatedAt") or ""
+        if not is_valid_3d_film_video(f.get("title", ""), total_dur, channel_id=ch_id, published_at=film_pub):
+            removed_films += 1
+            continue
+        cleaned_films.append(f)
+
+    # Step C: Restore any auto-translated English titles or generic/boilerplate synopses via /next (hl=vi)
+    if fetch_missing_desc:
+        need_vn_meta = []
+        for f in cleaned_films:
+            t = f.get("title") or ""
+            rev = f.get("review") or ""
+            has_en_title = bool(
+                re.search(r'\b(episode|while|others rely|beast tamer|raises)\b', t, re.I)
+                or (re.search(r'[a-zA-Z]{5,}', t) and not re.search(r'[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]', t, re.I))
+            )
+            has_bad_rev = (
+                not rev
+                or rev.startswith("Phim hoạt hình mới tuyển chọn")
+                or bool(re.search(r'ngân hàng|số tài khoản|ủng hộ kênh|tất cả hình ảnh và âm thanh', rev, re.I))
+            )
+            if has_en_title or has_bad_rev:
+                vid = f["parts"][0].get("id") or f["parts"][0].get("videoId")
+                if vid:
+                    need_vn_meta.append((f, vid, has_en_title))
+
+        if need_vn_meta:
+            print(f"[Clean-3D] Fetching Vietnamese title/synopsis for {len(need_vn_meta)} films...")
+            with ThreadPoolExecutor(max_workers=20) as pool:
+                fut_map = {pool.submit(fetch_vn_title_and_desc_next, vid): (f, has_en_title) for f, vid, has_en_title in need_vn_meta}
+                for fut in as_completed(fut_map):
+                    f_obj, fix_title = fut_map[fut]
+                    try:
+                        res = fut.result()
+                        if fix_title and res.get("title"):
+                            new_t = re.sub(r'\s*\|\s*chiuchiu\s*subtv\s*$', '', res["title"], flags=re.I).strip()
+                            f_obj["title"] = new_t
+                        if res.get("description"):
+                            cleaned = clean_plot_summary(res["description"], f_obj.get("title", ""), f_obj.get("channelName", ""))
+                            if cleaned:
+                                f_obj["review"] = cleaned
+                    except Exception:
+                        pass
+
+    # Step D: Strip boilerplate from all reviews and re-classify all 10 canonical 3D genres
+    reclassified = 0
+    for f in cleaned_films:
+        rev = f.get("review") or ""
+        cleaned_rev = clean_plot_summary(rev, f.get("title", ""), f.get("channelName", ""))
+        if cleaned_rev:
+            f["review"] = cleaned_rev
+        elif not rev or re.search(r'ngân hàng|số tài khoản|tất cả hình ảnh và âm thanh|phim hoạt hình mới tuyển chọn', rev, re.I):
+            f["review"] = f"{clean_core_title(f.get('title', ''))} — Tuyển tập hoạt hình 3D đặc sắc từ kênh {f.get('channelName', '')}."
+
+        new_genres = infer_genres(f.get("title", ""), f.get("review", ""))
+        if f.get("genres") != new_genres:
+            f["genres"] = new_genres
+            reclassified += 1
+
+    print(f"[Clean-3D] Removed {removed_films} 2D/short films ({len(cleaned_films)} 3D films kept). Reclassified {reclassified} films.")
+    return cleaned_films, (removed_films + reclassified)
+
+
 def main():
     do_backfill = "--backfill" in sys.argv
     do_backfill_stats = "--backfill-stats" in sys.argv
-    do_repair_parts = "--repair-parts" in sys.argv or do_backfill or do_backfill_stats
+    do_clean_3d = "--clean-3d" in sys.argv
+    do_repair_parts = "--repair-parts" in sys.argv or do_backfill or do_backfill_stats or do_clean_3d
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_js_path = os.path.join(base_dir, "data.js")
     catalog_json_path = os.path.join(base_dir, "youtube_films_catalog.json")
 
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting YouTube Auto-Update (backfill={do_backfill}, backfill_stats={do_backfill_stats}, repair_parts={do_repair_parts})...")
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting YouTube Auto-Update (backfill={do_backfill}, backfill_stats={do_backfill_stats}, clean_3d={do_clean_3d}, repair_parts={do_repair_parts})...")
 
     if not os.path.exists(data_js_path):
         print(f"[Error] data.js not found at {data_js_path}")
@@ -971,6 +1228,10 @@ def main():
     # Pre-fetch duration map and latest upload fallback map across all 8 channels via Innertube browse
     browse_durations, browse_videos_map = fetch_all_channel_durations(max_workers=8)
     print(f"[Browse] Collected {len(browse_durations)} video durations across 8 channels.")
+
+    cleaned_changes = 0
+    if do_clean_3d:
+        films, cleaned_changes = clean_and_reclassify_catalog(films, fetch_missing_desc=True)
 
     repaired_count = repair_existing_catalog(
         films,
@@ -1030,8 +1291,14 @@ def main():
             v_views = st.get("views") if st.get("views") is not None else (v.get("views") or 0)
             v_likes = st.get("likes") if st.get("likes") is not None else 0
             v_title = v["title"]
-            v_desc = v["description"]
+            raw_desc = v["description"] or st.get("description") or ""
+            v_desc = clean_plot_summary(raw_desc, v_title, ch_name)
             v_thumb = v["thumbnail"]
+
+            # Enforce strict 3D film filter (skip 2D audio episodes, <20m clips, 5s teasers)
+            if not is_valid_3d_film_video(v_title, real_sec, channel_id=ch_id, published_at=v_pub):
+                print(f"  [Skip 2D/Short] '{v_title}' ({real_sec}s, {vid})")
+                continue
 
             core_title = clean_core_title(v_title)
             part_info = parse_part_info(v_title)
@@ -1075,7 +1342,7 @@ def main():
             else:
                 max_film_num += 1
                 film_id = f"film_{max_film_num}"
-                genres = infer_genres(v_title, v_desc)
+                genres = infer_genres(v_title, v_desc or raw_desc)
                 total_dur_str = format_total_duration_vi(real_sec)
                 new_film = {
                     "id": film_id,
@@ -1090,7 +1357,7 @@ def main():
                     "totalDurationStr": total_dur_str,
                     "totalViews": v_views,
                     "totalLikes": v_likes,
-                    "review": v_desc[:200] if v_desc else f"Phim hoạt hình mới tuyển chọn từ kênh {ch_name}.",
+                    "review": v_desc or f"{clean_core_title(v_title)} — Tuyển tập hoạt hình 3D đặc sắc từ kênh {ch_name}.",
                     "genres": genres,
                     "thumbnail": v_thumb,
                     "publishedAt": v_pub,
@@ -1117,7 +1384,7 @@ def main():
                 new_films_count += 1
                 print(f"  [+] New Film ({total_dur_str}): '{v_title}' ({vid})")
 
-    total_changes = new_films_count + new_parts_count + repaired_count + stats_updated_count
+    total_changes = new_films_count + new_parts_count + repaired_count + stats_updated_count + cleaned_changes
     if total_changes == 0:
         print("[Auto-Update] Everything is up to date! No new videos or repairs needed.")
         return

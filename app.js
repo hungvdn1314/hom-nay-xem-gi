@@ -53,7 +53,6 @@
 
   function cacheDomElements() {
     el.brandHomeBtn = document.getElementById('brandHomeBtn');
-    el.brandCaption = document.getElementById('brandCaption');
     el.btnDiceRandom = document.getElementById('btnDiceRandom');
     el.btnFavoritesOpen = document.getElementById('btnFavoritesOpen');
     el.favCountBadge = document.getElementById('favCountBadge');
@@ -104,17 +103,45 @@
     // Random Modal
     el.randomModal = document.getElementById('randomModal');
     el.randomBackdrop = document.getElementById('randomBackdrop');
+    el.btnCloseRandom = document.getElementById('btnCloseRandom');
+    el.randomThumbImg = document.getElementById('randomThumbImg');
+    el.randomPartsBadge = document.getElementById('randomPartsBadge');
+    el.randomTimeBadge = document.getElementById('randomTimeBadge');
+    el.randomDurationBadge = document.getElementById('randomDurationBadge');
     el.randomFilmTitle = document.getElementById('randomFilmTitle');
-    el.randomFilmMeta = document.getElementById('randomFilmMeta');
+    el.randomTagsRow = document.getElementById('randomTagsRow');
+    el.randomStatDuration = document.getElementById('randomStatDuration');
+    el.randomStatParts = document.getElementById('randomStatParts');
+    el.randomStatViews = document.getElementById('randomStatViews');
+    el.randomStatLikes = document.getElementById('randomStatLikes');
+    el.randomFilmSynopsis = document.getElementById('randomFilmSynopsis');
     el.btnRandomWatchNow = document.getElementById('btnRandomWatchNow');
     el.btnRandomRollAgain = document.getElementById('btnRandomRollAgain');
+    el.btnRandomBookmark = document.getElementById('btnRandomBookmark');
 
     // Toast & Mobile Dock
     el.toastPill = document.getElementById('toastPill');
     el.mobileBottomBar = document.getElementById('mobileBottomBar');
   }
 
-  const SCHEMA_VERSION = '20261116_v5_stats_leaderboard';
+  const SCHEMA_VERSION = '20261116_v6_3d_genres_spotlight';
+
+  const NON_3D_CLIENT_RE = /\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|truyện tranh|manhua\s*audio|comic\s*audio|\[phim ngắn\]/i;
+
+  function isValid3dFilmClient(film) {
+    if (!film) return false;
+    const dur = Number(film.totalDurationSec) || 0;
+    if (dur > 0 && dur < 1200) return false;
+    if (film.channelId === 'chiuchiusubtv' && String(film.publishedAt || '').startsWith('2025-')) return false;
+    if (NON_3D_CLIENT_RE.test(film.title || '')) return false;
+    return true;
+  }
+
+  function filmMatchesGenre(film, genre) {
+    if (!genre || genre === 'all') return true;
+    if (Array.isArray(film.genres) && film.genres.includes(genre)) return true;
+    return film.genre === genre;
+  }
 
   function loadStoredData() {
     try {
@@ -420,22 +447,21 @@
         isRecent24h: false,
         recentUpdate: null
       };
-    });
+    }).filter(isValid3dFilmClient);
 
     rebuildRecentFeedAndGenres();
   }
 
   function rebuildRecentFeedAndGenres() {
-    // Extract unique genres
-    const genreSet = new Set();
+    // Extract unique genres sorted by prevalence (descending)
+    const genreCounts = new Map();
     state.allFilms.forEach(f => {
-      if (Array.isArray(f.genres)) {
-        f.genres.forEach(g => genreSet.add(g));
-      } else if (f.genre) {
-        genreSet.add(f.genre);
-      }
+      const list = Array.isArray(f.genres) && f.genres.length > 0 ? f.genres : (f.genre ? [f.genre] : []);
+      list.forEach(g => {
+        genreCounts.set(g, (genreCounts.get(g) || 0) + 1);
+      });
     });
-    state.genres = Array.from(genreSet).sort();
+    state.genres = Array.from(genreCounts.keys()).sort((a, b) => (genreCounts.get(b) - genreCounts.get(a)) || a.localeCompare(b));
 
     // Build timeline strictly from real YouTube timestamps
     const now = Date.now();
@@ -483,9 +509,6 @@
 
     if (el.tabRecentBadge) {
       el.tabRecentBadge.textContent = state.recent24hFilms.length;
-    }
-    if (el.brandCaption && state.allFilms.length > 0) {
-      el.brandCaption.textContent = `${state.allFilms.length.toLocaleString('vi-VN')} BỘ PHIM • 8 KÊNH YOUTUBE`;
     }
   }
 
@@ -538,7 +561,10 @@
           return;
         }
 
-        // Brand-new video discovered live via YouTube!
+        // Brand-new video discovered live via YouTube — enforce 3D film filter
+        if (!isValid3dFilmClient({ title: v.title, totalDurationSec: v.durationSec, channelId: v.channelId, publishedAt: v.publishedAt })) {
+          return;
+        }
         const partInfo = parsePartInfoClient(v.title);
         const partNum = partInfo ? partInfo.endNum : null;
         const partLabel = partInfo ? partInfo.label : null;
@@ -863,7 +889,7 @@
         </button>
       `;
       state.genres.forEach(g => {
-        const count = state.allFilms.filter(f => f.genre === g).length;
+        const count = state.allFilms.filter(f => filmMatchesGenre(f, g)).length;
         gHtml += `
           <button type="button" class="sidebar-menu-btn ${state.selectedGenre === g ? 'active' : ''}" data-genre="${escapeHtml(g)}">
             <span class="truncate">${escapeHtml(g)}</span>
@@ -912,7 +938,7 @@
     if (el.lbGenreSelect) {
       let html = `<option value="all">Tất cả thể loại (${state.allFilms.length})</option>`;
       state.genres.forEach(g => {
-        const count = state.allFilms.filter(f => f.genre === g).length;
+        const count = state.allFilms.filter(f => filmMatchesGenre(f, g)).length;
         html += `<option value="${escapeHtml(g)}">${escapeHtml(g)} (${count})</option>`;
       });
       el.lbGenreSelect.innerHTML = html;
@@ -1002,13 +1028,14 @@
       if (state.searchQuery.trim()) {
         const q = removeVietnameseTones(state.searchQuery.toLowerCase().trim());
         const titleMatch = removeVietnameseTones(film.title.toLowerCase()).includes(q);
-        const genreMatch = removeVietnameseTones(film.genre.toLowerCase()).includes(q);
+        const genresText = (Array.isArray(film.genres) ? film.genres.join(' ') : film.genre).toLowerCase();
+        const genreMatch = removeVietnameseTones(genresText).includes(q);
         const chMatch = removeVietnameseTones(film.channelName.toLowerCase()).includes(q);
         if (!titleMatch && !genreMatch && !chMatch) continue;
       }
 
       // 2. Genre & Channel filters (shared across both normal tabs and Leaderboard!)
-      if (state.selectedGenre !== 'all' && film.genre !== state.selectedGenre) continue;
+      if (!filmMatchesGenre(film, state.selectedGenre)) continue;
       if (state.selectedChannel !== 'all' && film.channelId !== state.selectedChannel) continue;
 
       // 3. Tab filter
@@ -1499,28 +1526,90 @@
     if (state.activeTab === 'favorites') {
       applyFiltersAndRender(state.currentPage);
     }
+    syncRandomBookmarkBtn();
+  }
+
+  function syncRandomBookmarkBtn() {
+    if (!el.btnRandomBookmark || !state.randomCandidate) return;
+    const isFav = state.favorites.has(state.randomCandidate.id);
+    el.btnRandomBookmark.classList.toggle('active', isFav);
+    const labelEl = el.btnRandomBookmark.querySelector('span');
+    if (labelEl) labelEl.textContent = isFav ? 'Đã lưu' : 'Lưu';
+    const svg = el.btnRandomBookmark.querySelector('svg');
+    if (svg) svg.setAttribute('fill', isFav ? 'currentColor' : 'none');
   }
 
   // -------------------------------------------------------------------------
-  // RANDOMIZER MODAL (GỢI Ý PHIM 🎲)
+  // RANDOMIZER SPOTLIGHT MODAL (GỢI Ý PHIM)
   // -------------------------------------------------------------------------
   function openRandomizer() {
-    // Pick candidates with duration >= 2 hours for high-quality binging
-    const pool = state.allFilms.filter(f => f.totalDurationSec >= 7200);
-    const candidates = pool.length > 0 ? pool : state.allFilms;
+    // Respect current channel/genre filter if active, otherwise pull high-quality 3D films >= 2h
+    let scoped = state.allFilms.filter(f =>
+      (state.selectedChannel === 'all' || f.channelId === state.selectedChannel) &&
+      filmMatchesGenre(f, state.selectedGenre)
+    );
+    if (scoped.length === 0) scoped = state.allFilms;
+    const longPool = scoped.filter(f => f.totalDurationSec >= 7200);
+    let candidates = longPool.length > 0 ? longPool : scoped;
+    if (candidates.length > 1 && state.randomCandidate) {
+      candidates = candidates.filter(f => f.id !== state.randomCandidate.id);
+    }
     const pick = candidates[Math.floor(Math.random() * candidates.length)];
     if (!pick) return;
 
     state.randomCandidate = pick;
 
+    if (el.randomThumbImg) {
+      el.randomThumbImg.src = pick.thumbnailUrl || '';
+      el.randomThumbImg.alt = pick.title;
+    }
+    if (el.randomPartsBadge) {
+      el.randomPartsBadge.textContent = pick.partsCount > 1 ? `${pick.partsCount} Phần` : 'Trọn bộ 1 tập';
+    }
+    if (el.randomDurationBadge) {
+      const span = el.randomDurationBadge.querySelector('span');
+      if (span) span.textContent = pick.totalDuration || 'Đang cập nhật';
+    }
+    if (el.randomTimeBadge) {
+      const relTime = pick.updatedAt ? formatRealTimeAgo(pick.updatedAt) : '';
+      el.randomTimeBadge.textContent = relTime;
+      el.randomTimeBadge.classList.toggle('hidden', !relTime);
+    }
     if (el.randomFilmTitle) el.randomFilmTitle.textContent = pick.title;
-    if (el.randomFilmMeta) {
-      const statsPiece = pick.totalViews > 0
-        ? ` • ${formatCompactCountVi(pick.totalViews)} xem • ${formatCompactCountVi(pick.totalLikes)} thích`
-        : '';
-      el.randomFilmMeta.textContent = `${pick.channelName} • ${pick.totalDuration} • ${pick.genre} • ${pick.partsCount} Tập${statsPiece}`;
+
+    if (el.randomTagsRow) {
+      const genrePills = (Array.isArray(pick.genres) && pick.genres.length > 0 ? pick.genres : [pick.genre])
+        .map(g => `<span class="random-tag-pill">${escapeHtml(g)}</span>`)
+        .join('');
+      const dateStr = pick.updatedAt ? formatRealTimeAgo(pick.updatedAt) : '';
+      el.randomTagsRow.innerHTML = `
+        <span class="random-tag-pill tag-channel">${escapeHtml(pick.channelName)}</span>
+        ${genrePills}
+        ${dateStr ? `<span class="random-tag-pill tag-date">Cập nhật ${escapeHtml(dateStr)}</span>` : ''}
+      `;
     }
 
+    if (el.randomStatDuration) el.randomStatDuration.textContent = pick.totalDuration || 'Đang cập nhật';
+    if (el.randomStatParts) el.randomStatParts.textContent = pick.partsCount > 1 ? `${pick.partsCount} phần` : 'Bản Full';
+    if (el.randomStatViews) {
+      el.randomStatViews.textContent = formatCompactCountVi(pick.totalViews || 0);
+      el.randomStatViews.title = `${formatExactCountVi(pick.totalViews || 0)} lượt xem`;
+    }
+    if (el.randomStatLikes) {
+      el.randomStatLikes.textContent = formatCompactCountVi(pick.totalLikes || 0);
+      el.randomStatLikes.title = `${formatExactCountVi(pick.totalLikes || 0)} lượt thích`;
+    }
+
+    if (el.randomFilmSynopsis) {
+      el.randomFilmSynopsis.textContent = pick.synopsis || `${cleanCoreTitleClient(pick.title)} — Bộ phim hoạt hình 3D đặc sắc từ ${pick.channelName}.`;
+    }
+
+    if (el.btnRandomWatchNow) {
+      const btnText = el.btnRandomWatchNow.querySelector('span');
+      if (btnText) btnText.textContent = pick.partsCount > 1 ? 'Xem Ngay Phần 1' : 'Xem Ngay Phim Này';
+    }
+
+    syncRandomBookmarkBtn();
     el.randomModal?.classList.add('active');
   }
 
@@ -1766,7 +1855,11 @@
 
     // Random Modal actions
     el.randomBackdrop?.addEventListener('click', closeRandomizer);
+    el.btnCloseRandom?.addEventListener('click', closeRandomizer);
     el.btnRandomRollAgain?.addEventListener('click', openRandomizer);
+    el.btnRandomBookmark?.addEventListener('click', () => {
+      if (state.randomCandidate) toggleFavorite(state.randomCandidate.id);
+    });
     el.btnRandomWatchNow?.addEventListener('click', () => {
       if (state.randomCandidate) {
         const pick = state.randomCandidate;

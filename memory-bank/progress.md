@@ -22,3 +22,4 @@
 - [x] Decluttered UI (removed fake "842 người đang xem", dead history button, stale counts, UI emojis) and fixed mobile/tablet responsive layout across `375px`, `414px`, `768px`, and `1280px` (`0px` horizontal overflow).
 - [x] Integrated real YouTube `views`, `likes`, and `publishedAt` dates across 1,691/1,741 films (`--backfill-stats`, YouTube Data API v3 support + Innertube `/next` & `browse VLUU...` RSS fallback).
 - [x] Finalized Bento Dual-Pill card stats (Mẫu 3) + High-Density Chart Leaderboard (Mẫu 2) alongside Multi-Dimensional `Bảng Xếp Hạng` (Views/Likes × Day/Week/Month/Year/All-time × Channel × Genre) and Inline Channel/Genre Sort & Time Filter.
+- [x] Filtered catalog & live feed strictly to 3D films (removed 119 2D Manhua Audio/short videos including `8-DuVCodA5c`), deployed weighted 10-genre classifier (`1,624` 3D films), simplified header brand, and upgraded Randomizer Modal into a detailed Spotlight card.

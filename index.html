@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=20261116_100000">
+  <link rel="stylesheet" href="style.css?v=20261116_104000">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2338bdf8'><polygon points='5 3 19 12 5 21 5 3'/></svg>">
 </head>
 <body class="nordic-app">
@@ -31,7 +31,6 @@
         </div>
         <div class="brand-text-stack">
           <span class="brand-title">HÔM NAY XEM GÌ</span>
-          <span class="brand-caption" id="brandCaption">KHO PHIM HOẠT HÌNH &amp; 3D</span>
         </div>
       </a>
 
@@ -335,25 +334,63 @@
   </div>
 
   <!-- ==========================================
-       NORDIC RANDOMIZER MODAL (GỢI Ý PHIM 🎲)
+       NORDIC RANDOMIZER SPOTLIGHT MODAL (GỢI Ý PHIM)
        ========================================== -->
-  <div class="random-modal" id="randomModal" role="dialog" aria-modal="true">
+  <div class="random-modal" id="randomModal" role="dialog" aria-modal="true" aria-labelledby="randomFilmTitle">
     <div class="random-backdrop" id="randomBackdrop"></div>
     <div class="random-dialog">
-      <div class="random-card-body">
-        <div class="random-dice-icon" aria-hidden="true">
-          <svg class="icon" viewBox="0 0 24 24">
-            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-            <circle cx="8" cy="8" r="1.5" fill="currentColor"></circle>
-            <circle cx="16" cy="16" r="1.5" fill="currentColor"></circle>
-            <circle cx="12" cy="12" r="1.5" fill="currentColor"></circle>
-            <circle cx="16" cy="8" r="1.5" fill="currentColor"></circle>
-            <circle cx="8" cy="16" r="1.5" fill="currentColor"></circle>
-          </svg>
+      <div class="random-modal-head">
+        <span class="random-kicker">
+          <svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><circle cx="9" cy="9" r="1.5" fill="currentColor"></circle><circle cx="15" cy="15" r="1.5" fill="currentColor"></circle></svg>
+          <span>GỢI Ý PHIM 3D HÔM NAY</span>
+        </span>
+        <button type="button" class="cinema-close-circle" id="btnCloseRandom" aria-label="Đóng gợi ý phim">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="random-thumb-box">
+        <img id="randomThumbImg" class="random-thumb-img" src="" alt="Poster phim gợi ý">
+        <div class="card-vignette"></div>
+        <div class="card-parts-stamp" id="randomPartsBadge">1 Phần</div>
+        <div class="card-update-pill hidden" id="randomTimeBadge"></div>
+        <div class="card-duration-badge" id="randomDurationBadge">
+          <svg class="icon icon-xs clock-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <span>Đang cập nhật</span>
         </div>
-        <span class="random-kicker">HÔM NAY XEM GÌ?</span>
-        <h3 class="random-film-title" id="randomFilmTitle">Đang chọn ngẫu nhiên một siêu phẩm...</h3>
-        <p class="random-meta-info" id="randomFilmMeta">Thời lượng • Kênh review • Thể loại</p>
+      </div>
+
+      <div class="random-card-body">
+        <h3 class="random-film-title" id="randomFilmTitle">Đang chọn ngẫu nhiên một siêu phẩm 3D...</h3>
+
+        <div class="random-tags-row" id="randomTagsRow">
+          <!-- Populated dynamically: Channel + Genre chips -->
+        </div>
+
+        <div class="random-stats-grid" id="randomStatsGrid">
+          <div class="random-stat-box">
+            <span class="rs-label">Thời lượng</span>
+            <strong class="rs-value" id="randomStatDuration">-</strong>
+          </div>
+          <div class="random-stat-box">
+            <span class="rs-label">Số tập</span>
+            <strong class="rs-value" id="randomStatParts">-</strong>
+          </div>
+          <div class="random-stat-box rs-views">
+            <span class="rs-label">Lượt xem</span>
+            <strong class="rs-value" id="randomStatViews">-</strong>
+          </div>
+          <div class="random-stat-box rs-likes">
+            <span class="rs-label">Lượt thích</span>
+            <strong class="rs-value" id="randomStatLikes">-</strong>
+          </div>
+        </div>
+
+        <div class="random-synopsis-wrap">
+          <div class="random-synopsis-label">Tóm tắt nội dung</div>
+          <p class="random-synopsis-text" id="randomFilmSynopsis">Đang tải nội dung tóm tắt...</p>
+        </div>
+
         <div class="random-actions">
           <button type="button" class="btn-play-suggestion" id="btnRandomWatchNow">
             <svg class="icon icon-sm" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
@@ -362,6 +399,10 @@
           <button type="button" class="btn-roll-again" id="btnRandomRollAgain">
             <svg class="icon icon-sm" viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
             <span>Đổi Phim Khác</span>
+          </button>
+          <button type="button" class="btn-random-bookmark" id="btnRandomBookmark" title="Lưu theo dõi phim">
+            <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+            <span>Lưu</span>
           </button>
         </div>
       </div>
@@ -392,7 +433,7 @@
   </nav>
 
   <!-- Load Data and Application Controller -->
-  <script src="data.js?v=20261116_100000"></script>
-  <script src="app.js?v=20261116_100000"></script>
+  <script src="data.js?v=20261116_103500"></script>
+  <script src="app.js?v=20261116_103500"></script>
 </body>
 </html>

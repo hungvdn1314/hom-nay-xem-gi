@@ -59,8 +59,18 @@
   - Upgraded `scripts/update_youtube_feed.py`, `api/live-feed.js`, and `scripts/dev_server.py` with `YOUTUBE_API_KEY` (`videos.list?part=statistics,contentDetails,snippet`) + zero-key Innertube `/youtubei/v1/next` & `browse VLUU...` RSS-outage fallback (enriched 1,691/1,741 static films + live `/api/live-feed` discoveries).
   - Kept multi-dimensional `Bảng Xếp Hạng` (`Views` / `Likes` × `Hôm nay` / `Tuần này` / `Tháng này` / `Năm nay` / `All-time` × `Channel` × `Genre`), inline `#inlineFilterBar` Sort & Timeframe toolbar inside every Channel & Genre browse view, and engagement stats inside `#theaterModal` & `#randomModal`.
 
+- **Feature 9 (Review Polish `v=20261116_104000`): Strict 3D-Only Catalog Filter, Weighted 10-Genre Classifier, Minimal Header & Rich Randomizer Spotlight**:
+  - **Feedback 1 (Header)**: Removed `.brand-caption` (`"XX BỘ PHIM • 8 KÊNH YOUTUBE"`) under `HÔM NAY XEM GÌ` in `index.html`, `style.css`, and `app.js`.
+  - **Feedback 2 (Rich Randomizer Modal)**: Upgraded `#randomModal` into a full Spotlight Preview dialog featuring close button `#btnCloseRandom`, 16:9 poster (`#randomThumbImg`) with Parts / Updated-Time / Duration badges, tags row (`#randomTagsRow`), 4-box Bento stats grid (Duration, Parts, Views, Likes), cleaned plot synopsis (`#randomFilmSynopsis`), and Watch / Roll / Bookmark actions.
+  - **Feedback 3 & 4 (Weighted 3D Genres + 2D Audio Filtering)**:
+    - Switched `browse VLUU...` requests to `hl: "vi", gl: "VN"` across `scripts/update_youtube_feed.py` and `api/live-feed.js` (supporting both Vietnamese and English relative timestamps/compact counts) to preserve original Vietnamese titles.
+    - Added `is_valid_3d_film_video` / `isValid3dFilmVideo` / `isValid3dFilmClient` filtering out `< 20m` (`< 1200s`) videos, 2025 `chiuchiusubtv` 2D audio uploads, and `EPISODE/TẬP 7xx` (`NGỰ THÚ SƯ MẠNH NHẤT` / `8-DuVCodA5c`) 2D Manhua Audio episodes; restored `film_559` to `"FULL MÙA 1 | KẺ LÀM MÀU MẠNH NHẤT"`.
+    - Replaced `GENRE_KEYWORDS` with weighted 10-genre `GENRE_RULES` + `"Hoạt hình 3D Chọn Lọc"` fallback, stripped donation/bank/subscribe boilerplate via `clean_plot_summary` / `cleanPlotSummary`, updated `filmMatchesGenre` for multi-tag filtering/counting in `app.js`, and ran `--clean-3d` (removing 119 2D/short films, keeping 1,624 clean 3D films, reclassifying 1,086 films).
+
 ## Verification Completed
-- `node --check app.js` exited `0`.
-- Puppeteer verification on `scripts/dev_server.py 18090` (`v=20261116_100000`):
-  - Desktop `1280×800`: `#uiVariantSwitcher === null`, `24` Bento Dual-Pill cards (`docSwFeed: 1263 <= 1280`), Leaderboard `.chart-table-head` + `24` `.chart-row-card` rows (`docSwLb: 1263 <= 1280`), visually inspected desktop screenshot.
-  - Mobile `375×812`: `24` Bento cards (`docSwFeed: 375`), `24` Chart rows (`docSwLb: 375`, `0px` horizontal overflow), visually inspected mobile screenshot.
+- `python -m py_compile scripts/update_youtube_feed.py scripts/dev_server.py`, `node --check app.js`, and `node --check api/live-feed.js` exited `0`.
+- Catalog audit after `--clean-3d`: 1,624 3D films across 11 clean genres, `has 8-DuVCodA5c: False`, `<20m films: 0`, `bank boilerplate reviews: 0`, `film_559` = `('FULL MÙA 1 | KẺ LÀM MÀU MẠNH NHẤT', 1, '2 giờ 35 phút')`.
+- Direct Node test of `api/live-feed.js`: HTTP `200`, `COUNT: 23`, `BAD_2D: 0`.
+- Puppeteer verification on `scripts/dev_server.py 18091`:
+  - Desktop `1280×800`: `#brandCaption === null`, `bad2dInDom === 0`, 11 clean genres rendered, `#randomModal` opens cleanly (`dlgScrollH = 699, dlgClientH = 699, needsScroll = false`, `docSw = 1263 <= 1280`), visually inspected screenshot (`random_modal_desktop_clean`).
+  - Mobile `375×812`: `docSw = 375`, `docSwModal = 375`, `overflowX = false`, `#brandCaption === null`, Randomizer Modal opens and closes cleanly.
