@@ -19,6 +19,11 @@
     activeTab: 'all',
     selectedGenre: 'all',
     selectedChannel: 'all',
+    sortBy: 'recent',
+    timeRange: 'all',
+    leaderboardMetric: 'views',
+    leaderboardTime: 'week',
+    uiVariant: 'v1',
     searchQuery: '',
     currentPage: 1,
     pageSize: 24,
@@ -69,9 +74,21 @@
 
     el.searchInput = document.getElementById('searchInput');
     el.searchClearBtn = document.getElementById('searchClearBtn');
+    el.uiVariantSwitcher = document.getElementById('uiVariantSwitcher');
     el.categoryTabsGroup = document.getElementById('categoryTabsGroup');
     el.tabRecentBadge = document.getElementById('tabRecentBadge');
     el.feedCountSummary = document.getElementById('feedCountSummary');
+    el.inlineFilterBar = document.getElementById('inlineFilterBar');
+    el.sortBySelect = document.getElementById('sortBySelect');
+    el.timeRangeSelect = document.getElementById('timeRangeSelect');
+    el.activeScopeBadges = document.getElementById('activeScopeBadges');
+    el.leaderboardPanel = document.getElementById('leaderboardPanel');
+    el.lbSubheading = document.getElementById('lbSubheading');
+    el.lbMetricGroup = document.getElementById('lbMetricGroup');
+    el.lbTimeGroup = document.getElementById('lbTimeGroup');
+    el.lbChannelSelect = document.getElementById('lbChannelSelect');
+    el.lbGenreSelect = document.getElementById('lbGenreSelect');
+    el.leaderboardShowcase = document.getElementById('leaderboardShowcase');
     el.cardsWidescreenGrid = document.getElementById('cardsWidescreenGrid');
     el.paginationBar = document.getElementById('paginationBar');
 
@@ -99,15 +116,30 @@
     el.mobileBottomBar = document.getElementById('mobileBottomBar');
   }
 
-  const SCHEMA_VERSION = '20261114_v4_browse_fix';
+  const SCHEMA_VERSION = '20261116_v5_stats_leaderboard';
+
+  function applyUiVariant(variant) {
+    const valid = ['v1', 'v2', 'v3'].includes(variant) ? variant : 'v1';
+    state.uiVariant = valid;
+    if (document.body) {
+      document.body.dataset.uiVariant = valid;
+    }
+    el.uiVariantSwitcher?.querySelectorAll('.variant-pill').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.variant === valid);
+    });
+    try {
+      localStorage.setItem('homnayxemgi_ui_variant', valid);
+    } catch (e) {}
+  }
 
   function loadStoredData() {
     try {
+      const savedVariant = localStorage.getItem('homnayxemgi_ui_variant');
+      applyUiVariant(savedVariant || 'v1');
+
       const v = localStorage.getItem('homnayxemgi_version');
       if (v !== SCHEMA_VERSION) {
-        // Automatically purge any stale legacy notifications with mock timestamps
         localStorage.removeItem('homnayxemgi_notifs');
-        localStorage.removeItem('homnayxemgi_favs');
         localStorage.setItem('homnayxemgi_version', SCHEMA_VERSION);
       }
 
@@ -275,6 +307,73 @@
     return h > 0 ? `${h}:${pad(m)}:${pad(s)}` : `${m}:${pad(s)}`;
   }
 
+  function formatCompactCountVi(num) {
+    const n = Number(num) || 0;
+    if (n <= 0) return '0';
+    if (n < 1000) return String(Math.round(n));
+    if (n < 1000000) {
+      const val = n >= 100000 ? Math.round(n / 1000).toString() : (n / 1000).toFixed(1).replace('.', ',').replace(/,0$/, '');
+      return `${val}N`;
+    }
+    const val = n >= 10000000 ? (n / 1000000).toFixed(1) : (n / 1000000).toFixed(2);
+    return `${val.replace('.', ',').replace(/,0+$/, '')}Tr`;
+  }
+
+  function formatExactCountVi(num) {
+    return (Number(num) || 0).toLocaleString('vi-VN');
+  }
+
+  function recomputeFilmEngagementTotals(film) {
+    const parts = film.parts || [];
+    const active = parts.filter(p => !p.isRedundant);
+    const pool = active.length > 0 ? active : parts;
+    film.totalViews = pool.reduce((sum, p) => sum + (Number(p.views) || 0), 0);
+    film.totalLikes = pool.reduce((sum, p) => sum + (Number(p.likes) || 0), 0);
+  }
+
+  const TIME_WINDOW_MS = {
+    day: 86400000,
+    week: 7 * 86400000,
+    month: 30 * 86400000,
+    year: 365 * 86400000
+  };
+
+  function getFilmPeriodMetrics(film, timeRange) {
+    if (!timeRange || timeRange === 'all' || !TIME_WINDOW_MS[timeRange]) {
+      return {
+        matches: true,
+        views: film.totalViews || 0,
+        likes: film.totalLikes || 0
+      };
+    }
+    const cutoff = Date.now() - TIME_WINDOW_MS[timeRange];
+    const parts = film.parts || [];
+    const matchingParts = parts.filter(p => {
+      if (!p.publishedAt) return false;
+      const ts = new Date(p.publishedAt).getTime();
+      return !Number.isNaN(ts) && ts >= cutoff;
+    });
+    if (matchingParts.length > 0) {
+      const activeMatching = matchingParts.filter(p => !p.isRedundant);
+      const pool = activeMatching.length > 0 ? activeMatching : matchingParts;
+      return {
+        matches: true,
+        views: pool.reduce((s, p) => s + (Number(p.views) || 0), 0),
+        likes: pool.reduce((s, p) => s + (Number(p.likes) || 0), 0)
+      };
+    }
+    const filmRef = film.updatedAt || film.publishedAt;
+    const filmTs = filmRef ? new Date(filmRef).getTime() : 0;
+    if (!Number.isNaN(filmTs) && filmTs >= cutoff) {
+      return {
+        matches: true,
+        views: film.totalViews || 0,
+        likes: film.totalLikes || 0
+      };
+    }
+    return { matches: false, views: 0, likes: 0 };
+  }
+
   function normalizeAndIngestData() {
     const rootData = window.FILMS_DATA || {};
     const rawFilms = Array.isArray(rootData) ? rootData : (rootData.films || []);
@@ -298,6 +397,8 @@
         videoId: p.id || p.videoId || firstPartId,
         duration: cleanDurationStr(p.durationStr, p.duration || 0),
         durationSec: p.duration || 0,
+        views: Number(p.views) || 0,
+        likes: Number(p.likes) || 0,
         publishedAt: p.publishedAt || null,
         isRedundant: !!p.isRedundant
       })) : [{
@@ -307,9 +408,16 @@
         videoId: firstPartId,
         duration: cleanDuration,
         durationSec: totalSec,
+        views: Number(film.totalViews) || 0,
+        likes: Number(film.totalLikes) || 0,
         publishedAt: film.publishedAt || null,
         isRedundant: false
       }];
+
+      const activeParts = normalizedParts.filter(p => !p.isRedundant);
+      const statsPool = activeParts.length > 0 ? activeParts : normalizedParts;
+      const computedViews = statsPool.reduce((acc, p) => acc + (p.views || 0), 0);
+      const computedLikes = statsPool.reduce((acc, p) => acc + (p.likes || 0), 0);
 
       return {
         id: film.id || `film_${index + 1}`,
@@ -322,6 +430,8 @@
         parts: normalizedParts,
         totalDuration: cleanDuration,
         totalDurationSec: totalSec,
+        totalViews: Number(film.totalViews) || computedViews,
+        totalLikes: Number(film.totalLikes) || computedLikes,
         thumbnailUrl: thumb,
         synopsis: film.review || film.synopsis || 'Một bộ phim hoạt hình đặc sắc tuyển chọn.',
         publishedAt: film.publishedAt || null,
@@ -426,7 +536,7 @@
       chronological.forEach(v => {
         const existing = knownVideoMap.get(v.videoId);
         if (existing) {
-          // Repair missing/placeholder durations or older timestamp if needed
+          // Repair missing/placeholder durations and sync live views/likes
           const { film, part } = existing;
           if (v.durationSec > 0 && (part.durationSec === 0 || (part.durationSec === 7200 && part.duration === '2:00:00'))) {
             part.durationSec = v.durationSec;
@@ -438,10 +548,16 @@
             }
             changed = true;
           }
+          if ((Number(v.views) > 0 && v.views !== part.views) || (Number(v.likes) > 0 && v.likes !== part.likes)) {
+            if (Number(v.views) > 0) part.views = Number(v.views);
+            if (Number(v.likes) > 0) part.likes = Number(v.likes);
+            recomputeFilmEngagementTotals(film);
+            changed = true;
+          }
           return;
         }
 
-        // Brand-new video discovered live via YouTube RSS!
+        // Brand-new video discovered live via YouTube!
         const partInfo = parsePartInfoClient(v.title);
         const partNum = partInfo ? partInfo.endNum : null;
         const partLabel = partInfo ? partInfo.label : null;
@@ -466,6 +582,8 @@
             videoId: v.videoId,
             duration: v.durationStr || formatPartDurationHmsClient(v.durationSec),
             durationSec: v.durationSec || 0,
+            views: Number(v.views) || 0,
+            likes: Number(v.likes) || 0,
             publishedAt: v.publishedAt,
             isRedundant: false
           };
@@ -487,6 +605,7 @@
             matchedFilm.totalDurationSec = sumSec;
             matchedFilm.totalDuration = formatTotalDurationViClient(sumSec);
           }
+          recomputeFilmEngagementTotals(matchedFilm);
           knownVideoMap.set(v.videoId, { film: matchedFilm, part: sortedPart });
 
           // Notify immediately if user follows this series
@@ -526,11 +645,15 @@
               videoId: v.videoId,
               duration: v.durationStr || formatPartDurationHmsClient(v.durationSec),
               durationSec: v.durationSec || 0,
+              views: Number(v.views) || 0,
+              likes: Number(v.likes) || 0,
               publishedAt: v.publishedAt,
               isRedundant: false
             }],
             totalDuration: v.totalDurationStr || formatTotalDurationViClient(v.durationSec),
             totalDurationSec: v.durationSec || 0,
+            totalViews: Number(v.views) || 0,
+            totalLikes: Number(v.likes) || 0,
             thumbnailUrl: v.thumbnail,
             synopsis: v.review || `Phim hoạt hình mới tuyển chọn từ kênh ${v.channelName}.`,
             publishedAt: v.publishedAt,
@@ -789,6 +912,31 @@
       });
       el.channelNavList.innerHTML = cHtml;
     }
+
+    populateLeaderboardSelects();
+    syncAllScopeControls();
+  }
+
+  function populateLeaderboardSelects() {
+    if (el.lbChannelSelect) {
+      let html = `<option value="all">Tất cả ${state.channels.length || 8} kênh (${state.allFilms.length})</option>`;
+      state.channels.forEach(ch => {
+        const count = state.allFilms.filter(f => f.channelId === ch.id).length;
+        html += `<option value="${escapeHtml(ch.id)}">${escapeHtml(ch.name)} (${count})</option>`;
+      });
+      el.lbChannelSelect.innerHTML = html;
+      el.lbChannelSelect.value = state.selectedChannel;
+    }
+
+    if (el.lbGenreSelect) {
+      let html = `<option value="all">Tất cả thể loại (${state.allFilms.length})</option>`;
+      state.genres.forEach(g => {
+        const count = state.allFilms.filter(f => f.genre === g).length;
+        html += `<option value="${escapeHtml(g)}">${escapeHtml(g)} (${count})</option>`;
+      });
+      el.lbGenreSelect.innerHTML = html;
+      el.lbGenreSelect.value = state.selectedGenre;
+    }
   }
 
   function renderMobileChips() {
@@ -809,61 +957,152 @@
   }
 
   // -------------------------------------------------------------------------
-  // FILTERING & CARD RENDERING
+  // FILTERING, LEADERBOARD & 3-VARIANT CARD RENDERING
   // -------------------------------------------------------------------------
+  const ICON_EYE_XS = '<svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>';
+  const ICON_HEART_XS = '<svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>';
+  const TIME_RANGE_LABELS = {
+    all: 'All-time',
+    day: 'Hôm nay (24h)',
+    week: 'Tuần này (7 ngày)',
+    month: 'Tháng này (30 ngày)',
+    year: 'Năm nay (365 ngày)'
+  };
+
+  function getChannelDisplayName(chId) {
+    if (!chId || chId === 'all') return 'Tất cả kênh';
+    const found = state.channels.find(c => c.id === chId);
+    return found ? found.name : chId;
+  }
+
+  function renderActiveScopeBadges() {
+    if (!el.activeScopeBadges) return;
+    const pills = [];
+    if (state.selectedChannel !== 'all') {
+      pills.push(`
+        <button type="button" class="scope-active-chip" data-clear-scope="channel" title="Bấm để bỏ lọc kênh">
+          <span>Kênh: ${escapeHtml(getChannelDisplayName(state.selectedChannel))}</span>
+          <span class="scope-clear-x" aria-hidden="true">×</span>
+        </button>
+      `);
+    }
+    if (state.selectedGenre !== 'all') {
+      pills.push(`
+        <button type="button" class="scope-active-chip" data-clear-scope="genre" title="Bấm để bỏ lọc thể loại">
+          <span>Thể loại: ${escapeHtml(state.selectedGenre)}</span>
+          <span class="scope-clear-x" aria-hidden="true">×</span>
+        </button>
+      `);
+    }
+    if (state.timeRange !== 'all') {
+      pills.push(`
+        <button type="button" class="scope-active-chip scope-chip-time" data-clear-scope="time" title="Bấm để xem mọi thời đại">
+          <span>${escapeHtml(TIME_RANGE_LABELS[state.timeRange] || state.timeRange)}</span>
+          <span class="scope-clear-x" aria-hidden="true">×</span>
+        </button>
+      `);
+    }
+    el.activeScopeBadges.innerHTML = pills.join('');
+    el.activeScopeBadges.classList.toggle('hidden', pills.length === 0);
+  }
+
   function applyFiltersAndRender(targetPage = 1) {
     state.currentPage = targetPage;
-    let list = state.allFilms;
+    const isLeaderboard = state.activeTab === 'leaderboard';
+    const activeTimeWindow = isLeaderboard ? state.leaderboardTime : state.timeRange;
 
-    // 1. Search filter
-    if (state.searchQuery.trim()) {
-      const q = removeVietnameseTones(state.searchQuery.toLowerCase().trim());
-      list = list.filter(f => {
-        const titleMatch = removeVietnameseTones(f.title.toLowerCase()).includes(q);
-        const genreMatch = removeVietnameseTones(f.genre.toLowerCase()).includes(q);
-        const chMatch = removeVietnameseTones(f.channelName.toLowerCase()).includes(q);
-        return titleMatch || genreMatch || chMatch;
+    if (el.leaderboardPanel) el.leaderboardPanel.classList.toggle('hidden', !isLeaderboard);
+    if (el.inlineFilterBar) el.inlineFilterBar.classList.toggle('hidden', isLeaderboard);
+
+    // Annotate period metrics (views & likes within selected day/week/month/year/all window)
+    let scored = [];
+    for (const film of state.allFilms) {
+      // 1. Search filter
+      if (state.searchQuery.trim()) {
+        const q = removeVietnameseTones(state.searchQuery.toLowerCase().trim());
+        const titleMatch = removeVietnameseTones(film.title.toLowerCase()).includes(q);
+        const genreMatch = removeVietnameseTones(film.genre.toLowerCase()).includes(q);
+        const chMatch = removeVietnameseTones(film.channelName.toLowerCase()).includes(q);
+        if (!titleMatch && !genreMatch && !chMatch) continue;
+      }
+
+      // 2. Genre & Channel filters (shared across both normal tabs and Leaderboard!)
+      if (state.selectedGenre !== 'all' && film.genre !== state.selectedGenre) continue;
+      if (state.selectedChannel !== 'all' && film.channelId !== state.selectedChannel) continue;
+
+      // 3. Tab filter
+      if (state.activeTab === 'recent24h') {
+        const recentIds = new Set(state.recent24hFilms.map(f => f.id));
+        if (!recentIds.has(film.id)) continue;
+      } else if (state.activeTab === 'multipart' && film.partsCount <= 1) {
+        continue;
+      } else if (state.activeTab === 'single' && film.partsCount !== 1) {
+        continue;
+      } else if (state.activeTab === 'favorites' && !state.favorites.has(film.id)) {
+        continue;
+      }
+
+      // 4. Time window filter & period views/likes calculation
+      const pm = getFilmPeriodMetrics(film, activeTimeWindow);
+      if (!pm.matches) continue;
+
+      scored.push({
+        film,
+        periodViews: pm.views,
+        periodLikes: pm.likes,
+        updatedTs: film.updatedAt ? new Date(film.updatedAt).getTime() : (film.publishedAt ? new Date(film.publishedAt).getTime() : 0)
       });
     }
 
-    // 2. Tab filter
-    if (state.activeTab === 'recent24h') {
-      const recentIds = new Set(state.recent24hFilms.map(f => f.id));
-      list = list
-        .filter(f => recentIds.has(f.id))
-        .sort((a, b) => (b.recentUpdate?.timestamp || 0) - (a.recentUpdate?.timestamp || 0));
-    } else if (state.activeTab === 'hot') {
-      list = [...list].sort((a, b) => b.totalDurationSec - a.totalDurationSec);
-    } else if (state.activeTab === 'multipart') {
-      list = list.filter(f => f.partsCount > 1);
-    } else if (state.activeTab === 'single') {
-      list = list.filter(f => f.partsCount === 1);
-    } else if (state.activeTab === 'favorites') {
-      list = list.filter(f => state.favorites.has(f.id));
+    // 5. Sorting
+    const effectiveSort = isLeaderboard
+      ? state.leaderboardMetric
+      : (state.activeTab === 'hot' && state.sortBy === 'recent' ? 'duration' : state.sortBy);
+
+    if (effectiveSort === 'views') {
+      scored.sort((a, b) => (b.periodViews - a.periodViews) || (b.periodLikes - a.periodLikes) || (b.updatedTs - a.updatedTs));
+    } else if (effectiveSort === 'likes') {
+      scored.sort((a, b) => (b.periodLikes - a.periodLikes) || (b.periodViews - a.periodViews) || (b.updatedTs - a.updatedTs));
+    } else if (effectiveSort === 'duration') {
+      scored.sort((a, b) => (b.film.totalDurationSec - a.film.totalDurationSec) || (b.periodViews - a.periodViews));
+    } else if (state.activeTab === 'recent24h') {
+      scored.sort((a, b) => (b.film.recentUpdate?.timestamp || 0) - (a.film.recentUpdate?.timestamp || 0));
+    } else {
+      // 'recent': preserve latest updates first, then original catalog order
+      if (state.timeRange !== 'all') {
+        scored.sort((a, b) => (b.updatedTs - a.updatedTs) || (b.periodViews - a.periodViews));
+      }
     }
 
-    // 3. Genre filter
-    if (state.selectedGenre !== 'all') {
-      list = list.filter(f => f.genre === state.selectedGenre);
-    }
-
-    // 4. Channel filter
-    if (state.selectedChannel !== 'all') {
-      list = list.filter(f => f.channelId === state.selectedChannel);
-    }
-
-    const totalCount = list.length;
+    const showRanks = isLeaderboard || effectiveSort === 'views' || effectiveSort === 'likes';
+    const totalCount = scored.length;
     const totalPages = Math.ceil(totalCount / state.pageSize) || 1;
     if (state.currentPage > totalPages) state.currentPage = totalPages;
 
     const startIndex = (state.currentPage - 1) * state.pageSize;
     const endIndex = Math.min(startIndex + state.pageSize, totalCount);
-    const pageItems = list.slice(startIndex, endIndex);
+    let pageItems = scored.slice(startIndex, endIndex).map((item, idx) => ({
+      ...item,
+      rank: startIndex + idx + 1
+    }));
+
+    // Leaderboard Showcase Subheading & Top 1-3 Spotlight / Podium
+    if (isLeaderboard && el.lbSubheading) {
+      const metricLabel = state.leaderboardMetric === 'likes' ? 'Yêu thích nhất' : 'Xem nhiều nhất';
+      const timeLabel = TIME_RANGE_LABELS[state.leaderboardTime] || 'Tuần này';
+      const chLabel = getChannelDisplayName(state.selectedChannel);
+      const genLabel = state.selectedGenre === 'all' ? 'Tất cả thể loại' : state.selectedGenre;
+      el.lbSubheading.textContent = `${metricLabel} • ${timeLabel} • ${chLabel} • ${genLabel}`;
+    }
+
+    renderActiveScopeBadges();
 
     // Summary Text
     if (el.feedCountSummary) {
       if (totalCount === 0) {
         el.feedCountSummary.textContent = 'Không tìm thấy bộ phim phù hợp';
+      } else if (isLeaderboard) {
+        el.feedCountSummary.textContent = `BXH Top ${totalCount.toLocaleString('vi-VN')} phim (${TIME_RANGE_LABELS[state.leaderboardTime] || 'Tuần này'})`;
       } else if (state.activeTab === 'recent24h') {
         el.feedCountSummary.textContent = `Dòng thời gian: ${totalCount} phim mới cập nhật trong 24 giờ qua`;
       } else {
@@ -871,12 +1110,316 @@
       }
     }
 
-    renderCards(pageItems);
+    // Toggle Chart List mode in UI Variant v2 Leaderboard
+    const isChartListMode = isLeaderboard && state.uiVariant === 'v2' && totalCount > 0;
+    if (el.cardsWidescreenGrid) {
+      el.cardsWidescreenGrid.classList.toggle('chart-list-mode', isChartListMode);
+    }
+
+    if (isLeaderboard) {
+      const showcaseRenderedCount = renderLeaderboardShowcase(
+        scored.map((it, i) => ({ ...it, rank: i + 1 })),
+        totalCount
+      );
+      // In v1 and v3 on Page 1, Top 3 are displayed in #leaderboardShowcase, so render items 4..24 in grid
+      if (state.currentPage === 1 && showcaseRenderedCount > 0 && state.uiVariant !== 'v2') {
+        pageItems = pageItems.slice(showcaseRenderedCount);
+      }
+    } else if (el.leaderboardShowcase) {
+      el.leaderboardShowcase.innerHTML = '';
+    }
+
+    if (isChartListMode) {
+      renderChartRows(pageItems);
+    } else {
+      renderCards(pageItems, { showRanks, isLeaderboard, emptyAlreadyShown: isLeaderboard && totalCount === 0 });
+    }
     renderPagination(totalPages);
   }
 
-  function renderCards(items) {
+  function renderCardStatsHtml(views, likes, variant) {
+    const vText = formatCompactCountVi(views);
+    const lText = formatCompactCountVi(likes);
+    const vExact = `${formatExactCountVi(views)} lượt xem`;
+    const lExact = `${formatExactCountVi(likes)} lượt thích`;
+    const likeRatio = views > 0 ? Math.min(100, Math.max(0.5, (likes / views) * 100)) : 0;
+
+    if (variant === 'v2') {
+      return `
+        <div class="card-hud-stats" title="${vExact} • ${lExact}">
+          <span class="hud-metric hud-views">${ICON_EYE_XS}<span>${vText}</span></span>
+          <span class="hud-sep">•</span>
+          <span class="hud-metric hud-likes">${ICON_HEART_XS}<span>${lText}</span></span>
+        </div>
+      `;
+    }
+
+    if (variant === 'v3') {
+      return `
+        <div class="card-bento-stats">
+          <div class="bento-stat-pill bento-views" title="${vExact}">
+            ${ICON_EYE_XS}
+            <span class="bento-num">${vText}</span>
+            <span class="bento-lbl">xem</span>
+          </div>
+          <div class="bento-stat-pill bento-likes" title="${lExact}">
+            ${ICON_HEART_XS}
+            <span class="bento-num">${lText}</span>
+            <span class="bento-lbl">thích</span>
+          </div>
+        </div>
+      `;
+    }
+
+    // Default v1: Editorial Footer Bar with thin engagement bar
+    return `
+      <div class="card-stats-v1" title="${vExact} • ${lExact}">
+        <div class="stats-v1-row">
+          <span class="stat-item stat-views">${ICON_EYE_XS}<strong>${vText}</strong> xem</span>
+          <span class="stat-item stat-likes">${ICON_HEART_XS}<strong>${lText}</strong> thích</span>
+        </div>
+        <div class="stats-ratio-track" aria-hidden="true">
+          <div class="stats-ratio-fill" style="width: ${Math.min(100, Math.round(likeRatio * 20))}%"></div>
+        </div>
+      </div>
+    `;
+  }
+
+  function buildCardMarkup(entry, options = {}) {
+    const { film, periodViews, periodLikes, rank } = entry;
+    const { showRank = false, extraClass = '' } = options;
+    const variant = state.uiVariant || 'v1';
+    const isFav = state.favorites.has(film.id);
+    const partsLabel = film.partsCount > 1 ? `${film.partsCount} Phần` : 'Trọn bộ 1 tập';
+    const hasRecentBadge = film.isRecent24h && film.recentUpdate;
+
+    const viewsVal = periodViews !== undefined ? periodViews : (film.totalViews || 0);
+    const likesVal = periodLikes !== undefined ? periodLikes : (film.totalLikes || 0);
+    const rankClass = rank === 1 ? 'rank-gold' : (rank === 2 ? 'rank-silver' : (rank === 3 ? 'rank-bronze' : ''));
+    const statsMarkup = renderCardStatsHtml(viewsVal, likesVal, variant);
+
+    return `
+      <article class="film-card ${extraClass} ${rankClass}" data-film-id="${film.id}" title="${escapeHtml(film.title)}">
+        <div class="card-thumbnail-box">
+          <img 
+            class="card-img" 
+            src="${escapeHtml(film.thumbnailUrl)}" 
+            alt="${escapeHtml(film.title)}"
+            loading="lazy"
+            onerror="this.src='https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&auto=format&fit=crop&q=80'"
+          >
+          <div class="card-vignette"></div>
+
+          ${showRank && rank ? `
+            <div class="card-rank-badge ${rankClass}" aria-label="Hạng ${rank}">
+              <span>#${rank}</span>
+            </div>
+          ` : `
+            <div class="card-parts-stamp">
+              <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
+              <span>${partsLabel}</span>
+            </div>
+          `}
+
+          ${hasRecentBadge && !showRank ? `
+            <div class="card-update-pill" title="Cập nhật ${escapeHtml(film.recentUpdate.timeAgo)}">
+              <span>${escapeHtml(film.recentUpdate.timeAgo)}</span>
+            </div>
+          ` : ''}
+
+          ${film.totalDuration ? `
+            <div class="card-duration-badge">
+              <svg class="icon icon-xs clock-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>${escapeHtml(film.totalDuration)}</span>
+            </div>
+          ` : ''}
+
+          ${variant === 'v2' ? statsMarkup : ''}
+
+          <button type="button" class="card-fav-btn ${isFav ? 'active' : ''}" data-fav-id="${film.id}" title="${isFav ? 'Đang theo dõi (Bấm để hủy)' : 'Theo dõi phim này để nhận thông báo tập mới'}">
+            <svg class="icon icon-xs" viewBox="0 0 24 24" fill="${isFav ? 'currentColor' : 'none'}"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+          </button>
+
+          <div class="card-hover-play">
+            <div class="play-circle-halo">
+              <svg class="icon icon-sm" viewBox="0 0 24 24" style="margin-left: 2px;"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <h3 class="card-title">${escapeHtml(film.title)}</h3>
+          <div class="card-meta-row">
+            <span class="card-channel-name">${escapeHtml(film.channelName)}</span>
+            <span class="card-genre-text">${escapeHtml(film.genre)}</span>
+          </div>
+          ${variant !== 'v2' ? statsMarkup : ''}
+        </div>
+      </article>
+    `;
+  }
+
+  function renderLeaderboardShowcase(allRankedItems, totalCount) {
+    if (!el.leaderboardShowcase) return 0;
+
+    if (totalCount === 0) {
+      el.leaderboardShowcase.innerHTML = `
+        <div class="lb-empty-state">
+          <p class="lb-empty-title">Chưa có phim nào được xếp hạng trong khung thời gian này</p>
+          <p class="lb-empty-sub">Hãy thử mở rộng khoảng thời gian hoặc đặt lại bộ lọc kênh/thể loại.</p>
+          <div class="lb-empty-actions">
+            ${state.leaderboardTime !== 'month' ? '<button type="button" class="lb-reset-btn" data-lb-quick-time="month">Xem BXH Tháng Này</button>' : ''}
+            <button type="button" class="lb-reset-btn lb-reset-primary" data-lb-quick-time="all">Xem BXH All-time</button>
+            ${(state.selectedChannel !== 'all' || state.selectedGenre !== 'all') ? '<button type="button" class="lb-reset-btn" data-lb-clear-scope="1">Hiện Tất Cả Kênh &amp; Thể Loại</button>' : ''}
+          </div>
+        </div>
+      `;
+      return 0;
+    }
+
+    if (state.currentPage > 1) {
+      el.leaderboardShowcase.innerHTML = '';
+      return 0;
+    }
+
+    // Variant v2: Chart Header Strip (all rows render inside #cardsWidescreenGrid.chart-list-mode)
+    if (state.uiVariant === 'v2') {
+      el.leaderboardShowcase.innerHTML = `
+        <div class="chart-table-head" aria-hidden="true">
+          <span class="cth-rank">Hạng</span>
+          <span class="cth-film">Phim &amp; Kênh phát hành</span>
+          <span class="cth-stat">Lượt Xem</span>
+          <span class="cth-stat">Lượt Thích</span>
+        </div>
+      `;
+      return 0;
+    }
+
+    const topItems = allRankedItems.slice(0, 3);
+
+    // Variant v3: Spotlight #1 Hero Banner + #2/#3 Bento Split
+    if (state.uiVariant === 'v3') {
+      const hero = topItems[0];
+      const runners = topItems.slice(1, 3);
+      const isFavHero = state.favorites.has(hero.film.id);
+
+      let html = `
+        <div class="lb-hero-spotlight film-card-trigger" data-film-id="${hero.film.id}">
+          <div class="lb-hero-media">
+            <img src="${escapeHtml(hero.film.thumbnailUrl)}" alt="${escapeHtml(hero.film.title)}" class="lb-hero-img">
+            <div class="card-rank-badge rank-gold">#1 QUÁN QUÂN</div>
+            ${hero.film.totalDuration ? `<div class="card-duration-badge">${escapeHtml(hero.film.totalDuration)}</div>` : ''}
+          </div>
+          <div class="lb-hero-content">
+            <div class="lb-hero-kicker">
+              <span class="lb-hero-channel">${escapeHtml(hero.film.channelName)}</span>
+              <span>•</span>
+              <span>${escapeHtml(hero.film.genre)}</span>
+              <span>•</span>
+              <span>${hero.film.partsCount > 1 ? `${hero.film.partsCount} Phần` : 'Bản Full'}</span>
+            </div>
+            <h3 class="lb-hero-title">${escapeHtml(hero.film.title)}</h3>
+            <p class="lb-hero-synopsis">${escapeHtml(hero.film.synopsis)}</p>
+            <div class="lb-hero-metrics">
+              <div class="hero-metric-box hero-metric-views">
+                ${ICON_EYE_XS}
+                <div>
+                  <div class="hm-value">${formatExactCountVi(hero.periodViews)}</div>
+                  <div class="hm-label">Lượt xem</div>
+                </div>
+              </div>
+              <div class="hero-metric-box hero-metric-likes">
+                ${ICON_HEART_XS}
+                <div>
+                  <div class="hm-value">${formatExactCountVi(hero.periodLikes)}</div>
+                  <div class="hm-label">Lượt thích</div>
+                </div>
+              </div>
+            </div>
+            <div class="lb-hero-actions">
+              <button type="button" class="btn-play-suggestion lb-hero-play-btn" data-film-id="${hero.film.id}">
+                <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
+                <span>Xem Ngay</span>
+              </button>
+              <button type="button" class="card-fav-btn hero-fav-btn ${isFavHero ? 'active' : ''}" data-fav-id="${hero.film.id}" title="Lưu phim">
+                <svg class="icon icon-xs" viewBox="0 0 24 24" fill="${isFavHero ? 'currentColor' : 'none'}"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      `;
+
+      if (runners.length > 0) {
+        html += `<div class="lb-runners-grid">${runners.map(item => buildCardMarkup(item, { showRank: true, extraClass: 'lb-podium-card' })).join('')}</div>`;
+      }
+      el.leaderboardShowcase.innerHTML = html;
+      return topItems.length;
+    }
+
+    // Default Variant v1: Classic 3-Column Podium Grid (#1, #2, #3)
+    el.leaderboardShowcase.innerHTML = `
+      <div class="lb-podium-grid">
+        ${topItems.map(item => buildCardMarkup(item, { showRank: true, extraClass: 'lb-podium-card' })).join('')}
+      </div>
+    `;
+    return topItems.length;
+  }
+
+  function renderChartRows(items) {
     if (!el.cardsWidescreenGrid) return;
+    const html = items.map(entry => {
+      const { film, periodViews, periodLikes, rank } = entry;
+      const isFav = state.favorites.has(film.id);
+      const rankClass = rank === 1 ? 'rank-gold' : (rank === 2 ? 'rank-silver' : (rank === 3 ? 'rank-bronze' : ''));
+      const partsLabel = film.partsCount > 1 ? `${film.partsCount} Phần` : 'Full';
+      const timeLabel = film.updatedAt ? formatRealTimeAgo(film.updatedAt) : '';
+
+      return `
+        <article class="chart-row-card ${rankClass}" data-film-id="${film.id}">
+          <div class="chart-rank-cell">
+            <span class="chart-rank-num ${rankClass}">#${rank}</span>
+          </div>
+          <div class="chart-film-cell">
+            <div class="chart-thumb-wrap">
+              <img class="chart-thumb" src="${escapeHtml(film.thumbnailUrl)}" alt="${escapeHtml(film.title)}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1534447677768-be436bb09401?w=400&auto=format&fit=crop&q=80'">
+              <span class="chart-dur-chip">${escapeHtml(film.totalDuration || partsLabel)}</span>
+            </div>
+            <div class="chart-meta-col">
+              <h3 class="chart-title">${escapeHtml(film.title)}</h3>
+              <div class="chart-submeta">
+                <span class="chart-channel">${escapeHtml(film.channelName)}</span>
+                <span>•</span>
+                <span>${escapeHtml(film.genre)}</span>
+                <span>•</span>
+                <span>${partsLabel}${timeLabel ? ` • ${escapeHtml(timeLabel)}` : ''}</span>
+              </div>
+            </div>
+          </div>
+          <div class="chart-stats-cells">
+            <div class="chart-metric-col chart-metric-views ${state.leaderboardMetric === 'views' ? 'is-primary' : ''}" title="${formatExactCountVi(periodViews)} lượt xem">
+              <span class="chart-m-val">${formatCompactCountVi(periodViews)}</span>
+              <span class="chart-m-lbl">${ICON_EYE_XS} xem</span>
+            </div>
+            <div class="chart-metric-col chart-metric-likes ${state.leaderboardMetric === 'likes' ? 'is-primary' : ''}" title="${formatExactCountVi(periodLikes)} lượt thích">
+              <span class="chart-m-val">${formatCompactCountVi(periodLikes)}</span>
+              <span class="chart-m-lbl">${ICON_HEART_XS} thích</span>
+            </div>
+            <button type="button" class="card-fav-btn chart-fav-btn ${isFav ? 'active' : ''}" data-fav-id="${film.id}" title="Lưu phim">
+              <svg class="icon icon-xs" viewBox="0 0 24 24" fill="${isFav ? 'currentColor' : 'none'}"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+            </button>
+          </div>
+        </article>
+      `;
+    }).join('');
+    el.cardsWidescreenGrid.innerHTML = html;
+  }
+
+  function renderCards(items, opts = {}) {
+    if (!el.cardsWidescreenGrid) return;
+    if (opts.emptyAlreadyShown) {
+      el.cardsWidescreenGrid.innerHTML = '';
+      return;
+    }
     if (items.length === 0) {
       el.cardsWidescreenGrid.innerHTML = `
         <div style="grid-column: 1 / -1; text-align: center; padding: 4.5rem 1rem; color: var(--text-muted);">
@@ -886,75 +1429,15 @@
           <p style="font-size: 1.0625rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.35rem;">
             Không tìm thấy phim phù hợp với tiêu chí lọc
           </p>
-          <p style="font-size: 0.875rem;">Hãy thử xóa từ khóa tìm kiếm hoặc bấm chọn tab khác.</p>
+          <p style="font-size: 0.875rem;">Hãy thử xóa từ khóa tìm kiếm, chọn khung thời gian rộng hơn hoặc bấm tab khác.</p>
         </div>
       `;
       return;
     }
 
-    const html = items.map(film => {
-      const isFav = state.favorites.has(film.id);
-      const partsLabel = film.partsCount > 1 ? `${film.partsCount} Phần` : 'Trọn bộ 1 tập';
-      const hasRecentBadge = film.isRecent24h && film.recentUpdate;
-
-      return `
-        <article class="film-card" data-film-id="${film.id}" title="${escapeHtml(film.title)}">
-          <div class="card-thumbnail-box">
-            <img 
-              class="card-img" 
-              src="${escapeHtml(film.thumbnailUrl)}" 
-              alt="${escapeHtml(film.title)}"
-              loading="lazy"
-              onerror="this.src='https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&auto=format&fit=crop&q=80'"
-            >
-            <div class="card-vignette"></div>
-            
-            <!-- TOP-LEFT: High-Contrast Dark Frosted Capsule ("Trọn bộ 1 tập" / "N phần") -->
-            <div class="card-parts-stamp">
-              <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
-              <span>${partsLabel}</span>
-            </div>
-
-            <!-- RECENT 24H LIVE UPDATE PILL -->
-            ${hasRecentBadge ? `
-              <div class="card-update-pill" title="Cập nhật ${escapeHtml(film.recentUpdate.timeAgo)}">
-                <span>${escapeHtml(film.recentUpdate.timeAgo)}</span>
-              </div>
-            ` : ''}
-
-            <!-- BOTTOM-LEFT: High-Contrast Duration Badge with Amber Clock -->
-            ${film.totalDuration ? `
-              <div class="card-duration-badge">
-                <svg class="icon icon-xs clock-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                <span>${escapeHtml(film.totalDuration)}</span>
-              </div>
-            ` : ''}
-
-            <!-- TOP-RIGHT: Heart Bookmark / Follow Button -->
-            <button type="button" class="card-fav-btn ${isFav ? 'active' : ''}" data-fav-id="${film.id}" title="${isFav ? 'Đang theo dõi (Bấm để hủy)' : 'Theo dõi phim này để nhận thông báo tập mới'}">
-              <svg class="icon icon-xs" viewBox="0 0 24 24" fill="${isFav ? 'currentColor' : 'none'}"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
-            </button>
-
-            <!-- Centered Hover Play Button -->
-            <div class="card-hover-play">
-              <div class="play-circle-halo">
-                <svg class="icon icon-sm" viewBox="0 0 24 24" style="margin-left: 2px;"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
-              </div>
-            </div>
-          </div>
-
-          <div class="card-body">
-            <h3 class="card-title">${escapeHtml(film.title)}</h3>
-            <div class="card-meta-row">
-              <span class="card-channel-name">${escapeHtml(film.channelName)}</span>
-              <span class="card-genre-text">${escapeHtml(film.genre)}</span>
-            </div>
-          </div>
-        </article>
-      `;
-    }).join('');
-
-    el.cardsWidescreenGrid.innerHTML = html;
+    el.cardsWidescreenGrid.innerHTML = items.map(entry =>
+      buildCardMarkup(entry, { showRank: !!opts.showRanks })
+    ).join('');
   }
 
   function renderPagination(totalPages) {
@@ -1034,7 +1517,11 @@
         ? `[${currentPart.label || `Tập ${resolvedPartNum}`}] ${film.title}`
         : film.title;
     }
-    if (el.modalChannelKicker) el.modalChannelKicker.textContent = `${film.channelName} • ${film.genre}`;
+    if (el.modalChannelKicker) {
+      const viewsStr = film.totalViews > 0 ? ` • ${formatExactCountVi(film.totalViews)} lượt xem` : '';
+      const likesStr = film.totalLikes > 0 ? ` • ${formatExactCountVi(film.totalLikes)} lượt thích` : '';
+      el.modalChannelKicker.textContent = `${film.channelName} • ${film.genre}${viewsStr}${likesStr}`;
+    }
     if (el.modalEpCounter) el.modalEpCounter.textContent = `${film.partsCount} Tập`;
 
     // Embed YouTube Player with autoplay
@@ -1054,10 +1541,14 @@
               : epNum === film.recentUpdate.partIndex
           )
         );
+        const epStatsText = (p.views > 0 || p.likes > 0)
+          ? `${formatCompactCountVi(p.views)} xem • ${formatCompactCountVi(p.likes)} thích`
+          : '';
         return `
           <button type="button" class="ep-capsule-btn ${isActive ? 'active' : ''} ${isNewEp ? 'is-new' : ''}" data-ep-pos="${idx}" data-video-id="${escapeHtml(p.videoId || '')}" data-ep-index="${epNum}" title="${escapeHtml(p.title || `Tập ${epNum}`)}">
             <span>${escapeHtml(p.label || `Tập ${epNum}`)}</span>
             <span class="ep-dur-note">${escapeHtml(p.duration || '')}</span>
+            ${epStatsText ? `<span class="ep-stats-note">${epStatsText}</span>` : ''}
             ${isNewEp ? '<span class="ep-new-badge">MỚI</span>' : ''}
           </button>
         `;
@@ -1156,7 +1647,12 @@
     state.randomCandidate = pick;
 
     if (el.randomFilmTitle) el.randomFilmTitle.textContent = pick.title;
-    if (el.randomFilmMeta) el.randomFilmMeta.textContent = `${pick.channelName} • ${pick.totalDuration} • ${pick.genre} • ${pick.partsCount} Tập`;
+    if (el.randomFilmMeta) {
+      const statsPiece = pick.totalViews > 0
+        ? ` • ${formatCompactCountVi(pick.totalViews)} xem • ${formatCompactCountVi(pick.totalLikes)} thích`
+        : '';
+      el.randomFilmMeta.textContent = `${pick.channelName} • ${pick.totalDuration} • ${pick.genre} • ${pick.partsCount} Tập${statsPiece}`;
+    }
 
     el.randomModal?.classList.add('active');
   }
@@ -1231,6 +1727,14 @@
       el.searchInput?.focus();
     });
 
+    // UI Variant Switcher (Compare 3 Optimized Designs Live)
+    el.uiVariantSwitcher?.addEventListener('click', e => {
+      const btn = e.target.closest('.variant-pill');
+      if (!btn || !btn.dataset.variant) return;
+      applyUiVariant(btn.dataset.variant);
+      applyFiltersAndRender(state.currentPage);
+    });
+
     // Feed Tabs
     el.categoryTabsGroup?.addEventListener('click', e => {
       const tabBtn = e.target.closest('.tab-pill');
@@ -1238,18 +1742,103 @@
       el.categoryTabsGroup.querySelectorAll('.tab-pill').forEach(b => b.classList.remove('active'));
       tabBtn.classList.add('active');
       state.activeTab = tabBtn.dataset.tab;
+      if (state.activeTab === 'hot' && el.sortBySelect) {
+        state.sortBy = 'duration';
+        el.sortBySelect.value = 'duration';
+      }
       syncMobileDockActive();
       applyFiltersAndRender(1);
+    });
+
+    // Inline Sort & Time Range Bar (within any Channel / Category)
+    el.sortBySelect?.addEventListener('change', e => {
+      state.sortBy = e.target.value || 'recent';
+      applyFiltersAndRender(1);
+    });
+
+    el.timeRangeSelect?.addEventListener('change', e => {
+      state.timeRange = e.target.value || 'all';
+      applyFiltersAndRender(1);
+    });
+
+    el.activeScopeBadges?.addEventListener('click', e => {
+      const btn = e.target.closest('[data-clear-scope]');
+      if (!btn) return;
+      const scope = btn.dataset.clearScope;
+      if (scope === 'channel') state.selectedChannel = 'all';
+      if (scope === 'genre') state.selectedGenre = 'all';
+      if (scope === 'time') {
+        state.timeRange = 'all';
+        if (el.timeRangeSelect) el.timeRangeSelect.value = 'all';
+      }
+      syncAllScopeControls();
+      applyFiltersAndRender(1);
+    });
+
+    // Leaderboard Controls
+    el.lbMetricGroup?.addEventListener('click', e => {
+      const btn = e.target.closest('.lb-metric-btn');
+      if (!btn || !btn.dataset.metric) return;
+      state.leaderboardMetric = btn.dataset.metric;
+      el.lbMetricGroup.querySelectorAll('.lb-metric-btn').forEach(b => b.classList.toggle('active', b === btn));
+      applyFiltersAndRender(1);
+    });
+
+    el.lbTimeGroup?.addEventListener('click', e => {
+      const btn = e.target.closest('.lb-time-btn');
+      if (!btn || !btn.dataset.range) return;
+      state.leaderboardTime = btn.dataset.range;
+      el.lbTimeGroup.querySelectorAll('.lb-time-btn').forEach(b => b.classList.toggle('active', b === btn));
+      applyFiltersAndRender(1);
+    });
+
+    el.lbChannelSelect?.addEventListener('change', e => {
+      state.selectedChannel = e.target.value || 'all';
+      syncAllScopeControls();
+      applyFiltersAndRender(1);
+    });
+
+    el.lbGenreSelect?.addEventListener('change', e => {
+      state.selectedGenre = e.target.value || 'all';
+      syncAllScopeControls();
+      applyFiltersAndRender(1);
+    });
+
+    el.leaderboardShowcase?.addEventListener('click', e => {
+      const quickTimeBtn = e.target.closest('[data-lb-quick-time]');
+      if (quickTimeBtn) {
+        state.leaderboardTime = quickTimeBtn.dataset.lbQuickTime;
+        el.lbTimeGroup?.querySelectorAll('.lb-time-btn').forEach(b => b.classList.toggle('active', b.dataset.range === state.leaderboardTime));
+        applyFiltersAndRender(1);
+        return;
+      }
+      const clearScopeBtn = e.target.closest('[data-lb-clear-scope]');
+      if (clearScopeBtn) {
+        state.selectedChannel = 'all';
+        state.selectedGenre = 'all';
+        syncAllScopeControls();
+        applyFiltersAndRender(1);
+        return;
+      }
+      const favBtn = e.target.closest('.card-fav-btn');
+      if (favBtn) {
+        e.stopPropagation();
+        toggleFavorite(favBtn.dataset.favId);
+        return;
+      }
+      const trigger = e.target.closest('.film-card, .film-card-trigger, .lb-hero-play-btn');
+      if (trigger && trigger.dataset.filmId) {
+        const film = state.allFilms.find(f => f.id === trigger.dataset.filmId);
+        if (film) openPlayer(film, { partPos: 0, videoId: film.parts[0]?.videoId, partNumber: film.parts[0]?.partNumber || 1 });
+      }
     });
 
     // Sidebar Genre click
     el.genreNavList?.addEventListener('click', e => {
       const btn = e.target.closest('.sidebar-menu-btn');
       if (!btn) return;
-      el.genreNavList.querySelectorAll('.sidebar-menu-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
       state.selectedGenre = btn.dataset.genre;
-      updateMobileChipActive();
+      syncAllScopeControls();
       applyFiltersAndRender(1);
     });
 
@@ -1258,8 +1847,7 @@
       const chip = e.target.closest('.mobile-chip-btn');
       if (!chip) return;
       state.selectedGenre = chip.dataset.genre;
-      updateMobileChipActive();
-      updateSidebarGenreActive();
+      syncAllScopeControls();
       applyFiltersAndRender(1);
     });
 
@@ -1267,13 +1855,12 @@
     el.channelNavList?.addEventListener('click', e => {
       const btn = e.target.closest('.sidebar-menu-btn');
       if (!btn) return;
-      el.channelNavList.querySelectorAll('.sidebar-menu-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
       state.selectedChannel = btn.dataset.channel;
+      syncAllScopeControls();
       applyFiltersAndRender(1);
     });
 
-    // Film Card clicks
+    // Film Card & Chart Row clicks
     el.cardsWidescreenGrid?.addEventListener('click', e => {
       const favBtn = e.target.closest('.card-fav-btn');
       if (favBtn) {
@@ -1282,7 +1869,7 @@
         return;
       }
 
-      const card = e.target.closest('.film-card');
+      const card = e.target.closest('.film-card, .chart-row-card');
       if (card) {
         const filmId = card.dataset.filmId;
         const film = state.allFilms.find(f => f.id === filmId);
@@ -1378,6 +1965,20 @@
   function updateMobileChipActive() {
     el.mobileChipsRow?.querySelectorAll('.mobile-chip-btn').forEach(c => {
       c.classList.toggle('active', c.dataset.genre === state.selectedGenre);
+    });
+  }
+
+  function syncAllScopeControls() {
+    updateMobileChipActive();
+    updateSidebarGenreActive();
+    updateSidebarChannelActive();
+    if (el.lbChannelSelect) el.lbChannelSelect.value = state.selectedChannel;
+    if (el.lbGenreSelect) el.lbGenreSelect.value = state.selectedGenre;
+  }
+
+  function updateSidebarChannelActive() {
+    el.channelNavList?.querySelectorAll('.sidebar-menu-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.channel === state.selectedChannel);
     });
   }
 

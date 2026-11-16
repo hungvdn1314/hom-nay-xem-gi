@@ -11,10 +11,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=20261114_212500">
+  <link rel="stylesheet" href="style.css?v=20261116_094000">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2338bdf8'><polygon points='5 3 19 12 5 21 5 3'/></svg>">
 </head>
-<body class="nordic-app">
+<body class="nordic-app" data-ui-variant="v1">
 
   <!-- ==========================================
        FLOATING FROSTED HEADER (64PX)
@@ -150,10 +150,36 @@
         </div>
       </div>
 
+      <!-- Live UI Variant Switcher (Compare 3 Optimized Designs) -->
+      <div class="variant-switcher-bar" id="uiVariantSwitcher" role="region" aria-label="Chọn giao diện hiển thị">
+        <span class="variant-switcher-label">
+          <svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="14" width="7" height="7" rx="1"></rect><rect x="3" y="14" width="7" height="7" rx="1"></rect></svg>
+          <span>Thử nghiệm giao diện:</span>
+        </span>
+        <div class="variant-pills-group" role="group" aria-label="3 mẫu giao diện">
+          <button type="button" class="variant-pill active" data-variant="v1">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"></rect><line x1="3" y1="14" x2="21" y2="14"></line></svg>
+            <span>Mẫu 1: Editorial &amp; Podium</span>
+          </button>
+          <button type="button" class="variant-pill" data-variant="v2">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><circle cx="4" cy="6" r="1"></circle><circle cx="4" cy="12" r="1"></circle><circle cx="4" cy="18" r="1"></circle></svg>
+            <span>Mẫu 2: Glass HUD &amp; Chart</span>
+          </button>
+          <button type="button" class="variant-pill" data-variant="v3">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="8" rx="2"></rect><rect x="3" y="14" width="8" height="7" rx="2"></rect><rect x="13" y="14" width="8" height="7" rx="2"></rect></svg>
+            <span>Mẫu 3: Bento &amp; Hero #1</span>
+          </button>
+        </div>
+      </div>
+
       <!-- Master Category Tabs -->
       <div class="feed-tabs-header">
         <div class="category-tabs-group" id="categoryTabsGroup">
           <button type="button" class="tab-pill active" data-tab="all">Tất Cả Phim</button>
+          <button type="button" class="tab-pill tab-pill-leaderboard" data-tab="leaderboard">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
+            <span>Bảng Xếp Hạng</span>
+          </button>
           <button type="button" class="tab-pill tab-pill-recent" data-tab="recent24h">
             <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
             <span>Mới Cập Nhật 24h</span>
@@ -180,6 +206,90 @@
       <div class="mobile-chips-row" id="mobileChipsRow" aria-label="Lọc thể loại trên di động">
         <!-- Rendered dynamically via JS -->
       </div>
+
+      <!-- Inline Channel/Category Filter & Sort Toolbar (Visible on Standard Tabs) -->
+      <div class="inline-filter-bar" id="inlineFilterBar">
+        <div class="inline-filter-controls">
+          <div class="filter-control-item">
+            <label for="sortBySelect" class="filter-label">
+              <svg class="icon icon-xs" viewBox="0 0 24 24"><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="12" x2="14" y2="12"></line><line x1="4" y1="18" x2="9" y2="18"></line></svg>
+              <span>Sắp xếp:</span>
+            </label>
+            <select id="sortBySelect" class="filter-select" aria-label="Sắp xếp danh sách phim">
+              <option value="recent">Mới cập nhật</option>
+              <option value="views">Xem nhiều nhất</option>
+              <option value="likes">Yêu thích nhất</option>
+              <option value="duration">Cày đêm (Dài nhất)</option>
+            </select>
+          </div>
+
+          <div class="filter-control-item">
+            <label for="timeRangeSelect" class="filter-label">
+              <svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              <span>Thời gian:</span>
+            </label>
+            <select id="timeRangeSelect" class="filter-select" aria-label="Khoảng thời gian">
+              <option value="all">Mọi thời đại (All-time)</option>
+              <option value="day">Hôm nay (24h)</option>
+              <option value="week">Tuần này (7 ngày)</option>
+              <option value="month">Tháng này (30 ngày)</option>
+              <option value="year">Năm nay (365 ngày)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="active-scope-badges" id="activeScopeBadges">
+          <!-- Rendered dynamically via JS when Channel or Genre is active -->
+        </div>
+      </div>
+
+      <!-- Dedicated Leaderboard Panel (Visible when activeTab === 'leaderboard') -->
+      <section class="leaderboard-panel hidden" id="leaderboardPanel" aria-label="Bảng xếp hạng phim hot">
+        <div class="lb-controls-top">
+          <div class="lb-title-wrap">
+            <div class="lb-trophy-badge">
+              <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
+            </div>
+            <div>
+              <h2 class="lb-heading">Bảng Xếp Hạng Phim Hot</h2>
+              <p class="lb-subheading" id="lbSubheading">Vinh danh phim nổi bật theo lượt xem và lượt thích thực tế trên YouTube</p>
+            </div>
+          </div>
+
+          <div class="lb-metric-group" id="lbMetricGroup" role="group" aria-label="Tiêu chí xếp hạng">
+            <button type="button" class="lb-metric-btn active" data-metric="views">
+              <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              <span>Xem Nhiều Nhất</span>
+            </button>
+            <button type="button" class="lb-metric-btn" data-metric="likes">
+              <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              <span>Yêu Thích Nhất</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="lb-controls-bottom">
+          <div class="lb-time-group" id="lbTimeGroup" role="group" aria-label="Chu kỳ bảng xếp hạng">
+            <button type="button" class="lb-time-btn" data-range="day">Hôm nay</button>
+            <button type="button" class="lb-time-btn active" data-range="week">Tuần này</button>
+            <button type="button" class="lb-time-btn" data-range="month">Tháng này</button>
+            <button type="button" class="lb-time-btn" data-range="year">Năm nay</button>
+            <button type="button" class="lb-time-btn" data-range="all">All-time</button>
+          </div>
+
+          <div class="lb-scope-selects">
+            <select id="lbChannelSelect" class="filter-select" aria-label="Lọc bảng xếp hạng theo kênh">
+              <option value="all">Tất cả 8 kênh</option>
+            </select>
+            <select id="lbGenreSelect" class="filter-select" aria-label="Lọc bảng xếp hạng theo thể loại">
+              <option value="all">Tất cả thể loại</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Leaderboard Showcase (Top 1-3 Podium / Spotlight Hero depending on active UI variant) -->
+        <div class="leaderboard-showcase" id="leaderboardShowcase"></div>
+      </section>
 
       <!-- Main 16:9 Film Cards Grid -->
       <div class="cards-widescreen-grid" id="cardsWidescreenGrid">
@@ -289,9 +399,9 @@
       <svg class="icon icon-sm" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
       <span>Khám Phá</span>
     </button>
-    <button type="button" class="dock-item" data-dock="hot">
-      <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
-      <span>Cày Đêm</span>
+    <button type="button" class="dock-item" data-dock="leaderboard">
+      <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
+      <span>Bảng XH</span>
     </button>
     <button type="button" class="dock-item" id="dockDiceBtn">
       <svg class="icon icon-sm" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><circle cx="12" cy="12" r="2" fill="currentColor"></circle></svg>
@@ -304,7 +414,7 @@
   </nav>
 
   <!-- Load Data and Application Controller -->
-  <script src="data.js?v=20261114_212500"></script>
-  <script src="app.js?v=20261114_212500"></script>
+  <script src="data.js?v=20261116_094000"></script>
+  <script src="app.js?v=20261116_094000"></script>
 </body>
 </html>

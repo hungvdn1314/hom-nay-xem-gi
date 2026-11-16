@@ -28,14 +28,19 @@
    - LocalStorage synchronization (`homnayxemgi_favs`, `homnayxemgi_notifs`).
 
 3. **Core Streaming Features**:
-   - 16:9 Widescreen Film Cards with high-contrast frosted capsules ("Trọn bộ 1 tập" / "N phần").
-   - 64px Floating Frosted Glass Header with Live Audience Counter (`● 842 người đang xem`).
-   - Two-Column Workspace (Sidebar: 10 Genres + 8 YouTube Channels | Main Feed: 16:9 Cards).
-   - Cinema Theater Modal with YouTube player and episode matrix switcher.
-   - Randomizer Modal ("Gợi ý phim 🎲").
+   - 16:9 Widescreen Film Cards with high-contrast frosted capsules ("Trọn bộ 1 tập" / "N phần"), SVG icons, and dynamic film count caption (`#brandCaption`).
+   - 64px Floating Frosted Glass Header (Brand, Randomizer on desktop, Notification Bell, Watchlist Bookmark) + Mobile Bottom Dock.
+   - Two-Column Workspace (Sidebar: Genres + 8 YouTube Channels | Main Feed: 16:9 Cards & Chart Mode).
+   - Cinema Theater Modal with YouTube player, film engagement totals, and per-episode duration + view/like stats.
+   - Randomizer Modal ("Gợi ý phim").
 
 4. **Dual Real-Time & Scheduled YouTube Synchronization Engine**:
-   - **Live Serverless Edge API (`api/live-feed.js`)**: Runs on Vercel Node.js Serverless runtime with 5-minute Edge CDN caching (`s-maxage=300, stale-while-revalidate=600`). Fetches 8 YouTube RSS feeds concurrently plus real durations via Innertube `/youtubei/v1/browse` (`VLUU...` uploads playlist, resilient to cloud IP `/watch` bot checks, with `/watch` fallback), and merges live discoveries directly in `app.js` (`syncLiveYouTubeFeed()`).
-   - **Local Dev Mirror (`scripts/dev_server.py`)**: Serves static assets and mirrors `GET /api/live-feed` locally on port 8080 (`run_web.bat`).
-   - **Persistent Catalog Updater (`scripts/update_youtube_feed.py`) & GitHub Actions**: Processes RSS feeds chronologically (oldest -> newest) with Innertube browse durations + fallback extraction, parses full merged ranges (`1+2`, `1-3`, `793+794`), assigns unique monotonic `index` (`1..N`), self-heals zero-duration parts, recalculates total durations, and bumps cache-busting query versions in `index.html`.
-   - **Strict 24h Window & Exact Episode Playback**: `Mới Cập Nhật 24h` strictly shows updates within 24h; `openPlayer` and `#modalEpMatrix` resolve episodes by exact `videoId` and array index (`data-ep-pos`, fallback `partNumber`) so merged compilations never cause colliding-index playback mismatches.
+   - **Live Serverless Edge API (`api/live-feed.js`)**: Runs on Vercel Node.js Serverless runtime with 5-minute Edge CDN caching (`s-maxage=300, stale-while-revalidate=600`). Uses YouTube RSS feeds concurrently with Innertube `/youtubei/v1/browse` (`VLUU...`, acting as both duration map and RSS-outage fallback), and enriches `views`, `likes`, and `publishedAt` via `YOUTUBE_API_KEY` (`videos.list?part=statistics,contentDetails,snippet`) or `/youtubei/v1/next`.
+   - **Local Dev Mirror (`scripts/dev_server.py`)**: Serves static assets and mirrors `GET /api/live-feed` locally (`run_web.bat`).
+   - **Persistent Catalog Updater (`scripts/update_youtube_feed.py`) & GitHub Actions**: Processes RSS feeds / Innertube browse fallback chronologically (oldest -> newest), collects views/likes/publish dates via `YOUTUBE_API_KEY` or Innertube `/next` (`--backfill-stats`), parses full merged ranges (`1+2`, `1-3`, `793+794`), assigns unique monotonic `index` (`1..N`), recalculates totals (`totalDurationSec`, `totalViews`, `totalLikes`), and bumps cache-busting query versions in `index.html`.
+   - **Strict 24h Window & Exact Episode Playback**: `Mới Cập Nhật 24h` strictly shows updates within 24h; `openPlayer` and `#modalEpMatrix` resolve episodes by exact `videoId` and array index (`data-ep-pos`, fallback `partNumber`).
+
+5. **3-Variant UI Switcher, Multi-Dimensional Leaderboard & Inline Scope Filters**:
+   - **`#uiVariantSwitcher`**: Switches live (`data-ui-variant` persisted in `localStorage`) between `v1` (Editorial card footer + 3-col Gold/Silver/Bronze Podium), `v2` (Thumbnail Glass HUD + High-Density Chart Rows), and `v3` (Bento Dual-Pill cards + `#1 Spotlight Hero` + `#2/#3` split).
+   - **Leaderboard (`#leaderboardPanel`) & Period Engagement Scoring (`getFilmPeriodMetrics`)**: Ranks films by `views` or `likes` summed within `day` (24h), `week` (7d), `month` (30d), `year` (365d), or `all` across all or scoped Channels × Genres (synced with Sidebar & Mobile Chips).
+   - **Inline Channel/Category Toolbar (`#inlineFilterBar`)**: Lets users sort any Channel or Genre view by `Mới cập nhật`, `Xem nhiều nhất`, `Yêu thích nhất`, or `Cày đêm (Dài nhất)` within any timeframe window.

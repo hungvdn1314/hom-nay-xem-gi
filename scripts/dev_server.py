@@ -21,6 +21,7 @@ from update_youtube_feed import (
     fetch_channel_videos,
     fetch_all_channel_durations,
     batch_fetch_metadata,
+    batch_fetch_stats,
     format_part_duration_hms,
     format_total_duration_vi,
     infer_genres,
@@ -37,23 +38,28 @@ def build_live_feed_payload():
         if _CACHE["payload"] and (now_ts - _CACHE["ts"] < 120):
             return _CACHE["payload"]
 
-    browse_durations = fetch_all_channel_durations(max_workers=8)
+    browse_durations, browse_videos_map = fetch_all_channel_durations(max_workers=8)
     candidates = []
     for ch in CHANNELS:
-        vids = fetch_channel_videos(ch["channel_id"])
+        vids = fetch_channel_videos(ch["channel_id"], browse_fallback_videos=browse_videos_map.get(ch["channel_id"]))
         for v in vids[-4:]:
             candidates.append({**v, "channelId": ch["id"], "channelName": ch["name"], "channelUrl": ch["url"]})
 
     candidates.sort(key=lambda x: parse_iso_utc(x["published"]) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
     top = candidates[:24]
-    meta_map = batch_fetch_metadata([v["videoId"] for v in top], known_durations=browse_durations, max_workers=8)
+    top_ids = [v["videoId"] for v in top]
+    meta_map = batch_fetch_metadata(top_ids, known_durations=browse_durations, max_workers=8)
+    stats_map = batch_fetch_stats(top_ids, max_workers=12)
 
     enriched = []
     for v in top:
         vid = v["videoId"]
         info = meta_map.get(vid, {})
-        sec = info.get("durationSec") or 0
-        pub = v["published"] or info.get("publishDate")
+        st = stats_map.get(vid, {})
+        sec = info.get("durationSec") or st.get("durationSec") or v.get("durationSec") or 0
+        pub = v["published"] or st.get("publishDate") or info.get("publishDate")
+        views = st.get("views") if st.get("views") is not None else (v.get("views") or 0)
+        likes = st.get("likes") if st.get("likes") is not None else 0
         enriched.append({
             "videoId": vid,
             "title": v["title"],
@@ -64,6 +70,8 @@ def build_live_feed_payload():
             "durationSec": sec,
             "durationStr": format_part_duration_hms(sec),
             "totalDurationStr": format_total_duration_vi(sec),
+            "views": views,
+            "likes": likes,
             "thumbnail": v["thumbnail"],
             "genres": infer_genres(v["title"], v.get("description", "")),
             "review": (v.get("description") or "")[:200] or f"Phim hoạt hình mới tuyển chọn từ kênh {v['channelName']}."

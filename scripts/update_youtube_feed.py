@@ -13,7 +13,7 @@ import json
 import urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 CHANNELS = [
     {
@@ -323,14 +323,16 @@ def part_sort_key(part, fallback_pos=0):
     return (0, part.get("index", fallback_pos + 1), 0, part.get("index", fallback_pos + 1), 0, fallback_pos, pub_dt)
 
 
-def fetch_channel_durations_browse(channel_id):
+def fetch_channel_browse_data(channel_id):
     """
-    Fetch up to 100 latest video durations for a channel via YouTube Innertube browse API.
-    Unlike /watch, /youtubei/v1/browse on VLUU... playlists is not blocked by cloud IP bot checks.
+    Fetch up to 100 latest video durations and metadata via YouTube Innertube browse API.
+    Unlike /watch, /youtubei/v1/browse on VLUU... playlists is not blocked by cloud IP bot checks
+    and serves as a resilient fallback when YouTube RSS XML returns 404/500.
     """
     dur_map = {}
+    videos_list = []
     if not channel_id or not channel_id.startswith("UC"):
-        return dur_map
+        return dur_map, videos_list
     uploads_playlist_id = f"VLUU{channel_id[2:]}"
     try:
         payload = json.dumps({
@@ -338,7 +340,9 @@ def fetch_channel_durations_browse(channel_id):
             "context": {
                 "client": {
                     "clientName": "WEB",
-                    "clientVersion": "2.20241111.01.00"
+                    "clientVersion": "2.20241111.01.00",
+                    "hl": "en",
+                    "gl": "US"
                 }
             }
         }).encode("utf-8")
@@ -366,25 +370,266 @@ def fetch_channel_durations_browse(channel_id):
             sec = int(sec_str)
             if sec > 0 and vid not in dur_map:
                 dur_map[vid] = sec
+
+        # Extract lockupViewModel entries for RSS fallback (videoId, title, views, relative publishedAt)
+        seen_vids = set()
+        now_utc = datetime.now(timezone.utc)
+        for chunk in txt.split('{"lockupViewModel":')[1:]:
+            m_vid = (
+                re.search(r'"animationActivationTargetId":"([a-zA-Z0-9_-]{11})"', chunk)
+                or re.search(r'/vi/([a-zA-Z0-9_-]{11})/', chunk)
+                or re.search(r'"videoId":"([a-zA-Z0-9_-]{11})"', chunk)
+            )
+            if not m_vid:
+                continue
+            vid = m_vid.group(1)
+            if vid in seen_vids:
+                continue
+            seen_vids.add(vid)
+
+            m_title = re.search(r'"lockupMetadataViewModel":\{"title":\{"content":"((?:[^"\\]|\\.)*)"', chunk)
+            if not m_title:
+                continue
+            try:
+                title = json.loads(f'"{m_title.group(1)}"')
+            except Exception:
+                title = m_title.group(1)
+
+            views = 0
+            pub_iso = None
+            m_meta = re.search(r'"metadataParts":\[\{"text":\{"content":"([^"]*(?:view|watching)[^"]*)"\}[^\]]*?\}[^\]]*\]', chunk, re.I)
+            if m_meta:
+                views = parse_compact_number(m_meta.group(1))
+            for rel_m in re.findall(r'"text":\{"content":"([^"]+ago)"\}', chunk, re.I):
+                parsed_iso = parse_en_date_to_iso(rel_m, ref_now=now_utc)
+                if parsed_iso:
+                    pub_iso = parsed_iso
+                    break
+
+            videos_list.append({
+                "videoId": vid,
+                "title": title,
+                "published": pub_iso or now_utc.isoformat(),
+                "description": "",
+                "thumbnail": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg",
+                "durationSec": dur_map.get(vid, 0),
+                "views": views
+            })
     except Exception as e:
         print(f"  [Warning] Innertube browse failed for {channel_id}: {e}")
+    return dur_map, videos_list
+
+
+def fetch_channel_durations_browse(channel_id):
+    dur_map, _ = fetch_channel_browse_data(channel_id)
     return dur_map
 
 
+def parse_compact_number(text):
+    """Parse counts like '159,879 views', '1.9K', '2.4M', '62' into integer."""
+    if text is None:
+        return 0
+    if isinstance(text, (int, float)):
+        return int(text)
+    s = str(text).strip()
+    if not s:
+        return 0
+    s_clean = re.sub(r'\s*(?:views?|likes?|người xem|lượt xem|lượt thích)\b', '', s, flags=re.I).strip()
+    m_abbr = re.match(r'^([0-9]+(?:[.,][0-9]+)?)\s*([KMBkmb])$', s_clean)
+    if m_abbr:
+        val = float(m_abbr.group(1).replace(',', '.'))
+        mult = {'k': 1_000, 'm': 1_000_000, 'b': 1_000_000_000}[m_abbr.group(2).lower()]
+        return int(round(val * mult))
+    digits = re.sub(r'[^\d]', '', s_clean)
+    return int(digits) if digits else 0
+
+
+def parse_iso8601_duration(dur_str):
+    """Parse YouTube API v3 PT#H#M#S duration into integer seconds."""
+    if not dur_str:
+        return 0
+    m = re.match(r'^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$', dur_str.strip())
+    if not m:
+        return 0
+    h = int(m.group(1) or 0)
+    mn = int(m.group(2) or 0)
+    s = int(m.group(3) or 0)
+    return h * 3600 + mn * 60 + s
+
+
+def parse_en_date_to_iso(text, ref_now=None):
+    """Parse English YouTube date ('Nov 14, 2026') or relative age ('2 hours ago') into UTC ISO-8601."""
+    if not text:
+        return None
+    s = str(text).strip()
+    now_utc = ref_now or datetime.now(timezone.utc)
+    m_abs = re.search(r'([A-Z][a-z]{2}\s+\d{1,2},\s+\d{4})', s)
+    if m_abs:
+        try:
+            dt = datetime.strptime(m_abs.group(1), "%b %d, %Y").replace(tzinfo=timezone.utc)
+            return dt.isoformat()
+        except ValueError:
+            pass
+    m_rel = re.search(r'(\d+)\s+(second|minute|hour|day|week|month|year)s?\s+ago', s, re.I)
+    if m_rel:
+        qty = int(m_rel.group(1))
+        unit = m_rel.group(2).lower()
+        sec_map = {
+            "second": 1,
+            "minute": 60,
+            "hour": 3600,
+            "day": 86400,
+            "week": 7 * 86400,
+            "month": 30 * 86400,
+            "year": 365 * 86400,
+        }
+        dt = now_utc - timedelta(seconds=qty * sec_map[unit])
+        return dt.isoformat()
+    return None
+
+
 def fetch_all_channel_durations(max_workers=8):
-    """Concurrently collect recent video duration map across all 8 partner channels."""
+    """Concurrently collect recent video duration map and browse items across all 8 partner channels."""
     all_durations = {}
+    channel_videos_map = {}
     with ThreadPoolExecutor(max_workers=max_workers) as pool:
-        futs = {pool.submit(fetch_channel_durations_browse, ch["channel_id"]): ch["id"] for ch in CHANNELS}
+        futs = {pool.submit(fetch_channel_browse_data, ch["channel_id"]): ch["channel_id"] for ch in CHANNELS}
         for fut in as_completed(futs):
+            cid = futs[fut]
             try:
-                res = fut.result()
-                for vid, sec in res.items():
+                dur_map, vids = fut.result()
+                channel_videos_map[cid] = vids
+                for vid, sec in dur_map.items():
                     if sec > 0 and vid not in all_durations:
                         all_durations[vid] = sec
             except Exception:
-                pass
-    return all_durations
+                channel_videos_map[cid] = []
+    return all_durations, channel_videos_map
+
+
+def fetch_video_stats_next(video_id):
+    """Fetch exact views, likes, and publishDate for a video via zero-key Innertube /youtubei/v1/next."""
+    try:
+        payload = json.dumps({
+            "videoId": video_id,
+            "context": {
+                "client": {
+                    "clientName": "WEB",
+                    "clientVersion": "2.20241111.01.00",
+                    "hl": "en",
+                    "gl": "US"
+                }
+            }
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            "https://www.youtube.com/youtubei/v1/next?prettyPrint=false",
+            data=payload,
+            headers={
+                "Content-Type": "application/json",
+                "User-Agent": HEADERS["User-Agent"]
+            },
+            method="POST"
+        )
+        txt = urllib.request.urlopen(req, timeout=10).read().decode("utf-8", errors="ignore")
+
+        views = None
+        m_v = re.search(r'"videoViewCountRenderer":\{"viewCount":\{"simpleText":"([^"]+)"', txt)
+        if not m_v:
+            m_v = re.search(r'"factoidRenderer":\{"value":\{"simpleText":"([^"]+)"\},"label":\{"simpleText":"Views"\}', txt)
+        if m_v:
+            views = parse_compact_number(m_v.group(1))
+
+        likes = None
+        m_l_acc = re.search(r'"accessibilityText":"[^"]*like this video along with ([0-9,]+) other', txt, re.I)
+        if m_l_acc:
+            likes = parse_compact_number(m_l_acc.group(1))
+        else:
+            m_l_fac = re.search(r'"factoidRenderer":\{"value":\{"simpleText":"([^"]+)"\},"label":\{"simpleText":"Likes"\}', txt)
+            if m_l_fac:
+                likes = parse_compact_number(m_l_fac.group(1))
+            else:
+                m_l_btn = re.search(r'"iconName":"LIKE","title":"([0-9.,KMBkmb]+)"', txt)
+                if m_l_btn:
+                    likes = parse_compact_number(m_l_btn.group(1))
+
+        pub_iso = None
+        m_d = re.search(r'"dateText":\{"simpleText":"([^"]+)"\}', txt)
+        if m_d:
+            pub_iso = parse_en_date_to_iso(m_d.group(1))
+
+        return {"views": views, "likes": likes, "publishDate": pub_iso}
+    except Exception:
+        return {"views": None, "likes": None, "publishDate": None}
+
+
+def batch_fetch_youtube_api_v3(video_ids, api_key):
+    """Fetch exact viewCount, likeCount, durationSec, publishDate in batches of 50 via YouTube Data API v3."""
+    results = {}
+    if not api_key or not video_ids:
+        return results
+    unique_ids = list(dict.fromkeys(vid for vid in video_ids if vid))
+    for i in range(0, len(unique_ids), 50):
+        chunk = unique_ids[i:i + 50]
+        ids_param = ",".join(chunk)
+        url = (
+            f"https://www.googleapis.com/youtube/v3/videos"
+            f"?part=statistics,contentDetails,snippet&id={ids_param}&key={api_key}"
+        )
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": HEADERS["User-Agent"]})
+            payload = json.loads(urllib.request.urlopen(req, timeout=15).read().decode("utf-8"))
+            for item in payload.get("items", []):
+                vid = item.get("id")
+                stats = item.get("statistics", {})
+                cdet = item.get("contentDetails", {})
+                snip = item.get("snippet", {})
+                views = int(stats["viewCount"]) if "viewCount" in stats else None
+                likes = int(stats["likeCount"]) if "likeCount" in stats else None
+                dur_sec = parse_iso8601_duration(cdet.get("duration", ""))
+                pub_at = snip.get("publishedAt")
+                results[vid] = {
+                    "views": views,
+                    "likes": likes,
+                    "durationSec": dur_sec if dur_sec > 0 else None,
+                    "publishDate": pub_at
+                }
+        except Exception as e:
+            print(f"  [Warning] YouTube Data API v3 batch failed (chunk {i}): {e}")
+    return results
+
+
+def batch_fetch_stats(video_ids, max_workers=24):
+    """Fetch views, likes, and publishDate using YOUTUBE_API_KEY first, then zero-key Innertube /next fallback."""
+    unique_ids = list(dict.fromkeys(vid for vid in video_ids if vid))
+    results = {}
+    api_key = os.environ.get("YOUTUBE_API_KEY", "").strip()
+    if api_key:
+        print(f"[Stats] Fetching {len(unique_ids)} videos via YouTube Data API v3...")
+        results.update(batch_fetch_youtube_api_v3(unique_ids, api_key))
+
+    remaining = [vid for vid in unique_ids if vid not in results or results[vid].get("views") is None]
+    if remaining:
+        print(f"[Stats] Fetching {len(remaining)} videos via Innertube /youtubei/v1/next (workers={max_workers})...")
+        done_count = 0
+        with ThreadPoolExecutor(max_workers=max_workers) as pool:
+            futs = {pool.submit(fetch_video_stats_next, vid): vid for vid in remaining}
+            for fut in as_completed(futs):
+                vid = futs[fut]
+                done_count += 1
+                try:
+                    st = fut.result()
+                    if vid in results:
+                        for k, v in st.items():
+                            if results[vid].get(k) is None and v is not None:
+                                results[vid][k] = v
+                    else:
+                        results[vid] = st
+                except Exception:
+                    if vid not in results:
+                        results[vid] = {"views": None, "likes": None, "publishDate": None}
+                if done_count % 500 == 0:
+                    print(f"  [Stats Progress] {done_count}/{len(remaining)}...")
+    return results
 
 
 def fetch_video_metadata(video_id):
@@ -433,7 +678,7 @@ def batch_fetch_metadata(video_ids, known_durations=None, max_workers=10):
     return results
 
 
-def fetch_channel_videos(channel_id):
+def fetch_channel_videos(channel_id, browse_fallback_videos=None):
     url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
     try:
         req = urllib.request.Request(url, headers=HEADERS)
@@ -474,12 +719,19 @@ def fetch_channel_videos(channel_id):
                 "description": desc,
                 "thumbnail": thumb
             })
-        # Sort chronologically (oldest -> newest) so parts & updatedAt never overwrite backwards
-        videos.sort(key=lambda v: parse_iso_utc(v["published"]) or datetime.min.replace(tzinfo=timezone.utc))
-        return videos
+        if videos:
+            # Sort chronologically (oldest -> newest) so parts & updatedAt never overwrite backwards
+            videos.sort(key=lambda v: parse_iso_utc(v["published"]) or datetime.min.replace(tzinfo=timezone.utc))
+            return videos
     except Exception as e:
-        print(f"  [Warning] Failed to fetch RSS for channel {channel_id}: {e}")
-        return []
+        print(f"  [Warning] RSS failed for {channel_id} ({e}); trying browse fallback...")
+
+    if browse_fallback_videos:
+        # Take newest 15 from Innertube browse and sort oldest -> newest for chronological ingestion
+        fallback = list(browse_fallback_videos[:15])
+        fallback.sort(key=lambda v: parse_iso_utc(v.get("published")) or datetime.min.replace(tzinfo=timezone.utc))
+        return fallback
+    return []
 
 
 def recalculate_film_summary(film):
@@ -510,10 +762,27 @@ def recalculate_film_summary(film):
         film["totalDurationSec"] = total_sec
         film["totalDurationStr"] = format_total_duration_vi(total_sec)
 
-    # Keep chronologically newest timestamp across film + parts
+    active_parts = [p for p in sorted_parts if not p.get("isRedundant")] or sorted_parts
+    total_views = sum(int(p.get("views") or 0) for p in active_parts)
+    total_likes = sum(int(p.get("likes") or 0) for p in active_parts)
+    if total_views > 0 or any("views" in p for p in active_parts):
+        film["totalViews"] = total_views
+    if total_likes > 0 or any("likes" in p for p in active_parts):
+        film["totalLikes"] = total_likes
+
+    # Keep chronologically earliest publishedAt (if missing) and newest updatedAt across film + parts
+    oldest_ts = film.get("publishedAt")
     newest_ts = film.get("updatedAt") or film.get("publishedAt")
     for p in sorted_parts:
-        newest_ts = max_iso_date(newest_ts, p.get("publishedAt"))
+        p_pub = p.get("publishedAt")
+        if p_pub:
+            dt_p = parse_iso_utc(p_pub)
+            dt_old = parse_iso_utc(oldest_ts)
+            if dt_p and (not dt_old or dt_p < dt_old):
+                oldest_ts = p_pub
+            newest_ts = max_iso_date(newest_ts, p_pub)
+    if oldest_ts and not film.get("publishedAt"):
+        film["publishedAt"] = oldest_ts
     if newest_ts:
         film["updatedAt"] = newest_ts
         dt = parse_iso_utc(newest_ts)
@@ -610,14 +879,77 @@ def repair_existing_catalog(films, browse_durations=None, fetch_watch_fallback=F
     return repaired_films
 
 
+def backfill_catalog_stats(films, refresh_all=False, max_recent=150):
+    """Populate/refresh views, likes, durationSec, and publishDate on existing catalog films."""
+    target_vids = []
+    if refresh_all:
+        for f in films:
+            for p in f.get("parts", []):
+                vid = p.get("id") or p.get("videoId")
+                if vid:
+                    target_vids.append(vid)
+    else:
+        api_key = os.environ.get("YOUTUBE_API_KEY", "").strip()
+        # Always fill missing stats; if API key is present, also refresh top max_recent recent films
+        sorted_recent_ids = set()
+        if api_key:
+            ranked = sorted(
+                films,
+                key=lambda x: parse_iso_utc(x.get("updatedAt") or x.get("publishedAt")) or datetime.min.replace(tzinfo=timezone.utc),
+                reverse=True
+            )
+            sorted_recent_ids = {f.get("id") for f in ranked[:max_recent]}
+        for f in films:
+            is_recent_refresh = f.get("id") in sorted_recent_ids
+            for p in f.get("parts", []):
+                vid = p.get("id") or p.get("videoId")
+                if vid and (is_recent_refresh or p.get("views") is None or p.get("likes") is None or not p.get("publishedAt")):
+                    target_vids.append(vid)
+
+    unique_targets = list(dict.fromkeys(target_vids))
+    if not unique_targets:
+        return 0
+
+    stats_map = batch_fetch_stats(unique_targets, max_workers=24)
+    updated_films = 0
+    for f in films:
+        changed = False
+        for p in f.get("parts", []):
+            vid = p.get("id") or p.get("videoId")
+            st = stats_map.get(vid)
+            if not st:
+                continue
+            if st.get("views") is not None and p.get("views") != st["views"]:
+                p["views"] = st["views"]
+                changed = True
+            if st.get("likes") is not None and p.get("likes") != st["likes"]:
+                p["likes"] = st["likes"]
+                changed = True
+            if st.get("durationSec") and st["durationSec"] > 0 and needs_duration_repair(p):
+                p["duration"] = st["durationSec"]
+                p["durationStr"] = format_part_duration_hms(st["durationSec"])
+                changed = True
+            if st.get("publishDate") and not p.get("publishedAt"):
+                p["publishedAt"] = st["publishDate"]
+                changed = True
+        if changed:
+            recalculate_film_summary(f)
+            updated_films += 1
+
+    if updated_films > 0:
+        print(f"[Stats] Updated views/likes/dates on {updated_films} films.")
+    return updated_films
+
+
 def main():
     do_backfill = "--backfill" in sys.argv
-    do_repair_parts = "--repair-parts" in sys.argv or do_backfill
+    do_backfill_stats = "--backfill-stats" in sys.argv
+    do_repair_parts = "--repair-parts" in sys.argv or do_backfill or do_backfill_stats
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_js_path = os.path.join(base_dir, "data.js")
     catalog_json_path = os.path.join(base_dir, "youtube_films_catalog.json")
 
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting YouTube Auto-Update (backfill={do_backfill}, repair_parts={do_repair_parts})...")
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting YouTube Auto-Update (backfill={do_backfill}, backfill_stats={do_backfill_stats}, repair_parts={do_repair_parts})...")
 
     if not os.path.exists(data_js_path):
         print(f"[Error] data.js not found at {data_js_path}")
@@ -636,8 +968,8 @@ def main():
     films = data.get("films", [])
     stats = data.get("stats", {})
 
-    # Pre-fetch duration map for all 8 channels via Innertube browse (works on cloud datacenter IPs)
-    browse_durations = fetch_all_channel_durations(max_workers=8)
+    # Pre-fetch duration map and latest upload fallback map across all 8 channels via Innertube browse
+    browse_durations, browse_videos_map = fetch_all_channel_durations(max_workers=8)
     print(f"[Browse] Collected {len(browse_durations)} video durations across 8 channels.")
 
     repaired_count = repair_existing_catalog(
@@ -646,6 +978,7 @@ def main():
         fetch_watch_fallback=do_backfill,
         repair_parts=do_repair_parts
     )
+    stats_updated_count = backfill_catalog_stats(films, refresh_all=do_backfill_stats)
 
     # Build lookup index of all known video IDs
     existing_video_ids = set()
@@ -661,19 +994,20 @@ def main():
 
     print(f"Loaded {len(films)} films with {len(existing_video_ids)} known video IDs. Max ID: film_{max_film_num}")
 
-    # Step 1: Collect new videos across all 8 channels from RSS
+    # Step 1: Collect new videos across all 8 channels (RSS first, Innertube browse fallback)
     pending_by_channel = []
     new_vids_to_fetch = []
     for ch in CHANNELS:
-        videos = fetch_channel_videos(ch["channel_id"])
-        print(f"Channel '{ch['name']}': {len(videos)} RSS entries.")
+        videos = fetch_channel_videos(ch["channel_id"], browse_fallback_videos=browse_videos_map.get(ch["channel_id"]))
+        print(f"Channel '{ch['name']}': {len(videos)} entries.")
         fresh = [v for v in videos if v["videoId"] not in existing_video_ids]
         if fresh:
             pending_by_channel.append((ch, fresh))
             new_vids_to_fetch.extend(v["videoId"] for v in fresh)
 
-    # Step 2: Resolve durations (from browse_durations first, /watch fallback for uncovered IDs)
+    # Step 2: Resolve durations and views/likes for fresh videos
     meta_map = batch_fetch_metadata(new_vids_to_fetch, known_durations=browse_durations, max_workers=10) if new_vids_to_fetch else {}
+    new_stats_map = batch_fetch_stats(new_vids_to_fetch, max_workers=12) if new_vids_to_fetch else {}
 
     new_films_count = 0
     new_parts_count = 0
@@ -689,9 +1023,12 @@ def main():
                 continue
 
             info = meta_map.get(vid, {})
-            real_sec = info.get("durationSec") or 0
-            # Prefer RSS published UTC (matches watch publishDate cleanly) or watch publishDate
-            v_pub = v["published"] or info.get("publishDate")
+            st = new_stats_map.get(vid, {})
+            real_sec = info.get("durationSec") or st.get("durationSec") or v.get("durationSec") or 0
+            # Prefer RSS/API published UTC, then /next dateText, then watch publishDate
+            v_pub = v["published"] or st.get("publishDate") or info.get("publishDate")
+            v_views = st.get("views") if st.get("views") is not None else (v.get("views") or 0)
+            v_likes = st.get("likes") if st.get("likes") is not None else 0
             v_title = v["title"]
             v_desc = v["description"]
             v_thumb = v["thumbnail"]
@@ -725,6 +1062,8 @@ def main():
                     "duration": real_sec,
                     "durationStr": part_dur_str,
                     "publishedAt": v_pub,
+                    "views": v_views,
+                    "likes": v_likes,
                     "isRedundant": False
                 }
                 existing_parts.append(new_part)
@@ -749,6 +1088,8 @@ def main():
                     "partsStr": "1 phần (Phần 1)",
                     "totalDurationSec": real_sec,
                     "totalDurationStr": total_dur_str,
+                    "totalViews": v_views,
+                    "totalLikes": v_likes,
                     "review": v_desc[:200] if v_desc else f"Phim hoạt hình mới tuyển chọn từ kênh {ch_name}.",
                     "genres": genres,
                     "thumbnail": v_thumb,
@@ -765,6 +1106,8 @@ def main():
                             "duration": real_sec,
                             "durationStr": part_dur_str,
                             "publishedAt": v_pub,
+                            "views": v_views,
+                            "likes": v_likes,
                             "isRedundant": False
                         }
                     ]
@@ -774,7 +1117,7 @@ def main():
                 new_films_count += 1
                 print(f"  [+] New Film ({total_dur_str}): '{v_title}' ({vid})")
 
-    total_changes = new_films_count + new_parts_count + repaired_count
+    total_changes = new_films_count + new_parts_count + repaired_count + stats_updated_count
     if total_changes == 0:
         print("[Auto-Update] Everything is up to date! No new videos or repairs needed.")
         return

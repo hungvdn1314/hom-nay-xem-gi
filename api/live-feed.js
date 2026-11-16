@@ -81,14 +81,71 @@ function parseHmsToSec(text) {
   return nums[0] || 0;
 }
 
+function parseCompactNumber(text) {
+  if (text == null) return 0;
+  if (typeof text === 'number') return Math.round(text);
+  const cleaned = String(text)
+    .replace(/\s*(?:views?|likes?|người xem|lượt xem|lượt thích)\b/gi, '')
+    .trim();
+  if (!cleaned) return 0;
+  const abbr = cleaned.match(/^([0-9]+(?:[.,][0-9]+)?)\s*([KMBkmb])$/);
+  if (abbr) {
+    const val = parseFloat(abbr[1].replace(',', '.'));
+    const mult = { k: 1e3, m: 1e6, b: 1e9 }[abbr[2].toLowerCase()] || 1;
+    return Math.round(val * mult);
+  }
+  const digits = cleaned.replace(/[^\d]/g, '');
+  return digits ? parseInt(digits, 10) : 0;
+}
+
+function parseIso8601Duration(durStr) {
+  if (!durStr) return 0;
+  const m = String(durStr).trim().match(/^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/);
+  if (!m) return 0;
+  return (parseInt(m[1] || '0', 10) * 3600) +
+    (parseInt(m[2] || '0', 10) * 60) +
+    parseInt(m[3] || '0', 10);
+}
+
+function parseEnDateToIso(text, refNow = new Date()) {
+  if (!text) return null;
+  const s = String(text).trim();
+  const abs = s.match(/([A-Z][a-z]{2}\s+\d{1,2},\s+\d{4})/);
+  if (abs) {
+    const dt = new Date(`${abs[1]} UTC`);
+    if (!Number.isNaN(dt.getTime())) return dt.toISOString();
+  }
+  const rel = s.match(/(\d+)\s+(second|minute|hour|day|week|month|year)s?\s+ago/i);
+  if (rel) {
+    const qty = parseInt(rel[1], 10);
+    const secMap = {
+      second: 1,
+      minute: 60,
+      hour: 3600,
+      day: 86400,
+      week: 7 * 86400,
+      month: 30 * 86400,
+      year: 365 * 86400
+    };
+    const ms = qty * (secMap[rel[2].toLowerCase()] || 0) * 1000;
+    return new Date(refNow.getTime() - ms).toISOString();
+  }
+  return null;
+}
+
 /**
- * Fetch up to 100 latest video durations for a channel in a single Innertube browse call.
- * Uses the channel's uploads playlist (UU...) because /youtubei/v1/browse is not gated
- * by /watch player bot checks on cloud datacenter IPs (Vercel / GitHub Actions).
+ * Fetch up to 100 latest video durations + views + fallback entries for a channel via Innertube browse.
+ * Uses the channel's uploads playlist (VLUU...) because /youtubei/v1/browse is not gated
+ * by /watch bot checks on cloud IPs and covers when YouTube RSS XML returns 404/500.
  */
-async function fetchChannelDurationsBrowse(channelId) {
+async function fetchChannelBrowseData(channel) {
   const durationMap = new Map();
-  if (!channelId || !channelId.startsWith('UC')) return durationMap;
+  const viewsMap = new Map();
+  const fallbackEntries = [];
+  const channelId = channel && channel.channelId;
+  if (!channelId || !channelId.startsWith('UC')) {
+    return { durationMap, viewsMap, fallbackEntries };
+  }
   const uploadsPlaylistId = `VLUU${channelId.slice(2)}`;
   try {
     const controller = new AbortController();
@@ -104,17 +161,18 @@ async function fetchChannelDurationsBrowse(channelId) {
         context: {
           client: {
             clientName: 'WEB',
-            clientVersion: '2.20241111.01.00'
+            clientVersion: '2.20241111.01.00',
+            hl: 'en',
+            gl: 'US'
           }
         }
       }),
       signal: controller.signal
     });
     clearTimeout(timer);
-    if (!resp.ok) return durationMap;
+    if (!resp.ok) return { durationMap, viewsMap, fallbackEntries };
     const text = await resp.text();
 
-    // Primary lockup pattern: thumbnailBadgeViewModel -> text + animationActivationTargetId
     const badgeRegex = /"thumbnailBadgeViewModel":\{"text":"([0-9:]+)"[^}]*"animationActivationTargetId":"([^"]+)"/g;
     let m;
     while ((m = badgeRegex.exec(text)) !== null) {
@@ -124,7 +182,6 @@ async function fetchChannelDurationsBrowse(channelId) {
       }
     }
 
-    // Secondary fallback: playlistVideoRenderer with videoId + lengthSeconds
     const pvrRegex = /"playlistVideoRenderer":\{"videoId":"([a-zA-Z0-9_-]{11})"[\s\S]{0,2000}?"lengthSeconds":"(\d+)"/g;
     while ((m = pvrRegex.exec(text)) !== null) {
       const sec = parseInt(m[2], 10);
@@ -132,10 +189,56 @@ async function fetchChannelDurationsBrowse(channelId) {
         durationMap.set(m[1], sec);
       }
     }
+
+    const seen = new Set();
+    const nowRef = new Date();
+    const chunks = text.split('{"lockupViewModel":').slice(1, 20);
+    for (const chunk of chunks) {
+      const vidMatch =
+        chunk.match(/"animationActivationTargetId":"([a-zA-Z0-9_-]{11})"/) ||
+        chunk.match(/\/vi\/([a-zA-Z0-9_-]{11})\//) ||
+        chunk.match(/"videoId":"([a-zA-Z0-9_-]{11})"/);
+      if (!vidMatch) continue;
+      const videoId = vidMatch[1];
+      if (seen.has(videoId)) continue;
+      seen.add(videoId);
+
+      const titleMatch = chunk.match(/"lockupMetadataViewModel":\{"title":\{"content":"((?:[^"\\]|\\.)*)"/);
+      if (!titleMatch) continue;
+      let title = titleMatch[1];
+      try {
+        title = JSON.parse(`"${titleMatch[1]}"`);
+      } catch {
+        // fallback raw string
+      }
+
+      const viewsMatch = chunk.match(/"metadataParts":\[\{"text":\{"content":"([^"]*(?:view|watching)[^"]*)"\}/i);
+      const views = viewsMatch ? parseCompactNumber(viewsMatch[1]) : 0;
+      if (views > 0) viewsMap.set(videoId, views);
+
+      let publishedAt = null;
+      const relMatch = chunk.match(/"text":\{"content":"([^"]+ago)"\}/i);
+      if (relMatch) {
+        publishedAt = parseEnDateToIso(relMatch[1], nowRef);
+      }
+
+      if (fallbackEntries.length < 4) {
+        fallbackEntries.push({
+          videoId,
+          title,
+          publishedAt: publishedAt || nowRef.toISOString(),
+          thumbnail: `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`,
+          description: '',
+          channelId: channel.id,
+          channelName: channel.name,
+          channelUrl: channel.url
+        });
+      }
+    }
   } catch {
-    // Best-effort; watch fallback handles uncovered videos
+    // Best-effort
   }
-  return durationMap;
+  return { durationMap, viewsMap, fallbackEntries };
 }
 
 function parseRssEntries(xml, channel, limit = 4) {
@@ -197,6 +300,90 @@ async function fetchVideoMetadata(videoId) {
   }
 }
 
+async function fetchVideoStatsNext(videoId) {
+  try {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 4500);
+    const resp = await fetch('https://www.youtube.com/youtubei/v1/next?prettyPrint=false', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'User-Agent': FETCH_HEADERS['User-Agent']
+      },
+      body: JSON.stringify({
+        videoId,
+        context: {
+          client: {
+            clientName: 'WEB',
+            clientVersion: '2.20241111.01.00',
+            hl: 'en',
+            gl: 'US'
+          }
+        }
+      }),
+      signal: controller.signal
+    });
+    clearTimeout(timer);
+    if (!resp.ok) return { views: null, likes: null, publishDate: null };
+    const txt = await resp.text();
+
+    const mV = txt.match(/"videoViewCountRenderer":\{"viewCount":\{"simpleText":"([^"]+)"/) ||
+      txt.match(/"factoidRenderer":\{"value":\{"simpleText":"([^"]+)"\},"label":\{"simpleText":"Views"\}/);
+    const views = mV ? parseCompactNumber(mV[1]) : null;
+
+    let likes = null;
+    const mLAcc = txt.match(/"accessibilityText":"[^"]*like this video along with ([0-9,]+) other/i);
+    if (mLAcc) {
+      likes = parseCompactNumber(mLAcc[1]);
+    } else {
+      const mLFac = txt.match(/"factoidRenderer":\{"value":\{"simpleText":"([^"]+)"\},"label":\{"simpleText":"Likes"\}/);
+      if (mLFac) {
+        likes = parseCompactNumber(mLFac[1]);
+      } else {
+        const mLBtn = txt.match(/"iconName":"LIKE","title":"([0-9.,KMBkmb]+)"/);
+        if (mLBtn) likes = parseCompactNumber(mLBtn[1]);
+      }
+    }
+
+    const mD = txt.match(/"dateText":\{"simpleText":"([^"]+)"\}/);
+    const publishDate = mD ? parseEnDateToIso(mD[1]) : null;
+    return { views, likes, publishDate };
+  } catch {
+    return { views: null, likes: null, publishDate: null };
+  }
+}
+
+async function fetchBatchYouTubeApiV3(videoIds, apiKey) {
+  const map = new Map();
+  if (!apiKey || !videoIds.length) return map;
+  for (let i = 0; i < videoIds.length; i += 50) {
+    const chunk = videoIds.slice(i, i + 50);
+    try {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 5000);
+      const url = `https://www.googleapis.com/youtube/v3/videos?part=statistics,contentDetails,snippet&id=${chunk.join(',')}&key=${encodeURIComponent(apiKey)}`;
+      const resp = await fetch(url, { signal: controller.signal });
+      clearTimeout(timer);
+      if (!resp.ok) continue;
+      const data = await resp.json();
+      for (const item of data.items || []) {
+        const st = item.statistics || {};
+        const cd = item.contentDetails || {};
+        const sn = item.snippet || {};
+        map.set(item.id, {
+          views: st.viewCount != null ? parseInt(st.viewCount, 10) : null,
+          likes: st.likeCount != null ? parseInt(st.likeCount, 10) : null,
+          durationSec: parseIso8601Duration(cd.duration),
+          publishDate: sn.publishedAt || null
+        });
+      }
+    } catch {
+      // Fallback to Innertube
+    }
+  }
+  return map;
+}
+
 module.exports = async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Content-Type', 'application/json; charset=utf-8');
@@ -204,7 +391,7 @@ module.exports = async function handler(req, res) {
   res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=600');
 
   try {
-    // 1. Fetch RSS feeds AND Innertube browse duration maps for all 8 channels concurrently
+    // 1. Fetch RSS feeds AND Innertube browse maps for all 8 channels concurrently
     const [rssResults, browseResults] = await Promise.all([
       Promise.allSettled(
         CHANNELS.map(async ch => {
@@ -221,33 +408,54 @@ module.exports = async function handler(req, res) {
         })
       ),
       Promise.allSettled(
-        CHANNELS.map(ch => fetchChannelDurationsBrowse(ch.channelId))
+        CHANNELS.map(ch => fetchChannelBrowseData(ch))
       )
     ]);
 
     const browseDurationMap = new Map();
-    for (const r of browseResults) {
-      if (r.status === 'fulfilled' && r.value instanceof Map) {
-        r.value.forEach((sec, vid) => {
-          if (sec > 0 && !browseDurationMap.has(vid)) {
-            browseDurationMap.set(vid, sec);
-          }
-        });
-      }
-    }
-
+    const browseViewsMap = new Map();
     const candidateVideos = [];
-    for (const r of rssResults) {
-      if (r.status === 'fulfilled' && Array.isArray(r.value)) {
-        candidateVideos.push(...r.value);
-      }
-    }
 
-    // 2. Keep top 24 newest videos; only call /watch fallback for IDs missing from browseDurationMap
+    CHANNELS.forEach((ch, idx) => {
+      const bRes = browseResults[idx];
+      let fallbackEntries = [];
+      if (bRes && bRes.status === 'fulfilled' && bRes.value) {
+        const { durationMap, viewsMap, fallbackEntries: fb } = bRes.value;
+        durationMap.forEach((sec, vid) => {
+          if (sec > 0 && !browseDurationMap.has(vid)) browseDurationMap.set(vid, sec);
+        });
+        viewsMap.forEach((vw, vid) => {
+          if (vw > 0 && !browseViewsMap.has(vid)) browseViewsMap.set(vid, vw);
+        });
+        fallbackEntries = fb || [];
+      }
+
+      const rRes = rssResults[idx];
+      const rssEntries = (rRes && rRes.status === 'fulfilled' && Array.isArray(rRes.value)) ? rRes.value : [];
+      candidateVideos.push(...(rssEntries.length > 0 ? rssEntries : fallbackEntries));
+    });
+
+    // 2. Keep top 24 newest videos; enrich views/likes + missing durations
     candidateVideos.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
     const topVideos = candidateVideos.slice(0, 24);
+    const topIds = topVideos.map(v => v.videoId);
 
-    const missingWatchVideos = topVideos.filter(v => !browseDurationMap.has(v.videoId));
+    const apiKey = (process.env.YOUTUBE_API_KEY || '').trim();
+    const apiStatsMap = apiKey ? await fetchBatchYouTubeApiV3(topIds, apiKey) : new Map();
+
+    const missingNextIds = topIds.filter(vid => !apiStatsMap.has(vid) || apiStatsMap.get(vid).views == null);
+    const nextStatsMap = new Map();
+    if (missingNextIds.length > 0) {
+      const nextRes = await Promise.allSettled(missingNextIds.map(vid => fetchVideoStatsNext(vid)));
+      missingNextIds.forEach((vid, i) => {
+        if (nextRes[i].status === 'fulfilled') nextStatsMap.set(vid, nextRes[i].value);
+      });
+    }
+
+    const missingWatchVideos = topVideos.filter(v => {
+      const dur = browseDurationMap.get(v.videoId) || apiStatsMap.get(v.videoId)?.durationSec || 0;
+      return dur <= 0;
+    });
     const fallbackMetaMap = new Map();
     if (missingWatchVideos.length > 0) {
       const watchResults = await Promise.allSettled(
@@ -261,9 +469,13 @@ module.exports = async function handler(req, res) {
     }
 
     const enriched = topVideos.map(v => {
+      const apiMeta = apiStatsMap.get(v.videoId);
+      const nextMeta = nextStatsMap.get(v.videoId);
       const fallbackMeta = fallbackMetaMap.get(v.videoId) || { durationSec: 0, publishDate: null };
-      const durationSec = browseDurationMap.get(v.videoId) || fallbackMeta.durationSec || 0;
-      const publishedAt = v.publishedAt || fallbackMeta.publishDate;
+      const durationSec = apiMeta?.durationSec || browseDurationMap.get(v.videoId) || fallbackMeta.durationSec || 0;
+      const publishedAt = apiMeta?.publishDate || v.publishedAt || nextMeta?.publishDate || fallbackMeta.publishDate;
+      const views = apiMeta?.views ?? nextMeta?.views ?? browseViewsMap.get(v.videoId) ?? 0;
+      const likes = apiMeta?.likes ?? nextMeta?.likes ?? 0;
       return {
         videoId: v.videoId,
         title: v.title,
@@ -274,6 +486,8 @@ module.exports = async function handler(req, res) {
         durationSec,
         durationStr: formatPartDurationHms(durationSec),
         totalDurationStr: formatTotalDurationVi(durationSec),
+        views,
+        likes,
         thumbnail: v.thumbnail,
         genres: inferGenres(v.title, v.description),
         review: v.description || `Phim hoạt hình mới tuyển chọn từ kênh ${v.channelName}.`

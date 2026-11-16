@@ -54,10 +54,22 @@
   - Synced `.mobile-bottom-bar` `.dock-item.active` whenever category tabs or header favorites button change active tab.
   - Added `@media (max-width: 960px)`, `@media (max-width: 768px)`, and `@media (max-width: 480px)` responsive rules in `style.css`: `overflow-x: clip`, single-line header truncation (`min-width: 0`), fixed full-width `.notification-popover`, horizontal-scroll `.category-tabs-group` & `.mobile-chips-row` (hidden native scrollbar), hidden mobile `.key-hint` and duplicate `#btnDiceRandom`, safe modal/pagination/bottom-dock sizing.
 
+- **Feature 8: Real YouTube Views/Likes Data, 3 Live-Selectable UI Layouts, Leaderboard & Inline Channel/Genre Filters (`v=20261116_094000`)**:
+  - Upgraded `scripts/update_youtube_feed.py`, `api/live-feed.js`, and `scripts/dev_server.py` with:
+    - Real `views`, `likes`, and `publishedAt` extraction using `YOUTUBE_API_KEY` (`videos.list?part=statistics,contentDetails,snippet`, 50 vids/call) when configured in env, plus zero-key Innertube `/youtubei/v1/next` (`hl: "en", gl: "US"`) fallback.
+    - Innertube `browse VLUU...` fallback for RSS feed discovery when YouTube RSS XML returns HTTP 404/500.
+  - Executed `python scripts/update_youtube_feed.py --backfill-stats`: populated real `views`, `likes`, and publish dates on 1,691/1,741 films (including 38 newly discovered films + 6 new parts across the 8 channels).
+  - Implemented 3 live-switchable UI designs (`#uiVariantSwitcher` -> `v1`, `v2`, `v3`) persisted in `localStorage`:
+    - `v1` (Editorial Bar & 3-Col Gold/Silver/Bronze Podium)
+    - `v2` (Thumbnail Glass HUD Overlay & High-Density Chart Rows)
+    - `v3` (Bento Dual-Pill Split & #1 Spotlight Hero Banner + #2/#3 Split)
+  - Added dedicated `Bảng Xếp Hạng` tab (`#leaderboardPanel`, also accessible on mobile dock) with Metric (`Xem Nhiều Nhất` / `Yêu Thích Nhất`), Timeframe (`Hôm nay` / `Tuần này` / `Tháng này` / `Năm nay` / `All-time`), Channel selector, and Genre selector (synced two-way with sidebar/mobile chips).
+  - Added inline Sort & Timeframe filter bar (`#inlineFilterBar`) inside every Channel & Genre browse view, plus full engagement stats inside `#theaterModal` (film header + per-episode capsule buttons) and `#randomModal`.
+
 ## Verification Completed
-- Syntax check: `node --check app.js` exited `0`.
-- Puppeteer responsive & UI verification via `scripts/dev_server.py 18088` across 4 viewports after final edits (`v=20261114_212500`):
-  - `375×812` (mobile): `docSw: 375`, `overflowX: false` (fixed from `489px`), `#liveAudienceBadge` / `#btnHistoryOpen` / `#histCountBadge` removed (`true`), header `h: 60` (`brandLink` `w: 178, h: 34`, `headerActions` `277..361`), `notifPopoverOpen` `12..363` (`docSwWithNotif: 375`), `theaterModal` (`docSwWithTheater: 375`), `randomModal` (`docSwWithRandom: 375`), screenshot visually inspected.
-  - `414×896` (large mobile): `docSw: 414`, `overflowX: false`, Theater Modal episode capsules & `syncMobileDockActive` (`hot`) verified.
-  - `768×1024` (tablet): `docSw: 751`, `overflowX: false`, 2-column grid & notification popover inside viewport.
-  - `1280×800` (desktop): `docSw: 1263`, `overflowX: false`, `#brandCaption` renders `"1.703 BỘ PHIM • 8 KÊNH YOUTUBE"`, 3-column grid (`24` cards), screenshot visually inspected.
+- `python -m py_compile scripts/update_youtube_feed.py scripts/dev_server.py`, `node --check app.js`, and `node --check api/live-feed.js` all exited `0`.
+- Catalog audit: 1,741 total films (`1,691` with real views, likes, and dates; e.g. `film_559` = `4,504,472` views / `124,143` likes).
+- Direct Node test of `api/live-feed.js`: HTTP `200`, `COUNT: 24` via Innertube browse RSS-fallback, with real `durationSec`, `views`, `likes`, and `publishedAt`.
+- Puppeteer verification via `scripts/dev_server.py 18089`:
+  - Desktop `1280×800`: tested standard feed & Leaderboard across `v1`, `v2`, `v3`; inline channel sorting + scope chip clearing; All-time Likes/Views Top 1 (`4,50Tr xem`, `124N thích`); Theater Modal engagement stats (`4.504.472 lượt xem • 124.143 lượt thích`, episode `11,4N xem • 168 thích`); screenshots of `v1`, `v2`, and `v3` Leaderboards inspected visually (`docSw = 1263 <= 1280`).
+  - Mobile `375×812`: tested `v1`, `v2`, `v3` on both Feed and Leaderboard (`docSw = 375` across all 6 combinations, zero horizontal overflow) and mobile dock navigation.
