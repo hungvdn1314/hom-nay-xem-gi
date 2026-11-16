@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 1734,
+    "totalFilms": 1735,
     "totalChannels": 8,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-15T21:25:14.807991+00:00"
+    "lastUpdated": "2026-11-16T01:14:47.527768+00:00"
   },
   "channels": [
     {
@@ -57,6 +57,39 @@
     }
   ],
   "films": [
+    {
+      "id": "film_1735",
+      "title": "P1 |【Minh Hài Lục: Khế Ước Với Nữ Thần!】Trọng Sinh Vào Thế Giới Trò Chơi Nhập Vào Một Bộ Xương Khô",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11736,
+      "totalDurationStr": "3 giờ 15 phút",
+      "review": "💖 Ủng hộ kênh\n🏦 Ngân hàng: VietinBank\n💳 Số tài khoản: 108874911127\n👤 Chủ tài khoản: NGUYỄN THỊ CẨM THY\n\n🎬 【Minh Hài Lục: Khế Ước Với Nữ Thần!】\n\n💀 Trọng sinh vào thế giới trò chơi, Giang Thành vừa tỉnh",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/0Rk41sRf0Lk/hqdefault.jpg",
+      "publishedAt": "2026-11-16T00:49:03+00:00",
+      "updatedAt": "2026-11-16T00:49:03+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1 |【Minh Hài Lục: Khế Ước Với Nữ Thần!】Trọng Sinh Vào Thế Giới Trò Chơi Nhập Vào Một Bộ Xương Khô",
+          "url": "https://www.youtube.com/watch?v=0Rk41sRf0Lk",
+          "id": "0Rk41sRf0Lk",
+          "duration": 11736,
+          "durationStr": "3:15:36",
+          "publishedAt": "2026-11-16T00:49:03+00:00",
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1734",
       "title": "Phần 2 | Hệ Thống Điểm Danh Đăng Nhập Mỗi Ngày, Ta Triệu Hồi Cường Giả Trấn Áp Vạn Giới",
