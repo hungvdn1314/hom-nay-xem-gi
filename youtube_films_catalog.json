@@ -1,17 +1,17 @@
 {
   "stats": {
-    "totalFilms": 2059,
+    "totalFilms": 2073,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-16T04:54:30.253132+00:00"
+    "lastUpdated": "2026-11-16T08:12:14.543805+00:00"
   },
   "channels": [
     {
       "id": "thienphatreview",
       "name": "Thiên Phạt Review",
       "url": "https://www.youtube.com/@thienphatreview",
-      "filmCount": 290
+      "filmCount": 291
     },
     {
       "id": "tieuho_review",
@@ -23,7 +23,7 @@
       "id": "chiuchiusubtv",
       "name": "ChiuChiuSubTV",
       "url": "https://www.youtube.com/@chiuchiusubtv",
-      "filmCount": 167
+      "filmCount": 168
     },
     {
       "id": "melacreview",
@@ -35,19 +35,19 @@
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 274
+      "filmCount": 275
     },
     {
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 289
+      "filmCount": 290
     },
     {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 200
+      "filmCount": 202
     },
     {
       "id": "tieusumuoi",
@@ -59,19 +59,19 @@
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 58
+      "filmCount": 60
     },
     {
       "id": "besuastudio",
       "name": "Bé Sữa Studio",
       "url": "https://www.youtube.com/@besuastudio9",
-      "filmCount": 60
+      "filmCount": 61
     },
     {
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 57
+      "filmCount": 59
     },
     {
       "id": "zzzphim",
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 60
+      "filmCount": 63
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,533 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2189",
+      "title": "MÙA 1-2| CỬA PHẨM THIÊN LINH CĂN 500 NĂM ẨN MÌNH VÙA RA TAY ĐÃ LÀ THIÊN TÔN.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 21230,
+      "totalDurationStr": "5 giờ 53 phút",
+      "totalViews": 13,
+      "totalLikes": 1,
+      "review": "MÙA 1-2| CỬA PHẨM THIÊN LINH CĂN 500 NĂM ẨN MÌNH VÙA RA TAY ĐÃ LÀ THIÊN TÔN. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/7B5C0S7v-BU/hqdefault.jpg",
+      "publishedAt": "2026-11-16T08:05:52+00:00",
+      "updatedAt": "2026-11-16T08:05:52+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "MÙA 1-2| CỬA PHẨM THIÊN LINH CĂN 500 NĂM ẨN MÌNH VÙA RA TAY ĐÃ LÀ THIÊN TÔN.",
+          "url": "https://www.youtube.com/watch?v=7B5C0S7v-BU",
+          "id": "7B5C0S7v-BU",
+          "duration": 21230,
+          "durationStr": "5:53:50",
+          "publishedAt": "2026-11-16T08:05:52+00:00",
+          "views": 13,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2182",
+      "title": "Full Phần 1 | Một Chiếc Xe Buýt Bị Bỏ Hoang Đã Kéo Cả Nhóm Người Vào Vùng Đất Linh Dị Đầy Chết Chóc!",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6790,
+      "totalDurationStr": "1 giờ 53 phút",
+      "totalViews": 27,
+      "totalLikes": 2,
+      "review": "🎬 【Một Chiếc Xe Buýt Bị Bỏ Hoang Đã Kéo Cả Nhóm Người Vào Vùng Đất Linh Dị Đầy Chết Chóc!】 🚌 Một tấm thư mời bí ẩn dẫn Lâm Mặc đến chiếc xe buýt bị bỏ hoang. Từ đó, anh cùng cả nhóm bị kéo vào một vùng đất linh dị, nơi họ phải tìm đường sống giữa những hiện tượng chẳng thể giải thích. 🔥 Lâm Mặc thoát chết trong gang tấc và trở về thế giới thực. Tưởng đã...",
+      "genres": [
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/tpLBdjcVqfE/hqdefault.jpg",
+      "publishedAt": "2026-11-16T07:50:41+00:00",
+      "updatedAt": "2026-11-16T07:50:41+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Một Chiếc Xe Buýt Bị Bỏ Hoang Đã Kéo Cả Nhóm Người Vào Vùng Đất Linh Dị Đầy Chết Chóc!",
+          "url": "https://www.youtube.com/watch?v=tpLBdjcVqfE",
+          "id": "tpLBdjcVqfE",
+          "duration": 6790,
+          "durationStr": "1:53:10",
+          "publishedAt": "2026-11-16T07:50:41+00:00",
+          "views": 27,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2184",
+      "title": "Full Phần 2 |【Tận Thế Kích Hoạt Đoàn Tàu: Càng Nhiều Hành Khách, Tôi Càng Mạnh!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8216,
+      "totalDurationStr": "2 giờ 16 phút",
+      "totalViews": 55,
+      "totalLikes": 0,
+      "review": "🎬 Full Phần 2 |【Tận Thế Kích Hoạt Đoàn Tàu: Càng Nhiều Hành Khách, Tôi Càng Mạnh!】 🚂 Giữa vùng đất hoang, Đoàn Tàu Thương Khung sắp cạn nhiên liệu. May mắn tìm được một dãy toa chở đầy than, trưởng tàu quyết định cải tạo động cơ để tiếp tục hành trình. Trong lúc nối các toa lại, anh phát hiện toa cuối cùng chính là Toa Xe Thời Không. 🔥 Không gian bên...",
+      "genres": [
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/i5qx3cYFY4Y/hqdefault.jpg",
+      "publishedAt": "2026-11-16T07:49:00+00:00",
+      "updatedAt": "2026-11-16T07:49:00+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Full Phần 2 |【Tận Thế Kích Hoạt Đoàn Tàu: Càng Nhiều Hành Khách, Tôi Càng Mạnh!】",
+          "url": "https://www.youtube.com/watch?v=i5qx3cYFY4Y",
+          "id": "i5qx3cYFY4Y",
+          "duration": 8216,
+          "durationStr": "2:16:56",
+          "publishedAt": "2026-11-16T07:49:00+00:00",
+          "views": 55,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2188",
+      "title": "MÙA 1-2|ĐỒ NHI CƯỠNG HÔN SƯ TÔN, KÍCH HOẠT HỆ THỐNG NGHỊCH THIÊN.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 38982,
+      "totalDurationStr": "10 giờ 49 phút",
+      "totalViews": 79,
+      "totalLikes": 14,
+      "review": "MÙA 1-2|ĐỒ NHI CƯỠNG HÔN SƯ TÔN, KÍCH HOẠT HỆ THỐNG NGHỊCH THIÊN. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/gxQKE-t4VF4/hqdefault.jpg",
+      "publishedAt": "2026-11-16T07:47:31+00:00",
+      "updatedAt": "2026-11-16T07:47:31+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "MÙA 1-2|ĐỒ NHI CƯỠNG HÔN SƯ TÔN, KÍCH HOẠT HỆ THỐNG NGHỊCH THIÊN.",
+          "url": "https://www.youtube.com/watch?v=gxQKE-t4VF4",
+          "id": "gxQKE-t4VF4",
+          "duration": 38982,
+          "durationStr": "10:49:42",
+          "publishedAt": "2026-11-16T07:47:31+00:00",
+          "views": 79,
+          "likes": 14,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2192",
+      "title": "P1-2 | 6,5 GIỜ | Cậu Bé Nghèo Nào Ngờ Là Đại Đế Tái Sinh - Thức Tỉnh Thần Lực Nghiền Ép Cả Giáo Phái",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 22906,
+      "totalDurationStr": "6 giờ 21 phút",
+      "totalViews": 421,
+      "totalLikes": 18,
+      "review": "P1-2 | 6,5 GIỜ | Cậu Bé Nghèo Nào Ngờ Là Đại Đế Tái Sinh - Thức Tỉnh Thần Lực Nghiền Ép Cả Giáo Phái Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/N87nlwqtRiY/hqdefault.jpg",
+      "publishedAt": "2026-11-16T07:35:35+00:00",
+      "updatedAt": "2026-11-16T07:35:35+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-2",
+          "title": "P1-2 | 6,5 GIỜ | Cậu Bé Nghèo Nào Ngờ Là Đại Đế Tái Sinh - Thức Tỉnh Thần Lực Nghiền Ép Cả Giáo Phái",
+          "url": "https://www.youtube.com/watch?v=N87nlwqtRiY",
+          "id": "N87nlwqtRiY",
+          "duration": 22906,
+          "durationStr": "6:21:46",
+          "publishedAt": "2026-11-16T07:35:35+00:00",
+          "views": 421,
+          "likes": 18,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2180",
+      "title": "Thức Tỉnh Quỷ Ngẫu Sư Cấp SSS, Binh Đoàn Lính Của Ta Bất Tử Vô Địch",
+      "channelId": "chiuchiusubtv",
+      "channelName": "ChiuChiuSubTV",
+      "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12221,
+      "totalDurationStr": "3 giờ 23 phút",
+      "totalViews": 174,
+      "totalLikes": 10,
+      "review": "📌 Tóm Tắt Phim: Bị bạn gái quen 2 năm rưỡi phũ phàng chia tay ngay tại lễ thức tỉnh vì mang thiên phú Quỷ Ngẫu Sư \"không có linh kỹ truyền thừa\", Lục Viễn tưởng chừng như rơi xuống vực thẳm. Đúng lúc này, \"Hệ Thống Thần Cấp Tiến Hóa\" kích hoạt! Nhận ngay Quỷ Ngẫu Cấp SSS Tai Ách Huyết Đồ cùng Cửu Đại Binh Đoàn Quỷ Ngẫu. Từ kẻ bị chê cười, Lục Viễn từng...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/BBB7_FxKyNA/hqdefault.jpg",
+      "publishedAt": "2026-11-16T07:28:09+00:00",
+      "updatedAt": "2026-11-16T07:28:09+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Thức Tỉnh Quỷ Ngẫu Sư Cấp SSS, Binh Đoàn Lính Của Ta Bất Tử Vô Địch",
+          "url": "https://www.youtube.com/watch?v=BBB7_FxKyNA",
+          "id": "BBB7_FxKyNA",
+          "duration": 12221,
+          "durationStr": "3:23:41",
+          "publishedAt": "2026-11-16T07:28:09+00:00",
+          "views": 174,
+          "likes": 10,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2186",
+      "title": "Phần 1, Từ Kẻ Vô Danh Thành Người Phá Đảo Game 3D, Anh Thức Tỉnh Sức Mạnh Thần Thánh Ngoài Đời Thật",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 29105,
+      "totalDurationStr": "8 giờ 05 phút",
+      "totalViews": 187,
+      "totalLikes": 11,
+      "review": "[ Full ] Phần 1, Từ Kẻ Vô Danh Thành Người Phá Đảo Game 3D, Anh Thức Tỉnh Sức Mạnh Thần Thánh Ngoài Đời Thật Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/5_ESq6t6c38/hqdefault.jpg",
+      "publishedAt": "2026-11-16T07:01:58+00:00",
+      "updatedAt": "2026-11-16T07:01:58+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1, Từ Kẻ Vô Danh Thành Người Phá Đảo Game 3D, Anh Thức Tỉnh Sức Mạnh Thần Thánh Ngoài Đời Thật",
+          "url": "https://www.youtube.com/watch?v=5_ESq6t6c38",
+          "id": "5_ESq6t6c38",
+          "duration": 29105,
+          "durationStr": "8:05:05",
+          "publishedAt": "2026-11-16T07:01:58+00:00",
+          "views": 187,
+          "likes": 11,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2191",
+      "title": "P1-2 | 4,5 GIỜ | Thái Tử Lưu Đày - Nào Ngờ Thành Bạo Chúa Vô Song Với Kiến Thức Thiên Tài",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 16086,
+      "totalDurationStr": "4 giờ 28 phút",
+      "totalViews": 993,
+      "totalLikes": 47,
+      "review": "P1-2 | 4,5 GIỜ | Thái Tử Lưu Đày - Nào Ngờ Thành Bạo Chúa Vô Song Với Kiến Thức Thiên Tài Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành...",
+      "genres": [
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/XTqlQI1GB5s/hqdefault.jpg",
+      "publishedAt": "2026-11-16T06:30:02+00:00",
+      "updatedAt": "2026-11-16T06:30:02+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-2",
+          "title": "P1-2 | 4,5 GIỜ | Thái Tử Lưu Đày - Nào Ngờ Thành Bạo Chúa Vô Song Với Kiến Thức Thiên Tài",
+          "url": "https://www.youtube.com/watch?v=XTqlQI1GB5s",
+          "id": "XTqlQI1GB5s",
+          "duration": 16086,
+          "durationStr": "4:28:06",
+          "publishedAt": "2026-11-16T06:30:02+00:00",
+          "views": 993,
+          "likes": 47,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2179",
+      "title": "Sinh Tồn Mạt Thế: Ta Có Hệ Thống Nâng Cấp Tàu Cao Tốc, Càng Nhiều Hành Khách Càng Mạnh",
+      "channelId": "thienphatreview",
+      "channelName": "Thiên Phạt Review",
+      "channelUrl": "https://www.youtube.com/@thienphatreview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13017,
+      "totalDurationStr": "3 giờ 36 phút",
+      "totalViews": 325,
+      "totalLikes": 14,
+      "review": "Sinh Tồn Mạt Thế: Ta Có Hệ Thống Nâng Cấp Tàu Cao Tốc, Càng Nhiều Hành Khách Càng Mạnh Thiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các thể loại. Review và tóm tắt cốt truyện ngắn gọn, dễ hiểu. Phân tích các nhân vật, tình tiết và những màn chiến đấu hấp dẫn. Cập nhật những bộ phim, hoạt hình và...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/LtSuM4_ucEI/hqdefault.jpg",
+      "publishedAt": "2026-11-16T06:00:17+00:00",
+      "updatedAt": "2026-11-16T06:00:17+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Sinh Tồn Mạt Thế: Ta Có Hệ Thống Nâng Cấp Tàu Cao Tốc, Càng Nhiều Hành Khách Càng Mạnh",
+          "url": "https://www.youtube.com/watch?v=LtSuM4_ucEI",
+          "id": "LtSuM4_ucEI",
+          "duration": 13017,
+          "durationStr": "3:36:57",
+          "publishedAt": "2026-11-16T06:00:17+00:00",
+          "views": 325,
+          "likes": 14,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2185",
+      "title": "P1, Trai Nghèo Kích Hoạt Hệ Thống Đại Hung Phản Tố, Biến Linh Thú Tầm Thường Thành Thần Thú Viễn Cổ",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7782,
+      "totalDurationStr": "2 giờ 09 phút",
+      "totalViews": 768,
+      "totalLikes": 34,
+      "review": "[ Full ] P1, Trai Nghèo Kích Hoạt Hệ Thống Đại Hung Phản Tố, Biến Linh Thú Tầm Thường Thành Thần Thú Viễn Cổ Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/Hm7y_2Nrpkk/hqdefault.jpg",
+      "publishedAt": "2026-11-16T05:25:48+00:00",
+      "updatedAt": "2026-11-16T05:25:48+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Trai Nghèo Kích Hoạt Hệ Thống Đại Hung Phản Tố, Biến Linh Thú Tầm Thường Thành Thần Thú Viễn Cổ",
+          "url": "https://www.youtube.com/watch?v=Hm7y_2Nrpkk",
+          "id": "Hm7y_2Nrpkk",
+          "duration": 7782,
+          "durationStr": "2:09:42",
+          "publishedAt": "2026-11-16T05:25:48+00:00",
+          "views": 768,
+          "likes": 34,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2181",
+      "title": "Full Phần 1 | 【Kinh Doanh Giữa Tận Thế: Cửa Hàng Của Tôi Có Kết Giới An Toàn!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19125,
+      "totalDurationStr": "5 giờ 18 phút",
+      "totalViews": 1047,
+      "totalLikes": 73,
+      "review": "🎬 【Kinh Doanh Giữa Tận Thế: Cửa Hàng Của Tôi Có Kết Giới An Toàn!】 🛒 Giữa tận thế, nữ chính mở một cửa hàng có kết giới bảo vệ. Chỉ cần bước qua cửa, những người sống sót có thể tạm tránh hiểm nguy bên ngoài, nghỉ chân và mua những món đồ thiết yếu cho chặng đường tiếp theo. 🔥 Kết giới giúp cô giữ cửa hàng an toàn, nhưng buôn bán giữa thời buổi khan hiếm...",
+      "genres": [
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/1mwIh5HEHuM/hqdefault.jpg",
+      "publishedAt": "2026-11-16T05:16:25+00:00",
+      "updatedAt": "2026-11-16T05:16:25+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Kinh Doanh Giữa Tận Thế: Cửa Hàng Của Tôi Có Kết Giới An Toàn!】",
+          "url": "https://www.youtube.com/watch?v=1mwIh5HEHuM",
+          "id": "1mwIh5HEHuM",
+          "duration": 19125,
+          "durationStr": "5:18:45",
+          "publishedAt": "2026-11-16T05:16:25+00:00",
+          "views": 1047,
+          "likes": 73,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2183",
+      "title": "【Mùa 1–2】Mỗi Kỹ Năng Chỉ Tốn 1 Tệ Để Thăng 1 Cấp, Hãy Gọi Tôi Là Pháp Thần Cấp SSS!",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 26859,
+      "totalDurationStr": "7 giờ 27 phút",
+      "totalViews": 348,
+      "totalLikes": 11,
+      "review": "🎬 【Mùa 1–2】Mỗi Kỹ Năng Chỉ Tốn 1 Tệ Để Thăng 1 Cấp, Hãy Gọi Tôi Là Pháp Thần Cấp SSS! ⚡ Xuyên đến thế giới thức tỉnh nghề nghiệp, Tiêu Phàm trở thành pháp sư cấp thấp và bị đồng đội gạt ra ngoài. Hệ thống ban đầu đòi 10.000 tệ cho mỗi lần nâng một cấp kỹ năng. Nhờ phần thưởng cho phép xóa chữ “vạn”, mức giá rơi xuống còn đúng 1 tệ. Có lợi thế trong tay,...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/l0DBUfVZXj0/hqdefault.jpg",
+      "publishedAt": "2026-11-16T05:16:03+00:00",
+      "updatedAt": "2026-11-16T05:16:03+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Mỗi Kỹ Năng Chỉ Tốn 1 Tệ Để Thăng 1 Cấp, Hãy Gọi Tôi Là Pháp Thần Cấp SSS!",
+          "url": "https://www.youtube.com/watch?v=l0DBUfVZXj0",
+          "id": "l0DBUfVZXj0",
+          "duration": 26859,
+          "durationStr": "7:27:39",
+          "publishedAt": "2026-11-16T05:16:03+00:00",
+          "views": 348,
+          "likes": 11,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2190",
+      "title": "Phần 1-2 | 7 GIỜ THỎA MÃN | Đệ Tử Phế Linh Căn - Hệ Thống Sao Chép Thần Cấp Tu Thành Vô Địch",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 25024,
+      "totalDurationStr": "6 giờ 57 phút",
+      "totalViews": 2606,
+      "totalLikes": 43,
+      "review": "Phần 1-2 | 7 GIỜ THỎA MÃN | Đệ Tử Phế Linh Căn - Hệ Thống Sao Chép Thần Cấp Tu Thành Vô Địch Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/ACAaIyiRFEM/hqdefault.jpg",
+      "publishedAt": "2026-11-16T05:06:45+00:00",
+      "updatedAt": "2026-11-16T05:06:45+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-2",
+          "title": "Phần 1-2 | 7 GIỜ THỎA MÃN | Đệ Tử Phế Linh Căn - Hệ Thống Sao Chép Thần Cấp Tu Thành Vô Địch",
+          "url": "https://www.youtube.com/watch?v=ACAaIyiRFEM",
+          "id": "ACAaIyiRFEM",
+          "duration": 25024,
+          "durationStr": "6:57:04",
+          "publishedAt": "2026-11-16T05:06:45+00:00",
+          "views": 2606,
+          "likes": 43,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2187",
+      "title": "Mạt Thế Trùng Sinh: Tôi Bắt Tay Với Quân Đội Khởi Động Kế Hoạch Tạo Thần",
+      "channelId": "besuastudio",
+      "channelName": "Bé Sữa Studio",
+      "channelUrl": "https://www.youtube.com/@besuastudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6530,
+      "totalDurationStr": "1 giờ 48 phút",
+      "totalViews": 946,
+      "totalLikes": 50,
+      "review": "FULL l Mạt Thế Trùng Sinh: Tôi Bắt Tay Với Quân Đội Khởi Động Kế Hoạch Tạo Thần | Bé Sữa Studio Tóm tắt: Nhiễm Tư Di trùng sinh về thời điểm trước mạt thế hai ngày. Cô lập tức thuyết phục mẹ ly hôn người cha bội bạc Tống Thế Đức, đồng thời kích hoạt không gian nông trại gia truyền và thức tỉnh đa dị năng (Kim, Phong, Kiểm soát). Tư Di chủ động hợp tác...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/A3bUl1pITAg/hqdefault.jpg",
+      "publishedAt": "2026-11-16T05:00:01+00:00",
+      "updatedAt": "2026-11-16T05:00:01+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Mạt Thế Trùng Sinh: Tôi Bắt Tay Với Quân Đội Khởi Động Kế Hoạch Tạo Thần",
+          "url": "https://www.youtube.com/watch?v=A3bUl1pITAg",
+          "id": "A3bUl1pITAg",
+          "duration": 6530,
+          "durationStr": "1:48:50",
+          "publishedAt": "2026-11-16T05:00:01+00:00",
+          "views": 946,
+          "likes": 50,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1862",
       "title": "Tôi Vào Game Sinh Tồn Nhặt Trang Bị Như Nhặt Rác, Tiện Tay Rước Đại Ma Vương Bị Truy Nã Về Nuôi",
@@ -51925,10 +52452,10 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLL7YYPSKlfMI",
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 39597,
-      "totalDurationStr": "10 giờ 59 phút",
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 57966,
+      "totalDurationStr": "16 giờ 06 phút",
       "review": "Yêu Phi Vừa Ra Tay, Quốc Vận Liền Lên Mây. (3 phần / 3 video (Mùa 1, Mùa 3-P1, Mùa 3-P2))",
       "genres": [
         "Hoạt hình 3D Chọn Lọc"
@@ -51950,6 +52477,19 @@
         },
         {
           "index": 2,
+          "label": "Mùa 5",
+          "title": "Mùa 5 | Yêu Phi Vừa Ra Tay, Quốc Vận Liền Lên Mây",
+          "url": "https://www.youtube.com/watch?v=aqERZ4-6zIA",
+          "id": "aqERZ4-6zIA",
+          "duration": 18369,
+          "durationStr": "5:06:09",
+          "publishedAt": "2026-11-16T06:25:02+00:00",
+          "views": 240,
+          "likes": 19,
+          "isRedundant": false
+        },
+        {
+          "index": 3,
           "label": "Mùa 3 - P1",
           "title": "Mùa 3 - P1 | Yêu Phi Vừa Ra Tay, Quốc Vận Liền Lên Mây",
           "url": "https://www.youtube.com/watch?v=Xmz2y3fgzqg",
@@ -51962,7 +52502,7 @@
           "publishedAt": "2026-10-22T00:00:00+00:00"
         },
         {
-          "index": 3,
+          "index": 4,
           "label": "Mùa 3 - P2",
           "title": "Mùa 3 - P2 | Yêu Phi Vừa Ra Tay, Quốc Vận Liền Lên Mây",
           "url": "https://www.youtube.com/watch?v=JQ1d7alv8Qk",
@@ -51975,11 +52515,11 @@
           "publishedAt": "2026-10-28T00:00:00+00:00"
         }
       ],
-      "totalViews": 55179,
-      "totalLikes": 909,
+      "totalViews": 55419,
+      "totalLikes": 928,
       "publishedAt": "2026-08-12T00:00:00+00:00",
-      "updatedAt": "2026-10-28T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-16T06:25:02+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_762",
@@ -60017,10 +60557,10 @@
       "channelName": "Thiên Ảnh Studio",
       "channelUrl": "https://www.youtube.com/@thienanhstudio9",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLYcBWgWS9B9g",
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 27656,
-      "totalDurationStr": "7 giờ 40 phút",
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 39502,
+      "totalDurationStr": "10 giờ 58 phút",
       "review": "Bán Đồ Nướng Kèm Bia Ở Trạm Dừng Cao Tốc, Tôi Biến Quán Vắng Thành Địa Danh Ẩm Thực Cả Thành Phố. (3 phần (Phần 1 -> 3))",
       "genres": [
         "Sinh tồn / Mạt thế"
@@ -60065,13 +60605,26 @@
           "views": 6794,
           "likes": 125,
           "publishedAt": "2026-10-27T00:00:00+00:00"
+        },
+        {
+          "index": 4,
+          "label": "Phần 4",
+          "title": "P4| Bán Đồ Nướng Kèm Bia Ở Trạm Dừng Cao Tốc, Tôi Biến Quán Vắng Thành Địa Danh Ẩm Thực Cả Thành Phố",
+          "url": "https://www.youtube.com/watch?v=4vdHpx2QnZ8",
+          "id": "4vdHpx2QnZ8",
+          "duration": 11846,
+          "durationStr": "3:17:26",
+          "publishedAt": "2026-11-16T07:47:59+00:00",
+          "views": 64,
+          "likes": 7,
+          "isRedundant": false
         }
       ],
-      "totalViews": 43576,
-      "totalLikes": 858,
+      "totalViews": 43640,
+      "totalLikes": 865,
       "publishedAt": "2026-10-05T00:00:00+00:00",
-      "updatedAt": "2026-10-27T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-16T07:47:59+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_900",
@@ -69598,10 +70151,10 @@
       "channelName": "Mộng Ảnh Studio",
       "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 9676,
-      "totalDurationStr": "2 giờ 41 phút",
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 20397,
+      "totalDurationStr": "5 giờ 39 phút",
       "review": "Vườn Thú Hoang Dã!. (1 video (Mùa 1))",
       "genres": [
         "Hoạt hình 3D Chọn Lọc"
@@ -69620,13 +70173,26 @@
           "views": 54757,
           "likes": 1291,
           "publishedAt": "2026-11-08T00:00:00+00:00"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 2",
+          "title": "【Full Mùa 2】Người Đàn Ông Khiến Muôn Thú Mê Mẩn: Vườn Thú Hoang Dã!",
+          "url": "https://www.youtube.com/watch?v=MouNq-x6R9U",
+          "id": "MouNq-x6R9U",
+          "duration": 10721,
+          "durationStr": "2:58:41",
+          "publishedAt": "2026-11-16T05:14:11+00:00",
+          "views": 480,
+          "likes": 33,
+          "isRedundant": false
         }
       ],
-      "totalViews": 54757,
-      "totalLikes": 1291,
+      "totalViews": 55237,
+      "totalLikes": 1324,
       "publishedAt": "2026-11-08T00:00:00+00:00",
-      "updatedAt": "2026-11-08T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-16T05:14:11+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_1141",
