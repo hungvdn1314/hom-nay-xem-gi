@@ -23,7 +23,6 @@
     timeRange: 'all',
     leaderboardMetric: 'views',
     leaderboardTime: 'week',
-    uiVariant: 'v1',
     searchQuery: '',
     currentPage: 1,
     pageSize: 24,
@@ -74,7 +73,6 @@
 
     el.searchInput = document.getElementById('searchInput');
     el.searchClearBtn = document.getElementById('searchClearBtn');
-    el.uiVariantSwitcher = document.getElementById('uiVariantSwitcher');
     el.categoryTabsGroup = document.getElementById('categoryTabsGroup');
     el.tabRecentBadge = document.getElementById('tabRecentBadge');
     el.feedCountSummary = document.getElementById('feedCountSummary');
@@ -118,25 +116,8 @@
 
   const SCHEMA_VERSION = '20261116_v5_stats_leaderboard';
 
-  function applyUiVariant(variant) {
-    const valid = ['v1', 'v2', 'v3'].includes(variant) ? variant : 'v1';
-    state.uiVariant = valid;
-    if (document.body) {
-      document.body.dataset.uiVariant = valid;
-    }
-    el.uiVariantSwitcher?.querySelectorAll('.variant-pill').forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.variant === valid);
-    });
-    try {
-      localStorage.setItem('homnayxemgi_ui_variant', valid);
-    } catch (e) {}
-  }
-
   function loadStoredData() {
     try {
-      const savedVariant = localStorage.getItem('homnayxemgi_ui_variant');
-      applyUiVariant(savedVariant || 'v1');
-
       const v = localStorage.getItem('homnayxemgi_version');
       if (v !== SCHEMA_VERSION) {
         localStorage.removeItem('homnayxemgi_notifs');
@@ -1110,21 +1091,14 @@
       }
     }
 
-    // Toggle Chart List mode in UI Variant v2 Leaderboard
-    const isChartListMode = isLeaderboard && state.uiVariant === 'v2' && totalCount > 0;
+    // Leaderboard uses high-density Chart List mode
+    const isChartListMode = isLeaderboard && totalCount > 0;
     if (el.cardsWidescreenGrid) {
       el.cardsWidescreenGrid.classList.toggle('chart-list-mode', isChartListMode);
     }
 
     if (isLeaderboard) {
-      const showcaseRenderedCount = renderLeaderboardShowcase(
-        scored.map((it, i) => ({ ...it, rank: i + 1 })),
-        totalCount
-      );
-      // In v1 and v3 on Page 1, Top 3 are displayed in #leaderboardShowcase, so render items 4..24 in grid
-      if (state.currentPage === 1 && showcaseRenderedCount > 0 && state.uiVariant !== 'v2') {
-        pageItems = pageItems.slice(showcaseRenderedCount);
-      }
+      renderLeaderboardShowcase(totalCount);
     } else if (el.leaderboardShowcase) {
       el.leaderboardShowcase.innerHTML = '';
     }
@@ -1132,54 +1106,28 @@
     if (isChartListMode) {
       renderChartRows(pageItems);
     } else {
-      renderCards(pageItems, { showRanks, isLeaderboard, emptyAlreadyShown: isLeaderboard && totalCount === 0 });
+      renderCards(pageItems, { showRanks, emptyAlreadyShown: isLeaderboard && totalCount === 0 });
     }
     renderPagination(totalPages);
   }
 
-  function renderCardStatsHtml(views, likes, variant) {
+  function renderCardStatsHtml(views, likes) {
     const vText = formatCompactCountVi(views);
     const lText = formatCompactCountVi(likes);
     const vExact = `${formatExactCountVi(views)} lượt xem`;
     const lExact = `${formatExactCountVi(likes)} lượt thích`;
-    const likeRatio = views > 0 ? Math.min(100, Math.max(0.5, (likes / views) * 100)) : 0;
 
-    if (variant === 'v2') {
-      return `
-        <div class="card-hud-stats" title="${vExact} • ${lExact}">
-          <span class="hud-metric hud-views">${ICON_EYE_XS}<span>${vText}</span></span>
-          <span class="hud-sep">•</span>
-          <span class="hud-metric hud-likes">${ICON_HEART_XS}<span>${lText}</span></span>
-        </div>
-      `;
-    }
-
-    if (variant === 'v3') {
-      return `
-        <div class="card-bento-stats">
-          <div class="bento-stat-pill bento-views" title="${vExact}">
-            ${ICON_EYE_XS}
-            <span class="bento-num">${vText}</span>
-            <span class="bento-lbl">xem</span>
-          </div>
-          <div class="bento-stat-pill bento-likes" title="${lExact}">
-            ${ICON_HEART_XS}
-            <span class="bento-num">${lText}</span>
-            <span class="bento-lbl">thích</span>
-          </div>
-        </div>
-      `;
-    }
-
-    // Default v1: Editorial Footer Bar with thin engagement bar
     return `
-      <div class="card-stats-v1" title="${vExact} • ${lExact}">
-        <div class="stats-v1-row">
-          <span class="stat-item stat-views">${ICON_EYE_XS}<strong>${vText}</strong> xem</span>
-          <span class="stat-item stat-likes">${ICON_HEART_XS}<strong>${lText}</strong> thích</span>
+      <div class="card-bento-stats">
+        <div class="bento-stat-pill bento-views" title="${vExact}">
+          ${ICON_EYE_XS}
+          <span class="bento-num">${vText}</span>
+          <span class="bento-lbl">xem</span>
         </div>
-        <div class="stats-ratio-track" aria-hidden="true">
-          <div class="stats-ratio-fill" style="width: ${Math.min(100, Math.round(likeRatio * 20))}%"></div>
+        <div class="bento-stat-pill bento-likes" title="${lExact}">
+          ${ICON_HEART_XS}
+          <span class="bento-num">${lText}</span>
+          <span class="bento-lbl">thích</span>
         </div>
       </div>
     `;
@@ -1188,7 +1136,6 @@
   function buildCardMarkup(entry, options = {}) {
     const { film, periodViews, periodLikes, rank } = entry;
     const { showRank = false, extraClass = '' } = options;
-    const variant = state.uiVariant || 'v1';
     const isFav = state.favorites.has(film.id);
     const partsLabel = film.partsCount > 1 ? `${film.partsCount} Phần` : 'Trọn bộ 1 tập';
     const hasRecentBadge = film.isRecent24h && film.recentUpdate;
@@ -1196,7 +1143,7 @@
     const viewsVal = periodViews !== undefined ? periodViews : (film.totalViews || 0);
     const likesVal = periodLikes !== undefined ? periodLikes : (film.totalLikes || 0);
     const rankClass = rank === 1 ? 'rank-gold' : (rank === 2 ? 'rank-silver' : (rank === 3 ? 'rank-bronze' : ''));
-    const statsMarkup = renderCardStatsHtml(viewsVal, likesVal, variant);
+    const statsMarkup = renderCardStatsHtml(viewsVal, likesVal);
 
     return `
       <article class="film-card ${extraClass} ${rankClass}" data-film-id="${film.id}" title="${escapeHtml(film.title)}">
@@ -1234,8 +1181,6 @@
             </div>
           ` : ''}
 
-          ${variant === 'v2' ? statsMarkup : ''}
-
           <button type="button" class="card-fav-btn ${isFav ? 'active' : ''}" data-fav-id="${film.id}" title="${isFav ? 'Đang theo dõi (Bấm để hủy)' : 'Theo dõi phim này để nhận thông báo tập mới'}">
             <svg class="icon icon-xs" viewBox="0 0 24 24" fill="${isFav ? 'currentColor' : 'none'}"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
           </button>
@@ -1253,14 +1198,14 @@
             <span class="card-channel-name">${escapeHtml(film.channelName)}</span>
             <span class="card-genre-text">${escapeHtml(film.genre)}</span>
           </div>
-          ${variant !== 'v2' ? statsMarkup : ''}
+          ${statsMarkup}
         </div>
       </article>
     `;
   }
 
-  function renderLeaderboardShowcase(allRankedItems, totalCount) {
-    if (!el.leaderboardShowcase) return 0;
+  function renderLeaderboardShowcase(totalCount) {
+    if (!el.leaderboardShowcase) return;
 
     if (totalCount === 0) {
       el.leaderboardShowcase.innerHTML = `
@@ -1274,95 +1219,17 @@
           </div>
         </div>
       `;
-      return 0;
+      return;
     }
 
-    if (state.currentPage > 1) {
-      el.leaderboardShowcase.innerHTML = '';
-      return 0;
-    }
-
-    // Variant v2: Chart Header Strip (all rows render inside #cardsWidescreenGrid.chart-list-mode)
-    if (state.uiVariant === 'v2') {
-      el.leaderboardShowcase.innerHTML = `
-        <div class="chart-table-head" aria-hidden="true">
-          <span class="cth-rank">Hạng</span>
-          <span class="cth-film">Phim &amp; Kênh phát hành</span>
-          <span class="cth-stat">Lượt Xem</span>
-          <span class="cth-stat">Lượt Thích</span>
-        </div>
-      `;
-      return 0;
-    }
-
-    const topItems = allRankedItems.slice(0, 3);
-
-    // Variant v3: Spotlight #1 Hero Banner + #2/#3 Bento Split
-    if (state.uiVariant === 'v3') {
-      const hero = topItems[0];
-      const runners = topItems.slice(1, 3);
-      const isFavHero = state.favorites.has(hero.film.id);
-
-      let html = `
-        <div class="lb-hero-spotlight film-card-trigger" data-film-id="${hero.film.id}">
-          <div class="lb-hero-media">
-            <img src="${escapeHtml(hero.film.thumbnailUrl)}" alt="${escapeHtml(hero.film.title)}" class="lb-hero-img">
-            <div class="card-rank-badge rank-gold">#1 QUÁN QUÂN</div>
-            ${hero.film.totalDuration ? `<div class="card-duration-badge">${escapeHtml(hero.film.totalDuration)}</div>` : ''}
-          </div>
-          <div class="lb-hero-content">
-            <div class="lb-hero-kicker">
-              <span class="lb-hero-channel">${escapeHtml(hero.film.channelName)}</span>
-              <span>•</span>
-              <span>${escapeHtml(hero.film.genre)}</span>
-              <span>•</span>
-              <span>${hero.film.partsCount > 1 ? `${hero.film.partsCount} Phần` : 'Bản Full'}</span>
-            </div>
-            <h3 class="lb-hero-title">${escapeHtml(hero.film.title)}</h3>
-            <p class="lb-hero-synopsis">${escapeHtml(hero.film.synopsis)}</p>
-            <div class="lb-hero-metrics">
-              <div class="hero-metric-box hero-metric-views">
-                ${ICON_EYE_XS}
-                <div>
-                  <div class="hm-value">${formatExactCountVi(hero.periodViews)}</div>
-                  <div class="hm-label">Lượt xem</div>
-                </div>
-              </div>
-              <div class="hero-metric-box hero-metric-likes">
-                ${ICON_HEART_XS}
-                <div>
-                  <div class="hm-value">${formatExactCountVi(hero.periodLikes)}</div>
-                  <div class="hm-label">Lượt thích</div>
-                </div>
-              </div>
-            </div>
-            <div class="lb-hero-actions">
-              <button type="button" class="btn-play-suggestion lb-hero-play-btn" data-film-id="${hero.film.id}">
-                <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
-                <span>Xem Ngay</span>
-              </button>
-              <button type="button" class="card-fav-btn hero-fav-btn ${isFavHero ? 'active' : ''}" data-fav-id="${hero.film.id}" title="Lưu phim">
-                <svg class="icon icon-xs" viewBox="0 0 24 24" fill="${isFavHero ? 'currentColor' : 'none'}"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
-              </button>
-            </div>
-          </div>
-        </div>
-      `;
-
-      if (runners.length > 0) {
-        html += `<div class="lb-runners-grid">${runners.map(item => buildCardMarkup(item, { showRank: true, extraClass: 'lb-podium-card' })).join('')}</div>`;
-      }
-      el.leaderboardShowcase.innerHTML = html;
-      return topItems.length;
-    }
-
-    // Default Variant v1: Classic 3-Column Podium Grid (#1, #2, #3)
     el.leaderboardShowcase.innerHTML = `
-      <div class="lb-podium-grid">
-        ${topItems.map(item => buildCardMarkup(item, { showRank: true, extraClass: 'lb-podium-card' })).join('')}
+      <div class="chart-table-head" aria-hidden="true">
+        <span class="cth-rank">Hạng</span>
+        <span class="cth-film">Phim &amp; Kênh phát hành</span>
+        <span class="cth-stat">Lượt Xem</span>
+        <span class="cth-stat">Lượt Thích</span>
       </div>
     `;
-    return topItems.length;
   }
 
   function renderChartRows(items) {
@@ -1727,14 +1594,6 @@
       el.searchInput?.focus();
     });
 
-    // UI Variant Switcher (Compare 3 Optimized Designs Live)
-    el.uiVariantSwitcher?.addEventListener('click', e => {
-      const btn = e.target.closest('.variant-pill');
-      if (!btn || !btn.dataset.variant) return;
-      applyUiVariant(btn.dataset.variant);
-      applyFiltersAndRender(state.currentPage);
-    });
-
     // Feed Tabs
     el.categoryTabsGroup?.addEventListener('click', e => {
       const tabBtn = e.target.closest('.tab-pill');
@@ -1819,17 +1678,6 @@
         syncAllScopeControls();
         applyFiltersAndRender(1);
         return;
-      }
-      const favBtn = e.target.closest('.card-fav-btn');
-      if (favBtn) {
-        e.stopPropagation();
-        toggleFavorite(favBtn.dataset.favId);
-        return;
-      }
-      const trigger = e.target.closest('.film-card, .film-card-trigger, .lb-hero-play-btn');
-      if (trigger && trigger.dataset.filmId) {
-        const film = state.allFilms.find(f => f.id === trigger.dataset.filmId);
-        if (film) openPlayer(film, { partPos: 0, videoId: film.parts[0]?.videoId, partNumber: film.parts[0]?.partNumber || 1 });
       }
     });
 
