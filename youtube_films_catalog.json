@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2125,
+    "totalFilms": 2129,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T08:41:53.095849+00:00"
+    "lastUpdated": "2026-11-17T09:00:43.198476+00:00"
   },
   "channels": [
     {
@@ -35,19 +35,19 @@
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 279
+      "filmCount": 280
     },
     {
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 297
+      "filmCount": 298
     },
     {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 207
+      "filmCount": 208
     },
     {
       "id": "tieusumuoi",
@@ -59,7 +59,7 @@
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 62
+      "filmCount": 63
     },
     {
       "id": "besuastudio",
@@ -105,6 +105,157 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2248",
+      "title": "P1, Truyền Nhân Liệp Tà Sư Thức Tỉnh Sức Mạnh Ngũ Hành Nghịch Thiên, Kế Thừa Sứ Mệnh Trấn Áp Tà Thần",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7105,
+      "totalDurationStr": "1 giờ 58 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "[ Full ] P1, Truyền Nhân Liệp Tà Sư Thức Tỉnh Sức Mạnh Ngũ Hành Nghịch Thiên, Kế Thừa Sứ Mệnh Trấn Áp Tà Thần Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/uCNzS3AIY4w/hqdefault.jpg",
+      "publishedAt": "2026-11-17T09:00:21+00:00",
+      "updatedAt": "2026-11-17T09:00:21+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Truyền Nhân Liệp Tà Sư Thức Tỉnh Sức Mạnh Ngũ Hành Nghịch Thiên, Kế Thừa Sứ Mệnh Trấn Áp Tà Thần",
+          "url": "https://www.youtube.com/watch?v=uCNzS3AIY4w",
+          "id": "uCNzS3AIY4w",
+          "duration": 7105,
+          "durationStr": "1:58:25",
+          "publishedAt": "2026-11-17T09:00:21+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2246",
+      "title": "Full Phần 1 | Sinh Tồn Trên Đường Cao Tốc: Tôi Lại Biến Thành Một Chiếc Xe Máy Điện Dùng Chung!",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10986,
+      "totalDurationStr": "3 giờ 03 phút",
+      "totalViews": 44,
+      "totalLikes": 4,
+      "review": "🎬 【Sinh Tồn Trên Đường Cao Tốc: Tôi Lại Biến Thành Một Chiếc Xe Máy Điện Dùng Chung!】 🛵 Xuyên đến Lam Tinh đúng lúc trò chơi sinh tồn trên đường cao tốc bắt đầu, Diệp Lâm Xuyên phát hiện linh hồn mình đã nhập vào một chiếc xe máy điện dùng chung. Chiếc xe có thể biến thành người máy biết nói và hấp thụ năng lực của các vật phẩm cơ khí. Có điều, hết điện...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/_0paHB8ghDg/hqdefault.jpg",
+      "publishedAt": "2026-11-17T08:44:35+00:00",
+      "updatedAt": "2026-11-17T08:44:35+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Sinh Tồn Trên Đường Cao Tốc: Tôi Lại Biến Thành Một Chiếc Xe Máy Điện Dùng Chung!",
+          "url": "https://www.youtube.com/watch?v=_0paHB8ghDg",
+          "id": "_0paHB8ghDg",
+          "duration": 10986,
+          "durationStr": "3:03:06",
+          "publishedAt": "2026-11-17T08:44:35+00:00",
+          "views": 44,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2247",
+      "title": "Full Phần 2 |【Top 2 Ngửa Bài Rồi!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8955,
+      "totalDurationStr": "2 giờ 29 phút",
+      "totalViews": 12,
+      "totalLikes": 1,
+      "review": "🎬 Full Phần 2 |【Top 2 Ngửa Bài Rồi!】 🔥 “Tôi chỉ đứng hạng hai vì không muốn đứng hạng nhất.” Sang Phần 2, Top 2 cùng nhóm người sinh tồn lần theo những bí mật dưới lòng Thành phố Nấm. Càng điều tra, họ càng nhận ra có kẻ đang nhắm đến cả nhóm để biến họ thành phôi nấm. 🍄 Khi cả nhóm đụng tới thiết bị cấp điện, hệ thống lập tức phát cảnh báo. Những kẻ cai...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/7uLrn5hi3dg/hqdefault.jpg",
+      "publishedAt": "2026-11-17T08:42:52+00:00",
+      "updatedAt": "2026-11-17T08:42:52+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Full Phần 2 |【Top 2 Ngửa Bài Rồi!】",
+          "url": "https://www.youtube.com/watch?v=7uLrn5hi3dg",
+          "id": "7uLrn5hi3dg",
+          "duration": 8955,
+          "durationStr": "2:29:15",
+          "publishedAt": "2026-11-17T08:42:52+00:00",
+          "views": 12,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2245",
+      "title": "Full Phần 1 | 【Quy Tắc Quỷ Dị: Cuộc Đào Thoát Lúc Nửa Đêm!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 16234,
+      "totalDurationStr": "4 giờ 30 phút",
+      "totalViews": 48,
+      "totalLikes": 4,
+      "review": "🎬 【Quy Tắc Quỷ Dị: Cuộc Đào Thoát Lúc Nửa Đêm!】 🚪 Một kẻ lạ dùng chìa khóa mở cửa xông vào nhà Vương Ngạn. Anh gọi bảo vệ rồi đứng ngay trước cửa chờ người tới. Qua điện thoại, họ nói đã lên đúng tầng 21 và gõ cửa suốt mấy phút. Thế nhưng từ chỗ Vương Ngạn đứng, thang máy vừa mở ra hoàn toàn trống rỗng. 🕛 Khi tìm đường thoát, anh nhận ra cầu thang dẫn...",
+      "genres": [
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/imwPJ_-g_BI/hqdefault.jpg",
+      "publishedAt": "2026-11-17T08:42:30+00:00",
+      "updatedAt": "2026-11-17T08:42:30+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Quy Tắc Quỷ Dị: Cuộc Đào Thoát Lúc Nửa Đêm!】",
+          "url": "https://www.youtube.com/watch?v=imwPJ_-g_BI",
+          "id": "imwPJ_-g_BI",
+          "duration": 16234,
+          "durationStr": "4:30:34",
+          "publishedAt": "2026-11-17T08:42:30+00:00",
+          "views": 48,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2244",
       "title": "Phần 7-8 | Hệ Thống Vô Hạn Thọ Nguyên Đổi Lấy Bảo Vật, Phàm Nhân Tu Thành Đại Đế",
