@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2143,
+    "totalFilms": 2147,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T12:30:43.455229+00:00"
+    "lastUpdated": "2026-11-17T13:00:36.446635+00:00"
   },
   "channels": [
     {
@@ -17,7 +17,7 @@ window.FILMS_DATA = {
       "id": "tieuho_review",
       "name": "Tiểu Hồ Review (Dorovietsub)",
       "url": "https://www.youtube.com/@Ti%E1%BB%83u-H%E1%BB%93_Review",
-      "filmCount": 201
+      "filmCount": 202
     },
     {
       "id": "chiuchiusubtv",
@@ -71,19 +71,19 @@ window.FILMS_DATA = {
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 66
+      "filmCount": 67
     },
     {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 64
+      "filmCount": 65
     },
     {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 81
+      "filmCount": 82
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,156 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2266",
+      "title": "3 GIỜ | Lão Tổ Ngủ Say Triệu Năm Với Tu Vi Vô Địch - Trấn Áp Cả Đại Đế Giải Cứu Cả Gia Tộc",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9624,
+      "totalDurationStr": "2 giờ 40 phút",
+      "totalViews": 22,
+      "totalLikes": 0,
+      "review": "3 GIỜ | Lão Tổ Ngủ Say Triệu Năm Với Tu Vi Vô Địch - Trấn Áp Cả Đại Đế Giải Cứu Cả Gia Tộc Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/nIiMJwjUd5Y/hqdefault.jpg",
+      "publishedAt": "2026-11-17T12:57:33+00:00",
+      "updatedAt": "2026-11-17T12:57:33+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "3 GIỜ | Lão Tổ Ngủ Say Triệu Năm Với Tu Vi Vô Địch - Trấn Áp Cả Đại Đế Giải Cứu Cả Gia Tộc",
+          "url": "https://www.youtube.com/watch?v=nIiMJwjUd5Y",
+          "id": "nIiMJwjUd5Y",
+          "duration": 9624,
+          "durationStr": "2:40:24",
+          "publishedAt": "2026-11-17T12:57:33+00:00",
+          "views": 22,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2263",
+      "title": "Phần 2 | Xuyên Thành Thế Tử Trấn Bắc Vương Phủ, Khởi Đầu Đã Kích Hoạt Chí Cao Hệ Thống",
+      "channelId": "tieuho_review",
+      "channelName": "Tiểu Hồ Review (Dorovietsub)",
+      "channelUrl": "https://www.youtube.com/@Ti%E1%BB%83u-H%E1%BB%93_Review",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11640,
+      "totalDurationStr": "3 giờ 14 phút",
+      "totalViews": 288,
+      "totalLikes": 23,
+      "review": "Sở Phàm xuyên không đến thế giới huyền huyễn, phát hiện mình không phải phế vật mà là thiên tài nổi danh Bắc Cảnh. Ông nội là chủ nhân Bắc Cảnh, cha là đại nguyên soái, thân phận vô cùng hiển hách. Nhưng từ nhỏ, hắn đã trải qua hàng nghìn lần ám sát, hoàng chủ cũng luôn tìm cách diệt trừ cả Sở gia vì kiêng dè ông nội. Đúng lúc Sở Phàm định ẩn mình tu...",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/uPkXp9QzamE/hqdefault.jpg",
+      "publishedAt": "2026-11-17T12:54:07+00:00",
+      "updatedAt": "2026-11-17T12:54:07+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Phần 2 | Xuyên Thành Thế Tử Trấn Bắc Vương Phủ, Khởi Đầu Đã Kích Hoạt Chí Cao Hệ Thống",
+          "url": "https://www.youtube.com/watch?v=uPkXp9QzamE",
+          "id": "uPkXp9QzamE",
+          "duration": 11640,
+          "durationStr": "3:14:00",
+          "publishedAt": "2026-11-17T12:54:07+00:00",
+          "views": 288,
+          "likes": 23,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2265",
+      "title": "Xuyên Không Thành Nữ Phụ Chỉ Muốn Sống, Nào Ngờ Nam Chính Nghịch Thiên Si Mê Nàng!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 17746,
+      "totalDurationStr": "4 giờ 55 phút",
+      "totalViews": 26,
+      "totalLikes": 2,
+      "review": "Xuyên Không Thành Nữ Phụ Chỉ Muốn Sống, Nào Ngờ Nam Chính Nghịch Thiên Si Mê Nàng!",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/zH6Z7GvnGBo/hqdefault.jpg",
+      "publishedAt": "2026-11-17T12:50:18+00:00",
+      "updatedAt": "2026-11-17T12:50:18+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Thành Nữ Phụ Chỉ Muốn Sống, Nào Ngờ Nam Chính Nghịch Thiên Si Mê Nàng!",
+          "url": "https://www.youtube.com/watch?v=zH6Z7GvnGBo",
+          "id": "zH6Z7GvnGBo",
+          "duration": 17746,
+          "durationStr": "4:55:46",
+          "publishedAt": "2026-11-17T12:50:18+00:00",
+          "views": 26,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2264",
+      "title": "7H| KHẾ ƯỚC LINH THÚ PHẾ VẬT – ÂM THẦM TIẾN HÓA THÀNH THÁI CỔ HUYỀN LONG.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 26234,
+      "totalDurationStr": "7 giờ 17 phút",
+      "totalViews": 20,
+      "totalLikes": 4,
+      "review": "7H| KHẾ ƯỚC LINH THÚ PHẾ VẬT – ÂM THẦM TIẾN HÓA THÀNH THÁI CỔ HUYỀN LONG. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/qRSb850CNjA/hqdefault.jpg",
+      "publishedAt": "2026-11-17T12:47:04+00:00",
+      "updatedAt": "2026-11-17T12:47:04+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "7H| KHẾ ƯỚC LINH THÚ PHẾ VẬT – ÂM THẦM TIẾN HÓA THÀNH THÁI CỔ HUYỀN LONG.",
+          "url": "https://www.youtube.com/watch?v=qRSb850CNjA",
+          "id": "qRSb850CNjA",
+          "duration": 26234,
+          "durationStr": "7:17:14",
+          "publishedAt": "2026-11-17T12:47:04+00:00",
+          "views": 20,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2262",
       "title": "3 GIỜ | Hệ Thống Thôn Phệ Vạn Vật - Suy Diễn Võ Thuật - Phế Vật Ta Âm Thầm Thành Bất Bại",
