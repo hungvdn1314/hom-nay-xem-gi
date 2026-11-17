@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2141,
+    "totalFilms": 2142,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T11:45:54.879148+00:00"
+    "lastUpdated": "2026-11-17T12:15:19.163788+00:00"
   },
   "channels": [
     {
@@ -71,7 +71,7 @@ window.FILMS_DATA = {
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 65
+      "filmCount": 66
     },
     {
       "id": "zzzphim",
@@ -105,6 +105,43 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2261",
+      "title": "5H| HỖN NGUYÊN THÁNH NHÂN - SỞ HỮU TỤ BẢO BỒN – THU PHỤC VẠN TỘC.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 17511,
+      "totalDurationStr": "4 giờ 51 phút",
+      "totalViews": 26,
+      "totalLikes": 4,
+      "review": "5H| HỖN NGUYÊN THÁNH NHÂN - SỞ HỮU TỤ BẢO BỒN – THU PHỤC VẠN TỘC. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/Ni5kXVJWBJA/hqdefault.jpg",
+      "publishedAt": "2026-11-17T12:03:31+00:00",
+      "updatedAt": "2026-11-17T12:03:31+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "5H| HỖN NGUYÊN THÁNH NHÂN - SỞ HỮU TỤ BẢO BỒN – THU PHỤC VẠN TỘC.",
+          "url": "https://www.youtube.com/watch?v=Ni5kXVJWBJA",
+          "id": "Ni5kXVJWBJA",
+          "duration": 17511,
+          "durationStr": "4:51:51",
+          "publishedAt": "2026-11-17T12:03:31+00:00",
+          "views": 26,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2260",
       "title": "PHẦN 5 | 6 GIỜ | VẠN ĐẠO TIÊN BÌNH - Đệ Tử Ngũ Linh Căn Dùng Bình Thần Âm Thầm Tu Luyện",
