@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2130,
+    "totalFilms": 2131,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T09:30:32.327312+00:00"
+    "lastUpdated": "2026-11-17T10:00:29.389488+00:00"
   },
   "channels": [
     {
@@ -23,7 +23,7 @@ window.FILMS_DATA = {
       "id": "chiuchiusubtv",
       "name": "ChiuChiuSubTV",
       "url": "https://www.youtube.com/@chiuchiusubtv",
-      "filmCount": 170
+      "filmCount": 171
     },
     {
       "id": "melacreview",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2250",
+      "title": "Xuyên Không Làm Kẻ Đốt Xác, Cứ Thiêu Một Cái Xác Liền Tăng 10 Năm Công Lực",
+      "channelId": "chiuchiusubtv",
+      "channelName": "ChiuChiuSubTV",
+      "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 20693,
+      "totalDurationStr": "5 giờ 44 phút",
+      "totalViews": 53,
+      "totalLikes": 4,
+      "review": "📌 Tóm Tắt Phim: Tóm Tắt Phim: Tần Hà là một thanh niên xuyên không đến triều đại Đại Lương, không họ hàng thân thích nên đành làm nghề Thợ Hỏa Táng (đốt xác) tại Phần Thi Đường. Tuy nhiên, hắn sở hữu một \"bàn tay vàng\" cực kỳ bá đạo: Mỗi khi hỏa táng xong một thi thể, hắn sẽ xem được trải nghiệm sinh thời của họ và nhận được phần thưởng hậu hĩnh (công...",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/HewQ04cy3Dk/hqdefault.jpg",
+      "publishedAt": "2026-11-17T09:46:17+00:00",
+      "updatedAt": "2026-11-17T09:46:17+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Làm Kẻ Đốt Xác, Cứ Thiêu Một Cái Xác Liền Tăng 10 Năm Công Lực",
+          "url": "https://www.youtube.com/watch?v=HewQ04cy3Dk",
+          "id": "HewQ04cy3Dk",
+          "duration": 20693,
+          "durationStr": "5:44:53",
+          "publishedAt": "2026-11-17T09:46:17+00:00",
+          "views": 53,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2249",
       "title": "3,5 GIỜ | Trưởng Lão Phế Tu Vi - Hệ Thống Thu Đồ Hoàn Trả 10 Lần Tu Vi - Vạn Điểm Thuộc Tính",
