@@ -11,12 +11,18 @@ export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
 
-  const githubToken = process.env.GH_TOKEN || process.env.GITHUB_DISPATCH_TOKEN;
+  const rawToken = process.env.GH_TOKEN || process.env.GITHUB_DISPATCH_TOKEN || req.query.token || '';
+  const sanitizedToken = String(rawToken)
+    .trim()
+    .replace(/^["']|["']$/g, '')
+    .replace(/^(bearer|token)\s+/i, '')
+    .trim();
+
   const repoOwner = process.env.GITHUB_REPO_OWNER || 'hungvdn1314';
   const repoName = process.env.GITHUB_REPO_NAME || 'hom-nay-xem-gi';
   const workflowFile = 'auto_update_youtube.yml';
 
-  if (!githubToken) {
+  if (!sanitizedToken) {
     return res.status(200).json({
       ok: false,
       message: 'GH_TOKEN is not configured in Vercel environment variables.',
@@ -30,7 +36,7 @@ export default async function handler(req, res) {
       method: 'POST',
       headers: {
         'Accept': 'application/vnd.github+json',
-        'Authorization': `Bearer ${githubToken}`,
+        'Authorization': `token ${sanitizedToken}`,
         'User-Agent': 'HomNayXemGi-Cron-Dispatcher',
         'X-GitHub-Api-Version': '2022-11-28'
       },
@@ -49,6 +55,8 @@ export default async function handler(req, res) {
     return res.status(resp.status).json({
       ok: false,
       status: resp.status,
+      tokenLength: sanitizedToken.length,
+      tokenPrefix: sanitizedToken.slice(0, 4) + '***',
       error: errorText
     });
   } catch (err) {
