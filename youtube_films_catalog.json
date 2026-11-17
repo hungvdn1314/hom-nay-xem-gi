@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2140,
+    "totalFilms": 2141,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T11:15:20.775466+00:00"
+    "lastUpdated": "2026-11-17T11:45:54.879148+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 79
+      "filmCount": 80
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,43 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2260",
+      "title": "PHẦN 5 | 6 GIỜ | VẠN ĐẠO TIÊN BÌNH - Đệ Tử Ngũ Linh Căn Dùng Bình Thần Âm Thầm Tu Luyện",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 21555,
+      "totalDurationStr": "5 giờ 59 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "PHẦN 5 | 6 GIỜ | VẠN ĐẠO TIÊN BÌNH - Đệ Tử Ngũ Linh Căn Dùng Bình Thần Âm Thầm Tu Luyện Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/NrGT18TZb30/hqdefault.jpg",
+      "publishedAt": "2026-11-17T11:44:30+00:00",
+      "updatedAt": "2026-11-17T11:44:30+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 5",
+          "title": "PHẦN 5 | 6 GIỜ | VẠN ĐẠO TIÊN BÌNH - Đệ Tử Ngũ Linh Căn Dùng Bình Thần Âm Thầm Tu Luyện",
+          "url": "https://www.youtube.com/watch?v=NrGT18TZb30",
+          "id": "NrGT18TZb30",
+          "duration": 21555,
+          "durationStr": "5:59:15",
+          "publishedAt": "2026-11-17T11:44:30+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2259",
       "title": "FULL BỘ | Nam Sinh Bị Coi Thường Lại Là Kiếm Sĩ Mạnh Nhất Học Viện | Review Truyện",
