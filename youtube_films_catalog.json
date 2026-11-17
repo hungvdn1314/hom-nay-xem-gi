@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2134,
+    "totalFilms": 2137,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T10:30:39.600923+00:00"
+    "lastUpdated": "2026-11-17T10:45:19.447119+00:00"
   },
   "channels": [
     {
@@ -47,7 +47,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 208
+      "filmCount": 209
     },
     {
       "id": "tieusumuoi",
@@ -71,13 +71,13 @@
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 64
+      "filmCount": 65
     },
     {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 63
+      "filmCount": 64
     },
     {
       "id": "thaolac",
@@ -105,6 +105,119 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2254",
+      "title": "Full Phần 1 |【Livestream Tận Thế: Tôi Dựa Vào Bán Hàng Trực Tuyến Để Mở Đường Sống!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10339,
+      "totalDurationStr": "2 giờ 52 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Livestream Tận Thế: Tôi Dựa Vào Bán Hàng Trực Tuyến Để Mở Đường Sống!】 📱 Chỉ định làm một màn chuyển cảnh cho buổi livestream, anh chàng streamer lại bị đưa thẳng đến tận thế. Trong lúc khán giả còn tưởng đàn zombie là diễn viên quần chúng, anh đã phải chạy vào một cửa hàng kim khí để trú. Đúng lúc đó, tiền thưởng từ người xem mở khóa cửa hàng trực...",
+      "genres": [
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/yPsOIaBEOZ4/hqdefault.jpg",
+      "publishedAt": "2026-11-17T10:44:46+00:00",
+      "updatedAt": "2026-11-17T10:44:46+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Livestream Tận Thế: Tôi Dựa Vào Bán Hàng Trực Tuyến Để Mở Đường Sống!】",
+          "url": "https://www.youtube.com/watch?v=yPsOIaBEOZ4",
+          "id": "yPsOIaBEOZ4",
+          "duration": 10339,
+          "durationStr": "2:52:19",
+          "publishedAt": "2026-11-17T10:44:46+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2256",
+      "title": "Trọng Sinh Trước Tận Thế 15 Ngày, Cô Gái Chi 20 Tỷ Tích Trữ, Trồng Rau Sống Như Bà Hoàng",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 38402,
+      "totalDurationStr": "10 giờ 40 phút",
+      "totalViews": 15,
+      "totalLikes": 4,
+      "review": "Trọng Sinh Trước Tận Thế 15 Ngày, Cô Gái Chi 20 Tỷ Tích Trữ, Trồng Rau Sống Như Bà Hoàng",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/PyUNC9Q2_k0/hqdefault.jpg",
+      "publishedAt": "2026-11-17T10:40:55+00:00",
+      "updatedAt": "2026-11-17T10:40:55+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trọng Sinh Trước Tận Thế 15 Ngày, Cô Gái Chi 20 Tỷ Tích Trữ, Trồng Rau Sống Như Bà Hoàng",
+          "url": "https://www.youtube.com/watch?v=PyUNC9Q2_k0",
+          "id": "PyUNC9Q2_k0",
+          "duration": 38402,
+          "durationStr": "10:40:02",
+          "publishedAt": "2026-11-17T10:40:55+00:00",
+          "views": 15,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2255",
+      "title": "5H| PHẾ VẬT NGŨ HÀNH TẠP LINH CĂN – SỞ HỮU THẦN LÒ NÂNG CẤP VẠN VẬT.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 18372,
+      "totalDurationStr": "5 giờ 06 phút",
+      "totalViews": 43,
+      "totalLikes": 5,
+      "review": "5H| PHẾ VẬT NGŨ HÀNH TẠP LINH CĂN – SỞ HỮU THẦN LÒ NÂNG CẤP VẠN VẬT. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/Vdykr_-1tnM/hqdefault.jpg",
+      "publishedAt": "2026-11-17T10:34:10+00:00",
+      "updatedAt": "2026-11-17T10:34:10+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "5H| PHẾ VẬT NGŨ HÀNH TẠP LINH CĂN – SỞ HỮU THẦN LÒ NÂNG CẤP VẠN VẬT.",
+          "url": "https://www.youtube.com/watch?v=Vdykr_-1tnM",
+          "id": "Vdykr_-1tnM",
+          "duration": 18372,
+          "durationStr": "5:06:12",
+          "publishedAt": "2026-11-17T10:34:10+00:00",
+          "views": 43,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2253",
       "title": "Phần 1, Trùng Sinh Trong Game Giáng Lâm, Ta Trở Thành Thương Thần Bất Khả Chiến Bại",
@@ -65699,10 +65812,10 @@
       "channelName": "Thiên Ảnh Studio",
       "channelUrl": "https://www.youtube.com/@thienanhstudio9",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 20864,
-      "totalDurationStr": "5 giờ 47 phút",
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 41310,
+      "totalDurationStr": "11 giờ 28 phút",
       "review": "Hệ Thống Bố Bỉm Nhưng Phải Có Con! Cuộc Đời Chạm Đáy, Bỗng Xuất Hiện Bé Con Đáng Yêu!. (2 phần (Gộp Mùa 1-2 trong 1 video))",
       "genres": [
         "Hệ thống / Thức tỉnh"
@@ -65721,13 +65834,26 @@
           "views": 29440,
           "likes": 558,
           "publishedAt": "2026-10-26T00:00:00+00:00"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 3-4",
+          "title": "Full Mùa 3-4 | Hệ Thống Bố Bỉm Nhưng Phải Có Con! Cuộc Đời Chạm Đáy, Bỗng Xuất Hiện Bé Con Đáng Yêu!",
+          "url": "https://www.youtube.com/watch?v=etNstycJmUo",
+          "id": "etNstycJmUo",
+          "duration": 20446,
+          "durationStr": "5:40:46",
+          "publishedAt": "2026-11-17T10:43:05+00:00",
+          "views": 9,
+          "likes": 5,
+          "isRedundant": false
         }
       ],
-      "totalViews": 29440,
-      "totalLikes": 558,
+      "totalViews": 29449,
+      "totalLikes": 563,
       "publishedAt": "2026-10-26T00:00:00+00:00",
-      "updatedAt": "2026-10-26T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-17T10:43:05+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_962",
