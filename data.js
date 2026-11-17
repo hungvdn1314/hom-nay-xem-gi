@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2142,
+    "totalFilms": 2143,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T12:15:19.163788+00:00"
+    "lastUpdated": "2026-11-17T12:30:43.455229+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 80
+      "filmCount": 81
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2262",
+      "title": "3 GIỜ | Hệ Thống Thôn Phệ Vạn Vật - Suy Diễn Võ Thuật - Phế Vật Ta Âm Thầm Thành Bất Bại",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 128,
+      "totalLikes": 8,
+      "review": "3 GIỜ | Hệ Thống Thôn Phệ Vạn Vật - Suy Diễn Võ Thuật - Phế Vật Ta Âm Thầm Thành Bất Bại Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động...",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/o8oMEWTKnNw/hqdefault.jpg",
+      "publishedAt": "2026-11-17T12:18:41+00:00",
+      "updatedAt": "2026-11-17T12:18:41+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "3 GIỜ | Hệ Thống Thôn Phệ Vạn Vật - Suy Diễn Võ Thuật - Phế Vật Ta Âm Thầm Thành Bất Bại",
+          "url": "https://www.youtube.com/watch?v=o8oMEWTKnNw",
+          "id": "o8oMEWTKnNw",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-17T12:18:41+00:00",
+          "views": 128,
+          "likes": 8,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2261",
       "title": "5H| HỖN NGUYÊN THÁNH NHÂN - SỞ HỮU TỤ BẢO BỒN – THU PHỤC VẠN TỘC.",
