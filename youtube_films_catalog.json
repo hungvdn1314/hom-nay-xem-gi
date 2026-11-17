@@ -4,7 +4,7 @@
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T17:45:39.953605+00:00"
+    "lastUpdated": "2026-11-17T18:45:19.709572+00:00"
   },
   "channels": [
     {
@@ -53861,10 +53861,10 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLK13eJAAPcmo",
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 51814,
-      "totalDurationStr": "14 giờ 23 phút",
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 65905,
+      "totalDurationStr": "18 giờ 18 phút",
       "review": "Khí Tử Vấn Thiên. (2 phần (Phần 1 -> 2))",
       "genres": [
         "Hoạt hình 3D Chọn Lọc"
@@ -53896,13 +53896,26 @@
           "views": 35008,
           "likes": 388,
           "publishedAt": "2026-11-01T00:00:00+00:00"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 3",
+          "title": "Mùa 3 | Ma Thần Nhân Sinh: Khí Tử Vấn Thiên",
+          "url": "https://www.youtube.com/watch?v=9Fsvsgcll8c",
+          "id": "9Fsvsgcll8c",
+          "duration": 14091,
+          "durationStr": "3:54:51",
+          "publishedAt": "2026-11-17T18:39:56+00:00",
+          "views": 28,
+          "likes": 4,
+          "isRedundant": false
         }
       ],
-      "totalViews": 88925,
-      "totalLikes": 919,
+      "totalViews": 88953,
+      "totalLikes": 923,
       "publishedAt": "2026-10-12T00:00:00+00:00",
-      "updatedAt": "2026-11-01T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-17T18:39:56+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_732",
