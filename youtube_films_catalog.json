@@ -1,17 +1,17 @@
 {
   "stats": {
-    "totalFilms": 2111,
+    "totalFilms": 2124,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T02:14:40.954673+00:00"
+    "lastUpdated": "2026-11-17T08:24:36.162497+00:00"
   },
   "channels": [
     {
       "id": "thienphatreview",
       "name": "Thiên Phạt Review",
       "url": "https://www.youtube.com/@thienphatreview",
-      "filmCount": 295
+      "filmCount": 296
     },
     {
       "id": "tieuho_review",
@@ -35,19 +35,19 @@
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 277
+      "filmCount": 279
     },
     {
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 295
+      "filmCount": 297
     },
     {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 206
+      "filmCount": 207
     },
     {
       "id": "tieusumuoi",
@@ -59,7 +59,7 @@
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 60
+      "filmCount": 62
     },
     {
       "id": "besuastudio",
@@ -77,13 +77,13 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 62
+      "filmCount": 63
     },
     {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 71
+      "filmCount": 75
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,494 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2238",
+      "title": "Phần 1, Hai Anh Em Dị Năng Giả Sống Sót Thời Mạt Thế, Phát Hiện Âm Mưu Lớn Đằng Sau",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9847,
+      "totalDurationStr": "2 giờ 44 phút",
+      "totalViews": 86,
+      "totalLikes": 4,
+      "review": "[ Full ] Phần 1, Hai Anh Em Dị Năng Giả Sống Sót Thời Mạt Thế, Phát Hiện Âm Mưu Lớn Đằng Sau Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/RSzxxeEmAuo/hqdefault.jpg",
+      "publishedAt": "2026-11-17T07:31:04+00:00",
+      "updatedAt": "2026-11-17T07:31:04+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1, Hai Anh Em Dị Năng Giả Sống Sót Thời Mạt Thế, Phát Hiện Âm Mưu Lớn Đằng Sau",
+          "url": "https://www.youtube.com/watch?v=RSzxxeEmAuo",
+          "id": "RSzxxeEmAuo",
+          "duration": 9847,
+          "durationStr": "2:44:07",
+          "publishedAt": "2026-11-17T07:31:04+00:00",
+          "views": 86,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2243",
+      "title": "17,5 GIỜ THỎA MÃN | Hoàng Đế Giả Nghèo Dạy Cháu - Nào Ngờ Nó Là Thiên Tài Xuyên Không Có Hệ Thống",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 1181,
+      "totalLikes": 38,
+      "review": "17,5 GIỜ THỎA MÃN | Hoàng Đế Giả Nghèo Dạy Cháu - Nào Ngờ Nó Là Thiên Tài Xuyên Không Có Hệ Thống Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các...",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/ViPu4_RZB2Y/hqdefault.jpg",
+      "publishedAt": "2026-11-17T07:29:16+00:00",
+      "updatedAt": "2026-11-17T07:29:16+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "17,5 GIỜ THỎA MÃN | Hoàng Đế Giả Nghèo Dạy Cháu - Nào Ngờ Nó Là Thiên Tài Xuyên Không Có Hệ Thống",
+          "url": "https://www.youtube.com/watch?v=ViPu4_RZB2Y",
+          "id": "ViPu4_RZB2Y",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-17T07:29:16+00:00",
+          "views": 1181,
+          "likes": 38,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2242",
+      "title": "P1-2 | 5 GIỜ | Nghịch Chuyển Nhân Quả - Đệ Tử Luyện Khí Nhưng Đại Đế Cũng Phải Cúi Đầu Van Xin",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 784,
+      "totalLikes": 28,
+      "review": "P1-2 | 5 GIỜ | Nghịch Chuyển Nhân Quả - Đệ Tử Luyện Khí Nhưng Đại Đế Cũng Phải Cúi Đầu Van Xin Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/fACQPUQ7MgI/hqdefault.jpg",
+      "publishedAt": "2026-11-17T06:30:28+00:00",
+      "updatedAt": "2026-11-17T06:30:28+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-2",
+          "title": "P1-2 | 5 GIỜ | Nghịch Chuyển Nhân Quả - Đệ Tử Luyện Khí Nhưng Đại Đế Cũng Phải Cúi Đầu Van Xin",
+          "url": "https://www.youtube.com/watch?v=fACQPUQ7MgI",
+          "id": "fACQPUQ7MgI",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-17T06:30:28+00:00",
+          "views": 784,
+          "likes": 28,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2235",
+      "title": "Full Phần 1 | Trò Chơi Vô Hạn: Người Chơi Nhỏ Nhắn Đáng Yêu Này Không Dễ Chọc!",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12321,
+      "totalDurationStr": "3 giờ 25 phút",
+      "totalViews": 169,
+      "totalLikes": 6,
+      "review": "🎬 【Trò Chơi Vô Hạn: Người Chơi Nhỏ Nhắn Đáng Yêu Này Không Dễ Chọc!】 🎀 Bị kéo vào Trò Chơi Địa Ngục, Manh Manh phải vượt qua 18 màn mới có thể trở về. Ngay ở phó bản đầu, cô hạ NPC giao nhiệm vụ để tự vệ và nhận một hình phạt oái oăm. Mỗi màn, cô phải được đồng đội chấm đủ 10 điểm đáng yêu, nếu thiếu sẽ bị hệ thống xóa sổ. 🏥 Trong bệnh viện, cả nhóm phải...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/r7pV-tuTNZ0/hqdefault.jpg",
+      "publishedAt": "2026-11-17T06:18:53+00:00",
+      "updatedAt": "2026-11-17T06:18:53+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Trò Chơi Vô Hạn: Người Chơi Nhỏ Nhắn Đáng Yêu Này Không Dễ Chọc!",
+          "url": "https://www.youtube.com/watch?v=r7pV-tuTNZ0",
+          "id": "r7pV-tuTNZ0",
+          "duration": 12321,
+          "durationStr": "3:25:21",
+          "publishedAt": "2026-11-17T06:18:53+00:00",
+          "views": 169,
+          "likes": 6,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2236",
+      "title": "Full Phần 1 |【Thất Đại Tội: Ta Chính Là Tội Lỗi Cuối Cùng!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8068,
+      "totalDurationStr": "2 giờ 14 phút",
+      "totalViews": 296,
+      "totalLikes": 23,
+      "review": "🎬 【Thất Đại Tội: Ta Chính Là Tội Lỗi Cuối Cùng!】 ⚡ Tỉnh dậy trong một cơ thể xa lạ, Hạ Tri Phong bị đưa vào bệnh viện tâm thần vì kể rằng mình đến từ thế giới khác. Suốt hai năm, chỉ mình cậu nghe được giọng nói bí ẩn trong đầu. Kẻ ấy cứ khăng khăng rằng Tri Phong vẫn chưa nhớ ra mình là ai. 🔥 Vừa xuất viện, Tri Phong đã vô tình để lộ dị năng trong một...",
+      "genres": [
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/NbN_ghSRdHc/hqdefault.jpg",
+      "publishedAt": "2026-11-17T06:18:28+00:00",
+      "updatedAt": "2026-11-17T06:18:28+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Thất Đại Tội: Ta Chính Là Tội Lỗi Cuối Cùng!】",
+          "url": "https://www.youtube.com/watch?v=NbN_ghSRdHc",
+          "id": "NbN_ghSRdHc",
+          "duration": 8068,
+          "durationStr": "2:14:28",
+          "publishedAt": "2026-11-17T06:18:28+00:00",
+          "views": 296,
+          "likes": 23,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2233",
+      "title": "Full Phần 1 |【Lãng Tửu Điềm Trà】Thời Trà Xuyên Sách Thành Nữ Phụ Bạch Liên Hoa Trong Truyện Sảng Văn",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13908,
+      "totalDurationStr": "3 giờ 51 phút",
+      "totalViews": 159,
+      "totalLikes": 9,
+      "review": "🎬 【Lãng Tửu Điềm Trà】Thời Trà Xuyên Sách Thành Nữ Phụ Bạch Liên Hoa Trong Truyện Sảng Văn! 🍵 Vừa xuyên sách đúng ngày sinh nhật, Thời Trà còn đang mừng vì được sống thêm một đời thì nhận ra mình chính là cô em gái trà xanh trong truyện. Chị gái cô, Thời Nghiên, đã trọng sinh và sẽ trở lại giới giải trí để tính sổ với những kẻ từng hại mình. Biết trước...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/VhgQq58EU8c/hqdefault.jpg",
+      "publishedAt": "2026-11-17T06:18:06+00:00",
+      "updatedAt": "2026-11-17T06:18:06+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Lãng Tửu Điềm Trà】Thời Trà Xuyên Sách Thành Nữ Phụ Bạch Liên Hoa Trong Truyện Sảng Văn",
+          "url": "https://www.youtube.com/watch?v=VhgQq58EU8c",
+          "id": "VhgQq58EU8c",
+          "duration": 13908,
+          "durationStr": "3:51:48",
+          "publishedAt": "2026-11-17T06:18:06+00:00",
+          "views": 159,
+          "likes": 9,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2237",
+      "title": "P1, Bước Vào Game Kỷ Nguyên Thần Vẫn, Thiếu Niên Thức Tỉnh Thiên Phú Độc Cấp SSS, Quyết Tâm Đồ Thần",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8655,
+      "totalDurationStr": "2 giờ 24 phút",
+      "totalViews": 310,
+      "totalLikes": 10,
+      "review": "[ Full ] P1, Bước Vào Game Kỷ Nguyên Thần Vẫn, Thiếu Niên Thức Tỉnh Thiên Phú Độc Cấp SSS, Quyết Tâm Đồ Thần Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/Pnqci7_eJ4A/hqdefault.jpg",
+      "publishedAt": "2026-11-17T06:08:19+00:00",
+      "updatedAt": "2026-11-17T06:08:19+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Bước Vào Game Kỷ Nguyên Thần Vẫn, Thiếu Niên Thức Tỉnh Thiên Phú Độc Cấp SSS, Quyết Tâm Đồ Thần",
+          "url": "https://www.youtube.com/watch?v=Pnqci7_eJ4A",
+          "id": "Pnqci7_eJ4A",
+          "duration": 8655,
+          "durationStr": "2:24:15",
+          "publishedAt": "2026-11-17T06:08:19+00:00",
+          "views": 310,
+          "likes": 10,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2241",
+      "title": "6,5 GIỜ | Thiếu Gia Phế Vật Sau 1 Đêm Hóa Chiến Thần - Dùng Võ Thuật Hạ Gục Mọi Võ Tướng Quân Doanh",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 5774,
+      "totalLikes": 57,
+      "review": "6,5 GIỜ | Thiếu Gia Phế Vật Sau 1 Đêm Hóa Chiến Thần - Dùng Võ Thuật Hạ Gục Mọi Võ Tướng Quân Doanh Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng...",
+      "genres": [
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/JGMEpTCyGfI/hqdefault.jpg",
+      "publishedAt": "2026-11-17T04:28:00+00:00",
+      "updatedAt": "2026-11-17T04:28:00+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "6,5 GIỜ | Thiếu Gia Phế Vật Sau 1 Đêm Hóa Chiến Thần - Dùng Võ Thuật Hạ Gục Mọi Võ Tướng Quân Doanh",
+          "url": "https://www.youtube.com/watch?v=JGMEpTCyGfI",
+          "id": "JGMEpTCyGfI",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-17T04:28:00+00:00",
+          "views": 5774,
+          "likes": 57,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2231",
+      "title": "Sinh Tồn Mạt Thế: Ta Chọn Cửa Tử 100%, Nghịch Thiên Tiến Hóa Thành Thần",
+      "channelId": "thienphatreview",
+      "channelName": "Thiên Phạt Review",
+      "channelUrl": "https://www.youtube.com/@thienphatreview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8786,
+      "totalDurationStr": "2 giờ 26 phút",
+      "totalViews": 958,
+      "totalLikes": 12,
+      "review": "Sinh Tồn Mạt Thế: Ta Chọn Cửa Tử 100%, Nghịch Thiên Tiến Hóa Thành Thần Thiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các thể loại. Review và tóm tắt cốt truyện ngắn gọn, dễ hiểu. Phân tích các nhân vật, tình tiết và những màn chiến đấu hấp dẫn. Cập nhật những bộ phim, hoạt hình và truyện mới nhất....",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/URYjnMmNsWo/hqdefault.jpg",
+      "publishedAt": "2026-11-17T04:00:27+00:00",
+      "updatedAt": "2026-11-17T04:00:27+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Sinh Tồn Mạt Thế: Ta Chọn Cửa Tử 100%, Nghịch Thiên Tiến Hóa Thành Thần",
+          "url": "https://www.youtube.com/watch?v=URYjnMmNsWo",
+          "id": "URYjnMmNsWo",
+          "duration": 8786,
+          "durationStr": "2:26:26",
+          "publishedAt": "2026-11-17T04:00:27+00:00",
+          "views": 958,
+          "likes": 12,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2232",
+      "title": "【Mùa 2】Xuyên Vào Thế Giới Điện Ảnh, Bắt Đầu Từ Lão Cửu Môn!",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8262,
+      "totalDurationStr": "2 giờ 17 phút",
+      "totalViews": 972,
+      "totalLikes": 27,
+      "review": "🎬 【Mùa 2】Xuyên Vào Thế Giới Điện Ảnh, Bắt Đầu Từ Lão Cửu Môn! 🔥 Vẫn chưa luyện ra thuốc trường sinh, Trương Thiên Đạo quyết định tu luyện Ngũ Hành Đạo Thể. Để bổ sung Hỏa hành và Mộc hành, anh phải tìm huyết mạch phượng hoàng và Côn Luân Thần Mộc. Điểm dừng chân đầu tiên là Tương Tây, nơi có con Nộ Tình Kê mang huyết mạch phượng hoàng mà anh đang tìm...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/4mwx-34duS8/hqdefault.jpg",
+      "publishedAt": "2026-11-17T04:00:04+00:00",
+      "updatedAt": "2026-11-17T04:00:04+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 2",
+          "title": "【Mùa 2】Xuyên Vào Thế Giới Điện Ảnh, Bắt Đầu Từ Lão Cửu Môn!",
+          "url": "https://www.youtube.com/watch?v=4mwx-34duS8",
+          "id": "4mwx-34duS8",
+          "duration": 8262,
+          "durationStr": "2:17:42",
+          "publishedAt": "2026-11-17T04:00:04+00:00",
+          "views": 972,
+          "likes": 27,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2234",
+      "title": "Phần 1|Thiên Kim Thật Trở Về Hào Môn, Không Tranh Giành Tình Thương Mà Chỉ Tập Trung Phá Giải Âm Mưu",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9981,
+      "totalDurationStr": "2 giờ 46 phút",
+      "totalViews": 462,
+      "totalLikes": 13,
+      "review": "🎬 【Thiên Kim Thật Trở Về Hào Môn, Không Tranh Giành Tình Thương Mà Chỉ Tập Trung Phá Giải Âm Mưu】 🏮 Trở về hào môn sau nhiều năm xa cách, cô lấy lại thân phận thiên kim thật. Ai được cha mẹ yêu thương hơn chẳng phải điều cô bận tâm. Cô muốn biết ai đang đứng sau những chuyện mờ ám trong nhà và họ đang tính toán điều gì. 🔍 Tay cầm xấp bùa vàng, cô vẫn mỉm...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/jKeqOsSeAqg/hqdefault.jpg",
+      "publishedAt": "2026-11-17T03:58:55+00:00",
+      "updatedAt": "2026-11-17T03:58:55+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1|Thiên Kim Thật Trở Về Hào Môn, Không Tranh Giành Tình Thương Mà Chỉ Tập Trung Phá Giải Âm Mưu",
+          "url": "https://www.youtube.com/watch?v=jKeqOsSeAqg",
+          "id": "jKeqOsSeAqg",
+          "duration": 9981,
+          "durationStr": "2:46:21",
+          "publishedAt": "2026-11-17T03:58:55+00:00",
+          "views": 462,
+          "likes": 13,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2240",
+      "title": "8 GIỜ THỎA MÃN | SSS+ 1 Tỷ Đòn Tấn Công 1 Giây - Thần Thánh Cũng Không Thể Chịu Nổi",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 22275,
+      "totalLikes": 256,
+      "review": "8 GIỜ THỎA MÃN | SSS+ 1 Tỷ Đòn Tấn Công 1 Giây - Thần Thánh Cũng Không Thể Chịu Nổi Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/V_m3EntZZt0/hqdefault.jpg",
+      "publishedAt": "2026-11-17T03:52:40+00:00",
+      "updatedAt": "2026-11-17T03:52:40+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "8 GIỜ THỎA MÃN | SSS+ 1 Tỷ Đòn Tấn Công 1 Giây - Thần Thánh Cũng Không Thể Chịu Nổi",
+          "url": "https://www.youtube.com/watch?v=V_m3EntZZt0",
+          "id": "V_m3EntZZt0",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-17T03:52:40+00:00",
+          "views": 22275,
+          "likes": 256,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2239",
+      "title": "Xuyên Không Tam Quốc Chỉ Muốn Làm Ở Rể Vô Danh, Nào Ngờ Lữ Bố Nghe Thấu Tiếng Lòng!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12692,
+      "totalDurationStr": "3 giờ 31 phút",
+      "totalViews": 741,
+      "totalLikes": 25,
+      "review": "Xuyên Không Tam Quốc Chỉ Muốn Làm Ở Rể Vô Danh, Nào Ngờ Lữ Bố Nghe Thấu Tiếng Lòng!",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/9Vsj_SUa0g8/hqdefault.jpg",
+      "publishedAt": "2026-11-17T03:50:05+00:00",
+      "updatedAt": "2026-11-17T03:50:05+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Tam Quốc Chỉ Muốn Làm Ở Rể Vô Danh, Nào Ngờ Lữ Bố Nghe Thấu Tiếng Lòng!",
+          "url": "https://www.youtube.com/watch?v=9Vsj_SUa0g8",
+          "id": "9Vsj_SUa0g8",
+          "duration": 12692,
+          "durationStr": "3:31:32",
+          "publishedAt": "2026-11-17T03:50:05+00:00",
+          "views": 741,
+          "likes": 25,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2221",
       "title": "Mùa 1 + Mùa 2 | Nàng Đến Từ Màn Đêm",
@@ -7311,19 +7799,19 @@
       "channelName": "Thảo Lác",
       "channelUrl": "https://www.youtube.com/@Thaolac6868",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
+      "totalParts": 2,
+      "partsStr": "2 phần",
       "totalDurationSec": 10707,
       "totalDurationStr": "2 giờ 58 phút",
-      "totalViews": 23613,
-      "totalLikes": 343,
+      "totalViews": 27877,
+      "totalLikes": 457,
       "review": "PHẦN 6 | Thiên Phú SSS+ Vô Hạn Sát Thương Độc Tố - Phế Vật Trở Thành Top 1 Server Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động trong...",
       "genres": [
         "Hoạt hình 3D Chọn Lọc"
       ],
       "thumbnail": "https://i.ytimg.com/vi/Yww4YtonwWE/hqdefault.jpg",
       "publishedAt": "2026-11-12T04:53:59.708550+00:00",
-      "updatedAt": "2026-11-12T04:53:59.708550+00:00",
+      "updatedAt": "2026-11-17T02:52:49+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -7337,6 +7825,19 @@
           "publishedAt": "2026-11-12T04:53:59.708550+00:00",
           "views": 23613,
           "likes": 343,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 7",
+          "title": "PHẦN 7 | Thiên Phú SSS+ Vô Hạn Sát Thương Độc Tố - Phế Vật Trở Thành Top 1 Server",
+          "url": "https://www.youtube.com/watch?v=1M6zJmQq-Og",
+          "id": "1M6zJmQq-Og",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-17T02:52:49+00:00",
+          "views": 4264,
+          "likes": 114,
           "isRedundant": false
         }
       ]
@@ -81895,10 +82396,10 @@
       "channelName": "Vân Mộng Studio",
       "channelUrl": "https://www.youtube.com/@vanmonggiao",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 6939,
-      "totalDurationStr": "1 giờ 55 phút",
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 31951,
+      "totalDurationStr": "8 giờ 52 phút",
       "review": "Tiếp Quản Nghề Tang Lễ, Mới Biết Bí Mật Người Chết Để Lại Chưa Bao Giờ Chỉ Là Truyền Thuyết!. (1 phần (Phần 1))",
       "genres": [
         "Hoạt hình 3D Chọn Lọc"
@@ -81917,13 +82418,26 @@
           "views": 98697,
           "likes": 1611,
           "publishedAt": "2026-11-02T00:00:00+00:00"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2-4",
+          "title": "Phần 2-4|Tiếp Quản Nghề Tang Lễ, Mới Biết Bí Mật Người Chết Để Lại Chưa Bao Giờ Chỉ Là Truyền Thuyết",
+          "url": "https://www.youtube.com/watch?v=9-fxKQf2rzw",
+          "id": "9-fxKQf2rzw",
+          "duration": 25012,
+          "durationStr": "6:56:52",
+          "publishedAt": "2026-11-17T03:55:29+00:00",
+          "views": 635,
+          "likes": 26,
+          "isRedundant": false
         }
       ],
-      "totalViews": 98697,
-      "totalLikes": 1611,
+      "totalViews": 99332,
+      "totalLikes": 1637,
       "publishedAt": "2026-11-02T00:00:00+00:00",
-      "updatedAt": "2026-11-02T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-17T03:55:29+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_1415",
