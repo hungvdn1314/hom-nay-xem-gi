@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2124,
+    "totalFilms": 2125,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T08:24:36.162497+00:00"
+    "lastUpdated": "2026-11-17T08:41:53.095849+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 75
+      "filmCount": 76
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2244",
+      "title": "Phần 7-8 | Hệ Thống Vô Hạn Thọ Nguyên Đổi Lấy Bảo Vật, Phàm Nhân Tu Thành Đại Đế",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 17865,
+      "totalDurationStr": "4 giờ 57 phút",
+      "totalViews": 232,
+      "totalLikes": 18,
+      "review": "Phần 7-8 | Hệ Thống Vô Hạn Thọ Nguyên Đổi Lấy Bảo Vật, Phàm Nhân Tu Thành Đại Đế Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động trong...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/MNi2QHoqY2Q/hqdefault.jpg",
+      "publishedAt": "2026-11-17T08:27:56+00:00",
+      "updatedAt": "2026-11-17T08:27:56+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 7-8",
+          "title": "Phần 7-8 | Hệ Thống Vô Hạn Thọ Nguyên Đổi Lấy Bảo Vật, Phàm Nhân Tu Thành Đại Đế",
+          "url": "https://www.youtube.com/watch?v=MNi2QHoqY2Q",
+          "id": "MNi2QHoqY2Q",
+          "duration": 17865,
+          "durationStr": "4:57:45",
+          "publishedAt": "2026-11-17T08:27:56+00:00",
+          "views": 232,
+          "likes": 18,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2238",
       "title": "Phần 1, Hai Anh Em Dị Năng Giả Sống Sót Thời Mạt Thế, Phát Hiện Âm Mưu Lớn Đằng Sau",
