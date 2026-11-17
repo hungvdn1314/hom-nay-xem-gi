@@ -53,3 +53,8 @@
    - **Theater modal**: `renderPlayerExtras` (tags that apply channel/genre filters, synopsis, related films by genre then channel), `stepEpisode` (prev/next), share (clipboard / Web Share), open on YouTube.
    - **URL deep-linking**: `syncUrl` / `syncScopeToUrl` / `applyDeepLinkFromUrl` keep `?film=&ep=&tab=&channel=&genre=&metric=&range=` in sync (guarded by `state.urlReady` so the initial render does not wipe incoming params).
    - **Filters/cards**: `#durationSelect` buckets (short <1.5h, medium 1.5-3h, long 3-6h, marathon >6h); cards show 2 genre chips and a `.card-info-btn` that opens the spotlight modal via `openRandomizer(film)`.
+
+7. **Reliable Background Auto-Update & Dispatch Architecture**:
+   - **Client Sync vs Background Sync**: `/api/live-feed` (Serverless Edge) runs on user visit to immediately reflect uploads in DOM without waiting for GitHub commit. Background sync (`scripts/update_youtube_feed.py`) runs in GitHub Actions to permanently commit to `data.js`.
+   - **Cron Trigger Endpoint (`/api/cron-update`)**: Exposes an endpoint callable by external free crons (like `cron-job.org`) to send `workflow_dispatch` requests directly to GitHub API (`POST /repos/:owner/:repo/actions/workflows/auto_update_youtube.yml/dispatches`), bypassing GitHub schedule queue delays.
+   - **Cache Policy**: `data.js` and `youtube_films_catalog.json` use `Cache-Control: no-cache, no-store, must-revalidate` in `vercel.json` to prevent browsers or edge nodes from holding outdated catalogs.

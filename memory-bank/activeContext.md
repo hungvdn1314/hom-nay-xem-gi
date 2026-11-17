@@ -80,3 +80,14 @@
 - `scripts/update_youtube_feed.py`: `CHANNELS` now 16 (8 original + 8 auto-discovered vetted channels), `--discover-channels` (Innertube search >20m + 3D Quality Gate: >=80% of latest 20 uploads >=40m & valid 3D) stages candidates in `discovered_channels.json`; new channels auto-backfill ~60 uploads; `sync_channel_meta` keeps `data.channels`. `api/live-feed.js` mirrors the channel list. ToonWarp Studio was rejected (mixed short comedy content).
 - `app.js`: Continue Watching shelf (`homnayxemgi_progress`, resumes last episode), theater modal (prev/next episode, share, open on YouTube, tags->filter, synopsis, related films), URL deep-linking (`?film=&ep=&tab=&channel=&genre=&metric=&range=`), duration filter, 2 genre chips + "Tóm tắt" spotlight on cards, mobile search auto-scroll.
 - Catalog: 2,059 films / 16 channels.
+
+## Auto-Update Diagnosis & Fix (2026-11-17)
+- **Root Cause Identified**:
+  1. `syncLiveYouTubeFeed()` in `app.js` runs client-side when the user visits the website, calling `/api/live-feed` to fetch YouTube uploads in real-time. This created the exact perception that "it only updates when I open the website".
+  2. The background cron on GitHub Actions (`schedule: - cron: '*/30 * * * *'`) was suffering from extreme GitHub Actions runner queue delays on public/free tier (running once every 6 to 13 hours instead of every 30 minutes, e.g. 02:13 UTC to 15:24 UTC with zero runs).
+  3. `auto_update_youtube.yml` previously only staged `git add data.js youtube_films_catalog.json` without `index.html`, leaving `index.html` referencing an older `data.js?v=...` query string.
+- **Implemented Fixes**:
+  1. Added `no-cache, no-store, must-revalidate` headers in `vercel.json` specifically for `/data.js` and `/youtube_films_catalog.json` so browsers and edge caches never serve stale catalog files.
+  2. Created `/api/cron-update.js` endpoint which allows external schedulers (e.g. `cron-job.org`, UptimeRobot, or Vercel Cron) to trigger GitHub Actions `workflow_dispatch` instantly without waiting on GitHub's delayed schedule queue.
+  3. Bumped asset cache string in `index.html` (`v=20261117_153000`).
+  4. Successfully triggered `workflow_dispatch` (Run 44046428385), fetching 13 new films and 2 episodes into `data.js` (commit `201ad70`).

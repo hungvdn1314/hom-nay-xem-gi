@@ -26,3 +26,7 @@
 - [x] Auto channel discovery: `CHANNELS` expanded 8 -> 16 (Anime 3D Trung Quốc, Bé Sữa Studio, Gà Vàng Tu Tiên, Zzzphim, Thảo Lác, Gia Nhi Review, Tỷ Đệ Muội, Thỏ Ngọc Studio; ToonWarp rejected), `--discover-channels` + 3D Channel Quality Gate, new-channel backfill (~60 uploads), `sync_channel_meta`; catalog now 2,059 films.
 - [x] UX upgrade: Continue Watching shelf with episode memory, theater modal extras (prev/next, share, open on YouTube, tags, synopsis, related films), URL deep-linking, duration filter, 2 genre chips + "Tóm tắt" spotlight on cards, mobile search auto-scroll (commit `40f353f`).
 - [ ] Open: review quality of newly added channels (Thỏ Ngọc, Gà Vàng look closer to comic-review content); `YOUTUBE_API_KEY` already set in GitHub Secrets.
+- [x] Diagnosed auto-update delay: GitHub Actions public schedule queue delay (6-13h) vs client-side `/api/live-feed` live fetching.
+- [x] Added strict `no-cache` headers for `data.js` and `youtube_films_catalog.json` in `vercel.json`.
+- [x] Implemented `/api/cron-update.js` endpoint to trigger GitHub Actions `workflow_dispatch` on-demand via external cron / webhooks.
+- [x] Triggered manual `workflow_dispatch` run 44046428385, pulling 13 new films + 2 episodes into catalog.
