@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2137,
+    "totalFilms": 2138,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T10:45:19.447119+00:00"
+    "lastUpdated": "2026-11-17T10:55:57.148837+00:00"
   },
   "channels": [
     {
@@ -41,7 +41,7 @@
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 298
+      "filmCount": 299
     },
     {
       "id": "vanmonggiao",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2257",
+      "title": "【Mùa 1–2】Truyền Nhân Huyền Học: Tôi Dựa Vào Khoa Học Để Kéo Dài Mạng Sống, Mượn Tử Khí Để Phi Thăng!",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 20100,
+      "totalDurationStr": "5 giờ 35 phút",
+      "totalViews": 35,
+      "totalLikes": 0,
+      "review": "🎬 【Mùa 1–2】Truyền Nhân Huyền Học: Tôi Dựa Vào Khoa Học Để Kéo Dài Mạng Sống, Mượn Tử Khí Để Phi Thăng! 🔬 Mang thân phận truyền nhân huyền học, cô nàng lại tìm đến khoa học để giải bài toán cấp bách nhất của mình: làm sao sống lâu hơn? Với cô, những điều được truyền lại cũng đáng đem ra xem xét và kiểm chứng trước khi đặt cược cả mạng sống vào đó. ✨ Sống...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/olgSqMS2XYI/hqdefault.jpg",
+      "publishedAt": "2026-11-17T10:45:20+00:00",
+      "updatedAt": "2026-11-17T10:45:20+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Truyền Nhân Huyền Học: Tôi Dựa Vào Khoa Học Để Kéo Dài Mạng Sống, Mượn Tử Khí Để Phi Thăng!",
+          "url": "https://www.youtube.com/watch?v=olgSqMS2XYI",
+          "id": "olgSqMS2XYI",
+          "duration": 20100,
+          "durationStr": "5:35:00",
+          "publishedAt": "2026-11-17T10:45:20+00:00",
+          "views": 35,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2254",
       "title": "Full Phần 1 |【Livestream Tận Thế: Tôi Dựa Vào Bán Hàng Trực Tuyến Để Mở Đường Sống!】",
