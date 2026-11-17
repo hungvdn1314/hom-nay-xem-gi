@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2150,
+    "totalFilms": 2151,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T13:30:27.039358+00:00"
+    "lastUpdated": "2026-11-17T15:00:41.515229+00:00"
   },
   "channels": [
     {
@@ -71,7 +71,7 @@
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 67
+      "filmCount": 68
     },
     {
       "id": "zzzphim",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2270",
+      "title": "MÙA 1| KHÔNG CÓ LINH CĂN – THỨC TỈNH HỆ THỐNG, ÂM THẦM NGHỊCH THIÊN TU TIÊN.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7503,
+      "totalDurationStr": "2 giờ 05 phút",
+      "totalViews": 24,
+      "totalLikes": 3,
+      "review": "MÙA 1| KHÔNG CÓ LINH CĂN – THỨC TỈNH HỆ THỐNG, ÂM THẦM NGHỊCH THIÊN TU TIÊN. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/jga_hWOIdkI/hqdefault.jpg",
+      "publishedAt": "2026-11-17T14:47:08+00:00",
+      "updatedAt": "2026-11-17T14:47:08+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "MÙA 1| KHÔNG CÓ LINH CĂN – THỨC TỈNH HỆ THỐNG, ÂM THẦM NGHỊCH THIÊN TU TIÊN.",
+          "url": "https://www.youtube.com/watch?v=jga_hWOIdkI",
+          "id": "jga_hWOIdkI",
+          "duration": 7503,
+          "durationStr": "2:05:03",
+          "publishedAt": "2026-11-17T14:47:08+00:00",
+          "views": 24,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2268",
       "title": "【Mùa 1–2】Trọng Sinh Thành Người Có Vai Vế Cao Nhất Gia Tộc, Tôi Trở Thành Tiểu Thái Công!",
