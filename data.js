@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2151,
+    "totalFilms": 2155,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T15:00:41.515229+00:00"
+    "lastUpdated": "2026-11-17T15:30:28.127848+00:00"
   },
   "channels": [
     {
@@ -35,19 +35,19 @@ window.FILMS_DATA = {
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 281
+      "filmCount": 282
     },
     {
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 300
+      "filmCount": 301
     },
     {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 210
+      "filmCount": 211
     },
     {
       "id": "tieusumuoi",
@@ -71,7 +71,7 @@ window.FILMS_DATA = {
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 68
+      "filmCount": 69
     },
     {
       "id": "zzzphim",
@@ -105,6 +105,156 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2272",
+      "title": "【Mùa 1–2】Nam Thần Idol Sở Hữu Nhan Sắc Tuyệt Đỉnh, Nhưng Anh Chỉ Muốn Sống Sót!",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19105,
+      "totalDurationStr": "5 giờ 18 phút",
+      "totalViews": 36,
+      "totalLikes": 4,
+      "review": "🎬 【Mùa 1–2】Nam Thần Idol Sở Hữu Nhan Sắc Tuyệt Đỉnh, Nhưng Anh Chỉ Muốn Sống Sót! 🌟 Với gương mặt nổi bật, anh dễ dàng khiến người khác chú ý ngay từ cái nhìn đầu tiên. Thế nhưng lý do anh bước chân vào giới giải trí lại rất đơn giản. Anh cần tham gia các hoạt động nghệ thuật để tích lũy điểm yêu thích và giành lấy cơ hội sống tiếp. 🎤 Nhan sắc có thể...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/qJcOmXBsqKs/hqdefault.jpg",
+      "publishedAt": "2026-11-17T15:25:28+00:00",
+      "updatedAt": "2026-11-17T15:25:28+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Nam Thần Idol Sở Hữu Nhan Sắc Tuyệt Đỉnh, Nhưng Anh Chỉ Muốn Sống Sót!",
+          "url": "https://www.youtube.com/watch?v=qJcOmXBsqKs",
+          "id": "qJcOmXBsqKs",
+          "duration": 19105,
+          "durationStr": "5:18:25",
+          "publishedAt": "2026-11-17T15:25:28+00:00",
+          "views": 36,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2273",
+      "title": "Full Phần 2 | 【Toàn Dân Phó Bản: Tôi Có Thể Tạo Ra 81 Kiếp Nạn Tây Du!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10652,
+      "totalDurationStr": "2 giờ 57 phút",
+      "totalViews": 15,
+      "totalLikes": 1,
+      "review": "🎬 Full Phần 2 | 【Toàn Dân Phó Bản: Tôi Có Thể Tạo Ra 81 Kiếp Nạn Tây Du!】 🐲 Để dựng kiếp nạn Sư Đà Lĩnh, Tô Mộc tìm được thẻ cấp A Sư Tử Hoàng Kim, mảnh ghép có thể giúp anh tạo ra Thanh Sư Tinh. Khổ nỗi tấm thẻ có giá ít nhất 10 triệu, trong khi anh chỉ có hơn 2 triệu. Chưa kể muốn khảm thẻ theo cách thông thường, lượng hồn lực của anh cũng chưa đủ. 🔥...",
+      "genres": [
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/7nNiMZidQE8/hqdefault.jpg",
+      "publishedAt": "2026-11-17T15:24:09+00:00",
+      "updatedAt": "2026-11-17T15:24:09+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Full Phần 2 | 【Toàn Dân Phó Bản: Tôi Có Thể Tạo Ra 81 Kiếp Nạn Tây Du!】",
+          "url": "https://www.youtube.com/watch?v=7nNiMZidQE8",
+          "id": "7nNiMZidQE8",
+          "duration": 10652,
+          "durationStr": "2:57:32",
+          "publishedAt": "2026-11-17T15:24:09+00:00",
+          "views": 15,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2271",
+      "title": "Full Phần 1 |【Chỉ Đi Vệ Sinh Một Chút, Sao Tôi Lại Biến Thành Zombie Rồi?!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8358,
+      "totalDurationStr": "2 giờ 19 phút",
+      "totalViews": 9,
+      "totalLikes": 0,
+      "review": "🎬 【Chỉ Đi Vệ Sinh Một Chút, Sao Tôi Lại Biến Thành Zombie Rồi?!】 🧟 Quầy bánh kếp vừa sắp thu hồi vốn thì tận thế ập đến. Lục Nhiễm Nhiễm chỉ đi vệ sinh một lát, ai ngờ bị zombie tấn công ngay lúc ấy. Cô vừa bắt đầu thèm gặm thịt thì một hệ thống vô tình liên kết với cô. Nó hoảng hốt tìm cách hủy liên kết, nhưng lại hết năng lượng! 🥞 Muốn trở lại làm...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/INxNXtZCCCE/hqdefault.jpg",
+      "publishedAt": "2026-11-17T15:23:46+00:00",
+      "updatedAt": "2026-11-17T15:23:46+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Chỉ Đi Vệ Sinh Một Chút, Sao Tôi Lại Biến Thành Zombie Rồi?!】",
+          "url": "https://www.youtube.com/watch?v=INxNXtZCCCE",
+          "id": "INxNXtZCCCE",
+          "duration": 8358,
+          "durationStr": "2:19:18",
+          "publishedAt": "2026-11-17T15:23:46+00:00",
+          "views": 9,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2274",
+      "title": "MÙA 2| TU TIÊN TRỞ VỀ VỊ HÔN THÊ CỦA TÔI KHÔNG THỂ GIẤU ĐƯỢC NỮA.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8012,
+      "totalDurationStr": "2 giờ 13 phút",
+      "totalViews": 36,
+      "totalLikes": 4,
+      "review": "MÙA 2| TU TIÊN TRỞ VỀ VỊ HÔN THÊ CỦA TÔI KHÔNG THỂ GIẤU ĐƯỢC NỮA. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/lS_s6iYnoXc/hqdefault.jpg",
+      "publishedAt": "2026-11-17T15:16:40+00:00",
+      "updatedAt": "2026-11-17T15:16:40+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 2",
+          "title": "MÙA 2| TU TIÊN TRỞ VỀ VỊ HÔN THÊ CỦA TÔI KHÔNG THỂ GIẤU ĐƯỢC NỮA.",
+          "url": "https://www.youtube.com/watch?v=lS_s6iYnoXc",
+          "id": "lS_s6iYnoXc",
+          "duration": 8012,
+          "durationStr": "2:13:32",
+          "publishedAt": "2026-11-17T15:16:40+00:00",
+          "views": 36,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2270",
       "title": "MÙA 1| KHÔNG CÓ LINH CĂN – THỨC TỈNH HỆ THỐNG, ÂM THẦM NGHỊCH THIÊN TU TIÊN.",
