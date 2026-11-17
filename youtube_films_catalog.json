@@ -1,17 +1,17 @@
 {
   "stats": {
-    "totalFilms": 2100,
+    "totalFilms": 2111,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-16T18:45:09.985912+00:00"
+    "lastUpdated": "2026-11-17T02:14:40.954673+00:00"
   },
   "channels": [
     {
       "id": "thienphatreview",
       "name": "Thiên Phạt Review",
       "url": "https://www.youtube.com/@thienphatreview",
-      "filmCount": 294
+      "filmCount": 295
     },
     {
       "id": "tieuho_review",
@@ -29,31 +29,31 @@
       "id": "melacreview",
       "name": "Mễ Lạc Review",
       "url": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "filmCount": 164
+      "filmCount": 165
     },
     {
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 276
+      "filmCount": 277
     },
     {
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 293
+      "filmCount": 295
     },
     {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 204
+      "filmCount": 206
     },
     {
       "id": "tieusumuoi",
       "name": "Tiểu Sư Muội",
       "url": "https://www.youtube.com/@Tieusumuoi-u3e",
-      "filmCount": 42
+      "filmCount": 43
     },
     {
       "id": "hh3dtrungquoc",
@@ -71,7 +71,7 @@
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 63
+      "filmCount": 64
     },
     {
       "id": "zzzphim",
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 69
+      "filmCount": 71
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,419 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2221",
+      "title": "Mùa 1 + Mùa 2 | Nàng Đến Từ Màn Đêm",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19916,
+      "totalDurationStr": "5 giờ 31 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Mùa 1 + Mùa 2 | Nàng Đến Từ Màn Đêm Khương Ly thất lạc từ nhỏ, trong môi trường xa lạ đã tự rèn luyện cho mình bản lĩnh hơn người. Khi trưởng thành, cô mang theo tờ giấy xét nghiệm quan hệ huyết thống trở về nhà họ Khương ở Hải Thị, nhưng lại phát hiện cha mẹ ruột đã sớm nhận nuôi một cô con...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/KbioO4-V_Yc/hqdefault.jpg",
+      "publishedAt": "2026-11-17T02:06:32+00:00",
+      "updatedAt": "2026-11-17T02:06:32+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1+2",
+          "title": "Mùa 1 + Mùa 2 | Nàng Đến Từ Màn Đêm",
+          "url": "https://www.youtube.com/watch?v=KbioO4-V_Yc",
+          "id": "KbioO4-V_Yc",
+          "duration": 19916,
+          "durationStr": "5:31:56",
+          "publishedAt": "2026-11-17T02:06:32+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2224",
+      "title": "Full Phần 1 |【Đừng Chọc Vào Đại Ca Ốm Yếu, Sau Lưng Anh Ấy Là Cả Bầy Sói Con Hung Hãn!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8080,
+      "totalDurationStr": "2 giờ 14 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Đừng Chọc Vào Đại Ca Ốm Yếu, Sau Lưng Anh Ấy Là Cả Bầy Sói Con Hung Hãn!】 🔥 Tám năm trước, cha mẹ Thẩm Mộc Thần qua đời trong một vụ tai nạn, biệt thự nhà họ Thẩm bốc cháy ngay trong ngày và các em trai anh từ đó thất lạc. Nay đã là tổng giám đốc Tập đoàn Vệ Thị, Mộc Thần vẫn chỉ có một mong muốn: tìm lại từng đứa em trước khi sức khỏe của mình suy...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/oQDlG9MMeaY/hqdefault.jpg",
+      "publishedAt": "2026-11-17T02:00:23+00:00",
+      "updatedAt": "2026-11-17T02:00:23+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Đừng Chọc Vào Đại Ca Ốm Yếu, Sau Lưng Anh Ấy Là Cả Bầy Sói Con Hung Hãn!】",
+          "url": "https://www.youtube.com/watch?v=oQDlG9MMeaY",
+          "id": "oQDlG9MMeaY",
+          "duration": 8080,
+          "durationStr": "2:14:40",
+          "publishedAt": "2026-11-17T02:00:23+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2226",
+      "title": "Full Phần 1 | Xông Pha Phó Bản Kinh Hoàng, Tiện Thể Thu Phục Cả Một Đám Đại Lão Về Làm Đồng Nghiệp!",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9277,
+      "totalDurationStr": "2 giờ 34 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Xông Pha Phó Bản Kinh Hoàng, Tiện Thể Thu Phục Cả Một Đám Đại Lão Về Làm Đồng Nghiệp!】 👻 Làm NPC quần quật ba tháng mà chỉ được trả 15 điểm sợ hãi, cô nàng mừng rỡ khi được phân vai quản lý ký túc xá ở phó bản tân thủ Đại học Lạc Anh. Cứ tưởng đi kiểm tra phòng là kiếm được một mớ điểm, ai dè vừa mở cửa đã đụng ngay nhóm đại lão top 10 bảng xếp hạng!...",
+      "genres": [
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/5K6ZzZIPsY4/hqdefault.jpg",
+      "publishedAt": "2026-11-17T01:59:50+00:00",
+      "updatedAt": "2026-11-17T01:59:50+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Xông Pha Phó Bản Kinh Hoàng, Tiện Thể Thu Phục Cả Một Đám Đại Lão Về Làm Đồng Nghiệp!",
+          "url": "https://www.youtube.com/watch?v=5K6ZzZIPsY4",
+          "id": "5K6ZzZIPsY4",
+          "duration": 9277,
+          "durationStr": "2:34:37",
+          "publishedAt": "2026-11-17T01:59:50+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2222",
+      "title": "Full Phần 1 |【Bậc Thầy Quán Ăn Vỉa Hè: Chỉ Cần Thực Khách Hài Lòng!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8245,
+      "totalDurationStr": "2 giờ 17 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Bậc Thầy Quán Ăn Vỉa Hè: Chỉ Cần Thực Khách Hài Lòng!】 🍜 Giây trước, Trần Phong còn là đầu bếp quốc yến trẻ nhất Long Quốc. Giây sau, anh đã đứng bên quán mì gói ngoài cổng trường, nhận nhiệm vụ “cấp địa ngục” từ hệ thống: nấu chín một gói mì! Hóa ra hệ thống giao việc dựa trên tay nghề của chủ quán cũ, người từng bị sinh viên chê nấu mì dở. 🔥 Khi ba...",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/SLwGPTdaPjU/hqdefault.jpg",
+      "publishedAt": "2026-11-17T01:59:30+00:00",
+      "updatedAt": "2026-11-17T01:59:30+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Bậc Thầy Quán Ăn Vỉa Hè: Chỉ Cần Thực Khách Hài Lòng!】",
+          "url": "https://www.youtube.com/watch?v=SLwGPTdaPjU",
+          "id": "SLwGPTdaPjU",
+          "duration": 8245,
+          "durationStr": "2:17:25",
+          "publishedAt": "2026-11-17T01:59:30+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2227",
+      "title": "TOÀN DÂN SINH TỒN TRÊN ĐƯỜNG CAO TỐC – RIÊNG NÀNG LÀ MÈO TRẮNG, PHÁ ĐẢO BẢNG XẾP HẠNG!",
+      "channelId": "tieusumuoi",
+      "channelName": "Tiểu Sư Muội",
+      "channelUrl": "https://www.youtube.com/@Tieusumuoi-u3e",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8019,
+      "totalDurationStr": "2 giờ 13 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Tân Cửu vốn là một người hiện đại, không ngờ sau khi qua đời vì làm việc quá sức, nàng lại trọng sinh thành một con mèo trắng lông dài, vừa tỉnh dậy đã bị mèo mẹ bỏ rơi! Tưởng rằng chỉ cần kiếm đồ ăn, sống cuộc đời mèo hoang là đủ, nào ngờ Lam Tinh bất ngờ bị cuốn vào Trò Chơi Sinh Tồn Đường Cao Tốc Toàn Dân, nơi hàng tỷ người phải lái phương tiện vượt...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/0JtuBgsYxxU/hqdefault.jpg",
+      "publishedAt": "2026-11-17T01:56:34+00:00",
+      "updatedAt": "2026-11-17T01:56:34+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "TOÀN DÂN SINH TỒN TRÊN ĐƯỜNG CAO TỐC – RIÊNG NÀNG LÀ MÈO TRẮNG, PHÁ ĐẢO BẢNG XẾP HẠNG!",
+          "url": "https://www.youtube.com/watch?v=0JtuBgsYxxU",
+          "id": "0JtuBgsYxxU",
+          "duration": 8019,
+          "durationStr": "2:13:39",
+          "publishedAt": "2026-11-17T01:56:34+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2230",
+      "title": "P1-3 | 32 GIỜ THỎA MÃN | Xuyên Làm Tạp Dịch Đào Mỏ - Hệ Thống Max Cấp Mọi Chỉ Số Tu Thành Vô Địch",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "P1-3 | 32 GIỜ THỎA MÃN | Xuyên Làm Tạp Dịch Đào Mỏ - Hệ Thống Max Cấp Mọi Chỉ Số Tu Thành Vô Địch Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các...",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/zMaYYJwJTJE/hqdefault.jpg",
+      "publishedAt": "2026-11-17T01:51:30+00:00",
+      "updatedAt": "2026-11-17T01:51:30+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-3",
+          "title": "P1-3 | 32 GIỜ THỎA MÃN | Xuyên Làm Tạp Dịch Đào Mỏ - Hệ Thống Max Cấp Mọi Chỉ Số Tu Thành Vô Địch",
+          "url": "https://www.youtube.com/watch?v=zMaYYJwJTJE",
+          "id": "zMaYYJwJTJE",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-17T01:51:30+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2229",
+      "title": "P1-2 | 6,5 GIỜ | Nữ Đế Trọng Sinh Bái Sư Tôn Phế Vật - Nào Ngờ Ngài Đã Vô Địch Từ Rất Lâu",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 22287,
+      "totalDurationStr": "6 giờ 11 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "P1-2 | 6,5 GIỜ | Nữ Đế Trọng Sinh Bái Sư Tôn Phế Vật - Nào Ngờ Ngài Đã Vô Địch Từ Rất Lâu Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/N7AGfdjFYZU/hqdefault.jpg",
+      "publishedAt": "2026-11-17T00:51:53+00:00",
+      "updatedAt": "2026-11-17T00:51:53+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-2",
+          "title": "P1-2 | 6,5 GIỜ | Nữ Đế Trọng Sinh Bái Sư Tôn Phế Vật - Nào Ngờ Ngài Đã Vô Địch Từ Rất Lâu",
+          "url": "https://www.youtube.com/watch?v=N7AGfdjFYZU",
+          "id": "N7AGfdjFYZU",
+          "duration": 22287,
+          "durationStr": "6:11:27",
+          "publishedAt": "2026-11-17T00:51:53+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2228",
+      "title": "MÙA 1 | XUYÊN KHÔNG VỀ THỜI TAM QUỐC TA BỊ ÉP CƯỚI CON GÁI LỮ BỐ- HỆ THỐNG NẰM KHÔNG CŨNG THẮNG.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11988,
+      "totalDurationStr": "3 giờ 19 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "MÙA 1 | XUYÊN KHÔNG VỀ THỜI TAM QUỐC TA BỊ ÉP CƯỚI CON GÁI LỮ BỐ- HỆ THỐNG NẰM KHÔNG CŨNG THẮNG. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/PtsULz6knV4/hqdefault.jpg",
+      "publishedAt": "2026-11-17T00:03:03+00:00",
+      "updatedAt": "2026-11-17T00:03:03+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "MÙA 1 | XUYÊN KHÔNG VỀ THỜI TAM QUỐC TA BỊ ÉP CƯỚI CON GÁI LỮ BỐ- HỆ THỐNG NẰM KHÔNG CŨNG THẮNG.",
+          "url": "https://www.youtube.com/watch?v=PtsULz6knV4",
+          "id": "PtsULz6knV4",
+          "duration": 11988,
+          "durationStr": "3:19:48",
+          "publishedAt": "2026-11-17T00:03:03+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2220",
+      "title": "Sinh Tồn Mạt Thế: Tiểu Yêu Tinh Xuyên Không Giữa Đại Dịch Zombie, Dùng Công Đức Để Tu Tiên",
+      "channelId": "thienphatreview",
+      "channelName": "Thiên Phạt Review",
+      "channelUrl": "https://www.youtube.com/@thienphatreview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8101,
+      "totalDurationStr": "2 giờ 15 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Sinh Tồn Mạt Thế: Tiểu Yêu Tinh Xuyên Không Giữa Đại Dịch Zombie, Dùng Công Đức Để Tu Tiên Thiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các thể loại. Review và tóm tắt cốt truyện ngắn gọn, dễ hiểu. Phân tích các nhân vật, tình tiết và những màn chiến đấu hấp dẫn. Cập nhật những bộ phim, hoạt hình và...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/I8hvj7Vq4Hs/hqdefault.jpg",
+      "publishedAt": "2026-11-17T00:00:36+00:00",
+      "updatedAt": "2026-11-17T00:00:36+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Sinh Tồn Mạt Thế: Tiểu Yêu Tinh Xuyên Không Giữa Đại Dịch Zombie, Dùng Công Đức Để Tu Tiên",
+          "url": "https://www.youtube.com/watch?v=I8hvj7Vq4Hs",
+          "id": "I8hvj7Vq4Hs",
+          "duration": 8101,
+          "durationStr": "2:15:01",
+          "publishedAt": "2026-11-17T00:00:36+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2223",
+      "title": "【Mùa 1–2】Quỷ Vực Vô Hạn: Bắt Đầu Từ Lớp Học Quỷ Dị!",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19482,
+      "totalDurationStr": "5 giờ 24 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Mùa 1–2】Quỷ Vực Vô Hạn: Bắt Đầu Từ Lớp Học Quỷ Dị! 🏫 Một lá thư bí ẩn kéo cả nhóm vào lớp học của Học viện Xuân Phong. Chỉ một tiếng hét đã kích hoạt quy tắc chết người. Để sống sót, họ phải tìm ra cách nộp bài, vượt qua những bài kiểm tra hằng ngày và trở về đúng ký túc xá trước 11 giờ đêm. 🔥 Manh mối về vụ cháy năm xưa dần lộ ra. Đến khi bị cuốn vào...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/RKPCfIDVqk0/hqdefault.jpg",
+      "publishedAt": "2026-11-16T23:31:18+00:00",
+      "updatedAt": "2026-11-16T23:31:18+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Quỷ Vực Vô Hạn: Bắt Đầu Từ Lớp Học Quỷ Dị!",
+          "url": "https://www.youtube.com/watch?v=RKPCfIDVqk0",
+          "id": "RKPCfIDVqk0",
+          "duration": 19482,
+          "durationStr": "5:24:42",
+          "publishedAt": "2026-11-16T23:31:18+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2225",
+      "title": "Full Phần 1 |【Thế Giới Ngầm Dưới Núi Côn Luân: Truyền Thuyết Dị Thú Thần Thoại Đang Ngủ Say!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8848,
+      "totalDurationStr": "2 giờ 27 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Thế Giới Ngầm Dưới Núi Côn Luân: Truyền Thuyết Dị Thú Thần Thoại Đang Ngủ Say!】 🏔️ Tiến sĩ Lý và đoàn khảo sát bảy người mất liên lạc suốt hai ngày trong vùng cấm Côn Luân. Vương Phan nhận lệnh đưa họ trở về. Vừa dựng trại, đội cứu hộ đã bị một quái vật lông xanh tấn công. Hai người bị thương, còn tung tích đoàn khảo sát vẫn chưa rõ. 🔥 Càng tiến sâu...",
+      "genres": [
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/ZYVrlnR6n4Q/hqdefault.jpg",
+      "publishedAt": "2026-11-16T23:28:38+00:00",
+      "updatedAt": "2026-11-16T23:28:38+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Thế Giới Ngầm Dưới Núi Côn Luân: Truyền Thuyết Dị Thú Thần Thoại Đang Ngủ Say!】",
+          "url": "https://www.youtube.com/watch?v=ZYVrlnR6n4Q",
+          "id": "ZYVrlnR6n4Q",
+          "duration": 8848,
+          "durationStr": "2:27:28",
+          "publishedAt": "2026-11-16T23:28:38+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2210",
       "title": "MÙA 1| LÃO TỔ CỐ GIA TRỞ VỀ - TÀN SÁT KẺ THÙ - BA NGÀN ĐẠO CHÂU QUY PHỤC.",
@@ -55735,10 +56148,10 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLDNgxHFuX2OY",
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 30742,
-      "totalDurationStr": "8 giờ 32 phút",
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 44407,
+      "totalDurationStr": "12 giờ 20 phút",
       "review": "Chúc Cửu Âm. (3 phần / 3 video (Mùa 6, Mùa 7, Mùa 8))",
       "genres": [
         "Hoạt hình 3D Chọn Lọc"
@@ -55783,13 +56196,26 @@
           "views": 15076,
           "likes": 120,
           "publishedAt": "2026-10-28T00:00:00+00:00"
+        },
+        {
+          "index": 4,
+          "label": "Mùa 9",
+          "title": "Mùa 9 | Chúc Cửu Âm",
+          "url": "https://www.youtube.com/watch?v=59RXzZ_U5uA",
+          "id": "59RXzZ_U5uA",
+          "duration": 13665,
+          "durationStr": "3:47:45",
+          "publishedAt": "2026-11-16T20:48:28+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
         }
       ],
       "totalViews": 57889,
       "totalLikes": 406,
       "publishedAt": "2026-09-27T00:00:00+00:00",
-      "updatedAt": "2026-10-28T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-16T20:48:28+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_787",
@@ -57763,10 +58189,10 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 19594,
-      "totalDurationStr": "5 giờ 26 phút",
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 27388,
+      "totalDurationStr": "7 giờ 36 phút",
       "review": "Nữ Phụ Phản Diện Nàng Chỉ Muốn Giữ Mạng. (1 video (Mùa 1))",
       "genres": [
         "Đô thị / Ngôn tình"
@@ -57785,13 +58211,26 @@
           "views": 8496,
           "likes": 132,
           "publishedAt": "2026-11-02T00:00:00+00:00"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 2",
+          "title": "Mùa 2 | Nữ Phụ Phản Diện Nàng Chỉ Muốn Giữ Mạng",
+          "url": "https://www.youtube.com/watch?v=Qh-uY59EAog",
+          "id": "Qh-uY59EAog",
+          "duration": 7794,
+          "durationStr": "2:09:54",
+          "publishedAt": "2026-11-16T20:37:54+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
         }
       ],
       "totalViews": 8496,
       "totalLikes": 132,
       "publishedAt": "2026-11-02T00:00:00+00:00",
-      "updatedAt": "2026-11-02T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-16T20:37:54+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_810",
@@ -61260,10 +61699,10 @@
       "channelName": "Thiên Ảnh Studio",
       "channelUrl": "https://www.youtube.com/@thienanhstudio9",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLWLgFgTMj4Fo",
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 21005,
-      "totalDurationStr": "5 giờ 50 phút",
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 30045,
+      "totalDurationStr": "8 giờ 20 phút",
       "review": "Dị Năng Lôi Hệ Của Tôi Không Có Giới Hạn!. (2 phần (Phần 1 -> 2))",
       "genres": [
         "Cao võ / Dị năng"
@@ -61295,13 +61734,26 @@
           "views": 3905,
           "likes": 60,
           "publishedAt": "2026-10-27T00:00:00+00:00"
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Full Phần 3 | Cao Võ: Dị Năng Lôi Hệ Của Tôi Không Có Giới Hạn!",
+          "url": "https://www.youtube.com/watch?v=82c-84X1Hxg",
+          "id": "82c-84X1Hxg",
+          "duration": 9040,
+          "durationStr": "2:30:40",
+          "publishedAt": "2026-11-16T23:29:51+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
         }
       ],
       "totalViews": 83660,
       "totalLikes": 1215,
       "publishedAt": "2026-10-14T00:00:00+00:00",
-      "updatedAt": "2026-10-27T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-16T23:29:51+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_893",
