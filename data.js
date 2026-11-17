@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2133,
+    "totalFilms": 2134,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T10:15:33.668715+00:00"
+    "lastUpdated": "2026-11-17T10:30:39.600923+00:00"
   },
   "channels": [
     {
@@ -59,7 +59,7 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 63
+      "filmCount": 64
     },
     {
       "id": "besuastudio",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2253",
+      "title": "Phần 1, Trùng Sinh Trong Game Giáng Lâm, Ta Trở Thành Thương Thần Bất Khả Chiến Bại",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7413,
+      "totalDurationStr": "2 giờ 03 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "[ Full ] Phần 1, Trùng Sinh Trong Game Giáng Lâm, Ta Trở Thành Thương Thần Bất Khả Chiến Bại Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/BK4vGENpfg8/hqdefault.jpg",
+      "publishedAt": "2026-11-17T10:30:07+00:00",
+      "updatedAt": "2026-11-17T10:30:07+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1, Trùng Sinh Trong Game Giáng Lâm, Ta Trở Thành Thương Thần Bất Khả Chiến Bại",
+          "url": "https://www.youtube.com/watch?v=BK4vGENpfg8",
+          "id": "BK4vGENpfg8",
+          "duration": 7413,
+          "durationStr": "2:03:33",
+          "publishedAt": "2026-11-17T10:30:07+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2252",
       "title": "3 GIỜ | Hệ Thống Nạp Tiền Vô Hạn - Từ Đáy Xã Hội Ta Trở Thành Thần Thánh",
