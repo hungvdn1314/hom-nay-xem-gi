@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2147,
+    "totalFilms": 2150,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T13:00:36.446635+00:00"
+    "lastUpdated": "2026-11-17T13:30:27.039358+00:00"
   },
   "channels": [
     {
@@ -35,19 +35,19 @@ window.FILMS_DATA = {
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 280
+      "filmCount": 281
     },
     {
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 299
+      "filmCount": 300
     },
     {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 209
+      "filmCount": 210
     },
     {
       "id": "tieusumuoi",
@@ -105,6 +105,118 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2268",
+      "title": "【Mùa 1–2】Trọng Sinh Thành Người Có Vai Vế Cao Nhất Gia Tộc, Tôi Trở Thành Tiểu Thái Công!",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 16860,
+      "totalDurationStr": "4 giờ 41 phút",
+      "totalViews": 52,
+      "totalLikes": 2,
+      "review": "🎬 【Mùa 1–2】Trọng Sinh Thành Người Có Vai Vế Cao Nhất Gia Tộc, Tôi Trở Thành Tiểu Thái Công! 🏮 Sau khi trọng sinh, anh trở thành Tiểu Thái Công, người có vai vế cao nhất trong một dòng họ đã tồn tại hơn trăm năm. Nhìn dáng vẻ ăn mặc xuề xòa của anh, ai mà ngờ ngay cả những người lớn tuổi trong họ cũng phải gọi anh bằng vai trên? 🔥 Vai vế ấy đi kèm với một...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/hsp-H524-Cs/hqdefault.jpg",
+      "publishedAt": "2026-11-17T13:17:07+00:00",
+      "updatedAt": "2026-11-17T13:17:07+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Trọng Sinh Thành Người Có Vai Vế Cao Nhất Gia Tộc, Tôi Trở Thành Tiểu Thái Công!",
+          "url": "https://www.youtube.com/watch?v=hsp-H524-Cs",
+          "id": "hsp-H524-Cs",
+          "duration": 16860,
+          "durationStr": "4:41:00",
+          "publishedAt": "2026-11-17T13:17:07+00:00",
+          "views": 52,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2269",
+      "title": "Full Phần 2 |【Bị Cướp Mất Thiên Phú Cốt, Tôi Thức Tỉnh 10 Ô Trang Bị!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11857,
+      "totalDurationStr": "3 giờ 17 phút",
+      "totalViews": 22,
+      "totalLikes": 3,
+      "review": "🎬 Full Phần 2 |【Bị Cướp Mất Thiên Phú Cốt, Tôi Thức Tỉnh 10 Ô Trang Bị!】 ⚔️ Sau khi bị cướp mất Thiên Phú Cốt, Lục Ly thức tỉnh 10 ô trang bị và có cơ hội tự giành lại thế chủ động. Sang Phần 2, việc anh phá hủy tế đàn khiến kế hoạch của Minh Thần đổ bể. Ám Ảnh Thần Giáo lập tức quay sang thanh trừng cả những kẻ từng giúp chúng. 🔥 Khi Hiệp hội đến nhà họ...",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/q39xhBTEqkc/hqdefault.jpg",
+      "publishedAt": "2026-11-17T13:15:50+00:00",
+      "updatedAt": "2026-11-17T13:15:50+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Full Phần 2 |【Bị Cướp Mất Thiên Phú Cốt, Tôi Thức Tỉnh 10 Ô Trang Bị!】",
+          "url": "https://www.youtube.com/watch?v=q39xhBTEqkc",
+          "id": "q39xhBTEqkc",
+          "duration": 11857,
+          "durationStr": "3:17:37",
+          "publishedAt": "2026-11-17T13:15:50+00:00",
+          "views": 22,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2267",
+      "title": "P1 | Gian Thương Xuyên Không Giữa Cổ Đại Và Hiện Đại: Dùng Lương Thực, Đổi Lấy Đá Mã Não Quý Hiếm",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 20601,
+      "totalDurationStr": "5 giờ 43 phút",
+      "totalViews": 49,
+      "totalLikes": 5,
+      "review": "🎬 【Gian Thương Xuyên Không Giữa Cổ Đại Và Hiện Đại: Dùng Lương Thực, Thuốc Men Đổi Lấy Đá Mã Não Quý Hiếm!】 🌾 Có thể qua lại giữa cổ đại và hiện đại, cô nàng nhanh chóng nghĩ ra cách làm ăn. Cô mang lương thực và thuốc men từ thời hiện đại sang, đổi lấy những viên mã não quý hiếm rồi mang về. 💎 Một bên cần lương thực để ăn, thuốc men để chữa bệnh. Bên...",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/xQdlePuYsNk/hqdefault.jpg",
+      "publishedAt": "2026-11-17T13:15:25+00:00",
+      "updatedAt": "2026-11-17T13:15:25+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1 | Gian Thương Xuyên Không Giữa Cổ Đại Và Hiện Đại: Dùng Lương Thực, Đổi Lấy Đá Mã Não Quý Hiếm",
+          "url": "https://www.youtube.com/watch?v=xQdlePuYsNk",
+          "id": "xQdlePuYsNk",
+          "duration": 20601,
+          "durationStr": "5:43:21",
+          "publishedAt": "2026-11-17T13:15:25+00:00",
+          "views": 49,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2266",
       "title": "3 GIỜ | Lão Tổ Ngủ Say Triệu Năm Với Tu Vi Vô Địch - Trấn Áp Cả Đại Đế Giải Cứu Cả Gia Tộc",
