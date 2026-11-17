@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2129,
+    "totalFilms": 2130,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T09:00:43.198476+00:00"
+    "lastUpdated": "2026-11-17T09:30:32.327312+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 76
+      "filmCount": 77
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,43 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2249",
+      "title": "3,5 GIỜ | Trưởng Lão Phế Tu Vi - Hệ Thống Thu Đồ Hoàn Trả 10 Lần Tu Vi - Vạn Điểm Thuộc Tính",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12132,
+      "totalDurationStr": "3 giờ 22 phút",
+      "totalViews": 34,
+      "totalLikes": 3,
+      "review": "3,5 GIỜ | Trưởng Lão Phế Tu Vi - Hệ Thống Thu Đồ Hoàn Trả 10 Lần Tu Vi - Vạn Điểm Thuộc Tính Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành...",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/wREX_iVXc0o/hqdefault.jpg",
+      "publishedAt": "2026-11-17T09:27:02+00:00",
+      "updatedAt": "2026-11-17T09:27:02+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "3,5 GIỜ | Trưởng Lão Phế Tu Vi - Hệ Thống Thu Đồ Hoàn Trả 10 Lần Tu Vi - Vạn Điểm Thuộc Tính",
+          "url": "https://www.youtube.com/watch?v=wREX_iVXc0o",
+          "id": "wREX_iVXc0o",
+          "duration": 12132,
+          "durationStr": "3:22:12",
+          "publishedAt": "2026-11-17T09:27:02+00:00",
+          "views": 34,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2248",
       "title": "P1, Truyền Nhân Liệp Tà Sư Thức Tỉnh Sức Mạnh Ngũ Hành Nghịch Thiên, Kế Thừa Sứ Mệnh Trấn Áp Tà Thần",
