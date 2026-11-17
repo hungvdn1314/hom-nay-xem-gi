@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2155,
+    "totalFilms": 2157,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T15:30:28.127848+00:00"
+    "lastUpdated": "2026-11-17T17:45:39.953605+00:00"
   },
   "channels": [
     {
@@ -29,7 +29,7 @@ window.FILMS_DATA = {
       "id": "melacreview",
       "name": "Mễ Lạc Review",
       "url": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "filmCount": 165
+      "filmCount": 166
     },
     {
       "id": "thienanhstudio9",
@@ -71,7 +71,7 @@ window.FILMS_DATA = {
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 69
+      "filmCount": 70
     },
     {
       "id": "zzzphim",
@@ -105,6 +105,82 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2275",
+      "title": "Mùa 13 - P1 (EP1-65) | Lưu Đày Biên Ải: Tội Thê Khai Hoang Nuôi Dưỡng Chiến Thần",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 4167,
+      "totalDurationStr": "1 giờ 09 phút",
+      "totalViews": 4,
+      "totalLikes": 0,
+      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Mùa 13 - P1 (EP1-65) | Lưu Đày Biên Ải: Tội Thê Khai Hoang Nuôi Dưỡng Chiến ThầnTóm tắt nội dung: câu chuyện xoay quanh hành trình sinh tồn và vươn lên đầy cảm hứng của một cô gái hiện đại bất ngờ xuyên không về thời cổ đại. Tỉnh dậy trong thân phận nữ quyến của một phủ Thượng thư vừa bị...",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/ON_EpKKt3yY/hqdefault.jpg",
+      "publishedAt": "2026-11-17T17:44:01+00:00",
+      "updatedAt": "2026-11-17T17:44:01+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 13 - P1",
+          "title": "Mùa 13 - P1 (EP1-65) | Lưu Đày Biên Ải: Tội Thê Khai Hoang Nuôi Dưỡng Chiến Thần",
+          "url": "https://www.youtube.com/watch?v=ON_EpKKt3yY",
+          "id": "ON_EpKKt3yY",
+          "duration": 4167,
+          "durationStr": "1:09:27",
+          "publishedAt": "2026-11-17T17:44:01+00:00",
+          "views": 4,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2276",
+      "title": "[SIÊU PHẨM 15H ] TIÊN TÔN TRỞ VỀ SAU 20.000 NĂM – BẢO VỆ GIA ĐÌNH, QUÉT NGANG ĐÔ THỊ.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 52054,
+      "totalDurationStr": "14 giờ 27 phút",
+      "totalViews": 19,
+      "totalLikes": 1,
+      "review": "[SIÊU PHẨM 15H ] TIÊN TÔN TRỞ VỀ SAU 20.000 NĂM – BẢO VỆ GIA ĐÌNH, QUÉT NGANG ĐÔ THỊ. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/wRzfpEfWris/hqdefault.jpg",
+      "publishedAt": "2026-11-17T17:33:53+00:00",
+      "updatedAt": "2026-11-17T17:33:53+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[SIÊU PHẨM 15H ] TIÊN TÔN TRỞ VỀ SAU 20.000 NĂM – BẢO VỆ GIA ĐÌNH, QUÉT NGANG ĐÔ THỊ.",
+          "url": "https://www.youtube.com/watch?v=wRzfpEfWris",
+          "id": "wRzfpEfWris",
+          "duration": 52054,
+          "durationStr": "14:27:34",
+          "publishedAt": "2026-11-17T17:33:53+00:00",
+          "views": 19,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2272",
       "title": "【Mùa 1–2】Nam Thần Idol Sở Hữu Nhan Sắc Tuyệt Đỉnh, Nhưng Anh Chỉ Muốn Sống Sót!",
