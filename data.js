@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2139,
+    "totalFilms": 2140,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T11:00:31.820277+00:00"
+    "lastUpdated": "2026-11-17T11:15:20.775466+00:00"
   },
   "channels": [
     {
@@ -101,10 +101,47 @@ window.FILMS_DATA = {
       "id": "thongocstudio",
       "name": "Thỏ Ngọc Studio",
       "url": "https://www.youtube.com/@ThoNgocStudio",
-      "filmCount": 61
+      "filmCount": 62
     }
   ],
   "films": [
+    {
+      "id": "film_2259",
+      "title": "FULL BỘ | Nam Sinh Bị Coi Thường Lại Là Kiếm Sĩ Mạnh Nhất Học Viện | Review Truyện",
+      "channelId": "thongocstudio",
+      "channelName": "Thỏ Ngọc Studio",
+      "channelUrl": "https://www.youtube.com/@ThoNgocStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19505,
+      "totalDurationStr": "5 giờ 25 phút",
+      "totalViews": 184,
+      "totalLikes": 20,
+      "review": "FULL BỘ | Nam Sinh Bị Coi Thường Lại Là Kiếm Sĩ Mạnh Nhất Học Viện | Review Truyện Tên Truyện: P̷h̷ả̷n̷ D̷i̷ệ̷n̷ T̷ố̷i̷ T̷h̷ư̷ợ̷n̷g̷ V̷ớ̷i̷ Đ̷ô̷i̷ M̷ắ̷t̷ C̷á̷o̷ Tag: review, review truyện, thỏ ngọc, thỏ ngọc studio - Đăng kí kênh để nhận đón xem những video mới nhất nhé ! Hashtag: #ThoNgocComics #manhwa #truyentranhmanwa...",
+      "genres": [
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/H5KkQR2IeQg/hqdefault.jpg",
+      "publishedAt": "2026-11-17T11:00:32+00:00",
+      "updatedAt": "2026-11-17T11:00:32+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "FULL BỘ | Nam Sinh Bị Coi Thường Lại Là Kiếm Sĩ Mạnh Nhất Học Viện | Review Truyện",
+          "url": "https://www.youtube.com/watch?v=H5KkQR2IeQg",
+          "id": "H5KkQR2IeQg",
+          "duration": 19505,
+          "durationStr": "5:25:05",
+          "publishedAt": "2026-11-17T11:00:32+00:00",
+          "views": 184,
+          "likes": 20,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2258",
       "title": "5 GIỜ | Thiếu Chủ Bị Hủy Hôn - Hệ Thống Sao Chép Tu Vi - Một Mình Ta Cân Cả Thiên Đạo",
