@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2138,
+    "totalFilms": 2139,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T10:55:57.148837+00:00"
+    "lastUpdated": "2026-11-17T11:00:31.820277+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 78
+      "filmCount": 79
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2258",
+      "title": "5 GIỜ | Thiếu Chủ Bị Hủy Hôn - Hệ Thống Sao Chép Tu Vi - Một Mình Ta Cân Cả Thiên Đạo",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 17429,
+      "totalDurationStr": "4 giờ 50 phút",
+      "totalViews": 124,
+      "totalLikes": 8,
+      "review": "5 GIỜ | Thiếu Chủ Bị Hủy Hôn - Hệ Thống Sao Chép Tu Vi - Một Mình Ta Cân Cả Thiên Đạo Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/-GWcIezW9hE/hqdefault.jpg",
+      "publishedAt": "2026-11-17T10:53:29+00:00",
+      "updatedAt": "2026-11-17T10:53:29+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "5 GIỜ | Thiếu Chủ Bị Hủy Hôn - Hệ Thống Sao Chép Tu Vi - Một Mình Ta Cân Cả Thiên Đạo",
+          "url": "https://www.youtube.com/watch?v=-GWcIezW9hE",
+          "id": "-GWcIezW9hE",
+          "duration": 17429,
+          "durationStr": "4:50:29",
+          "publishedAt": "2026-11-17T10:53:29+00:00",
+          "views": 124,
+          "likes": 8,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2257",
       "title": "【Mùa 1–2】Truyền Nhân Huyền Học: Tôi Dựa Vào Khoa Học Để Kéo Dài Mạng Sống, Mượn Tử Khí Để Phi Thăng!",
