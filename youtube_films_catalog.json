@@ -1,17 +1,17 @@
 {
   "stats": {
-    "totalFilms": 2131,
+    "totalFilms": 2133,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T10:00:29.389488+00:00"
+    "lastUpdated": "2026-11-17T10:15:33.668715+00:00"
   },
   "channels": [
     {
       "id": "thienphatreview",
       "name": "Thiên Phạt Review",
       "url": "https://www.youtube.com/@thienphatreview",
-      "filmCount": 296
+      "filmCount": 297
     },
     {
       "id": "tieuho_review",
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 77
+      "filmCount": 78
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2252",
+      "title": "3 GIỜ | Hệ Thống Nạp Tiền Vô Hạn - Từ Đáy Xã Hội Ta Trở Thành Thần Thánh",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11174,
+      "totalDurationStr": "3 giờ 06 phút",
+      "totalViews": 58,
+      "totalLikes": 3,
+      "review": "3 GIỜ | Hệ Thống Nạp Tiền Vô Hạn - Từ Đáy Xã Hội Ta Trở Thành Thần Thánh Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động trong nội dung...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/Mr43qgvFXFc/hqdefault.jpg",
+      "publishedAt": "2026-11-17T10:10:38+00:00",
+      "updatedAt": "2026-11-17T10:10:38+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "3 GIỜ | Hệ Thống Nạp Tiền Vô Hạn - Từ Đáy Xã Hội Ta Trở Thành Thần Thánh",
+          "url": "https://www.youtube.com/watch?v=Mr43qgvFXFc",
+          "id": "Mr43qgvFXFc",
+          "duration": 11174,
+          "durationStr": "3:06:14",
+          "publishedAt": "2026-11-17T10:10:38+00:00",
+          "views": 58,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2251",
+      "title": "Sinh Tồn Dị Giới: Xuyên Không Thành Rùa, Ta Cộng Điểm Vô Hạn Tiến Hóa Thành Thú Vương",
+      "channelId": "thienphatreview",
+      "channelName": "Thiên Phạt Review",
+      "channelUrl": "https://www.youtube.com/@thienphatreview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9288,
+      "totalDurationStr": "2 giờ 34 phút",
+      "totalViews": 24,
+      "totalLikes": 0,
+      "review": "Sinh Tồn Dị Giới: Xuyên Không Thành Rùa, Ta Cộng Điểm Vô Hạn Tiến Hóa Thành Thú Vương Thiên Phạt Review là kênh chuyên review, tóm tắt và phân tích những bộ phim, hoạt hình hấp dẫn thuộc các thể loại. Review và tóm tắt cốt truyện ngắn gọn, dễ hiểu. Phân tích các nhân vật, tình tiết và những màn chiến đấu hấp dẫn. Cập nhật những bộ phim, hoạt hình và...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/VPWyJNwp3YQ/hqdefault.jpg",
+      "publishedAt": "2026-11-17T10:00:10+00:00",
+      "updatedAt": "2026-11-17T10:00:10+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Sinh Tồn Dị Giới: Xuyên Không Thành Rùa, Ta Cộng Điểm Vô Hạn Tiến Hóa Thành Thú Vương",
+          "url": "https://www.youtube.com/watch?v=VPWyJNwp3YQ",
+          "id": "VPWyJNwp3YQ",
+          "duration": 9288,
+          "durationStr": "2:34:48",
+          "publishedAt": "2026-11-17T10:00:10+00:00",
+          "views": 24,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2250",
       "title": "Xuyên Không Làm Kẻ Đốt Xác, Cứ Thiêu Một Cái Xác Liền Tăng 10 Năm Công Lực",
@@ -53374,10 +53450,10 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLXfF8SKPqAEs",
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 82598,
-      "totalDurationStr": "22 giờ 56 phút",
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 97781,
+      "totalDurationStr": "27 giờ 09 phút",
       "review": "Đòn Đánh Thường Tăng Máu, Một Tên Tỷ Sát Thương Đồ Sát Thần Minh. (3 phần / 3 video (Mùa 2-P1, Mùa 2-P2, Mùa 3))",
       "genres": [
         "Trò chơi / Phó bản"
@@ -53399,6 +53475,19 @@
         },
         {
           "index": 2,
+          "label": "Mùa 4",
+          "title": "Mùa 4 | Trò Chơi Xâm Lấn: Đòn Đánh Thường Tăng Máu, Một Tên Tỷ Sát Thương Đồ Sát Thần Minh",
+          "url": "https://www.youtube.com/watch?v=0-OLEmfYicc",
+          "id": "0-OLEmfYicc",
+          "duration": 15183,
+          "durationStr": "4:13:03",
+          "publishedAt": "2026-11-17T10:15:02+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        },
+        {
+          "index": 3,
           "label": "Mùa 2 - P1",
           "title": "Mùa 2 - P1 | Trò Chơi Xâm Lấn: Đòn Đánh Thường Tăng Máu, Một Tên Tỷ Sát Thương Đồ Sát Thần Minh",
           "url": "https://www.youtube.com/watch?v=H4V2sJxYuhc",
@@ -53411,7 +53500,7 @@
           "publishedAt": "2026-10-25T00:00:00+00:00"
         },
         {
-          "index": 3,
+          "index": 4,
           "label": "Mùa 2 - P2",
           "title": "Mùa 2 - P2 | Trò Chơi Xâm Lấn: Đòn Đánh Thường Tăng Máu, Một Tên Tỷ Sát Thương Đồ Sát Thần Minh",
           "url": "https://www.youtube.com/watch?v=fFiiYaoaBHg",
@@ -53427,8 +53516,8 @@
       "totalViews": 43956,
       "totalLikes": 231,
       "publishedAt": "2026-10-25T00:00:00+00:00",
-      "updatedAt": "2026-11-08T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-17T10:15:02+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_740",
