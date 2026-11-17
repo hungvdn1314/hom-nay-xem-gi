@@ -29,55 +29,115 @@ const GENRE_RULES = [
   ['Tu tiên / Huyền huyễn', 3.0, 1.0, [
     'tu tiên', 'tu chân', 'đế tôn', 'tiên đế', 'kiếm tiên', 'kiếm thần', 'kiếm tông',
     'linh căn', 'trúc cơ', 'nguyên anh', 'kim đan', 'độ kiếp', 'phi thăng', 'lão tổ',
-    'sư tôn', 'sư muội', 'đạo hữu', 'thánh địa', 'tông môn', 'ma tôn', 'nữ đế', 'thần ma',
+    'sư tôn', 'sư muội', 'sư huynh', 'sư đệ', 'sư thúc', 'đại sư huynh', 'đạo hữu',
+    'thánh địa', 'tông môn', 'tông chủ', 'ma tôn', 'nữ đế', 'thần ma', 'thần thánh',
     'trường sinh', 'cẩu đạo', 'vạn giới', 'chư thiên', 'đại đế', 'thần đỉnh', 'hồng hoang',
-    'huyền huyễn', 'tiên giới', 'thần giới', 'huyết mạch'
+    'huyền huyễn', 'tiên giới', 'thần giới', 'huyết mạch', 'đột phá', 'phàm nhân',
+    'bất tử', 'thiên kiêu', 'pháp bảo', 'thiên đạo', 'tu đạo', 'đạo sĩ', 'đạo sỹ',
+    'thánh nữ', 'đại lão', 'càn khôn', 'luyện khí', 'nghịch thiên', 'luyện đan',
+    'khổ tu', 'xuất thế', 'trảm thần', 'phần quyết', 'thần kiếm', 'đan đạo', 'tiên tôn',
+    'kiếm cốt', 'huyền giới', 'tổ sư', 'tổ sư gia', 'vô lượng', 'bảo tháp', 'phàm trần',
+    'tu luyện', 'vô địch', 'cường giả', 'chân nhân', 'pháp tướng', 'chưởng môn', 'đan sư',
+    'linh tuyền', 'thể chất', 'bá thể', 'đại năng', 'hóa thần', 'ngưng khí', 'hoàng tuyền',
+    'giáo chủ', 'ngự khí', 'thiên kiếp', 'lôi kiếp', 'đế quốc tu chân', 'đan điền', 'huyền môn'
   ]],
   ['Quỷ dị / Linh dị', 3.0, 1.0, [
     'quỷ dị', 'linh dị', 'lệ quỷ', 'quái đàm', 'quy tắc', 'trấn linh', 'bắt quỷ',
     'huyền học', 'phong thủy', 'bói toán', 'cương thi', 'minh hôn', 'diêm quân',
-    'tà thần', 'yêu ma', 'trấn ma', 'quỷ thần', 'kinh dị'
+    'tà thần', 'yêu ma', 'trấn ma', 'quỷ thần', 'kinh dị', 'trừ tà', 'thiên sư',
+    'xem tướng', 'pháp sư', 'ngự quỷ', 'ngụy nhân', 'ác quỷ', 'hồn ma', 'bóng đè',
+    'cõi âm', 'quỷ giới', 'âm giới', 'minh giới', 'vớt xác', 'nghiệp chướng', 'trấn tà',
+    'hung trạch', 'nhà ma', 'oan hồn', 'cúng bái'
   ]],
   ['Sinh tồn / Mạt thế', 3.0, 1.0, [
     'mạt thế', 'tận thế', 'sinh tồn', 'zombie', 'thiên tai', 'băng hà', 'cực hàn',
     'huyết nguyệt', 'đại hồng thủy', 'sương mù', 'biển sâu', 'đảo hoang', 'sa mạc',
-    'tích trữ vật tư', 'nơi trú ẩn', 'bè gỗ', 'cao tốc'
+    'tích trữ vật tư', 'nơi trú ẩn', 'bè gỗ', 'cao tốc', 'chết đói', 'cứu thế', 'phóng xạ'
   ]],
   ['Ngự thú / Tiến hóa', 3.0, 1.0, [
     'ngự thú', 'thần sủng', 'linh thú', 'thú cưng', 'khế ước thú', 'triệu hồi thú',
-    'trùng tộc', 'tiến hóa', 'đột biến', 'thôn phệ', 'hóa long', 'cự long', 'bạch xà',
-    'dị thú', 'quái thú', 'pokémon', 'sủng vật'
+    'trùng tộc', 'tiến hóa', 'đột biến', 'thôn phệ', 'nuốt chửng', 'nuốt thịt', 'hóa long',
+    'cự long', 'bạch xà', 'dị thú', 'quái thú', 'pokémon', 'sủng vật', 'thú triều', 'tinh thể thú'
   ]],
   ['Trò chơi / Phó bản', 3.0, 1.0, [
     'trò chơi', 'phó bản', 'chuyển chức', 'toàn dân', 'người chơi', 'game', 'lãnh chúa',
     'lĩnh chủ', 'thẻ bài', 'vực sâu', 'cày cấp', 'boss', 'nghề nghiệp',
-    'mạnh nhất server', 'quân đoàn', 'vong linh', 'triệu hồi'
+    'mạnh nhất server', 'quân đoàn', 'vong linh', 'triệu hồi', 'top 1 server', 'hộp mù',
+    'treo máy', 'afk', 'server', 'toàn server', 'chiến đội', 'kỵ sĩ', 'nền văn minh',
+    'lãnh địa', 'chiếm cứ', 'xây dựng căn cứ'
   ]],
   ['Cao võ / Dị năng', 3.0, 1.0, [
     'cao võ', 'cao vũ', 'võ giả', 'võ đạo', 'võ hồn', 'dị năng', 'thức tỉnh năng lực',
-    'học viện', 'cơ giáp', 'tinh tế', 'vũ trụ', 'khoa huyễn', 'siêu phàm', 'sát thủ', 'đặc công'
+    'học viện', 'cơ giáp', 'tinh tế', 'vũ trụ', 'khoa huyễn', 'siêu phàm', 'sát thủ',
+    'đặc công', 'võ thần', 'võ đế', 'võ thuật', 'tuyệt thế', 'cao thủ', 'chiến thần',
+    'khí huyết', 'năng lực', 'quyền tu', 'thần binh'
   ]],
   ['Đô thị / Ngôn tình', 3.0, 1.0, [
     'đô thị', 'tổng tài', 'phú nhị đại', 'thần hào', 'hào môn', 'thiên kim', 'phu nhân',
     'thất gia', 'bạc tỷ', 'vợ cũ', 'hôn nhân', 'ly hôn', 'kết hôn', 'sủng', 'thanh mai',
-    'nam thần', 'hoa khôi', 'bác sĩ', 'nghịch tập', 'vả mặt', 'ở rể', 'phản diện',
-    'nữ phụ', 'thế thân', 'bạch nguyệt quang'
+    'nam thần', 'hoa khôi', 'bác sĩ', 'nghịch tập', 'vả mặt', 'ở rể', 'chàng rể', 'phản diện',
+    'nữ phụ', 'thế thân', 'bạch nguyệt quang', 'tứ gia', 'tam gia', 'nhị gia', 'bá đạo',
+    'đại học', 'học đường', 'trường học', 'nữ tổng', 'tài phiệt', 'giàu nhất', 'đổi đời',
+    'tiểu thư', 'bạch liên hoa', 'tra nam', 'bình hoa', 'show', 'nghệ sĩ', 'minh tinh',
+    'bạn trai', 'bạn gái', 'chia tay', 'hẹn hò', 'tỷ phú', 'triệu phú', 'chủ tịch',
+    'trưởng khoa', 'ảnh đế', 'ảnh hậu', 'showbiz', 'trùm trường', 'ở ghép', 'phá sản',
+    'cưng chiều', 'nuông chiều', 'nữ chính', 'nam chính', 'pháo hôi', 'thanh xuân',
+    'thế gia', 'thiếu gia', 'đại thiếu', 'nhị thiếu', 'đòi nợ', 'shipper', 'diva'
   ]],
   ['Võ hiệp / Cổ trang', 3.0, 1.0, [
     'cổ đại', 'cổ trang', 'hoàng đế', 'vương gia', 'thái tử', 'hoàng tử', 'công chúa',
     'triều đình', 'giang hồ', 'kiếm hiệp', 'võ hiệp', 'nương tử', 'tướng quân', 'phò mã',
-    'tể tướng', 'trường an', 'đại càn', 'lưu đày', 'khai hoang', 'biên ải', 'tửu lâu', 'quán ăn'
+    'tể tướng', 'trường an', 'đại càn', 'lưu đày', 'khai hoang', 'biên ải', 'tửu lâu',
+    'quán ăn', 'hoàng phi', 'cung đấu', 'nhiếp chính vương', 'trấn quốc', 'đại tướng quân',
+    'hầu tước', 'hầu gia', 'hầu phủ', 'chiến vương', 'thế tử', 'quận chúa', 'vương phi',
+    'nhiếp chính', 'chạy nạn', 'đổi hôn', 'gả cho', 'phu quân', 'biên thành', 'kinh thành',
+    'nha môn', 'thần bổ', 'đồ tể', 'man di', 'chiến trường cổ đại'
   ]],
   ['Hệ thống / Thức tỉnh', 1.5, 0.5, [
-    'hệ thống', 'thức tỉnh', 'bảng trạng thái', 'bàn tay vàng', 'điểm danh', 'đăng nhập',
-    'mô phỏng', 'quay thưởng', 'gacha', 'nâng cấp', 'cường hóa', 'thương thành',
-    'bồi thường', 'vạn lần', 'tối cường', 'cấp sss', 'bật hack'
+    'hệ thống', 'thức tỉnh', 'bảng trạng thái', 'bàn tay vàng', 'kim thủ chỉ', 'điểm danh',
+    'đăng nhập', 'mô phỏng', 'quay thưởng', 'gacha', 'rút thẻ', 'nâng cấp', 'cường hóa',
+    'thương thành', 'bồi thường', 'vạn lần', 'tối cường', 'cấp sss', 'sss+', 'sss',
+    'bật hack', 'hack', 'kích hoạt', 'thần cấp'
   ]],
   ['Xuyên không / Trọng sinh', 1.5, 0.5, [
-    'xuyên không', 'trọng sinh', 'trùng sinh', 'chuyển sinh', 'xuyên sách', 'kiếp trước',
-    'sống lại', 'xuyên về', 'luân hồi'
+    'xuyên không', 'trọng sinh', 'trùng sinh', 'chuyển sinh', 'xuyên sách', 'xuyên vào',
+    'xuyên làm', 'xuyên qua', 'xuyên tới', 'tái sinh', 'kiếp trước', 'sống lại',
+    'xuyên về', 'luân hồi', 'trở về', 'xuyên hai giới', 'xuyên tống', 'hoán đổi',
+    'trở lại', 'chuyển thế', 'người xuyên việt'
   ]]
 ];
+
+const PRESERVE_WORDS = new Set(['SSS+', 'SSS', 'SS1', 'SS2', 'SS3', 'P1', 'P2', 'P3', 'P4', 'P5', 'P1-2', 'P1-3', 'P1-4', 'P1-5', 'P1-10', 'AI', '2D', '3D', 'FULL', 'END', 'TOP']);
+
+function softenCapsTitle(title) {
+  if (!title) return '';
+  const alpha = title.match(/[a-zA-ZÀ-ỹ]/g);
+  if (!alpha || alpha.length === 0) return title;
+  const upperCount = alpha.filter(c => c === c.toUpperCase() && c !== c.toLowerCase()).length;
+  if (upperCount / alpha.length < 0.75) return title;
+
+  function softenSegment(seg) {
+    const words = seg.split(' ');
+    const out = [];
+    for (const w of words) {
+      const cleanW = w.replace(/^[^\wÀ-ỹ]+|[^\wÀ-ỹ]+$/g, '');
+      if (PRESERVE_WORDS.has(cleanW.toUpperCase()) || /^\d+[Hh]$/.test(cleanW)) {
+        out.push(w);
+      } else if (/^(P\d+|TẬP\d+|MÙA\d+)$/i.test(cleanW)) {
+        out.push(w.charAt(0).toUpperCase() + w.slice(1).toLowerCase());
+      } else if (cleanW.length > 0) {
+        out.push(w.charAt(0).toUpperCase() + w.slice(1).toLowerCase());
+      } else {
+        out.push(w);
+      }
+    }
+    return out.join(' ');
+  }
+
+  const parts = title.split(/([|\-–—:~]+)/);
+  const softenedParts = parts.map((p, i) => (i % 2 === 0 ? softenSegment(p) : p));
+  return softenedParts.join('');
+}
 
 const NON_3D_TITLE_RE = /\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|truyện tranh|manhua\s*audio|comic\s*audio|\[phim ngắn\]/i;
 
@@ -581,9 +641,10 @@ module.exports = async function handler(req, res) {
         const views = apiMeta?.views ?? nextMeta?.views ?? browseViewsMap.get(v.videoId) ?? 0;
         const likes = apiMeta?.likes ?? nextMeta?.likes ?? 0;
         const cleanDesc = cleanPlotSummary(v.description || nextMeta?.description || '');
+        const cleanTitle = softenCapsTitle(v.title);
         return {
           videoId: v.videoId,
-          title: v.title,
+          title: cleanTitle,
           channelId: v.channelId,
           channelName: v.channelName,
           channelUrl: v.channelUrl,
@@ -594,8 +655,8 @@ module.exports = async function handler(req, res) {
           views,
           likes,
           thumbnail: v.thumbnail,
-          genres: inferGenres(v.title, cleanDesc),
-          review: cleanDesc || `${v.title} — Tuyển tập hoạt hình 3D đặc sắc từ kênh ${v.channelName}.`
+          genres: inferGenres(cleanTitle, cleanDesc),
+          review: cleanDesc || `${cleanTitle} — Tuyển tập hoạt hình 3D đặc sắc từ kênh ${v.channelName}.`
         };
       })
       .filter(Boolean);

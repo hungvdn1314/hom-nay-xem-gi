@@ -30,3 +30,13 @@
 - [x] Added strict `no-cache` headers for `data.js` and `youtube_films_catalog.json` in `vercel.json`.
 - [x] Implemented `/api/cron-update.js` endpoint to trigger GitHub Actions `workflow_dispatch` on-demand via external cron / webhooks.
 - [x] Triggered manual `workflow_dispatch` run 44046428385, pulling 13 new films + 2 episodes into catalog.
+- [x] Reclassified 643 films out of fallback genre into accurate 3D genres via expanded `GENRE_RULES` in Python & JS.
+- [x] Softened 127 ALL CAPS titles across catalog and live feed while preserving acronyms (`SSS+`, `FULL`, `P1-2`, `AI`, `3D`).
+- [x] Implemented Spotlight Hero Banner with 16:9 poster backdrop, dark vignettes, kicker, bento chips, synopsis, action buttons, and 7s auto-advance dots.
+- [x] Added Continue Watching Progress Bar on film cards with episode position and percentage.
+- [x] Polished card badges layout to guarantee zero overlap across desktop and mobile.
+- [x] Implemented YouTube playback timestamp resume via `&start=${timeSec}` and `infoDelivery` message listener.
+- [x] Implemented standalone pure client-side SVG QR Code Modal for instant mobile & Smart TV handover.
+- [x] Implemented Theater Wide Mode (`.is-wide`, 96vw) and Ambient Dim Mode (`.is-dimmed`, 0.08 ambient opacity, `#btnAmbientUndim`).
+- [x] Implemented Auto-Play Next Episode engine with 5-second countdown overlay and cancel action.
+- [x] Verified zero horizontal overflow on mobile 375px (`scrollWidth: 358px`).

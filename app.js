@@ -32,7 +32,13 @@
     durationFilter: 'all',
     currentPlayingFilm: null,
     currentPlayingPartIndex: 1,
-    randomCandidate: null
+    randomCandidate: null,
+    spotlightIndex: 0,
+    spotlightTimer: null,
+    autoNextEnabled: (function() { try { return localStorage.getItem('homnayxemgi_autonext') !== '0'; } catch(e) { return true; } })(),
+    autoNextCountdownTimer: null,
+    isTheaterWide: false,
+    isAmbientDim: false
   };
 
   // DOM Elements Cache
@@ -106,7 +112,11 @@
     el.cardsWidescreenGrid = document.getElementById('cardsWidescreenGrid');
     el.paginationBar = document.getElementById('paginationBar');
 
-    // Theater Modal
+    // Spotlight Hero Container
+    el.spotlightHeroShell = document.getElementById('spotlightHeroShell');
+    el.spotlightHero = document.getElementById('spotlightHero');
+
+    // Theater Modal & Toolbar Controls
     el.theaterModal = document.getElementById('theaterModal');
     el.modalBackdrop = document.getElementById('modalBackdrop');
     el.modalCloseBtn = document.getElementById('modalCloseBtn');
@@ -116,6 +126,25 @@
     el.modalEpCounter = document.getElementById('modalEpCounter');
     el.modalEpMatrix = document.getElementById('modalEpMatrix');
     el.btnModalBookmark = document.getElementById('btnModalBookmark');
+    el.btnTheaterWide = document.getElementById('btnTheaterWide');
+    el.btnAmbientDim = document.getElementById('btnAmbientDim');
+    el.btnAmbientUndim = document.getElementById('btnAmbientUndim');
+    el.btnToggleAutoNext = document.getElementById('btnToggleAutoNext');
+    el.autoNextOverlay = document.getElementById('autoNextOverlay');
+    el.autoNextTimer = document.getElementById('autoNextTimer');
+    el.autoNextTitle = document.getElementById('autoNextTitle');
+    el.btnAutoNextCancel = document.getElementById('btnAutoNextCancel');
+    el.btnAutoNextNow = document.getElementById('btnAutoNextNow');
+    el.btnQrCode = document.getElementById('btnQrCode');
+
+    // QR Code Modal
+    el.qrModal = document.getElementById('qrModal');
+    el.qrBackdrop = document.getElementById('qrBackdrop');
+    el.btnCloseQrModal = document.getElementById('btnCloseQrModal');
+    el.qrCodeFrame = document.getElementById('qrCodeFrame');
+    el.qrTargetTitle = document.getElementById('qrTargetTitle');
+    el.btnCopyQrUrl = document.getElementById('btnCopyQrUrl');
+    el.btnCopyQrUrlText = document.getElementById('btnCopyQrUrlText');
 
     // Random Modal
     el.randomModal = document.getElementById('randomModal');
@@ -1151,6 +1180,17 @@
       el.cardsWidescreenGrid.classList.toggle('chart-list-mode', isChartListMode);
     }
 
+    // Spotlight Hero Banner: visible on default view (page 1, tab 'all', without search or narrow filters)
+    const shouldShowHero = !isLeaderboard && state.activeTab === 'all' && state.currentPage === 1 && !state.searchQuery.trim() && state.selectedGenre === 'all' && state.selectedChannel === 'all' && state.durationFilter === 'all';
+    if (el.spotlightHeroShell) {
+      el.spotlightHeroShell.classList.toggle('hidden', !shouldShowHero);
+      if (shouldShowHero) {
+        renderSpotlightHero();
+      } else {
+        pauseSpotlightTimer();
+      }
+    }
+
     if (isLeaderboard) {
       renderLeaderboardShowcase(totalCount);
     } else if (el.leaderboardShowcase) {
@@ -1199,8 +1239,31 @@
     const rankClass = rank === 1 ? 'rank-gold' : (rank === 2 ? 'rank-silver' : (rank === 3 ? 'rank-bronze' : ''));
     const statsMarkup = renderCardStatsHtml(viewsVal, likesVal);
 
+    // Watch Progress indicator on card
+    const progressEntry = state.progress[film.id];
+    let progressBarMarkup = '';
+    let hasProgressClass = '';
+    if (progressEntry) {
+      hasProgressClass = 'has-progress';
+      const currentPos = Number.isInteger(progressEntry.pos) ? progressEntry.pos : 0;
+      const totalParts = progressEntry.total || film.partsCount || 1;
+      const pct = Math.min(100, Math.max(10, Math.round(((currentPos + 1) / totalParts) * 100)));
+      const timeNote = progressEntry.timeSec > 60 ? ` • ${Math.floor(progressEntry.timeSec / 60)}p` : '';
+      progressBarMarkup = `
+        <div class="card-progress-bar-wrap" title="Đang xem ${escapeHtml(progressEntry.label || `Tập ${currentPos + 1}`)} / ${totalParts}">
+          <div class="card-progress-bar-track">
+            <div class="card-progress-bar-fill" style="width: ${pct}%;"></div>
+          </div>
+          <span class="card-progress-label">
+            <span>Đang xem ${escapeHtml(progressEntry.label || `Tập ${currentPos + 1}`)}${totalParts > 1 ? ` / ${totalParts}` : ''}</span>
+            <span>${pct}%${timeNote}</span>
+          </span>
+        </div>
+      `;
+    }
+
     return `
-      <article class="film-card ${extraClass} ${rankClass}" data-film-id="${film.id}" title="${escapeHtml(film.title)}">
+      <article class="film-card ${extraClass} ${rankClass} ${hasProgressClass}" data-film-id="${film.id}" title="${escapeHtml(film.title)}">
         <div class="card-thumbnail-box">
           <img 
             class="card-img" 
@@ -1244,6 +1307,8 @@
               <svg class="icon icon-sm" viewBox="0 0 24 24" style="margin-left: 2px;"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
             </div>
           </div>
+
+          ${progressBarMarkup}
         </div>
 
           <div class="card-body">
@@ -1451,9 +1516,16 @@
     }
     if (el.modalEpCounter) el.modalEpCounter.textContent = `${film.partsCount} Tập`;
 
-    // Embed YouTube Player with autoplay
+    // Check saved timestamp to resume where left off (> 15 seconds)
+    let startParam = '';
+    const existingProg = state.progress[film.id];
+    if (existingProg && existingProg.videoId === videoId && existingProg.timeSec > 15) {
+      startParam = `&start=${Math.floor(existingProg.timeSec)}`;
+    }
+
+    // Embed YouTube Player with autoplay, enablejsapi=1, and start timestamp
     if (el.youtubeIframe) {
-      el.youtubeIframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`;
+      el.youtubeIframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&enablejsapi=1${startParam}`;
     }
 
     // Render Episode Capsules Matrix with exact array position & videoId to avoid partNumber collisions
@@ -1494,19 +1566,30 @@
     if (el.youtubeIframe) {
       el.youtubeIframe.src = ''; // stop audio immediately
     }
+    if (state.autoNextCountdownTimer) {
+      clearInterval(state.autoNextCountdownTimer);
+      state.autoNextCountdownTimer = null;
+    }
+    el.autoNextOverlay?.classList.add('hidden');
+    if (state.isAmbientDim) {
+      toggleAmbientDim();
+    }
     el.theaterModal?.classList.remove('active');
     state.currentPlayingFilm = null;
     renderContinueShelf();
+    applyFiltersAndRender(state.currentPage);
     syncUrl({ film: null, ep: null });
   }
 
   // ---- Watch progress (Continue Watching) ----
-  function saveProgress(film, part, pos) {
+  function saveProgress(film, part, pos, timeSec = null) {
+    const prevTimeSec = state.progress[film.id]?.timeSec || 0;
     state.progress[film.id] = {
       videoId: part.videoId,
       pos,
       label: part.label || `Tập ${pos + 1}`,
       total: film.parts.length,
+      timeSec: timeSec !== null ? Math.floor(timeSec) : prevTimeSec,
       ts: Date.now()
     };
     const ids = Object.keys(state.progress).sort((a, b) => state.progress[b].ts - state.progress[a].ts);
@@ -1572,10 +1655,262 @@
   function stepEpisode(delta) {
     const film = state.currentPlayingFilm;
     if (!film) return;
-    const curPos = film.parts.findIndex(p => p.partNumber === state.currentPlayingPartIndex);
+    const curPos = film.parts.findIndex(p => p.videoId === state.progress[film.id]?.videoId) >= 0
+      ? film.parts.findIndex(p => p.videoId === state.progress[film.id]?.videoId)
+      : film.parts.findIndex(p => p.partNumber === state.currentPlayingPartIndex);
     const next = curPos + delta;
     if (next < 0 || next >= film.parts.length) return;
     openPlayer(film, { partPos: next, videoId: film.parts[next].videoId });
+  }
+
+  // -------------------------------------------------------------------------
+  // THEATER WIDE MODE & AMBIENT DIM
+  // -------------------------------------------------------------------------
+  function toggleTheaterWide() {
+    state.isTheaterWide = !state.isTheaterWide;
+    const shell = el.theaterModal?.querySelector('.cinema-dialog-shell');
+    if (shell) shell.classList.toggle('is-wide', state.isTheaterWide);
+    el.btnTheaterWide?.classList.toggle('active', state.isTheaterWide);
+    showToast(state.isTheaterWide ? 'Đã bật chế độ Rạp Chiếu Rộng' : 'Đã về chế độ tiêu chuẩn');
+  }
+
+  function toggleAmbientDim() {
+    state.isAmbientDim = !state.isAmbientDim;
+    const shell = el.theaterModal?.querySelector('.cinema-dialog-shell');
+    if (shell) shell.classList.toggle('is-dimmed', state.isAmbientDim);
+    el.theaterModal?.classList.toggle('is-dimmed', state.isAmbientDim);
+    el.btnAmbientDim?.classList.toggle('active', state.isAmbientDim);
+    el.btnAmbientUndim?.classList.toggle('hidden', !state.isAmbientDim);
+    showToast(state.isAmbientDim ? 'Đã tắt đèn không gian' : 'Đã bật lại đèn rạp');
+  }
+
+  // -------------------------------------------------------------------------
+  // AUTO-PLAY NEXT EPISODE ENGINE
+  // -------------------------------------------------------------------------
+  function toggleAutoNext() {
+    state.autoNextEnabled = !state.autoNextEnabled;
+    try { localStorage.setItem('homnayxemgi_autonext', state.autoNextEnabled ? '1' : '0'); } catch (e) {}
+    el.btnToggleAutoNext?.classList.toggle('active', state.autoNextEnabled);
+    showToast(state.autoNextEnabled ? 'Đã BẬT tự động chuyển tập tiếp theo' : 'Đã TẮT tự động chuyển tập');
+  }
+
+  function handleEpisodeEnded() {
+    if (!state.autoNextEnabled || !state.currentPlayingFilm) return;
+    const film = state.currentPlayingFilm;
+    const currentPart = film.parts.find(p => p.videoId === state.progress[film.id]?.videoId) || film.parts[state.progress[film.id]?.pos || 0];
+    const currentPos = film.parts.indexOf(currentPart);
+    if (currentPos < 0 || currentPos >= film.parts.length - 1) {
+      showToast('Bạn đã xem hết tập cuối của bộ phim này!');
+      return;
+    }
+    const nextPart = film.parts[currentPos + 1];
+    startAutoNextCountdown(film, nextPart, currentPos + 1);
+  }
+
+  function startAutoNextCountdown(film, nextPart, nextPos) {
+    if (state.autoNextCountdownTimer) {
+      clearInterval(state.autoNextCountdownTimer);
+      state.autoNextCountdownTimer = null;
+    }
+    if (!el.autoNextOverlay) {
+      openPlayer(film, { partPos: nextPos });
+      return;
+    }
+    let countdown = 5;
+    if (el.autoNextTimer) el.autoNextTimer.textContent = `${countdown}s`;
+    if (el.autoNextTitle) el.autoNextTitle.textContent = `Chuẩn bị chiếu: ${nextPart.label || `Tập ${nextPos + 1}`}`;
+    el.autoNextOverlay.classList.remove('hidden');
+
+    state.autoNextCountdownTimer = setInterval(() => {
+      countdown--;
+      if (el.autoNextTimer) el.autoNextTimer.textContent = `${countdown}s`;
+      if (countdown <= 0) {
+        clearInterval(state.autoNextCountdownTimer);
+        state.autoNextCountdownTimer = null;
+        el.autoNextOverlay.classList.add('hidden');
+        openPlayer(film, { partPos: nextPos });
+      }
+    }, 1000);
+  }
+
+  function cancelAutoNextCountdown() {
+    if (state.autoNextCountdownTimer) {
+      clearInterval(state.autoNextCountdownTimer);
+      state.autoNextCountdownTimer = null;
+    }
+    el.autoNextOverlay?.classList.add('hidden');
+    showToast('Đã dừng tự chuyển tập');
+  }
+
+  function executeAutoNextImmediately() {
+    if (state.autoNextCountdownTimer) {
+      clearInterval(state.autoNextCountdownTimer);
+      state.autoNextCountdownTimer = null;
+    }
+    el.autoNextOverlay?.classList.add('hidden');
+    stepEpisode(1);
+  }
+
+  // -------------------------------------------------------------------------
+  // QR CODE CLIENT-SIDE MODAL (XEM TRÊN ĐIỆN THOẠI & TV)
+  // -------------------------------------------------------------------------
+  function openQrModal() {
+    if (!state.currentPlayingFilm) return;
+    const film = state.currentPlayingFilm;
+    const prog = state.progress[film.id];
+    const pos = (prog && Number.isInteger(prog.pos)) ? prog.pos : 0;
+    const epNum = pos + 1;
+    const part = film.parts[pos] || film.parts[0];
+    const epLabel = part.label || `Tập ${epNum}`;
+
+    const origin = window.location.origin || (window.location.protocol + '//' + window.location.host);
+    const targetUrl = `${origin}${window.location.pathname}?film=${encodeURIComponent(film.id)}&ep=${epNum}`;
+
+    if (el.qrTargetTitle) {
+      el.qrTargetTitle.textContent = `[${epLabel}] ${film.title}`;
+    }
+    if (el.qrCodeFrame) {
+      el.qrCodeFrame.innerHTML = generateQrSvg(targetUrl);
+    }
+    if (el.btnCopyQrUrl) {
+      el.btnCopyQrUrl.dataset.url = targetUrl;
+    }
+    if (el.btnCopyQrUrlText) {
+      el.btnCopyQrUrlText.textContent = 'Sao Chép Đường Dẫn';
+    }
+    el.qrModal?.classList.add('active');
+  }
+
+  function closeQrModal() {
+    el.qrModal?.classList.remove('active');
+  }
+
+  async function copyQrUrl() {
+    const url = el.btnCopyQrUrl?.dataset.url || window.location.href;
+    try {
+      await navigator.clipboard.writeText(url);
+      if (el.btnCopyQrUrlText) el.btnCopyQrUrlText.textContent = 'Đã Sao Chép!';
+      showToast('Đã sao chép đường dẫn xem phim');
+      setTimeout(() => {
+        if (el.btnCopyQrUrlText) el.btnCopyQrUrlText.textContent = 'Sao Chép Đường Dẫn';
+      }, 2000);
+    } catch (err) {
+      showToast('Không thể sao chép, hãy copy trên thanh địa chỉ');
+    }
+  }
+
+  // -------------------------------------------------------------------------
+  // SPOTLIGHT HERO BANNER LOGIC (TOP TRENDING 3D SHOWCASE)
+  // -------------------------------------------------------------------------
+  function getSpotlightCandidates() {
+    if (!state.allFilms || state.allFilms.length === 0) return [];
+    // Prioritize high-view, multi-part curated films with valid thumbnails
+    const pool = state.allFilms
+      .filter(f => f.thumbnailUrl && f.totalDurationSec > 1800)
+      .slice();
+    pool.sort((a, b) => (b.totalViews || 0) - (a.totalViews || 0));
+    return pool.slice(0, 5);
+  }
+
+  function renderSpotlightHero() {
+    if (!el.spotlightHero) return;
+    const candidates = getSpotlightCandidates();
+    if (candidates.length === 0) {
+      el.spotlightHeroShell?.classList.add('hidden');
+      return;
+    }
+    const idx = (state.spotlightIndex % candidates.length + candidates.length) % candidates.length;
+    state.spotlightIndex = idx;
+    const film = candidates[idx];
+    const isFav = state.favorites.has(film.id);
+    const partsLabel = film.partsCount > 1 ? `${film.partsCount} Phần` : 'Trọn bộ 1 tập';
+    const genres = (Array.isArray(film.genres) && film.genres.length ? film.genres : [film.genre]).slice(0, 2);
+
+    const dotsHtml = candidates.map((_, i) =>
+      `<button type="button" class="spotlight-dot ${i === idx ? 'active' : ''}" data-spotlight-dot="${i}" aria-label="Xem phim nổi bật ${i + 1}"></button>`
+    ).join('');
+
+    el.spotlightHero.innerHTML = `
+      <div class="spotlight-backdrop">
+        <img class="spotlight-backdrop-img" src="${escapeHtml(film.thumbnailUrl)}" alt="${escapeHtml(film.title)}" loading="eager" onerror="this.src='https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1200&auto=format&fit=crop&q=80'">
+      </div>
+      <div class="spotlight-vignette"></div>
+      <div class="spotlight-vignette-bottom"></div>
+
+      <div class="spotlight-content">
+        <div class="spotlight-kicker-row">
+          <span class="spotlight-kicker-badge">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="currentColor"></polygon></svg>
+            <span>PHIM 3D NỔI BẬT HÔM NAY</span>
+          </span>
+          <span class="spotlight-channel-pill">${escapeHtml(film.channelName)}</span>
+        </div>
+
+        <h2 class="spotlight-title">${escapeHtml(film.title)}</h2>
+
+        <div class="spotlight-meta-row">
+          <span class="spotlight-chip spotlight-chip-accent">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
+            <span>${partsLabel}</span>
+          </span>
+          ${film.totalDuration ? `
+            <span class="spotlight-chip spotlight-chip-amber">
+              <svg class="icon icon-xs clock-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>${escapeHtml(film.totalDuration)}</span>
+            </span>
+          ` : ''}
+          ${genres.map(g => `<span class="spotlight-chip">${escapeHtml(g)}</span>`).join('')}
+          ${film.totalViews > 0 ? `
+            <span class="spotlight-chip">
+              <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              <span>${formatCompactCountVi(film.totalViews)} xem</span>
+            </span>
+          ` : ''}
+        </div>
+
+        ${film.synopsis ? `<p class="spotlight-synopsis">${escapeHtml(film.synopsis)}</p>` : ''}
+
+        <div class="spotlight-actions">
+          <button type="button" class="btn-spotlight-watch" data-spotlight-watch="${escapeHtml(film.id)}">
+            <svg class="icon icon-sm" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
+            <span>Xem Ngay Tập 1</span>
+          </button>
+          <button type="button" class="btn-spotlight-fav ${isFav ? 'active' : ''}" data-spotlight-fav="${escapeHtml(film.id)}" title="${isFav ? 'Đã lưu' : 'Lưu phim'}">
+            <svg class="icon icon-sm" viewBox="0 0 24 24" fill="${isFav ? 'currentColor' : 'none'}"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+            <span>${isFav ? 'Đã Lưu Vào Tủ Phim' : 'Lưu Vào Tủ Phim'}</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="spotlight-nav-controls">
+        <div class="spotlight-dots">${dotsHtml}</div>
+        <button type="button" class="spotlight-arrow-btn" data-spotlight-dir="-1" aria-label="Phim trước">
+          <svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+        <button type="button" class="spotlight-arrow-btn" data-spotlight-dir="1" aria-label="Phim tiếp theo">
+          <svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+      </div>
+    `;
+
+    startSpotlightTimer();
+  }
+
+  function startSpotlightTimer() {
+    if (state.spotlightTimer) clearInterval(state.spotlightTimer);
+    state.spotlightTimer = setInterval(() => {
+      const candidates = getSpotlightCandidates();
+      if (candidates.length <= 1) return;
+      state.spotlightIndex = (state.spotlightIndex + 1) % candidates.length;
+      renderSpotlightHero();
+    }, 7000);
+  }
+
+  function pauseSpotlightTimer() {
+    if (state.spotlightTimer) {
+      clearInterval(state.spotlightTimer);
+      state.spotlightTimer = null;
+    }
   }
 
   // ---- URL deep-linking ----
@@ -2029,6 +2364,89 @@
     });
     el.btnPrevEp?.addEventListener('click', () => stepEpisode(-1));
     el.btnNextEp?.addEventListener('click', () => stepEpisode(1));
+    el.btnToggleAutoNext?.addEventListener('click', toggleAutoNext);
+    el.btnTheaterWide?.addEventListener('click', toggleTheaterWide);
+    el.btnAmbientDim?.addEventListener('click', toggleAmbientDim);
+    el.btnAmbientUndim?.addEventListener('click', toggleAmbientDim);
+    el.btnAutoNextCancel?.addEventListener('click', cancelAutoNextCountdown);
+    el.btnAutoNextNow?.addEventListener('click', executeAutoNextImmediately);
+
+    // QR Code Modal triggers
+    el.btnQrCode?.addEventListener('click', openQrModal);
+    el.btnCloseQrModal?.addEventListener('click', closeQrModal);
+    el.qrBackdrop?.addEventListener('click', closeQrModal);
+    el.btnCopyQrUrl?.addEventListener('click', copyQrUrl);
+
+    // Spotlight Hero carousel interactions
+    el.spotlightHero?.addEventListener('click', e => {
+      const watchBtn = e.target.closest('[data-spotlight-watch]');
+      if (watchBtn) {
+        const f = state.allFilms.find(x => x.id === watchBtn.dataset.spotlightWatch);
+        if (f) {
+          const prog = state.progress[f.id];
+          const resumePos = prog && Number.isInteger(prog.pos) && f.parts[prog.pos] ? prog.pos : 0;
+          openPlayer(f, { partPos: resumePos, videoId: f.parts[resumePos]?.videoId });
+        }
+        return;
+      }
+      const favBtn = e.target.closest('[data-spotlight-fav]');
+      if (favBtn) {
+        toggleFavorite(favBtn.dataset.spotlightFav);
+        renderSpotlightHero();
+        return;
+      }
+      const dotBtn = e.target.closest('[data-spotlight-dot]');
+      if (dotBtn) {
+        state.spotlightIndex = parseInt(dotBtn.dataset.spotlightDot, 10) || 0;
+        renderSpotlightHero();
+        return;
+      }
+      const dirBtn = e.target.closest('[data-spotlight-dir]');
+      if (dirBtn) {
+        const step = parseInt(dirBtn.dataset.spotlightDir, 10) || 1;
+        const candidates = getSpotlightCandidates();
+        if (candidates.length > 0) {
+          state.spotlightIndex = (state.spotlightIndex + step + candidates.length) % candidates.length;
+          renderSpotlightHero();
+        }
+        return;
+      }
+    });
+
+    el.spotlightHero?.addEventListener('mouseenter', pauseSpotlightTimer);
+    el.spotlightHero?.addEventListener('mouseleave', startSpotlightTimer);
+
+    // YouTube iframe postMessage listener for playback resume & auto-next
+    window.addEventListener('message', evt => {
+      if (!state.currentPlayingFilm) return;
+      try {
+        const data = typeof evt.data === 'string' ? JSON.parse(evt.data) : evt.data;
+        if (!data) return;
+        if (data.event === 'infoDelivery' && data.info) {
+          if (typeof data.info.currentTime === 'number' && data.info.currentTime > 5) {
+            const film = state.currentPlayingFilm;
+            if (film && state.progress[film.id]) {
+              state.progress[film.id].timeSec = Math.floor(data.info.currentTime);
+              const now = Date.now();
+              if (!state._lastProgSync || now - state._lastProgSync > 6000) {
+                state._lastProgSync = now;
+                try { localStorage.setItem('homnayxemgi_progress', JSON.stringify(state.progress)); } catch (err) {}
+              }
+            }
+          }
+          if (data.info.playerState === 0) { // 0 = YT.PlayerState.ENDED
+            handleEpisodeEnded();
+          }
+        }
+      } catch (err) {}
+    });
+
+    el.youtubeIframe?.addEventListener('load', () => {
+      try {
+        el.youtubeIframe.contentWindow?.postMessage(JSON.stringify({ event: 'listening' }), '*');
+      } catch (err) {}
+    });
+
     el.btnShareFilm?.addEventListener('click', async () => {
       const url = window.location.href;
       try {
@@ -2160,6 +2578,312 @@
     el.genreNavList?.querySelectorAll('.sidebar-menu-btn').forEach(b => {
       b.classList.toggle('active', b.dataset.genre === state.selectedGenre);
     });
+  }
+
+  // -------------------------------------------------------------------------
+  // STANDALONE QR CODE GENERATOR (PURE JS SVG GENERATOR)
+  // -------------------------------------------------------------------------
+  var QRPolynomial = function(num, shift) {
+    var offset = 0;
+    while (offset < num.length && num[offset] === 0) offset++;
+    this.num = new Array(num.length - offset + shift);
+    for (var i = 0; i < num.length - offset; i++) this.num[i] = num[i + offset];
+    for (var j = num.length - offset; j < this.num.length; j++) this.num[j] = 0;
+  };
+  QRPolynomial.prototype = {
+    get: function(index) { return this.num[index]; },
+    getLength: function() { return this.num.length; },
+    multiply: function(e) {
+      var num = new Array(this.getLength() + e.getLength() - 1);
+      for (var i = 0; i < this.getLength(); i++) {
+        for (var j = 0; j < e.getLength(); j++) num[i + j] ^= QRMath.gmult(this.get(i), e.get(j));
+      }
+      return new QRPolynomial(num, 0);
+    },
+    mod: function(e) {
+      if (this.getLength() - e.getLength() < 0) return this;
+      var ratio = QRMath.glog(this.get(0)) - QRMath.glog(e.get(0));
+      var num = new Array(this.getLength());
+      for (var i = 0; i < this.getLength(); i++) num[i] = this.get(i);
+      for (var j = 0; j < e.getLength(); j++) num[j] ^= QRMath.gexp(QRMath.glog(e.get(j)) + ratio);
+      return new QRPolynomial(num, 0).mod(e);
+    }
+  };
+
+  var QRMath = {
+    glog: function(n) { if (n < 1) return 0; return QRMath.LOG_TABLE[n]; },
+    gexp: function(n) { while (n < 0) n += 255; while (n >= 256) n -= 255; return QRMath.EXP_TABLE[n]; },
+    gmult: function(a, b) { if (a === 0 || b === 0) return 0; return QRMath.gexp(QRMath.glog(a) + QRMath.glog(b)); },
+    EXP_TABLE: new Array(256),
+    LOG_TABLE: new Array(256)
+  };
+  for (var i = 0; i < 8; i++) QRMath.EXP_TABLE[i] = 1 << i;
+  for (var i = 8; i < 256; i++) QRMath.EXP_TABLE[i] = QRMath.EXP_TABLE[i - 4] ^ QRMath.EXP_TABLE[i - 5] ^ QRMath.EXP_TABLE[i - 6] ^ QRMath.EXP_TABLE[i - 8];
+  for (var i = 0; i < 255; i++) QRMath.LOG_TABLE[QRMath.EXP_TABLE[i]] = i;
+
+  var QRBitBuffer = function() { this.buffer = []; this.length = 0; };
+  QRBitBuffer.prototype = {
+    put: function(num, length) { for (var i = 0; i < length; i++) this.putBit(((num >>> (length - i - 1)) & 1) === 1); },
+    putBit: function(bit) {
+      var bufIndex = Math.floor(this.length / 8);
+      if (this.buffer.length <= bufIndex) this.buffer.push(0);
+      if (bit) this.buffer[bufIndex] |= (0x80 >>> (this.length % 8));
+      this.length++;
+    }
+  };
+
+  function toUtf8ByteArray(str) {
+    var bytes = [];
+    for (var i = 0; i < str.length; i++) {
+      var code = str.charCodeAt(i);
+      if (code < 0x80) bytes.push(code);
+      else if (code < 0x800) { bytes.push(0xc0 | (code >> 6)); bytes.push(0x80 | (code & 0x3f)); }
+      else { bytes.push(0xe0 | (code >> 12)); bytes.push(0x80 | ((code >> 6) & 0x3f)); bytes.push(0x80 | (code & 0x3f)); }
+    }
+    return bytes;
+  }
+
+  var RS_BLOCK_TABLE = [
+    [1, 26, 19], [1, 26, 16], [1, 26, 13], [1, 26, 9],
+    [1, 44, 34], [1, 44, 28], [1, 44, 22], [1, 44, 16],
+    [1, 70, 55], [1, 70, 44], [2, 35, 17], [2, 35, 13],
+    [1, 100, 80], [2, 50, 32], [2, 50, 24], [4, 25, 9],
+    [1, 134, 108], [2, 67, 43], [2, 33, 15, 2, 34, 16], [2, 33, 11, 2, 34, 12],
+    [2, 86, 68], [4, 43, 27], [4, 43, 19], [4, 43, 15],
+    [2, 98, 78], [4, 49, 31], [2, 32, 14, 4, 33, 15], [4, 39, 13, 1, 40, 14],
+    [2, 121, 97], [2, 60, 38, 2, 61, 39], [4, 40, 18, 2, 41, 19], [4, 40, 14, 2, 41, 15],
+    [2, 146, 116], [3, 58, 36, 2, 59, 37], [4, 36, 16, 4, 37, 17], [4, 36, 12, 4, 37, 13],
+    [2, 86, 68, 2, 87, 69], [4, 69, 43, 1, 70, 44], [6, 43, 19, 2, 44, 20], [6, 43, 15, 2, 44, 16]
+  ];
+
+  var QRUtil = {
+    PATTERN_POSITION_TABLE: [[], [6, 18], [6, 22], [6, 26], [6, 30], [6, 34], [6, 22, 38], [6, 24, 42], [6, 26, 46], [6, 28, 50], [6, 30, 54]],
+    G15: (1 << 10) | (1 << 8) | (1 << 5) | (1 << 4) | (1 << 2) | (1 << 1) | (1 << 0),
+    G15_MASK: (1 << 14) | (1 << 12) | (1 << 10) | (1 << 4) | (1 << 1),
+    getBCHTypeInfo: function(data) {
+      var d = data << 10;
+      while (QRUtil.getBCHDigit(d) - QRUtil.getBCHDigit(QRUtil.G15) >= 0) d ^= (QRUtil.G15 << (QRUtil.getBCHDigit(d) - QRUtil.getBCHDigit(QRUtil.G15)));
+      return ((data << 10) | d) ^ QRUtil.G15_MASK;
+    },
+    getBCHDigit: function(data) { var digit = 0; while (data !== 0) { digit++; data >>>= 1; } return digit; },
+    getErrorCorrectPolynomial: function(errorCorrectLength) {
+      var a = new QRPolynomial([1], 0);
+      for (var i = 0; i < errorCorrectLength; i++) a = a.multiply(new QRPolynomial([1, QRMath.gexp(i)], 0));
+      return a;
+    },
+    getLostPoint: function(qrCode) {
+      var moduleCount = qrCode.moduleCount, lostPoint = 0;
+      for (var row = 0; row < moduleCount; row++) {
+        for (var col = 0; col < moduleCount; col++) {
+          var sameCount = 0, dark = qrCode.isDark(row, col);
+          for (var r = -1; r <= 1; r++) {
+            if (row + r < 0 || moduleCount <= row + r) continue;
+            for (var c = -1; c <= 1; c++) {
+              if (col + c < 0 || moduleCount <= col + c) continue;
+              if (r === 0 && c === 0) continue;
+              if (dark === qrCode.isDark(row + r, col + c)) sameCount++;
+            }
+          }
+          if (sameCount > 5) lostPoint += (3 + sameCount - 5);
+        }
+      }
+      return lostPoint;
+    }
+  };
+
+  var QRCodeModel = function(typeNumber, errorCorrectLevel) {
+    this.typeNumber = typeNumber;
+    this.errorCorrectLevel = errorCorrectLevel;
+    this.modules = null;
+    this.moduleCount = 0;
+    this.dataList = [];
+  };
+  QRCodeModel.prototype = {
+    addData: function(data) {
+      this.dataList.push({
+        mode: 4,
+        parsedData: toUtf8ByteArray(data),
+        getLength: function() { return this.parsedData.length; },
+        write: function(buffer) { for (var i = 0; i < this.parsedData.length; i++) buffer.put(this.parsedData[i], 8); }
+      });
+    },
+    isDark: function(row, col) { return this.modules[row][col]; },
+    make: function() {
+      var minLostPoint = 0, pattern = 0;
+      for (var i = 0; i < 8; i++) {
+        this.makeImpl(true, i);
+        var lostPoint = QRUtil.getLostPoint(this);
+        if (i === 0 || minLostPoint > lostPoint) { minLostPoint = lostPoint; pattern = i; }
+      }
+      this.makeImpl(false, pattern);
+    },
+    makeImpl: function(test, maskPattern) {
+      this.moduleCount = this.typeNumber * 4 + 17;
+      this.modules = new Array(this.moduleCount);
+      for (var row = 0; row < this.moduleCount; row++) {
+        this.modules[row] = new Array(this.moduleCount);
+        for (var col = 0; col < this.moduleCount; col++) this.modules[row][col] = null;
+      }
+      this.setupPositionProbePattern(0, 0);
+      this.setupPositionProbePattern(this.moduleCount - 7, 0);
+      this.setupPositionProbePattern(0, this.moduleCount - 7);
+      this.setupPositionAdjustPattern();
+      this.setupTimingPattern();
+      this.setupTypeInfo(test, maskPattern);
+      var dataCache = QRCodeModel.createData(this.typeNumber, this.errorCorrectLevel, this.dataList);
+      this.mapData(dataCache, maskPattern);
+    },
+    setupPositionProbePattern: function(row, col) {
+      for (var r = -1; r <= 7; r++) {
+        if (row + r <= -1 || this.moduleCount <= row + r) continue;
+        for (var c = -1; c <= 7; c++) {
+          if (col + c <= -1 || this.moduleCount <= col + c) continue;
+          this.modules[row + r][col + c] = ((0 <= r && r <= 6 && (c === 0 || c === 6)) || (0 <= c && c <= 6 && (r === 0 || r === 6)) || (2 <= r && r <= 4 && 2 <= c && c <= 4));
+        }
+      }
+    },
+    setupTimingPattern: function() {
+      for (var r = 8; r < this.moduleCount - 8; r++) if (this.modules[r][6] == null) this.modules[r][6] = (r % 2 === 0);
+      for (var c = 8; c < this.moduleCount - 8; c++) if (this.modules[6][c] == null) this.modules[6][c] = (c % 2 === 0);
+    },
+    setupPositionAdjustPattern: function() {
+      var pos = QRUtil.PATTERN_POSITION_TABLE[this.typeNumber - 1];
+      if (!pos) return;
+      for (var i = 0; i < pos.length; i++) {
+        for (var j = 0; j < pos.length; j++) {
+          var row = pos[i], col = pos[j];
+          if (this.modules[row][col] != null) continue;
+          for (var r = -2; r <= 2; r++) {
+            for (var c = -2; c <= 2; c++) this.modules[row + r][col + c] = (r === -2 || r === 2 || c === -2 || c === 2 || (r === 0 && c === 0));
+          }
+        }
+      }
+    },
+    setupTypeInfo: function(test, maskPattern) {
+      var data = (this.errorCorrectLevel << 3) | maskPattern;
+      var bits = QRUtil.getBCHTypeInfo(data);
+      for (var i = 0; i < 15; i++) {
+        var mod = (!test && ((bits >> i) & 1) === 1);
+        if (i < 6) this.modules[i][8] = mod;
+        else if (i < 8) this.modules[i + 1][8] = mod;
+        else this.modules[this.moduleCount - 15 + i][8] = mod;
+      }
+      for (var j = 0; j < 15; j++) {
+        var mod2 = (!test && ((bits >> j) & 1) === 1);
+        if (j < 8) this.modules[8][this.moduleCount - j - 1] = mod2;
+        else if (j < 9) this.modules[8][15 - j] = mod2;
+        else this.modules[8][15 - j - 1] = mod2;
+      }
+      this.modules[this.moduleCount - 8][8] = (!test);
+    },
+    mapData: function(data, maskPattern) {
+      var inc = -1, row = this.moduleCount - 1, bitIndex = 7, byteIndex = 0;
+      var maskFn = function(r, c) {
+        switch (maskPattern) {
+          case 0: return (r + c) % 2 === 0;
+          case 1: return r % 2 === 0;
+          case 2: return c % 3 === 0;
+          case 3: return (r + c) % 3 === 0;
+          case 4: return (Math.floor(r / 2) + Math.floor(c / 3)) % 2 === 0;
+          case 5: return ((r * c) % 2) + ((r * c) % 3) === 0;
+          case 6: return (((r * c) % 2) + ((r * c) % 3)) % 2 === 0;
+          case 7: return (((r * c) % 3) + ((r + c) % 2)) % 2 === 0;
+          default: return false;
+        }
+      };
+      for (var col = this.moduleCount - 1; col > 0; col -= 2) {
+        if (col === 6) col--;
+        while (true) {
+          for (var c = 0; c < 2; c++) {
+            if (this.modules[row][col - c] == null) {
+              var dark = false;
+              if (byteIndex < data.length) dark = (((data[byteIndex] >>> bitIndex) & 1) === 1);
+              if (maskFn(row, col - c)) dark = !dark;
+              this.modules[row][col - c] = dark;
+              bitIndex--;
+              if (bitIndex === -1) { byteIndex++; bitIndex = 7; }
+            }
+          }
+          row += inc;
+          if (row < 0 || this.moduleCount <= row) { row -= inc; inc = -inc; break; }
+        }
+      }
+    }
+  };
+
+  QRCodeModel.createData = function(typeNumber, errorCorrectLevel, dataList) {
+    var rsBlocks = RS_BLOCK_TABLE[(typeNumber - 1) * 4 + errorCorrectLevel];
+    var buffer = new QRBitBuffer();
+    for (var i = 0; i < dataList.length; i++) {
+      var data = dataList[i];
+      buffer.put(data.mode, 4);
+      buffer.put(data.getLength(), (1 <= typeNumber && typeNumber < 10) ? 8 : 16);
+      data.write(buffer);
+    }
+    var totalDataCount = 0;
+    for (var j = 0; j < rsBlocks.length; j += 3) totalDataCount += rsBlocks[j] * rsBlocks[j + 2];
+    if (buffer.length + 4 <= totalDataCount * 8) buffer.put(0, 4);
+    while (buffer.length % 8 !== 0) buffer.putBit(false);
+    while (true) {
+      if (buffer.length >= totalDataCount * 8) break;
+      buffer.put(0xec, 8);
+      if (buffer.length >= totalDataCount * 8) break;
+      buffer.put(0x11, 8);
+    }
+    var offset = 0, maxDcCount = 0, maxEcCount = 0, dcdata = [], ecdata = [];
+    for (var r = 0; r < rsBlocks.length; r += 3) {
+      var count = rsBlocks[r], totalCount = rsBlocks[r + 1], dataCount = rsBlocks[r + 2];
+      for (var c = 0; c < count; c++) {
+        var dc = [];
+        for (var k = 0; k < dataCount; k++) dc.push(0xff & buffer.buffer[k + offset]);
+        offset += dataCount;
+        var rsPoly = QRUtil.getErrorCorrectPolynomial(totalCount - dataCount);
+        var rawPoly = new QRPolynomial(dc, rsPoly.getLength() - 1);
+        var modPoly = rawPoly.mod(rsPoly);
+        var ec = new Array(rsPoly.getLength() - 1);
+        for (var m = 0; m < ec.length; m++) {
+          var modIndex = m + modPoly.getLength() - ec.length;
+          ec[m] = (modIndex >= 0) ? modPoly.get(modIndex) : 0;
+        }
+        dcdata.push(dc); ecdata.push(ec);
+        maxDcCount = Math.max(maxDcCount, dc.length); maxEcCount = Math.max(maxEcCount, ec.length);
+      }
+    }
+    var resData = [];
+    for (var n = 0; n < maxDcCount; n++) {
+      for (var r1 = 0; r1 < dcdata.length; r1++) if (n < dcdata[r1].length) resData.push(dcdata[r1][n]);
+    }
+    for (var n2 = 0; n2 < maxEcCount; n2++) {
+      for (var r2 = 0; r2 < ecdata.length; r2++) if (n2 < ecdata[r2].length) resData.push(ecdata[r2][n2]);
+    }
+    return resData;
+  };
+
+  function generateQrSvg(text, cellSize) {
+    cellSize = cellSize || 4;
+    var utf8Bytes = toUtf8ByteArray(text);
+    var typeNumber = 1;
+    for (var t = 1; t <= 10; t++) {
+      var rs = RS_BLOCK_TABLE[(t - 1) * 4 + 1];
+      var cap = 0;
+      for (var r = 0; r < rs.length; r += 3) cap += rs[r] * rs[r + 2];
+      if (utf8Bytes.length + 3 <= cap) { typeNumber = t; break; }
+    }
+    var qr = new QRCodeModel(typeNumber, 1);
+    qr.addData(text);
+    qr.make();
+    var count = qr.moduleCount, margin = 2;
+    var size = (count + margin * 2) * cellSize;
+    var d = [];
+    for (var row = 0; row < count; row++) {
+      for (var col = 0; col < count; col++) {
+        if (qr.isDark(row, col)) {
+          var x = (col + margin) * cellSize, y = (row + margin) * cellSize;
+          d.push("M" + x + " " + y + "h" + cellSize + "v" + cellSize + "h-" + cellSize + "z");
+        }
+      }
+    }
+    return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ' + size + ' ' + size + '" width="100%" height="100%" shape-rendering="crispEdges"><rect width="100%" height="100%" fill="#ffffff"/><path d="' + d.join('') + '" fill="#0B0F17"/></svg>';
   }
 
   // -------------------------------------------------------------------------

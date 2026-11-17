@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=20261117_153000">
+  <link rel="stylesheet" href="style.css?v=20261117_163000">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2338bdf8'><polygon points='5 3 19 12 5 21 5 3'/></svg>">
 </head>
 <body class="nordic-app">
@@ -148,6 +148,13 @@
           <div class="key-hint" title="Bấm phím '/' để tìm nhanh">/</div>
         </div>
       </div>
+
+      <!-- Spotlight Hero Banner (Cinematic Showcase for Top Trending 3D Movies) -->
+      <section class="spotlight-hero-shell" id="spotlightHeroShell" aria-label="Phim 3D nổi bật hôm nay">
+        <div class="spotlight-hero" id="spotlightHero">
+          <!-- Rendered dynamically via JS -->
+        </div>
+      </section>
 
       <!-- Continue Watching Shelf (rendered by JS, hidden when empty) -->
       <section class="continue-shelf hidden" id="continueShelf" aria-label="Đang xem dở">
@@ -328,6 +335,23 @@
 
       <!-- 16:9 Cinema Viewport -->
       <div class="cinema-screen-wrap">
+        <button type="button" class="btn-ambient-undim hidden" id="btnAmbientUndim" title="Bật lại đèn rạp">
+          <svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <span>Bật đèn</span>
+        </button>
+        <div class="auto-next-overlay hidden" id="autoNextOverlay">
+          <div class="auto-next-card">
+            <div class="auto-next-header">
+              <span class="auto-next-pill">TỰ ĐỘNG CHUYỂN TẬP</span>
+              <span class="auto-next-timer" id="autoNextTimer">5s</span>
+            </div>
+            <p class="auto-next-title" id="autoNextTitle">Đang chuyển sang tập tiếp theo...</p>
+            <div class="auto-next-actions">
+              <button type="button" class="btn-autonext-cancel" id="btnAutoNextCancel">Hủy</button>
+              <button type="button" class="btn-autonext-now" id="btnAutoNextNow">Xem Ngay</button>
+            </div>
+          </div>
+        </div>
         <iframe 
           id="youtubeIframe" 
           src="" 
@@ -341,9 +365,13 @@
       <div class="cinema-dialog-body">
         <div class="player-toolbar">
           <button type="button" class="player-nav-btn" id="btnPrevEp"><svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg><span>Tập trước</span></button>
-          <button type="button" class="player-nav-btn is-primary" id="btnNextEp"><span>Tập tiếp theo</span><svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+          <button type="button" class="player-nav-btn is-primary" id="btnNextEp"><span>Tập tiếp</span><svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+          <button type="button" class="player-nav-btn is-toggle active" id="btnToggleAutoNext" title="Bật/Tắt tự động chuyển sang tập tiếp theo khi hết tập"><svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="5 4 15 12 5 20 5 4"></polygon><line x1="19" y1="5" x2="19" y2="19"></line></svg><span>Tự chuyển tập</span></button>
+          <button type="button" class="player-nav-btn is-toggle" id="btnTheaterWide" title="Mở rộng khung rạp chiếu (96vw)"><svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg><span>Rạp rộng</span></button>
+          <button type="button" class="player-nav-btn is-toggle" id="btnAmbientDim" title="Tắt đèn không gian để tập trung xem"><svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg><span>Tắt đèn</span></button>
+          <button type="button" class="player-nav-btn" id="btnQrCode" title="Quét mã QR xem ngay trên Điện thoại / Smart TV"><svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg><span>Xem trên TV/Phone</span></button>
           <button type="button" class="player-nav-btn" id="btnShareFilm" title="Sao chép link phim/tập này"><svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg><span>Chia sẻ</span></button>
-          <a class="player-nav-btn" id="btnOpenYoutube" href="#" target="_blank" rel="noopener noreferrer"><svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg><span>Mở trên YouTube</span></a>
+          <a class="player-nav-btn" id="btnOpenYoutube" href="#" target="_blank" rel="noopener noreferrer"><svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg><span>YouTube</span></a>
         </div>
 
         <div class="player-info">
@@ -453,6 +481,37 @@
     </div>
   </div>
 
+  <!-- ==========================================
+       QR CODE DIALOG MODAL (XEM TRÊN ĐIỆN THOẠI / TV)
+       ========================================== -->
+  <div class="qr-modal" id="qrModal" role="dialog" aria-modal="true" aria-labelledby="qrModalTitle">
+    <div class="qr-backdrop" id="qrBackdrop"></div>
+    <div class="qr-dialog">
+      <div class="qr-dialog-head">
+        <div class="qr-title-wrap">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+          <h3 class="qr-modal-title" id="qrModalTitle">Xem Trên Điện Thoại &amp; TV</h3>
+        </div>
+        <button type="button" class="cinema-close-circle" id="btnCloseQrModal" aria-label="Đóng quét mã">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      <div class="qr-dialog-body">
+        <p class="qr-description">Quét mã QR bằng Camera điện thoại hoặc Zalo để chuyển rạp chiếu lên điện thoại / Smart TV:</p>
+        <div class="qr-code-frame" id="qrCodeFrame">
+          <!-- Standalone SVG QR Code dynamically rendered here -->
+        </div>
+        <p class="qr-target-title" id="qrTargetTitle"></p>
+        <div class="qr-action-row">
+          <button type="button" class="btn-copy-qr-url" id="btnCopyQrUrl">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            <span id="btnCopyQrUrlText">Sao Chép Đường Dẫn</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Toast Notification Bubble -->
   <div class="toast-pill" id="toastPill" role="status" aria-live="polite"></div>
 
@@ -477,7 +536,7 @@
   </nav>
 
   <!-- Load Data and Application Controller -->
-  <script src="data.js?v=20261117_153000"></script>
-  <script src="app.js?v=20261117_153000"></script>
+  <script src="data.js?v=20261117_163000"></script>
+  <script src="app.js?v=20261117_163000"></script>
 </body>
 </html>

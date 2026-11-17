@@ -91,3 +91,24 @@
   2. Created `/api/cron-update.js` endpoint which allows external schedulers (e.g. `cron-job.org`, UptimeRobot, or Vercel Cron) to trigger GitHub Actions `workflow_dispatch` instantly without waiting on GitHub's delayed schedule queue.
   3. Bumped asset cache string in `index.html` (`v=20261117_153000`).
   4. Successfully triggered `workflow_dispatch` (Run 44046428385), fetching 13 new films and 2 episodes into `data.js` (commit `201ad70`).
+
+## Major Feature & Polish Delivery (/goal 2026-11-17)
+- **1. Genre Reclassification & Title Softening**:
+  - Expanded `GENRE_RULES` with high-precision 3D vocabulary (Tu tiên, Quỷ dị, Đô thị, Võ hiệp, Cao võ, Trò chơi, Ngự thú, Hệ thống, Xuyên không). Reclassified 643 films out of fallback genre across 2,124 films.
+  - Implemented `soften_caps_title` (Python) and `softenCapsTitle` (JS) preserving acronyms (`SSS+`, `FULL`, `P1-2`, `AI`, `3D`), softening 127 ALL CAPS titles across catalog and live feed.
+- **2. Spotlight Hero Banner (`#spotlightHeroShell`)**:
+  - Added top trending 3D showcase carousel with 16:9 poster backdrop, dark vignettes, kicker pill (`PHIM 3D NỔI BẬT HÔM NAY`), softened title, meta chips (parts, duration, genre, views, likes), synopsis, action buttons ("Xem Ngay Tập 1", "Lưu Vào Tủ Phim"), and 7s auto-advance dots.
+- **3. Card Continue Watching Progress Bar**:
+  - Added `.card-progress-bar-wrap` on film cards in `state.progress` showing track fill and `Đang xem Phần X / Y`.
+  - Synchronized card badge layout (`.film-card.has-progress .card-duration-badge` to `bottom: 1.85rem`) preventing overlap.
+- **4. Playback Resume Timestamp**:
+  - Saved elapsed `timeSec` in `state.progress`. Reopens via YouTube iframe `&start=${timeSec}` if `timeSec > 15`. Listens to `infoDelivery` message events.
+- **5. Standalone Smart QR Code (`#qrModal`)**:
+  - Zero-dependency client-side pure JS QR SVG generator (`generateQrSvg`) creates scannable QR codes for instant mobile & Smart TV playback.
+- **6. Theater Wide Mode & Ambient Dim**:
+  - Added `#btnTheaterWide` (`.is-wide`, 96vw) and `#btnAmbientDim` (`.is-dimmed`, 0.08 opacity ambient, floating `#btnAmbientUndim`).
+- **7. Auto-Play Next Episode**:
+  - Added `#btnToggleAutoNext` and 5-second countdown overlay on episode completion (`playerState === 0`) with cancel / watch now actions.
+- **8. Verification**:
+  - Zero horizontal overflow on 375px (`scrollWidth: 358 <= 375`).
+  - All features verified via Puppeteer MCP (`desktop_spotlight_hero.png`, `qr_modal_preview.png`, `mobile_view_375.png`).
