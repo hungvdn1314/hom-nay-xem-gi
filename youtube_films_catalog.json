@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2202,
+    "totalFilms": 2203,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T13:45:24.811617+00:00"
+    "lastUpdated": "2026-11-18T16:30:36.307991+00:00"
   },
   "channels": [
     {
@@ -71,7 +71,7 @@
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 72
+      "filmCount": 73
     },
     {
       "id": "zzzphim",
@@ -105,6 +105,43 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2322",
+      "title": "MÙA 1|TỰ TẠO CHƯ THIÊN - CHIÊU MỘ THẦN TIÊN ĐẠI NÁO VẠN GIỚI.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8635,
+      "totalDurationStr": "2 giờ 23 phút",
+      "totalViews": 34,
+      "totalLikes": 3,
+      "review": "MÙA 1|TỰ TẠO CHƯ THIÊN - CHIÊU MỘ THẦN TIÊN ĐẠI NÁO VẠN GIỚI. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/s15_RBJOiTQ/hqdefault.jpg",
+      "publishedAt": "2026-11-18T16:15:49+00:00",
+      "updatedAt": "2026-11-18T16:15:49+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "MÙA 1|TỰ TẠO CHƯ THIÊN - CHIÊU MỘ THẦN TIÊN ĐẠI NÁO VẠN GIỚI.",
+          "url": "https://www.youtube.com/watch?v=s15_RBJOiTQ",
+          "id": "s15_RBJOiTQ",
+          "duration": 8635,
+          "durationStr": "2:23:55",
+          "publishedAt": "2026-11-18T16:15:49+00:00",
+          "views": 34,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2321",
       "title": "Võ Thuật Bất Tử - Xuyên Làm Lính Quèn - Hệ Thống Nâng Cấp Kỹ Năng Trở Thành Bất Tử",
