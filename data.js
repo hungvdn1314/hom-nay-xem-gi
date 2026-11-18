@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2175,
+    "totalFilms": 2176,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T05:00:31.585703+00:00"
+    "lastUpdated": "2026-11-18T05:30:23.923189+00:00"
   },
   "channels": [
     {
@@ -59,7 +59,7 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 66
+      "filmCount": 67
     },
     {
       "id": "besuastudio",
@@ -105,6 +105,43 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2295",
+      "title": "Phần 1, Thức Tỉnh Thập Điện Diêm La Cấp SSS, Đánh Bại Thần Minh, Diệt Yêu Vật, Trảm Tiên Nhân",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8666,
+      "totalDurationStr": "2 giờ 24 phút",
+      "totalViews": 42,
+      "totalLikes": 1,
+      "review": "[ Full ] Phần 1, Thức Tỉnh Thập Điện Diêm La Cấp SSS, Đánh Bại Thần Minh, Diệt Yêu Vật, Trảm Tiên Nhân Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/khMrErpM4tA/hqdefault.jpg",
+      "publishedAt": "2026-11-18T05:21:24+00:00",
+      "updatedAt": "2026-11-18T05:21:24+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1, Thức Tỉnh Thập Điện Diêm La Cấp SSS, Đánh Bại Thần Minh, Diệt Yêu Vật, Trảm Tiên Nhân",
+          "url": "https://www.youtube.com/watch?v=khMrErpM4tA",
+          "id": "khMrErpM4tA",
+          "duration": 8666,
+          "durationStr": "2:24:26",
+          "publishedAt": "2026-11-18T05:21:24+00:00",
+          "views": 42,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2293",
       "title": "3H| MA TÔN 300 TUỔI GIẤU NGHỀ – GIA NHẬP TÔNG MÔN CHÍNH ĐẠO.",
@@ -59583,10 +59620,10 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLlx4qz1QdhHcd78gOG9gzsRNEw3RiOmME",
-      "totalParts": 9,
-      "partsStr": "9 phần",
-      "totalDurationSec": 45290,
-      "totalDurationStr": "12 giờ 34 phút",
+      "totalParts": 10,
+      "partsStr": "10 phần",
+      "totalDurationSec": 53639,
+      "totalDurationStr": "14 giờ 53 phút",
       "review": "(63 Tập) | Vô Địch Tiêu Sư, Khai Cục Hộ Tống Diệt Thế Đế Nữ!. (9 phần (Phần 1 -> 9))",
       "genres": [
         "Tu tiên / Huyền huyễn"
@@ -59709,13 +59746,26 @@ window.FILMS_DATA = {
           "views": 20381,
           "likes": 244,
           "publishedAt": "2026-10-26T00:00:00+00:00"
+        },
+        {
+          "index": 10,
+          "label": "Mùa 10",
+          "title": "Mùa 10 | Vô Địch Tiêu Sư, Khai Cục Hộ Tống Diệt Thế Đế Nữ!",
+          "url": "https://www.youtube.com/watch?v=W2-JuDb90l0",
+          "id": "W2-JuDb90l0",
+          "duration": 8349,
+          "durationStr": "2:19:09",
+          "publishedAt": "2026-11-18T05:23:19+00:00",
+          "views": 18,
+          "likes": 3,
+          "isRedundant": false
         }
       ],
-      "totalViews": 215188,
-      "totalLikes": 2041,
+      "totalViews": 215206,
+      "totalLikes": 2044,
       "publishedAt": "2026-05-22T00:00:00+00:00",
-      "updatedAt": "2026-10-26T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-18T05:23:19+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_793",
