@@ -4,7 +4,7 @@ window.FILMS_DATA = {
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T01:00:27.387022+00:00"
+    "lastUpdated": "2026-11-18T01:15:20.688882+00:00"
   },
   "channels": [
     {
@@ -41416,10 +41416,10 @@ window.FILMS_DATA = {
       "channelName": "Tiểu Hồ Review (Dorovietsub)",
       "channelUrl": "https://www.youtube.com/@Ti%E1%BB%83u-H%E1%BB%93_Review",
       "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 55600,
-      "totalDurationStr": "15 giờ 26 phút",
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 70620,
+      "totalDurationStr": "19 giờ 37 phút",
       "review": "Xuyên Thành Phế Vật Bị Gia Tộc Ruồng Bỏ, Ta Thức Tỉnh Thiên Phú Ma Thần Ngịch Thiên. (2 phần (Phần 1 -> 2))",
       "genres": [
         "Hệ thống / Thức tỉnh"
@@ -41451,13 +41451,26 @@ window.FILMS_DATA = {
           "views": 313476,
           "likes": 3680,
           "publishedAt": "2026-11-01T00:00:00+00:00"
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Phần 3 | Xuyên Thành Phế Vật Bị Gia Tộc Ruồng Bỏ, Ta Thức Tỉnh Thiên Phú Ma Thần Ngịch Thiên",
+          "url": "https://www.youtube.com/watch?v=oq-lnf2pxt4",
+          "id": "oq-lnf2pxt4",
+          "duration": 15020,
+          "durationStr": "4:10:20",
+          "publishedAt": "2026-11-18T01:09:04+00:00",
+          "views": 138,
+          "likes": 23,
+          "isRedundant": false
         }
       ],
-      "totalViews": 830313,
-      "totalLikes": 9764,
+      "totalViews": 830451,
+      "totalLikes": 9787,
       "publishedAt": "2026-10-04T00:00:00+00:00",
-      "updatedAt": "2026-11-01T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-18T01:09:04+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_311",
