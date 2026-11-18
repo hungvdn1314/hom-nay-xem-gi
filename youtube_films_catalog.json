@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2195,
+    "totalFilms": 2199,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T12:45:22.319819+00:00"
+    "lastUpdated": "2026-11-18T13:00:31.666784+00:00"
   },
   "channels": [
     {
@@ -23,7 +23,7 @@
       "id": "chiuchiusubtv",
       "name": "ChiuChiuSubTV",
       "url": "https://www.youtube.com/@chiuchiusubtv",
-      "filmCount": 173
+      "filmCount": 174
     },
     {
       "id": "melacreview",
@@ -35,7 +35,7 @@
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 286
+      "filmCount": 287
     },
     {
       "id": "hoathinhmonganh",
@@ -77,13 +77,13 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 68
+      "filmCount": 69
     },
     {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 94
+      "filmCount": 95
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,156 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2316",
+      "title": "Full Phần 1 |【Chỉ 5 Tệ Ăn No Căng Bụng, Màn Vả Mặt Bắt Đầu Từ Blogger Triệu Fan!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 15686,
+      "totalDurationStr": "4 giờ 21 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Chỉ 5 Tệ Ăn No Căng Bụng, Màn Vả Mặt Bắt Đầu Từ Blogger Triệu Fan!】 🍚 Tiểu Lâm mở quán buffet 5 tệ để người lao động có một bữa cơm ngon. Cơm, rau và cả bò phi lê xào ớt xanh đều được ăn thoải mái. Nghe giá rẻ khó tin, blogger ẩm thực Đường Kiệt, người có 10 triệu lượt theo dõi, dẫn cameraman tới tận quán để kiểm chứng ngay trên livestream. 🔥 Tiểu Lâm...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/zdduJZA-vzw/hqdefault.jpg",
+      "publishedAt": "2026-11-18T13:00:13+00:00",
+      "updatedAt": "2026-11-18T13:00:13+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Chỉ 5 Tệ Ăn No Căng Bụng, Màn Vả Mặt Bắt Đầu Từ Blogger Triệu Fan!】",
+          "url": "https://www.youtube.com/watch?v=zdduJZA-vzw",
+          "id": "zdduJZA-vzw",
+          "duration": 15686,
+          "durationStr": "4:21:26",
+          "publishedAt": "2026-11-18T13:00:13+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2315",
+      "title": "Phần 1+2 | Toàn Dân Xuyên Không Sinh Tồn: Khởi Đầu Xe Ba Gác, Dắt Đàn Goblin Hài Bựa Làm BÁ CHỦ",
+      "channelId": "chiuchiusubtv",
+      "channelName": "ChiuChiuSubTV",
+      "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 24490,
+      "totalDurationStr": "6 giờ 48 phút",
+      "totalViews": 47,
+      "totalLikes": 4,
+      "review": "📌 Tóm Tắt Phim: Toàn nhân loại bất ngờ bị đưa vào \"Trò Chơi Sinh Tồn Toàn Dân\". Mỗi người khởi đầu với một phương tiện ngẫu nhiên và một Sào Huyệt binh chủng. Trần Phàm xui xẻo bốc phải chiếc XE BA GÁC RÁCH và binh chủng GOBLIN HẠ ĐẲNG bị coi là phế vật. Nhờ kích hoạt \"Bàn Tay Vàng\" rút thăm Từ Tố (Cường Tráng, Cuồng Bạo, Sinh Sôi, Cộng Sinh), Trần Phàm...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/M97qhp4PR-s/hqdefault.jpg",
+      "publishedAt": "2026-11-18T12:53:08+00:00",
+      "updatedAt": "2026-11-18T12:53:08+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1+2",
+          "title": "Phần 1+2 | Toàn Dân Xuyên Không Sinh Tồn: Khởi Đầu Xe Ba Gác, Dắt Đàn Goblin Hài Bựa Làm BÁ CHỦ",
+          "url": "https://www.youtube.com/watch?v=M97qhp4PR-s",
+          "id": "M97qhp4PR-s",
+          "duration": 24490,
+          "durationStr": "6:48:10",
+          "publishedAt": "2026-11-18T12:53:08+00:00",
+          "views": 47,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2318",
+      "title": "P1-2 | 8 GIỜ | Xuyên Làm Lục Hoàng Tử Phế Vật - Dùng Hệ Thống Vươn Lên Thống Trị Thế Giới",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 29170,
+      "totalDurationStr": "8 giờ 06 phút",
+      "totalViews": 176,
+      "totalLikes": 5,
+      "review": "P1-2 | 8 GIỜ | Xuyên Làm Lục Hoàng Tử Phế Vật - Dùng Hệ Thống Vươn Lên Thống Trị Thế Giới Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành...",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/Df25JXe_rWE/hqdefault.jpg",
+      "publishedAt": "2026-11-18T12:51:59+00:00",
+      "updatedAt": "2026-11-18T12:51:59+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-2",
+          "title": "P1-2 | 8 GIỜ | Xuyên Làm Lục Hoàng Tử Phế Vật - Dùng Hệ Thống Vươn Lên Thống Trị Thế Giới",
+          "url": "https://www.youtube.com/watch?v=Df25JXe_rWE",
+          "id": "Df25JXe_rWE",
+          "duration": 29170,
+          "durationStr": "8:06:10",
+          "publishedAt": "2026-11-18T12:51:59+00:00",
+          "views": 176,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2317",
+      "title": "Vừa Đắc Thế Liền Giáng Nàng Làm Trắc Phi, Nào Ngờ Nàng Là Nữ Vương Nam Chiếu Khiến Vạn Quân Quỳ Đón!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 20409,
+      "totalDurationStr": "5 giờ 40 phút",
+      "totalViews": 16,
+      "totalLikes": 1,
+      "review": "Vừa Đắc Thế Liền Giáng Nàng Làm Trắc Phi, Nào Ngờ Nàng Là Nữ Vương Nam Chiếu Khiến Vạn Quân Quỳ Đón!",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/71U8UHqAQjU/hqdefault.jpg",
+      "publishedAt": "2026-11-18T12:48:21+00:00",
+      "updatedAt": "2026-11-18T12:48:21+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Vừa Đắc Thế Liền Giáng Nàng Làm Trắc Phi, Nào Ngờ Nàng Là Nữ Vương Nam Chiếu Khiến Vạn Quân Quỳ Đón!",
+          "url": "https://www.youtube.com/watch?v=71U8UHqAQjU",
+          "id": "71U8UHqAQjU",
+          "duration": 20409,
+          "durationStr": "5:40:09",
+          "publishedAt": "2026-11-18T12:48:21+00:00",
+          "views": 16,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2314",
       "title": "3H| Vừa Xuyên Không Đã Nhận Tu Vi Ngàn Năm – Ta Nằm Không Cũng Thành Đại Đế.",
