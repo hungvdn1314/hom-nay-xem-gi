@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2184,
+    "totalFilms": 2185,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T09:00:28.660317+00:00"
+    "lastUpdated": "2026-11-18T09:15:20.737057+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 90
+      "filmCount": 91
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2304",
+      "title": "3,5 GIỜ | Ta Đã Là Ma Đế Vô Địch - Sao Hệ Thống Còn Bắt Ta Gia Nhập Tông Môn Làm Đệ Tử",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12387,
+      "totalDurationStr": "3 giờ 26 phút",
+      "totalViews": 46,
+      "totalLikes": 1,
+      "review": "3,5 GIỜ | Ta Đã Là Ma Đế Vô Địch - Sao Hệ Thống Còn Bắt Ta Gia Nhập Tông Môn Làm Đệ Tử Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/QKZ-rZs0lco/hqdefault.jpg",
+      "publishedAt": "2026-11-18T09:06:28+00:00",
+      "updatedAt": "2026-11-18T09:06:28+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "3,5 GIỜ | Ta Đã Là Ma Đế Vô Địch - Sao Hệ Thống Còn Bắt Ta Gia Nhập Tông Môn Làm Đệ Tử",
+          "url": "https://www.youtube.com/watch?v=QKZ-rZs0lco",
+          "id": "QKZ-rZs0lco",
+          "duration": 12387,
+          "durationStr": "3:26:27",
+          "publishedAt": "2026-11-18T09:06:28+00:00",
+          "views": 46,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2303",
       "title": "Phần 1, Hệ Thống Thức Tỉnh Nghề Ẩn, Tự Tạo Chức Nghiệp Sư Tiên Đạo, Đánh Bại Yêu Vật",
