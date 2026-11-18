@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2172,
+    "totalFilms": 2173,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T04:15:21.757701+00:00"
+    "lastUpdated": "2026-11-18T04:31:06.846538+00:00"
   },
   "channels": [
     {
@@ -59,7 +59,7 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 65
+      "filmCount": 66
     },
     {
       "id": "besuastudio",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2292",
+      "title": "P1, Thức Tỉnh Ác Chú Bị Coi Là Tai Họa Diệt Thế, Ta Trở Thành Thánh Tử Vực Sâu Thao Túng Vận Mệnh",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10616,
+      "totalDurationStr": "2 giờ 56 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "[ Full ] P1, Thức Tỉnh Ác Chú Bị Coi Là Tai Họa Diệt Thế, Ta Trở Thành Thánh Tử Vực Sâu Thao Túng Vận Mệnh Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/wrrs6A74Tx0/hqdefault.jpg",
+      "publishedAt": "2026-11-18T04:19:41+00:00",
+      "updatedAt": "2026-11-18T04:19:41+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Thức Tỉnh Ác Chú Bị Coi Là Tai Họa Diệt Thế, Ta Trở Thành Thánh Tử Vực Sâu Thao Túng Vận Mệnh",
+          "url": "https://www.youtube.com/watch?v=wrrs6A74Tx0",
+          "id": "wrrs6A74Tx0",
+          "duration": 10616,
+          "durationStr": "2:56:56",
+          "publishedAt": "2026-11-18T04:19:41+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2291",
       "title": "P1-2 | 8 GIỜ THỎA MÃN | Thiếu Gia Nằm Ngang Bị Nữ Đế Hủy Hôn - Nào Ngờ Hắn Là Thiên Tài Tuyệt Thế",
