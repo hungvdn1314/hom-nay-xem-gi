@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2189,
+    "totalFilms": 2190,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T10:15:23.083113+00:00"
+    "lastUpdated": "2026-11-18T10:45:19.029380+00:00"
   },
   "channels": [
     {
@@ -23,7 +23,7 @@
       "id": "chiuchiusubtv",
       "name": "ChiuChiuSubTV",
       "url": "https://www.youtube.com/@chiuchiusubtv",
-      "filmCount": 172
+      "filmCount": 173
     },
     {
       "id": "melacreview",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2309",
+      "title": "Xuyên Không Thành Phế Vật Chỉ Biết Lười Biếng Nằm Thẳng, Ai Ngờ Hệ Thống Vô Địch Ép Làm Bá Chủ",
+      "channelId": "chiuchiusubtv",
+      "channelName": "ChiuChiuSubTV",
+      "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 26740,
+      "totalDurationStr": "7 giờ 25 phút",
+      "totalViews": 27,
+      "totalLikes": 1,
+      "review": "📌 Tóm Tắt Phim: Kiếp trước làm trâu làm ngựa mệt mỏi, kiếp này xuyên không qua Diệp Thanh Vân chỉ muốn \"nằm thẳng\" làm một tên Trúc Cơ cùi bắp lười biếng tại Lăng Tiêu Phong. Nào ngờ Tông Môn gặp nguy, Hệ Thống Chí Tôn Vô Địch ép hắn phải làm nhiệm vụ. ⏱️ TIMESTAMPS: 00:00:00 - Kích hoạt hệ thống vô địch, phế vật Trúc Cơ mở trận cứu tông môn 00:17:30 -...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/AFVZvZFZ-hk/hqdefault.jpg",
+      "publishedAt": "2026-11-18T10:41:27+00:00",
+      "updatedAt": "2026-11-18T10:41:27+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Thành Phế Vật Chỉ Biết Lười Biếng Nằm Thẳng, Ai Ngờ Hệ Thống Vô Địch Ép Làm Bá Chủ",
+          "url": "https://www.youtube.com/watch?v=AFVZvZFZ-hk",
+          "id": "AFVZvZFZ-hk",
+          "duration": 26740,
+          "durationStr": "7:25:40",
+          "publishedAt": "2026-11-18T10:41:27+00:00",
+          "views": 27,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2308",
       "title": "【Mùa 1–2】Vùng Biển Tăng Tốc: Hòn Đảo Trong Mơ – Thiên Đường Utopia!",
