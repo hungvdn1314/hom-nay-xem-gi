@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2201,
+    "totalFilms": 2202,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T13:30:25.412562+00:00"
+    "lastUpdated": "2026-11-18T13:45:24.811617+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 95
+      "filmCount": 96
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2321",
+      "title": "Võ Thuật Bất Tử - Xuyên Làm Lính Quèn - Hệ Thống Nâng Cấp Kỹ Năng Trở Thành Bất Tử",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8325,
+      "totalDurationStr": "2 giờ 18 phút",
+      "totalViews": 73,
+      "totalLikes": 4,
+      "review": "Võ Thuật Bất Tử - Xuyên Làm Lính Quèn - Hệ Thống Nâng Cấp Kỹ Năng Trở Thành Bất Tử Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động trong...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/oO4l-Nso3FQ/hqdefault.jpg",
+      "publishedAt": "2026-11-18T13:37:13+00:00",
+      "updatedAt": "2026-11-18T13:37:13+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Võ Thuật Bất Tử - Xuyên Làm Lính Quèn - Hệ Thống Nâng Cấp Kỹ Năng Trở Thành Bất Tử",
+          "url": "https://www.youtube.com/watch?v=oO4l-Nso3FQ",
+          "id": "oO4l-Nso3FQ",
+          "duration": 8325,
+          "durationStr": "2:18:45",
+          "publishedAt": "2026-11-18T13:37:13+00:00",
+          "views": 73,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2320",
       "title": "Full Phần 1 |【Người Chơi Nạp Tiền: Tôi Làm Thần Hào Trong Thế Giới Game!】",
