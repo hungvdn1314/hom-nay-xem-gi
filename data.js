@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2163,
+    "totalFilms": 2164,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T01:45:25.463401+00:00"
+    "lastUpdated": "2026-11-18T02:45:19.122631+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 83
+      "filmCount": 84
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2283",
+      "title": "6,5 GIỜ | Bị Công Chúa Hủy Hôn - Thiếu Gia Không Thể Che Giấu Tài Năng - Thành Tiên Tài Vạn Cổ",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 22672,
+      "totalDurationStr": "6 giờ 17 phút",
+      "totalViews": 217,
+      "totalLikes": 9,
+      "review": "6,5 GIỜ | Bị Công Chúa Hủy Hôn - Thiếu Gia Không Thể Che Giấu Tài Năng - Thành Tiên Tài Vạn Cổ Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/93qrHaxh_CA/hqdefault.jpg",
+      "publishedAt": "2026-11-18T02:32:36+00:00",
+      "updatedAt": "2026-11-18T02:32:36+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "6,5 GIỜ | Bị Công Chúa Hủy Hôn - Thiếu Gia Không Thể Che Giấu Tài Năng - Thành Tiên Tài Vạn Cổ",
+          "url": "https://www.youtube.com/watch?v=93qrHaxh_CA",
+          "id": "93qrHaxh_CA",
+          "duration": 22672,
+          "durationStr": "6:17:52",
+          "publishedAt": "2026-11-18T02:32:36+00:00",
+          "views": 217,
+          "likes": 9,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2282",
       "title": "Phần 1-2 -Tiểu Sư Muội Thiên tài mắc chứng \"chuunibyou\" nặng: Ta đã vô địch rồi !",
