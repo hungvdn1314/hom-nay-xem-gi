@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2192,
+    "totalFilms": 2194,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T11:00:30.322798+00:00"
+    "lastUpdated": "2026-11-18T11:30:25.223309+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 93
+      "filmCount": 94
     },
     {
       "id": "gianhireview",
@@ -101,10 +101,84 @@
       "id": "thongocstudio",
       "name": "Thỏ Ngọc Studio",
       "url": "https://www.youtube.com/@ThoNgocStudio",
-      "filmCount": 62
+      "filmCount": 63
     }
   ],
   "films": [
+    {
+      "id": "film_2312",
+      "title": "10,5 GIỜ THỎA MÃN | Xuyên Làm Ăn Mày - Dùng Kiến Thức Thiên Tài Thống Lĩnh Cửu Châu",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 37117,
+      "totalDurationStr": "10 giờ 18 phút",
+      "totalViews": 70,
+      "totalLikes": 2,
+      "review": "10,5 GIỜ THỎA MÃN | Xuyên Làm Ăn Mày - Dùng Kiến Thức Thiên Tài Thống Lĩnh Cửu Châu Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/faCUB_RGQOc/hqdefault.jpg",
+      "publishedAt": "2026-11-18T11:23:50+00:00",
+      "updatedAt": "2026-11-18T11:23:50+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "10,5 GIỜ THỎA MÃN | Xuyên Làm Ăn Mày - Dùng Kiến Thức Thiên Tài Thống Lĩnh Cửu Châu",
+          "url": "https://www.youtube.com/watch?v=faCUB_RGQOc",
+          "id": "faCUB_RGQOc",
+          "duration": 37117,
+          "durationStr": "10:18:37",
+          "publishedAt": "2026-11-18T11:23:50+00:00",
+          "views": 70,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2313",
+      "title": "FULL BỘ | Tiên Tôn Phi Thăng Một Mình Xưng Bá Cửu Thiên Giới | Review Truyện",
+      "channelId": "thongocstudio",
+      "channelName": "Thỏ Ngọc Studio",
+      "channelUrl": "https://www.youtube.com/@ThoNgocStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 40246,
+      "totalDurationStr": "11 giờ 10 phút",
+      "totalViews": 328,
+      "totalLikes": 23,
+      "review": "FULL BỘ | Tiên Tôn Phi Thăng Một Mình Xưng Bá Cửu Thiên Giới | Review Truyện Tên Truyện: Đây rõ ràng không phải là tiên giới! Tag: review, review truyện, thỏ ngọc, thỏ ngọc studio - Đăng kí kênh để nhận đón xem những video mới nhất nhé ! Hashtag: #ThoNgocComics #manhwa #truyentranhmanwa -------------------------------------------------- [Music provided...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/1k1n0pYThA8/hqdefault.jpg",
+      "publishedAt": "2026-11-18T11:00:22+00:00",
+      "updatedAt": "2026-11-18T11:00:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "FULL BỘ | Tiên Tôn Phi Thăng Một Mình Xưng Bá Cửu Thiên Giới | Review Truyện",
+          "url": "https://www.youtube.com/watch?v=1k1n0pYThA8",
+          "id": "1k1n0pYThA8",
+          "duration": 40246,
+          "durationStr": "11:10:46",
+          "publishedAt": "2026-11-18T11:00:22+00:00",
+          "views": 328,
+          "likes": 23,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2310",
       "title": "Xuyên Không Thành Trưởng Nữ Nhà Nông Nghèo Bị Từ Hôn, Nào Ngờ Khai Hoang Nuôi Cả Nhà Đổi Đời",
