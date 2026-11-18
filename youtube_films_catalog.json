@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2187,
+    "totalFilms": 2189,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T10:00:34.780130+00:00"
+    "lastUpdated": "2026-11-18T10:15:23.083113+00:00"
   },
   "channels": [
     {
@@ -35,13 +35,13 @@
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 285
+      "filmCount": 286
     },
     {
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 304
+      "filmCount": 305
     },
     {
       "id": "vanmonggiao",
@@ -105,6 +105,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2308",
+      "title": "【Mùa 1–2】Vùng Biển Tăng Tốc: Hòn Đảo Trong Mơ – Thiên Đường Utopia!",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 23882,
+      "totalDurationStr": "6 giờ 38 phút",
+      "totalViews": 55,
+      "totalLikes": 4,
+      "review": "🎬 【Mùa 1–2】Vùng Biển Tăng Tốc: Hòn Đảo Trong Mơ – Thiên Đường Utopia! 🏝️ Mất việc, anh trở về hòn đảo bố mẹ để lại và cùng em trai tìm cách kiếm sống. Vừa đặt chân lên đảo, anh kích hoạt Hệ thống Phồn Vinh Hải Đảo. Với tốc độ hiện tại, cứ một ngày trên đảo thì vùng biển xung quanh đã trải qua ba năm! 🎣 Càng có nhiều người đến thăm hoặc ở lại, thời gian...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/9xXeV-beo0E/hqdefault.jpg",
+      "publishedAt": "2026-11-18T10:01:56+00:00",
+      "updatedAt": "2026-11-18T10:01:56+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Vùng Biển Tăng Tốc: Hòn Đảo Trong Mơ – Thiên Đường Utopia!",
+          "url": "https://www.youtube.com/watch?v=9xXeV-beo0E",
+          "id": "9xXeV-beo0E",
+          "duration": 23882,
+          "durationStr": "6:38:02",
+          "publishedAt": "2026-11-18T10:01:56+00:00",
+          "views": 55,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2307",
+      "title": "Full Phần 1 | 【Quỷ Giới Cầu Tiên: Ta Chính Là Chúa Tể Thần Thông!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 18854,
+      "totalDurationStr": "5 giờ 14 phút",
+      "totalViews": 32,
+      "totalLikes": 2,
+      "review": "🎬 【Quỷ Giới Cầu Tiên: Ta Chính Là Chúa Tể Thần Thông!】 🏮 Yêu quỷ Hắc Sơn còn chưa phá thành, huyện nha đã tăng thuế. Chàng thiếu niên họ Hứa chỉ có ba ngày để nộp đủ tiền, nếu không y quán của gia đình sẽ đổi chủ. Muốn giữ y quán và bảo vệ mẹ cùng em gái, cậu quyết liều mình đột phá cảnh giới Đồng Bì. ⚡ Đúng lúc xông phá cửa ải, cậu bất ngờ gặp cây thần...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/KDUSrcoesYg/hqdefault.jpg",
+      "publishedAt": "2026-11-18T09:58:57+00:00",
+      "updatedAt": "2026-11-18T09:58:57+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Quỷ Giới Cầu Tiên: Ta Chính Là Chúa Tể Thần Thông!】",
+          "url": "https://www.youtube.com/watch?v=KDUSrcoesYg",
+          "id": "KDUSrcoesYg",
+          "duration": 18854,
+          "durationStr": "5:14:14",
+          "publishedAt": "2026-11-18T09:58:57+00:00",
+          "views": 32,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2305",
       "title": "Full Phần 1 | Vạn Vật Đều Nhiễm Độc, Riêng Tôi Lại Vô Tình Ăn Phải Trái Quýt Kỳ Lạ",
