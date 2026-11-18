@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2169,
+    "totalFilms": 2171,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T03:45:19.544722+00:00"
+    "lastUpdated": "2026-11-18T04:00:43.031575+00:00"
   },
   "channels": [
     {
@@ -23,7 +23,7 @@ window.FILMS_DATA = {
       "id": "chiuchiusubtv",
       "name": "ChiuChiuSubTV",
       "url": "https://www.youtube.com/@chiuchiusubtv",
-      "filmCount": 171
+      "filmCount": 172
     },
     {
       "id": "melacreview",
@@ -77,7 +77,7 @@ window.FILMS_DATA = {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 66
+      "filmCount": 67
     },
     {
       "id": "thaolac",
@@ -105,6 +105,82 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2289",
+      "title": "Cẩu Đế Ma Tông: Xuyên Không Thành Tế Phẩm Ma Môn, Ta Giả Ngu Âm Thầm Đoạt Sạch Tu Vi",
+      "channelId": "chiuchiusubtv",
+      "channelName": "ChiuChiuSubTV",
+      "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 26926,
+      "totalDurationStr": "7 giờ 28 phút",
+      "totalViews": 14,
+      "totalLikes": 1,
+      "review": "📌 Tóm Tắt Phim: Xuyên không mang theo chí bảo \"Đoạt Đạo Kinh\" - Có khả năng cướp đoạt Thọ Nguyên, Linh Căn, Tu Vi và Khí Vận của kẻ khác! Lâm Sơn bị ép bái nhập Độ Ác Tiên Cung (Thực chất là Huyết Hải Ma Cung). Trước mặt người ngoài, hắn là tên đệ tử hiền lành, sợ chết, \"sợ giao tiếp\". Nhưng sau lưng, hắn âm thầm dùng Đoạt Đạo Kinh phân sát đối thủ, tính...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/sVs96t7YW1A/hqdefault.jpg",
+      "publishedAt": "2026-11-18T03:57:28+00:00",
+      "updatedAt": "2026-11-18T03:57:28+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Cẩu Đế Ma Tông: Xuyên Không Thành Tế Phẩm Ma Môn, Ta Giả Ngu Âm Thầm Đoạt Sạch Tu Vi",
+          "url": "https://www.youtube.com/watch?v=sVs96t7YW1A",
+          "id": "sVs96t7YW1A",
+          "duration": 26926,
+          "durationStr": "7:28:46",
+          "publishedAt": "2026-11-18T03:57:28+00:00",
+          "views": 14,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2290",
+      "title": "Xuyên Không 8 Tỷ Người Lo Tu Tiên, Hắn Giả Hệ Thống, Dựng Tông Môn Đệ Nhất Thiên Hạ!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12157,
+      "totalDurationStr": "3 giờ 22 phút",
+      "totalViews": 11,
+      "totalLikes": 0,
+      "review": "Xuyên Không 8 Tỷ Người Lo Tu Tiên, Hắn Giả Hệ Thống, Dựng Tông Môn Đệ Nhất Thiên Hạ!",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/Pxg8w8qN2y8/hqdefault.jpg",
+      "publishedAt": "2026-11-18T03:48:27+00:00",
+      "updatedAt": "2026-11-18T03:48:27+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không 8 Tỷ Người Lo Tu Tiên, Hắn Giả Hệ Thống, Dựng Tông Môn Đệ Nhất Thiên Hạ!",
+          "url": "https://www.youtube.com/watch?v=Pxg8w8qN2y8",
+          "id": "Pxg8w8qN2y8",
+          "duration": 12157,
+          "durationStr": "3:22:37",
+          "publishedAt": "2026-11-18T03:48:27+00:00",
+          "views": 11,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2288",
       "title": "3 GIỜ | Càng Nằm Càng Mạnh - Thiếu Chủ Bị Gia Tộc Ruồng Bỏ - Kích Hoạt Hệ Thống Nằm Im Vô Địch",
