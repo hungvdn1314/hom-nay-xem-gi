@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2176,
+    "totalFilms": 2179,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T05:30:23.923189+00:00"
+    "lastUpdated": "2026-11-18T06:00:43.115209+00:00"
   },
   "channels": [
     {
@@ -35,19 +35,19 @@
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 284
+      "filmCount": 285
     },
     {
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 303
+      "filmCount": 304
     },
     {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 213
+      "filmCount": 214
     },
     {
       "id": "tieusumuoi",
@@ -105,6 +105,119 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2296",
+      "title": "【Mùa 1】Lái Xe Hộ Trên Đường Hoàng Tuyền: Hành Khách Của Tôi Toàn Là Quỷ Dị Cấp SSS!",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8331,
+      "totalDurationStr": "2 giờ 18 phút",
+      "totalViews": 48,
+      "totalLikes": 4,
+      "review": "🎬 【Mùa 1】Lái Xe Hộ Trên Đường Hoàng Tuyền: Hành Khách Của Tôi Toàn Là Quỷ Dị Cấp SSS! 🚕 Đêm mưa, tài xế lái xe hộ Trần Đỗ nhận được một cuốc đặc biệt. Ứng dụng cảnh báo hành khách cấp SSS, nhưng từ chối thì mất sạch đánh giá tốt. Anh bấm nhận cuốc. Vị khách lên xe chỉ yêu cầu anh đưa cô đến nhà tang lễ ngoại ô phía tây, nơi ba năm trước cô chưa kịp tới....",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/mSjmbff844E/hqdefault.jpg",
+      "publishedAt": "2026-11-18T05:46:35+00:00",
+      "updatedAt": "2026-11-18T05:46:35+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "【Mùa 1】Lái Xe Hộ Trên Đường Hoàng Tuyền: Hành Khách Của Tôi Toàn Là Quỷ Dị Cấp SSS!",
+          "url": "https://www.youtube.com/watch?v=mSjmbff844E",
+          "id": "mSjmbff844E",
+          "duration": 8331,
+          "durationStr": "2:18:51",
+          "publishedAt": "2026-11-18T05:46:35+00:00",
+          "views": 48,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2298",
+      "title": "Full Phần 1 |【Hệ Thống Ép Tôi Phấn Đấu, Thưởng Đến Mức Trở Thành Siêu Sao Đỉnh Lưu!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11654,
+      "totalDurationStr": "3 giờ 14 phút",
+      "totalViews": 50,
+      "totalLikes": 3,
+      "review": "🎬 【Hệ Thống Ép Tôi Phấn Đấu, Thưởng Đến Mức Trở Thành Siêu Sao Đỉnh Lưu!】 💪 Xuyên vào cơ thể nặng hơn 200 ký, Trần Lam vừa lật người trên giường đã được thưởng một triệu tệ. Hóa ra Hệ Thống Tăng Ích sẽ tặng tiền hoặc quà bí ẩn mỗi khi anh làm điều có lợi cho bản thân. Thấy phần thưởng chuyển vào tài khoản thật, anh quyết định bắt đầu bằng việc đi tập. 🌟...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/V7BF1NqXECk/hqdefault.jpg",
+      "publishedAt": "2026-11-18T05:46:08+00:00",
+      "updatedAt": "2026-11-18T05:46:08+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Hệ Thống Ép Tôi Phấn Đấu, Thưởng Đến Mức Trở Thành Siêu Sao Đỉnh Lưu!】",
+          "url": "https://www.youtube.com/watch?v=V7BF1NqXECk",
+          "id": "V7BF1NqXECk",
+          "duration": 11654,
+          "durationStr": "3:14:14",
+          "publishedAt": "2026-11-18T05:46:08+00:00",
+          "views": 50,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2297",
+      "title": "Full Phần 1 | 【Siêu Thị Của Tôi Kết Nối Vạn Giới, Khiến Cả Quốc Gia Không Thể Ngồi Yên!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8658,
+      "totalDurationStr": "2 giờ 24 phút",
+      "totalViews": 74,
+      "totalLikes": 8,
+      "review": "🎬 【Siêu Thị Của Tôi Kết Nối Vạn Giới, Khiến Cả Quốc Gia Không Thể Ngồi Yên!】 🛒 Ngày đầu khai trương, Đường Thanh Khê mở cửa và thấy con đường trước siêu thị đã biến thành biển cả. Cả siêu thị rộng 300 mét vuông bị đưa đến một hòn đảo xa lạ. Điện thoại mất sóng, cô đành dùng một nắm kẹo để bắt chuyện với mấy đứa trẻ giao nhân và hỏi xem mình đang ở đâu. 🐟...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/lG0MBh4YAMY/hqdefault.jpg",
+      "publishedAt": "2026-11-18T05:45:38+00:00",
+      "updatedAt": "2026-11-18T05:45:38+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Siêu Thị Của Tôi Kết Nối Vạn Giới, Khiến Cả Quốc Gia Không Thể Ngồi Yên!】",
+          "url": "https://www.youtube.com/watch?v=lG0MBh4YAMY",
+          "id": "lG0MBh4YAMY",
+          "duration": 8658,
+          "durationStr": "2:24:18",
+          "publishedAt": "2026-11-18T05:45:38+00:00",
+          "views": 74,
+          "likes": 8,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2295",
       "title": "Phần 1, Thức Tỉnh Thập Điện Diêm La Cấp SSS, Đánh Bại Thần Minh, Diệt Yêu Vật, Trảm Tiên Nhân",
