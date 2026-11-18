@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2180,
+    "totalFilms": 2182,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T06:45:19.318937+00:00"
+    "lastUpdated": "2026-11-18T07:45:18.573374+00:00"
   },
   "channels": [
     {
@@ -59,7 +59,7 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 67
+      "filmCount": 68
     },
     {
       "id": "besuastudio",
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 88
+      "filmCount": 89
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,81 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2301",
+      "title": "3,5 GIỜ | Xuyên Làm Chàng Rể Ngốc Nghếch - Dùng Kiến Thức Thiên Tài Náo Loạn Triều Đình",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12789,
+      "totalDurationStr": "3 giờ 33 phút",
+      "totalViews": 42,
+      "totalLikes": 1,
+      "review": "3,5 GIỜ | Xuyên Làm Chàng Rể Ngốc Nghếch - Dùng Kiến Thức Thiên Tài Náo Loạn Triều Đình Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/N6Au3iUof9o/hqdefault.jpg",
+      "publishedAt": "2026-11-18T07:35:27+00:00",
+      "updatedAt": "2026-11-18T07:35:27+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "3,5 GIỜ | Xuyên Làm Chàng Rể Ngốc Nghếch - Dùng Kiến Thức Thiên Tài Náo Loạn Triều Đình",
+          "url": "https://www.youtube.com/watch?v=N6Au3iUof9o",
+          "id": "N6Au3iUof9o",
+          "duration": 12789,
+          "durationStr": "3:33:09",
+          "publishedAt": "2026-11-18T07:35:27+00:00",
+          "views": 42,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2300",
+      "title": "P1, Tử Khảo Giáng Lâm, Thiếu Thức Tỉnh Hệ Thống Mô Phỏng Tương Lai, Vượt Qua Tử Cục Trở Thành Bá Chủ",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10205,
+      "totalDurationStr": "2 giờ 50 phút",
+      "totalViews": 38,
+      "totalLikes": 2,
+      "review": "[ Full ] Tiêu Đề Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/455wsCZY0Z0/hqdefault.jpg",
+      "publishedAt": "2026-11-18T07:32:53+00:00",
+      "updatedAt": "2026-11-18T07:32:53+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Tử Khảo Giáng Lâm, Thiếu Thức Tỉnh Hệ Thống Mô Phỏng Tương Lai, Vượt Qua Tử Cục Trở Thành Bá Chủ",
+          "url": "https://www.youtube.com/watch?v=455wsCZY0Z0",
+          "id": "455wsCZY0Z0",
+          "duration": 10205,
+          "durationStr": "2:50:05",
+          "publishedAt": "2026-11-18T07:32:53+00:00",
+          "views": 38,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2299",
       "title": "P1-2 | 7 GIỜ | Thiếu Tông Chủ Phế Vật - Hệ Thống Triệu Hồi Tiên Tộc Tối Thượng - Siêu Cấp Đại Đế",
