@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2164,
+    "totalFilms": 2167,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T02:45:19.122631+00:00"
+    "lastUpdated": "2026-11-18T03:15:18.366964+00:00"
   },
   "channels": [
     {
@@ -35,19 +35,19 @@
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 283
+      "filmCount": 284
     },
     {
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 302
+      "filmCount": 303
     },
     {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 212
+      "filmCount": 213
     },
     {
       "id": "tieusumuoi",
@@ -105,6 +105,118 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2286",
+      "title": "【Mùa 1–2】Tà Thần Giáng Lâm, Muôn Người Quỳ Lạy, Chỉ Mình Ta Hiên Ngang Đứng Thẳng!",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 16962,
+      "totalDurationStr": "4 giờ 42 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Mùa 1–2】Tà Thần Giáng Lâm, Muôn Người Quỳ Lạy, Chỉ Mình Ta Hiên Ngang Đứng Thẳng! ⚡ Trường đột ngột mất điện, một quái vật xuất hiện khiến mọi người gục xuống, đến ngẩng đầu cũng không nổi. Chỉ có Giang Dã vẫn đứng thẳng và bước về phía nó. Khi quái vật ra lệnh cho anh quỳ, anh đáp lại đúng một câu, và chính nó lại quỳ xuống! 👁️ Giang Dã từng nghĩ...",
+      "genres": [
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/Fj4FYQsFWRk/hqdefault.jpg",
+      "publishedAt": "2026-11-18T03:13:06+00:00",
+      "updatedAt": "2026-11-18T03:13:06+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Tà Thần Giáng Lâm, Muôn Người Quỳ Lạy, Chỉ Mình Ta Hiên Ngang Đứng Thẳng!",
+          "url": "https://www.youtube.com/watch?v=Fj4FYQsFWRk",
+          "id": "Fj4FYQsFWRk",
+          "duration": 16962,
+          "durationStr": "4:42:42",
+          "publishedAt": "2026-11-18T03:13:06+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2284",
+      "title": "【Mùa 1–2】Ta Tu Tiên Trở Về, Trở Thành Đại Lão Học Đường!",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 17306,
+      "totalDurationStr": "4 giờ 48 phút",
+      "totalViews": 7,
+      "totalLikes": 0,
+      "review": "🎬 【Mùa 1–2】Ta Tu Tiên Trở Về, Trở Thành Đại Lão Học Đường! ⚡ Trần Mặc tu luyện suốt 500 năm mới trở về Trái Đất, vậy mà ở nhà chỉ vừa hết hai tháng nghỉ hè. Ngày mai đã khai giảng, còn bố anh thì chẳng tin nổi lời giải thích “con đi tu tiên”. Thế là một tu sĩ đã đạt cảnh giới Nguyên Anh lại trở về trường làm sinh viên. 🔥 Về đến nhà, Trần Mặc mới biết cha...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/ca_XHRCz7qY/hqdefault.jpg",
+      "publishedAt": "2026-11-18T03:12:43+00:00",
+      "updatedAt": "2026-11-18T03:12:43+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Ta Tu Tiên Trở Về, Trở Thành Đại Lão Học Đường!",
+          "url": "https://www.youtube.com/watch?v=ca_XHRCz7qY",
+          "id": "ca_XHRCz7qY",
+          "duration": 17306,
+          "durationStr": "4:48:26",
+          "publishedAt": "2026-11-18T03:12:43+00:00",
+          "views": 7,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2285",
+      "title": "Full Phần 1 |【Ta, Sở Hữu Toàn Bộ Thần Chức!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19354,
+      "totalDurationStr": "5 giờ 22 phút",
+      "totalViews": 9,
+      "totalLikes": 1,
+      "review": "🎬 【Ta, Sở Hữu Toàn Bộ Thần Chức!】 ⚡ Trong lễ thức tỉnh, dị tượng xuất hiện khiến cả trường tin rằng thiên tài Lục Thương sắp nhận được chức nghiệp cấp SSS. Đến khi kết quả hiện ra là Vũ Trang Giả cấp B, ai nấy đều hụt hẫng. Chức nghiệp này biết dùng đủ loại vũ khí, nhưng muốn phát huy sức mạnh thì phải sắm tới bốn, năm bộ trang bị. 🔥 Lục Thương đã chờ...",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/WswZMf0_-ys/hqdefault.jpg",
+      "publishedAt": "2026-11-18T03:12:20+00:00",
+      "updatedAt": "2026-11-18T03:12:20+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Ta, Sở Hữu Toàn Bộ Thần Chức!】",
+          "url": "https://www.youtube.com/watch?v=WswZMf0_-ys",
+          "id": "WswZMf0_-ys",
+          "duration": 19354,
+          "durationStr": "5:22:34",
+          "publishedAt": "2026-11-18T03:12:20+00:00",
+          "views": 9,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2283",
       "title": "6,5 GIỜ | Bị Công Chúa Hủy Hôn - Thiếu Gia Không Thể Che Giấu Tài Năng - Thành Tiên Tài Vạn Cổ",
