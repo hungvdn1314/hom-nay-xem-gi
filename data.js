@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2157,
+    "totalFilms": 2158,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-17T20:15:25.638234+00:00"
+    "lastUpdated": "2026-11-18T01:00:27.387022+00:00"
   },
   "channels": [
     {
@@ -77,7 +77,7 @@ window.FILMS_DATA = {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 65
+      "filmCount": 66
     },
     {
       "id": "thaolac",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2277",
+      "title": "Xuyên Không Về Bộ Lạc Nguyên Thủy, Nào Ngờ Nàng Dùng Kiến Thức Hiện Đại Dắt Con Đổi Đời!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7751,
+      "totalDurationStr": "2 giờ 09 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Xuyên Không Về Bộ Lạc Nguyên Thủy, Nào Ngờ Nàng Dùng Kiến Thức Hiện Đại Dắt Con Đổi Đời!",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/_qU95perlrg/hqdefault.jpg",
+      "publishedAt": "2026-11-18T00:58:55+00:00",
+      "updatedAt": "2026-11-18T00:58:55+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Về Bộ Lạc Nguyên Thủy, Nào Ngờ Nàng Dùng Kiến Thức Hiện Đại Dắt Con Đổi Đời!",
+          "url": "https://www.youtube.com/watch?v=_qU95perlrg",
+          "id": "_qU95perlrg",
+          "duration": 7751,
+          "durationStr": "2:09:11",
+          "publishedAt": "2026-11-18T00:58:55+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2275",
       "title": "Mùa 13 - P1 (EP1-65) | Lưu Đày Biên Ải: Tội Thê Khai Hoang Nuôi Dưỡng Chiến Thần",
