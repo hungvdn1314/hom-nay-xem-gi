@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2183,
+    "totalFilms": 2184,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T08:15:22.056782+00:00"
+    "lastUpdated": "2026-11-18T09:00:28.660317+00:00"
   },
   "channels": [
     {
@@ -59,7 +59,7 @@
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 68
+      "filmCount": 69
     },
     {
       "id": "besuastudio",
@@ -105,6 +105,43 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2303",
+      "title": "Phần 1, Hệ Thống Thức Tỉnh Nghề Ẩn, Tự Tạo Chức Nghiệp Sư Tiên Đạo, Đánh Bại Yêu Vật",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8081,
+      "totalDurationStr": "2 giờ 14 phút",
+      "totalViews": 91,
+      "totalLikes": 6,
+      "review": "[ Full ] Phần 1, Hệ Thống Thức Tỉnh Nghề Ẩn, Tự Tạo Chức Nghiệp Sư Tiên Đạo, Đánh Bại Yêu Vật Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/yySyjlwjFjM/hqdefault.jpg",
+      "publishedAt": "2026-11-18T08:42:49+00:00",
+      "updatedAt": "2026-11-18T08:42:49+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1, Hệ Thống Thức Tỉnh Nghề Ẩn, Tự Tạo Chức Nghiệp Sư Tiên Đạo, Đánh Bại Yêu Vật",
+          "url": "https://www.youtube.com/watch?v=yySyjlwjFjM",
+          "id": "yySyjlwjFjM",
+          "duration": 8081,
+          "durationStr": "2:14:41",
+          "publishedAt": "2026-11-18T08:42:49+00:00",
+          "views": 91,
+          "likes": 6,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2302",
       "title": "20 GIỜ THỎA MÃN | Thiên Mệnh Thần Đỉnh - Đệ Tử Phế Vật Tinh Luyện Thần Đan - Âm Thầm Vô Địch",
