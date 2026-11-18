@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2194,
+    "totalFilms": 2195,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T11:30:25.223309+00:00"
+    "lastUpdated": "2026-11-18T12:45:22.319819+00:00"
   },
   "channels": [
     {
@@ -71,7 +71,7 @@ window.FILMS_DATA = {
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 71
+      "filmCount": 72
     },
     {
       "id": "zzzphim",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2314",
+      "title": "3H| Vừa Xuyên Không Đã Nhận Tu Vi Ngàn Năm – Ta Nằm Không Cũng Thành Đại Đế.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 21985,
+      "totalDurationStr": "6 giờ 06 phút",
+      "totalViews": 49,
+      "totalLikes": 3,
+      "review": "3H| Vừa Xuyên Không Đã Nhận Tu Vi Ngàn Năm – Ta Nằm Không Cũng Thành Đại Đế. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/6KdB91TfF3M/hqdefault.jpg",
+      "publishedAt": "2026-11-18T12:29:39+00:00",
+      "updatedAt": "2026-11-18T12:29:39+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "3H| Vừa Xuyên Không Đã Nhận Tu Vi Ngàn Năm – Ta Nằm Không Cũng Thành Đại Đế.",
+          "url": "https://www.youtube.com/watch?v=6KdB91TfF3M",
+          "id": "6KdB91TfF3M",
+          "duration": 21985,
+          "durationStr": "6:06:25",
+          "publishedAt": "2026-11-18T12:29:39+00:00",
+          "views": 49,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2312",
       "title": "10,5 GIỜ THỎA MÃN | Xuyên Làm Ăn Mày - Dùng Kiến Thức Thiên Tài Thống Lĩnh Cửu Châu",
