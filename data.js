@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2173,
+    "totalFilms": 2175,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T04:31:06.846538+00:00"
+    "lastUpdated": "2026-11-18T05:00:31.585703+00:00"
   },
   "channels": [
     {
@@ -71,7 +71,7 @@ window.FILMS_DATA = {
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 70
+      "filmCount": 71
     },
     {
       "id": "zzzphim",
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 86
+      "filmCount": 87
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,81 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2293",
+      "title": "3H| MA TÔN 300 TUỔI GIẤU NGHỀ – GIA NHẬP TÔNG MÔN CHÍNH ĐẠO.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11456,
+      "totalDurationStr": "3 giờ 10 phút",
+      "totalViews": 20,
+      "totalLikes": 3,
+      "review": "3H| MA TÔN 300 TUỔI GIẤU NGHỀ – GIA NHẬP TÔNG MÔN CHÍNH ĐẠO. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/NTofTJMSw-o/hqdefault.jpg",
+      "publishedAt": "2026-11-18T04:49:33+00:00",
+      "updatedAt": "2026-11-18T04:49:33+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "3H| MA TÔN 300 TUỔI GIẤU NGHỀ – GIA NHẬP TÔNG MÔN CHÍNH ĐẠO.",
+          "url": "https://www.youtube.com/watch?v=NTofTJMSw-o",
+          "id": "NTofTJMSw-o",
+          "duration": 11456,
+          "durationStr": "3:10:56",
+          "publishedAt": "2026-11-18T04:49:33+00:00",
+          "views": 20,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2294",
+      "title": "Tông Chủ Chỉ Muốn Nằm Im Sống An Nhàn - Hệ Thống Thu Đồ Vô Địch - Đệ Tử Ta Toàn Thiên Kiêu",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9387,
+      "totalDurationStr": "2 giờ 36 phút",
+      "totalViews": 193,
+      "totalLikes": 11,
+      "review": "Tông Chủ Chỉ Muốn Nằm Im Sống An Nhàn - Hệ Thống Thu Đồ Vô Địch - Đệ Tử Ta Toàn Thiên Kiêu Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/7q1XdRItUtc/hqdefault.jpg",
+      "publishedAt": "2026-11-18T04:36:28+00:00",
+      "updatedAt": "2026-11-18T04:36:28+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Tông Chủ Chỉ Muốn Nằm Im Sống An Nhàn - Hệ Thống Thu Đồ Vô Địch - Đệ Tử Ta Toàn Thiên Kiêu",
+          "url": "https://www.youtube.com/watch?v=7q1XdRItUtc",
+          "id": "7q1XdRItUtc",
+          "duration": 9387,
+          "durationStr": "2:36:27",
+          "publishedAt": "2026-11-18T04:36:28+00:00",
+          "views": 193,
+          "likes": 11,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2292",
       "title": "P1, Thức Tỉnh Ác Chú Bị Coi Là Tai Họa Diệt Thế, Ta Trở Thành Thánh Tử Vực Sâu Thao Túng Vận Mệnh",
