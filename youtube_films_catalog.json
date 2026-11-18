@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2185,
+    "totalFilms": 2187,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T09:15:20.737057+00:00"
+    "lastUpdated": "2026-11-18T10:00:34.780130+00:00"
   },
   "channels": [
     {
@@ -47,7 +47,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 214
+      "filmCount": 215
     },
     {
       "id": "tieusumuoi",
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 91
+      "filmCount": 92
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,80 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2305",
+      "title": "Full Phần 1 | Vạn Vật Đều Nhiễm Độc, Riêng Tôi Lại Vô Tình Ăn Phải Trái Quýt Kỳ Lạ",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12061,
+      "totalDurationStr": "3 giờ 21 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【5 Năm Trước Thiên Hỏa Giáng Lâm, Vạn Vật Đều Nhiễm Độc, Riêng Tôi Lại Vô Tình Ăn Phải Trái Quýt Kỳ Lạ!】 🔥 Năm năm trước, lửa trời trút xuống suốt một đêm, khiến đất và nước nhiễm độc. Đúng lúc lương thực cạn sạch, Lục Dao ăn một quả quýt đỏ rồi ngất lịm. Khi tỉnh lại, cô phát hiện mình có thể nhận ra những loại thực phẩm gen và biết chúng sẽ giúp...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/yMob_3ozaVA/hqdefault.jpg",
+      "publishedAt": "2026-11-18T10:00:09+00:00",
+      "updatedAt": "2026-11-18T10:00:09+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Vạn Vật Đều Nhiễm Độc, Riêng Tôi Lại Vô Tình Ăn Phải Trái Quýt Kỳ Lạ",
+          "url": "https://www.youtube.com/watch?v=yMob_3ozaVA",
+          "id": "yMob_3ozaVA",
+          "duration": 12061,
+          "durationStr": "3:21:01",
+          "publishedAt": "2026-11-18T10:00:09+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2306",
+      "title": "6 GIỜ | Đoạt Đạo Kinh - Đệ Tử Phế Vật Cướp Đoạt Tu Vi Khí Vận Của Cả Đất Trời",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 22094,
+      "totalDurationStr": "6 giờ 08 phút",
+      "totalViews": 69,
+      "totalLikes": 2,
+      "review": "6 GIỜ | Đoạt Đạo Kinh - Đệ Tử Phế Vật Cướp Đoạt Tu Vi Khí Vận Của Cả Đất Trời Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động trong nội...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/ri2td-9b6NA/hqdefault.jpg",
+      "publishedAt": "2026-11-18T09:53:05+00:00",
+      "updatedAt": "2026-11-18T09:53:05+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "6 GIỜ | Đoạt Đạo Kinh - Đệ Tử Phế Vật Cướp Đoạt Tu Vi Khí Vận Của Cả Đất Trời",
+          "url": "https://www.youtube.com/watch?v=ri2td-9b6NA",
+          "id": "ri2td-9b6NA",
+          "duration": 22094,
+          "durationStr": "6:08:14",
+          "publishedAt": "2026-11-18T09:53:05+00:00",
+          "views": 69,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2304",
       "title": "3,5 GIỜ | Ta Đã Là Ma Đế Vô Địch - Sao Hệ Thống Còn Bắt Ta Gia Nhập Tông Môn Làm Đệ Tử",
