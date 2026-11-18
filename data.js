@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2200,
+    "totalFilms": 2201,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T13:15:23.460294+00:00"
+    "lastUpdated": "2026-11-18T13:30:25.412562+00:00"
   },
   "channels": [
     {
@@ -41,7 +41,7 @@ window.FILMS_DATA = {
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 305
+      "filmCount": 306
     },
     {
       "id": "vanmonggiao",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2320",
+      "title": "Full Phần 1 |【Người Chơi Nạp Tiền: Tôi Làm Thần Hào Trong Thế Giới Game!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9835,
+      "totalDurationStr": "2 giờ 43 phút",
+      "totalViews": 119,
+      "totalLikes": 9,
+      "review": "🎬 【Người Chơi Nạp Tiền: Tôi Làm Thần Hào Trong Thế Giới Game!】 💎 Sau hai năm chơi game, cậu định đăng nhập lần cuối rồi nghỉ. Ai ngờ chỉ với một đồng xu, cậu trúng giải đặc biệt và sở hữu pha lê vô hạn. Tài khoản lập tức bị khóa giao dịch vĩnh viễn, khiến người giàu nhất máy chủ chẳng thể đổi nổi một đồng ra tiền mặt. Thế là cậu nảy ra ý tưởng kiếm tiền...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/Rp7dXRvN0sk/hqdefault.jpg",
+      "publishedAt": "2026-11-18T13:01:42+00:00",
+      "updatedAt": "2026-11-18T13:01:42+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Người Chơi Nạp Tiền: Tôi Làm Thần Hào Trong Thế Giới Game!】",
+          "url": "https://www.youtube.com/watch?v=Rp7dXRvN0sk",
+          "id": "Rp7dXRvN0sk",
+          "duration": 9835,
+          "durationStr": "2:43:55",
+          "publishedAt": "2026-11-18T13:01:42+00:00",
+          "views": 119,
+          "likes": 9,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2319",
       "title": "Full Phần 1 |【Nghịch Tập Tận Thế: Bắt Đầu Từ Việc Cướp Trước Cơ Duyên Của Nữ Chính Nguyên Tác!】",
