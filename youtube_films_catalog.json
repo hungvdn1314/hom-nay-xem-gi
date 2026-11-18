@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2162,
+    "totalFilms": 2163,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T01:30:37.820578+00:00"
+    "lastUpdated": "2026-11-18T01:45:25.463401+00:00"
   },
   "channels": [
     {
@@ -53,7 +53,7 @@
       "id": "tieusumuoi",
       "name": "Tiểu Sư Muội",
       "url": "https://www.youtube.com/@Tieusumuoi-u3e",
-      "filmCount": 43
+      "filmCount": 44
     },
     {
       "id": "hh3dtrungquoc",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2282",
+      "title": "Phần 1-2 -Tiểu Sư Muội Thiên tài mắc chứng \"chuunibyou\" nặng: Ta đã vô địch rồi !",
+      "channelId": "tieusumuoi",
+      "channelName": "Tiểu Sư Muội",
+      "channelUrl": "https://www.youtube.com/@Tieusumuoi-u3e",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19160,
+      "totalDurationStr": "5 giờ 19 phút",
+      "totalViews": 2,
+      "totalLikes": 0,
+      "review": "Vân Dung Nguyệt bất ngờ xuyên vào thế giới của một cuốn tiểu thuyết tu tiên, còn mang theo hệ thống kỳ quặc mang tên Đẹp Trai Nhất Thiên Hạ. Vừa đặt chân đến thế giới mới, nàng đã nhận được nhiệm vụ khó nhằn: tiêu diệt đại phản diện tương lai, kẻ sẽ đồ sát cả tu tiên giới, để nhận phần thưởng một tỷ! Nào ngờ, trong đại hội tuyển chọn đệ tử, nàng lại thức...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/UzHGoERwwWQ/hqdefault.jpg",
+      "publishedAt": "2026-11-18T01:43:07+00:00",
+      "updatedAt": "2026-11-18T01:43:07+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-2",
+          "title": "Phần 1-2 -Tiểu Sư Muội Thiên tài mắc chứng \"chuunibyou\" nặng: Ta đã vô địch rồi !",
+          "url": "https://www.youtube.com/watch?v=UzHGoERwwWQ",
+          "id": "UzHGoERwwWQ",
+          "duration": 19160,
+          "durationStr": "5:19:20",
+          "publishedAt": "2026-11-18T01:43:07+00:00",
+          "views": 2,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2281",
       "title": "5,5 GIỜ | Tạp Dịch Trốn Lãnh Cung - Hệ Thống Điểm Danh - Một Bước Thành Cường Giả Võ Thuật Bất Bại",
