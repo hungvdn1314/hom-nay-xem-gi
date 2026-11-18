@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2168,
+    "totalFilms": 2169,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T03:30:35.029944+00:00"
+    "lastUpdated": "2026-11-18T03:45:19.544722+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 84
+      "filmCount": 85
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2288",
+      "title": "3 GIỜ | Càng Nằm Càng Mạnh - Thiếu Chủ Bị Gia Tộc Ruồng Bỏ - Kích Hoạt Hệ Thống Nằm Im Vô Địch",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9677,
+      "totalDurationStr": "2 giờ 41 phút",
+      "totalViews": 120,
+      "totalLikes": 8,
+      "review": "3 GIỜ | Càng Nằm Càng Mạnh - Thiếu Chủ Bị Gia Tộc Ruồng Bỏ - Kích Hoạt Hệ Thống Nằm Im Vô Địch Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/TvBW6OdWTHs/hqdefault.jpg",
+      "publishedAt": "2026-11-18T03:31:49+00:00",
+      "updatedAt": "2026-11-18T03:31:49+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "3 GIỜ | Càng Nằm Càng Mạnh - Thiếu Chủ Bị Gia Tộc Ruồng Bỏ - Kích Hoạt Hệ Thống Nằm Im Vô Địch",
+          "url": "https://www.youtube.com/watch?v=TvBW6OdWTHs",
+          "id": "TvBW6OdWTHs",
+          "duration": 9677,
+          "durationStr": "2:41:17",
+          "publishedAt": "2026-11-18T03:31:49+00:00",
+          "views": 120,
+          "likes": 8,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2287",
       "title": "Phần 1, Thức Tỉnh Hệ Thống Kiếm Tiên, Trảm Quỷ Dị Để Nâng Cấp, Ta Làm Trùm Mạt Thế",
