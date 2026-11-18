@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2199,
+    "totalFilms": 2200,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T13:00:31.666784+00:00"
+    "lastUpdated": "2026-11-18T13:15:23.460294+00:00"
   },
   "channels": [
     {
@@ -47,7 +47,7 @@ window.FILMS_DATA = {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 215
+      "filmCount": 216
     },
     {
       "id": "tieusumuoi",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2319",
+      "title": "Full Phần 1 |【Nghịch Tập Tận Thế: Bắt Đầu Từ Việc Cướp Trước Cơ Duyên Của Nữ Chính Nguyên Tác!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11260,
+      "totalDurationStr": "3 giờ 07 phút",
+      "totalViews": 51,
+      "totalLikes": 5,
+      "review": "🎬 【Nghịch Tập Tận Thế: Bắt Đầu Từ Việc Cướp Trước Cơ Duyên Của Nữ Chính Nguyên Tác!】 🔥 Biết trước những cơ duyên sẽ rơi vào tay nữ chính nguyên tác, cô quyết định đi trước một bước. Giữa tận thế, mỗi cơ duyên giành được đều có thể mang lại thêm một cơ hội sống sót. Và lần này, cô sẽ tự nắm lấy cơ hội ấy trước khi người vốn được định sẵn có mặt. ⚡ Nhưng...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/wDLXQm4CKGI/hqdefault.jpg",
+      "publishedAt": "2026-11-18T13:01:13+00:00",
+      "updatedAt": "2026-11-18T13:01:13+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Nghịch Tập Tận Thế: Bắt Đầu Từ Việc Cướp Trước Cơ Duyên Của Nữ Chính Nguyên Tác!】",
+          "url": "https://www.youtube.com/watch?v=wDLXQm4CKGI",
+          "id": "wDLXQm4CKGI",
+          "duration": 11260,
+          "durationStr": "3:07:40",
+          "publishedAt": "2026-11-18T13:01:13+00:00",
+          "views": 51,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2316",
       "title": "Full Phần 1 |【Chỉ 5 Tệ Ăn No Căng Bụng, Màn Vả Mặt Bắt Đầu Từ Blogger Triệu Fan!】",
