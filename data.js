@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2158,
+    "totalFilms": 2162,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T01:15:20.688882+00:00"
+    "lastUpdated": "2026-11-18T01:30:37.820578+00:00"
   },
   "channels": [
     {
@@ -35,19 +35,19 @@ window.FILMS_DATA = {
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 282
+      "filmCount": 283
     },
     {
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 301
+      "filmCount": 302
     },
     {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 211
+      "filmCount": 212
     },
     {
       "id": "tieusumuoi",
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 82
+      "filmCount": 83
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,158 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2281",
+      "title": "5,5 GIỜ | Tạp Dịch Trốn Lãnh Cung - Hệ Thống Điểm Danh - Một Bước Thành Cường Giả Võ Thuật Bất Bại",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19167,
+      "totalDurationStr": "5 giờ 19 phút",
+      "totalViews": 41,
+      "totalLikes": 2,
+      "review": "5,5 GIỜ | Tạp Dịch Trốn Lãnh Cung - Hệ Thống Điểm Danh - Một Bước Thành Cường Giả Võ Thuật Bất Bại Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/m2ApHnH38CY/hqdefault.jpg",
+      "publishedAt": "2026-11-18T01:25:04+00:00",
+      "updatedAt": "2026-11-18T01:25:04+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "5,5 GIỜ | Tạp Dịch Trốn Lãnh Cung - Hệ Thống Điểm Danh - Một Bước Thành Cường Giả Võ Thuật Bất Bại",
+          "url": "https://www.youtube.com/watch?v=m2ApHnH38CY",
+          "id": "m2ApHnH38CY",
+          "duration": 19167,
+          "durationStr": "5:19:27",
+          "publishedAt": "2026-11-18T01:25:04+00:00",
+          "views": 41,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2279",
+      "title": "【Mùa 1–3】Nữ Phụ Nổi Loạn: Tôi Dựa Vào Hồi Quy Để Tu Tiên!",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 30785,
+      "totalDurationStr": "8 giờ 33 phút",
+      "totalViews": 26,
+      "totalLikes": 3,
+      "review": "🎬 【Mùa 1–3】Nữ Phụ Nổi Loạn: Tôi Dựa Vào Hồi Quy Để Tu Tiên! ⚡ Ngày người ta tới từ hôn, Diêm Tam Đường vừa cứng miệng đáp trả đã bị giết. Mở mắt ra, cô lại nghe đúng câu gọi dậy ban nãy. Lần này cô thử nhượng bộ, rồi thử đóng cửa không tiếp khách. Kết quả lần nào cũng vậy. Cứ chết là cô lại quay về đúng buổi sáng ấy! 🔥 Sau 99 lần chết đi sống lại, cô mở...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/k2zSDXucFYs/hqdefault.jpg",
+      "publishedAt": "2026-11-18T01:17:22+00:00",
+      "updatedAt": "2026-11-18T01:17:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-3",
+          "title": "【Mùa 1–3】Nữ Phụ Nổi Loạn: Tôi Dựa Vào Hồi Quy Để Tu Tiên!",
+          "url": "https://www.youtube.com/watch?v=k2zSDXucFYs",
+          "id": "k2zSDXucFYs",
+          "duration": 30785,
+          "durationStr": "8:33:05",
+          "publishedAt": "2026-11-18T01:17:22+00:00",
+          "views": 26,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2280",
+      "title": "Full Phần 1 |【Trò Chơi Kinh Dị: Tôi Dựa Vào Hệ Thống Học Tập Để Trở Thành Phù Thủy!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 17329,
+      "totalDurationStr": "4 giờ 48 phút",
+      "totalViews": 29,
+      "totalLikes": 6,
+      "review": "🎬 【Trò Chơi Kinh Dị: Tôi Dựa Vào Hệ Thống Học Tập Để Trở Thành Phù Thủy!】 📚 Bước vào trò chơi kinh dị, cô nàng có được một hệ thống học tập và dùng nó để trở thành phù thủy. Từ đây, việc học trở thành chuyện sống còn. Cô phải hiểu mình đang cầm thứ gì và biết dùng nó đúng lúc để đưa cả đội qua thử thách. 🔮 Khi phù thủy lên tiếng: “Cũng có thể là thuốc...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/ksAuCojWSkk/hqdefault.jpg",
+      "publishedAt": "2026-11-18T01:16:55+00:00",
+      "updatedAt": "2026-11-18T01:16:55+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Trò Chơi Kinh Dị: Tôi Dựa Vào Hệ Thống Học Tập Để Trở Thành Phù Thủy!】",
+          "url": "https://www.youtube.com/watch?v=ksAuCojWSkk",
+          "id": "ksAuCojWSkk",
+          "duration": 17329,
+          "durationStr": "4:48:49",
+          "publishedAt": "2026-11-18T01:16:55+00:00",
+          "views": 29,
+          "likes": 6,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2278",
+      "title": "Full Phần 1 |【Tăng Ca Đến Mức Suy Sụp, Tôi Bất Ngờ Thức Tỉnh Hệ Thống Chính Đạo Khôi Thủ!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9154,
+      "totalDurationStr": "2 giờ 32 phút",
+      "totalViews": 50,
+      "totalLikes": 5,
+      "review": "🎬 【Tăng Ca Đến Mức Suy Sụp, Tôi Bất Ngờ Thức Tỉnh Hệ Thống Chính Đạo Khôi Thủ!】 💼 Đã hơn 11 giờ đêm, Lục Dĩ Bắc vẫn bị quản lý bắt ở lại sửa phương án. Đúng lúc đó, Hệ Thống Chính Đạo Khôi Thủ thức tỉnh, gọi công ty là tông môn mạt lưu và xem việc ép tăng ca là tà thuật vắt kiệt sinh cơ. Nhiệm vụ đầu tiên của anh nghe đơn giản đến khó tin: từ chối tăng...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/cWDS9JNk2AU/hqdefault.jpg",
+      "publishedAt": "2026-11-18T01:15:50+00:00",
+      "updatedAt": "2026-11-18T01:15:50+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Tăng Ca Đến Mức Suy Sụp, Tôi Bất Ngờ Thức Tỉnh Hệ Thống Chính Đạo Khôi Thủ!】",
+          "url": "https://www.youtube.com/watch?v=cWDS9JNk2AU",
+          "id": "cWDS9JNk2AU",
+          "duration": 9154,
+          "durationStr": "2:32:34",
+          "publishedAt": "2026-11-18T01:15:50+00:00",
+          "views": 50,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2277",
       "title": "Xuyên Không Về Bộ Lạc Nguyên Thủy, Nào Ngờ Nàng Dùng Kiến Thức Hiện Đại Dắt Con Đổi Đời!",
