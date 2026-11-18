@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2167,
+    "totalFilms": 2168,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T03:15:18.366964+00:00"
+    "lastUpdated": "2026-11-18T03:30:35.029944+00:00"
   },
   "channels": [
     {
@@ -59,7 +59,7 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 64
+      "filmCount": 65
     },
     {
       "id": "besuastudio",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2287",
+      "title": "Phần 1, Thức Tỉnh Hệ Thống Kiếm Tiên, Trảm Quỷ Dị Để Nâng Cấp, Ta Làm Trùm Mạt Thế",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9698,
+      "totalDurationStr": "2 giờ 41 phút",
+      "totalViews": 64,
+      "totalLikes": 3,
+      "review": "[ Full ] Phần 1, Thức Tỉnh Hệ Thống Kiếm Tiên, Trảm Quỷ Dị Để Nâng Cấp, Ta Làm Trùm Mạt Thế Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/aXs9dacNye8/hqdefault.jpg",
+      "publishedAt": "2026-11-18T03:18:52+00:00",
+      "updatedAt": "2026-11-18T03:18:52+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1, Thức Tỉnh Hệ Thống Kiếm Tiên, Trảm Quỷ Dị Để Nâng Cấp, Ta Làm Trùm Mạt Thế",
+          "url": "https://www.youtube.com/watch?v=aXs9dacNye8",
+          "id": "aXs9dacNye8",
+          "duration": 9698,
+          "durationStr": "2:41:38",
+          "publishedAt": "2026-11-18T03:18:52+00:00",
+          "views": 64,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2286",
       "title": "【Mùa 1–2】Tà Thần Giáng Lâm, Muôn Người Quỳ Lạy, Chỉ Mình Ta Hiên Ngang Đứng Thẳng!",
