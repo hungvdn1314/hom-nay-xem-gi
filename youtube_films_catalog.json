@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2190,
+    "totalFilms": 2192,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T10:45:19.029380+00:00"
+    "lastUpdated": "2026-11-18T11:00:30.322798+00:00"
   },
   "channels": [
     {
@@ -77,13 +77,13 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 67
+      "filmCount": 68
     },
     {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 92
+      "filmCount": 93
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,81 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2310",
+      "title": "Xuyên Không Thành Trưởng Nữ Nhà Nông Nghèo Bị Từ Hôn, Nào Ngờ Khai Hoang Nuôi Cả Nhà Đổi Đời",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7680,
+      "totalDurationStr": "2 giờ 08 phút",
+      "totalViews": 12,
+      "totalLikes": 0,
+      "review": "Xuyên Không Thành Trưởng Nữ Nhà Nông Nghèo Bị Từ Hôn, Nào Ngờ Khai Hoang Nuôi Cả Nhà Đổi Đời",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/n7HwqCxYN3I/hqdefault.jpg",
+      "publishedAt": "2026-11-18T10:53:45+00:00",
+      "updatedAt": "2026-11-18T10:53:45+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Thành Trưởng Nữ Nhà Nông Nghèo Bị Từ Hôn, Nào Ngờ Khai Hoang Nuôi Cả Nhà Đổi Đời",
+          "url": "https://www.youtube.com/watch?v=n7HwqCxYN3I",
+          "id": "n7HwqCxYN3I",
+          "duration": 7680,
+          "durationStr": "2:08:00",
+          "publishedAt": "2026-11-18T10:53:45+00:00",
+          "views": 12,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2311",
+      "title": "P1-3 | 6,5 GIỜ | Ta Luôn Mạnh Hơn Đối Thủ 1 Cảnh Giới - Sư Phụ Phế Vật Bất Bại Từ Lâu Sống An Nhàn",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 23472,
+      "totalDurationStr": "6 giờ 31 phút",
+      "totalViews": 796,
+      "totalLikes": 27,
+      "review": "P1-3 | 6,5 GIỜ | Ta Luôn Mạnh Hơn Đối Thủ 1 Cảnh Giới - Sư Phụ Phế Vật Bất Bại Từ Lâu Sống An Nhàn Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/uNy-ash06mA/hqdefault.jpg",
+      "publishedAt": "2026-11-18T10:36:12+00:00",
+      "updatedAt": "2026-11-18T10:36:12+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-3",
+          "title": "P1-3 | 6,5 GIỜ | Ta Luôn Mạnh Hơn Đối Thủ 1 Cảnh Giới - Sư Phụ Phế Vật Bất Bại Từ Lâu Sống An Nhàn",
+          "url": "https://www.youtube.com/watch?v=uNy-ash06mA",
+          "id": "uNy-ash06mA",
+          "duration": 23472,
+          "durationStr": "6:31:12",
+          "publishedAt": "2026-11-18T10:36:12+00:00",
+          "views": 796,
+          "likes": 27,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2309",
       "title": "Xuyên Không Thành Phế Vật Chỉ Biết Lười Biếng Nằm Thẳng, Ai Ngờ Hệ Thống Vô Địch Ép Làm Bá Chủ",
