@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2209,
+    "totalFilms": 2210,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T01:15:22.290706+00:00"
+    "lastUpdated": "2026-11-19T01:30:35.529145+00:00"
   },
   "channels": [
     {
@@ -77,7 +77,7 @@ window.FILMS_DATA = {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 69
+      "filmCount": 70
     },
     {
       "id": "thaolac",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2329",
+      "title": "Shipper Nghèo Bất Ngờ Thức Tỉnh Thần Kỹ Sao Chép Vạn Vật, Chỉ Cần Nhìn 10 Giây Liền Nghịch Thiên!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8454,
+      "totalDurationStr": "2 giờ 20 phút",
+      "totalViews": 1,
+      "totalLikes": 0,
+      "review": "Shipper Nghèo Bất Ngờ Thức Tỉnh Thần Kỹ Sao Chép Vạn Vật, Chỉ Cần Nhìn 10 Giây Liền Nghịch Thiên!",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/XXaFxvw5X7A/hqdefault.jpg",
+      "publishedAt": "2026-11-19T01:28:41+00:00",
+      "updatedAt": "2026-11-19T01:28:41+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Shipper Nghèo Bất Ngờ Thức Tỉnh Thần Kỹ Sao Chép Vạn Vật, Chỉ Cần Nhìn 10 Giây Liền Nghịch Thiên!",
+          "url": "https://www.youtube.com/watch?v=XXaFxvw5X7A",
+          "id": "XXaFxvw5X7A",
+          "duration": 8454,
+          "durationStr": "2:20:54",
+          "publishedAt": "2026-11-19T01:28:41+00:00",
+          "views": 1,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2328",
       "title": "PHẦN CUỐI - TẬP 2 | FULL BỘ | Xuyên Game Tu Tiên, Chỉ Mình Ta Có Thể Nạp Thẻ Vô Hạn",
