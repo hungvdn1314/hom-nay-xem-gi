@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2223,
+    "totalFilms": 2224,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T04:30:22.741492+00:00"
+    "lastUpdated": "2026-11-19T04:45:18.885586+00:00"
   },
   "channels": [
     {
@@ -23,7 +23,7 @@
       "id": "chiuchiusubtv",
       "name": "ChiuChiuSubTV",
       "url": "https://www.youtube.com/@chiuchiusubtv",
-      "filmCount": 174
+      "filmCount": 175
     },
     {
       "id": "melacreview",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2343",
+      "title": "QUYỀN NĂNG THÍ THẦN, 9 ĐẠI QUÁI VẬT Tối Thượng Lật Đổ Thần Linh",
+      "channelId": "chiuchiusubtv",
+      "channelName": "ChiuChiuSubTV",
+      "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13636,
+      "totalDurationStr": "3 giờ 47 phút",
+      "totalViews": 129,
+      "totalLikes": 7,
+      "review": "📌 Tóm Tắt Phim: Tình cờ sở hữu chiếc bình ma thuật chứa máu thần cổ đại, Oscart - một kẻ bí ẩn đã tiến hành những thí nghiệm kinh hoàng. Từ máu chó mực, não cừu, quạ độc cho đến mật cá biển sâu... Những kẻ đường cùng trong xã hội như Kẻ Lặn Sâu (002), Kẻ Vô Hình (003), Phong Hậu (004) lần lượt ra đời. Khi sức mạnh siêu nhiên vượt ngoài tầm kiểm soát của...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/V-cK-KUuW8s/hqdefault.jpg",
+      "publishedAt": "2026-11-19T04:18:24+00:00",
+      "updatedAt": "2026-11-19T04:18:24+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "QUYỀN NĂNG THÍ THẦN, 9 ĐẠI QUÁI VẬT Tối Thượng Lật Đổ Thần Linh",
+          "url": "https://www.youtube.com/watch?v=V-cK-KUuW8s",
+          "id": "V-cK-KUuW8s",
+          "duration": 13636,
+          "durationStr": "3:47:16",
+          "publishedAt": "2026-11-19T04:18:24+00:00",
+          "views": 129,
+          "likes": 7,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2342",
       "title": "PHẦN 3 | 4 GIỜ | Thiếu Chủ Bị Gia Tộc Ruồng Bỏ - Kích Hoạt Hệ Thống Thành Ma Thần Vô Địch",
