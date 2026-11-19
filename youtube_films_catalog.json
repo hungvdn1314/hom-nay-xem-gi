@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2232,
+    "totalFilms": 2234,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T08:45:19.561933+00:00"
+    "lastUpdated": "2026-11-19T09:30:22.748442+00:00"
   },
   "channels": [
     {
@@ -35,7 +35,7 @@
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 290
+      "filmCount": 291
     },
     {
       "id": "hoathinhmonganh",
@@ -47,7 +47,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 219
+      "filmCount": 220
     },
     {
       "id": "tieusumuoi",
@@ -105,6 +105,81 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2353",
+      "title": "Full Phần 1 |【Cuộc Sống Của Boss: Bắt Đầu Lại Từ Con Số 0!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13159,
+      "totalDurationStr": "3 giờ 39 phút",
+      "totalViews": 14,
+      "totalLikes": 0,
+      "review": "🎬 【Cuộc Sống Của Boss: Bắt Đầu Lại Từ Con Số 0!】 🎮 Từng là đạo diễn và lọt vào nhóm người chơi đứng đầu bảng xếp hạng, Dư Sơ bất ngờ hồi sinh thành BOSS sau khi xem một đoạn quảng cáo 30 giây. Vừa nhận vai mới, Dư Sơ đã phải dùng hết 100 điểm để thuê phó bản Dẫm Bóng, nơi người chơi có tới 90% khả năng vượt ải. 🌑 Muốn qua màn, cả nhóm phải tìm ra và hạ...",
+      "genres": [
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/bBKzoXWAQ48/hqdefault.jpg",
+      "publishedAt": "2026-11-19T09:21:26+00:00",
+      "updatedAt": "2026-11-19T09:21:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Cuộc Sống Của Boss: Bắt Đầu Lại Từ Con Số 0!】",
+          "url": "https://www.youtube.com/watch?v=bBKzoXWAQ48",
+          "id": "bBKzoXWAQ48",
+          "duration": 13159,
+          "durationStr": "3:39:19",
+          "publishedAt": "2026-11-19T09:21:26+00:00",
+          "views": 14,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2352",
+      "title": "Full Phần 1 |【Xuyên Không Đến Thú Thế: Được Phu Quân Người Cá Lạnh Lùng Cưng Chiều Như Bảo Bối!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8547,
+      "totalDurationStr": "2 giờ 22 phút",
+      "totalViews": 14,
+      "totalLikes": 0,
+      "review": "🎬 【Xuyên Không Đến Thú Thế: Được Phu Quân Người Cá Lạnh Lùng Cưng Chiều Như Bảo Bối!】 🌊 Bị sóng lớn cuốn xuống biển sâu, cô gái hiện đại được người cá Lam Dã cứu sống. Tỉnh lại dưới mặt trăng tím, cô phát hiện mình đã đến một thế giới chỉ có thú nhân, người cá và tinh linh. Giống cái vô cùng hiếm, khiến cô lập tức trở thành đối tượng tranh giành của...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/Oj6hxa_CVOc/hqdefault.jpg",
+      "publishedAt": "2026-11-19T09:20:02+00:00",
+      "updatedAt": "2026-11-19T09:20:02+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Xuyên Không Đến Thú Thế: Được Phu Quân Người Cá Lạnh Lùng Cưng Chiều Như Bảo Bối!】",
+          "url": "https://www.youtube.com/watch?v=Oj6hxa_CVOc",
+          "id": "Oj6hxa_CVOc",
+          "duration": 8547,
+          "durationStr": "2:22:27",
+          "publishedAt": "2026-11-19T09:20:02+00:00",
+          "views": 14,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2351",
       "title": "Mùa 39 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
