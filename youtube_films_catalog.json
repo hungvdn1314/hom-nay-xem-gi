@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2210,
+    "totalFilms": 2211,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T01:30:35.529145+00:00"
+    "lastUpdated": "2026-11-19T02:15:21.000866+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 97
+      "filmCount": 98
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2330",
+      "title": "9 GIỜ THỎA MÃN | Hoàng Đế Điểm Danh - Một Bước Thành Cường Giả - Triệu Hồi Thần Tướng",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 31335,
+      "totalDurationStr": "8 giờ 42 phút",
+      "totalViews": 80,
+      "totalLikes": 1,
+      "review": "9 GIỜ THỎA MÃN | Hoàng Đế Điểm Danh - Một Bước Thành Cường Giả - Triệu Hồi Thần Tướng Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/mo-TokvbgGA/hqdefault.jpg",
+      "publishedAt": "2026-11-19T02:05:38+00:00",
+      "updatedAt": "2026-11-19T02:05:38+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "9 GIỜ THỎA MÃN | Hoàng Đế Điểm Danh - Một Bước Thành Cường Giả - Triệu Hồi Thần Tướng",
+          "url": "https://www.youtube.com/watch?v=mo-TokvbgGA",
+          "id": "mo-TokvbgGA",
+          "duration": 31335,
+          "durationStr": "8:42:15",
+          "publishedAt": "2026-11-19T02:05:38+00:00",
+          "views": 80,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2329",
       "title": "Shipper Nghèo Bất Ngờ Thức Tỉnh Thần Kỹ Sao Chép Vạn Vật, Chỉ Cần Nhìn 10 Giây Liền Nghịch Thiên!",
