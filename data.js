@@ -4,7 +4,7 @@ window.FILMS_DATA = {
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T05:30:21.295282+00:00"
+    "lastUpdated": "2026-11-19T05:45:25.832014+00:00"
   },
   "channels": [
     {
@@ -56982,10 +56982,10 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLXfF8SKPqAEs",
-      "totalParts": 4,
-      "partsStr": "4 phần",
-      "totalDurationSec": 97781,
-      "totalDurationStr": "27 giờ 09 phút",
+      "totalParts": 5,
+      "partsStr": "5 phần",
+      "totalDurationSec": 111348,
+      "totalDurationStr": "30 giờ 55 phút",
       "review": "Đòn Đánh Thường Tăng Máu, Một Tên Tỷ Sát Thương Đồ Sát Thần Minh. (3 phần / 3 video (Mùa 2-P1, Mùa 2-P2, Mùa 3))",
       "genres": [
         "Trò chơi / Phó bản"
@@ -57020,6 +57020,19 @@ window.FILMS_DATA = {
         },
         {
           "index": 3,
+          "label": "Mùa 5",
+          "title": "Mùa 5 | Trò Chơi Xâm Lấn: Đòn Đánh Thường Tăng Máu, Một Tên Tỷ Sát Thương Đồ Sát Thần Minh",
+          "url": "https://www.youtube.com/watch?v=c8ofCbyZR_M",
+          "id": "c8ofCbyZR_M",
+          "duration": 13567,
+          "durationStr": "3:46:07",
+          "publishedAt": "2026-11-19T05:31:52+00:00",
+          "views": 40,
+          "likes": 2,
+          "isRedundant": false
+        },
+        {
+          "index": 4,
           "label": "Mùa 2 - P1",
           "title": "Mùa 2 - P1 | Trò Chơi Xâm Lấn: Đòn Đánh Thường Tăng Máu, Một Tên Tỷ Sát Thương Đồ Sát Thần Minh",
           "url": "https://www.youtube.com/watch?v=H4V2sJxYuhc",
@@ -57032,7 +57045,7 @@ window.FILMS_DATA = {
           "publishedAt": "2026-10-25T00:00:00+00:00"
         },
         {
-          "index": 4,
+          "index": 5,
           "label": "Mùa 2 - P2",
           "title": "Mùa 2 - P2 | Trò Chơi Xâm Lấn: Đòn Đánh Thường Tăng Máu, Một Tên Tỷ Sát Thương Đồ Sát Thần Minh",
           "url": "https://www.youtube.com/watch?v=fFiiYaoaBHg",
@@ -57045,10 +57058,10 @@ window.FILMS_DATA = {
           "publishedAt": "2026-10-25T00:00:00+00:00"
         }
       ],
-      "totalViews": 43956,
-      "totalLikes": 231,
+      "totalViews": 43996,
+      "totalLikes": 233,
       "publishedAt": "2026-10-25T00:00:00+00:00",
-      "updatedAt": "2026-11-17T10:15:02+00:00",
+      "updatedAt": "2026-11-19T05:31:52+00:00",
       "isRecent24h": true
     },
     {
