@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2247,
+    "totalFilms": 2250,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T13:00:32.186358+00:00"
+    "lastUpdated": "2026-11-19T13:30:24.992429+00:00"
   },
   "channels": [
     {
@@ -35,7 +35,7 @@
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 292
+      "filmCount": 293
     },
     {
       "id": "hoathinhmonganh",
@@ -47,7 +47,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 221
+      "filmCount": 222
     },
     {
       "id": "tieusumuoi",
@@ -71,7 +71,7 @@
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 77
+      "filmCount": 78
     },
     {
       "id": "zzzphim",
@@ -105,6 +105,119 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2368",
+      "title": "Full Phần 1 | 【Nhật Ký Tu Luyện Của Gấu Trúc Chiêu Tài!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10233,
+      "totalDurationStr": "2 giờ 50 phút",
+      "totalViews": 15,
+      "totalLikes": 1,
+      "review": "🎬 【Nhật Ký Tu Luyện Của Gấu Trúc Chiêu Tài!】 🐼 Xuyên đến thế giới ngự thú, Tô Bì Bì trở thành học sinh mất gốc ngay trước kỳ thi đại học. Ngự thú cậu khế ước là một chú gấu trúc có tiềm lực cấp F, kỹ năng duy nhất lại là ôm chân làm nũng! Giữa lúc bị thầy giáo mắng vì chọn nhầm ngự thú, cậu bất ngờ liên kết với Máy Học Tập Ngự Thú. 📚 Cơ hội đến khi nhà...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/QeCnKiRer9g/hqdefault.jpg",
+      "publishedAt": "2026-11-19T13:27:42+00:00",
+      "updatedAt": "2026-11-19T13:27:42+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Nhật Ký Tu Luyện Của Gấu Trúc Chiêu Tài!】",
+          "url": "https://www.youtube.com/watch?v=QeCnKiRer9g",
+          "id": "QeCnKiRer9g",
+          "duration": 10233,
+          "durationStr": "2:50:33",
+          "publishedAt": "2026-11-19T13:27:42+00:00",
+          "views": 15,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2367",
+      "title": "Full Phần 1 | Bất Ngờ Trọng Sinh Đến Một Thế Giới Toàn Những Sinh Vật Lông Xù Đáng Yêu!",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8240,
+      "totalDurationStr": "2 giờ 17 phút",
+      "totalViews": 18,
+      "totalLikes": 1,
+      "review": "🎬 【Bất Ngờ Trọng Sinh Đến Một Thế Giới Toàn Những Sinh Vật Lông Xù Đáng Yêu!】 🐾 Kiếp trước tăng ca đến chết, Lệ Chi tỉnh lại trên một hành tinh nơi những sinh vật lông xù nuôi con người làm thú cưng! Trở thành một bé con người lang thang, cô được anh chàng mèo Kỷ Thần Vũ nhặt về, đưa đi khám rồi chính thức nhận nuôi. 🐱 Có nhà rộng để ở, được chăm sóc chu...",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/KfTqn3T-pk4/hqdefault.jpg",
+      "publishedAt": "2026-11-19T13:27:05+00:00",
+      "updatedAt": "2026-11-19T13:27:05+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Bất Ngờ Trọng Sinh Đến Một Thế Giới Toàn Những Sinh Vật Lông Xù Đáng Yêu!",
+          "url": "https://www.youtube.com/watch?v=KfTqn3T-pk4",
+          "id": "KfTqn3T-pk4",
+          "duration": 8240,
+          "durationStr": "2:17:20",
+          "publishedAt": "2026-11-19T13:27:05+00:00",
+          "views": 18,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2369",
+      "title": "MÙA 1| XUYÊN KHÔNG – SAY RƯỢU MỘT CHÉN, MỘT KIẾM KHAI THIÊN MÔN, TRẤN ÁP VẠN TỘC.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 15400,
+      "totalDurationStr": "4 giờ 16 phút",
+      "totalViews": 18,
+      "totalLikes": 1,
+      "review": "MÙA 1| XUYÊN KHÔNG – SAY RƯỢU MỘT CHÉN, MỘT KIẾM KHAI THIÊN MÔN, TRẤN ÁP VẠN TỘC. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/pily3sSvZCI/hqdefault.jpg",
+      "publishedAt": "2026-11-19T13:19:15+00:00",
+      "updatedAt": "2026-11-19T13:19:15+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "MÙA 1| XUYÊN KHÔNG – SAY RƯỢU MỘT CHÉN, MỘT KIẾM KHAI THIÊN MÔN, TRẤN ÁP VẠN TỘC.",
+          "url": "https://www.youtube.com/watch?v=pily3sSvZCI",
+          "id": "pily3sSvZCI",
+          "duration": 15400,
+          "durationStr": "4:16:40",
+          "publishedAt": "2026-11-19T13:19:15+00:00",
+          "views": 18,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2366",
       "title": "8 GIỜ THỎA MÃN | Ta Xây Triều Đại Bằng Vũ Khí - Xuyên Làm Tốt Thí Với Hệ Thống Không Gian",
