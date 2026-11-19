@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2207,
+    "totalFilms": 2209,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T00:30:24.262669+00:00"
+    "lastUpdated": "2026-11-19T01:15:22.290706+00:00"
   },
   "channels": [
     {
@@ -59,7 +59,7 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 69
+      "filmCount": 70
     },
     {
       "id": "besuastudio",
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 96
+      "filmCount": 97
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,82 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2328",
+      "title": "PHẦN CUỐI - TẬP 2 | FULL BỘ | Xuyên Game Tu Tiên, Chỉ Mình Ta Có Thể Nạp Thẻ Vô Hạn",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19862,
+      "totalDurationStr": "5 giờ 31 phút",
+      "totalViews": 20,
+      "totalLikes": 3,
+      "review": "PHẦN CUỐI - TẬP 2 | FULL BỘ | Xuyên Game Tu Tiên, Chỉ Mình Ta Có Thể Nạp Thẻ Vô Hạn Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/msvaUCC6Ae8/hqdefault.jpg",
+      "publishedAt": "2026-11-19T01:08:46+00:00",
+      "updatedAt": "2026-11-19T01:08:46+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 2",
+          "title": "PHẦN CUỐI - TẬP 2 | FULL BỘ | Xuyên Game Tu Tiên, Chỉ Mình Ta Có Thể Nạp Thẻ Vô Hạn",
+          "url": "https://www.youtube.com/watch?v=msvaUCC6Ae8",
+          "id": "msvaUCC6Ae8",
+          "duration": 19862,
+          "durationStr": "5:31:02",
+          "publishedAt": "2026-11-19T01:08:46+00:00",
+          "views": 20,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2327",
+      "title": "P1, Thức Tỉnh Hệ Thống Triệu Hồi Vô Hạn, Ta Xây Dựng Quân Đoàn Quét Sạch Dị Biến, Xưng B.á Tận Thế",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9092,
+      "totalDurationStr": "2 giờ 31 phút",
+      "totalViews": 68,
+      "totalLikes": 2,
+      "review": "[ Full ] P1, Thức Tỉnh Hệ Thống Triệu Hồi Vô Hạn, Ta Xây Dựng Quân Đoàn Quét Sạch Dị Biến, Xưng Bá Tận Thế Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/KH5DrQui1OE/hqdefault.jpg",
+      "publishedAt": "2026-11-19T01:00:16+00:00",
+      "updatedAt": "2026-11-19T01:00:16+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Thức Tỉnh Hệ Thống Triệu Hồi Vô Hạn, Ta Xây Dựng Quân Đoàn Quét Sạch Dị Biến, Xưng B.á Tận Thế",
+          "url": "https://www.youtube.com/watch?v=KH5DrQui1OE",
+          "id": "KH5DrQui1OE",
+          "duration": 9092,
+          "durationStr": "2:31:32",
+          "publishedAt": "2026-11-19T01:00:16+00:00",
+          "views": 68,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2326",
       "title": "【Mùa 1–2】Nhà Hàng Ma Pháp Của Thiếu Nữ Bạch Cốt! Trọng Sinh Đến Dị Giới Thành Cô Gái Xương Trắng",
