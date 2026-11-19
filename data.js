@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2226,
+    "totalFilms": 2229,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T06:00:31.339027+00:00"
+    "lastUpdated": "2026-11-19T06:30:24.716621+00:00"
   },
   "channels": [
     {
@@ -35,19 +35,19 @@ window.FILMS_DATA = {
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 289
+      "filmCount": 290
     },
     {
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 308
+      "filmCount": 309
     },
     {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 218
+      "filmCount": 219
     },
     {
       "id": "tieusumuoi",
@@ -105,6 +105,119 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2346",
+      "title": "Full Phần 1 | 【Trò Chơi Tận Thế: Mỗi Ngày Có Hàng Nghìn Tỷ Điểm Để Tiêu Xài Thỏa Thích!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9422,
+      "totalDurationStr": "2 giờ 37 phút",
+      "totalViews": 61,
+      "totalLikes": 6,
+      "review": "🎬 【Trò Chơi Tận Thế: Mỗi Ngày Có Hàng Nghìn Tỷ Điểm Để Tiêu Xài Thỏa Thích!】 🏝️ Trò chơi tận thế vừa khởi động, người chơi trên đảo hoang đã phải tranh nhau chỗ trú trước khi quái vật xuất hiện vào ban đêm. Trong lúc mọi người bắt đầu với tài sản bằng không, nam chính thức tỉnh Hệ Thống Vũ Trụ Duy Nhất, tự động nhận một nghìn tỷ điểm phiếu mỗi ngày. 💰 Bị...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/Mp0bc5lOZZQ/hqdefault.jpg",
+      "publishedAt": "2026-11-19T06:19:46+00:00",
+      "updatedAt": "2026-11-19T06:19:46+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Trò Chơi Tận Thế: Mỗi Ngày Có Hàng Nghìn Tỷ Điểm Để Tiêu Xài Thỏa Thích!】",
+          "url": "https://www.youtube.com/watch?v=Mp0bc5lOZZQ",
+          "id": "Mp0bc5lOZZQ",
+          "duration": 9422,
+          "durationStr": "2:37:02",
+          "publishedAt": "2026-11-19T06:19:46+00:00",
+          "views": 61,
+          "likes": 6,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2348",
+      "title": "【Mùa 1–2】Mở Đầu Bị Từ Hôn, Nào Ngờ Những Tiểu Nhân Trong Không Gian Lại Liên Tục Ra Tay Giúp Đỡ Tôi!",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 26799,
+      "totalDurationStr": "7 giờ 26 phút",
+      "totalViews": 13,
+      "totalLikes": 0,
+      "review": "🎬 【Mùa 1–2】Mở Đầu Bị Từ Hôn, Nào Ngờ Những Tiểu Nhân Trong Không Gian Lại Liên Tục Ra Tay Giúp Đỡ Tôi! 💍 Vừa xuyên vào truyện, Tô Niểu Niểu đã bị ép bái đường với một con gà trống, còn chú rể bận đưa chị dâu đến bệnh viện. Biết nguyên chủ sẽ chịu cảnh làm trâu làm ngựa rồi chết thảm, cô lập tức hủy hôn. Trở về nhà, cô lại bị ép nhường công việc cho con...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/_ilJxyJdq68/hqdefault.jpg",
+      "publishedAt": "2026-11-19T06:18:37+00:00",
+      "updatedAt": "2026-11-19T06:18:37+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Mở Đầu Bị Từ Hôn, Nào Ngờ Những Tiểu Nhân Trong Không Gian Lại Liên Tục Ra Tay Giúp Đỡ Tôi!",
+          "url": "https://www.youtube.com/watch?v=_ilJxyJdq68",
+          "id": "_ilJxyJdq68",
+          "duration": 26799,
+          "durationStr": "7:26:39",
+          "publishedAt": "2026-11-19T06:18:37+00:00",
+          "views": 13,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2347",
+      "title": "【Mùa 2 | Quái Đàm Vô Hạn: Nhân Cách Thứ Hai Đang Được Kích Hoạt!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6493,
+      "totalDurationStr": "1 giờ 48 phút",
+      "totalViews": 20,
+      "totalLikes": 5,
+      "review": "🎬 【Mùa 2 | Quái Đàm Vô Hạn: Nhân Cách Thứ Hai Đang Được Kích Hoạt!】 🚪 Tống Uyên xuyên vào một cơ thể có chủ nhân cũ vẫn còn tồn tại và thỉnh thoảng tìm cách giành quyền kiểm soát. Vừa thoát khỏi phó bản trước, cậu dùng vật phẩm đổi diện mạo để che giấu khuôn mặt của một kẻ bị truy nã, rồi tiếp tục bước vào thử thách mới cùng chín người khác. 👁️ Tại Nhà...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/_zhERyFz3H8/hqdefault.jpg",
+      "publishedAt": "2026-11-19T06:18:00+00:00",
+      "updatedAt": "2026-11-19T06:18:00+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 2",
+          "title": "【Mùa 2 | Quái Đàm Vô Hạn: Nhân Cách Thứ Hai Đang Được Kích Hoạt!】",
+          "url": "https://www.youtube.com/watch?v=_zhERyFz3H8",
+          "id": "_zhERyFz3H8",
+          "duration": 6493,
+          "durationStr": "1:48:13",
+          "publishedAt": "2026-11-19T06:18:00+00:00",
+          "views": 20,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2345",
       "title": "P1, Thế Giới Bị Cuốn Vào Trò Chơi Tận Thế, Ta Thức Tỉnh Dị Năng Bồ Nông, Thôn Phệ Sức Mạnh Quái Vật",
