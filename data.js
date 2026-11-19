@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2218,
+    "totalFilms": 2219,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T03:15:19.708152+00:00"
+    "lastUpdated": "2026-11-19T03:45:30.624475+00:00"
   },
   "channels": [
     {
@@ -77,7 +77,7 @@ window.FILMS_DATA = {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 70
+      "filmCount": 71
     },
     {
       "id": "thaolac",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2338",
+      "title": "Bé Con 5 Tuổi Xuống Núi Tìm 5 Sư Huynh Nghèo, Nào Ngờ Đều Là Đại Lão Khiến Giang Hồ Chấn Động!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8362,
+      "totalDurationStr": "2 giờ 19 phút",
+      "totalViews": 12,
+      "totalLikes": 2,
+      "review": "Bé Con 5 Tuổi Xuống Núi Tìm 5 Sư Huynh Nghèo, Nào Ngờ Đều Là Đại Lão Khiến Giang Hồ Chấn Động!",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/6sHdCWbMOm4/hqdefault.jpg",
+      "publishedAt": "2026-11-19T03:33:31+00:00",
+      "updatedAt": "2026-11-19T03:33:31+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Bé Con 5 Tuổi Xuống Núi Tìm 5 Sư Huynh Nghèo, Nào Ngờ Đều Là Đại Lão Khiến Giang Hồ Chấn Động!",
+          "url": "https://www.youtube.com/watch?v=6sHdCWbMOm4",
+          "id": "6sHdCWbMOm4",
+          "duration": 8362,
+          "durationStr": "2:19:22",
+          "publishedAt": "2026-11-19T03:33:31+00:00",
+          "views": 12,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2337",
       "title": "9 GIỜ THỎA MÃN | Hoàng Tử Vô Dụng Nào Ngờ Là Thiên Tài Quân Sự Xuyên Không - Hoàng Đề Cũng Khiếp Sợ",
