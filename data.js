@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2245,
+    "totalFilms": 2247,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T12:15:20.783268+00:00"
+    "lastUpdated": "2026-11-19T13:00:32.186358+00:00"
   },
   "channels": [
     {
@@ -77,13 +77,13 @@ window.FILMS_DATA = {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 72
+      "filmCount": 73
     },
     {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 107
+      "filmCount": 108
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,82 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2366",
+      "title": "8 GIỜ THỎA MÃN | Ta Xây Triều Đại Bằng Vũ Khí - Xuyên Làm Tốt Thí Với Hệ Thống Không Gian",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 28416,
+      "totalDurationStr": "7 giờ 53 phút",
+      "totalViews": 124,
+      "totalLikes": 8,
+      "review": "8 GIỜ THỎA MÃN | Ta Xây Triều Đại Bằng Vũ Khí - Xuyên Làm Tốt Thí Với Hệ Thống Không Gian Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/XgmepLoIA9o/hqdefault.jpg",
+      "publishedAt": "2026-11-19T12:51:09+00:00",
+      "updatedAt": "2026-11-19T12:51:09+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "8 GIỜ THỎA MÃN | Ta Xây Triều Đại Bằng Vũ Khí - Xuyên Làm Tốt Thí Với Hệ Thống Không Gian",
+          "url": "https://www.youtube.com/watch?v=XgmepLoIA9o",
+          "id": "XgmepLoIA9o",
+          "duration": 28416,
+          "durationStr": "7:53:36",
+          "publishedAt": "2026-11-19T12:51:09+00:00",
+          "views": 124,
+          "likes": 8,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2365",
+      "title": "Trọng Sinh Trước Tận Thế 1 Tháng, Cô Bán Gia Sản Tích Trữ Vật Tư Vào Không Gian, Nào Ngờ Đổi Đời!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11238,
+      "totalDurationStr": "3 giờ 07 phút",
+      "totalViews": 35,
+      "totalLikes": 1,
+      "review": "Trọng Sinh Trước Tận Thế 1 Tháng, Cô Bán Gia Sản Tích Trữ Vật Tư Vào Không Gian, Nào Ngờ Đổi Đời!",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/EFIIbz-UhDQ/hqdefault.jpg",
+      "publishedAt": "2026-11-19T12:47:18+00:00",
+      "updatedAt": "2026-11-19T12:47:18+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trọng Sinh Trước Tận Thế 1 Tháng, Cô Bán Gia Sản Tích Trữ Vật Tư Vào Không Gian, Nào Ngờ Đổi Đời!",
+          "url": "https://www.youtube.com/watch?v=EFIIbz-UhDQ",
+          "id": "EFIIbz-UhDQ",
+          "duration": 11238,
+          "durationStr": "3:07:18",
+          "publishedAt": "2026-11-19T12:47:18+00:00",
+          "views": 35,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2364",
       "title": "4,5 GIỜ | Hỗn Độn Tạo Hóa Đỉnh - Tạp Dịch Phàm Linh Căn Tinh Luyện Phế Đan - Âm Thầm Thành Đại Đế",
