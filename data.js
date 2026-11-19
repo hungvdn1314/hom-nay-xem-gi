@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2220,
+    "totalFilms": 2223,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T04:15:33.819062+00:00"
+    "lastUpdated": "2026-11-19T04:30:22.741492+00:00"
   },
   "channels": [
     {
@@ -59,7 +59,7 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 71
+      "filmCount": 72
     },
     {
       "id": "besuastudio",
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 99
+      "filmCount": 101
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,119 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2342",
+      "title": "PHẦN 3 | 4 GIỜ | Thiếu Chủ Bị Gia Tộc Ruồng Bỏ - Kích Hoạt Hệ Thống Thành Ma Thần Vô Địch",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 14238,
+      "totalDurationStr": "3 giờ 57 phút",
+      "totalViews": 64,
+      "totalLikes": 3,
+      "review": "PHẦN 3 | 4 GIỜ | Thiếu Chủ Bị Gia Tộc Ruồng Bỏ - Kích Hoạt Hệ Thống Thành Ma Thần Vô Địch Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/Yw-EpF-gvVQ/hqdefault.jpg",
+      "publishedAt": "2026-11-19T04:23:43+00:00",
+      "updatedAt": "2026-11-19T04:23:43+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 3",
+          "title": "PHẦN 3 | 4 GIỜ | Thiếu Chủ Bị Gia Tộc Ruồng Bỏ - Kích Hoạt Hệ Thống Thành Ma Thần Vô Địch",
+          "url": "https://www.youtube.com/watch?v=Yw-EpF-gvVQ",
+          "id": "Yw-EpF-gvVQ",
+          "duration": 14238,
+          "durationStr": "3:57:18",
+          "publishedAt": "2026-11-19T04:23:43+00:00",
+          "views": 64,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2340",
+      "title": "Phần 1, Có Được Năng Lực Hắc Ám SSS, Ta Thôn Phệ Vạn Vật, Đứng Lên Chống Lại Tất Cả",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7241,
+      "totalDurationStr": "2 giờ 00 phút",
+      "totalViews": 95,
+      "totalLikes": 6,
+      "review": "[ Full ] Phần 1, Có Được Năng Lực Hắc Ám SSS, Ta Thôn Phệ Vạn Vật, Đứng Lên Chống Lại Tất Cả Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/ZXjnCcBPdtQ/hqdefault.jpg",
+      "publishedAt": "2026-11-19T04:04:49+00:00",
+      "updatedAt": "2026-11-19T04:04:49+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1, Có Được Năng Lực Hắc Ám SSS, Ta Thôn Phệ Vạn Vật, Đứng Lên Chống Lại Tất Cả",
+          "url": "https://www.youtube.com/watch?v=ZXjnCcBPdtQ",
+          "id": "ZXjnCcBPdtQ",
+          "duration": 7241,
+          "durationStr": "2:00:41",
+          "publishedAt": "2026-11-19T04:04:49+00:00",
+          "views": 95,
+          "likes": 6,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2341",
+      "title": "P1-7 BẢN ĐẸP | 53 Giờ Thỏa Mãn | Hóa Thành Thần Thụ - 1 Chiếc Lá Của Ta Cũng Khiến Đại Đế Khiếp Sợ",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 191273,
+      "totalDurationStr": "53 giờ 07 phút",
+      "totalViews": 842,
+      "totalLikes": 54,
+      "review": "P1-7 BẢN ĐẸP | 53 Giờ Thỏa Mãn | Hóa Thành Thần Thụ - 1 Chiếc Lá Của Ta Cũng Khiến Đại Đế Khiếp Sợ Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/OmDBHZzuotE/hqdefault.jpg",
+      "publishedAt": "2026-11-19T03:56:52+00:00",
+      "updatedAt": "2026-11-19T03:56:52+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-7",
+          "title": "P1-7 BẢN ĐẸP | 53 Giờ Thỏa Mãn | Hóa Thành Thần Thụ - 1 Chiếc Lá Của Ta Cũng Khiến Đại Đế Khiếp Sợ",
+          "url": "https://www.youtube.com/watch?v=OmDBHZzuotE",
+          "id": "OmDBHZzuotE",
+          "duration": 191273,
+          "durationStr": "53:07:53",
+          "publishedAt": "2026-11-19T03:56:52+00:00",
+          "views": 842,
+          "likes": 54,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2339",
       "title": "Sinh Tồn Xa Lộ: Nữ Chính Xuyên Vào Tiểu Thuyết, Vừa Mở Rương Đã Đạt Max Cấp",
