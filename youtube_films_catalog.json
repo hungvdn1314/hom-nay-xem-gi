@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2239,
+    "totalFilms": 2240,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T10:45:22.026978+00:00"
+    "lastUpdated": "2026-11-19T11:00:41.333256+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 105
+      "filmCount": 106
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2359",
+      "title": "P1-2 | 4,5 GIỜ | Thánh Tử Phế Vật - Nào Ngờ Là Cao Thủ Đỉnh Phong Đế Huyền Cảnh Sở Hữu Hệ Thống",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 15651,
+      "totalDurationStr": "4 giờ 20 phút",
+      "totalViews": 148,
+      "totalLikes": 4,
+      "review": "P1-2 | 4,5 GIỜ | Thánh Tử Phế Vật - Nào Ngờ Là Cao Thủ Đỉnh Phong Đế Huyền Cảnh Sở Hữu Hệ Thống Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/vDWEzhKsurs/hqdefault.jpg",
+      "publishedAt": "2026-11-19T10:45:35+00:00",
+      "updatedAt": "2026-11-19T10:45:35+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-2",
+          "title": "P1-2 | 4,5 GIỜ | Thánh Tử Phế Vật - Nào Ngờ Là Cao Thủ Đỉnh Phong Đế Huyền Cảnh Sở Hữu Hệ Thống",
+          "url": "https://www.youtube.com/watch?v=vDWEzhKsurs",
+          "id": "vDWEzhKsurs",
+          "duration": 15651,
+          "durationStr": "4:20:51",
+          "publishedAt": "2026-11-19T10:45:35+00:00",
+          "views": 148,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2358",
       "title": "13H| LÃO TỔ TRƯỜNG SINH - 10 VẠN NĂM QUAY VỀ TRẤN HƯNG GIA TỘC.",
