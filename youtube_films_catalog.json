@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2237,
+    "totalFilms": 2238,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T10:15:22.295355+00:00"
+    "lastUpdated": "2026-11-19T10:30:34.534727+00:00"
   },
   "channels": [
     {
@@ -59,7 +59,7 @@
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 73
+      "filmCount": 74
     },
     {
       "id": "besuastudio",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2357",
+      "title": "P1, Thiên Kiêu Bị Dì Ghẻ Sửa Đổi Vận Mệnh, Thức Tỉnh Hệ Thống Quân Thần, Nghịch Thiên Thành Võ Đế",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "[ Full ] P1, Thiên Kiêu Bị Dì Ghẻ Sửa Đổi Vận Mệnh, Thức Tỉnh Hệ Thống Quân Thần, Nghịch Thiên Thành Võ Đế Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/Z_NQcj8NR_o/hqdefault.jpg",
+      "publishedAt": "2026-11-19T10:30:19+00:00",
+      "updatedAt": "2026-11-19T10:30:19+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Thiên Kiêu Bị Dì Ghẻ Sửa Đổi Vận Mệnh, Thức Tỉnh Hệ Thống Quân Thần, Nghịch Thiên Thành Võ Đế",
+          "url": "https://www.youtube.com/watch?v=Z_NQcj8NR_o",
+          "id": "Z_NQcj8NR_o",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-19T10:30:19+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2356",
       "title": "5,5 GIỜ | Vạc Thiên Đế - Thiếu Tông Chủ Phế Vật - Ta Thành Thiên Tài Tu Luyện Trấn Áp Cửu Giới",
