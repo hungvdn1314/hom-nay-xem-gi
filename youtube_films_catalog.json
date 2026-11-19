@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2250,
+    "totalFilms": 2252,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T13:30:24.992429+00:00"
+    "lastUpdated": "2026-11-19T15:30:35.066299+00:00"
   },
   "channels": [
     {
@@ -35,7 +35,7 @@
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 293
+      "filmCount": 294
     },
     {
       "id": "hoathinhmonganh",
@@ -47,7 +47,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 222
+      "filmCount": 223
     },
     {
       "id": "tieusumuoi",
@@ -105,6 +105,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2371",
+      "title": "【Mùa 1–2】Đại Lão Huyền Học Xuống Núi!",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 21897,
+      "totalDurationStr": "6 giờ 04 phút",
+      "totalViews": 39,
+      "totalLikes": 2,
+      "review": "🎬 【Mùa 1–2】Đại Lão Huyền Học Xuống Núi! 🔮 Là đệ tử Đạo môn có thể nhìn thấy tà túy và quỷ dị, A Cẩm sống tại Huyền Thanh Môn cho đến ngày cha ruột tìm đến đón về. Mang theo cả bài vị Tổ sư gia xuống núi, cô khiến người cha vừa mừng vì tìm lại được con, vừa lo đến mức muốn đưa cô đi khám đầu óc. ✨ Vừa gặp đối tác của cha, A Cẩm đã nhìn ra đường con cái...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/OeMl6hMb_FA/hqdefault.jpg",
+      "publishedAt": "2026-11-19T15:17:37+00:00",
+      "updatedAt": "2026-11-19T15:17:37+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "【Mùa 1–2】Đại Lão Huyền Học Xuống Núi!",
+          "url": "https://www.youtube.com/watch?v=OeMl6hMb_FA",
+          "id": "OeMl6hMb_FA",
+          "duration": 21897,
+          "durationStr": "6:04:57",
+          "publishedAt": "2026-11-19T15:17:37+00:00",
+          "views": 39,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2370",
+      "title": "Full P2 | Thanh Niên Xuyên Đến Thế Giới Sinh Tồn Tổ Sào, Khởi Đầu Chỉ Có Một Chiếc Xe Và Một Goblin",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11560,
+      "totalDurationStr": "3 giờ 12 phút",
+      "totalViews": 24,
+      "totalLikes": 2,
+      "review": "🎬 Full P2 | Thanh Niên Xuyên Đến Thế Giới Sinh Tồn Tổ Sào, Khởi Đầu Chỉ Có Một Chiếc Xe Và Một Goblin 🚙 Từ chiếc xe và một Goblin ban đầu, Trần Phàm từng bước xây dựng tổ sào, chiêu mộ đồng đội để sinh tồn. Nhưng khi chạm trán kỵ sĩ Migor cùng đội quân tinh nhuệ, cả nhóm buộc phải lên chiếc xe ba bánh bọc thép tháo chạy trước cuộc truy đuổi quyết liệt. 🔥...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/iSYDzmrOMJ8/hqdefault.jpg",
+      "publishedAt": "2026-11-19T15:16:34+00:00",
+      "updatedAt": "2026-11-19T15:16:34+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Full P2 | Thanh Niên Xuyên Đến Thế Giới Sinh Tồn Tổ Sào, Khởi Đầu Chỉ Có Một Chiếc Xe Và Một Goblin",
+          "url": "https://www.youtube.com/watch?v=iSYDzmrOMJ8",
+          "id": "iSYDzmrOMJ8",
+          "duration": 11560,
+          "durationStr": "3:12:40",
+          "publishedAt": "2026-11-19T15:16:34+00:00",
+          "views": 24,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2368",
       "title": "Full Phần 1 | 【Nhật Ký Tu Luyện Của Gấu Trúc Chiêu Tài!】",
