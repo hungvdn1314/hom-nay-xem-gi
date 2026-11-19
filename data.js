@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2252,
+    "totalFilms": 2253,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T15:30:35.066299+00:00"
+    "lastUpdated": "2026-11-19T15:45:40.128966+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 108
+      "filmCount": 109
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2372",
+      "title": "Phần 39 | Tro Tàn Cửu Châu - Chiến Thần Thương Lộ -  Lính Đặc Chủng Xuyên Không Làm Tốt Thí",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9232,
+      "totalDurationStr": "2 giờ 33 phút",
+      "totalViews": 296,
+      "totalLikes": 20,
+      "review": "Phần 39 | Tro Tàn Cửu Châu - Chiến Thần Thương Lộ - Lính Đặc Chủng Xuyên Không Làm Tốt Thí Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/rIWG3wgSHdk/hqdefault.jpg",
+      "publishedAt": "2026-11-19T15:23:44+00:00",
+      "updatedAt": "2026-11-19T15:23:44+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 39",
+          "title": "Phần 39 | Tro Tàn Cửu Châu - Chiến Thần Thương Lộ -  Lính Đặc Chủng Xuyên Không Làm Tốt Thí",
+          "url": "https://www.youtube.com/watch?v=rIWG3wgSHdk",
+          "id": "rIWG3wgSHdk",
+          "duration": 9232,
+          "durationStr": "2:33:52",
+          "publishedAt": "2026-11-19T15:23:44+00:00",
+          "views": 296,
+          "likes": 20,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2371",
       "title": "【Mùa 1–2】Đại Lão Huyền Học Xuống Núi!",
