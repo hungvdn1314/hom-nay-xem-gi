@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2241,
+    "totalFilms": 2242,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T11:15:19.087792+00:00"
+    "lastUpdated": "2026-11-19T11:30:23.638323+00:00"
   },
   "channels": [
     {
@@ -47,7 +47,7 @@ window.FILMS_DATA = {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 220
+      "filmCount": 221
     },
     {
       "id": "tieusumuoi",
@@ -105,6 +105,43 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2361",
+      "title": "Full Phần 1|Xuyên Không Đến Thần Thoại Hy Lạp: Tôi Dùng Sức Mạnh Văn Minh Làm Rung Chuyển Thần Vương",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6913,
+      "totalDurationStr": "1 giờ 55 phút",
+      "totalViews": 5,
+      "totalLikes": 0,
+      "review": "🎬 【Xuyên Không Đến Thần Thoại Hy Lạp: Tôi Dùng Sức Mạnh Văn Minh Làm Rung Chuyển Thần Vương!】 🌌 Xuyên thành một ý thức giữa hỗn độn, anh trôi nổi qua vô số kỷ nguyên, chứng kiến năm vị thần nguyên thủy khai mở thế giới. Khi chiến tranh gieo rắc phẫn nộ và đau thương, anh ngưng tụ thần cách, trở thành Naelmis — Chúa Tể Cảm Xúc. Vừa có được cơ thể, anh đã...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/u-MOD-mECJU/hqdefault.jpg",
+      "publishedAt": "2026-11-19T11:25:19+00:00",
+      "updatedAt": "2026-11-19T11:25:19+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1|Xuyên Không Đến Thần Thoại Hy Lạp: Tôi Dùng Sức Mạnh Văn Minh Làm Rung Chuyển Thần Vương",
+          "url": "https://www.youtube.com/watch?v=u-MOD-mECJU",
+          "id": "u-MOD-mECJU",
+          "duration": 6913,
+          "durationStr": "1:55:13",
+          "publishedAt": "2026-11-19T11:25:19+00:00",
+          "views": 5,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2360",
       "title": "Full Phần 1 | Nam Sinh Bị Coi Thường... Lại Sở Hữu Vô Hạn Kỹ Năng | Review Truyện",
