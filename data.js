@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2216,
+    "totalFilms": 2218,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T03:00:52.820242+00:00"
+    "lastUpdated": "2026-11-19T03:15:19.708152+00:00"
   },
   "channels": [
     {
@@ -59,7 +59,7 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 70
+      "filmCount": 71
     },
     {
       "id": "besuastudio",
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 98
+      "filmCount": 99
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,82 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2337",
+      "title": "9 GIỜ THỎA MÃN | Hoàng Tử Vô Dụng Nào Ngờ Là Thiên Tài Quân Sự Xuyên Không - Hoàng Đề Cũng Khiếp Sợ",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 31084,
+      "totalDurationStr": "8 giờ 38 phút",
+      "totalViews": 108,
+      "totalLikes": 4,
+      "review": "9 GIỜ THỎA MÃN | Hoàng Tử Vô Dụng Nào Ngờ Là Thiên Tài Quân Sự Xuyên Không - Hoàng Đề Cũng Khiếp Sợ Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng...",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/-3NSKWkI4Mo/hqdefault.jpg",
+      "publishedAt": "2026-11-19T03:05:05+00:00",
+      "updatedAt": "2026-11-19T03:05:05+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "9 GIỜ THỎA MÃN | Hoàng Tử Vô Dụng Nào Ngờ Là Thiên Tài Quân Sự Xuyên Không - Hoàng Đề Cũng Khiếp Sợ",
+          "url": "https://www.youtube.com/watch?v=-3NSKWkI4Mo",
+          "id": "-3NSKWkI4Mo",
+          "duration": 31084,
+          "durationStr": "8:38:04",
+          "publishedAt": "2026-11-19T03:05:05+00:00",
+          "views": 108,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2336",
+      "title": "Phần 1, Xuyên Không Đến Phế Thổ, Triệu Hồi Người Chơi Bất Tử, Xây Dựng Quân Đoàn Hồi Sinh Vô Hạn",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8773,
+      "totalDurationStr": "2 giờ 26 phút",
+      "totalViews": 36,
+      "totalLikes": 0,
+      "review": "[ Full ] Phần 1, Xuyên Không Đến Phế Thổ, Triệu Hồi Người Chơi Bất Tử, Xây Dựng Quân Đoàn Hồi Sinh Vô Hạn Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/n0kX9FiBxjE/hqdefault.jpg",
+      "publishedAt": "2026-11-19T03:01:20+00:00",
+      "updatedAt": "2026-11-19T03:01:20+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1, Xuyên Không Đến Phế Thổ, Triệu Hồi Người Chơi Bất Tử, Xây Dựng Quân Đoàn Hồi Sinh Vô Hạn",
+          "url": "https://www.youtube.com/watch?v=n0kX9FiBxjE",
+          "id": "n0kX9FiBxjE",
+          "duration": 8773,
+          "durationStr": "2:26:13",
+          "publishedAt": "2026-11-19T03:01:20+00:00",
+          "views": 36,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2333",
       "title": "Fulll Phần 1 |【Đầu Bếp Hiện Đại Xuyên Thành Cô Vợ Béo 100kg Nhà Nông!】",
@@ -226,8 +302,8 @@ window.FILMS_DATA = {
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 8140,
+      "totalDurationStr": "2 giờ 15 phút",
       "totalViews": 26,
       "totalLikes": 2,
       "review": "🎬 【Cô Ấy Dựa Vào Việc Thay Đổi Quy Tắc Để Đứng Trên Đỉnh Cao Trò Chơi Vô Hạn!】 🎮 Từng đứng đầu bảng xếp hạng người chơi, Lan Tâm bất ngờ hồi sinh thành BOSS sau một đoạn quảng cáo 30 giây. Với vỏn vẹn 100 điểm, cô thuê phó bản một sao Giẫm Bóng, nơi người chơi có tới 90% cơ hội vượt ải. Món hời duy nhất là cô được quyền sửa luật. 🌑 Tại thị trấn Vĩnh Dạ,...",
@@ -246,8 +322,8 @@ window.FILMS_DATA = {
           "title": "Full Phần 1 | Cô Ấy Dựa Vào Việc Thay Đổi Quy Tắc Để Đứng Trên Đỉnh Cao Trò Chơi Vô Hạn!",
           "url": "https://www.youtube.com/watch?v=bWnlY0hC3yE",
           "id": "bWnlY0hC3yE",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 8140,
+          "durationStr": "2:15:40",
           "publishedAt": "2026-11-19T02:49:14+00:00",
           "views": 26,
           "likes": 2,
