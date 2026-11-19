@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2206,
+    "totalFilms": 2207,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T00:15:20.553969+00:00"
+    "lastUpdated": "2026-11-19T00:30:24.262669+00:00"
   },
   "channels": [
     {
@@ -41,7 +41,7 @@ window.FILMS_DATA = {
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 306
+      "filmCount": 307
     },
     {
       "id": "vanmonggiao",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2326",
+      "title": "【Mùa 1–2】Nhà Hàng Ma Pháp Của Thiếu Nữ Bạch Cốt! Trọng Sinh Đến Dị Giới Thành Cô Gái Xương Trắng",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 27838,
+      "totalDurationStr": "7 giờ 43 phút",
+      "totalViews": 32,
+      "totalLikes": 6,
+      "review": "🎬 【Mùa 1–2】Nhà Hàng Ma Pháp Của Thiếu Nữ Bạch Cốt! Trọng Sinh Đến Dị Giới Thành Cô Gái Xương Trắng, Cô Từ Chối Nhiệm Vụ Cướp Đoạt Tuổi Thọ Của Hệ Thống 💀 Một cảnh sát nằm vùng hy sinh sau khi thân phận bại lộ, rồi tỉnh lại ở dị giới trong hình hài thiếu nữ bạch cốt. Hệ thống tưởng mình đã chọn được một sát nhân và lập tức yêu cầu cô giết người để cướp...",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/svJufeODdjY/hqdefault.jpg",
+      "publishedAt": "2026-11-19T00:18:23+00:00",
+      "updatedAt": "2026-11-19T00:18:23+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Nhà Hàng Ma Pháp Của Thiếu Nữ Bạch Cốt! Trọng Sinh Đến Dị Giới Thành Cô Gái Xương Trắng",
+          "url": "https://www.youtube.com/watch?v=svJufeODdjY",
+          "id": "svJufeODdjY",
+          "duration": 27838,
+          "durationStr": "7:43:58",
+          "publishedAt": "2026-11-19T00:18:23+00:00",
+          "views": 32,
+          "likes": 6,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2325",
       "title": "Tập 40-44-XUYÊN VÀO ĐẠO MỘ BÚT KÝ –NÀNG KÍCH HOẠT HỆ THỐNG, QUẬY TUNG CỔ MỘ KHIẾN CẢ NHÓM PHÁT ĐIÊN!",
