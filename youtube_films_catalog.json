@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2229,
+    "totalFilms": 2230,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T06:30:24.716621+00:00"
+    "lastUpdated": "2026-11-19T06:45:31.712768+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 101
+      "filmCount": 102
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,43 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2349",
+      "title": "6 GIỜ | Hệ Thống Công Đức 300 Năm - Ta Bước Vào Cảnh Giới Thần Chuyển Lật Đổ Ma Đạo",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 22155,
+      "totalDurationStr": "6 giờ 09 phút",
+      "totalViews": 289,
+      "totalLikes": 13,
+      "review": "6 GIỜ | Hệ Thống Công Đức 300 Năm - Ta Bước Vào Cảnh Giới Thần Chuyển Lật Đổ Ma Đạo Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động...",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/eZMH8TilDEg/hqdefault.jpg",
+      "publishedAt": "2026-11-19T06:30:22+00:00",
+      "updatedAt": "2026-11-19T06:30:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "6 GIỜ | Hệ Thống Công Đức 300 Năm - Ta Bước Vào Cảnh Giới Thần Chuyển Lật Đổ Ma Đạo",
+          "url": "https://www.youtube.com/watch?v=eZMH8TilDEg",
+          "id": "eZMH8TilDEg",
+          "duration": 22155,
+          "durationStr": "6:09:15",
+          "publishedAt": "2026-11-19T06:30:22+00:00",
+          "views": 289,
+          "likes": 13,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2346",
       "title": "Full Phần 1 | 【Trò Chơi Tận Thế: Mỗi Ngày Có Hàng Nghìn Tỷ Điểm Để Tiêu Xài Thỏa Thích!】",
