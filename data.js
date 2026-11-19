@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2240,
+    "totalFilms": 2241,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T11:00:41.333256+00:00"
+    "lastUpdated": "2026-11-19T11:15:19.087792+00:00"
   },
   "channels": [
     {
@@ -101,10 +101,47 @@ window.FILMS_DATA = {
       "id": "thongocstudio",
       "name": "Thỏ Ngọc Studio",
       "url": "https://www.youtube.com/@ThoNgocStudio",
-      "filmCount": 63
+      "filmCount": 64
     }
   ],
   "films": [
+    {
+      "id": "film_2360",
+      "title": "Full Phần 1 | Nam Sinh Bị Coi Thường... Lại Sở Hữu Vô Hạn Kỹ Năng | Review Truyện",
+      "channelId": "thongocstudio",
+      "channelName": "Thỏ Ngọc Studio",
+      "channelUrl": "https://www.youtube.com/@ThoNgocStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10305,
+      "totalDurationStr": "2 giờ 51 phút",
+      "totalViews": 96,
+      "totalLikes": 12,
+      "review": "Full Phần 1 | Nam Sinh Bị Coi Thường... Lại Sở Hữu Vô Hạn Kỹ Năng | Review Truyện Tên Truyện: Tai Biến Liệp Nhân Ta Có Hệ Thống Điểm Kinh Nghiệm Tag: review, review truyện, thỏ ngọc, thỏ ngọc studio - Đăng kí kênh để nhận đón xem những video mới nhất nhé ! Hashtag: #ThoNgocComics #manhwa #truyentranhmanwa...",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/dEjBX2sxQfA/hqdefault.jpg",
+      "publishedAt": "2026-11-19T11:00:24+00:00",
+      "updatedAt": "2026-11-19T11:00:24+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Nam Sinh Bị Coi Thường... Lại Sở Hữu Vô Hạn Kỹ Năng | Review Truyện",
+          "url": "https://www.youtube.com/watch?v=dEjBX2sxQfA",
+          "id": "dEjBX2sxQfA",
+          "duration": 10305,
+          "durationStr": "2:51:45",
+          "publishedAt": "2026-11-19T11:00:24+00:00",
+          "views": 96,
+          "likes": 12,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2359",
       "title": "P1-2 | 4,5 GIỜ | Thánh Tử Phế Vật - Nào Ngờ Là Cao Thủ Đỉnh Phong Đế Huyền Cảnh Sở Hữu Hệ Thống",
