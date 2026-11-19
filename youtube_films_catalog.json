@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2231,
+    "totalFilms": 2232,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T07:45:28.541528+00:00"
+    "lastUpdated": "2026-11-19T08:45:19.561933+00:00"
   },
   "channels": [
     {
@@ -29,7 +29,7 @@
       "id": "melacreview",
       "name": "Mễ Lạc Review",
       "url": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "filmCount": 166
+      "filmCount": 167
     },
     {
       "id": "thienanhstudio9",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2351",
+      "title": "Mùa 39 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8608,
+      "totalDurationStr": "2 giờ 23 phút",
+      "totalViews": 75,
+      "totalLikes": 13,
+      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt [16+] Mùa 39 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn (Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi) Tóm tắt: Tiêu Trần — một chiến binh thời hiện đại bất ngờ trùng sinh vào thân xác một thiếu niên yếu đuối ở thời cổ đại...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/y-riWO4bpr0/hqdefault.jpg",
+      "publishedAt": "2026-11-19T08:38:26+00:00",
+      "updatedAt": "2026-11-19T08:38:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 39",
+          "title": "Mùa 39 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
+          "url": "https://www.youtube.com/watch?v=y-riWO4bpr0",
+          "id": "y-riWO4bpr0",
+          "duration": 8608,
+          "durationStr": "2:23:28",
+          "publishedAt": "2026-11-19T08:38:26+00:00",
+          "views": 75,
+          "likes": 13,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2350",
       "title": "3 GIỜ | Tạp Dịch Tông Môn Đăng Nhập Vô Địch - Ta Khiến Các Thiên Tài Tuyệt Thế Phải Khuất Phục",
@@ -9702,19 +9740,19 @@
       "channelName": "Thảo Lác",
       "channelUrl": "https://www.youtube.com/@Thaolac6868",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 17865,
-      "totalDurationStr": "4 giờ 57 phút",
-      "totalViews": 21676,
-      "totalLikes": 231,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 32510,
+      "totalDurationStr": "9 giờ 01 phút",
+      "totalViews": 21780,
+      "totalLikes": 236,
       "review": "PHẦN 7 - TẬP 2 | BẢN ĐẸP FULL HD | Hóa Thành Thần Thụ - 1 Chiếc Lá Cũng Khiến Đại Đế Khiếp Sợ Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành...",
       "genres": [
         "Tu tiên / Huyền huyễn"
       ],
       "thumbnail": "https://i.ytimg.com/vi/QSDG9m4t6hM/hqdefault.jpg",
       "publishedAt": "2026-11-14T04:53:59.708550+00:00",
-      "updatedAt": "2026-11-14T04:53:59.708550+00:00",
+      "updatedAt": "2026-11-19T08:32:20+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -9728,6 +9766,19 @@
           "publishedAt": "2026-11-14T04:53:59.708550+00:00",
           "views": 21676,
           "likes": 231,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 7.3",
+          "title": "PHẦN 7 - TẬP 3 | BẢN ĐẸP FULL HD | Hóa Thành Thần Thụ - 1 Chiếc Lá Cũng Khiến Đại Đế Khiếp Sợ",
+          "url": "https://www.youtube.com/watch?v=A3XkjHAVvcE",
+          "id": "A3XkjHAVvcE",
+          "duration": 14645,
+          "durationStr": "4:04:05",
+          "publishedAt": "2026-11-19T08:32:20+00:00",
+          "views": 104,
+          "likes": 5,
           "isRedundant": false
         }
       ]
