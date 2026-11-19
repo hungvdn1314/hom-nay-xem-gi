@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2211,
+    "totalFilms": 2212,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T02:15:21.000866+00:00"
+    "lastUpdated": "2026-11-19T02:45:18.855095+00:00"
   },
   "channels": [
     {
@@ -71,7 +71,7 @@
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 73
+      "filmCount": 74
     },
     {
       "id": "zzzphim",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2331",
+      "title": "MÙA 1| XUYÊN KHÔNG TU TIÊN TẶNG QUÀ CHO NỮ TU. TA NHẬN HOÀN TRẢ VẠN LẦN.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9525,
+      "totalDurationStr": "2 giờ 38 phút",
+      "totalViews": 12,
+      "totalLikes": 1,
+      "review": "MÙA 1| XUYÊN KHÔNG TU TIÊN TẶNG QUÀ CHO NỮ TU. TA NHẬN HOÀN TRẢ VẠN LẦN. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/xrSDaXv5pRI/hqdefault.jpg",
+      "publishedAt": "2026-11-19T02:33:11+00:00",
+      "updatedAt": "2026-11-19T02:33:11+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "MÙA 1| XUYÊN KHÔNG TU TIÊN TẶNG QUÀ CHO NỮ TU. TA NHẬN HOÀN TRẢ VẠN LẦN.",
+          "url": "https://www.youtube.com/watch?v=xrSDaXv5pRI",
+          "id": "xrSDaXv5pRI",
+          "duration": 9525,
+          "durationStr": "2:38:45",
+          "publishedAt": "2026-11-19T02:33:11+00:00",
+          "views": 12,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2330",
       "title": "9 GIỜ THỎA MÃN | Hoàng Đế Điểm Danh - Một Bước Thành Cường Giả - Triệu Hồi Thần Tướng",
