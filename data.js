@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2225,
+    "totalFilms": 2226,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T05:45:25.832014+00:00"
+    "lastUpdated": "2026-11-19T06:00:31.339027+00:00"
   },
   "channels": [
     {
@@ -59,7 +59,7 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 72
+      "filmCount": 73
     },
     {
       "id": "besuastudio",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2345",
+      "title": "P1, Thế Giới Bị Cuốn Vào Trò Chơi Tận Thế, Ta Thức Tỉnh Dị Năng Bồ Nông, Thôn Phệ Sức Mạnh Quái Vật",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7313,
+      "totalDurationStr": "2 giờ 01 phút",
+      "totalViews": 5,
+      "totalLikes": 1,
+      "review": "[ Full ] P1, Thế Giới Bị Cuốn Vào Trò Chơi Tận Thế, Ta Thức Tỉnh Dị Năng Bồ Nông, Thôn Phệ Sức Mạnh Quái Vật Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/Hji__HsgttA/hqdefault.jpg",
+      "publishedAt": "2026-11-19T05:57:37+00:00",
+      "updatedAt": "2026-11-19T05:57:37+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Thế Giới Bị Cuốn Vào Trò Chơi Tận Thế, Ta Thức Tỉnh Dị Năng Bồ Nông, Thôn Phệ Sức Mạnh Quái Vật",
+          "url": "https://www.youtube.com/watch?v=Hji__HsgttA",
+          "id": "Hji__HsgttA",
+          "duration": 7313,
+          "durationStr": "2:01:53",
+          "publishedAt": "2026-11-19T05:57:37+00:00",
+          "views": 5,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2344",
       "title": "MÙA 1| DƯƠNG LINH CĂN - HỆ THỐNG QUY HỒI.",
