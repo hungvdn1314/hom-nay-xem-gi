@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2224,
+    "totalFilms": 2225,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T04:45:18.885586+00:00"
+    "lastUpdated": "2026-11-19T05:00:27.377685+00:00"
   },
   "channels": [
     {
@@ -71,7 +71,7 @@
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 74
+      "filmCount": 75
     },
     {
       "id": "zzzphim",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2344",
+      "title": "MÙA 1| DƯƠNG LINH CĂN - HỆ THỐNG QUY HỒI.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8106,
+      "totalDurationStr": "2 giờ 15 phút",
+      "totalViews": 27,
+      "totalLikes": 3,
+      "review": "MÙA 1| DƯƠNG LINH CĂN - HỆ THỐNG QUY HỒI. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/JNuPC4-LeJE/hqdefault.jpg",
+      "publishedAt": "2026-11-19T04:45:30+00:00",
+      "updatedAt": "2026-11-19T04:45:30+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "MÙA 1| DƯƠNG LINH CĂN - HỆ THỐNG QUY HỒI.",
+          "url": "https://www.youtube.com/watch?v=JNuPC4-LeJE",
+          "id": "JNuPC4-LeJE",
+          "duration": 8106,
+          "durationStr": "2:15:06",
+          "publishedAt": "2026-11-19T04:45:30+00:00",
+          "views": 27,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2343",
       "title": "QUYỀN NĂNG THÍ THẦN, 9 ĐẠI QUÁI VẬT Tối Thượng Lật Đổ Thần Linh",
