@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2212,
+    "totalFilms": 2216,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T02:45:18.855095+00:00"
+    "lastUpdated": "2026-11-19T03:00:52.820242+00:00"
   },
   "channels": [
     {
@@ -35,25 +35,25 @@
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 288
+      "filmCount": 289
     },
     {
       "id": "hoathinhmonganh",
       "name": "Mộng Ảnh Studio",
       "url": "https://www.youtube.com/@HoatHinhMongAnh",
-      "filmCount": 307
+      "filmCount": 308
     },
     {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 217
+      "filmCount": 218
     },
     {
       "id": "tieusumuoi",
       "name": "Tiểu Sư Muội",
       "url": "https://www.youtube.com/@Tieusumuoi-u3e",
-      "filmCount": 45
+      "filmCount": 46
     },
     {
       "id": "hh3dtrungquoc",
@@ -105,6 +105,156 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2333",
+      "title": "Fulll Phần 1 |【Đầu Bếp Hiện Đại Xuyên Thành Cô Vợ Béo 100kg Nhà Nông!】",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 20175,
+      "totalDurationStr": "5 giờ 36 phút",
+      "totalViews": 14,
+      "totalLikes": 0,
+      "review": "🎬 【Đầu Bếp Hiện Đại Xuyên Thành Cô Vợ Béo 100kg Nhà Nông!】 🍳 Sau một tai nạn trong bếp, Tô Niệm tỉnh lại trong thân xác cô vợ nặng 100kg ở một gia đình nhà nông nghèo khó. Chồng nàng bị mù, tiền bạc đã bị nguyên chủ đem nướng vào cờ bạc, trong nhà chẳng còn gì ăn. Chưa kịp thích nghi, nàng đã chứng kiến bà nội ép cô em chồng Triêu Triêu mới mười bốn tuổi...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/fLsv-OZoXlM/hqdefault.jpg",
+      "publishedAt": "2026-11-19T02:50:19+00:00",
+      "updatedAt": "2026-11-19T02:50:19+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Fulll Phần 1 |【Đầu Bếp Hiện Đại Xuyên Thành Cô Vợ Béo 100kg Nhà Nông!】",
+          "url": "https://www.youtube.com/watch?v=fLsv-OZoXlM",
+          "id": "fLsv-OZoXlM",
+          "duration": 20175,
+          "durationStr": "5:36:15",
+          "publishedAt": "2026-11-19T02:50:19+00:00",
+          "views": 14,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2335",
+      "title": "Phần 2 -XUYÊN KHÔNG ĐẾN TẬN THẾ ZOMBIE – CÔ GÁI KÍCH HOẠT HỆ THỐNG KHÁCH SẠN THẦN CẤP",
+      "channelId": "tieusumuoi",
+      "channelName": "Tiểu Sư Muội",
+      "channelUrl": "https://www.youtube.com/@Tieusumuoi-u3e",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11956,
+      "totalDurationStr": "3 giờ 19 phút",
+      "totalViews": 8,
+      "totalLikes": 0,
+      "review": "Hạ Viêm bất ngờ xuyên không đến một thế giới tận thế đầy rẫy zombie. Tưởng rằng sẽ được tận hưởng cuộc sống nghỉ dưỡng nhàn nhã, nào ngờ hệ thống lại giao cho nàng nhiệm vụ kỳ quặc: mở một khách sạn giữa vùng đất chết chóc! Suốt thời gian dài, khách sạn chẳng có lấy một vị khách. Mãi đến khi một nhóm người sống sót bị zombie truy đuổi vô tình chạy vào,...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/iXENhsiHR1Y/hqdefault.jpg",
+      "publishedAt": "2026-11-19T02:50:19+00:00",
+      "updatedAt": "2026-11-19T02:50:19+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Phần 2 -XUYÊN KHÔNG ĐẾN TẬN THẾ ZOMBIE – CÔ GÁI KÍCH HOẠT HỆ THỐNG KHÁCH SẠN THẦN CẤP",
+          "url": "https://www.youtube.com/watch?v=iXENhsiHR1Y",
+          "id": "iXENhsiHR1Y",
+          "duration": 11956,
+          "durationStr": "3:19:16",
+          "publishedAt": "2026-11-19T02:50:19+00:00",
+          "views": 8,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2334",
+      "title": "Full Phần 1 | 【Quái Vật Do Chính Tôi Sáng Tạo!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12482,
+      "totalDurationStr": "3 giờ 28 phút",
+      "totalViews": 39,
+      "totalLikes": 2,
+      "review": "🎬 【Quái Vật Do Chính Tôi Sáng Tạo!】 🫙 Mọi chuyện bắt đầu khi con vẹt nuôi trong nhà rơi vào chiếc bình mua ở sạp ven đường rồi biến mất. Chiếc bình khơi mào một loạt thí nghiệm kỳ dị. Một đêm, anh bắt gặp con vịt mình nuôi suốt ba năm đang ngồi chơi game trước máy tính, mang gương mặt giống hệt anh. Anh gọi nó là Kẻ Bắt Chước, mã số 001. 🌑 Sinh vật tiếp...",
+      "genres": [
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/auDAOpvBZEI/hqdefault.jpg",
+      "publishedAt": "2026-11-19T02:49:55+00:00",
+      "updatedAt": "2026-11-19T02:49:55+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Quái Vật Do Chính Tôi Sáng Tạo!】",
+          "url": "https://www.youtube.com/watch?v=auDAOpvBZEI",
+          "id": "auDAOpvBZEI",
+          "duration": 12482,
+          "durationStr": "3:28:02",
+          "publishedAt": "2026-11-19T02:49:55+00:00",
+          "views": 39,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2332",
+      "title": "Full Phần 1 | Cô Ấy Dựa Vào Việc Thay Đổi Quy Tắc Để Đứng Trên Đỉnh Cao Trò Chơi Vô Hạn!",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 26,
+      "totalLikes": 2,
+      "review": "🎬 【Cô Ấy Dựa Vào Việc Thay Đổi Quy Tắc Để Đứng Trên Đỉnh Cao Trò Chơi Vô Hạn!】 🎮 Từng đứng đầu bảng xếp hạng người chơi, Lan Tâm bất ngờ hồi sinh thành BOSS sau một đoạn quảng cáo 30 giây. Với vỏn vẹn 100 điểm, cô thuê phó bản một sao Giẫm Bóng, nơi người chơi có tới 90% cơ hội vượt ải. Món hời duy nhất là cô được quyền sửa luật. 🌑 Tại thị trấn Vĩnh Dạ,...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/bWnlY0hC3yE/hqdefault.jpg",
+      "publishedAt": "2026-11-19T02:49:14+00:00",
+      "updatedAt": "2026-11-19T02:49:14+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Cô Ấy Dựa Vào Việc Thay Đổi Quy Tắc Để Đứng Trên Đỉnh Cao Trò Chơi Vô Hạn!",
+          "url": "https://www.youtube.com/watch?v=bWnlY0hC3yE",
+          "id": "bWnlY0hC3yE",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-19T02:49:14+00:00",
+          "views": 26,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2331",
       "title": "MÙA 1| XUYÊN KHÔNG TU TIÊN TẶNG QUÀ CHO NỮ TU. TA NHẬN HOÀN TRẢ VẠN LẦN.",
