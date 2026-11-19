@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2238,
+    "totalFilms": 2239,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T10:30:34.534727+00:00"
+    "lastUpdated": "2026-11-19T10:45:22.026978+00:00"
   },
   "channels": [
     {
@@ -71,7 +71,7 @@
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 75
+      "filmCount": 76
     },
     {
       "id": "zzzphim",
@@ -106,6 +106,43 @@
   ],
   "films": [
     {
+      "id": "film_2358",
+      "title": "13H| LÃO TỔ TRƯỜNG SINH - 10 VẠN NĂM QUAY VỀ TRẤN HƯNG GIA TỘC.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 45895,
+      "totalDurationStr": "12 giờ 44 phút",
+      "totalViews": 31,
+      "totalLikes": 8,
+      "review": "13H| LÃO TỔ TRƯỜNG SINH - 10 VẠN NĂM QUAY VỀ TRẤN HƯNG GIA TỘC. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/2E2KAk77AJk/hqdefault.jpg",
+      "publishedAt": "2026-11-19T10:37:00+00:00",
+      "updatedAt": "2026-11-19T10:37:00+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "13H| LÃO TỔ TRƯỜNG SINH - 10 VẠN NĂM QUAY VỀ TRẤN HƯNG GIA TỘC.",
+          "url": "https://www.youtube.com/watch?v=2E2KAk77AJk",
+          "id": "2E2KAk77AJk",
+          "duration": 45895,
+          "durationStr": "12:44:55",
+          "publishedAt": "2026-11-19T10:37:00+00:00",
+          "views": 31,
+          "likes": 8,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_2357",
       "title": "P1, Thiên Kiêu Bị Dì Ghẻ Sửa Đổi Vận Mệnh, Thức Tỉnh Hệ Thống Quân Thần, Nghịch Thiên Thành Võ Đế",
       "channelId": "hh3dtrungquoc",
@@ -114,8 +151,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 7268,
+      "totalDurationStr": "2 giờ 01 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "[ Full ] P1, Thiên Kiêu Bị Dì Ghẻ Sửa Đổi Vận Mệnh, Thức Tỉnh Hệ Thống Quân Thần, Nghịch Thiên Thành Võ Đế Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
@@ -134,8 +171,8 @@
           "title": "P1, Thiên Kiêu Bị Dì Ghẻ Sửa Đổi Vận Mệnh, Thức Tỉnh Hệ Thống Quân Thần, Nghịch Thiên Thành Võ Đế",
           "url": "https://www.youtube.com/watch?v=Z_NQcj8NR_o",
           "id": "Z_NQcj8NR_o",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 7268,
+          "durationStr": "2:01:08",
           "publishedAt": "2026-11-19T10:30:19+00:00",
           "views": 0,
           "likes": 0,
