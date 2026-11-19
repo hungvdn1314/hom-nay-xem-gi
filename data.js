@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2203,
+    "totalFilms": 2206,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-18T19:00:30.647337+00:00"
+    "lastUpdated": "2026-11-19T00:15:20.553969+00:00"
   },
   "channels": [
     {
@@ -35,7 +35,7 @@ window.FILMS_DATA = {
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 287
+      "filmCount": 288
     },
     {
       "id": "hoathinhmonganh",
@@ -47,13 +47,13 @@ window.FILMS_DATA = {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 216
+      "filmCount": 217
     },
     {
       "id": "tieusumuoi",
       "name": "Tiểu Sư Muội",
       "url": "https://www.youtube.com/@Tieusumuoi-u3e",
-      "filmCount": 44
+      "filmCount": 45
     },
     {
       "id": "hh3dtrungquoc",
@@ -105,6 +105,120 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2325",
+      "title": "Tập 40-44-XUYÊN VÀO ĐẠO MỘ BÚT KÝ –NÀNG KÍCH HOẠT HỆ THỐNG, QUẬY TUNG CỔ MỘ KHIẾN CẢ NHÓM PHÁT ĐIÊN!",
+      "channelId": "tieusumuoi",
+      "channelName": "Tiểu Sư Muội",
+      "channelUrl": "https://www.youtube.com/@Tieusumuoi-u3e",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 1858,
+      "totalDurationStr": "30 phút 58 giây",
+      "totalViews": 2,
+      "totalLikes": 0,
+      "review": "Một cô gái bình thường bất ngờ xuyên không vào thế giới Đạo Mộ Bút Ký, nơi tràn ngập những cổ mộ bí ẩn, cương thi đáng sợ và vô số cơ quan chết người. Chưa kịp vui mừng vì được xuyên không, nàng đã phát hiện mình bị ràng buộc với Hệ Thống Đại Lý NPC, chuyên bắt ký chủ hóa thân thành những nhân vật quái dị để gây tổn thương tâm lý cho nhóm nhân vật chính....",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/s1kuLaGKySA/hqdefault.jpg",
+      "publishedAt": "2026-11-19T00:07:57+00:00",
+      "updatedAt": "2026-11-19T00:07:57+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 40-44",
+          "title": "Tập 40-44-XUYÊN VÀO ĐẠO MỘ BÚT KÝ –NÀNG KÍCH HOẠT HỆ THỐNG, QUẬY TUNG CỔ MỘ KHIẾN CẢ NHÓM PHÁT ĐIÊN!",
+          "url": "https://www.youtube.com/watch?v=s1kuLaGKySA",
+          "id": "s1kuLaGKySA",
+          "duration": 1858,
+          "durationStr": "30:58",
+          "publishedAt": "2026-11-19T00:07:57+00:00",
+          "views": 2,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2323",
+      "title": "Full Phần 1 |【Bị Bỏ Rơi Trong Đội Quân Tử Thần, Tôi Thức Tỉnh Truyền Thừa Dương Tiễn!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9634,
+      "totalDurationStr": "2 giờ 40 phút",
+      "totalViews": 13,
+      "totalLikes": 0,
+      "review": "🎬 【Bị Bỏ Rơi Trong Đội Quân Tử Thần, Tôi Thức Tỉnh Truyền Thừa Dương Tiễn!】 ⚔️ Giữa thời đại cao võ, nhân loại chỉ còn mười thành phố căn cứ để chống lại dị thú. Sau khi cha mẹ mất tích ngoài thành, Tô Hàn bị chính gia tộc cắt xén phần dược tề bồi dưỡng thiên phú. Với thiên phú Ngân Ti cấp F, cậu buộc phải nhập ngũ vào quân Lê Minh, tuyến phòng thủ có tỷ...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/7FPANXwYdCk/hqdefault.jpg",
+      "publishedAt": "2026-11-19T00:04:30+00:00",
+      "updatedAt": "2026-11-19T00:04:30+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Bị Bỏ Rơi Trong Đội Quân Tử Thần, Tôi Thức Tỉnh Truyền Thừa Dương Tiễn!】",
+          "url": "https://www.youtube.com/watch?v=7FPANXwYdCk",
+          "id": "7FPANXwYdCk",
+          "duration": 9634,
+          "durationStr": "2:40:34",
+          "publishedAt": "2026-11-19T00:04:30+00:00",
+          "views": 13,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2324",
+      "title": "Full Phần 1 |【Đoàn Tàu Tận Thế: Cô Nàng Cá Chép May Mắn Thật Sự Không Giả Vờ Nữa!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6583,
+      "totalDurationStr": "1 giờ 49 phút",
+      "totalViews": 20,
+      "totalLikes": 4,
+      "review": "🎬 【Đoàn Tàu Tận Thế: Cô Nàng Cá Chép May Mắn Thật Sự Không Giả Vờ Nữa!】 🚆 Mỗi lần đoàn tàu dừng, hành khách phải vượt qua một phó bản sinh tồn. Nhờ thiên phú Cá Chép May Mắn, Lạc Phi Hoa càng vượt nhiều ải càng dễ tìm được vật tư. Kiếp trước, cô dùng vận may ấy để nuôi cả nhà, rồi bị Lạc Chi Chi dùng thiên phú Quạ Đen làm hao hụt vật tư và đổ tội. Bị gia...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/AGThE4aUPtc/hqdefault.jpg",
+      "publishedAt": "2026-11-19T00:03:48+00:00",
+      "updatedAt": "2026-11-19T00:03:48+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Đoàn Tàu Tận Thế: Cô Nàng Cá Chép May Mắn Thật Sự Không Giả Vờ Nữa!】",
+          "url": "https://www.youtube.com/watch?v=AGThE4aUPtc",
+          "id": "AGThE4aUPtc",
+          "duration": 6583,
+          "durationStr": "1:49:43",
+          "publishedAt": "2026-11-19T00:03:48+00:00",
+          "views": 20,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2322",
       "title": "MÙA 1|TỰ TẠO CHƯ THIÊN - CHIÊU MỘ THẦN TIÊN ĐẠI NÁO VẠN GIỚI.",
