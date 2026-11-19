@@ -4,7 +4,7 @@ window.FILMS_DATA = {
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T05:00:27.377685+00:00"
+    "lastUpdated": "2026-11-19T05:30:21.295282+00:00"
   },
   "channels": [
     {
@@ -9388,19 +9388,19 @@ window.FILMS_DATA = {
       "channelName": "Thảo Lác",
       "channelUrl": "https://www.youtube.com/@Thaolac6868",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 13883,
-      "totalDurationStr": "3 giờ 51 phút",
-      "totalViews": 176725,
-      "totalLikes": 3489,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 15883,
+      "totalDurationStr": "4 giờ 24 phút",
+      "totalViews": 177465,
+      "totalLikes": 3583,
       "review": "PHẦN 5 - TẬP 3 | BẢN ĐẸP | Thiên Đạo Sụp Đổ - Từ Phàm Nhân Ta Nghịch Thiên Tu Đạo Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động trong...",
       "genres": [
         "Tu tiên / Huyền huyễn"
       ],
       "thumbnail": "https://i.ytimg.com/vi/bjnRapOYh4k/hqdefault.jpg",
       "publishedAt": "2026-11-14T04:53:59.708550+00:00",
-      "updatedAt": "2026-11-14T04:53:59.708550+00:00",
+      "updatedAt": "2026-11-19T05:17:27+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -9414,6 +9414,19 @@ window.FILMS_DATA = {
           "publishedAt": "2026-11-14T04:53:59.708550+00:00",
           "views": 176725,
           "likes": 3489,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 5.4",
+          "title": "PHẦN 5 - TẬP 4 | BẢN ĐẸP | Thiên Đạo Sụp Đổ - Từ Phàm Nhân Ta Nghịch Thiên Tu Đạo",
+          "url": "https://www.youtube.com/watch?v=as6BmLflse0",
+          "id": "as6BmLflse0",
+          "duration": 2000,
+          "durationStr": "33:20",
+          "publishedAt": "2026-11-19T05:17:27+00:00",
+          "views": 740,
+          "likes": 94,
           "isRedundant": false
         }
       ]
