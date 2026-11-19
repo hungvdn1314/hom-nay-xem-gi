@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2234,
+    "totalFilms": 2235,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T09:30:22.748442+00:00"
+    "lastUpdated": "2026-11-19T09:45:18.546467+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 103
+      "filmCount": 104
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2354",
+      "title": "6,5 GIỜ | Hệ Thống Bóng Tối Tối Thượng - Ta Nằm Im Cũng Vô Địch - 1 Chưởng Đánh Bay Cả Đại Đế",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 23096,
+      "totalDurationStr": "6 giờ 24 phút",
+      "totalViews": 341,
+      "totalLikes": 9,
+      "review": "6,5 GIỜ | Hệ Thống Bóng Tối Tối Thượng - Ta Nằm Im Cũng Vô Địch - 1 Chưởng Đánh Bay Cả Đại Đế Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/g8dmLsrg6ic/hqdefault.jpg",
+      "publishedAt": "2026-11-19T09:30:57+00:00",
+      "updatedAt": "2026-11-19T09:30:57+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "6,5 GIỜ | Hệ Thống Bóng Tối Tối Thượng - Ta Nằm Im Cũng Vô Địch - 1 Chưởng Đánh Bay Cả Đại Đế",
+          "url": "https://www.youtube.com/watch?v=g8dmLsrg6ic",
+          "id": "g8dmLsrg6ic",
+          "duration": 23096,
+          "durationStr": "6:24:56",
+          "publishedAt": "2026-11-19T09:30:57+00:00",
+          "views": 341,
+          "likes": 9,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2353",
       "title": "Full Phần 1 |【Cuộc Sống Của Boss: Bắt Đầu Lại Từ Con Số 0!】",
