@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2242,
+    "totalFilms": 2243,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T11:30:23.638323+00:00"
+    "lastUpdated": "2026-11-19T11:45:19.752159+00:00"
   },
   "channels": [
     {
@@ -35,7 +35,7 @@ window.FILMS_DATA = {
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 291
+      "filmCount": 292
     },
     {
       "id": "hoathinhmonganh",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2362",
+      "title": "Bị Bạn Gái Chê Thu Nhập Thấp, Tôi Quay Đầu Kích Hoạt Hệ Thống Thần Hào, Nhận Ngay Gia Tài Khổng Lồ!",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9185,
+      "totalDurationStr": "2 giờ 33 phút",
+      "totalViews": 158,
+      "totalLikes": 21,
+      "review": "🎬 【Bị Bạn Gái Chê Thu Nhập Thấp, Tôi Quay Đầu Kích Hoạt Hệ Thống Thần Hào, Nhận Ngay Gia Tài Khổng Lồ!】 💔 Đúng ngày hẹn về quê đính hôn, Giang Thần bị bạn gái năm năm chia tay vì chê thu nhập thấp. Ngay lúc ấy, anh kích hoạt hệ thống và nhận 100 triệu tệ mỗi ngày! Nhưng tiền có thời hạn sử dụng — cứ đến 0 giờ, toàn bộ hạn mức chưa tiêu sẽ bị xóa sạch. 💸...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/Yv_v30qfggc/hqdefault.jpg",
+      "publishedAt": "2026-11-19T11:24:50+00:00",
+      "updatedAt": "2026-11-19T11:24:50+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Bị Bạn Gái Chê Thu Nhập Thấp, Tôi Quay Đầu Kích Hoạt Hệ Thống Thần Hào, Nhận Ngay Gia Tài Khổng Lồ!",
+          "url": "https://www.youtube.com/watch?v=Yv_v30qfggc",
+          "id": "Yv_v30qfggc",
+          "duration": 9185,
+          "durationStr": "2:33:05",
+          "publishedAt": "2026-11-19T11:24:50+00:00",
+          "views": 158,
+          "likes": 21,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2361",
       "title": "Full Phần 1|Xuyên Không Đến Thần Thoại Hy Lạp: Tôi Dùng Sức Mạnh Văn Minh Làm Rung Chuyển Thần Vương",
@@ -10026,23 +10064,36 @@ window.FILMS_DATA = {
       "channelName": "Thảo Lác",
       "channelUrl": "https://www.youtube.com/@Thaolac6868",
       "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 15883,
-      "totalDurationStr": "4 giờ 24 phút",
-      "totalViews": 177465,
-      "totalLikes": 3583,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 17797,
+      "totalDurationStr": "4 giờ 56 phút",
+      "totalViews": 178778,
+      "totalLikes": 3705,
       "review": "PHẦN 5 - TẬP 3 | BẢN ĐẸP | Thiên Đạo Sụp Đổ - Từ Phàm Nhân Ta Nghịch Thiên Tu Đạo Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động trong...",
       "genres": [
         "Tu tiên / Huyền huyễn"
       ],
       "thumbnail": "https://i.ytimg.com/vi/bjnRapOYh4k/hqdefault.jpg",
       "publishedAt": "2026-11-14T04:53:59.708550+00:00",
-      "updatedAt": "2026-11-19T05:17:27+00:00",
+      "updatedAt": "2026-11-19T11:24:35+00:00",
       "isRecent24h": true,
       "parts": [
         {
           "index": 1,
+          "label": "Phần 5",
+          "title": "PHẦN 5 - TẬP 5 | BẢN ĐẸP | Thiên Đạo Sụp Đổ - Từ Phàm Nhân Ta Nghịch Thiên Tu Đạo",
+          "url": "https://www.youtube.com/watch?v=2ZzfdL8MhGA",
+          "id": "2ZzfdL8MhGA",
+          "duration": 1914,
+          "durationStr": "31:54",
+          "publishedAt": "2026-11-19T11:24:35+00:00",
+          "views": 1313,
+          "likes": 122,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
           "label": "Phần 5.3",
           "title": "PHẦN 5 - TẬP 3 | BẢN ĐẸP | Thiên Đạo Sụp Đổ - Từ Phàm Nhân Ta Nghịch Thiên Tu Đạo",
           "url": "https://www.youtube.com/watch?v=bjnRapOYh4k",
@@ -10055,7 +10106,7 @@ window.FILMS_DATA = {
           "isRedundant": false
         },
         {
-          "index": 2,
+          "index": 3,
           "label": "Phần 5.4",
           "title": "PHẦN 5 - TẬP 4 | BẢN ĐẸP | Thiên Đạo Sụp Đổ - Từ Phàm Nhân Ta Nghịch Thiên Tu Đạo",
           "url": "https://www.youtube.com/watch?v=as6BmLflse0",
