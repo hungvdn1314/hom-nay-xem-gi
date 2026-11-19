@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2243,
+    "totalFilms": 2245,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T11:45:19.752159+00:00"
+    "lastUpdated": "2026-11-19T12:15:20.783268+00:00"
   },
   "channels": [
     {
@@ -71,7 +71,7 @@ window.FILMS_DATA = {
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 76
+      "filmCount": 77
     },
     {
       "id": "zzzphim",
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 106
+      "filmCount": 107
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,81 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2364",
+      "title": "4,5 GIỜ | Hỗn Độn Tạo Hóa Đỉnh - Tạp Dịch Phàm Linh Căn Tinh Luyện Phế Đan - Âm Thầm Thành Đại Đế",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 16097,
+      "totalDurationStr": "4 giờ 28 phút",
+      "totalViews": 104,
+      "totalLikes": 8,
+      "review": "4,5 GIỜ | Hỗn Độn Tạo Hóa Đỉnh - Tạp Dịch Phàm Linh Căn Tinh Luyện Phế Đan - Âm Thầm Thành Đại Đế Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/3M7AhOu1v98/hqdefault.jpg",
+      "publishedAt": "2026-11-19T12:07:33+00:00",
+      "updatedAt": "2026-11-19T12:07:33+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "4,5 GIỜ | Hỗn Độn Tạo Hóa Đỉnh - Tạp Dịch Phàm Linh Căn Tinh Luyện Phế Đan - Âm Thầm Thành Đại Đế",
+          "url": "https://www.youtube.com/watch?v=3M7AhOu1v98",
+          "id": "3M7AhOu1v98",
+          "duration": 16097,
+          "durationStr": "4:28:17",
+          "publishedAt": "2026-11-19T12:07:33+00:00",
+          "views": 104,
+          "likes": 8,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2363",
+      "title": "7H| TIÊN THIÊN ĐẠO THỂ - THẾ TỬ TRẤN BẮC VƯƠNG HỆ THỐNGB TRIỆU HOÁN VÕ TƯỚNG.",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 24312,
+      "totalDurationStr": "6 giờ 45 phút",
+      "totalViews": 25,
+      "totalLikes": 1,
+      "review": "7H| TIÊN THIÊN ĐẠO THỂ - THẾ TỬ TRẤN BẮC VƯƠNG HỆ THỐNGB TRIỆU HOÁN VÕ TƯỚNG. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/y1E1i0ynRH0/hqdefault.jpg",
+      "publishedAt": "2026-11-19T12:06:23+00:00",
+      "updatedAt": "2026-11-19T12:06:23+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "7H| TIÊN THIÊN ĐẠO THỂ - THẾ TỬ TRẤN BẮC VƯƠNG HỆ THỐNGB TRIỆU HOÁN VÕ TƯỚNG.",
+          "url": "https://www.youtube.com/watch?v=y1E1i0ynRH0",
+          "id": "y1E1i0ynRH0",
+          "duration": 24312,
+          "durationStr": "6:45:12",
+          "publishedAt": "2026-11-19T12:06:23+00:00",
+          "views": 25,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2362",
       "title": "Bị Bạn Gái Chê Thu Nhập Thấp, Tôi Quay Đầu Kích Hoạt Hệ Thống Thần Hào, Nhận Ngay Gia Tài Khổng Lồ!",
