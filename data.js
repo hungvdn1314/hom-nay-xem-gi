@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2273,
+    "totalFilms": 2274,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T09:45:21.774750+00:00"
+    "lastUpdated": "2026-11-20T10:31:10.005742+00:00"
   },
   "channels": [
     {
@@ -23,7 +23,7 @@ window.FILMS_DATA = {
       "id": "chiuchiusubtv",
       "name": "ChiuChiuSubTV",
       "url": "https://www.youtube.com/@chiuchiusubtv",
-      "filmCount": 175
+      "filmCount": 176
     },
     {
       "id": "melacreview",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2393",
+      "title": "TRÙNG SINH HỒNG HOANG: Ta Là Con Kim Ô Bá Đạo Nhất Lịch Sử giấu nghề tu luyện CHÍ CAO THIÊN ĐẾ",
+      "channelId": "chiuchiusubtv",
+      "channelName": "ChiuChiuSubTV",
+      "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 33372,
+      "totalDurationStr": "9 giờ 16 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "📌 Tóm Tắt Phim: Xuyên không về thời điểm Bàn Cổ vừa khai thiên lập địa, nhân vật chính Phù Quang xui xẻo trở thành con Kim Ô thứ ba vốn không hề tồn tại trong nguyên tác. Vừa mở mắt ra đã bị hai vị Thiên Đế tương lai là Đế Tuấn và Đông Hoàng Thái Nhất truy sát! Trong cơn nguy cấp, hắn vô tình cắn nuốt cả hai, độc chiếm bản nguyên Thái Dương Tinh, đạt...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/RSPJRUY5MjM/hqdefault.jpg",
+      "publishedAt": "2026-11-20T10:18:39+00:00",
+      "updatedAt": "2026-11-20T10:18:39+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "TRÙNG SINH HỒNG HOANG: Ta Là Con Kim Ô Bá Đạo Nhất Lịch Sử giấu nghề tu luyện CHÍ CAO THIÊN ĐẾ",
+          "url": "https://www.youtube.com/watch?v=RSPJRUY5MjM",
+          "id": "RSPJRUY5MjM",
+          "duration": 33372,
+          "durationStr": "9:16:12",
+          "publishedAt": "2026-11-20T10:18:39+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2392",
       "title": "8,5 GIỜ THỎA MÃN | Lính Đặc Công Xuyên Về Cổ Đại - Dùng Hỏa Lực Hiện Đại Trấn Áp Chiến Trường",
@@ -11195,8 +11233,8 @@ window.FILMS_DATA = {
       "channelName": "Thảo Lác",
       "channelUrl": "https://www.youtube.com/@Thaolac6868",
       "playlistUrl": null,
-      "totalParts": 3,
-      "partsStr": "3 phần",
+      "totalParts": 4,
+      "partsStr": "4 phần",
       "totalDurationSec": 17797,
       "totalDurationStr": "4 giờ 56 phút",
       "totalViews": 178778,
@@ -11207,7 +11245,7 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i.ytimg.com/vi/bjnRapOYh4k/hqdefault.jpg",
       "publishedAt": "2026-11-14T04:53:59.708550+00:00",
-      "updatedAt": "2026-11-19T11:24:35+00:00",
+      "updatedAt": "2026-11-20T10:24:36+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -11247,6 +11285,19 @@ window.FILMS_DATA = {
           "publishedAt": "2026-11-19T05:17:27+00:00",
           "views": 740,
           "likes": 94,
+          "isRedundant": false
+        },
+        {
+          "index": 4,
+          "label": "Phần 5-6",
+          "title": "PHẦN 5 - TẬP 6 | BẢN ĐẸP | Thiên Đạo Sụp Đổ - Từ Phàm Nhân Ta Nghịch Thiên Tu Đạo",
+          "url": "https://www.youtube.com/watch?v=h5crhIq1ULQ",
+          "id": "h5crhIq1ULQ",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-20T10:24:36+00:00",
+          "views": 0,
+          "likes": 0,
           "isRedundant": false
         }
       ]
