@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2263,
+    "totalFilms": 2265,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T04:30:35.497961+00:00"
+    "lastUpdated": "2026-11-20T05:45:18.045268+00:00"
   },
   "channels": [
     {
@@ -35,7 +35,7 @@
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 295
+      "filmCount": 296
     },
     {
       "id": "hoathinhmonganh",
@@ -47,7 +47,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 225
+      "filmCount": 226
     },
     {
       "id": "tieusumuoi",
@@ -105,6 +105,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2384",
+      "title": "Full Phần 1 | Toàn Dân Tận Thế: Tôi Tiến Hóa Vô Hạn Trong Chung Cư Quái Đàm!",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10495,
+      "totalDurationStr": "2 giờ 54 phút",
+      "totalViews": 24,
+      "totalLikes": 2,
+      "review": "🎬 【Toàn Dân Tận Thế: Tôi Tiến Hóa Vô Hạn Trong Chung Cư Quái Đàm!】 🏚️ Tận thế giáng lâm, người khác nhận xe bọc thép hay rô-bốt chiến đấu, còn chàng bảo vệ lại sở hữu một tòa chung cư tồi tàn sắp ngủ đông! May thay, anh thức tỉnh thiên phú độc nhất: thu nhận cư dân quỷ dị để giúp chung cư tiến hóa, đồng thời nhận về những năng lực mạnh mẽ. 🔥 Vị khách đầu...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/71GwScyxasw/hqdefault.jpg",
+      "publishedAt": "2026-11-20T05:38:43+00:00",
+      "updatedAt": "2026-11-20T05:38:43+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Toàn Dân Tận Thế: Tôi Tiến Hóa Vô Hạn Trong Chung Cư Quái Đàm!",
+          "url": "https://www.youtube.com/watch?v=71GwScyxasw",
+          "id": "71GwScyxasw",
+          "duration": 10495,
+          "durationStr": "2:54:55",
+          "publishedAt": "2026-11-20T05:38:43+00:00",
+          "views": 24,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2383",
+      "title": "Full Phần 1 | Tận Thế Giáng Lâm, Trò Chơi Khảo Nghiệm Tử Vong Bắt Đầu Thu Hoạch Sinh Mạng Nhân Loại!",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11383,
+      "totalDurationStr": "3 giờ 09 phút",
+      "totalViews": 26,
+      "totalLikes": 1,
+      "review": "🎬 【Tận Thế Giáng Lâm, Trò Chơi Khảo Nghiệm Tử Vong Bắt Đầu Thu Hoạch Sinh Mạng Nhân Loại!】 💀 Một năm sau khi trò chơi giáng lâm, chín phần mười nhân loại đã bị quái vật và quỷ dị nuốt chửng. Những người chưa thức tỉnh năng lực trở thành khảo nô, phải liều mạng kiếm vật tư rồi nộp phần lớn cho siêu phàm giả. Lâm Mặc bị đẩy vào một lượt khảo nghiệm chỉ để...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/wZFjxqtGL2A/hqdefault.jpg",
+      "publishedAt": "2026-11-20T05:38:09+00:00",
+      "updatedAt": "2026-11-20T05:38:09+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Tận Thế Giáng Lâm, Trò Chơi Khảo Nghiệm Tử Vong Bắt Đầu Thu Hoạch Sinh Mạng Nhân Loại!",
+          "url": "https://www.youtube.com/watch?v=wZFjxqtGL2A",
+          "id": "wZFjxqtGL2A",
+          "duration": 11383,
+          "durationStr": "3:09:43",
+          "publishedAt": "2026-11-20T05:38:09+00:00",
+          "views": 26,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2382",
       "title": "5,5 GIỜ | Ta Đã Trở Thành Thần Chỉ Muốn Sống An Nhàn - Sao Hệ Thống Vẫn Bắt Ta Thu Đồ",
