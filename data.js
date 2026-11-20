@@ -4,7 +4,7 @@ window.FILMS_DATA = {
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T11:15:27.367285+00:00"
+    "lastUpdated": "2026-11-20T11:30:26.742936+00:00"
   },
   "channels": [
     {
@@ -29334,18 +29334,18 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 27494,
-      "totalDurationStr": "7 giờ 38 phút",
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 32685,
+      "totalDurationStr": "9 giờ 04 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt [16+] Mùa 5 - P2 | Thiên Đạo Dư Đồ: Phàm Nhân Vấn Đạo Thiên đạo sụp đổ, tàn đạo sót lại nơi nhân gian, ấy gọi là \"Thiên Đạo Dư Đồ\".Thiếu",
       "genres": [
         "Tu tiên / Huyền huyễn"
       ],
       "thumbnail": "https://i4.ytimg.com/vi/WeHZRJdyjhI/hqdefault.jpg",
       "publishedAt": "2026-11-11T16:06:01+00:00",
-      "updatedAt": "2026-11-13T12:23:29+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-20T11:28:58+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -29372,10 +29372,23 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "views": 18661,
           "likes": 222
+        },
+        {
+          "index": 3,
+          "label": "Mùa 5 - P4",
+          "title": "Mùa 5 - P4 (EP616-706) | Thiên Đạo Dư Đồ: Phàm Nhân Vấn Đạo",
+          "url": "https://www.youtube.com/watch?v=ZnZKOi9x00Y",
+          "id": "ZnZKOi9x00Y",
+          "duration": 5191,
+          "durationStr": "1:26:31",
+          "publishedAt": "2026-11-20T11:28:58+00:00",
+          "views": 0,
+          "likes": 6,
+          "isRedundant": false
         }
       ],
       "totalViews": 38099,
-      "totalLikes": 468
+      "totalLikes": 474
     },
     {
       "id": "film_1626",
