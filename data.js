@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-20T14:30:28.277579+00:00"
+    "lastUpdated": "2026-11-20T17:45:22.604117+00:00"
   },
   "channels": [
     {
@@ -41544,10 +41544,10 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLH0ich33EgyI",
-      "totalParts": 5,
-      "partsStr": "5 phần",
-      "totalDurationSec": 79630,
-      "totalDurationStr": "22 giờ 07 phút",
+      "totalParts": 6,
+      "partsStr": "6 phần",
+      "totalDurationSec": 88126,
+      "totalDurationStr": "24 giờ 28 phút",
       "review": "Ai Nói Công Tử Ăn Chơi Không Thể Làm Trạng Nguyên. (4 phần / 5 video (Mùa 1, Tập 1-316, Mùa 4, Mùa 5, Mùa 6))",
       "genres": [
         "Hoạt hình 3D Chọn Lọc"
@@ -41608,6 +41608,19 @@ window.FILMS_DATA = {
         },
         {
           "index": 5,
+          "label": "Mùa 7",
+          "title": "Mùa 7 | Ai Nói Công Tử Ăn Chơi Không Thể Làm Trạng Nguyên",
+          "url": "https://www.youtube.com/watch?v=9i5bGuXUAQ8",
+          "id": "9i5bGuXUAQ8",
+          "duration": 8496,
+          "durationStr": "2:21:36",
+          "publishedAt": "2026-11-20T17:25:03+00:00",
+          "views": 92,
+          "likes": 3,
+          "isRedundant": false
+        },
+        {
+          "index": 6,
           "label": "Tập 1-316",
           "title": "Mùa 2 (EP 1 - 316) | Ai Nói Công Tử Ăn Chơi Không Thể Làm Trạng Nguyên",
           "url": "https://www.youtube.com/watch?v=J6XWRoDlPq8",
@@ -41620,11 +41633,11 @@ window.FILMS_DATA = {
           "publishedAt": "2026-08-29T00:00:00+00:00"
         }
       ],
-      "totalViews": 358865,
-      "totalLikes": 1974,
+      "totalViews": 358957,
+      "totalLikes": 1977,
       "publishedAt": "2026-08-27T00:00:00+00:00",
-      "updatedAt": "2026-10-27T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-20T17:25:03+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_975",
