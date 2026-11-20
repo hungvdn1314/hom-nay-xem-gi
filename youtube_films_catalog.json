@@ -4,7 +4,7 @@
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T08:30:24.254414+00:00"
+    "lastUpdated": "2026-11-20T09:15:20.414308+00:00"
   },
   "channels": [
     {
@@ -11725,12 +11725,12 @@
       "channelName": "Zzzphim",
       "channelUrl": "https://www.youtube.com/@Zzzphim",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 32111,
-      "totalDurationStr": "8 giờ 55 phút",
-      "totalViews": 8125,
-      "totalLikes": 179,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 45906,
+      "totalDurationStr": "12 giờ 45 phút",
+      "totalViews": 8202,
+      "totalLikes": 187,
       "review": "Trọng Sinh Về Thập Niên 70, Nào Ngờ Thức Tỉnh Không Gian Quét Sạch Kho Báu!",
       "genres": [
         "Hệ thống / Thức tỉnh",
@@ -11738,7 +11738,7 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/fVyMIUFIO6o/hqdefault.jpg",
       "publishedAt": "2026-11-14T04:53:59.625328+00:00",
-      "updatedAt": "2026-11-14T04:53:59.625328+00:00",
+      "updatedAt": "2026-11-20T09:01:16+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -11752,6 +11752,19 @@
           "publishedAt": "2026-11-14T04:53:59.625328+00:00",
           "views": 8125,
           "likes": 179,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Phần 2 | Trọng Sinh Về Thập Niên 70, Nào Ngờ Thức Tỉnh Không Gian Quét Sạch Kho Báu!",
+          "url": "https://www.youtube.com/watch?v=4IkO3m3gOE4",
+          "id": "4IkO3m3gOE4",
+          "duration": 13795,
+          "durationStr": "3:49:55",
+          "publishedAt": "2026-11-20T09:01:16+00:00",
+          "views": 77,
+          "likes": 8,
           "isRedundant": false
         }
       ]
