@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2254,
+    "totalFilms": 2256,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-19T23:30:30.376087+00:00"
+    "lastUpdated": "2026-11-20T01:15:21.147661+00:00"
   },
   "channels": [
     {
@@ -47,7 +47,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 223
+      "filmCount": 224
     },
     {
       "id": "tieusumuoi",
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 109
+      "filmCount": 110
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,81 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2374",
+      "title": "Full Phần 1 | 【Trần Thế Tà Thần Lục: Xuyên Thành Tượng Cổ Thần Đang Ngủ Say!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8767,
+      "totalDurationStr": "2 giờ 26 phút",
+      "totalViews": 10,
+      "totalLikes": 1,
+      "review": "🎬 【Trần Thế Tà Thần Lục: Xuyên Thành Tượng Cổ Thần Đang Ngủ Say!】 🗿 Xuyên thành pho tượng đá, anh mắc kẹt hơn hai mươi ngày mới gặp được tín đồ đầu tiên — Giang Tuyết Vi, cô gái bị gia tộc ruồng bỏ và tổn hại thiên phú. Tưởng lời cầu nguyện sẽ giúp mình trở thành chính thần, anh kinh hoàng phát hiện cơ thể mọc đầy xúc tu. Ba ngày nữa, các chính thần sẽ...",
+      "genres": [
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/vAlFf9fu_LM/hqdefault.jpg",
+      "publishedAt": "2026-11-20T01:09:17+00:00",
+      "updatedAt": "2026-11-20T01:09:17+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Trần Thế Tà Thần Lục: Xuyên Thành Tượng Cổ Thần Đang Ngủ Say!】",
+          "url": "https://www.youtube.com/watch?v=vAlFf9fu_LM",
+          "id": "vAlFf9fu_LM",
+          "duration": 8767,
+          "durationStr": "2:26:07",
+          "publishedAt": "2026-11-20T01:09:17+00:00",
+          "views": 10,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2375",
+      "title": "9,5 GIỜ | Xuyên Làm Sai Dịch Nha Môn - Có Sách Thần Thành Thiên Tài Tu Luyện Chiến Thần Diệt Yêu Ma",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 33136,
+      "totalDurationStr": "9 giờ 12 phút",
+      "totalViews": 136,
+      "totalLikes": 10,
+      "review": "9,5 GIỜ | Xuyên Làm Sai Dịch Nha Môn - Có Sách Thần Thành Thiên Tài Tu Luyện Chiến Thần Diệt Yêu Ma Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/vS84x9ve0-I/hqdefault.jpg",
+      "publishedAt": "2026-11-20T01:00:51+00:00",
+      "updatedAt": "2026-11-20T01:00:51+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "9,5 GIỜ | Xuyên Làm Sai Dịch Nha Môn - Có Sách Thần Thành Thiên Tài Tu Luyện Chiến Thần Diệt Yêu Ma",
+          "url": "https://www.youtube.com/watch?v=vS84x9ve0-I",
+          "id": "vS84x9ve0-I",
+          "duration": 33136,
+          "durationStr": "9:12:16",
+          "publishedAt": "2026-11-20T01:00:51+00:00",
+          "views": 136,
+          "likes": 10,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2373",
       "title": "6H| MA CUNG THẦN ĐỈNH - BỊ CẢ GIA TỘC CƯỚP ĐOẠT THIÊN PHÚ – HẮN NGHỊCH THIÊN TU TIÊN.",
@@ -67022,10 +67097,10 @@
       "channelName": "Thiên Ảnh Studio",
       "channelUrl": "https://www.youtube.com/@thienanhstudio9",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLWJ_4DwCBAoE",
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 28702,
-      "totalDurationStr": "7 giờ 58 phút",
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 38735,
+      "totalDurationStr": "10 giờ 45 phút",
       "review": "Tôi Nhờ Vé Miễn Phí Mà Nổi Khắp Mạng. (2 phần (Phần 1 -> 2))",
       "genres": [
         "Đô thị / Ngôn tình"
@@ -67054,13 +67129,26 @@
           "views": 29246,
           "likes": 643,
           "publishedAt": "2026-11-01T00:00:00+00:00"
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Full Phần 3 | Công Viên Giải Trí Phá Sản: Tôi Nhờ Vé Miễn Phí Mà Nổi Khắp Mạng",
+          "url": "https://www.youtube.com/watch?v=a52d6ZTi7jY",
+          "id": "a52d6ZTi7jY",
+          "duration": 10033,
+          "durationStr": "2:47:13",
+          "publishedAt": "2026-11-20T01:07:33+00:00",
+          "views": 19,
+          "likes": 4,
+          "isRedundant": false
         }
       ],
-      "totalViews": 29246,
-      "totalLikes": 643,
+      "totalViews": 29265,
+      "totalLikes": 647,
       "publishedAt": "2026-11-01T00:00:00+00:00",
-      "updatedAt": "2026-11-01T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-20T01:07:33+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_885",
