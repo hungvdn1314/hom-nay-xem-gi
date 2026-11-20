@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2080,
+    "totalFilms": 2081,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-20T14:00:41.868069+00:00"
+    "lastUpdated": "2026-11-20T14:30:28.277579+00:00"
   },
   "channels": [
     {
@@ -67,7 +67,7 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 73
+      "filmCount": 74
     },
     {
       "id": "gianhireview",
@@ -89,6 +89,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2081",
+      "title": "Trọng Sinh Thức Tỉnh Không Gian, Dẫn Em Gái Trốn Nạn Tích Trữ Lương Thực, Khiến Dân Làng Đổi Đời!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7527,
+      "totalDurationStr": "2 giờ 05 phút",
+      "totalViews": 20,
+      "totalLikes": 1,
+      "review": "Trọng Sinh Thức Tỉnh Không Gian, Dẫn Em Gái Trốn Nạn Tích Trữ Lương Thực, Khiến Dân Làng Đổi Đời!",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/jHWFL3VvZeg/hqdefault.jpg",
+      "publishedAt": "2026-11-20T14:24:14+00:00",
+      "updatedAt": "2026-11-20T14:24:14+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trọng Sinh Thức Tỉnh Không Gian, Dẫn Em Gái Trốn Nạn Tích Trữ Lương Thực, Khiến Dân Làng Đổi Đời!",
+          "url": "https://www.youtube.com/watch?v=jHWFL3VvZeg",
+          "id": "jHWFL3VvZeg",
+          "duration": 7527,
+          "durationStr": "2:05:27",
+          "publishedAt": "2026-11-20T14:24:14+00:00",
+          "views": 20,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2079",
       "title": "Fulll Phần 1 | 【Đừng Chọc Vào Tiểu Sư Muội Đoàn Sủng, Cả Tông Môn Của Nàng Đều Là Tà Tu!】",
