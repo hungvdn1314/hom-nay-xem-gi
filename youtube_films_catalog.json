@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2266,
+    "totalFilms": 2267,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T06:45:17.890304+00:00"
+    "lastUpdated": "2026-11-20T07:00:26.749993+00:00"
   },
   "channels": [
     {
@@ -59,7 +59,7 @@
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 74
+      "filmCount": 75
     },
     {
       "id": "besuastudio",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2386",
+      "title": "Phần 1, Thức Tỉnh Hệ Thống Hoá Độc Thành Đại Bổ, Ta Trở Thành Võ Giả, Bước Vào Con Đường Trảm Yêu",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9038,
+      "totalDurationStr": "2 giờ 30 phút",
+      "totalViews": 40,
+      "totalLikes": 1,
+      "review": "Phần 1, Thức Tỉnh Hệ Thống Hoá Độc Thành Đại Bổ, Ta Trở Thành Võ Giả, Bước Vào Con Đường Trảm Yêu Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/lDyoP1U9B5s/hqdefault.jpg",
+      "publishedAt": "2026-11-20T06:53:11+00:00",
+      "updatedAt": "2026-11-20T06:53:11+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1, Thức Tỉnh Hệ Thống Hoá Độc Thành Đại Bổ, Ta Trở Thành Võ Giả, Bước Vào Con Đường Trảm Yêu",
+          "url": "https://www.youtube.com/watch?v=lDyoP1U9B5s",
+          "id": "lDyoP1U9B5s",
+          "duration": 9038,
+          "durationStr": "2:30:38",
+          "publishedAt": "2026-11-20T06:53:11+00:00",
+          "views": 40,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2385",
       "title": "3,5 GIỜ | Thiếu Chủ Lập Tức Thành Chuẩn Đế Đại Viên Mãn Sau Khi Bị Vu Oan - Chấp Cả Vạn Thiên Kiêu",
