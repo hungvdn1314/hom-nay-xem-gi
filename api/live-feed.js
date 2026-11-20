@@ -16,13 +16,10 @@ const CHANNELS = [
   { id: 'tieusumuoi', name: 'Tiểu Sư Muội', url: 'https://www.youtube.com/@Tieusumuoi-u3e', channelId: 'UCQBvrD7zKqhK0l11iTN_HgA' },
   // Auto-discovered channels vetted by the 3D Channel Quality Gate
   { id: 'hh3dtrungquoc', name: 'Anime 3D Trung Quốc', url: 'https://www.youtube.com/@HH3dTrungQuocAI', channelId: 'UCX6GJ_ErLHnogg5Xhrvh8_Q' },
-  { id: 'besuastudio', name: 'Bé Sữa Studio', url: 'https://www.youtube.com/@besuastudio9', channelId: 'UCmszEI0HgowAPGQvpWS6p4A' },
-  { id: 'gavangtutien', name: 'Gà Vàng Tu Tiên', url: 'https://www.youtube.com/@GaVangTuTien', channelId: 'UCN_B07LfBOUEnkONDeftqvA' },
   { id: 'zzzphim', name: 'Zzzphim', url: 'https://www.youtube.com/@Zzzphim', channelId: 'UCkaKs808Jt2Mi9F-HJ0OmuQ' },
-  { id: 'thaolac', name: 'Thảo Lác', url: 'https://www.youtube.com/@Thaolac6868', channelId: 'UCT6QDt-BndIHyzL_E5eza2Q' },
   { id: 'gianhireview', name: 'Gia Nhi Review', url: 'https://www.youtube.com/@GiaNhiReview', channelId: 'UC58tvj8MyrryZ8Cci8nR_KA' },
-  { id: 'tydemuoi', name: 'Tỷ Đệ Muội', url: 'https://www.youtube.com/@Tydemuoi666', channelId: 'UCR7PZM_LOuf70c5nJTMO6vQ' },
-  { id: 'thongocstudio', name: 'Thỏ Ngọc Studio', url: 'https://www.youtube.com/@ThoNgocStudio', channelId: 'UCoVa9d2un6VLu3yGiw8zWXg' }
+  { id: 'kasvietsub', name: 'Kas Vietsub', url: 'https://www.youtube.com/@KasVietsub', channelId: 'UCf-of2R81KFAFki2SkkIsBg' },
+  { id: 'mycherrysub', name: 'MyCherrySub', url: 'https://www.youtube.com/@MyCherrySub', channelId: 'UC_Uo_2YxT471EiDlhJQri7A' }
 ];
 
 const GENRE_RULES = [
@@ -139,7 +136,8 @@ function softenCapsTitle(title) {
   return softenedParts.join('');
 }
 
-const NON_3D_TITLE_RE = /\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|truyện tranh|manhua\s*audio|comic\s*audio|\[phim ngắn\]/i;
+const NON_3D_TITLE_RE = /\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|truyện tranh|review truyện|review manhua|review manga|review manhwa|manhua\s*audio|comic\s*audio|audio truyện|đọc truyện|kể truyện|bộ truyện|\[phim ngắn\]|\bchap\s*\d+|\bchương\s*\d+/i;
+const BANNED_CHANNEL_IDS = new Set(['besuastudio', 'gavangtutien', 'thaolac', 'tydemuoi', 'thongocstudio']);
 
 const FETCH_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
@@ -177,6 +175,7 @@ function cleanPlotSummary(desc) {
 }
 
 function isValid3dFilmVideo(title, durationSec = 0, channelId = '', publishedAt = '') {
+  if (BANNED_CHANNEL_IDS.has(channelId)) return false;
   const t = title || '';
   if (durationSec > 0 && durationSec < 1200) return false;
   if (channelId === 'chiuchiusubtv' && String(publishedAt || '').startsWith('2025-')) return false;

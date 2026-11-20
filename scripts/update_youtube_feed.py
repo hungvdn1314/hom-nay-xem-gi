@@ -66,13 +66,10 @@ CHANNELS = [
     },
     # --- Auto-discovered & vetted by the 3D Channel Quality Gate (see --discover-channels) ---
     {"id": "hh3dtrungquoc", "name": "Anime 3D Trung Quốc", "url": "https://www.youtube.com/@HH3dTrungQuocAI", "channel_id": "UCX6GJ_ErLHnogg5Xhrvh8_Q"},
-    {"id": "besuastudio", "name": "Bé Sữa Studio", "url": "https://www.youtube.com/@besuastudio9", "channel_id": "UCmszEI0HgowAPGQvpWS6p4A"},
-    {"id": "gavangtutien", "name": "Gà Vàng Tu Tiên", "url": "https://www.youtube.com/@GaVangTuTien", "channel_id": "UCN_B07LfBOUEnkONDeftqvA"},
     {"id": "zzzphim", "name": "Zzzphim", "url": "https://www.youtube.com/@Zzzphim", "channel_id": "UCkaKs808Jt2Mi9F-HJ0OmuQ"},
-    {"id": "thaolac", "name": "Thảo Lác", "url": "https://www.youtube.com/@Thaolac6868", "channel_id": "UCT6QDt-BndIHyzL_E5eza2Q"},
     {"id": "gianhireview", "name": "Gia Nhi Review", "url": "https://www.youtube.com/@GiaNhiReview", "channel_id": "UC58tvj8MyrryZ8Cci8nR_KA"},
-    {"id": "tydemuoi", "name": "Tỷ Đệ Muội", "url": "https://www.youtube.com/@Tydemuoi666", "channel_id": "UCR7PZM_LOuf70c5nJTMO6vQ"},
-    {"id": "thongocstudio", "name": "Thỏ Ngọc Studio", "url": "https://www.youtube.com/@ThoNgocStudio", "channel_id": "UCoVa9d2un6VLu3yGiw8zWXg"}
+    {"id": "kasvietsub", "name": "Kas Vietsub", "url": "https://www.youtube.com/@KasVietsub", "channel_id": "UCf-of2R81KFAFki2SkkIsBg"},
+    {"id": "mycherrysub", "name": "MyCherrySub", "url": "https://www.youtube.com/@MyCherrySub", "channel_id": "UC_Uo_2YxT471EiDlhJQri7A"}
 ]
 
 DISCOVERY_QUERIES = [
@@ -194,7 +191,11 @@ def soften_caps_title(title):
     return ''.join(softened_parts)
 
 NON_3D_TITLE_REGEX = re.compile(
-    r'\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|truyện tranh|manhua\s*audio|comic\s*audio|\[phim ngắn\]',
+    r'\b(?:episode|tập)\s*\d{3,}\b|'
+    r'ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|'
+    r'truyện tranh|review truyện|review manhua|review manga|review manhwa|'
+    r'manhua\s*audio|comic\s*audio|audio truyện|đọc truyện|kể truyện|bộ truyện|'
+    r'\[phim ngắn\]|\bchap\s*\d+|\bchương\s*\d+',
     flags=re.IGNORECASE
 )
 
@@ -291,8 +292,14 @@ def clean_plot_summary(desc, title="", channel_name=""):
     return summary
 
 
+BANNED_CHANNEL_IDS = {
+    "besuastudio", "gavangtutien", "thaolac", "tydemuoi", "thongocstudio"
+}
+
 def is_valid_3d_film_video(title, duration_sec=0, channel_id="", published_at=""):
-    """Filter out 2D Manhua Audio episodes, 5s teasers, and short <20m clips so catalog stays strictly 3D films."""
+    """Filter out 2D Manhua Audio episodes, banned non-3D channels, 5s teasers, and short <20m clips so catalog stays strictly 3D films."""
+    if channel_id in BANNED_CHANNEL_IDS:
+        return False
     t = title or ""
     if duration_sec and 0 < duration_sec < 1200:
         return False
@@ -1186,6 +1193,9 @@ def clean_and_reclassify_catalog(films, fetch_missing_desc=False):
     removed_films = 0
     for f in films:
         ch_id = f.get("channelId", "")
+        if ch_id in BANNED_CHANNEL_IDS:
+            removed_films += 1
+            continue
         valid_parts = []
         for p in f.get("parts", []):
             p_dur = p.get("duration") or 0
@@ -1418,7 +1428,7 @@ def main():
         ch_vids = browse_videos_map.get(ch["channel_id"])
         if not any(f.get("channelId") == ch["id"] for f in films) and ch_vids:
             # Brand-new channel: initial backfill from the latest ~60 uploads
-            browse_videos_map[ch["channel_id"]] = ch_vids[:60]
+            browse_videos_map[ch["channel_id"]] = ch_vids[:100]
             print(f"  [New Channel] Backfilling '{ch['name']}' with {len(browse_videos_map[ch['channel_id']])} uploads.")
             videos = list(browse_videos_map[ch["channel_id"]])
             videos.sort(key=lambda v: parse_iso_utc(v.get("published")) or datetime.min.replace(tzinfo=timezone.utc))

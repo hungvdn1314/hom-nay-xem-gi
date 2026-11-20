@@ -25,7 +25,11 @@
 - [x] Filtered catalog & live feed strictly to 3D films (removed 119 2D Manhua Audio/short videos including `8-DuVCodA5c`), deployed weighted 10-genre classifier (`1,624` 3D films), simplified header brand, and upgraded Randomizer Modal into a detailed Spotlight card.
 - [x] Auto channel discovery: `CHANNELS` expanded 8 -> 16 (Anime 3D Trung Quốc, Bé Sữa Studio, Gà Vàng Tu Tiên, Zzzphim, Thảo Lác, Gia Nhi Review, Tỷ Đệ Muội, Thỏ Ngọc Studio; ToonWarp rejected), `--discover-channels` + 3D Channel Quality Gate, new-channel backfill (~60 uploads), `sync_channel_meta`; catalog now 2,059 films.
 - [x] UX upgrade: Continue Watching shelf with episode memory, theater modal extras (prev/next, share, open on YouTube, tags, synopsis, related films), URL deep-linking, duration filter, 2 genre chips + "Tóm tắt" spotlight on cards, mobile search auto-scroll (commit `40f353f`).
-- [ ] Open: review quality of newly added channels (Thỏ Ngọc, Gà Vàng look closer to comic-review content); `YOUTUBE_API_KEY` already set in GitHub Secrets.
+- [x] Reviewed and purged all 5 non-3D Comic / Audio Novel channels (`thongocstudio`, `gavangtutien`, `thaolac`, `tydemuoi`, `besuastudio` — 304 non-3D films removed).
+- [x] Hardened 3-layer 3D validation & non-3D regex filters across Python (`scripts/update_youtube_feed.py`), Serverless (`api/live-feed.js`), and Client (`app.js`) blocking `review truyện`, `review manhua`, `truyện tranh`, `audio truyện`, `đọc truyện`, `kể truyện`, `bộ truyện`, `chap \d+`, `chương \d+`.
+- [x] Integrated 2 new 3D Donghua channels requested by user: `Kas Vietsub` (`@KasVietsub`, +72 films, 94 parts) & `MyCherrySub` (`@MyCherrySub`, +92 films, 99 parts).
+- [x] Rebuilt catalog and synchronized `data.js` & `youtube_films_catalog.json` to 1,990 pure 3D animated films across 13 vetted channels (8,697+ hours of content).
+- [x] Tested and verified via Puppeteer: 13 channels in sidebar navigation, 0 banned channels/films, search for "Review Truyện" or "Nam Sinh Bị Coi Thường" returns 0 results, new channels render cleanly.
 - [x] Diagnosed auto-update delay: GitHub Actions public schedule queue delay (6-13h) vs client-side `/api/live-feed` live fetching.
 - [x] Added strict `no-cache` headers for `data.js` and `youtube_films_catalog.json` in `vercel.json`.
 - [x] Implemented `/api/cron-update.js` endpoint to trigger GitHub Actions `workflow_dispatch` on-demand via external cron / webhooks.
