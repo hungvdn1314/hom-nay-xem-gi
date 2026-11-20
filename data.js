@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2258,
+    "totalFilms": 2259,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T02:01:16.783434+00:00"
+    "lastUpdated": "2026-11-20T03:00:30.898037+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 111
+      "filmCount": 112
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2378",
+      "title": "12 GIỜ THỎA MÃN | Thường Dân Thành Hoàng Đế - Thiên Tài Võ Thuật Thống Lĩnh Vạn Thiết Kỵ",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 42394,
+      "totalDurationStr": "11 giờ 46 phút",
+      "totalViews": 64,
+      "totalLikes": 0,
+      "review": "12 GIỜ THỎA MÃN | Thường Dân Thành Hoàng Đế - Thiên Tài Võ Thuật Thống Lĩnh Vạn Thiết Kỵ Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/pIPmZlZkmaY/hqdefault.jpg",
+      "publishedAt": "2026-11-20T02:57:07+00:00",
+      "updatedAt": "2026-11-20T02:57:07+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "12 GIỜ THỎA MÃN | Thường Dân Thành Hoàng Đế - Thiên Tài Võ Thuật Thống Lĩnh Vạn Thiết Kỵ",
+          "url": "https://www.youtube.com/watch?v=pIPmZlZkmaY",
+          "id": "pIPmZlZkmaY",
+          "duration": 42394,
+          "durationStr": "11:46:34",
+          "publishedAt": "2026-11-20T02:57:07+00:00",
+          "views": 64,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2377",
       "title": "13 GIỜ THỎA MÃN | Lão Tổ Xuất Quan Còn 3 Ngày Thọ Nguyên - Kích Hoạt Hệ Thống Phục Hưng Gia Tộc",
