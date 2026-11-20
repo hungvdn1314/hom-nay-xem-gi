@@ -1,41 +1,41 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2280,
-    "totalChannels": 16,
+    "totalFilms": 2721,
+    "totalChannels": 13,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T12:15:33.713023+00:00"
+    "lastUpdated": "2026-11-20T12:30:27.082489+00:00"
   },
   "channels": [
     {
       "id": "thienphatreview",
       "name": "Thiên Phạt Review",
       "url": "https://www.youtube.com/@thienphatreview",
-      "filmCount": 298
+      "filmCount": 358
     },
     {
       "id": "tieuho_review",
       "name": "Tiểu Hồ Review (Dorovietsub)",
       "url": "https://www.youtube.com/@Ti%E1%BB%83u-H%E1%BB%93_Review",
-      "filmCount": 202
+      "filmCount": 365
     },
     {
       "id": "chiuchiusubtv",
       "name": "ChiuChiuSubTV",
       "url": "https://www.youtube.com/@chiuchiusubtv",
-      "filmCount": 176
+      "filmCount": 251
     },
     {
       "id": "melacreview",
       "name": "Mễ Lạc Review",
       "url": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "filmCount": 168
+      "filmCount": 286
     },
     {
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 298
+      "filmCount": 329
     },
     {
       "id": "hoathinhmonganh",
@@ -59,31 +59,13 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 75
-    },
-    {
-      "id": "besuastudio",
-      "name": "Bé Sữa Studio",
-      "url": "https://www.youtube.com/@besuastudio9",
-      "filmCount": 62
-    },
-    {
-      "id": "gavangtutien",
-      "name": "Gà Vàng Tu Tiên",
-      "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 81
+      "filmCount": 97
     },
     {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 73
-    },
-    {
-      "id": "thaolac",
-      "name": "Thảo Lác",
-      "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 120
+      "filmCount": 93
     },
     {
       "id": "gianhireview",
@@ -95,13 +77,13 @@ window.FILMS_DATA = {
       "id": "kasvietsub",
       "name": "Kas Vietsub",
       "url": "https://www.youtube.com/@KasVietsub",
-      "filmCount": 72
+      "filmCount": 71
     },
     {
-      "id": "thongocstudio",
-      "name": "Thỏ Ngọc Studio",
-      "url": "https://www.youtube.com/@ThoNgocStudio",
-      "filmCount": 65
+      "id": "mycherrysub",
+      "name": "MyCherrySub",
+      "url": "https://www.youtube.com/@MyCherrySub",
+      "filmCount": 92
     }
   ],
   "films": [
@@ -9180,10 +9162,10 @@ window.FILMS_DATA = {
       "channelName": "ChiuChiuSubTV",
       "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
       "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 34033,
-      "totalDurationStr": "9 giờ 27 phút",
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 54708,
+      "totalDurationStr": "15 giờ 11 phút",
       "review": "📌 Tóm Tắt Phim: Kiếp trước bị phản bội chết thảm nơi mạt thế, Trần Bình Uyên bất ngờ trọng sinh về thời điểm",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -9208,7 +9190,7 @@ window.FILMS_DATA = {
           "likes": 232
         },
         {
-          "index": 1,
+          "index": 2,
           "label": "Phần 1",
           "title": "Xuyên Không Mạt Thế, Cô Gái Ngồi Xe Lăn Bất Ngờ Thành Thần",
           "url": "https://www.youtube.com/watch?v=kkg97Q7SmAA",
@@ -9219,8 +9201,23 @@ window.FILMS_DATA = {
           "views": 2125,
           "likes": 40,
           "isRedundant": false
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Phần 3 | TẬN THẾ GIÁNG LÂM, Main Trùng Sinh Bá Đạo, Tuyệt Đối Không Thánh Mẫu!",
+          "url": "https://www.youtube.com/watch?v=AHJ33LaYbl4",
+          "id": "AHJ33LaYbl4",
+          "duration": 11239,
+          "durationStr": "3:07:19",
+          "publishedAt": "2026-11-16T03:43:29+00:00",
+          "views": 5295,
+          "likes": 71,
+          "isRedundant": false
         }
-      ]
+      ],
+      "totalViews": 20837,
+      "totalLikes": 343
     },
     {
       "id": "film_1975",
@@ -14367,8 +14364,8 @@ window.FILMS_DATA = {
       "partsStr": "1 phần (Phần 1)",
       "totalDurationSec": 37686,
       "totalDurationStr": "10 giờ 28 phút",
-      "totalViews": 1511,
-      "totalLikes": 12,
+      "totalViews": 13608,
+      "totalLikes": 244,
       "review": "MÙA 1-7|KIẾM CỐT TREO MÁY- CÀN QUÉT HUYỀN GIỚI . 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
       "genres": [
         "Tu tiên / Huyền huyễn",
@@ -14392,9 +14389,7 @@ window.FILMS_DATA = {
           "likes": 12,
           "isRedundant": false
         }
-      ],
-      "totalViews": 13608,
-      "totalLikes": 244
+      ]
     },
     {
       "id": "film_1742",
