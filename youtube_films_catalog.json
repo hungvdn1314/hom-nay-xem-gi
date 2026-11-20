@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2268,
+    "totalFilms": 2272,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T07:45:59.867495+00:00"
+    "lastUpdated": "2026-11-20T08:30:24.254414+00:00"
   },
   "channels": [
     {
@@ -29,13 +29,13 @@
       "id": "melacreview",
       "name": "Mễ Lạc Review",
       "url": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "filmCount": 167
+      "filmCount": 168
     },
     {
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 296
+      "filmCount": 297
     },
     {
       "id": "hoathinhmonganh",
@@ -47,7 +47,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 226
+      "filmCount": 227
     },
     {
       "id": "tieusumuoi",
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 116
+      "filmCount": 117
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,157 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2390",
+      "title": "【Mùa 1–2】Tôi Săn Lỗi BUG Trong Game Online Lam Tinh Online!",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 21026,
+      "totalDurationStr": "5 giờ 50 phút",
+      "totalViews": 0,
+      "totalLikes": 1,
+      "review": "🎬 【Mùa 1–2】Tôi Săn Lỗi BUG Trong Game Online Lam Tinh Online! 🎮 Bảy ngày không chơi game, Lê Vụ bị đưa đi tạm giữ và buộc phải đăng nhập Lam Tinh Online! Tưởng có thể kiếm thêm thu nhập, anh lại gặp một thế giới mà bị quái cắn cũng đau thật, không ăn sẽ chết đói, còn đạn dược thì đắt đỏ. Thiên phú Cắt Xẻ gây sát thương chuẩn nhưng chỉ số ban đầu thấp đến...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/qMqTOxhVgmY/hqdefault.jpg",
+      "publishedAt": "2026-11-20T08:29:26+00:00",
+      "updatedAt": "2026-11-20T08:29:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Tôi Săn Lỗi BUG Trong Game Online Lam Tinh Online!",
+          "url": "https://www.youtube.com/watch?v=qMqTOxhVgmY",
+          "id": "qMqTOxhVgmY",
+          "duration": 21026,
+          "durationStr": "5:50:26",
+          "publishedAt": "2026-11-20T08:29:26+00:00",
+          "views": 0,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2391",
+      "title": "3,5 GIỜ | Âm Dương Thần Lô - Tạp Dịch Ngũ Linh Căn Tinh Luyện Phế Đan - Âm Thầm Tu Thành Cường Giả",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12765,
+      "totalDurationStr": "3 giờ 32 phút",
+      "totalViews": 0,
+      "totalLikes": 1,
+      "review": "3,5 GIỜ | Âm Dương Thần Lô - Tạp Dịch Ngũ Linh Căn Tinh Luyện Phế Đan - Âm Thầm Tu Thành Cường Giả Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/868MSbYUDk4/hqdefault.jpg",
+      "publishedAt": "2026-11-20T08:29:12+00:00",
+      "updatedAt": "2026-11-20T08:29:12+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "3,5 GIỜ | Âm Dương Thần Lô - Tạp Dịch Ngũ Linh Căn Tinh Luyện Phế Đan - Âm Thầm Tu Thành Cường Giả",
+          "url": "https://www.youtube.com/watch?v=868MSbYUDk4",
+          "id": "868MSbYUDk4",
+          "duration": 12765,
+          "durationStr": "3:32:45",
+          "publishedAt": "2026-11-20T08:29:12+00:00",
+          "views": 0,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2389",
+      "title": "Full Phần 1 |【Bất Ngờ Biến Thành Zombie, Tôi Thật Sự Không Muốn Làm Đại Ca Đâu!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 14591,
+      "totalDurationStr": "4 giờ 03 phút",
+      "totalViews": 1,
+      "totalLikes": 1,
+      "review": "🎬 【Bất Ngờ Biến Thành Zombie, Tôi Thật Sự Không Muốn Làm Đại Ca Đâu!】 🧟 Biến thành zombie nhưng vẫn giữ được vẻ ngoài giống người, Đồ Tam Thất bất ngờ gặp lại người thân và được đưa về căn cứ của nhân loại. Chưa kịp thích nghi, cậu đã phải nhập học, tham gia kiểm tra và tìm cách che giấu thân phận giữa những dị năng giả chuyên săn diệt zombie! 🔥 Hiểu...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/aocAelv5rxs/hqdefault.jpg",
+      "publishedAt": "2026-11-20T08:28:27+00:00",
+      "updatedAt": "2026-11-20T08:28:27+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Bất Ngờ Biến Thành Zombie, Tôi Thật Sự Không Muốn Làm Đại Ca Đâu!】",
+          "url": "https://www.youtube.com/watch?v=aocAelv5rxs",
+          "id": "aocAelv5rxs",
+          "duration": 14591,
+          "durationStr": "4:03:11",
+          "publishedAt": "2026-11-20T08:28:27+00:00",
+          "views": 1,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2388",
+      "title": "Mùa 2 (END) | Thiên Kim Giả Dắt Theo Nhóc Con Làm Giàu!",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 39584,
+      "totalDurationStr": "10 giờ 59 phút",
+      "totalViews": 106,
+      "totalLikes": 5,
+      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Mùa 2 (END) | Thiên Kim Giả Dắt Theo Nhóc Con Làm Giàu!Kỳ Diệu vô tình xuyên vào một cuốn tiểu thuyết, trở thành thiên kim giả năm xưa bị nhà họ Tống bế nhầm. Khi thiên kim thật được tìm về, việc đầu tiên cô ta làm chính là đuổi cổ kẻ \"chim tu hú chiếm tổ chim khách\" như Kỳ Diệu đi. Nhớ lại...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/j9y3ykXDrn0/hqdefault.jpg",
+      "publishedAt": "2026-11-20T08:04:56+00:00",
+      "updatedAt": "2026-11-20T08:04:56+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 2",
+          "title": "Mùa 2 (END) | Thiên Kim Giả Dắt Theo Nhóc Con Làm Giàu!",
+          "url": "https://www.youtube.com/watch?v=j9y3ykXDrn0",
+          "id": "j9y3ykXDrn0",
+          "duration": 39584,
+          "durationStr": "10:59:44",
+          "publishedAt": "2026-11-20T08:04:56+00:00",
+          "views": 106,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2387",
       "title": "P1-2 |10 GIỜ THỎA MÃN | Xuyên Làm Tử Tù Lưu Đày Biên Ải - Dùng Kiến Thức Hiện Đại Vươn Lên Đại Tướng",
