@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2275,
+    "totalFilms": 2277,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T10:45:25.925709+00:00"
+    "lastUpdated": "2026-11-20T11:15:27.367285+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 118
+      "filmCount": 119
     },
     {
       "id": "gianhireview",
@@ -101,10 +101,85 @@
       "id": "thongocstudio",
       "name": "Thỏ Ngọc Studio",
       "url": "https://www.youtube.com/@ThoNgocStudio",
-      "filmCount": 64
+      "filmCount": 65
     }
   ],
   "films": [
+    {
+      "id": "film_2395",
+      "title": "Phần 2 | 5 GIỜ | Tạp Dịch Phế Linh Căn Tu Tiên - Vạc Thần Luyện Hóa Khí Huyết Thành Đan Dược",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 17672,
+      "totalDurationStr": "4 giờ 54 phút",
+      "totalViews": 210,
+      "totalLikes": 14,
+      "review": "Phần 2 | 5 GIỜ | Tạp Dịch Phế Linh Căn Tu Tiên - Vạc Thần Luyện Hóa Khí Huyết Thành Đan Dược Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/6ZELS56MMLU/hqdefault.jpg",
+      "publishedAt": "2026-11-20T11:03:07+00:00",
+      "updatedAt": "2026-11-20T11:03:07+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Phần 2 | 5 GIỜ | Tạp Dịch Phế Linh Căn Tu Tiên - Vạc Thần Luyện Hóa Khí Huyết Thành Đan Dược",
+          "url": "https://www.youtube.com/watch?v=6ZELS56MMLU",
+          "id": "6ZELS56MMLU",
+          "duration": 17672,
+          "durationStr": "4:54:32",
+          "publishedAt": "2026-11-20T11:03:07+00:00",
+          "views": 210,
+          "likes": 14,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2396",
+      "title": "Full Phần 1 | Nam Sinh Phế Vật Thức Tỉnh Phệ Hồn Cấp SSS | Review Truyện",
+      "channelId": "thongocstudio",
+      "channelName": "Thỏ Ngọc Studio",
+      "channelUrl": "https://www.youtube.com/@ThoNgocStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 14086,
+      "totalDurationStr": "3 giờ 54 phút",
+      "totalViews": 97,
+      "totalLikes": 10,
+      "review": "Full Phần 1 | Nam Sinh Phế Vật Thức Tỉnh Phệ Hồn Cấp SSS | Review Truyện Tên Truyện: Kẻ Ký Sinh Trên Người Ta Không Dễ Chọc Tag: review, review truyện, thỏ ngọc, thỏ ngọc studio - Đăng kí kênh để nhận đón xem những video mới nhất nhé ! Hashtag: #ThoNgocComics #manhwa #truyentranhmanwa -------------------------------------------------- [Music provided...",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/rC3SNorP6JM/hqdefault.jpg",
+      "publishedAt": "2026-11-20T11:00:37+00:00",
+      "updatedAt": "2026-11-20T11:00:37+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Nam Sinh Phế Vật Thức Tỉnh Phệ Hồn Cấp SSS | Review Truyện",
+          "url": "https://www.youtube.com/watch?v=rC3SNorP6JM",
+          "id": "rC3SNorP6JM",
+          "duration": 14086,
+          "durationStr": "3:54:46",
+          "publishedAt": "2026-11-20T11:00:37+00:00",
+          "views": 97,
+          "likes": 10,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2394",
       "title": "5H|VÔ HẠN LUÂN HỒI - KÍCH HOẠT HỆ THỐNG RÚT THƯỞNG,CÀNG KHIẾN NGƯỜI KHÁC KINH NGẠC CÀNG TA CÀNH MẠNH",
