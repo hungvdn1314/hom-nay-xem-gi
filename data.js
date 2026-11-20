@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2721,
+    "totalFilms": 2722,
     "totalChannels": 13,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T12:30:27.082489+00:00"
+    "lastUpdated": "2026-11-20T13:00:37.079966+00:00"
   },
   "channels": [
     {
@@ -29,7 +29,7 @@ window.FILMS_DATA = {
       "id": "melacreview",
       "name": "Mễ Lạc Review",
       "url": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "filmCount": 286
+      "filmCount": 287
     },
     {
       "id": "thienanhstudio9",
@@ -87,6 +87,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2413",
+      "title": "Mùa 8 - P1 (EP1-30) |  Tiên Duyên Cô Vợ Xấu Xí (Sửu Thê Tiên Duyên)",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 3952,
+      "totalDurationStr": "1 giờ 05 phút",
+      "totalViews": 109,
+      "totalLikes": 11,
+      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Mùa 8 - P1 (EP1-30) | Tiên Duyên Cô Vợ Xấu Xí (Sửu Thê Tiên Duyên)(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi)Giới thiệu: Giang Trì sở hữu hệ thống \"Tu luyện trong giấc ngủ\". Vì muốn chữa trị vết ban đỏ cho vợ là Tô Thiển Tuyết, anh đã lui về ẩn dật tại thành Ninh...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/-aKNwpY8d8k/hqdefault.jpg",
+      "publishedAt": "2026-11-20T12:45:46+00:00",
+      "updatedAt": "2026-11-20T12:45:46+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 8 - P1",
+          "title": "Mùa 8 - P1 (EP1-30) |  Tiên Duyên Cô Vợ Xấu Xí (Sửu Thê Tiên Duyên)",
+          "url": "https://www.youtube.com/watch?v=-aKNwpY8d8k",
+          "id": "-aKNwpY8d8k",
+          "duration": 3952,
+          "durationStr": "1:05:52",
+          "publishedAt": "2026-11-20T12:45:46+00:00",
+          "views": 109,
+          "likes": 11,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2399",
       "title": "Bất Ngờ Bị Kéo Vào Thế Giới Quy Tắc Quỷ Dị, Hệ Thống Lại Ép Tôi Chinh Phục Nữ Tiếp Viên Hàng Không",
