@@ -441,65 +441,74 @@
 
     state.channels = rawChannels.filter(c => !BANNED_CHANNELS_CLIENT.has(c.id));
 
-    state.allFilms = rawFilms.map((film, index) => {
-      const totalSec = film.totalDurationSec !== undefined
-        ? film.totalDurationSec
-        : parseDurationToSec(film.totalDurationStr || film.totalDuration);
-      const cleanDuration = cleanDurationStr(film.totalDurationStr || film.totalDuration, totalSec);
-      const genreName = Array.isArray(film.genres) && film.genres.length > 0 ? film.genres[0] : (film.genre || 'Hoạt hình 2D/3D');
-      const firstPartId = film.parts && film.parts.length > 0 ? (film.parts[0].id || film.parts[0].videoId) : (film.videoId || 'p7xLcOrLvbo');
-      const thumb = film.thumbnail || film.thumbnailUrl || `https://i.ytimg.com/vi/${firstPartId}/hqdefault.jpg`;
+    const seenFilmIds = new Set();
+    state.allFilms = rawFilms
+      .filter(f => f && !BANNED_CHANNELS_CLIENT.has(f.channelId) && isValid3dFilmClient(f))
+      .map((film, index) => {
+        let uniqueId = film.id || `film_${index + 1}`;
+        if (seenFilmIds.has(uniqueId)) {
+          uniqueId = `${uniqueId}_${film.channelId || index + 1}`;
+        }
+        seenFilmIds.add(uniqueId);
 
-      const normalizedParts = (film.parts && film.parts.length > 0) ? film.parts.map((p, pIdx) => ({
-        partNumber: p.index || (pIdx + 1),
-        label: p.label || `Phần ${p.index || (pIdx + 1)}`,
-        title: p.title || `Tập ${p.index || (pIdx + 1)}`,
-        videoId: p.id || p.videoId || firstPartId,
-        duration: cleanDurationStr(p.durationStr, p.duration || 0),
-        durationSec: p.duration || 0,
-        views: Number(p.views) || 0,
-        likes: Number(p.likes) || 0,
-        publishedAt: p.publishedAt || null,
-        isRedundant: !!p.isRedundant
-      })) : [{
-        partNumber: 1,
-        label: 'Phần 1',
-        title: film.title,
-        videoId: firstPartId,
-        duration: cleanDuration,
-        durationSec: totalSec,
-        views: Number(film.totalViews) || 0,
-        likes: Number(film.totalLikes) || 0,
-        publishedAt: film.publishedAt || null,
-        isRedundant: false
-      }];
+        const totalSec = film.totalDurationSec !== undefined
+          ? film.totalDurationSec
+          : parseDurationToSec(film.totalDurationStr || film.totalDuration);
+        const cleanDuration = cleanDurationStr(film.totalDurationStr || film.totalDuration, totalSec);
+        const genreName = Array.isArray(film.genres) && film.genres.length > 0 ? film.genres[0] : (film.genre || 'Hoạt hình 2D/3D');
+        const firstPartId = film.parts && film.parts.length > 0 ? (film.parts[0].id || film.parts[0].videoId) : (film.videoId || 'p7xLcOrLvbo');
+        const thumb = film.thumbnail || film.thumbnailUrl || `https://i.ytimg.com/vi/${firstPartId}/hqdefault.jpg`;
 
-      const activeParts = normalizedParts.filter(p => !p.isRedundant);
-      const statsPool = activeParts.length > 0 ? activeParts : normalizedParts;
-      const computedViews = statsPool.reduce((acc, p) => acc + (p.views || 0), 0);
-      const computedLikes = statsPool.reduce((acc, p) => acc + (p.likes || 0), 0);
+        const normalizedParts = (film.parts && film.parts.length > 0) ? film.parts.map((p, pIdx) => ({
+          partNumber: p.index || (pIdx + 1),
+          label: p.label || `Phần ${p.index || (pIdx + 1)}`,
+          title: p.title || `Tập ${p.index || (pIdx + 1)}`,
+          videoId: p.id || p.videoId || firstPartId,
+          duration: cleanDurationStr(p.durationStr, p.duration || 0),
+          durationSec: p.duration || 0,
+          views: Number(p.views) || 0,
+          likes: Number(p.likes) || 0,
+          publishedAt: p.publishedAt || null,
+          isRedundant: !!p.isRedundant
+        })) : [{
+          partNumber: 1,
+          label: 'Phần 1',
+          title: film.title,
+          videoId: firstPartId,
+          duration: cleanDuration,
+          durationSec: totalSec,
+          views: Number(film.totalViews) || 0,
+          likes: Number(film.totalLikes) || 0,
+          publishedAt: film.publishedAt || null,
+          isRedundant: false
+        }];
 
-      return {
-        id: film.id || `film_${index + 1}`,
-        title: film.title || 'Phim hoạt hình 3D',
-        channelId: film.channelId || 'channel_1',
-        channelName: film.channelName || 'Review Phim',
-        genre: genreName,
-        genres: film.genres || [genreName],
-        partsCount: film.totalParts || normalizedParts.length,
-        parts: normalizedParts,
-        totalDuration: cleanDuration,
-        totalDurationSec: totalSec,
-        totalViews: Number(film.totalViews) || computedViews,
-        totalLikes: Number(film.totalLikes) || computedLikes,
-        thumbnailUrl: thumb,
-        synopsis: film.review || film.synopsis || 'Một bộ phim hoạt hình đặc sắc tuyển chọn.',
-        publishedAt: film.publishedAt || null,
-        updatedAt: film.updatedAt || null,
-        isRecent24h: false,
-        recentUpdate: null
-      };
-    }).filter(isValid3dFilmClient);
+        const activeParts = normalizedParts.filter(p => !p.isRedundant);
+        const statsPool = activeParts.length > 0 ? activeParts : normalizedParts;
+        const computedViews = statsPool.reduce((acc, p) => acc + (p.views || 0), 0);
+        const computedLikes = statsPool.reduce((acc, p) => acc + (p.likes || 0), 0);
+
+        return {
+          id: uniqueId,
+          title: film.title || 'Phim hoạt hình 3D',
+          channelId: film.channelId || 'channel_1',
+          channelName: film.channelName || 'Review Phim',
+          genre: genreName,
+          genres: film.genres || [genreName],
+          partsCount: film.totalParts || normalizedParts.length,
+          parts: normalizedParts,
+          totalDuration: cleanDuration,
+          totalDurationSec: totalSec,
+          totalViews: Number(film.totalViews) || computedViews,
+          totalLikes: Number(film.totalLikes) || computedLikes,
+          thumbnailUrl: thumb,
+          synopsis: film.review || film.synopsis || 'Một bộ phim hoạt hình đặc sắc tuyển chọn.',
+          publishedAt: film.publishedAt || null,
+          updatedAt: film.updatedAt || null,
+          isRecent24h: false,
+          recentUpdate: null
+        };
+      });
 
     rebuildRecentFeedAndGenres();
   }

@@ -118,18 +118,21 @@
   - Auto-discovered channels `thongocstudio`, `gavangtutien`, `thaolac`, `tydemuoi`, and `besuastudio` introduced 304 non-3D films (2D Manhua comic reviews, audio novel readings with static AI thumbnail, etc.) into the 3D Donghua catalog.
   - Previous `NON_3D_TITLE_REGEX` lacked keywords `review truyện`, `review manhua`, `truyện tranh`, `audio truyện`, `đọc truyện`, `kể truyện`, `bộ truyện`, `chap \d+`, `chương \d+`.
 - **Implementation & Results**:
-  1. **Purged 5 non-3D channels**: Removed `thongocstudio`, `gavangtutien`, `thaolac`, `tydemuoi`, `besuastudio` (-304 films).
+  1. **Purged 5 non-3D channels**: Removed `thongocstudio`, `gavangtutien`, `thaolac`, `tydemuoi`, `besuastudio`.
   2. **Hardened 3-layer 3D validation**:
      - `scripts/update_youtube_feed.py`: Hardened `NON_3D_TITLE_REGEX` & added `BANNED_CHANNEL_IDS` in `is_valid_3d_film_video`.
      - `api/live-feed.js`: Hardened `NON_3D_TITLE_RE` & `BANNED_CHANNEL_IDS` in `isValid3dFilmVideo`.
      - `app.js`: Hardened `NON_3D_CLIENT_RE`, added `BANNED_CHANNELS_CLIENT`, and filtered `state.channels`.
   3. **Added 2 user-requested 3D channels**:
-     - `Kas Vietsub` (`@KasVietsub`, channelId `UCf-of2R81KFAFki2SkkIsBg`, +72 films / 94 parts).
-     - `MyCherrySub` (`@MyCherrySub`, channelId `UC_Uo_2YxT471EiDlhJQri7A`, +92 films / 99 parts).
-  4. **Catalog State**:
-     - Total films: **1,990 pure 3D Donghua films** across **13 channels** (8,697 hours of anime).
-     - Banned channels/films in catalog: **0**.
-     - Matches for 2D comic / novel audio in titles: **0**.
-  5. **Verification**:
-     - All syntax checks passed (`node --check app.js`, `node --check api/live-feed.js`, `python -m py_compile scripts/update_youtube_feed.py`).
-     - Puppeteer evaluated live on local server: 13 channels in navigation menu with accurate film counts, search for "Review Truyện" or "Nam Sinh Bị Coi Thường" yields 0 films (`Không tìm thấy bộ phim phù hợp`), search for "Kas Vietsub" (72 films) and "MyCherrySub" (92 films) works perfectly.
+     - `Kas Vietsub` (`@KasVietsub`, channelId `UCf-of2R81KFAFki2SkkIsBg`, 71 films).
+     - `MyCherrySub` (`@MyCherrySub`, channelId `UC_Uo_2YxT471EiDlhJQri7A`, 92 films).
+
+## Film ID Collision Bugfix (2026-11-20)
+- **Issue Reported**: Clicking a card for "Oan Gia Ngõ Hẹp" (MyCherrySub) on the main screen opened a completely different film ("Thức Tỉnh Hệ Thống Hoá Độc Thành Đại Bổ" by Anime 3D).
+- **Root Cause**:
+  - A previous git 3-way merge on `data.js` and `youtube_films_catalog.json` produced overlapping `film_2386` for both "Hoá Độc" (Anime 3D) and "Oan Gia Ngõ Hẹp" (MyCherrySub).
+  - In `app.js`, `state.allFilms.find(f => f.id === filmId)` returned the first film matching the duplicate ID.
+- **Fix & Verification**:
+  1. Rebuilt catalog deterministically: 2,077 pure 3D films numbered strictly uniquely (`film_1` to `film_2077`, 0 duplicates).
+  2. Added runtime client-side de-duplication in `app.js` (`seenFilmIds`) in `normalizeAndIngestData`.
+  3. Verified via Puppeteer: Clicking "Oan Gia Ngõ Hẹp" (`film_96`) opens the exact MyCherrySub video (`MtzynyYeqJg`), and clicking "Hoá Độc" (`film_11`) opens the Anime 3D video (`lDyoP1U9B5s`).
