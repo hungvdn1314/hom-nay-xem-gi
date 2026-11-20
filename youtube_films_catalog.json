@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2722,
+    "totalFilms": 2723,
     "totalChannels": 13,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T13:00:37.079966+00:00"
+    "lastUpdated": "2026-11-20T13:30:32.991021+00:00"
   },
   "channels": [
     {
@@ -29,7 +29,7 @@
       "id": "melacreview",
       "name": "Mễ Lạc Review",
       "url": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "filmCount": 287
+      "filmCount": 288
     },
     {
       "id": "thienanhstudio9",
@@ -87,6 +87,43 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2414",
+      "title": "Mùa 7 - P2(EP94 - 144) | Tiên Nhãn",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 4363,
+      "totalDurationStr": "1 giờ 12 phút",
+      "totalViews": 35,
+      "totalLikes": 5,
+      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Mùa 7 - P2(EP94 - 144) | Tiên Nhãn(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi)A Sửu (Hàn Tẫn) cả đời phải chịu đựng sự khinh miệt và những ánh mắt lạnh lùng của người đời. Đến đêm giao thừa, hắn còn bị chính cha mẹ ruột nhẫn tâm đuổi ra khỏi nhà.Cứ ngỡ bản thân sẽ...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/SJ8NEc2YQ5I/hqdefault.jpg",
+      "publishedAt": "2026-11-20T13:24:17+00:00",
+      "updatedAt": "2026-11-20T13:24:17+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 7 - P2",
+          "title": "Mùa 7 - P2(EP94 - 144) | Tiên Nhãn",
+          "url": "https://www.youtube.com/watch?v=SJ8NEc2YQ5I",
+          "id": "SJ8NEc2YQ5I",
+          "duration": 4363,
+          "durationStr": "1:12:43",
+          "publishedAt": "2026-11-20T13:24:17+00:00",
+          "views": 35,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2413",
       "title": "Mùa 8 - P1 (EP1-30) |  Tiên Duyên Cô Vợ Xấu Xí (Sửu Thê Tiên Duyên)",
