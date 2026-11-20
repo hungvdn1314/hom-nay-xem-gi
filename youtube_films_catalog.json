@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2272,
+    "totalFilms": 2273,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T09:15:20.414308+00:00"
+    "lastUpdated": "2026-11-20T09:45:21.774750+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 117
+      "filmCount": 118
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2392",
+      "title": "8,5 GIỜ THỎA MÃN | Lính Đặc Công Xuyên Về Cổ Đại - Dùng Hỏa Lực Hiện Đại Trấn Áp Chiến Trường",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 30780,
+      "totalDurationStr": "8 giờ 33 phút",
+      "totalViews": 141,
+      "totalLikes": 4,
+      "review": "8,5 GIỜ THỎA MÃN | Lính Đặc Công Xuyên Về Cổ Đại - Dùng Hỏa Lực Hiện Đại Trấn Áp Chiến Trường Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/OhTsFRGx8bY/hqdefault.jpg",
+      "publishedAt": "2026-11-20T09:26:43+00:00",
+      "updatedAt": "2026-11-20T09:26:43+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "8,5 GIỜ THỎA MÃN | Lính Đặc Công Xuyên Về Cổ Đại - Dùng Hỏa Lực Hiện Đại Trấn Áp Chiến Trường",
+          "url": "https://www.youtube.com/watch?v=OhTsFRGx8bY",
+          "id": "OhTsFRGx8bY",
+          "duration": 30780,
+          "durationStr": "8:33:00",
+          "publishedAt": "2026-11-20T09:26:43+00:00",
+          "views": 141,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2390",
       "title": "【Mùa 1–2】Tôi Săn Lỗi BUG Trong Game Online Lam Tinh Online!",
