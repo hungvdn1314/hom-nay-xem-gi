@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-20T17:45:22.604117+00:00"
+    "lastUpdated": "2026-11-20T19:15:21.952094+00:00"
   },
   "channels": [
     {
@@ -29025,10 +29025,10 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLBGC0U3f8vSo",
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 37858,
-      "totalDurationStr": "10 giờ 30 phút",
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 51448,
+      "totalDurationStr": "14 giờ 17 phút",
       "review": "Ai Bảo Tên Mù Chữ Này Đi Tu Tiên Chứ!. (3 phần / 3 video (Mùa 4, Mùa 5, Mùa 6))",
       "genres": [
         "Tu tiên / Huyền huyễn"
@@ -29073,13 +29073,26 @@ window.FILMS_DATA = {
           "views": 50372,
           "likes": 574,
           "publishedAt": "2026-11-05T00:00:00+00:00"
+        },
+        {
+          "index": 4,
+          "label": "Mùa 7",
+          "title": "Mùa 7 | Ai Bảo Tên Mù Chữ Này Đi Tu Tiên Chứ!",
+          "url": "https://www.youtube.com/watch?v=HB2joCOk5_k",
+          "id": "HB2joCOk5_k",
+          "duration": 13590,
+          "durationStr": "3:46:30",
+          "publishedAt": "2026-11-20T19:03:40+00:00",
+          "views": 40,
+          "likes": 3,
+          "isRedundant": false
         }
       ],
-      "totalViews": 185055,
-      "totalLikes": 1765,
+      "totalViews": 185095,
+      "totalLikes": 1768,
       "publishedAt": "2026-09-23T00:00:00+00:00",
-      "updatedAt": "2026-11-05T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-20T19:03:40+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_688",
