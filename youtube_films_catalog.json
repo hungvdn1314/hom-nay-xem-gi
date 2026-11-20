@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2077,
+    "totalFilms": 2080,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-20T13:46:37.535119+00:00"
+    "lastUpdated": "2026-11-20T14:00:41.868069+00:00"
   },
   "channels": [
     {
@@ -37,7 +37,7 @@
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 298
+      "filmCount": 299
     },
     {
       "id": "hoathinhmonganh",
@@ -49,7 +49,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 228
+      "filmCount": 229
     },
     {
       "id": "tieusumuoi",
@@ -79,7 +79,7 @@
       "id": "kasvietsub",
       "name": "Kas Vietsub",
       "url": "https://www.youtube.com/@KasVietsub",
-      "filmCount": 71
+      "filmCount": 72
     },
     {
       "id": "mycherrysub",
@@ -89,6 +89,119 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2079",
+      "title": "Fulll Phần 1 | 【Đừng Chọc Vào Tiểu Sư Muội Đoàn Sủng, Cả Tông Môn Của Nàng Đều Là Tà Tu!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8433,
+      "totalDurationStr": "2 giờ 20 phút",
+      "totalViews": 26,
+      "totalLikes": 1,
+      "review": "🎬 【Đừng Chọc Vào Tiểu Sư Muội Đoàn Sủng, Cả Tông Môn Của Nàng Đều Là Tà Tu!】 🌸 Xuyên vào tiểu thuyết, Thời Nguyên bị vu oan rồi truy sát đến trọng thương. Đúng lúc nguy cấp, đại phản diện Giáng Thứ xuất hiện, nhận nàng làm con gái và ra tay bảo vệ! Nhờ vậy, nàng thoát chết, trở thành tiểu sư muội giữa một tông môn toàn những tà tu khó lường. 🔥 Sư tôn...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/TYEPVNe7OXA/hqdefault.jpg",
+      "publishedAt": "2026-11-20T13:48:06+00:00",
+      "updatedAt": "2026-11-20T13:48:06+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Fulll Phần 1 | 【Đừng Chọc Vào Tiểu Sư Muội Đoàn Sủng, Cả Tông Môn Của Nàng Đều Là Tà Tu!】",
+          "url": "https://www.youtube.com/watch?v=TYEPVNe7OXA",
+          "id": "TYEPVNe7OXA",
+          "duration": 8433,
+          "durationStr": "2:20:33",
+          "publishedAt": "2026-11-20T13:48:06+00:00",
+          "views": 26,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2078",
+      "title": "Full Phần 1 | Tôi Vô Tình Xông Vào Phó Bản Kinh Dị, Một Đường Quét Ngang Cả Thế Giới Kinh Hoàng!",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11270,
+      "totalDurationStr": "3 giờ 07 phút",
+      "totalViews": 77,
+      "totalLikes": 6,
+      "review": "🎬 【Tôi Vô Tình Xông Vào Phó Bản Kinh Dị, Một Đường Quét Ngang Cả Thế Giới Kinh Hoàng!】 🎥 Thế giới bị những thực thể tự xưng thần linh chiếm đoạt, Lục Tinh Thần bất ngờ trở thành diễn viên của Rạp Chiếu Phim Tiếng Thét. Vai diễn đầu tiên đưa anh cùng bốn người khác đến Viện Điều Dưỡng Hồ Eden, nơi bộ phim kinh dị chính là cuộc thử thách sinh tử thật sự! 🔥...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/AEjsdZDONtU/hqdefault.jpg",
+      "publishedAt": "2026-11-20T13:47:06+00:00",
+      "updatedAt": "2026-11-20T13:47:06+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Tôi Vô Tình Xông Vào Phó Bản Kinh Dị, Một Đường Quét Ngang Cả Thế Giới Kinh Hoàng!",
+          "url": "https://www.youtube.com/watch?v=AEjsdZDONtU",
+          "id": "AEjsdZDONtU",
+          "duration": 11270,
+          "durationStr": "3:07:50",
+          "publishedAt": "2026-11-20T13:47:06+00:00",
+          "views": 77,
+          "likes": 6,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2080",
+      "title": "Phần 3 | Toàn Dân Mạc Lộ Cầu Sinh Lần Này Ta Sẽ Đi Đến Cuối Con Đường | Kas Vietsub",
+      "channelId": "kasvietsub",
+      "channelName": "Kas Vietsub",
+      "channelUrl": "https://www.youtube.com/@KasVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8882,
+      "totalDurationStr": "2 giờ 28 phút",
+      "totalViews": 41439,
+      "totalLikes": 1246,
+      "review": "Xem Phần Củ Và Mới Ở Đây Nha: ©本頻道所有內容均已授權,所有与版权相关的问题， 👉👉Zalo: 0399 002 306 Để Được Giải quyết nhanh nhất nha. 🔝HagTag: #hoathinhtrungquoc #hoathinhhay #hoathinh3d #tutien #xuyenkhong #donghua #hoathinhvietsub #hoathinhai #anime #kasvietsub 🔝Tag: phim hoạt hình hay, review anime, kas vietsub, hoạt hình hay, hoạt hình trung quốc, phim hoạt hình, review...",
+      "genres": [
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/VzL7_b3TTEQ/hqdefault.jpg",
+      "publishedAt": "2026-11-19T03:44:51+00:00",
+      "updatedAt": "2026-11-19T03:44:51+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 3",
+          "title": "Phần 3 | Toàn Dân Mạc Lộ Cầu Sinh Lần Này Ta Sẽ Đi Đến Cuối Con Đường | Kas Vietsub",
+          "url": "https://www.youtube.com/watch?v=VzL7_b3TTEQ",
+          "id": "VzL7_b3TTEQ",
+          "duration": 8882,
+          "durationStr": "2:28:02",
+          "publishedAt": "2026-11-19T03:44:51+00:00",
+          "views": 41439,
+          "likes": 1246,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1",
       "title": "Mùa 7 - P2(EP94 - 144) | Tiên Nhãn",
@@ -5625,17 +5738,17 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": null,
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 28984,
-      "totalDurationStr": "8 giờ 03 phút",
+      "totalParts": 5,
+      "partsStr": "5 phần",
+      "totalDurationSec": 48953,
+      "totalDurationStr": "13 giờ 35 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Mùa 26 | Thái Huyền Thai Châu Truyện(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi)Trần Trường An, người đã vạn n",
       "genres": [
         "Võ hiệp / Cổ trang"
       ],
       "thumbnail": "https://i4.ytimg.com/vi/_YGLfRyA8-E/hqdefault.jpg",
       "publishedAt": "2026-11-11T18:52:15+00:00",
-      "updatedAt": "2026-11-16T18:16:02+00:00",
+      "updatedAt": "2026-11-18T17:56:38+00:00",
       "isRecent24h": false,
       "parts": [
         {
@@ -5676,10 +5789,36 @@
           "views": 148,
           "likes": 14,
           "isRedundant": false
+        },
+        {
+          "index": 4,
+          "label": "Mùa 29",
+          "title": "Mùa 29 | Thái Huyền Thai Châu Truyện",
+          "url": "https://www.youtube.com/watch?v=p30sqotydxU",
+          "id": "p30sqotydxU",
+          "duration": 10555,
+          "durationStr": "2:55:55",
+          "publishedAt": "2026-11-17T20:05:09+00:00",
+          "views": 22347,
+          "likes": 323,
+          "isRedundant": false
+        },
+        {
+          "index": 5,
+          "label": "Mùa 30",
+          "title": "Mùa 30 | Thái Huyền Thai Châu Truyện",
+          "url": "https://www.youtube.com/watch?v=swMM1jPj2wI",
+          "id": "swMM1jPj2wI",
+          "duration": 9414,
+          "durationStr": "2:36:54",
+          "publishedAt": "2026-11-18T17:56:38+00:00",
+          "views": 16608,
+          "likes": 302,
+          "isRedundant": false
         }
       ],
-      "totalViews": 43095,
-      "totalLikes": 634
+      "totalViews": 82050,
+      "totalLikes": 1259
     },
     {
       "id": "film_136",
@@ -12983,18 +13122,18 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 27494,
-      "totalDurationStr": "7 giờ 38 phút",
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 32685,
+      "totalDurationStr": "9 giờ 04 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt [16+] Mùa 5 - P2 | Thiên Đạo Dư Đồ: Phàm Nhân Vấn Đạo Thiên đạo sụp đổ, tàn đạo sót lại nơi nhân gian, ấy gọi là \"Thiên Đạo Dư Đồ\".Thiếu",
       "genres": [
         "Tu tiên / Huyền huyễn"
       ],
       "thumbnail": "https://i4.ytimg.com/vi/WeHZRJdyjhI/hqdefault.jpg",
       "publishedAt": "2026-11-11T16:06:01+00:00",
-      "updatedAt": "2026-11-13T12:23:29+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-20T11:28:58+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -13021,10 +13160,23 @@
           "isRedundant": false,
           "views": 18661,
           "likes": 222
+        },
+        {
+          "index": 3,
+          "label": "Mùa 5 - P4",
+          "title": "Mùa 5 - P4 (EP616-706) | Thiên Đạo Dư Đồ: Phàm Nhân Vấn Đạo",
+          "url": "https://www.youtube.com/watch?v=ZnZKOi9x00Y",
+          "id": "ZnZKOi9x00Y",
+          "duration": 5191,
+          "durationStr": "1:26:31",
+          "publishedAt": "2026-11-20T11:28:58+00:00",
+          "views": 2064,
+          "likes": 85,
+          "isRedundant": false
         }
       ],
-      "totalViews": 38099,
-      "totalLikes": 468
+      "totalViews": 40163,
+      "totalLikes": 553
     },
     {
       "id": "film_304",
@@ -22870,10 +23022,10 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLXfF8SKPqAEs",
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 82598,
-      "totalDurationStr": "22 giờ 56 phút",
+      "totalParts": 5,
+      "partsStr": "5 phần",
+      "totalDurationSec": 111348,
+      "totalDurationStr": "30 giờ 55 phút",
       "review": "Đòn Đánh Thường Tăng Máu, Một Tên Tỷ Sát Thương Đồ Sát Thần Minh. (3 phần / 3 video (Mùa 2-P1, Mùa 2-P2, Mùa 3))",
       "genres": [
         "Trò chơi / Phó bản"
@@ -22895,6 +23047,32 @@
         },
         {
           "index": 2,
+          "label": "Mùa 4",
+          "title": "Mùa 4 | Trò Chơi Xâm Lấn: Đòn Đánh Thường Tăng Máu, Một Tên Tỷ Sát Thương Đồ Sát Thần Minh",
+          "url": "https://www.youtube.com/watch?v=0-OLEmfYicc",
+          "id": "0-OLEmfYicc",
+          "duration": 15183,
+          "durationStr": "4:13:03",
+          "publishedAt": "2026-11-17T10:15:02+00:00",
+          "views": 9370,
+          "likes": 47,
+          "isRedundant": false
+        },
+        {
+          "index": 3,
+          "label": "Mùa 5",
+          "title": "Mùa 5 | Trò Chơi Xâm Lấn: Đòn Đánh Thường Tăng Máu, Một Tên Tỷ Sát Thương Đồ Sát Thần Minh",
+          "url": "https://www.youtube.com/watch?v=c8ofCbyZR_M",
+          "id": "c8ofCbyZR_M",
+          "duration": 13567,
+          "durationStr": "3:46:07",
+          "publishedAt": "2026-11-19T05:31:52+00:00",
+          "views": 6080,
+          "likes": 39,
+          "isRedundant": false
+        },
+        {
+          "index": 4,
           "label": "Mùa 2 - P1",
           "title": "Mùa 2 - P1 | Trò Chơi Xâm Lấn: Đòn Đánh Thường Tăng Máu, Một Tên Tỷ Sát Thương Đồ Sát Thần Minh",
           "url": "https://www.youtube.com/watch?v=H4V2sJxYuhc",
@@ -22907,7 +23085,7 @@
           "publishedAt": "2026-10-25T00:00:00+00:00"
         },
         {
-          "index": 3,
+          "index": 5,
           "label": "Mùa 2 - P2",
           "title": "Mùa 2 - P2 | Trò Chơi Xâm Lấn: Đòn Đánh Thường Tăng Máu, Một Tên Tỷ Sát Thương Đồ Sát Thần Minh",
           "url": "https://www.youtube.com/watch?v=fFiiYaoaBHg",
@@ -22920,10 +23098,10 @@
           "publishedAt": "2026-10-25T00:00:00+00:00"
         }
       ],
-      "totalViews": 43956,
-      "totalLikes": 231,
+      "totalViews": 59406,
+      "totalLikes": 317,
       "publishedAt": "2026-10-25T00:00:00+00:00",
-      "updatedAt": "2026-11-08T00:00:00+00:00",
+      "updatedAt": "2026-11-19T05:31:52+00:00",
       "isRecent24h": false
     },
     {
