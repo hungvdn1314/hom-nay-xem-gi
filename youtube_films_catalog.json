@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2274,
+    "totalFilms": 2275,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T10:31:10.005742+00:00"
+    "lastUpdated": "2026-11-20T10:45:25.925709+00:00"
   },
   "channels": [
     {
@@ -71,7 +71,7 @@
       "id": "gavangtutien",
       "name": "Gà Vàng Tu Tiên",
       "url": "https://www.youtube.com/@GaVangTuTien",
-      "filmCount": 80
+      "filmCount": 81
     },
     {
       "id": "zzzphim",
@@ -105,6 +105,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2394",
+      "title": "5H|VÔ HẠN LUÂN HỒI - KÍCH HOẠT HỆ THỐNG RÚT THƯỞNG,CÀNG KHIẾN NGƯỜI KHÁC KINH NGẠC CÀNG TA CÀNH MẠNH",
+      "channelId": "gavangtutien",
+      "channelName": "Gà Vàng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@GaVangTuTien",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 16934,
+      "totalDurationStr": "4 giờ 42 phút",
+      "totalViews": 10,
+      "totalLikes": 0,
+      "review": "5H|VÔ HẠN LUÂN HỒI - KÍCH HOẠT HỆ THỐNG RÚT THƯỞNG,CÀNG KHIẾN NGƯỜI KHÁC KINH NGẠC CÀNG TA CÀNH MẠNH 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/VaBoY_sPi5Y/hqdefault.jpg",
+      "publishedAt": "2026-11-20T10:41:14+00:00",
+      "updatedAt": "2026-11-20T10:41:14+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "5H|VÔ HẠN LUÂN HỒI - KÍCH HOẠT HỆ THỐNG RÚT THƯỞNG,CÀNG KHIẾN NGƯỜI KHÁC KINH NGẠC CÀNG TA CÀNH MẠNH",
+          "url": "https://www.youtube.com/watch?v=VaBoY_sPi5Y",
+          "id": "VaBoY_sPi5Y",
+          "duration": 16934,
+          "durationStr": "4:42:14",
+          "publishedAt": "2026-11-20T10:41:14+00:00",
+          "views": 10,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2393",
       "title": "TRÙNG SINH HỒNG HOANG: Ta Là Con Kim Ô Bá Đạo Nhất Lịch Sử giấu nghề tu luyện CHÍ CAO THIÊN ĐẾ",
