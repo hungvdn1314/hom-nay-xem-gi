@@ -4,7 +4,7 @@ window.FILMS_DATA = {
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T12:00:30.327735+00:00"
+    "lastUpdated": "2026-11-20T12:15:33.713023+00:00"
   },
   "channels": [
     {
@@ -4935,12 +4935,12 @@ window.FILMS_DATA = {
       "channelName": "Gà Vàng Tu Tiên",
       "channelUrl": "https://www.youtube.com/@GaVangTuTien",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 8012,
-      "totalDurationStr": "2 giờ 13 phút",
-      "totalViews": 36,
-      "totalLikes": 4,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 28738,
+      "totalDurationStr": "7 giờ 58 phút",
+      "totalViews": 86,
+      "totalLikes": 15,
       "review": "MÙA 2| TU TIÊN TRỞ VỀ VỊ HÔN THÊ CỦA TÔI KHÔNG THỂ GIẤU ĐƯỢC NỮA. 👉 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện 👉 Nội dung video là HƯ CẤU, chỉ nhằm mục đích GIẢI TRÍ 👉 Video được dịch và thuyết minh bởi GÀ VÀNG 👉Vui lòng không reup 👉VUI LÒNG KHÔNG LÀM THEO. ___",
       "genres": [
         "Tu tiên / Huyền huyễn",
@@ -4948,7 +4948,7 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i1.ytimg.com/vi/lS_s6iYnoXc/hqdefault.jpg",
       "publishedAt": "2026-11-17T15:16:40+00:00",
-      "updatedAt": "2026-11-17T15:16:40+00:00",
+      "updatedAt": "2026-11-20T12:03:23+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -4962,6 +4962,19 @@ window.FILMS_DATA = {
           "publishedAt": "2026-11-17T15:16:40+00:00",
           "views": 36,
           "likes": 4,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Mùa 3",
+          "title": "MÙA 3|TU TIÊN TRỞ VỀ VỊ HÔN THÊ CỦA TÔI KHÔNG THỂ GIẤU ĐƯỢC NỮA.",
+          "url": "https://www.youtube.com/watch?v=YiXx9w3QOIk",
+          "id": "YiXx9w3QOIk",
+          "duration": 20726,
+          "durationStr": "5:45:26",
+          "publishedAt": "2026-11-20T12:03:23+00:00",
+          "views": 50,
+          "likes": 11,
           "isRedundant": false
         }
       ]
