@@ -1,10 +1,10 @@
 {
   "stats": {
-    "totalFilms": 2262,
+    "totalFilms": 2263,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T04:00:26.630856+00:00"
+    "lastUpdated": "2026-11-20T04:30:35.497961+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 113
+      "filmCount": 114
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,43 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2382",
+      "title": "5,5 GIỜ | Ta Đã Trở Thành Thần Chỉ Muốn Sống An Nhàn - Sao Hệ Thống Vẫn Bắt Ta Thu Đồ",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19522,
+      "totalDurationStr": "5 giờ 25 phút",
+      "totalViews": 142,
+      "totalLikes": 12,
+      "review": "5,5 GIỜ | Ta Đã Trở Thành Thần Chỉ Muốn Sống An Nhàn - Sao Hệ Thống Vẫn Bắt Ta Thu Đồ Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng các hành động...",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/ybH7lUkZyKM/hqdefault.jpg",
+      "publishedAt": "2026-11-20T04:20:48+00:00",
+      "updatedAt": "2026-11-20T04:20:48+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "5,5 GIỜ | Ta Đã Trở Thành Thần Chỉ Muốn Sống An Nhàn - Sao Hệ Thống Vẫn Bắt Ta Thu Đồ",
+          "url": "https://www.youtube.com/watch?v=ybH7lUkZyKM",
+          "id": "ybH7lUkZyKM",
+          "duration": 19522,
+          "durationStr": "5:25:22",
+          "publishedAt": "2026-11-20T04:20:48+00:00",
+          "views": 142,
+          "likes": 12,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2381",
       "title": "7 GIỜ THỎA MÃN | Cửu Chuyển Huyền Công - Chỉ Mình Ta Chọn Tu Tiên Cấp Độ Địa Ngục",
