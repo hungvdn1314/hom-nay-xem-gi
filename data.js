@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2259,
+    "totalFilms": 2261,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T03:00:30.898037+00:00"
+    "lastUpdated": "2026-11-20T03:45:17.787752+00:00"
   },
   "channels": [
     {
@@ -35,7 +35,7 @@ window.FILMS_DATA = {
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 294
+      "filmCount": 295
     },
     {
       "id": "hoathinhmonganh",
@@ -47,7 +47,7 @@ window.FILMS_DATA = {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 224
+      "filmCount": 225
     },
     {
       "id": "tieusumuoi",
@@ -105,6 +105,82 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2380",
+      "title": "Full Phần 1 |【Siêu Thị Vạn Giới: Tôi Bán Gạo Và Bột Mì Để Cứu Sống Cả Gia Tộc!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9659,
+      "totalDurationStr": "2 giờ 40 phút",
+      "totalViews": 12,
+      "totalLikes": 3,
+      "review": "🎬 【Siêu Thị Vạn Giới: Tôi Bán Gạo Và Bột Mì Để Cứu Sống Cả Gia Tộc!】 🛒 Đang gánh khoản nợ 200 nghìn tệ, cô chủ siêu thị Phúc Lai bất ngờ đón một vị khách xuyên không. Đó là Tô Tiểu Hà, cô bé tám tuổi đến từ ngôi làng đang mất mùa, cả nhà phải cầm cự bằng cháo loãng giữa mùa đông đến sớm. 🌾 Cuộc gặp kích hoạt Hệ Thống Siêu Thị Vị Diện, cho phép khách mang...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/f01Noa_U3y0/hqdefault.jpg",
+      "publishedAt": "2026-11-20T03:40:22+00:00",
+      "updatedAt": "2026-11-20T03:40:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Siêu Thị Vạn Giới: Tôi Bán Gạo Và Bột Mì Để Cứu Sống Cả Gia Tộc!】",
+          "url": "https://www.youtube.com/watch?v=f01Noa_U3y0",
+          "id": "f01Noa_U3y0",
+          "duration": 9659,
+          "durationStr": "2:40:59",
+          "publishedAt": "2026-11-20T03:40:22+00:00",
+          "views": 12,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2379",
+      "title": "【Mùa 1–2】Tốt Nghiệp Liền Thức Tỉnh Hệ Thống, Tôi Dựa Vào Thực Lực Trở Thành Đại Lão!",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 21874,
+      "totalDurationStr": "6 giờ 04 phút",
+      "totalViews": 44,
+      "totalLikes": 0,
+      "review": "🎬 【Mùa 1–2】Tốt Nghiệp Liền Thức Tỉnh Hệ Thống, Tôi Dựa Vào Thực Lực Trở Thành Đại Lão! ⚡ Vừa tốt nghiệp, chàng thanh niên bất ngờ thức tỉnh hệ thống, mở ra bước ngoặt cho cuộc đời mình. Từ một người trẻ vừa rời ghế nhà trường, anh bắt đầu hành trình nắm bắt cơ hội, phát triển bản thân và từng bước khẳng định vị trí bằng thực lực. 🔥 Có hệ thống đồng hành,...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/-fOjU44vV2U/hqdefault.jpg",
+      "publishedAt": "2026-11-20T03:39:23+00:00",
+      "updatedAt": "2026-11-20T03:39:23+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Tốt Nghiệp Liền Thức Tỉnh Hệ Thống, Tôi Dựa Vào Thực Lực Trở Thành Đại Lão!",
+          "url": "https://www.youtube.com/watch?v=-fOjU44vV2U",
+          "id": "-fOjU44vV2U",
+          "duration": 21874,
+          "durationStr": "6:04:34",
+          "publishedAt": "2026-11-20T03:39:23+00:00",
+          "views": 44,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2378",
       "title": "12 GIỜ THỎA MÃN | Thường Dân Thành Hoàng Đế - Thiên Tài Võ Thuật Thống Lĩnh Vạn Thiết Kỵ",
@@ -56052,10 +56128,10 @@ window.FILMS_DATA = {
       "channelName": "ChiuChiuSubTV",
       "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 23507,
-      "totalDurationStr": "6 giờ 31 phút",
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 36675,
+      "totalDurationStr": "10 giờ 11 phút",
       "review": "Từ Bỏ Làm \"Liếm Cẩu\" Ta Thức Tỉnh Kiếm Hồn SSS Vô Địch Thiên Hạ. (1 phần (Phần 1))",
       "genres": [
         "Tu tiên / Huyền huyễn",
@@ -56075,13 +56151,26 @@ window.FILMS_DATA = {
           "views": 31805,
           "likes": 711,
           "publishedAt": "2026-10-23T00:00:00+00:00"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Phần 2 | Từ Bỏ Làm \"Liếm Cẩu\" Ta Thức Tỉnh Kiếm Hồn SSS Vô Địch Thiên Hạ",
+          "url": "https://www.youtube.com/watch?v=bjxJdLMW3_s",
+          "id": "bjxJdLMW3_s",
+          "duration": 13168,
+          "durationStr": "3:39:28",
+          "publishedAt": "2026-11-20T03:28:24+00:00",
+          "views": 71,
+          "likes": 4,
+          "isRedundant": false
         }
       ],
-      "totalViews": 31805,
-      "totalLikes": 711,
+      "totalViews": 31876,
+      "totalLikes": 715,
       "publishedAt": "2026-10-23T00:00:00+00:00",
-      "updatedAt": "2026-10-23T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-20T03:28:24+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_611",
