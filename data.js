@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2267,
+    "totalFilms": 2268,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T07:00:26.749993+00:00"
+    "lastUpdated": "2026-11-20T07:45:59.867495+00:00"
   },
   "channels": [
     {
@@ -83,7 +83,7 @@ window.FILMS_DATA = {
       "id": "thaolac",
       "name": "Thảo Lác",
       "url": "https://www.youtube.com/@Thaolac6868",
-      "filmCount": 115
+      "filmCount": 116
     },
     {
       "id": "gianhireview",
@@ -105,6 +105,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2387",
+      "title": "P1-2 |10 GIỜ THỎA MÃN | Xuyên Làm Tử Tù Lưu Đày Biên Ải - Dùng Kiến Thức Hiện Đại Vươn Lên Đại Tướng",
+      "channelId": "thaolac",
+      "channelName": "Thảo Lác",
+      "channelUrl": "https://www.youtube.com/@Thaolac6868",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 36080,
+      "totalDurationStr": "10 giờ 01 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "P1-2 |10 GIỜ THỎA MÃN | Xuyên Làm Tử Tù Lưu Đày Biên Ải - Dùng Kiến Thức Hiện Đại Vươn Lên Đại Tướng Kênh chuyên chia sẻ truyện giải trí được sáng tạo và xây dựng bằng công nghệ AI. 📌 Tất cả nhân vật, tình huống và nội dung trong video đều là hư cấu, không có thật và chỉ nhằm mục đích giải trí. 🚫 Đề nghị người xem không bắt chước, làm theo hoặc áp dụng...",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/7tQdWV08nes/hqdefault.jpg",
+      "publishedAt": "2026-11-20T07:32:01+00:00",
+      "updatedAt": "2026-11-20T07:32:01+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-2",
+          "title": "P1-2 |10 GIỜ THỎA MÃN | Xuyên Làm Tử Tù Lưu Đày Biên Ải - Dùng Kiến Thức Hiện Đại Vươn Lên Đại Tướng",
+          "url": "https://www.youtube.com/watch?v=7tQdWV08nes",
+          "id": "7tQdWV08nes",
+          "duration": 36080,
+          "durationStr": "10:01:20",
+          "publishedAt": "2026-11-20T07:32:01+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2386",
       "title": "Phần 1, Thức Tỉnh Hệ Thống Hoá Độc Thành Đại Bổ, Ta Trở Thành Võ Giả, Bước Vào Con Đường Trảm Yêu",
