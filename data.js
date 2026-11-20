@@ -1,10 +1,10 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2278,
+    "totalFilms": 2280,
     "totalChannels": 16,
     "totalDurationHours": 6712,
     "totalDurationStr": "6,712 giờ 3 phút",
-    "lastUpdated": "2026-11-20T11:45:27.084327+00:00"
+    "lastUpdated": "2026-11-20T12:00:30.327735+00:00"
   },
   "channels": [
     {
@@ -35,7 +35,7 @@ window.FILMS_DATA = {
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 297
+      "filmCount": 298
     },
     {
       "id": "hoathinhmonganh",
@@ -47,7 +47,7 @@ window.FILMS_DATA = {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 227
+      "filmCount": 228
     },
     {
       "id": "tieusumuoi",
@@ -105,6 +105,81 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2399",
+      "title": "Bất Ngờ Bị Kéo Vào Thế Giới Quy Tắc Quỷ Dị, Hệ Thống Lại Ép Tôi Chinh Phục Nữ Tiếp Viên Hàng Không",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10889,
+      "totalDurationStr": "3 giờ 01 phút",
+      "totalViews": 17,
+      "totalLikes": 2,
+      "review": "🎬 【Bất Ngờ Bị Kéo Vào Thế Giới Quy Tắc Quỷ Dị, Hệ Thống Lại Ép Tôi Chinh Phục Nữ Tiếp Viên Hàng Không Quỷ Dị Số 007!】 ✈️ Lâm Độ bị đưa lên chuyến bay quỷ dị có tỷ lệ sống sót chỉ 3%. Đáng sợ hơn, trưởng tiếp viên Hạ Mạt chính là người phụ nữ xuất hiện trong những giấc mơ lặp lại của anh! Dây an toàn siết chặt, bữa ăn có độc… mỗi thử thách đều có thể lấy...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/sUfUd-qRLsM/hqdefault.jpg",
+      "publishedAt": "2026-11-20T11:46:17+00:00",
+      "updatedAt": "2026-11-20T11:46:17+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Bất Ngờ Bị Kéo Vào Thế Giới Quy Tắc Quỷ Dị, Hệ Thống Lại Ép Tôi Chinh Phục Nữ Tiếp Viên Hàng Không",
+          "url": "https://www.youtube.com/watch?v=sUfUd-qRLsM",
+          "id": "sUfUd-qRLsM",
+          "duration": 10889,
+          "durationStr": "3:01:29",
+          "publishedAt": "2026-11-20T11:46:17+00:00",
+          "views": 17,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2398",
+      "title": "Full Phần 1 |【Anh Chàng Này Được Đấy, Có Chuyện Là Dám Ra Tay Thật!】",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10890,
+      "totalDurationStr": "3 giờ 01 phút",
+      "totalViews": 72,
+      "totalLikes": 4,
+      "review": "🎬 【Anh Chàng Này Được Đấy, Có Chuyện Là Dám Ra Tay Thật!】 📹 Xuyên đến thế giới song song trong thân phận đạo sĩ, Phương đạo trưởng ngỡ ngàng phát hiện đạo quán của mình đã thành điểm du lịch, về nhà cũng phải mua vé! Để kiếm tiền mua lại đạo quán, anh nhận lời tham gia Bậc Thầy Toàn Nghề, cạnh tranh cùng 99 thí sinh để giành giải thưởng 100 triệu tệ. 🔥...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/nJbsqr2Q1tQ/hqdefault.jpg",
+      "publishedAt": "2026-11-20T11:45:40+00:00",
+      "updatedAt": "2026-11-20T11:45:40+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Anh Chàng Này Được Đấy, Có Chuyện Là Dám Ra Tay Thật!】",
+          "url": "https://www.youtube.com/watch?v=nJbsqr2Q1tQ",
+          "id": "nJbsqr2Q1tQ",
+          "duration": 10890,
+          "durationStr": "3:01:30",
+          "publishedAt": "2026-11-20T11:45:40+00:00",
+          "views": 72,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2397",
       "title": "Tộc Trưởng Bế Quan Vạn Năm - Nhận Ngay Tu Vi Đại Đế Đỉnh Phong Khi Cả Tộc Lâm Nguy",
@@ -35601,10 +35676,10 @@ window.FILMS_DATA = {
       "channelName": "Thiên Phạt Review",
       "channelUrl": "https://www.youtube.com/@thienphatreview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLaO2DbrL1ATI",
-      "totalParts": 5,
-      "partsStr": "5 phần",
-      "totalDurationSec": 51840,
-      "totalDurationStr": "14 giờ 24 phút",
+      "totalParts": 6,
+      "partsStr": "6 phần",
+      "totalDurationSec": 60243,
+      "totalDurationStr": "16 giờ 44 phút",
       "review": "Trọng Sinh Trước Tận Thế, Thức Tỉnh Dị Năng Không Gian, Điên Cuồng Tích Trữ Vật Tư. (5 phần / 5 video (Phần 1, Phần 6, Phần 7, Phần 8, Phần 9))",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -35676,13 +35751,26 @@ window.FILMS_DATA = {
           "views": 23340,
           "likes": 515,
           "publishedAt": "2026-10-29T00:00:00+00:00"
+        },
+        {
+          "index": 6,
+          "label": "Phần 10",
+          "title": "Phần 10 | Mạt Thế Sinh Tồn: Trọng Sinh Trước Tận Thế, Thức Tỉnh Dị Năng Không Gian, Tích Trữ Vật Tư",
+          "url": "https://www.youtube.com/watch?v=5eoGIyxK09c",
+          "id": "5eoGIyxK09c",
+          "duration": 8403,
+          "durationStr": "2:20:03",
+          "publishedAt": "2026-11-20T12:00:06+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
         }
       ],
       "totalViews": 159184,
       "totalLikes": 3307,
       "publishedAt": "2026-08-27T00:00:00+00:00",
-      "updatedAt": "2026-10-29T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-20T12:00:06+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_76",
