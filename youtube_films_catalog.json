@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2083,
+    "totalFilms": 2084,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T01:45:19.379168+00:00"
+    "lastUpdated": "2026-11-21T02:45:21.163155+00:00"
   },
   "channels": [
     {
@@ -49,7 +49,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 230
+      "filmCount": 231
     },
     {
       "id": "tieusumuoi",
@@ -89,6 +89,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2084",
+      "title": "Full Phần 1 | Toàn Dân Thành Phố Di Động: Tôi Dựa Vào Bạo Kích Để Biến Cả Thành Phố Thành Siêu Cường",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10327,
+      "totalDurationStr": "2 giờ 52 phút",
+      "totalViews": 26,
+      "totalLikes": 2,
+      "review": "🎬 【Toàn Dân Thành Phố Di Động: Tôi Dựa Vào Bạo Kích Để Biến Cả Thành Phố Thành Siêu Cường!】 🏙️ Xuyên đến vùng đất hoang, Khương Chí Húc chứng kiến dân chúng đói khát dưới sự cai trị của thành chủ. Đúng lúc ấy, Hệ Thống Bạo Kích Vạn Lần thức tỉnh, biến một ổ bánh mì thành nguồn lương thực cứu đói! Nhờ đó, Khương Chí Húc tập hợp mọi người, lật đổ thành chủ...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/hVFFzZrpQS4/hqdefault.jpg",
+      "publishedAt": "2026-11-21T02:37:35+00:00",
+      "updatedAt": "2026-11-21T02:37:35+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Toàn Dân Thành Phố Di Động: Tôi Dựa Vào Bạo Kích Để Biến Cả Thành Phố Thành Siêu Cường",
+          "url": "https://www.youtube.com/watch?v=hVFFzZrpQS4",
+          "id": "hVFFzZrpQS4",
+          "duration": 10327,
+          "durationStr": "2:52:07",
+          "publishedAt": "2026-11-21T02:37:35+00:00",
+          "views": 26,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2082",
       "title": "【Mùa 1–2】Người Đòi Nợ Vạn Giới: Gánh Khoản Nợ Khổng Lồ Cha Để Lại",
