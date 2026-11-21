@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2087,
+    "totalFilms": 2088,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T07:15:28.424890+00:00"
+    "lastUpdated": "2026-11-21T08:45:19.301832+00:00"
   },
   "channels": [
     {
@@ -67,7 +67,7 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 75
+      "filmCount": 76
     },
     {
       "id": "gianhireview",
@@ -89,6 +89,43 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2088",
+      "title": "Bé Gái 3 Tuổi Bị Đuổi Khỏi Căn Cứ Mạt Thế, Nào Ngờ Một Tát Hạ Quái Vật, Nhặt Nguyên Soái Làm Cha!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 4880,
+      "totalDurationStr": "1 giờ 21 phút",
+      "totalViews": 13,
+      "totalLikes": 0,
+      "review": "Bé Gái 3 Tuổi Bị Đuổi Khỏi Căn Cứ Mạt Thế, Nào Ngờ Một Tát Hạ Quái Vật, Nhặt Nguyên Soái Làm Cha!",
+      "genres": [
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/gprZQmvvkqY/hqdefault.jpg",
+      "publishedAt": "2026-11-21T08:38:42+00:00",
+      "updatedAt": "2026-11-21T08:38:42+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Bé Gái 3 Tuổi Bị Đuổi Khỏi Căn Cứ Mạt Thế, Nào Ngờ Một Tát Hạ Quái Vật, Nhặt Nguyên Soái Làm Cha!",
+          "url": "https://www.youtube.com/watch?v=gprZQmvvkqY",
+          "id": "gprZQmvvkqY",
+          "duration": 4880,
+          "durationStr": "1:21:20",
+          "publishedAt": "2026-11-21T08:38:42+00:00",
+          "views": 13,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2087",
       "title": "P1, Xuyên Vào Game Làm Boss Vong Linh, Thiếu Niên Dùng Mưu Trí Và Sức Mạnh Xây Dựng Đế Chế Ma Tộc",
