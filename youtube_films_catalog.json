@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2093,
+    "totalFilms": 2095,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T13:00:32.248851+00:00"
+    "lastUpdated": "2026-11-21T13:15:20.814781+00:00"
   },
   "channels": [
     {
@@ -25,7 +25,7 @@
       "id": "chiuchiusubtv",
       "name": "ChiuChiuSubTV",
       "url": "https://www.youtube.com/@chiuchiusubtv",
-      "filmCount": 176
+      "filmCount": 177
     },
     {
       "id": "melacreview",
@@ -49,7 +49,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 234
+      "filmCount": 235
     },
     {
       "id": "tieusumuoi",
@@ -89,6 +89,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2095",
+      "title": "Full Phần 1 | 【Quái Đàm Từ Hàng: Tôi Có Thể Hồi Quy Vô Hạn!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13037,
+      "totalDurationStr": "3 giờ 37 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Quái Đàm Từ Hàng: Tôi Có Thể Hồi Quy Vô Hạn!】 👻 Một thế giới quái đàm kinh dị, nơi những quy tắc kỳ quái có thể quyết định sự sống và cái chết! Giữa hành trình đầy rẫy hiểm nguy, nhân vật chính sở hữu năng lực đặc biệt Hồi Quy Vô Hạn – cho phép quay trở lại sau những lần thất bại, từng bước tìm kiếm manh mối và khám phá bí mật ẩn giấu sau các quy tắc...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/z5Sb4EINUHs/hqdefault.jpg",
+      "publishedAt": "2026-11-21T13:14:13+00:00",
+      "updatedAt": "2026-11-21T13:14:13+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Quái Đàm Từ Hàng: Tôi Có Thể Hồi Quy Vô Hạn!】",
+          "url": "https://www.youtube.com/watch?v=z5Sb4EINUHs",
+          "id": "z5Sb4EINUHs",
+          "duration": 13037,
+          "durationStr": "3:37:17",
+          "publishedAt": "2026-11-21T13:14:13+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2094",
+      "title": "Xuyên Không Thành Đệ Nhất Tra Nam, Cả Thế Giới Xem Anh Tán Đổ Dàn Nữ Đế Cực Phẩm",
+      "channelId": "chiuchiusubtv",
+      "channelName": "ChiuChiuSubTV",
+      "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 30519,
+      "totalDurationStr": "8 giờ 28 phút",
+      "totalViews": 48,
+      "totalLikes": 6,
+      "review": "📌 Tóm Tắt Phim: Trần Mộc - \"Kẻ thâm tình số 1 cõi mạng\" sau khi cày nát tựa game Tiên Hiệp và đạt thành tựu \"Kiếp Tra Nam\" (trêu đùa tình cảm của hàng loạt Nữ Đế, Ma Đầu, Tiên Tử) thì bất ngờ Trái Đất diệt vong. Anh bị cuốn vào trò chơi \"Quốc Vận Sinh Tồn\", nơi 10 tuyển thủ mỗi quốc gia phải giáng lâm thế giới Cửu Châu để gánh vác vận mệnh quê nhà. ⏱️...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/FUtrIZgt6rk/hqdefault.jpg",
+      "publishedAt": "2026-11-21T13:06:42+00:00",
+      "updatedAt": "2026-11-21T13:06:42+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Thành Đệ Nhất Tra Nam, Cả Thế Giới Xem Anh Tán Đổ Dàn Nữ Đế Cực Phẩm",
+          "url": "https://www.youtube.com/watch?v=FUtrIZgt6rk",
+          "id": "FUtrIZgt6rk",
+          "duration": 30519,
+          "durationStr": "8:28:39",
+          "publishedAt": "2026-11-21T13:06:42+00:00",
+          "views": 48,
+          "likes": 6,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2093",
       "title": "Xuyên Không Triệu Hồi Toàn Bộ Anh Hùng Tam Quốc, Nghịch Thiên Đổi Mệnh Khiến Thiên Hạ Chấn Động!",
