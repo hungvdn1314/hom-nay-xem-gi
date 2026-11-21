@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2085,
+    "totalFilms": 2086,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T04:30:31.511918+00:00"
+    "lastUpdated": "2026-11-21T05:00:28.369077+00:00"
   },
   "channels": [
     {
@@ -67,7 +67,7 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 74
+      "filmCount": 75
     },
     {
       "id": "gianhireview",
@@ -89,6 +89,43 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2086",
+      "title": "6 Năm Bị Ruồng Bỏ, Nào Ngờ Anh Thành Phó Giáo Sư, Y Thuật Nghịch Thiên",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5896,
+      "totalDurationStr": "1 giờ 38 phút",
+      "totalViews": 12,
+      "totalLikes": 0,
+      "review": "6 Năm Bị Ruồng Bỏ, Nào Ngờ Anh Thành Phó Giáo Sư Danh Giá, Y Thuật Nghịch Thiên",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/rI9Uk9w-aC0/hqdefault.jpg",
+      "publishedAt": "2026-11-21T04:53:36+00:00",
+      "updatedAt": "2026-11-21T04:53:36+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "6 Năm Bị Ruồng Bỏ, Nào Ngờ Anh Thành Phó Giáo Sư, Y Thuật Nghịch Thiên",
+          "url": "https://www.youtube.com/watch?v=rI9Uk9w-aC0",
+          "id": "rI9Uk9w-aC0",
+          "duration": 5896,
+          "durationStr": "1:38:16",
+          "publishedAt": "2026-11-21T04:53:36+00:00",
+          "views": 12,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2085",
       "title": "Full Phần 1 |【Phong Chủ Hoang Phong: Chỉ Cần Thu Nhận Đệ Tử Là Có Thể Ngồi Không Hưởng Tu Vi!】",
