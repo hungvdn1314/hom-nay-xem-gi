@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2089,
+    "totalFilms": 2090,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T09:30:33.180183+00:00"
+    "lastUpdated": "2026-11-21T10:00:28.047719+00:00"
   },
   "channels": [
     {
@@ -67,7 +67,7 @@ window.FILMS_DATA = {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 76
+      "filmCount": 77
     },
     {
       "id": "gianhireview",
@@ -89,6 +89,43 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2090",
+      "title": "Con Thứ Bị Tráo Hôn, Cha Ruột Đày Đến Thành Hoang, Nào Ngờ Nghịch Thiên Đổi Mệnh",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10085,
+      "totalDurationStr": "2 giờ 48 phút",
+      "totalViews": 6,
+      "totalLikes": 1,
+      "review": "Con Thứ Bị Tráo Hôn, Cha Ruột Đày Đến Thành Hoang, Nào Ngờ Nghịch Thiên Đổi Mệnh",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/j07X2canRE8/hqdefault.jpg",
+      "publishedAt": "2026-11-21T09:46:08+00:00",
+      "updatedAt": "2026-11-21T09:46:08+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Con Thứ Bị Tráo Hôn, Cha Ruột Đày Đến Thành Hoang, Nào Ngờ Nghịch Thiên Đổi Mệnh",
+          "url": "https://www.youtube.com/watch?v=j07X2canRE8",
+          "id": "j07X2canRE8",
+          "duration": 10085,
+          "durationStr": "2:48:05",
+          "publishedAt": "2026-11-21T09:46:08+00:00",
+          "views": 6,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2089",
       "title": "【Mùa 1】Thần Nhãn Thấu Thị: Tôi Dựa Vào Đổ Thạch Để Mở Ra Cuộc Đời Bật Hack Vô Địch!",
