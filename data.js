@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T05:30:33.921366+00:00"
+    "lastUpdated": "2026-11-21T07:15:28.424890+00:00"
   },
   "channels": [
     {
@@ -36283,10 +36283,10 @@ window.FILMS_DATA = {
       "channelName": "Vân Mộng Studio",
       "channelUrl": "https://www.youtube.com/@vanmonggiao",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7707,
-      "totalDurationStr": "2 giờ 08 phút",
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 17375,
+      "totalDurationStr": "4 giờ 49 phút",
       "review": "Dị Văn Của Người Trực Ca. (1 phần (Phần 1))",
       "genres": [
         "Quỷ dị / Linh dị"
@@ -36305,13 +36305,26 @@ window.FILMS_DATA = {
           "views": 84640,
           "likes": 2139,
           "publishedAt": "2026-11-01T00:00:00+00:00"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Full Phần 2 | Quỷ Dị Xâm Lấn: Dị Văn Của Người Trực Ca",
+          "url": "https://www.youtube.com/watch?v=5wSPnW_oVgk",
+          "id": "5wSPnW_oVgk",
+          "duration": 9668,
+          "durationStr": "2:41:08",
+          "publishedAt": "2026-11-21T07:08:59+00:00",
+          "views": 8,
+          "likes": 1,
+          "isRedundant": false
         }
       ],
-      "totalViews": 84640,
-      "totalLikes": 2139,
+      "totalViews": 84648,
+      "totalLikes": 2140,
       "publishedAt": "2026-11-01T00:00:00+00:00",
-      "updatedAt": "2026-11-01T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-21T07:08:59+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_846",
