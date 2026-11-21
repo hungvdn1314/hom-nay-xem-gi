@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T02:45:21.163155+00:00"
+    "lastUpdated": "2026-11-21T03:00:36.005738+00:00"
   },
   "channels": [
     {
@@ -29991,10 +29991,10 @@ window.FILMS_DATA = {
       "channelName": "Thiên Ảnh Studio",
       "channelUrl": "https://www.youtube.com/@thienanhstudio9",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLJAhtCeZ1kNk",
-      "totalParts": 5,
-      "partsStr": "5 phần",
-      "totalDurationSec": 52378,
-      "totalDurationStr": "14 giờ 32 phút",
+      "totalParts": 6,
+      "partsStr": "6 phần",
+      "totalDurationSec": 64190,
+      "totalDurationStr": "17 giờ 49 phút",
       "review": "Ngụy Nhân Giáng Lâm! Ta Là Nhà Tiên Tri Duy Nhất Toàn Trường!. (5 phần (Phần 1 -> 5))",
       "genres": [
         "Quỷ dị / Linh dị"
@@ -30059,13 +30059,26 @@ window.FILMS_DATA = {
           "views": 6774,
           "likes": 112,
           "publishedAt": "2026-11-05T00:00:00+00:00"
+        },
+        {
+          "index": 6,
+          "label": "Phần 6",
+          "title": "Full Phần 6 | Ngụy Nhân Giáng Lâm! Ta Là Nhà Tiên Tri Duy Nhất Toàn Trường!",
+          "url": "https://www.youtube.com/watch?v=2fxM8cDt2oA",
+          "id": "2fxM8cDt2oA",
+          "duration": 11812,
+          "durationStr": "3:16:52",
+          "publishedAt": "2026-11-21T02:35:14+00:00",
+          "views": 56,
+          "likes": 6,
+          "isRedundant": false
         }
       ],
-      "totalViews": 36273,
-      "totalLikes": 613,
+      "totalViews": 36329,
+      "totalLikes": 619,
       "publishedAt": "2026-10-01T00:00:00+00:00",
-      "updatedAt": "2026-11-05T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-21T02:35:14+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_698",
