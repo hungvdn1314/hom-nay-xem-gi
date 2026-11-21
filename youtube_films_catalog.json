@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2088,
+    "totalFilms": 2089,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T08:45:19.301832+00:00"
+    "lastUpdated": "2026-11-21T09:30:33.180183+00:00"
   },
   "channels": [
     {
@@ -49,7 +49,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 232
+      "filmCount": 233
     },
     {
       "id": "tieusumuoi",
@@ -89,6 +89,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2089",
+      "title": "【Mùa 1】Thần Nhãn Thấu Thị: Tôi Dựa Vào Đổ Thạch Để Mở Ra Cuộc Đời Bật Hack Vô Địch!",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 16196,
+      "totalDurationStr": "4 giờ 29 phút",
+      "totalViews": 3,
+      "totalLikes": 1,
+      "review": "🎬 【Mùa 1】Thần Nhãn Thấu Thị: Tôi Dựa Vào Đổ Thạch Để Mở Ra Cuộc Đời Bật Hack Vô Địch! 👁️ Vì cứu chú chó A Hoàng, chàng trai nghèo bị ô tô tông trúng. Tỉnh lại, anh bất ngờ sở hữu đôi mắt thấu thị, vừa nhìn xuyên vật thể, vừa phân biệt thật giả và định giá bảo vật! Với vỏn vẹn 100 tệ trong túi, anh bắt đầu thử năng lực bằng những tấm vé cào. 💎 Từ món đồ...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/c7dG8RD5lmw/hqdefault.jpg",
+      "publishedAt": "2026-11-21T09:29:00+00:00",
+      "updatedAt": "2026-11-21T09:29:00+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "【Mùa 1】Thần Nhãn Thấu Thị: Tôi Dựa Vào Đổ Thạch Để Mở Ra Cuộc Đời Bật Hack Vô Địch!",
+          "url": "https://www.youtube.com/watch?v=c7dG8RD5lmw",
+          "id": "c7dG8RD5lmw",
+          "duration": 16196,
+          "durationStr": "4:29:56",
+          "publishedAt": "2026-11-21T09:29:00+00:00",
+          "views": 3,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2088",
       "title": "Bé Gái 3 Tuổi Bị Đuổi Khỏi Căn Cứ Mạt Thế, Nào Ngờ Một Tát Hạ Quái Vật, Nhặt Nguyên Soái Làm Cha!",
