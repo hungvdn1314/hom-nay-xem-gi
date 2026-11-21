@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T00:45:29.877454+00:00"
+    "lastUpdated": "2026-11-21T01:45:19.379168+00:00"
   },
   "channels": [
     {
@@ -23035,10 +23035,10 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLSxqDwFkAU90",
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 52376,
-      "totalDurationStr": "14 giờ 32 phút",
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 66422,
+      "totalDurationStr": "18 giờ 27 phút",
       "review": "Bắt Đầu Từ Một Tên Tiểu Binh. (4 phần (2 video, có bản gộp))",
       "genres": [
         "Hoạt hình 3D Chọn Lọc"
@@ -23070,13 +23070,26 @@ window.FILMS_DATA = {
           "views": 16563,
           "likes": 132,
           "publishedAt": "2026-11-08T00:00:00+00:00"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 5",
+          "title": "Mùa 5 | Bắt Đầu Từ Một Tên Tiểu Binh",
+          "url": "https://www.youtube.com/watch?v=T1_kae9r4N0",
+          "id": "T1_kae9r4N0",
+          "duration": 14046,
+          "durationStr": "3:54:06",
+          "publishedAt": "2026-11-21T01:41:54+00:00",
+          "views": 4,
+          "likes": 1,
+          "isRedundant": false
         }
       ],
-      "totalViews": 42524,
-      "totalLikes": 311,
+      "totalViews": 42528,
+      "totalLikes": 312,
       "publishedAt": "2026-11-08T00:00:00+00:00",
-      "updatedAt": "2026-11-08T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-21T01:41:54+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_541",
@@ -25084,10 +25097,10 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLcwqrGDPRrtg",
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 85966,
-      "totalDurationStr": "23 giờ 52 phút",
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 118362,
+      "totalDurationStr": "32 giờ 52 phút",
       "review": "Sau Khi Hòa Ly, Ta Dẫn Con Gái Quét Ngang Ma Vực. (3 phần / 3 video (Mùa 1-P1, Mùa 1-P2, Mùa 2))",
       "genres": [
         "Hoạt hình 3D Chọn Lọc"
@@ -25109,6 +25122,19 @@ window.FILMS_DATA = {
         },
         {
           "index": 2,
+          "label": "Mùa 3",
+          "title": "Mùa 3 (END) | Sau Khi Hòa Ly, Ta Dẫn Con Gái Quét Ngang Ma Vực",
+          "url": "https://www.youtube.com/watch?v=UcQWNUQMvrU",
+          "id": "UcQWNUQMvrU",
+          "duration": 32396,
+          "durationStr": "8:59:56",
+          "publishedAt": "2026-11-21T00:27:18+00:00",
+          "views": 125,
+          "likes": 11,
+          "isRedundant": false
+        },
+        {
+          "index": 3,
           "label": "Mùa 1 - P1",
           "title": "Mùa 1 - P1 | Sau Khi Hòa Ly, Ta Dẫn Con Gái Quét Ngang Ma Vực",
           "url": "https://www.youtube.com/watch?v=DcT5SxQY2kQ",
@@ -25121,7 +25147,7 @@ window.FILMS_DATA = {
           "publishedAt": "2026-10-29T00:00:00+00:00"
         },
         {
-          "index": 3,
+          "index": 4,
           "label": "Mùa 1 - P2",
           "title": "Mùa 1 - P2 | Sau Khi Hòa Ly, Ta Dẫn Con Gái Quét Ngang Ma Vực",
           "url": "https://www.youtube.com/watch?v=nzPcv-YMPDY",
@@ -25134,11 +25160,11 @@ window.FILMS_DATA = {
           "publishedAt": "2026-10-29T00:00:00+00:00"
         }
       ],
-      "totalViews": 99058,
-      "totalLikes": 971,
+      "totalViews": 99183,
+      "totalLikes": 982,
       "publishedAt": "2026-10-29T00:00:00+00:00",
-      "updatedAt": "2026-11-07T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-21T00:27:18+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_588",
