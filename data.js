@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T14:00:29.346878+00:00"
+    "lastUpdated": "2026-11-21T18:30:33.834443+00:00"
   },
   "channels": [
     {
@@ -6303,18 +6303,18 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": null,
-      "totalParts": 5,
-      "partsStr": "5 phần",
-      "totalDurationSec": 48953,
-      "totalDurationStr": "13 giờ 35 phút",
+      "totalParts": 6,
+      "partsStr": "6 phần",
+      "totalDurationSec": 59007,
+      "totalDurationStr": "16 giờ 23 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Mùa 26 | Thái Huyền Thai Châu Truyện(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi)Trần Trường An, người đã vạn n",
       "genres": [
         "Võ hiệp / Cổ trang"
       ],
       "thumbnail": "https://i4.ytimg.com/vi/_YGLfRyA8-E/hqdefault.jpg",
       "publishedAt": "2026-11-11T18:52:15+00:00",
-      "updatedAt": "2026-11-18T17:56:38+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-21T18:26:28+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -6380,10 +6380,23 @@ window.FILMS_DATA = {
           "views": 16608,
           "likes": 302,
           "isRedundant": false
+        },
+        {
+          "index": 6,
+          "label": "Mùa 31",
+          "title": "Mùa 31 | Thái Huyền Thai Châu Truyện",
+          "url": "https://www.youtube.com/watch?v=VFYCVbX02Ao",
+          "id": "VFYCVbX02Ao",
+          "duration": 10054,
+          "durationStr": "2:47:34",
+          "publishedAt": "2026-11-21T18:26:28+00:00",
+          "views": 17,
+          "likes": 1,
+          "isRedundant": false
         }
       ],
-      "totalViews": 82050,
-      "totalLikes": 1259
+      "totalViews": 82067,
+      "totalLikes": 1260
     },
     {
       "id": "film_136",
