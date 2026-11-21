@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2091,
+    "totalFilms": 2092,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T10:30:41.008184+00:00"
+    "lastUpdated": "2026-11-21T10:45:28.623868+00:00"
   },
   "channels": [
     {
@@ -49,7 +49,7 @@ window.FILMS_DATA = {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 233
+      "filmCount": 234
     },
     {
       "id": "tieusumuoi",
@@ -89,6 +89,43 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2092",
+      "title": "Full Phần 1 | Bình Luận Trên Màn Hình Cực Kỳ Thú Vị!",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 4419,
+      "totalDurationStr": "1 giờ 13 phút",
+      "totalViews": 19,
+      "totalLikes": 2,
+      "review": "🎬 【Bình Luận Trên Màn Hình Cực Kỳ Thú Vị!】 ✨ Một câu chuyện đầy bất ngờ bắt đầu khi những dòng bình luận kỳ lạ liên tục xuất hiện trên màn hình, tiết lộ những thông tin mà các nhân vật trong câu chuyện không hề hay biết! Tưởng chừng chỉ là những lời nhận xét bình thường, nhưng các dòng bình luận ấy lại ẩn chứa vô số bí mật, những tình tiết khó đoán và cả...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/FIjoGT1HiyY/hqdefault.jpg",
+      "publishedAt": "2026-11-21T10:37:26+00:00",
+      "updatedAt": "2026-11-21T10:37:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Bình Luận Trên Màn Hình Cực Kỳ Thú Vị!",
+          "url": "https://www.youtube.com/watch?v=FIjoGT1HiyY",
+          "id": "FIjoGT1HiyY",
+          "duration": 4419,
+          "durationStr": "1:13:39",
+          "publishedAt": "2026-11-21T10:37:26+00:00",
+          "views": 19,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2091",
       "title": "Phần 1, Mỗi Tháng Đổi Một Nghề Nghiệp, Thiếu Niên Thức Tỉnh Hệ Thống Bá Đạo, Chinh Phục Dị Giới",
