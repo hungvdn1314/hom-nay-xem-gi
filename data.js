@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T13:15:20.814781+00:00"
+    "lastUpdated": "2026-11-21T14:00:29.346878+00:00"
   },
   "channels": [
     {
@@ -31439,10 +31439,10 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLPhCFoGMkwZ8",
-      "totalParts": 4,
-      "partsStr": "4 phần",
-      "totalDurationSec": 110049,
-      "totalDurationStr": "30 giờ 34 phút",
+      "totalParts": 5,
+      "partsStr": "5 phần",
+      "totalDurationSec": 118988,
+      "totalDurationStr": "33 giờ 03 phút",
       "review": "Nhà có năm cô con gái, anh chàng xuyên không thâu đêm lập nghiệp. (4 phần / 4 video (Mùa 1-P1, Mùa 1-P2, Mùa 2-P1, Mùa 2-P2))",
       "genres": [
         "Xuyên không / Trọng sinh"
@@ -31500,13 +31500,26 @@ window.FILMS_DATA = {
           "views": 21239,
           "likes": 227,
           "publishedAt": "2026-11-04T00:00:00+00:00"
+        },
+        {
+          "index": 5,
+          "label": "Mùa 2 - P3",
+          "title": "Mùa 2 - P3 (EP759-892) | Nhà có năm cô con gái, anh chàng xuyên không thâu đêm lập nghiệp",
+          "url": "https://www.youtube.com/watch?v=p09XpkYOhnc",
+          "id": "p09XpkYOhnc",
+          "duration": 8939,
+          "durationStr": "2:28:59",
+          "publishedAt": "2026-11-21T13:52:08+00:00",
+          "views": 80,
+          "likes": 8,
+          "isRedundant": false
         }
       ],
-      "totalViews": 126531,
-      "totalLikes": 1109,
+      "totalViews": 126611,
+      "totalLikes": 1117,
       "publishedAt": "2026-10-08T00:00:00+00:00",
-      "updatedAt": "2026-11-04T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-21T13:52:08+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_722",
