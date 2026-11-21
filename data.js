@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2092,
+    "totalFilms": 2093,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T10:45:28.623868+00:00"
+    "lastUpdated": "2026-11-21T13:00:32.248851+00:00"
   },
   "channels": [
     {
@@ -67,7 +67,7 @@ window.FILMS_DATA = {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 77
+      "filmCount": 78
     },
     {
       "id": "gianhireview",
@@ -89,6 +89,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2093",
+      "title": "Xuyên Không Triệu Hồi Toàn Bộ Anh Hùng Tam Quốc, Nghịch Thiên Đổi Mệnh Khiến Thiên Hạ Chấn Động!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 44127,
+      "totalDurationStr": "12 giờ 15 phút",
+      "totalViews": 27,
+      "totalLikes": 1,
+      "review": "Xuyên Không Triệu Hồi Toàn Bộ Anh Hùng Tam Quốc, Nghịch Thiên Đổi Mệnh Khiến Thiên Hạ Chấn Động!",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/LfNhcBfo2NA/hqdefault.jpg",
+      "publishedAt": "2026-11-21T12:48:10+00:00",
+      "updatedAt": "2026-11-21T12:48:10+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Triệu Hồi Toàn Bộ Anh Hùng Tam Quốc, Nghịch Thiên Đổi Mệnh Khiến Thiên Hạ Chấn Động!",
+          "url": "https://www.youtube.com/watch?v=LfNhcBfo2NA",
+          "id": "LfNhcBfo2NA",
+          "duration": 44127,
+          "durationStr": "12:15:27",
+          "publishedAt": "2026-11-21T12:48:10+00:00",
+          "views": 27,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2092",
       "title": "Full Phần 1 | Bình Luận Trên Màn Hình Cực Kỳ Thú Vị!",
