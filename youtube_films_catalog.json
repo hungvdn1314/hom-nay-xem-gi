@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2081,
+    "totalFilms": 2083,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-20T19:15:21.952094+00:00"
+    "lastUpdated": "2026-11-21T00:45:29.877454+00:00"
   },
   "channels": [
     {
@@ -37,7 +37,7 @@
       "id": "thienanhstudio9",
       "name": "Thiên Ảnh Studio",
       "url": "https://www.youtube.com/@thienanhstudio9",
-      "filmCount": 299
+      "filmCount": 300
     },
     {
       "id": "hoathinhmonganh",
@@ -49,7 +49,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 229
+      "filmCount": 230
     },
     {
       "id": "tieusumuoi",
@@ -89,6 +89,81 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2082",
+      "title": "【Mùa 1–2】Người Đòi Nợ Vạn Giới: Gánh Khoản Nợ Khổng Lồ Cha Để Lại",
+      "channelId": "thienanhstudio9",
+      "channelName": "Thiên Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@thienanhstudio9",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 24891,
+      "totalDurationStr": "6 giờ 54 phút",
+      "totalViews": 20,
+      "totalLikes": 3,
+      "review": "🎬 【Mùa 1–2】Người Đòi Nợ Vạn Giới: Gánh Khoản Nợ Khổng Lồ Cha Để Lại 💸 Gánh khoản nợ khổng lồ cha để lại, chàng thanh niên bước vào hành trình đòi nợ xuyên vạn giới. Muốn giải quyết món nợ của bản thân, anh phải tìm cách thu hồi những khoản nợ khác, đối mặt với những con nợ chẳng dễ thương lượng. 🔥 Mỗi lần đòi nợ là một thử thách về bản lĩnh và cách ứng...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/I-S3Mtu1KX8/hqdefault.jpg",
+      "publishedAt": "2026-11-21T00:38:02+00:00",
+      "updatedAt": "2026-11-21T00:38:02+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Người Đòi Nợ Vạn Giới: Gánh Khoản Nợ Khổng Lồ Cha Để Lại",
+          "url": "https://www.youtube.com/watch?v=I-S3Mtu1KX8",
+          "id": "I-S3Mtu1KX8",
+          "duration": 24891,
+          "durationStr": "6:54:51",
+          "publishedAt": "2026-11-21T00:38:02+00:00",
+          "views": 20,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2083",
+      "title": "Full Phần 1 |【Càng Ăn Bám, Tôi Càng Mạnh!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12126,
+      "totalDurationStr": "3 giờ 22 phút",
+      "totalViews": 15,
+      "totalLikes": 3,
+      "review": "🎬 【Càng Ăn Bám, Tôi Càng Mạnh!】 💍 Vừa tốt nghiệp đại học, Cố Thành đã bị mẹ giục đi xem mắt. Tưởng nữ tổng tài Diệp Nhu đến chọn chồng cho con gái, anh mới ngỡ ngàng phát hiện chính cô mới là đối tượng kết hôn! Biệt thự, siêu xe cùng khoản tiền tiêu vặt hậu hĩnh khiến buổi gặp mặt trở thành bước ngoặt khó ngờ. 🔥 Đúng lúc đứng trước lựa chọn hôn nhân, hệ...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/CUMS9MGmL9c/hqdefault.jpg",
+      "publishedAt": "2026-11-21T00:36:22+00:00",
+      "updatedAt": "2026-11-21T00:36:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Càng Ăn Bám, Tôi Càng Mạnh!】",
+          "url": "https://www.youtube.com/watch?v=CUMS9MGmL9c",
+          "id": "CUMS9MGmL9c",
+          "duration": 12126,
+          "durationStr": "3:22:06",
+          "publishedAt": "2026-11-21T00:36:22+00:00",
+          "views": 15,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2081",
       "title": "Trọng Sinh Thức Tỉnh Không Gian, Dẫn Em Gái Trốn Nạn Tích Trữ Lương Thực, Khiến Dân Làng Đổi Đời!",
