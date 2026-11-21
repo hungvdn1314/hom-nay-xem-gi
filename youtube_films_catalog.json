@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2090,
+    "totalFilms": 2091,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T10:00:28.047719+00:00"
+    "lastUpdated": "2026-11-21T10:30:41.008184+00:00"
   },
   "channels": [
     {
@@ -61,7 +61,7 @@
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 76
+      "filmCount": 77
     },
     {
       "id": "zzzphim",
@@ -89,6 +89,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2091",
+      "title": "Phần 1, Mỗi Tháng Đổi Một Nghề Nghiệp, Thiếu Niên Thức Tỉnh Hệ Thống Bá Đạo, Chinh Phục Dị Giới",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7796,
+      "totalDurationStr": "2 giờ 09 phút",
+      "totalViews": 8,
+      "totalLikes": 3,
+      "review": "[ Full ] Phần 1, Mỗi Tháng Đổi Một Nghề Nghiệp, Thiếu Niên Thức Tỉnh Hệ Thống Bá Đạo, Chinh Phục Dị Giới Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/7jgxXsg_7Ec/hqdefault.jpg",
+      "publishedAt": "2026-11-21T10:28:47+00:00",
+      "updatedAt": "2026-11-21T10:28:47+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1, Mỗi Tháng Đổi Một Nghề Nghiệp, Thiếu Niên Thức Tỉnh Hệ Thống Bá Đạo, Chinh Phục Dị Giới",
+          "url": "https://www.youtube.com/watch?v=7jgxXsg_7Ec",
+          "id": "7jgxXsg_7Ec",
+          "duration": 7796,
+          "durationStr": "2:09:56",
+          "publishedAt": "2026-11-21T10:28:47+00:00",
+          "views": 8,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2090",
       "title": "Con Thứ Bị Tráo Hôn, Cha Ruột Đày Đến Thành Hoang, Nào Ngờ Nghịch Thiên Đổi Mệnh",
