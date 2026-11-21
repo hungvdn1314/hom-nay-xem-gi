@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2086,
+    "totalFilms": 2087,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T05:00:28.369077+00:00"
+    "lastUpdated": "2026-11-21T05:30:33.921366+00:00"
   },
   "channels": [
     {
@@ -61,7 +61,7 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 75
+      "filmCount": 76
     },
     {
       "id": "zzzphim",
@@ -89,6 +89,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2087",
+      "title": "P1, Xuyên Vào Game Làm Boss Vong Linh, Thiếu Niên Dùng Mưu Trí Và Sức Mạnh Xây Dựng Đế Chế Ma Tộc",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8378,
+      "totalDurationStr": "2 giờ 19 phút",
+      "totalViews": 4,
+      "totalLikes": 3,
+      "review": "[ Full ] P1, Xuyên Vào Game Làm Boss Vong Linh, Thiếu Niên Dùng Mưu Trí Và Sức Mạnh Xây Dựng Đế Chế Ma Tộc Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/P-MvBf9tPmw/hqdefault.jpg",
+      "publishedAt": "2026-11-21T05:28:56+00:00",
+      "updatedAt": "2026-11-21T05:28:56+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Xuyên Vào Game Làm Boss Vong Linh, Thiếu Niên Dùng Mưu Trí Và Sức Mạnh Xây Dựng Đế Chế Ma Tộc",
+          "url": "https://www.youtube.com/watch?v=P-MvBf9tPmw",
+          "id": "P-MvBf9tPmw",
+          "duration": 8378,
+          "durationStr": "2:19:38",
+          "publishedAt": "2026-11-21T05:28:56+00:00",
+          "views": 4,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2086",
       "title": "6 Năm Bị Ruồng Bỏ, Nào Ngờ Anh Thành Phó Giáo Sư, Y Thuật Nghịch Thiên",
