@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2096,
+    "totalFilms": 2097,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-22T00:15:23.930861+00:00"
+    "lastUpdated": "2026-11-22T01:00:35.455971+00:00"
   },
   "channels": [
     {
@@ -67,7 +67,7 @@ window.FILMS_DATA = {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 78
+      "filmCount": 79
     },
     {
       "id": "gianhireview",
@@ -89,6 +89,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2097",
+      "title": "Xuyên Không Về Cổ Đại Thành Nàng Dâu Bị Đày Đi Biên Cương, Dùng Không Gian Nghịch Thiên Đổi Mệnh!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 21617,
+      "totalDurationStr": "6 giờ 00 phút",
+      "totalViews": 24,
+      "totalLikes": 0,
+      "review": "Xuyên Không Về Cổ Đại Thành Nàng Dâu Bị Đày Đi Biên Cương, Dùng Không Gian Nghịch Thiên Đổi Mệnh!",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/4hRFrxom98M/hqdefault.jpg",
+      "publishedAt": "2026-11-22T00:50:38+00:00",
+      "updatedAt": "2026-11-22T00:50:38+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Về Cổ Đại Thành Nàng Dâu Bị Đày Đi Biên Cương, Dùng Không Gian Nghịch Thiên Đổi Mệnh!",
+          "url": "https://www.youtube.com/watch?v=4hRFrxom98M",
+          "id": "4hRFrxom98M",
+          "duration": 21617,
+          "durationStr": "6:00:17",
+          "publishedAt": "2026-11-22T00:50:38+00:00",
+          "views": 24,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2096",
       "title": "Full P1 |Cả Đám Ác Nhân Thi Nhau Cày Cuốc Điên Cuồng, Còn Tôi Trở Thành Lãnh Chúa Mạnh Nhất Dị Giới!",
