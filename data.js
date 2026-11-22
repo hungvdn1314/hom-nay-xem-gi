@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2097,
+    "totalFilms": 2098,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-22T02:00:29.758882+00:00"
+    "lastUpdated": "2026-11-22T02:15:18.945562+00:00"
   },
   "channels": [
     {
@@ -79,7 +79,7 @@ window.FILMS_DATA = {
       "id": "kasvietsub",
       "name": "Kas Vietsub",
       "url": "https://www.youtube.com/@KasVietsub",
-      "filmCount": 72
+      "filmCount": 73
     },
     {
       "id": "mycherrysub",
@@ -89,6 +89,43 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2098",
+      "title": "51 - 60 | Ta Tại Đấu La Đạt Cấp 99 Bắt Đầu Thu Đồ Thì Bị Dòng Thời Gian Khác Hiện Ra | Kas Vietsub",
+      "channelId": "kasvietsub",
+      "channelName": "Kas Vietsub",
+      "channelUrl": "https://www.youtube.com/@KasVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 2324,
+      "totalDurationStr": "38 phút 44 giây",
+      "totalViews": 59,
+      "totalLikes": 5,
+      "review": "Xem Tập Mới Ở Đây Nha: ad nghèo rồi, ủng hộ ad ly tà tưa: acb - 2852 9847 ©本頻道所有內容均已授權,所有与版权相关的问题， 👉👉Zalo: 0399 002 306 Để Được Giải quyết nhanh nhất nha. 🔝HagTag: #hoathinhtrungquoc #hoathinhhay #hoathinh3d #tutien #xuyenkhong #donghua #hoathinhvietsub #hoathinhai #anime #kasvietsub 🔝Tag: phim hoạt hình hay, review anime, kas vietsub, hoạt hình hay,...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/vJQS5quyVTo/hqdefault.jpg",
+      "publishedAt": "2026-11-22T02:08:43+00:00",
+      "updatedAt": "2026-11-22T02:08:43+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "51 - 60 | Ta Tại Đấu La Đạt Cấp 99 Bắt Đầu Thu Đồ Thì Bị Dòng Thời Gian Khác Hiện Ra | Kas Vietsub",
+          "url": "https://www.youtube.com/watch?v=vJQS5quyVTo",
+          "id": "vJQS5quyVTo",
+          "duration": 2324,
+          "durationStr": "38:44",
+          "publishedAt": "2026-11-22T02:08:43+00:00",
+          "views": 59,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2097",
       "title": "Xuyên Không Về Cổ Đại Thành Nàng Dâu Bị Đày Đi Biên Cương, Dùng Không Gian Nghịch Thiên Đổi Mệnh!",
