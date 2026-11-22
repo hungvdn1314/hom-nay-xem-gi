@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2099,
+    "totalFilms": 2100,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-22T02:30:35.606917+00:00"
+    "lastUpdated": "2026-11-22T03:00:28.936861+00:00"
   },
   "channels": [
     {
@@ -25,7 +25,7 @@ window.FILMS_DATA = {
       "id": "chiuchiusubtv",
       "name": "ChiuChiuSubTV",
       "url": "https://www.youtube.com/@chiuchiusubtv",
-      "filmCount": 177
+      "filmCount": 178
     },
     {
       "id": "melacreview",
@@ -89,6 +89,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2100",
+      "title": "Phần 6 | Chiến Thần Song Đao Cưỡi Xích Thố \"Lừa Mỏ Hỗn\" Càn Quét Bá Chủ Tận Thế",
+      "channelId": "chiuchiusubtv",
+      "channelName": "ChiuChiuSubTV",
+      "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9413,
+      "totalDurationStr": "2 giờ 36 phút",
+      "totalViews": 52,
+      "totalLikes": 3,
+      "review": "📌 Tóm Tắt Phim: Thảm họa Triều Minh ập đến, thế giới ngập tràn Quỷ Dị. Trần Mặc - một nhân viên văn phòng quèn vô tình nhặt được một con lừa đột biến mỏ hỗn tên Xích Thố. Từ một chiếc xe máy cày tồi tàn, một người một lừa bước lên con đường thăng cấp (Chuỗi Tự Liệt), chém giết vạn quỷ dị, đối đầu với Sát Lục Tiêm Tháp. Từ Quỷ Tân Nương chung tình đến...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/vSCOwL2dRds/hqdefault.jpg",
+      "publishedAt": "2026-11-22T02:45:53+00:00",
+      "updatedAt": "2026-11-22T02:45:53+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 6",
+          "title": "Phần 6 | Chiến Thần Song Đao Cưỡi Xích Thố \"Lừa Mỏ Hỗn\" Càn Quét Bá Chủ Tận Thế",
+          "url": "https://www.youtube.com/watch?v=vSCOwL2dRds",
+          "id": "vSCOwL2dRds",
+          "duration": 9413,
+          "durationStr": "2:36:53",
+          "publishedAt": "2026-11-22T02:45:53+00:00",
+          "views": 52,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2099",
       "title": "Full Phần Phần1 |【Song Thần Thức Tỉnh: Hắc Quang Phần Thiên!】",
