@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2101,
+    "totalFilms": 2102,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-22T04:00:29.548452+00:00"
+    "lastUpdated": "2026-11-22T07:00:39.336273+00:00"
   },
   "channels": [
     {
@@ -49,7 +49,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 238
+      "filmCount": 239
     },
     {
       "id": "tieusumuoi",
@@ -89,6 +89,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2102",
+      "title": "P1 |【Tu Tiên Max Cấp Trở Về Hiện Đại, Tôi Khiến Cả Gia Đình Trở Nên Bá Đạo, Không Ai Dám Đụng Đến!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 37638,
+      "totalDurationStr": "10 giờ 27 phút",
+      "totalViews": 19,
+      "totalLikes": 3,
+      "review": "🎬 【Tu Tiên Max Cấp Trở Về Hiện Đại, Tôi Khiến Cả Gia Đình Trở Nên Bá Đạo, Không Ai Dám Đụng Đến!】 ⚡👑 Sau khi tu luyện đến cảnh giới Max Cấp, sở hữu sức mạnh vượt xa tưởng tượng, nhân vật chính bất ngờ trở về thế giới hiện đại! Từ một cường giả đứng trên đỉnh cao tu tiên, anh quyết định sử dụng bản lĩnh và sức mạnh của mình để bảo vệ những người thân yêu....",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/ChfxkWBU56A/hqdefault.jpg",
+      "publishedAt": "2026-11-22T06:55:12+00:00",
+      "updatedAt": "2026-11-22T06:55:12+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1 |【Tu Tiên Max Cấp Trở Về Hiện Đại, Tôi Khiến Cả Gia Đình Trở Nên Bá Đạo, Không Ai Dám Đụng Đến!】",
+          "url": "https://www.youtube.com/watch?v=ChfxkWBU56A",
+          "id": "ChfxkWBU56A",
+          "duration": 37638,
+          "durationStr": "10:27:18",
+          "publishedAt": "2026-11-22T06:55:12+00:00",
+          "views": 19,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2101",
       "title": "Full Phần 1 | 【Tôi Mở Nhà Hàng Nam Thần Giữa Tận Thế!】",
