@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2103,
+    "totalFilms": 2104,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-22T11:00:28.735727+00:00"
+    "lastUpdated": "2026-11-22T12:00:29.630285+00:00"
   },
   "channels": [
     {
@@ -49,7 +49,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 239
+      "filmCount": 240
     },
     {
       "id": "tieusumuoi",
@@ -89,6 +89,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2104",
+      "title": "Full Phần 1 |【Thánh Thể Đã Đại Thành, Nữ Chính Vẫn Dám Vu Oan Tôi?!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12711,
+      "totalDurationStr": "3 giờ 31 phút",
+      "totalViews": 6,
+      "totalLikes": 0,
+      "review": "🎬 【Thánh Thể Đã Đại Thành, Nữ Chính Vẫn Dám Vu Oan Tôi?!】 ⚡🔥 Giữa thế giới tu tiên nơi cường giả vi tôn, nhân vật chính đã tu luyện đến cảnh giới Thánh Thể Đại Thành, sở hữu sức mạnh kinh thiên động địa khiến vô số cao thủ phải kiêng dè! Thế nhưng, điều không ai ngờ tới là ngay cả khi đã đạt đến thực lực khủng khiếp như vậy, anh vẫn bị nữ chính ngang...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/_tyY1xqT9L0/hqdefault.jpg",
+      "publishedAt": "2026-11-22T11:56:12+00:00",
+      "updatedAt": "2026-11-22T11:56:12+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Thánh Thể Đã Đại Thành, Nữ Chính Vẫn Dám Vu Oan Tôi?!】",
+          "url": "https://www.youtube.com/watch?v=_tyY1xqT9L0",
+          "id": "_tyY1xqT9L0",
+          "duration": 12711,
+          "durationStr": "3:31:51",
+          "publishedAt": "2026-11-22T11:56:12+00:00",
+          "views": 6,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2103",
       "title": "TRỌNG SINH Mang Thai 6 Tháng, Nàng Quyết Hòa Ly Với Hầu Phủ, Nào Ngờ Được Ban Hôn Cho Thái Tử!",
