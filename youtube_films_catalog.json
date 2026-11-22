@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2095,
+    "totalFilms": 2096,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-21T18:30:33.834443+00:00"
+    "lastUpdated": "2026-11-22T00:15:23.930861+00:00"
   },
   "channels": [
     {
@@ -49,7 +49,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 235
+      "filmCount": 236
     },
     {
       "id": "tieusumuoi",
@@ -89,6 +89,43 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2096",
+      "title": "Full P1 |Cả Đám Ác Nhân Thi Nhau Cày Cuốc Điên Cuồng, Còn Tôi Trở Thành Lãnh Chúa Mạnh Nhất Dị Giới!",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8801,
+      "totalDurationStr": "2 giờ 26 phút",
+      "totalViews": 19,
+      "totalLikes": 1,
+      "review": "🎬 【Cả Đám Ác Nhân Thi Nhau Cày Cuốc Điên Cuồng, Còn Tôi Trở Thành Lãnh Chúa Mạnh Nhất Dị Giới!】 🏰 Xuyên đến một thế giới dị giới đầy rẫy nguy hiểm, nhân vật chính bắt đầu hành trình xây dựng lãnh địa và từng bước vươn lên trở thành lãnh chúa hùng mạnh! Điều đặc biệt là những kẻ ác nhân vốn hung tàn, khó kiểm soát lại trở thành lực lượng cày cuốc điên...",
+      "genres": [
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/DctxR989Gck/hqdefault.jpg",
+      "publishedAt": "2026-11-22T00:07:03+00:00",
+      "updatedAt": "2026-11-22T00:07:03+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full P1 |Cả Đám Ác Nhân Thi Nhau Cày Cuốc Điên Cuồng, Còn Tôi Trở Thành Lãnh Chúa Mạnh Nhất Dị Giới!",
+          "url": "https://www.youtube.com/watch?v=DctxR989Gck",
+          "id": "DctxR989Gck",
+          "duration": 8801,
+          "durationStr": "2:26:41",
+          "publishedAt": "2026-11-22T00:07:03+00:00",
+          "views": 19,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2095",
       "title": "Full Phần 1 | 【Quái Đàm Từ Hàng: Tôi Có Thể Hồi Quy Vô Hạn!】",
