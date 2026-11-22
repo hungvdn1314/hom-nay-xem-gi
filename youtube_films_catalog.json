@@ -6,7 +6,7 @@
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-22T03:00:28.936861+00:00"
+    "lastUpdated": "2026-11-22T03:45:22.236574+00:00"
   },
   "channels": [
     {
@@ -8915,12 +8915,12 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 28942,
-      "totalDurationStr": "8 giờ 02 phút",
-      "totalViews": 5397,
-      "totalLikes": 106,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 38486,
+      "totalDurationStr": "10 giờ 41 phút",
+      "totalViews": 5550,
+      "totalLikes": 116,
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Mạt Thế Tinh Chủ: Tất Cả Bắt Đầu Từ Con Số Không Trần Bình Uyên trải qua hai mươi năm vùng vẫy nơi mạt thế, ngã xuống trong bước đường cùng, nhưng ngoài ý muốn lại trọng sinh trở về ngay trước thời khắc tai biến giáng lâm. Nắm rõ diễn biến tương lai trong lòng bàn tay, hắn sớm tích trữ vật...",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -8928,8 +8928,8 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/H4w5p5BEzL4/hqdefault.jpg",
       "publishedAt": "2026-11-15T16:33:00.759816+00:00",
-      "updatedAt": "2026-11-15T16:33:00.759816+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-22T03:21:35+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -8942,6 +8942,19 @@
           "publishedAt": "2026-11-15T16:33:00.759816+00:00",
           "views": 5397,
           "likes": 106,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Mùa 4",
+          "title": "Mùa 4 | Mạt Thế Tinh Chủ: Tất Cả Bắt Đầu Từ Con Số Không",
+          "url": "https://www.youtube.com/watch?v=p39f-Pt4zBU",
+          "id": "p39f-Pt4zBU",
+          "duration": 9544,
+          "durationStr": "2:39:04",
+          "publishedAt": "2026-11-22T03:21:35+00:00",
+          "views": 153,
+          "likes": 10,
           "isRedundant": false
         }
       ]
