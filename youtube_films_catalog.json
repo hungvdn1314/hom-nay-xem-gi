@@ -6,7 +6,7 @@
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-22T10:45:20.670787+00:00"
+    "lastUpdated": "2026-11-22T11:00:28.735727+00:00"
   },
   "channels": [
     {
@@ -14028,17 +14028,17 @@
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": null,
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 32685,
-      "totalDurationStr": "9 giờ 04 phút",
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 36184,
+      "totalDurationStr": "10 giờ 03 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt [16+] Mùa 5 - P2 | Thiên Đạo Dư Đồ: Phàm Nhân Vấn Đạo Thiên đạo sụp đổ, tàn đạo sót lại nơi nhân gian, ấy gọi là \"Thiên Đạo Dư Đồ\".Thiếu",
       "genres": [
         "Tu tiên / Huyền huyễn"
       ],
       "thumbnail": "https://i4.ytimg.com/vi/WeHZRJdyjhI/hqdefault.jpg",
       "publishedAt": "2026-11-11T16:06:01+00:00",
-      "updatedAt": "2026-11-20T11:28:58+00:00",
+      "updatedAt": "2026-11-22T10:55:42+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -14079,10 +14079,23 @@
           "views": 2064,
           "likes": 85,
           "isRedundant": false
+        },
+        {
+          "index": 4,
+          "label": "Mùa 5 - P5",
+          "title": "Mùa 5 - P5 (EP707-766) | Thiên Đạo Dư Đồ: Phàm Nhân Vấn Đạo",
+          "url": "https://www.youtube.com/watch?v=-yNU1vDI9FA",
+          "id": "-yNU1vDI9FA",
+          "duration": 3499,
+          "durationStr": "58:19",
+          "publishedAt": "2026-11-22T10:55:42+00:00",
+          "views": 28,
+          "likes": 5,
+          "isRedundant": false
         }
       ],
-      "totalViews": 40163,
-      "totalLikes": 553
+      "totalViews": 40191,
+      "totalLikes": 558
     },
     {
       "id": "film_304",
