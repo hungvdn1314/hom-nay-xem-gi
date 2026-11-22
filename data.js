@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2102,
+    "totalFilms": 2103,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-22T07:00:39.336273+00:00"
+    "lastUpdated": "2026-11-22T10:45:20.670787+00:00"
   },
   "channels": [
     {
@@ -67,7 +67,7 @@ window.FILMS_DATA = {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 79
+      "filmCount": 80
     },
     {
       "id": "gianhireview",
@@ -89,6 +89,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2103",
+      "title": "TRỌNG SINH Mang Thai 6 Tháng, Nàng Quyết Hòa Ly Với Hầu Phủ, Nào Ngờ Được Ban Hôn Cho Thái Tử!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 16012,
+      "totalDurationStr": "4 giờ 26 phút",
+      "totalViews": 16,
+      "totalLikes": 0,
+      "review": "TRỌNG SINH Mang Thai 6 Tháng, Nàng Quyết Hòa Ly Với Hầu Phủ, Nào Ngờ Được Ban Hôn Cho Thái Tử!",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/_BTCnHmAkhs/hqdefault.jpg",
+      "publishedAt": "2026-11-22T10:36:37+00:00",
+      "updatedAt": "2026-11-22T10:36:37+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "TRỌNG SINH Mang Thai 6 Tháng, Nàng Quyết Hòa Ly Với Hầu Phủ, Nào Ngờ Được Ban Hôn Cho Thái Tử!",
+          "url": "https://www.youtube.com/watch?v=_BTCnHmAkhs",
+          "id": "_BTCnHmAkhs",
+          "duration": 16012,
+          "durationStr": "4:26:52",
+          "publishedAt": "2026-11-22T10:36:37+00:00",
+          "views": 16,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2102",
       "title": "P1 |【Tu Tiên Max Cấp Trở Về Hiện Đại, Tôi Khiến Cả Gia Đình Trở Nên Bá Đạo, Không Ai Dám Đụng Đến!】",
