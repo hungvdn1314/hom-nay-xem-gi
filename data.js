@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2098,
+    "totalFilms": 2099,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-22T02:15:18.945562+00:00"
+    "lastUpdated": "2026-11-22T02:30:35.606917+00:00"
   },
   "channels": [
     {
@@ -49,7 +49,7 @@ window.FILMS_DATA = {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 236
+      "filmCount": 237
     },
     {
       "id": "tieusumuoi",
@@ -89,6 +89,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2099",
+      "title": "Full Phần Phần1 |【Song Thần Thức Tỉnh: Hắc Quang Phần Thiên!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 30621,
+      "totalDurationStr": "8 giờ 30 phút",
+      "totalViews": 16,
+      "totalLikes": 1,
+      "review": "🎬 【Song Thần Thức Tỉnh: Hắc Quang Phần Thiên!】 🧬 Xuyên đến thế giới bị vực sâu, zombie và dị thú đe dọa, Giang Thần đứng trước lựa chọn thức tỉnh dị năng. Trong khi mọi người mong có thuốc tiến hóa cấp cao, anh lại chọn virus Hắc Quang với nguy cơ tử vong cực lớn! Thiên phú độc nhất Chúa Tể Virus chính là chìa khóa giúp anh khống chế thứ sức mạnh đáng sợ...",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/lD-E71lOEUI/hqdefault.jpg",
+      "publishedAt": "2026-11-22T02:22:13+00:00",
+      "updatedAt": "2026-11-22T02:22:13+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần Phần1 |【Song Thần Thức Tỉnh: Hắc Quang Phần Thiên!】",
+          "url": "https://www.youtube.com/watch?v=lD-E71lOEUI",
+          "id": "lD-E71lOEUI",
+          "duration": 30621,
+          "durationStr": "8:30:21",
+          "publishedAt": "2026-11-22T02:22:13+00:00",
+          "views": 16,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2098",
       "title": "51 - 60 | Ta Tại Đấu La Đạt Cấp 99 Bắt Đầu Thu Đồ Thì Bị Dòng Thời Gian Khác Hiện Ra | Kas Vietsub",
@@ -28566,10 +28604,10 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 35774,
-      "totalDurationStr": "9 giờ 56 phút",
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 43759,
+      "totalDurationStr": "12 giờ 09 phút",
       "review": "Tiên Thê Nhà Tôi Chẳng Đứng Đắn. (4 phần (Gộp Mùa 1-4 trong 1 video))",
       "genres": [
         "Hoạt hình 3D Chọn Lọc"
@@ -28588,13 +28626,26 @@ window.FILMS_DATA = {
           "views": 27933,
           "likes": 431,
           "publishedAt": "2026-11-06T00:00:00+00:00"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 5",
+          "title": "Mùa 5 | Tiên Thê Nhà Tôi Chẳng Đứng Đắn",
+          "url": "https://www.youtube.com/watch?v=3ftiJ-JdIJQ",
+          "id": "3ftiJ-JdIJQ",
+          "duration": 7985,
+          "durationStr": "2:13:05",
+          "publishedAt": "2026-11-22T02:19:34+00:00",
+          "views": 48,
+          "likes": 7,
+          "isRedundant": false
         }
       ],
-      "totalViews": 27933,
-      "totalLikes": 431,
+      "totalViews": 27981,
+      "totalLikes": 438,
       "publishedAt": "2026-11-06T00:00:00+00:00",
-      "updatedAt": "2026-11-06T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-22T02:19:34+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_658",
