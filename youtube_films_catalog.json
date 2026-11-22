@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2104,
+    "totalFilms": 2105,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-22T12:00:29.630285+00:00"
+    "lastUpdated": "2026-11-22T12:16:03.978679+00:00"
   },
   "channels": [
     {
@@ -25,7 +25,7 @@
       "id": "chiuchiusubtv",
       "name": "ChiuChiuSubTV",
       "url": "https://www.youtube.com/@chiuchiusubtv",
-      "filmCount": 178
+      "filmCount": 179
     },
     {
       "id": "melacreview",
@@ -89,6 +89,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2105",
+      "title": "Xuyên Không Thành Hỗn Độn Giám Ngục: Giam Giữ 10 Vạn Ma Đế, Hút Sạch Tu Vi Chư Thiên",
+      "channelId": "chiuchiusubtv",
+      "channelName": "ChiuChiuSubTV",
+      "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 39538,
+      "totalDurationStr": "10 giờ 58 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "📌 Tóm Tắt Phim: Tô Hạo - một thanh niên từ Trái Đất bất ngờ xuyên không đến Thiên Linh Đại Lục, trùng sinh vào thân thể một thiên tài gia tộc họ Tô nhưng lại đang bị trúng kịch độc kỳ môn do chính người thân mua chuộc nha hoàn hạ sát. Tưởng chừng phải ngủm ngay khi vừa trùng sinh, Tô Hạo bất ngờ kích hoạt BÀN TAY VÀNG bá đạo nhất chư thiên: HỖN ĐỘN GIÁM...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/DktNlFZejU8/hqdefault.jpg",
+      "publishedAt": "2026-11-22T12:01:27+00:00",
+      "updatedAt": "2026-11-22T12:01:27+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Thành Hỗn Độn Giám Ngục: Giam Giữ 10 Vạn Ma Đế, Hút Sạch Tu Vi Chư Thiên",
+          "url": "https://www.youtube.com/watch?v=DktNlFZejU8",
+          "id": "DktNlFZejU8",
+          "duration": 39538,
+          "durationStr": "10:58:58",
+          "publishedAt": "2026-11-22T12:01:27+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2104",
       "title": "Full Phần 1 |【Thánh Thể Đã Đại Thành, Nữ Chính Vẫn Dám Vu Oan Tôi?!】",
