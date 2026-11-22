@@ -6,7 +6,7 @@
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-22T01:00:35.455971+00:00"
+    "lastUpdated": "2026-11-22T02:00:29.758882+00:00"
   },
   "channels": [
     {
@@ -11857,20 +11857,20 @@
       "channelName": "Kas Vietsub",
       "channelUrl": "https://www.youtube.com/@KasVietsub",
       "playlistUrl": null,
-      "totalParts": 4,
-      "partsStr": "4 phần",
-      "totalDurationSec": 29651,
-      "totalDurationStr": "8 giờ 14 phút",
-      "totalViews": 148000,
-      "totalLikes": 0,
+      "totalParts": 5,
+      "partsStr": "5 phần",
+      "totalDurationSec": 32529,
+      "totalDurationStr": "9 giờ 02 phút",
+      "totalViews": 148088,
+      "totalLikes": 15,
       "review": "Phim hoạt hình 3D thuyết minh trọn bộ từ kênh Kas Vietsub.",
       "genres": [
         "Cao võ / Dị năng"
       ],
       "thumbnail": "https://i.ytimg.com/vi/o8DOuG18HhU/hqdefault.jpg",
       "publishedAt": "2026-10-30T12:13:08.152457+00:00",
-      "updatedAt": "2026-11-14T12:13:08.152457+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-22T01:50:46+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -11922,6 +11922,19 @@
           "publishedAt": "2026-11-14T12:13:08.152457+00:00",
           "views": 27000,
           "likes": 0,
+          "isRedundant": false
+        },
+        {
+          "index": 5,
+          "label": "Tập 74-81",
+          "title": "Tập 74 - 81 | Xuyên Đấu La Bị Mù Ta Kể Hết Thiên Cơ Cho Võ Hồn Điện | Kas Vietsub",
+          "url": "https://www.youtube.com/watch?v=opz0EimdW6M",
+          "id": "opz0EimdW6M",
+          "duration": 2878,
+          "durationStr": "47:58",
+          "publishedAt": "2026-11-22T01:50:46+00:00",
+          "views": 88,
+          "likes": 15,
           "isRedundant": false
         }
       ]
