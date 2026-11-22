@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2100,
+    "totalFilms": 2101,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-22T03:45:22.236574+00:00"
+    "lastUpdated": "2026-11-22T04:00:29.548452+00:00"
   },
   "channels": [
     {
@@ -49,7 +49,7 @@ window.FILMS_DATA = {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 237
+      "filmCount": 238
     },
     {
       "id": "tieusumuoi",
@@ -89,6 +89,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2101",
+      "title": "Full Phần 1 | 【Tôi Mở Nhà Hàng Nam Thần Giữa Tận Thế!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8023,
+      "totalDurationStr": "2 giờ 13 phút",
+      "totalViews": 4,
+      "totalLikes": 2,
+      "review": "🎬 【Tôi Mở Nhà Hàng Nam Thần Giữa Tận Thế!】 🍜🌍 Khi tận thế ập đến, thế giới chìm trong hỗn loạn, tài nguyên khan hiếm và con người phải vật lộn từng ngày để sinh tồn. Thế nhưng, giữa hoàn cảnh khắc nghiệt ấy, nhân vật chính lại lựa chọn một con đường vô cùng khác biệt: mở Nhà Hàng Nam Thần ngay giữa tận thế! Trong khi mọi người lo tìm kiếm thức ăn và nơi...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/Tx0auRpceqI/hqdefault.jpg",
+      "publishedAt": "2026-11-22T03:57:57+00:00",
+      "updatedAt": "2026-11-22T03:57:57+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Tôi Mở Nhà Hàng Nam Thần Giữa Tận Thế!】",
+          "url": "https://www.youtube.com/watch?v=Tx0auRpceqI",
+          "id": "Tx0auRpceqI",
+          "duration": 8023,
+          "durationStr": "2:13:43",
+          "publishedAt": "2026-11-22T03:57:57+00:00",
+          "views": 4,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2100",
       "title": "Phần 6 | Chiến Thần Song Đao Cưỡi Xích Thố \"Lừa Mỏ Hỗn\" Càn Quét Bá Chủ Tận Thế",
