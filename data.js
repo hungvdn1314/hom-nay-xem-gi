@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-22T12:16:03.978679+00:00"
+    "lastUpdated": "2026-11-22T18:15:22.010294+00:00"
   },
   "channels": [
     {
@@ -6681,17 +6681,17 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": null,
-      "totalParts": 6,
-      "partsStr": "6 phần",
-      "totalDurationSec": 59007,
-      "totalDurationStr": "16 giờ 23 phút",
+      "totalParts": 7,
+      "partsStr": "7 phần",
+      "totalDurationSec": 68662,
+      "totalDurationStr": "19 giờ 04 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Mùa 26 | Thái Huyền Thai Châu Truyện(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi)Trần Trường An, người đã vạn n",
       "genres": [
         "Võ hiệp / Cổ trang"
       ],
       "thumbnail": "https://i4.ytimg.com/vi/_YGLfRyA8-E/hqdefault.jpg",
       "publishedAt": "2026-11-11T18:52:15+00:00",
-      "updatedAt": "2026-11-21T18:26:28+00:00",
+      "updatedAt": "2026-11-22T18:08:49+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -6771,10 +6771,23 @@ window.FILMS_DATA = {
           "views": 17,
           "likes": 1,
           "isRedundant": false
+        },
+        {
+          "index": 7,
+          "label": "Mùa 32",
+          "title": "Mùa 32 | Thái Huyền Thai Châu Truyện",
+          "url": "https://www.youtube.com/watch?v=pvhTQoYGMWI",
+          "id": "pvhTQoYGMWI",
+          "duration": 9655,
+          "durationStr": "2:40:55",
+          "publishedAt": "2026-11-22T18:08:49+00:00",
+          "views": 37,
+          "likes": 4,
+          "isRedundant": false
         }
       ],
-      "totalViews": 82067,
-      "totalLikes": 1260
+      "totalViews": 82104,
+      "totalLikes": 1264
     },
     {
       "id": "film_136",
