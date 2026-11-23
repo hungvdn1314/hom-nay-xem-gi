@@ -6,7 +6,7 @@
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-23T14:30:40.960198+00:00"
+    "lastUpdated": "2026-11-23T18:00:44.006660+00:00"
   },
   "channels": [
     {
@@ -22030,20 +22030,20 @@
       "channelName": "2K Sub",
       "channelUrl": "https://www.youtube.com/@2KSUB2000",
       "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 120588,
-      "totalDurationStr": "33 giờ 29 phút",
-      "totalViews": 563000,
-      "totalLikes": 0,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 132821,
+      "totalDurationStr": "36 giờ 53 phút",
+      "totalViews": 563034,
+      "totalLikes": 2,
       "review": "Phim hoạt hình 3D thuyết minh trọn bộ từ kênh 2K Sub.",
       "genres": [
         "Tu tiên / Huyền huyễn"
       ],
       "thumbnail": "https://i.ytimg.com/vi/laAyw7tHU2k/hqdefault.jpg",
       "publishedAt": "2026-10-24T11:50:19.700996+00:00",
-      "updatedAt": "2026-11-16T10:49:42.583751+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-23T17:53:41+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -22071,6 +22071,21 @@
           "publishedAt": "2026-11-16T10:49:42.583751+00:00",
           "views": 15000,
           "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 7",
+          "title": "SS7 | Người Khác Sợ Thần Linh, Ta Tu Luyện Để Chuyên Chém Thần!",
+          "url": "https://www.youtube.com/watch?v=N4aLhPbrStA",
+          "id": "N4aLhPbrStA",
+          "duration": 12233,
+          "durationStr": "3:23:53",
+          "publishedAt": "2026-11-23T17:53:41+00:00",
+          "views": 34,
+          "likes": 2,
           "isRedundant": false,
           "channelId": "2ksub",
           "channelName": "2K Sub"
