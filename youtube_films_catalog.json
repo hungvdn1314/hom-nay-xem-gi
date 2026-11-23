@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5719,
+    "totalFilms": 5720,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-23T18:45:31.593031+00:00"
+    "lastUpdated": "2026-11-23T23:00:50.419173+00:00"
   },
   "channels": [
     {
@@ -85,7 +85,7 @@
       "id": "mycherrysub",
       "name": "MyCherrySub",
       "url": "https://www.youtube.com/@MyCherrySub",
-      "filmCount": 511
+      "filmCount": 512
     },
     {
       "id": "soradub",
@@ -173,6 +173,43 @@
     }
   ],
   "films": [
+    {
+      "id": "film_5720",
+      "title": "[Full] Thông Báo Chuyển Nhà Và Gửi Lời Chào Tạm Biệt Với Kênh MyCherrySub",
+      "channelId": "mycherrysub",
+      "channelName": "MyCherrySub",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 31526,
+      "totalLikes": 466,
+      "review": "📽Phim: [Full] Thông Báo Chuyển Nhà Và Gửi Lời Chào Tạm Biệt Với Kênh MyCherrySub Tóm tắt: \"Chào mọi người, mình có một thông báo hơi buồn một chút muốn chia sẻ với cả nhà. Kênh My Cherry Sub hiện tại đã bị dính lỗi và mất tính năng tắt kiếm tiền rồi. Đây là một cú sốc không nhỏ nhưng cũng là động lực để mình làm mới mọi thứ. Để tiếp tục duy trì đam mê và...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/QhgQ7xyeyGk/hqdefault.jpg",
+      "publishedAt": "2026-11-17T07:42:20+00:00",
+      "updatedAt": "2026-11-17T07:42:20+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Thông Báo Chuyển Nhà Và Gửi Lời Chào Tạm Biệt Với Kênh MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=QhgQ7xyeyGk",
+          "id": "QhgQ7xyeyGk",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-17T07:42:20+00:00",
+          "views": 31526,
+          "likes": 466,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5719",
       "title": "Full Phần 1 |【Đại Hội Tân Tú Livestream Toàn Mạng: Giả Heo Ăn Hổ, Tôi Cùng Thú Cưng Nghịch Tập】",
