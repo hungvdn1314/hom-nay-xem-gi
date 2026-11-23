@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 5708,
+    "totalFilms": 5711,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-23T11:50:27.660765+00:00"
+    "lastUpdated": "2026-11-23T12:00:42.654148+00:00"
   },
   "channels": [
     {
@@ -49,7 +49,7 @@ window.FILMS_DATA = {
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 237
+      "filmCount": 238
     },
     {
       "id": "tieusumuoi",
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 481
+      "filmCount": 482
     },
     {
       "id": "naophangtutien",
@@ -145,7 +145,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 308
+      "filmCount": 309
     },
     {
       "id": "godsub",
@@ -173,6 +173,120 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_5710",
+      "title": "7 GIỜ | Đô Thị Tà Thần: Giả Làm Tín Đồ Chính Thần, Ta Sở Hữu Mộ Địa Máu Để Táng Thần!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **ĐÔ THỊ TÀ THẦN – TRONG ĐẦU CÓ MỘ ĐỊA MÁU, TA DÙNG NÓ CHÔN CẢ THẦN LINH! | SS1–SS2 | 6H50** ⚔️ **Vương Dã** là tín đồ bí mật của **Tà Thần Hủy Diệt**, nhưng phải giả làm tín đồ Chính Thần Khế Ước để sinh tồn tại Thành Khế Ước. Trong đầu hắn tồn tại một **mộ địa đỏ như máu**, vốn...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/cwf1OL4lkNA/hqdefault.jpg",
+      "publishedAt": "2026-11-23T12:00:26+00:00",
+      "updatedAt": "2026-11-23T12:00:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "7 GIỜ | Đô Thị Tà Thần: Giả Làm Tín Đồ Chính Thần, Ta Sở Hữu Mộ Địa Máu Để Táng Thần!",
+          "url": "https://www.youtube.com/watch?v=cwf1OL4lkNA",
+          "id": "cwf1OL4lkNA",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-23T12:00:26+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5711",
+      "title": "Xuyên Không Đến Hồng Hoang Tôi Dùng Thịt Bò Khô Thu Phục Cự Thú Và Sơn Thần! | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10742,
+      "totalDurationStr": "2 giờ 59 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Xuyên Không Đến Hồng Hoang Tôi Dùng Thịt Bò Khô Thu Phục Cự Thú Và Sơn Thần! | Đậu Đậu Vietsub Tóm tắt : Thủ thư Lâm Vũ vô tình mở cổng đến thế giới Hồng Hoang, mang sói khổng lồ về báo cáo. Đội Khoa Phụ được thành lập, lập Trạm Côn Lôn, dùng thiện chí và ẩm thực cảm hóa Sơn Thần, Mộng Ma, nâng cấp dự án thành Chiến lược Thiên Khung Thông điệp tích cực:...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/vL3bKSweLQ8/hqdefault.jpg",
+      "publishedAt": "2026-11-23T12:00:08+00:00",
+      "updatedAt": "2026-11-23T12:00:08+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Đến Hồng Hoang Tôi Dùng Thịt Bò Khô Thu Phục Cự Thú Và Sơn Thần! | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=vL3bKSweLQ8",
+          "id": "vL3bKSweLQ8",
+          "duration": 10742,
+          "durationStr": "2:59:02",
+          "publishedAt": "2026-11-23T12:00:08+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5709",
+      "title": "Full Phần 1 | 【Trọng Sinh Thành Cún Samoyed: Tôi Được Cả Thú Giới Cưng Chiều Hết Mực!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10449,
+      "totalDurationStr": "2 giờ 54 phút",
+      "totalViews": 23,
+      "totalLikes": 1,
+      "review": "🎬 【Trọng Sinh Thành Cún Samoyed: Tôi Được Cả Thú Giới Cưng Chiều Hết Mực!】 🐶💖 Tưởng chừng được trọng sinh sẽ mở ra một cuộc đời huy hoàng, nào ngờ nhân vật chính lại bất ngờ biến thành một chú chó Samoyed trắng muốt, đáng yêu vô đối! Thế nhưng, thân phận mới này lại mang đến những điều kỳ diệu ngoài sức tưởng tượng. Với vẻ ngoài dễ thương cùng tính cách...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/GBI3ufWyno0/hqdefault.jpg",
+      "publishedAt": "2026-11-23T11:53:12+00:00",
+      "updatedAt": "2026-11-23T11:53:12+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Trọng Sinh Thành Cún Samoyed: Tôi Được Cả Thú Giới Cưng Chiều Hết Mực!】",
+          "url": "https://www.youtube.com/watch?v=GBI3ufWyno0",
+          "id": "GBI3ufWyno0",
+          "duration": 10449,
+          "durationStr": "2:54:09",
+          "publishedAt": "2026-11-23T11:53:12+00:00",
+          "views": 23,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1",
       "title": "Xuyên Không Thành Góa Phụ Nghèo Nuôi Cặp Long Phượng Thai, Y Thuật Nghịch Thiên Giúp Nàng Đổi Đời!",
