@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5718,
+    "totalFilms": 5719,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-23T14:15:36.127934+00:00"
+    "lastUpdated": "2026-11-23T14:30:40.960198+00:00"
   },
   "channels": [
     {
@@ -169,10 +169,48 @@
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 16
+      "filmCount": 17
     }
   ],
   "films": [
+    {
+      "id": "film_5719",
+      "title": "Full Phần 1 |【Đại Hội Tân Tú Livestream Toàn Mạng: Giả Heo Ăn Hổ, Tôi Cùng Thú Cưng Nghịch Tập】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8288,
+      "totalDurationStr": "2 giờ 18 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Đại Hội Tân Tú Livestream Toàn Mạng: Giả Heo Ăn Hổ, Tôi Cùng Thú Cưng Nghịch Tập Từ Hạng Bét Thành Hắc Mã Mạnh Nhất!】 🐾🔥 Khi Đại Hội Tân Tú chính thức khai màn và được livestream trên toàn mạng, vô số thiên tài cùng những thú cưng mạnh mẽ bước vào cuộc tranh tài khốc liệt! Giữa những đối thủ sở hữu thực lực vượt trội, nhân vật chính lại xuất phát từ...",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/peLP8DrmMAc/hqdefault.jpg",
+      "publishedAt": "2026-11-23T14:28:06+00:00",
+      "updatedAt": "2026-11-23T14:28:06+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Đại Hội Tân Tú Livestream Toàn Mạng: Giả Heo Ăn Hổ, Tôi Cùng Thú Cưng Nghịch Tập】",
+          "url": "https://www.youtube.com/watch?v=peLP8DrmMAc",
+          "id": "peLP8DrmMAc",
+          "duration": 8288,
+          "durationStr": "2:18:08",
+          "publishedAt": "2026-11-23T14:28:06+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5718",
       "title": "8 GIỜ | Game Dị Giới: Quay Trúng Nạp Tiền Vô Hạn, Nuôi Thần Long Và Tái Lập Đế Quốc 3000 Năm!",
@@ -182,8 +220,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 28349,
+      "totalDurationStr": "7 giờ 52 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **GAME DỊ GIỚI – NẠP TIỀN VÔ HẠN, NUÔI RỒNG THẦN VÀ TÁI LẬP ĐẾ QUỐC! | SS1–SS2 | 8H** ⚔️ **Phú Hào**, một game thủ sở hữu hơn 17.000 giờ chơi, bị bố ép nghỉ game và đi làm. Không chịu bỏ cuộc, hắn quyết định thử vận may và bất ngờ quay trúng đặc quyền **Nạp Tiền Vô Hạn**, cho phép...",
@@ -201,8 +239,8 @@
           "title": "8 GIỜ | Game Dị Giới: Quay Trúng Nạp Tiền Vô Hạn, Nuôi Thần Long Và Tái Lập Đế Quốc 3000 Năm!",
           "url": "https://www.youtube.com/watch?v=k7zfv0_RdYI",
           "id": "k7zfv0_RdYI",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 28349,
+          "durationStr": "7:52:29",
           "publishedAt": "2026-11-23T14:15:26+00:00",
           "views": 0,
           "likes": 0,
