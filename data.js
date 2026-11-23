@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-23T18:00:44.006660+00:00"
+    "lastUpdated": "2026-11-23T18:30:39.503754+00:00"
   },
   "channels": [
     {
@@ -4708,20 +4708,20 @@ window.FILMS_DATA = {
       "channelName": "Não Phẳng Tu Tiên",
       "channelUrl": "https://www.youtube.com/@nao-phang",
       "playlistUrl": null,
-      "totalParts": 14,
-      "partsStr": "14 phần",
-      "totalDurationSec": 154385,
-      "totalDurationStr": "42 giờ 53 phút",
-      "totalViews": 110400,
-      "totalLikes": 0,
+      "totalParts": 15,
+      "partsStr": "15 phần",
+      "totalDurationSec": 160346,
+      "totalDurationStr": "44 giờ 32 phút",
+      "totalViews": 110407,
+      "totalLikes": 1,
       "review": "Phim hoạt hình 3D thuyết minh trọn bộ từ kênh Não Phẳng Tu Tiên.",
       "genres": [
         "Tu tiên / Huyền huyễn"
       ],
       "thumbnail": "https://i.ytimg.com/vi/eDImQoQAYPU/hqdefault.jpg",
       "publishedAt": "2026-11-09T10:49:42.537089+00:00",
-      "updatedAt": "2026-11-22T10:49:42.537089+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-23T18:27:00+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -4890,6 +4890,21 @@ window.FILMS_DATA = {
         },
         {
           "index": 12,
+          "label": "Phần 5.3",
+          "title": "Phần 5 -P3(501-600): Sinh Ra Mang Lời Nguyền Chết Yểu, Ta Tu Luyện Để Đoạt Lại Trường Sinh",
+          "url": "https://www.youtube.com/watch?v=2uvo3DzhOVU",
+          "id": "2uvo3DzhOVU",
+          "duration": 5961,
+          "durationStr": "1:39:21",
+          "publishedAt": "2026-11-23T18:27:00+00:00",
+          "views": 7,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 13,
           "label": "Phần 4-5",
           "title": "Phần 4-  P5(400): Sinh Ra Mang Lời Nguyền Chết Yểu, Ta Tu Luyện Để Đoạt Lại Trường Sinh",
           "url": "https://www.youtube.com/watch?v=PDbVj0DPJgc",
@@ -4904,7 +4919,7 @@ window.FILMS_DATA = {
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 13,
+          "index": 14,
           "label": "Phần 4-6",
           "title": "Phần 4-P6(450): Sinh Ra Mang Lời Nguyền Chết Yểu, Ta Tu Luyện Để Đoạt Lại Trường Sinh",
           "url": "https://www.youtube.com/watch?v=f3Ia8Iv5UjQ",
@@ -4919,7 +4934,7 @@ window.FILMS_DATA = {
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 14,
+          "index": 15,
           "label": "Phần 4-7",
           "title": "Phần 4 -P7(500): Sinh Ra Mang Lời Nguyền Chết Yểu, Ta Tu Luyện Để Đoạt Lại Trường Sinh",
           "url": "https://www.youtube.com/watch?v=sF7QqMHBf3c",
