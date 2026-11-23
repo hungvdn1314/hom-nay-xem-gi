@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5715,
+    "totalFilms": 5716,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-23T13:15:35.698858+00:00"
+    "lastUpdated": "2026-11-23T13:45:40.818042+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 483
+      "filmCount": 484
     },
     {
       "id": "naophangtutien",
@@ -173,6 +173,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_5716",
+      "title": "7 GIỜ 40 | Xuyên Không Thời Loạn: Thức Tỉnh Hệ Thống Vạn Thú, Từ Dân Nghèo Thành Cao Thủ!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 27806,
+      "totalDurationStr": "7 giờ 43 phút",
+      "totalViews": 266,
+      "totalLikes": 15,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **XUYÊN KHÔNG THỜI LOẠN – HỆ THỐNG VẠN THÚ THÔNG LINH, ĐIỀU KHIỂN MUÔN THÚ SINH TỒN! | 7H43** ⚔️ Một thanh niên hiện đại bất ngờ xuyên không thành dân nghèo nơi biên ải. Giữa lúc **Hắc Lang Kỵ** tàn sát dân làng, hắn phải đưa **Đại Nha và Nhị Nha** chạy trốn để giữ mạng. 🔥 Trong...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/5_Jc8eb8_XU/hqdefault.jpg",
+      "publishedAt": "2026-11-23T13:30:13+00:00",
+      "updatedAt": "2026-11-23T13:30:13+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "7 GIỜ 40 | Xuyên Không Thời Loạn: Thức Tỉnh Hệ Thống Vạn Thú, Từ Dân Nghèo Thành Cao Thủ!",
+          "url": "https://www.youtube.com/watch?v=5_Jc8eb8_XU",
+          "id": "5_Jc8eb8_XU",
+          "duration": 27806,
+          "durationStr": "7:43:26",
+          "publishedAt": "2026-11-23T13:30:13+00:00",
+          "views": 266,
+          "likes": 15,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5715",
       "title": "Mùa 2 | Tu Tiên Trở Về, Vị Hôn Thê Của Tôi Không Giấu Nổi Nữa",
