@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2922,
+    "totalFilms": 2924,
     "totalDurationSec": 45739500,
     "totalDurationFormatted": "12705 giờ 25 phút",
     "totalViews": 151857149,
     "totalLikes": 1225945,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-23T11:10:24.877902+00:00"
+    "lastUpdated": "2026-11-23T11:15:23.327102+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 98
+      "filmCount": 99
     },
     {
       "id": "naophangtutien",
@@ -145,7 +145,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 99
+      "filmCount": 100
     },
     {
       "id": "godsub",
@@ -173,6 +173,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2924",
+      "title": "Full | Tận Thế Cực Hàn Với Toàn Nữ Sinh Tôi Dùng Thiên Phú Vô Hạn Biến Hang Động Thành Pháo Đài",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9351,
+      "totalDurationStr": "2 giờ 35 phút",
+      "totalViews": 45,
+      "totalLikes": 5,
+      "review": "Full | Tận Thế Cực Hàn Với Toàn Nữ Sinh Tôi Dùng Thiên Phú Vô Hạn Biến Hang Động Thành Pháo Đài Trong thế giới tận thế cực hàn -50°C, Lâm Dương trở thành đội trưởng nơi trú ẩn 666 và sở hữu thiên phú cấp SSS \"Ban tặng vô hạn\". Nhờ năng lực bá đạo cùng tư duy quyết đoán, anh dẫn dắt các nữ đồng đội chống lại dị thú, xây dựng pháo đài thép, đánh bại kẻ thù...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/ne4A__9uvis/hqdefault.jpg",
+      "publishedAt": "2026-11-23T11:00:16+00:00",
+      "updatedAt": "2026-11-23T11:00:16+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full | Tận Thế Cực Hàn Với Toàn Nữ Sinh Tôi Dùng Thiên Phú Vô Hạn Biến Hang Động Thành Pháo Đài",
+          "url": "https://www.youtube.com/watch?v=ne4A__9uvis",
+          "id": "ne4A__9uvis",
+          "duration": 9351,
+          "durationStr": "2:35:51",
+          "publishedAt": "2026-11-23T11:00:16+00:00",
+          "views": 45,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2923",
+      "title": "7 GIỜ | Đô Thị Tu Tiên: Luân Hồi 9.999 Kiếp, Viết Truyện Khôi Phục Sức Mạnh Vô Địch!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 26111,
+      "totalDurationStr": "7 giờ 15 phút",
+      "totalViews": 256,
+      "totalLikes": 16,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **LUÂN HỒI 9.999 KIẾP – KIẾP CUỐI TRỞ VỀ TRÁI ĐẤT, KHÔI PHỤC SỨC MẠNH VẠN KIẾP! | SS1–SS2 | 7H15** ⚔️ **Tần Tử Quân** sau một vụ tai nạn xe hơi bất ngờ sở hữu **Vạn Thế Tiên Thư**, trải qua 9.999 kiếp luân hồi với đủ thân phận: ăn mày, hoàng đế, kiếm tiên và Ma Tôn. Đến kiếp cuối...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/30jsdlK0g60/hqdefault.jpg",
+      "publishedAt": "2026-11-23T11:00:05+00:00",
+      "updatedAt": "2026-11-23T11:00:05+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "7 GIỜ | Đô Thị Tu Tiên: Luân Hồi 9.999 Kiếp, Viết Truyện Khôi Phục Sức Mạnh Vô Địch!",
+          "url": "https://www.youtube.com/watch?v=30jsdlK0g60",
+          "id": "30jsdlK0g60",
+          "duration": 26111,
+          "durationStr": "7:15:11",
+          "publishedAt": "2026-11-23T11:00:05+00:00",
+          "views": 256,
+          "likes": 16,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1",
       "title": "Full Phần 1 | 【Toàn Cầu Cao Võ: Tôi Dựa Vào Chú Thằn Lằn Đất Để Thăng Cấp Vô Hạn!】",
