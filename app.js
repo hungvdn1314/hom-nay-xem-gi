@@ -231,15 +231,30 @@
   // DATA INGESTION & REAL-TIME YOUTUBE SYNC
   // -------------------------------------------------------------------------
   function cleanCoreTitleClient(title) {
+    const unwrapBracket = (_, innerRaw) => {
+      const inner = (innerRaw || '').trim();
+      if (/^(?:Ful+l\s*)?(?:Trọn\s*Bộ\s*)?(?:Version\s*)?(?:Phần|Tập|Mùa|Bộ|P|S|EP|V)?\s*\d*(?:\s*[-–+~]\s*(?:P|Phần|Tập|Mùa|S|EP)?\s*\d+)?(?:\s*\(\s*END\s*\)|\s*END|\s*Kết)?$/i.test(inner)) {
+        return ' ';
+      }
+      return ` ${inner} `;
+    };
     return (title || '')
-      .replace(/^(?:\s*(?:\[[^\]]*\]|【[^】]*】|\((?:Phần|Tập|Mùa)\s*\d+[^)]*\)|(?:Ful+l\s*)?(?:Phần|Tập|Mùa|P)\s*\d+(?:\s*[-–]\s*(?:P?\s*)?\d+)?\s*[\|\-:]?)\s*)+/i, '')
+      .replace(/【([^】]*)】/g, unwrapBracket)
+      .replace(/\[([^\]]*)\]/g, unwrapBracket)
+      .replace(/^(?:\s*(?:\((?:Phần|Tập|Mùa)\s*\d+[^)]*\)|(?:Ful+l(?:\s*Bộ|\s*Kết|\s*END|\s*Version)?\s*)?(?:Trọn\s*Bộ\s*)?(?:Phần|Tập|Mùa|P|S)\s*\d+(?:\s*[-–+~]\s*(?:P?\s*)?\d+)?(?:\s*\([^)]*\))?\s*[\|\-:–,]?)\s*)+/i, '')
+      .replace(/^(?:Ful+l(?:\s*Bộ|\s*Kết|\s*END|\s*Version)?)\s*[\|\-:–]\s*/i, '')
       .replace(/\s*\((?:Phần|Tập|Mùa)\s*\d+[^)]*\)\s*$/i, '')
+      .replace(/\s*[\|\-]\s*(?:Kas\s*Vietsub|MyCherrySub|Sora\s*Dub|CibiiSub|Đậu\s*Đậu\s*Vietsub|GodSub|Win\s*Vietsub|Thế\s*Vietsub|Vietsub\s*Phim)\s*$/i, '')
       .replace(/^[\|\-:\s]+|[\|\-:\s]+$/g, '')
+      .replace(/\s+/g, ' ')
       .trim();
   }
 
   function parsePartInfoClient(text) {
-    const s = String(text || '').replace(/\[.*?\]/g, '').trim();
+    const s = String(text || '')
+      .replace(/\(\s*gộp trùng[^)]*\)/gi, '')
+      .replace(/[\[\]【】]/g, ' ')
+      .trim();
     const mSeasonPart = s.match(/\bMùa\s*(\d+)\s*[-–|]\s*(?:Phần|P)\s*(\d+)/i);
     if (mSeasonPart) {
       const seasonNum = parseInt(mSeasonPart[1], 10);
@@ -272,11 +287,11 @@
       };
     }
 
-    const mEp = s.match(/\b(Phần|Tập|Mùa|P)\s*(\d+)((?:\s*[+\-–&]\s*(?:(?:Phần|Tập|Mùa|P)\s*)?\d+)*)/i);
+    const mEp = s.match(/\b(Phần|Tập|Mùa|P|SS|Full\s*-\s*S|Full(?=\s+\d+\b)|Version)\s*(\d+)((?:\s*[+\-–&]\s*(?:(?:Phần|Tập|Mùa|P|SS)\s*)?\d+)*)/i);
     if (!mEp) return null;
 
-    const kw = mEp[1].toLowerCase();
-    const prefix = kw === 'tập' ? 'Tập' : (kw === 'mùa' ? 'Mùa' : 'Phần');
+    const kw = mEp[1].toLowerCase().replace(/\s+/g, '');
+    const prefix = kw === 'tập' ? 'Tập' : ((kw === 'mùa' || kw === 'ss' || kw === 'full-s') ? 'Mùa' : 'Phần');
     const firstNum = parseInt(mEp[2], 10);
     const tail = mEp[3] || '';
     const tokens = Array.from(tail.matchAll(/([+\-–&])\s*(?:(?:Phần|Tập|Mùa|P)\s*)?(\d+)/gi));

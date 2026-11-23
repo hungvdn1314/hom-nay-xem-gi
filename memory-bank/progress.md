@@ -31,7 +31,8 @@
 - [x] Rebuilt catalog and synchronized `data.js` & `youtube_films_catalog.json` to 2,077 pure 3D animated films across 13 vetted channels (strictly sequential IDs, 0 duplicates).
 - [x] Fixed Film ID collision bug ("Oan Gia Ngõ Hẹp" opening "Hoá Độc"), added client-side `seenFilmIds` guard in `app.js`, verified via Puppeteer.
 - [x] Audited 94 candidate YouTube channels using mid-video internal frame inspection (`2.jpg`), blacklisted 2D false-positives (`muoimuoilamphim`, `thietreview`), and integrated 12 new high-quality 3D channels (`Sora Dub`, `Tiểu Muội Ngôn Tình`, `CibiiSub`, `Nguyễn Tường Vietsub`, `Huyền Sư Tiểu Muội`, `2K Sub`, `Não Phẳng Tu Tiên`, `Hoa Trên Mây`, `HHANIME CHANNEL`, `Đậu Đậu Vietsub`, `GodSub`, `Phim Zoo AI`).
-- [x] Expanded catalog to **2,903 pure 3D films across 25 channels** (0 duplicate IDs), verified live via Puppeteer.
+- [x] Expanded catalog to **2,922 pure 3D films across 27 channels** (0 duplicate IDs), including `Nhật Ảnh Studio` (`@StudioCitraMentari`) & `Vạn Ảnh Studio` (`@vananhanhstudio`).
+- [x] Fixed `【...】` bracket title stripping bug in `clean_core_title` / `cleanCoreTitleClient` and merged 31 split episode cards into unified multi-part series across *Vân Mộng*, *Thiên Ảnh*, *Mộng Ảnh*, and partner channels.
 - [x] Diagnosed auto-update delay: GitHub Actions public schedule queue delay (6-13h) vs client-side `/api/live-feed` live fetching.
 - [x] Added strict `no-cache` headers for `data.js` and `youtube_films_catalog.json` in `vercel.json`.
 - [x] Implemented `/api/cron-update.js` endpoint to trigger GitHub Actions `workflow_dispatch` on-demand via external cron / webhooks.

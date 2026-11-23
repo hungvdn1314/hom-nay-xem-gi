@@ -156,5 +156,7 @@
   11. `godsub` (**GodSub**, `@Godsub01`, `UCnMTOk0TmPP49n7HMoRe9-w`): +25 films (25 parts)
   12. `phimzooai` (**Phim Zoo AI**, `@PhimZooAI`, `UCaJF3EewrPYPb1rHpSUKtDA`): +22 films (22 parts)
 - **Catalog State**:
-  - Total films: **2,903 pure 3D films** across **25 channels** with strictly sequential unique IDs (`film_1`..`film_2903`, 0 duplicates).
-  - Verified live via Puppeteer (`Tất cả 25 kênh`).
+  - Total films: **2,922 pure 3D films** across **27 channels** with strictly sequential unique IDs (`film_1`..`film_2922`, 0 duplicates).
+  - Added 2 sister 3D studio channels: `nhatanhstudio` (**Nhật Ảnh Studio**, `@StudioCitraMentari`, `UC9ymEAdoYS17Vtkk8B60mCw`, 33 films / 34 parts) & `vananhstudio` (**Vạn Ảnh Studio**, `@vananhanhstudio`, `UCYjCN2YydxT6UaRlE7t83jQ`, 16 films / 16 parts).
+  - Fixed `【...】` bracket title unwrapping in `clean_core_title` / `cleanCoreTitleClient` and `[Full X]` / `[Full-SX]` episode parsing in `parse_part_info` / `parsePartInfoClient`, merging **31 split episode cards** across *Vân Mộng Studio*, *Thiên Ảnh Studio*, *Mộng Ảnh Studio*, and partner channels into unified multi-part series cards.
+  - Verified live via Puppeteer (`Tất cả 27 kênh 2922`).

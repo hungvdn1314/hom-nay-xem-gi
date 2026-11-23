@@ -81,7 +81,9 @@ CHANNELS = [
     {"id": "hhanime", "name": "HHANIME CHANNEL", "url": "https://www.youtube.com/@hhanimeofficial", "channel_id": "UCP234GZcF-iOcYhImDCLQdQ"},
     {"id": "daudauvietsub", "name": "Đậu Đậu Vietsub", "url": "https://www.youtube.com/@daudau.vietsub", "channel_id": "UCuJieQ2VOPxm1GVKvepWioA"},
     {"id": "godsub", "name": "GodSub", "url": "https://www.youtube.com/@Godsub01", "channel_id": "UCnMTOk0TmPP49n7HMoRe9-w"},
-    {"id": "phimzooai", "name": "Phim Zoo AI", "url": "https://www.youtube.com/@PhimZooAI", "channel_id": "UCaJF3EewrPYPb1rHpSUKtDA"}
+    {"id": "phimzooai", "name": "Phim Zoo AI", "url": "https://www.youtube.com/@PhimZooAI", "channel_id": "UCaJF3EewrPYPb1rHpSUKtDA"},
+    {"id": "nhatanhstudio", "name": "Nhật Ảnh Studio", "url": "https://www.youtube.com/@StudioCitraMentari", "channel_id": "UC9ymEAdoYS17Vtkk8B60mCw"},
+    {"id": "vananhstudio", "name": "Vạn Ảnh Studio", "url": "https://www.youtube.com/@vananhanhstudio", "channel_id": "UCYjCN2YydxT6UaRlE7t83jQ"}
 ]
 
 DISCOVERY_QUERIES = [
@@ -342,10 +344,31 @@ def infer_genres(title, desc=""):
 
 
 def clean_core_title(title):
-    s = PREFIX_PATTERN.sub('', title or '').strip()
+    s = title or ""
+
+    def _unwrap_bracket(m):
+        inner = m.group(1).strip()
+        if re.match(
+            r'^(?:Ful+l\s*)?(?:Trọn\s*Bộ\s*)?(?:Version\s*)?(?:Phần|Tập|Mùa|Bộ|P|S|EP|V)?\s*\d*(?:\s*[-–+~]\s*(?:P|Phần|Tập|Mùa|S|EP)?\s*\d+)?(?:\s*\(\s*END\s*\)|\s*END|\s*Kết)?$',
+            inner,
+            flags=re.IGNORECASE,
+        ):
+            return " "
+        return f" {inner} "
+
+    s = re.sub(r'【([^】]*)】', _unwrap_bracket, s)
+    s = re.sub(r'\[([^\]]*)\]', _unwrap_bracket, s)
+    s = PREFIX_PATTERN.sub('', s).strip()
+    s = re.sub(
+        r'^(?:\s*(?:Ful+l(?:\s*Bộ|\s*Kết|\s*END|\s*Version)?|(?:Trọn\s*Bộ\s*)?(?:Phần|Tập|Mùa|P|S)\s*\d+(?:\s*[-–+~]\s*(?:P|Phần|Tập|Mùa)?\s*\d+)?(?:\s*\([^)]*\))?)\s*[\|\-:–,]?\s*)+',
+        '',
+        s,
+        flags=re.IGNORECASE,
+    )
     s = re.sub(r'\s*\((?:Phần|Tập|Mùa)\s*\d+[^)]*\)\s*$', '', s, flags=re.IGNORECASE)
+    s = re.sub(r'\s*[\|\-]\s*(?:Kas\s*Vietsub|MyCherrySub|Sora\s*Dub|CibiiSub|Đậu\s*Đậu\s*Vietsub|GodSub|Win\s*Vietsub|Thế\s*Vietsub|Vietsub\s*Phim)\s*$', '', s, flags=re.IGNORECASE)
     s = re.sub(r'^[\|\-:\s]+|[\|\-:\s]+$', '', s)
-    return s.strip()
+    return re.sub(r'\s+', ' ', s).strip()
 
 
 def hms_to_sec(text):
@@ -366,9 +389,10 @@ def hms_to_sec(text):
 def parse_part_info(text, default_prefix="Phần"):
     """
     Extract normalized episode prefix, range bounds, merge flag, and clean label
-    from titles/labels such as 'Phần 1+2', 'Phần 1-3', 'TẬP 793+794', 'Phần 10.1', 'Mùa 5 - P2'.
+    from titles/labels such as 'Phần 1+2', 'Phần 1-3', 'TẬP 793+794', 'Phần 10.1', 'Mùa 5 - P2', '[Full 4]', '[Full-S3]'.
     """
-    s = re.sub(r'\[.*?\]', '', text or '').strip()
+    s = re.sub(r'\(\s*gộp trùng[^)]*\)', '', text or '', flags=re.IGNORECASE)
+    s = re.sub(r'[\[\]【】]', ' ', s).strip()
 
     # Handle season + part combination like 'Mùa 5 - P2'
     m_season_part = re.search(r'\bMùa\s*(\d+)\s*[-–|]\s*(?:Phần|P)\s*(\d+)', s, flags=re.IGNORECASE)
@@ -402,17 +426,17 @@ def parse_part_info(text, default_prefix="Phần"):
             "label": f"{prefix} {a}.{b}",
         }
 
-    # Handle single or chained merged episodes: 'Phần 1+2', 'Phần 1+2+3', 'Phần 1-3', 'TẬP 793+794'
+    # Handle single or chained merged episodes: 'Phần 1+2', 'Phần 1+2+3', 'Phần 1-3', 'TẬP 793+794', '[Full 4]', '[Full-S3]'
     m_ep = re.search(
-        r'\b(Phần|Tập|Mùa|P)\s*(\d+)((?:\s*[+\-–&]\s*(?:(?:Phần|Tập|Mùa|P)\s*)?\d+)*)',
+        r'\b(Phần|Tập|Mùa|P|SS|Full\s*-\s*S|Full(?=\s+\d+\b)|Version)\s*(\d+)((?:\s*[+\-–&]\s*(?:(?:Phần|Tập|Mùa|P|SS)\s*)?\d+)*)',
         s,
         flags=re.IGNORECASE
     )
     if not m_ep:
         return None
 
-    raw_kw = m_ep.group(1).lower()
-    prefix = "Tập" if raw_kw == "tập" else ("Mùa" if raw_kw == "mùa" else ("Phần" if raw_kw in ("phần", "p") else default_prefix))
+    raw_kw = re.sub(r'\s+', '', m_ep.group(1).lower())
+    prefix = "Tập" if raw_kw == "tập" else ("Mùa" if raw_kw in ("mùa", "ss", "full-s") else ("Phần" if raw_kw in ("phần", "p", "full", "version") else default_prefix))
     first_num = int(m_ep.group(2))
     tail = m_ep.group(3) or ""
 
