@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5717,
+    "totalFilms": 5718,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-23T14:00:55.226190+00:00"
+    "lastUpdated": "2026-11-23T14:15:36.127934+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 484
+      "filmCount": 485
     },
     {
       "id": "naophangtutien",
@@ -174,18 +174,55 @@
   ],
   "films": [
     {
+      "id": "film_5718",
+      "title": "8 GIỜ | Game Dị Giới: Quay Trúng Nạp Tiền Vô Hạn, Nuôi Thần Long Và Tái Lập Đế Quốc 3000 Năm!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **GAME DỊ GIỚI – NẠP TIỀN VÔ HẠN, NUÔI RỒNG THẦN VÀ TÁI LẬP ĐẾ QUỐC! | SS1–SS2 | 8H** ⚔️ **Phú Hào**, một game thủ sở hữu hơn 17.000 giờ chơi, bị bố ép nghỉ game và đi làm. Không chịu bỏ cuộc, hắn quyết định thử vận may và bất ngờ quay trúng đặc quyền **Nạp Tiền Vô Hạn**, cho phép...",
+      "genres": [
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/k7zfv0_RdYI/hqdefault.jpg",
+      "publishedAt": "2026-11-23T14:15:26+00:00",
+      "updatedAt": "2026-11-23T14:15:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "8 GIỜ | Game Dị Giới: Quay Trúng Nạp Tiền Vô Hạn, Nuôi Thần Long Và Tái Lập Đế Quốc 3000 Năm!",
+          "url": "https://www.youtube.com/watch?v=k7zfv0_RdYI",
+          "id": "k7zfv0_RdYI",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-23T14:15:26+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_5717",
       "title": "Phần 2:  Vấn Đỉnh Tiên Đồ(Bản Mới)- Tu Tiên Từ Một Chiếc Đan Lô Gia Truyền",
       "channelId": "naophangtutien",
       "channelName": "Não Phẳng Tu Tiên",
       "channelUrl": "https://www.youtube.com/@nao-phang",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 10369,
-      "totalDurationStr": "2 giờ 52 phút",
-      "totalViews": 9,
-      "totalLikes": 1,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 30718,
+      "totalDurationStr": "8 giờ 31 phút",
+      "totalViews": 225,
+      "totalLikes": 12,
       "review": "Tên Phim: Vấn Đỉnh Tiên Đồ Tên Khác: Vấn Đỉnh Tiên Đồ(Bản Mới)- Tu Tiên Từ Một Chiếc Đan Lô Gia Truyền 👉 “Video này chạy bằng cơm với niềm đam mê 🥲 Ai thương thì donate cho ad có động lực tiếp tục nha! Không có gì ngoài lòng biết ơn 🚀” Từ khoá: ✔ Phàm Nhân Bách Thế Thư ✔ Phim Hoạt Hình Trung Quốc ✔ Hoạt Hình 3D ✔ Hoạt Hình Xuyên Không ✔ Hoạt Hình Cổ...",
       "genres": [
         "Tu tiên / Huyền huyễn",
@@ -193,11 +230,26 @@
       ],
       "thumbnail": "https://i4.ytimg.com/vi/C1CL48hjtPo/hqdefault.jpg",
       "publishedAt": "2026-11-23T13:59:35+00:00",
-      "updatedAt": "2026-11-23T13:59:35+00:00",
+      "updatedAt": "2026-11-23T14:01:53+00:00",
       "isRecent24h": true,
       "parts": [
         {
           "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1:Vấn Đỉnh Tiên Đồ(Bản Mới)- Tu Tiên Từ Một Chiếc Đan Lô Gia Truyền",
+          "url": "https://www.youtube.com/watch?v=COXcoUGPd0c",
+          "id": "COXcoUGPd0c",
+          "duration": 10417,
+          "durationStr": "2:53:37",
+          "publishedAt": "2026-11-23T14:01:53+00:00",
+          "views": 138,
+          "likes": 8,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 2,
           "label": "Phần 2",
           "title": "Phần 2:  Vấn Đỉnh Tiên Đồ(Bản Mới)- Tu Tiên Từ Một Chiếc Đan Lô Gia Truyền",
           "url": "https://www.youtube.com/watch?v=C1CL48hjtPo",
@@ -208,7 +260,25 @@
           "views": 9,
           "likes": 1,
           "isRedundant": false
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Phần 3: Vấn Đỉnh Tiên Đồ(Bản Mới)- Tu Tiên Từ Một Chiếc Đan Lô Gia Truyền",
+          "url": "https://www.youtube.com/watch?v=14XiBcQFgt8",
+          "id": "14XiBcQFgt8",
+          "duration": 9932,
+          "durationStr": "2:45:32",
+          "publishedAt": "2026-11-23T14:01:03+00:00",
+          "views": 78,
+          "likes": 3,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
         }
+      ],
+      "channelIds": [
+        "naophangtutien"
       ]
     },
     {
@@ -64662,10 +64732,10 @@
       "channelName": "Thiên Phạt Review",
       "channelUrl": "https://www.youtube.com/@thienphatreview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLIios2aFIYB4",
-      "totalParts": 5,
-      "partsStr": "5 phần",
-      "totalDurationSec": 49910,
-      "totalDurationStr": "13 giờ 51 phút",
+      "totalParts": 6,
+      "partsStr": "6 phần",
+      "totalDurationSec": 57312,
+      "totalDurationStr": "15 giờ 55 phút",
       "review": "Ta Cùng Con Lừa Xích Thố Lang Bạt Thế Giới Dị Biến, Săn Giết Quỷ Dị. (5 phần (Phần 1 -> 5))",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -64747,13 +64817,28 @@
           "publishedAt": "2026-11-04T00:00:00+00:00",
           "channelId": "thienphatreview",
           "channelName": "Thiên Phạt Review"
+        },
+        {
+          "index": 6,
+          "label": "Phần 5",
+          "title": "Phần 5 | Sinh Tồn Mạt Thế Quỷ Dị:Ta Cùng Con Lừa Xích Thố Lang Bạt Thế Giới Dị Biến, Săn Giết Quỷ Dị",
+          "url": "https://www.youtube.com/watch?v=tLYXIhd969E",
+          "id": "tLYXIhd969E",
+          "duration": 7402,
+          "durationStr": "2:03:22",
+          "publishedAt": "2026-11-23T14:15:08+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "thienphatreview",
+          "channelName": "Thiên Phạt Review"
         }
       ],
       "totalViews": 59773,
       "totalLikes": 1046,
       "publishedAt": "2026-10-04T00:00:00+00:00",
-      "updatedAt": "2026-11-04T00:00:00+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-23T14:15:08+00:00",
+      "isRecent24h": true,
       "channelIds": [
         "thienphatreview"
       ]
