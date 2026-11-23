@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 5711,
+    "totalFilms": 5712,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-23T12:00:42.654148+00:00"
+    "lastUpdated": "2026-11-23T12:15:29.600069+00:00"
   },
   "channels": [
     {
@@ -25,7 +25,7 @@ window.FILMS_DATA = {
       "id": "chiuchiusubtv",
       "name": "ChiuChiuSubTV",
       "url": "https://www.youtube.com/@chiuchiusubtv",
-      "filmCount": 179
+      "filmCount": 180
     },
     {
       "id": "melacreview",
@@ -174,6 +174,44 @@ window.FILMS_DATA = {
   ],
   "films": [
     {
+      "id": "film_5712",
+      "title": "Thiếu Chủ Yêu Tộc Giấu Nghề Đi Học, Lỡ Tay Bộc Lộ Sức Mạnh Rúng Động Cả Giới Linh Sư",
+      "channelId": "chiuchiusubtv",
+      "channelName": "ChiuChiuSubTV",
+      "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9257,
+      "totalDurationStr": "2 giờ 34 phút",
+      "totalViews": 46,
+      "totalLikes": 2,
+      "review": "📌 Tóm Tắt Phim: Suốt 18 năm bị xem là \"đồ phế vật\" không chút linh lực, Phong Lâm chỉ muốn sống một cuộc đời bình thường và thi đỗ đại học. Nhưng ít ai biết rằng, cậu chính là con trai của Cửu Khôi Yêu Vương, mang trong mình dòng máu \"Bán Yêu Bán Linh\" độc nhất vô nhị trên thế giới! Khi Bạch Gia tìm cách bóp nghẹt và triệt hạ cậu, Thiên Nha - đại cao thủ...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/3vfTzO5FwBk/hqdefault.jpg",
+      "publishedAt": "2026-11-23T12:05:52+00:00",
+      "updatedAt": "2026-11-23T12:05:52+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Thiếu Chủ Yêu Tộc Giấu Nghề Đi Học, Lỡ Tay Bộc Lộ Sức Mạnh Rúng Động Cả Giới Linh Sư",
+          "url": "https://www.youtube.com/watch?v=3vfTzO5FwBk",
+          "id": "3vfTzO5FwBk",
+          "duration": 9257,
+          "durationStr": "2:34:17",
+          "publishedAt": "2026-11-23T12:05:52+00:00",
+          "views": 46,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_5710",
       "title": "7 GIỜ | Đô Thị Tà Thần: Giả Làm Tín Đồ Chính Thần, Ta Sở Hữu Mộ Địa Máu Để Táng Thần!",
       "channelId": "2ksub",
@@ -182,8 +220,8 @@ window.FILMS_DATA = {
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 24581,
+      "totalDurationStr": "6 giờ 49 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **ĐÔ THỊ TÀ THẦN – TRONG ĐẦU CÓ MỘ ĐỊA MÁU, TA DÙNG NÓ CHÔN CẢ THẦN LINH! | SS1–SS2 | 6H50** ⚔️ **Vương Dã** là tín đồ bí mật của **Tà Thần Hủy Diệt**, nhưng phải giả làm tín đồ Chính Thần Khế Ước để sinh tồn tại Thành Khế Ước. Trong đầu hắn tồn tại một **mộ địa đỏ như máu**, vốn...",
@@ -202,8 +240,8 @@ window.FILMS_DATA = {
           "title": "7 GIỜ | Đô Thị Tà Thần: Giả Làm Tín Đồ Chính Thần, Ta Sở Hữu Mộ Địa Máu Để Táng Thần!",
           "url": "https://www.youtube.com/watch?v=cwf1OL4lkNA",
           "id": "cwf1OL4lkNA",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 24581,
+          "durationStr": "6:49:41",
           "publishedAt": "2026-11-23T12:00:26+00:00",
           "views": 0,
           "likes": 0,
