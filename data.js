@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2903,
+    "totalFilms": 2904,
     "totalDurationSec": 45291308,
     "totalDurationFormatted": "12580 giờ 55 phút",
     "totalViews": 151532086,
     "totalLikes": 1225945,
     "totalChannels": 25,
-    "lastUpdated": "2026-11-23T10:49:42.654759+00:00"
+    "lastUpdated": "2026-11-23T11:00:49.238362+00:00"
   },
   "channels": [
     {
@@ -145,7 +145,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 99
+      "filmCount": 100
     },
     {
       "id": "godsub",
@@ -161,6 +161,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2904",
+      "title": "Full | Tận Thế Cực Hàn Với Toàn Nữ Sinh Tôi Dùng Thiên Phú Vô Hạn Biến Hang Động Thành Pháo Đài",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9351,
+      "totalDurationStr": "2 giờ 35 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Full | Tận Thế Cực Hàn Với Toàn Nữ Sinh Tôi Dùng Thiên Phú Vô Hạn Biến Hang Động Thành Pháo Đài Trong thế giới tận thế cực hàn -50°C, Lâm Dương trở thành đội trưởng nơi trú ẩn 666 và sở hữu thiên phú cấp SSS \"Ban tặng vô hạn\". Nhờ năng lực bá đạo cùng tư duy quyết đoán, anh dẫn dắt các nữ đồng đội chống lại dị thú, xây dựng pháo đài thép, đánh bại kẻ thù...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/ne4A__9uvis/hqdefault.jpg",
+      "publishedAt": "2026-11-23T11:00:16+00:00",
+      "updatedAt": "2026-11-23T11:00:16+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full | Tận Thế Cực Hàn Với Toàn Nữ Sinh Tôi Dùng Thiên Phú Vô Hạn Biến Hang Động Thành Pháo Đài",
+          "url": "https://www.youtube.com/watch?v=ne4A__9uvis",
+          "id": "ne4A__9uvis",
+          "duration": 9351,
+          "durationStr": "2:35:51",
+          "publishedAt": "2026-11-23T11:00:16+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1",
       "title": "16 GIỜ THỎA MÃN | Trọng Sinh Trước Mạt Thế, Bán Cổ Phần Lấy 2 Tỷ Tích Trữ Vật Tư!",
