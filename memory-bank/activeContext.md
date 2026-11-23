@@ -156,7 +156,8 @@
   11. `godsub` (**GodSub**, `@Godsub01`, `UCnMTOk0TmPP49n7HMoRe9-w`): +25 films (25 parts)
   12. `phimzooai` (**Phim Zoo AI**, `@PhimZooAI`, `UCaJF3EewrPYPb1rHpSUKtDA`): +22 films (22 parts)
 - **Catalog State**:
-  - Total films: **2,922 pure 3D films** across **27 channels** with strictly sequential unique IDs (`film_1`..`film_2922`, 0 duplicates).
-  - Added 2 sister 3D studio channels: `nhatanhstudio` (**Nhật Ảnh Studio**, `@StudioCitraMentari`, `UC9ymEAdoYS17Vtkk8B60mCw`, 33 films / 34 parts) & `vananhstudio` (**Vạn Ảnh Studio**, `@vananhanhstudio`, `UCYjCN2YydxT6UaRlE7t83jQ`, 16 films / 16 parts).
-  - Fixed `【...】` bracket title unwrapping in `clean_core_title` / `cleanCoreTitleClient` and `[Full X]` / `[Full-SX]` episode parsing in `parse_part_info` / `parsePartInfoClient`, merging **31 split episode cards** across *Vân Mộng Studio*, *Thiên Ảnh Studio*, *Mộng Ảnh Studio*, and partner channels into unified multi-part series cards.
-  - Verified live via Puppeteer (`Tất cả 27 kênh 2922`).
+  - Total films: **5,708 pure 3D films** across **27 channels** with strictly sequential unique IDs (`film_1`..`film_5708`, 0 duplicates), including **607 unified multi-part series** (14 cross-channel series).
+  - Upgraded `fetch_channel_browse_data` (`fetch_all_pages=True`) to follow YouTube Innertube `continuationCommand` pagination without any 100- or 400-video limit, crawling 100% of every channel's video history (+3,551 historical 3D episodes ingested, recovering all older Phần 1, 2, 3 uploads).
+  - Added `series_grouping_key` (Python) and `seriesGroupingKeyClient` (JS) to unify all episodes of the same series both within a channel and across related channels (`channelIds` multi-channel support in `app.js` and `sync_channel_meta`).
+  - Added `\baudio\b` to `NON_3D_TITLE_REGEX` / `NON_3D_TITLE_RE` / `NON_3D_CLIENT_RE` to block audio novel videos (`FUll bộ Audio`).
+  - Verified live via Puppeteer (`Tất cả 27 kênh 5708`, verified 4-part playback on *Thân Ở Thế Giới Quỷ Dị*, *Người Khác Ngự Thú Tôi Ngự Thiên Sứ*, and *Toàn Dân Cai Ngục Sinh Tồn*).

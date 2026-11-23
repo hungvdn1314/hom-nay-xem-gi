@@ -172,7 +172,7 @@
 
   const SCHEMA_VERSION = '20261116_v6_3d_genres_spotlight';
 
-  const NON_3D_CLIENT_RE = /\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|truyện tranh|review truyện|review manhua|review manga|review manhwa|manhua\s*audio|comic\s*audio|audio truyện|đọc truyện|kể truyện|bộ truyện|\[phim ngắn\]|\bchap\s*\d+|\bchương\s*\d+/i;
+  const NON_3D_CLIENT_RE = /\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|\baudio\b|truyện tranh|review truyện|review manhua|review manga|review manhwa|manhua\s*audio|comic\s*audio|audio truyện|đọc truyện|kể truyện|bộ truyện|\[phim ngắn\]|\bchap\s*\d+|\bchương\s*\d+/i;
   const BANNED_CHANNELS_CLIENT = new Set(['besuastudio', 'gavangtutien', 'thaolac', 'tydemuoi', 'thongocstudio', 'muoimuoilamphim', 'thietreview']);
 
   function isValid3dFilmClient(film) {
@@ -189,6 +189,12 @@
     if (!genre || genre === 'all') return true;
     if (Array.isArray(film.genres) && film.genres.includes(genre)) return true;
     return film.genre === genre;
+  }
+
+  function filmMatchesChannel(film, channelId) {
+    if (!channelId || channelId === 'all') return true;
+    if (film.channelId === channelId) return true;
+    return Array.isArray(film.channelIds) && film.channelIds.includes(channelId);
   }
 
   function loadStoredData() {
@@ -246,6 +252,19 @@
       .replace(/\s*\((?:Phần|Tập|Mùa)\s*\d+[^)]*\)\s*$/i, '')
       .replace(/\s*[\|\-]\s*(?:Kas\s*Vietsub|MyCherrySub|Sora\s*Dub|CibiiSub|Đậu\s*Đậu\s*Vietsub|GodSub|Win\s*Vietsub|Thế\s*Vietsub|Vietsub\s*Phim)\s*$/i, '')
       .replace(/^[\|\-:\s]+|[\|\-:\s]+$/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function seriesGroupingKeyClient(title) {
+    let ct = cleanCoreTitleClient(title);
+    if (ct.includes('|')) {
+      const left = cleanCoreTitleClient(ct.split('|')[0].trim());
+      if (left.length >= 6) ct = left;
+    }
+    return ct
+      .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+      .toLowerCase()
       .replace(/\s+/g, ' ')
       .trim();
   }
@@ -507,6 +526,7 @@
           id: uniqueId,
           title: film.title || 'Phim hoạt hình 3D',
           channelId: film.channelId || 'channel_1',
+          channelIds: Array.isArray(film.channelIds) && film.channelIds.length > 0 ? film.channelIds : [film.channelId || 'channel_1'],
           channelName: film.channelName || 'Review Phim',
           genre: genreName,
           genres: film.genres || [genreName],
@@ -645,17 +665,23 @@
         const partNum = partInfo ? partInfo.endNum : null;
         const partLabel = partInfo ? partInfo.label : null;
         const coreTitle = cleanCoreTitleClient(v.title);
+        const sKey = seriesGroupingKeyClient(v.title);
         let matchedFilm = null;
 
-        if (partNum && partNum > 1 && coreTitle.length >= 10) {
+        if (sKey.length >= 6) {
           matchedFilm = state.allFilms.concat(newFilmsBatch).find(ef => {
-            if (ef.channelId !== v.channelId) return false;
+            const efKey = seriesGroupingKeyClient(ef.title);
+            if (efKey === sKey) return true;
+            if (ef.channelId !== v.channelId || !partNum || partNum <= 1 || coreTitle.length < 10) return false;
             const efCore = cleanCoreTitleClient(ef.title);
             return efCore.length >= 10 && (efCore.includes(coreTitle) || coreTitle.includes(efCore));
           }) || null;
         }
 
         if (matchedFilm) {
+          if (v.channelId && Array.isArray(matchedFilm.channelIds) && !matchedFilm.channelIds.includes(v.channelId)) {
+            matchedFilm.channelIds.push(v.channelId);
+          }
           const fallbackIdx = matchedFilm.parts.length + 1;
           const resolvedLabel = partLabel || `Phần ${fallbackIdx}`;
           const newPart = {
@@ -985,7 +1011,7 @@
         </button>
       `;
       state.channels.forEach(ch => {
-        const count = state.allFilms.filter(f => f.channelId === ch.id).length;
+        const count = state.allFilms.filter(f => filmMatchesChannel(f, ch.id)).length;
         cHtml += `
           <button type="button" class="sidebar-menu-btn ${state.selectedChannel === ch.id ? 'active' : ''}" data-channel="${ch.id}">
             <span class="truncate">${escapeHtml(ch.name)}</span>
@@ -1004,7 +1030,7 @@
     if (el.lbChannelSelect) {
       let html = `<option value="all">Tất cả ${state.channels.length || 8} kênh (${state.allFilms.length})</option>`;
       state.channels.forEach(ch => {
-        const count = state.allFilms.filter(f => f.channelId === ch.id).length;
+        const count = state.allFilms.filter(f => filmMatchesChannel(f, ch.id)).length;
         html += `<option value="${escapeHtml(ch.id)}">${escapeHtml(ch.name)} (${count})</option>`;
       });
       el.lbChannelSelect.innerHTML = html;
@@ -1112,7 +1138,7 @@
 
       // 2. Genre & Channel filters (shared across both normal tabs and Leaderboard!)
       if (!filmMatchesGenre(film, state.selectedGenre)) continue;
-      if (state.selectedChannel !== 'all' && film.channelId !== state.selectedChannel) continue;
+      if (!filmMatchesChannel(film, state.selectedChannel)) continue;
 
       // 3. Tab filter
       if (state.activeTab === 'recent24h') {
@@ -2073,7 +2099,7 @@
     const forced = forcedFilm && forcedFilm.parts ? forcedFilm : null;
     // Respect current channel/genre filter if active, otherwise pull high-quality 3D films >= 2h
     let scoped = state.allFilms.filter(f =>
-      (state.selectedChannel === 'all' || f.channelId === state.selectedChannel) &&
+      filmMatchesChannel(f, state.selectedChannel) &&
       filmMatchesGenre(f, state.selectedGenre)
     );
     if (scoped.length === 0) scoped = state.allFilms;

@@ -206,7 +206,7 @@ def soften_caps_title(title):
 
 NON_3D_TITLE_REGEX = re.compile(
     r'\b(?:episode|tập)\s*\d{3,}\b|'
-    r'ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|'
+    r'ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|\baudio\b|'
     r'truyện tranh|review truyện|review manhua|review manga|review manhwa|'
     r'manhua\s*audio|comic\s*audio|audio truyện|đọc truyện|kể truyện|bộ truyện|'
     r'\[phim ngắn\]|\bchap\s*\d+|\bchương\s*\d+',
@@ -343,32 +343,87 @@ def infer_genres(title, desc=""):
     return matched if matched else ["Hoạt hình 3D Chọn Lọc"]
 
 
+CHANNEL_SUFFIX_RE = re.compile(
+    r'\s*(?:[\|\-]\s*(?:'
+    r'Kas\s*Vietsub|MyCherrySub|Sora\s*Dub|CibiiSub|Đậu\s*Đậu\s*Vietsub|GodSub|'
+    r'Win\s*Vietsub|Thế\s*Vietsub|Vietsub\s*Phim|Thiết\s*Review|Hải\s*Anh\s*Vietsub|'
+    r'MQV\s*Vietsub|Nguyễn\s*Tường\s*Vietsub|2K\s*Sub|Tỷ\s*Đệ\s*Muội|Tiểu\s*Sư\s*Muội|'
+    r'Thiên\s*Phạt\s*Review|Tiểu\s*Hồ\s*Review(?:\s*\(Dorovietsub\))?|Mễ\s*Lạc\s*Review|ChiuChiuSubTV|'
+    r'Thiên\s*Ảnh\s*Studio|Mộng\s*Ảnh\s*Studio|Vân\s*Mộng\s*Studio|Nhật\s*Ảnh\s*Studio|Vạn\s*Ảnh\s*Studio|'
+    r'Gia\s*Nhi\s*Review|Phim\s*Zoo\s*AI|Zoo\s*AI\s*phim|Phim\s*Zombie|'
+    r'Hoạt\s*Hình\s*(?:Kinh\s*Dị|Tận\s*Thế|3D[^|]*)|Phim\s*Hoạt\s*Hình[^|]*'
+    r')|#\w+)\s*["\'.]*\s*$',
+    re.IGNORECASE
+)
+
+LEAD_TOKEN_RE = re.compile(
+    r'^(?:\s*(?:'
+    r'All\s+In\s+One|'
+    r'Revi?ew\s+Phim|'
+    r'Tóm\s+Tắt\s+Phim|'
+    r'Tổng\s+Hợp|'
+    r'Ful+l(?:\s*(?:Bộ|Kết|END|Version))?(?=\s*(?:[\|\-:–,\(\[]|$|\d|Phần|Tập|Mùa|P\d|S\d|SS\d))|'
+    r'Trọn\s*Bộ|'
+    r'\d+(?:[.,]\d+)?\s*(?:H|Giờ|Tiếng)(?:\s*\d+\s*(?:Phút|P)?)?(?:\s*Thỏa\s*Mãn)?|'
+    r'(?:Phần|Tập|Mùa|Bộ|P|S|SS|Version|EP)\s*\d+(?:\s*[-–+~.&]\s*(?:Phần|Tập|Mùa|P|S|SS|EP|Version|Part)?\s*\d+)*(?:\s*Part\s*\d*)?|'
+    r'Part\s*\d+|'
+    r'\d{1,3}\s*[~–-]\s*\d{2,4}|'
+    r'\(\s*(?:END|Full\s*END|Full\s*Kết|Full|Tập\s*Cuối|Phim\s*AI|Siêu\s*Phẩm\s*Kinh\s*Dị[^)]*|(?:EP|Tập|Phần|Mùa|Part|P)?\s*\d+(?:\s*[-–+~.&]\s*(?:P|Part|EP|Tập)?\s*\d+)*)\s*\)'
+    r')\s*[\|\-:–,]?\s*)+',
+    re.IGNORECASE
+)
+
+
 def clean_core_title(title):
     s = title or ""
 
     def _unwrap_bracket(m):
         inner = m.group(1).strip()
-        if re.match(
-            r'^(?:Ful+l\s*)?(?:Trọn\s*Bộ\s*)?(?:Version\s*)?(?:Phần|Tập|Mùa|Bộ|P|S|EP|V)?\s*\d*(?:\s*[-–+~]\s*(?:P|Phần|Tập|Mùa|S|EP)?\s*\d+)?(?:\s*\(\s*END\s*\)|\s*END|\s*Kết)?$',
-            inner,
-            flags=re.IGNORECASE,
-        ):
+        test_inner = LEAD_TOKEN_RE.sub('', inner).strip()
+        if not test_inner or re.match(r'^(?:Ful+l|END|Kết|Phim\s*AI|Thuyết\s*Minh|Vietsub|\d+)$', test_inner, re.I):
             return " "
         return f" {inner} "
 
     s = re.sub(r'【([^】]*)】', _unwrap_bracket, s)
     s = re.sub(r'\[([^\]]*)\]', _unwrap_bracket, s)
-    s = PREFIX_PATTERN.sub('', s).strip()
-    s = re.sub(
-        r'^(?:\s*(?:Ful+l(?:\s*Bộ|\s*Kết|\s*END|\s*Version)?|(?:Trọn\s*Bộ\s*)?(?:Phần|Tập|Mùa|P|S)\s*\d+(?:\s*[-–+~]\s*(?:P|Phần|Tập|Mùa)?\s*\d+)?(?:\s*\([^)]*\))?)\s*[\|\-:–,]?\s*)+',
-        '',
-        s,
-        flags=re.IGNORECASE,
-    )
-    s = re.sub(r'\s*\((?:Phần|Tập|Mùa)\s*\d+[^)]*\)\s*$', '', s, flags=re.IGNORECASE)
-    s = re.sub(r'\s*[\|\-]\s*(?:Kas\s*Vietsub|MyCherrySub|Sora\s*Dub|CibiiSub|Đậu\s*Đậu\s*Vietsub|GodSub|Win\s*Vietsub|Thế\s*Vietsub|Vietsub\s*Phim)\s*$', '', s, flags=re.IGNORECASE)
-    s = re.sub(r'^[\|\-:\s]+|[\|\-:\s]+$', '', s)
+    s = re.sub(r'《([^》]*)》', r' \1 ', s)
+
+    for _ in range(6):
+        new_s = LEAD_TOKEN_RE.sub('', s).strip()
+        new_s = re.sub(r'^[\|\-:–,\s"\']+', '', new_s).strip()
+        if new_s == s:
+            break
+        s = new_s
+
+    for _ in range(5):
+        new_s = CHANNEL_SUFFIX_RE.sub('', s).strip()
+        new_s = re.sub(r'\s*\((?:Phần|Tập|Mùa|EP|Full|END|Tập\s*Cuối|\d+\s*Tập)\s*\d*[^)]*\)\s*$', '', new_s, flags=re.I).strip()
+        new_s = re.sub(
+            r'\s+(?:Tập\s+)?(?:Phần|Tập|Mùa|P)\s*\d+(?:\s*[-–~+&]\s*\d+)?(?:\s*Full)?(?:\s*Thuyết\s*Minh.*|\s*Trọn\s*Bộ.*|\s*Full\s*HD.*)?$',
+            '',
+            new_s,
+            flags=re.I
+        ).strip()
+        new_s = re.sub(r'\s+[\|\-]\s*(?:P|Phần|Mùa)\s*\d+\s*$', '', new_s, flags=re.I).strip()
+        new_s = re.sub(r'\s+Thuyết\s*Minh(?:\s*Tiếng\s*Việt)?(?:\s*Trọn\s*Bộ)?(?:\s*Full\s*HD\s*1080P|\s*4K\s*FULL)?.*$', '', new_s, flags=re.I).strip()
+        if new_s == s:
+            break
+        s = new_s
+
+    s = re.sub(r'^[\|\-:–,\s"\']+|[\|\-:–,\s"\'.]+$', '', s)
     return re.sub(r'\s+', ' ', s).strip()
+
+
+def series_grouping_key(title):
+    """Canonical punctuation-agnostic series key for merging episodes within and across channels."""
+    ct = clean_core_title(title)
+    if '|' in ct:
+        left = ct.split('|')[0].strip()
+        left = clean_core_title(left)
+        if len(left) >= 6:
+            ct = left
+    ct_alnum = re.sub(r'[^\w\s]', ' ', ct).lower()
+    return re.sub(r'\s+', ' ', ct_alnum).strip()
 
 
 def hms_to_sec(text):
@@ -541,100 +596,121 @@ def part_sort_key(part, fallback_pos=0):
     return (0, part.get("index", fallback_pos + 1), 0, part.get("index", fallback_pos + 1), 0, fallback_pos, pub_dt)
 
 
-def fetch_channel_browse_data(channel_id):
+def fetch_channel_browse_data(channel_id, fetch_all_pages=True):
     """
-    Fetch up to 100 latest video durations and metadata via YouTube Innertube browse API.
-    Unlike /watch, /youtubei/v1/browse on VLUU... playlists is not blocked by cloud IP bot checks
-    and serves as a resilient fallback when YouTube RSS XML returns 404/500.
+    Fetch video durations and metadata via YouTube Innertube browse API.
+    When fetch_all_pages=True, follows continuationCommand tokens until the entire channel
+    uploads playlist (VLUU...) is exhausted, with no artificial 100- or 400-video cap.
     """
     dur_map = {}
     videos_list = []
     if not channel_id or not channel_id.startswith("UC"):
         return dur_map, videos_list
     uploads_playlist_id = f"VLUU{channel_id[2:]}"
-    try:
-        payload = json.dumps({
-            "browseId": uploads_playlist_id,
-            "context": {
-                "client": {
-                    "clientName": "WEB",
-                    "clientVersion": "2.20241111.01.00",
-                    "hl": "vi",
-                    "gl": "VN"
+    seen_vids = set()
+    now_utc = datetime.now(timezone.utc)
+    continuation = None
+    page = 0
+
+    while True:
+        try:
+            body = {
+                "context": {
+                    "client": {
+                        "clientName": "WEB",
+                        "clientVersion": "2.20241111.01.00",
+                        "hl": "vi",
+                        "gl": "VN"
+                    }
                 }
             }
-        }).encode("utf-8")
-        req = urllib.request.Request(
-            "https://www.youtube.com/youtubei/v1/browse?prettyPrint=false",
-            data=payload,
-            headers={
-                "Content-Type": "application/json",
-                "User-Agent": HEADERS["User-Agent"]
-            },
-            method="POST"
-        )
-        txt = urllib.request.urlopen(req, timeout=15).read().decode("utf-8", errors="ignore")
-        for d_str, vid in re.findall(
-            r'"thumbnailBadgeViewModel":\{"text":"([0-9:]+)"[^}]*"animationActivationTargetId":"([^"]+)"',
-            txt
-        ):
-            sec = hms_to_sec(d_str)
-            if sec > 0 and vid not in dur_map:
-                dur_map[vid] = sec
-        for vid, sec_str in re.findall(
-            r'"playlistVideoRenderer":\{"videoId":"([a-zA-Z0-9_-]{11})"[\s\S]{0,2000}?"lengthSeconds":"(\d+)"',
-            txt
-        ):
-            sec = int(sec_str)
-            if sec > 0 and vid not in dur_map:
-                dur_map[vid] = sec
-
-        # Extract lockupViewModel entries for RSS fallback (videoId, title, views, relative publishedAt)
-        seen_vids = set()
-        now_utc = datetime.now(timezone.utc)
-        for chunk in txt.split('{"lockupViewModel":')[1:]:
-            m_vid = (
-                re.search(r'"animationActivationTargetId":"([a-zA-Z0-9_-]{11})"', chunk)
-                or re.search(r'/vi/([a-zA-Z0-9_-]{11})/', chunk)
-                or re.search(r'"videoId":"([a-zA-Z0-9_-]{11})"', chunk)
-            )
-            if not m_vid:
-                continue
-            vid = m_vid.group(1)
-            if vid in seen_vids:
-                continue
-            seen_vids.add(vid)
-
-            m_title = re.search(r'"lockupMetadataViewModel":\{"title":\{"content":"((?:[^"\\]|\\.)*)"', chunk)
-            if not m_title:
-                continue
-            try:
-                title = json.loads(f'"{m_title.group(1)}"')
-            except Exception:
-                title = m_title.group(1)
-
-            views = 0
-            pub_iso = None
-            m_meta = re.search(r'"metadataParts":\[\{"text":\{"content":"([^"]*(?:view|watching|lượt xem|đang xem)[^"]*)"\}[^\]]*?\}[^\]]*\]', chunk, re.I)
-            if m_meta:
-                views = parse_compact_number(m_meta.group(1))
-            for rel_m in re.findall(r'"text":\{"content":"([^"]+(?:ago|trước))"\}', chunk, re.I):
-                parsed_iso = parse_en_date_to_iso(rel_m, ref_now=now_utc)
-                if parsed_iso:
-                    pub_iso = parsed_iso
+            if page == 0:
+                body["browseId"] = uploads_playlist_id
+            else:
+                if not continuation:
                     break
+                body["continuation"] = continuation
 
-            videos_list.append({
-                "videoId": vid,
-                "title": title,
-                "published": pub_iso or now_utc.isoformat(),
-                "description": "",
-                "thumbnail": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg",
-                "durationSec": dur_map.get(vid, 0),
-                "views": views
-            })
-    except Exception as e:
-        print(f"  [Warning] Innertube browse failed for {channel_id}: {e}")
+            req = urllib.request.Request(
+                "https://www.youtube.com/youtubei/v1/browse?prettyPrint=false",
+                data=json.dumps(body).encode("utf-8"),
+                headers={
+                    "Content-Type": "application/json",
+                    "User-Agent": HEADERS["User-Agent"]
+                },
+                method="POST"
+            )
+            txt = urllib.request.urlopen(req, timeout=15).read().decode("utf-8", errors="ignore")
+            for d_str, vid in re.findall(
+                r'"thumbnailBadgeViewModel":\{"text":"([0-9:]+)"[^}]*"animationActivationTargetId":"([^"]+)"',
+                txt
+            ):
+                sec = hms_to_sec(d_str)
+                if sec > 0 and vid not in dur_map:
+                    dur_map[vid] = sec
+            for vid, sec_str in re.findall(
+                r'"playlistVideoRenderer":\{"videoId":"([a-zA-Z0-9_-]{11})"[\s\S]{0,2000}?"lengthSeconds":"(\d+)"',
+                txt
+            ):
+                sec = int(sec_str)
+                if sec > 0 and vid not in dur_map:
+                    dur_map[vid] = sec
+
+            page_added = 0
+            for chunk in txt.split('{"lockupViewModel":')[1:]:
+                m_vid = (
+                    re.search(r'"animationActivationTargetId":"([a-zA-Z0-9_-]{11})"', chunk)
+                    or re.search(r'/vi/([a-zA-Z0-9_-]{11})/', chunk)
+                    or re.search(r'"videoId":"([a-zA-Z0-9_-]{11})"', chunk)
+                )
+                if not m_vid:
+                    continue
+                vid = m_vid.group(1)
+                if vid in seen_vids:
+                    continue
+                seen_vids.add(vid)
+
+                m_title = re.search(r'"lockupMetadataViewModel":\{"title":\{"content":"((?:[^"\\]|\\.)*)"', chunk)
+                if not m_title:
+                    continue
+                try:
+                    title = json.loads(f'"{m_title.group(1)}"')
+                except Exception:
+                    title = m_title.group(1)
+
+                views = 0
+                pub_iso = None
+                m_meta = re.search(r'"metadataParts":\[\{"text":\{"content":"([^"]*(?:view|watching|lượt xem|đang xem)[^"]*)"\}[^\]]*?\}[^\]]*\]', chunk, re.I)
+                if m_meta:
+                    views = parse_compact_number(m_meta.group(1))
+                for rel_m in re.findall(r'"text":\{"content":"([^"]+(?:ago|trước))"\}', chunk, re.I):
+                    parsed_iso = parse_en_date_to_iso(rel_m, ref_now=now_utc)
+                    if parsed_iso:
+                        pub_iso = parsed_iso
+                        break
+
+                videos_list.append({
+                    "videoId": vid,
+                    "title": title,
+                    "published": pub_iso or now_utc.isoformat(),
+                    "description": "",
+                    "thumbnail": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg",
+                    "durationSec": dur_map.get(vid, 0),
+                    "views": views
+                })
+                page_added += 1
+
+            if not fetch_all_pages:
+                break
+            tokens = re.findall(r'"continuationCommand":\{"token":"([^"]+)"', txt)
+            next_token = tokens[-1] if tokens else None
+            if page_added == 0 or not next_token or next_token == continuation:
+                break
+            continuation = next_token
+            page += 1
+        except Exception as e:
+            print(f"  [Warning] Innertube browse failed for {channel_id} (page {page}): {e}")
+            break
     return dur_map, videos_list
 
 
@@ -1385,10 +1461,13 @@ def discover_channels(min_ratio=0.8):
 
 
 def sync_channel_meta(data, films):
-    """Keep data['channels'] aligned with CHANNELS and film counts."""
+    """Keep data['channels'] aligned with CHANNELS and film counts (including multi-channel series)."""
     counts = {}
     for f in films:
-        counts[f.get("channelId")] = counts.get(f.get("channelId"), 0) + 1
+        ch_list = f.get("channelIds") or ([f.get("channelId")] if f.get("channelId") else [])
+        for cid in set(ch_list):
+            if cid:
+                counts[cid] = counts.get(cid, 0) + 1
     data["channels"] = [
         {"id": c["id"], "name": c["name"], "url": c["url"], "filmCount": counts.get(c["id"], 0)}
         for c in CHANNELS
@@ -1464,10 +1543,9 @@ def main():
     for ch in CHANNELS:
         ch_vids = browse_videos_map.get(ch["channel_id"])
         if not any(f.get("channelId") == ch["id"] for f in films) and ch_vids:
-            # Brand-new channel: initial backfill from the latest ~60 uploads
-            browse_videos_map[ch["channel_id"]] = ch_vids[:100]
-            print(f"  [New Channel] Backfilling '{ch['name']}' with {len(browse_videos_map[ch['channel_id']])} uploads.")
-            videos = list(browse_videos_map[ch["channel_id"]])
+            # Brand-new channel: full historical backfill across all paginated uploads
+            print(f"  [New Channel] Backfilling '{ch['name']}' with {len(ch_vids)} uploads.")
+            videos = list(ch_vids)
             videos.sort(key=lambda v: parse_iso_utc(v.get("published")) or datetime.min.replace(tzinfo=timezone.utc))
         else:
             videos = fetch_channel_videos(ch["channel_id"], browse_fallback_videos=ch_vids)
@@ -1512,17 +1590,22 @@ def main():
                 continue
 
             core_title = clean_core_title(v_title)
+            s_key = series_grouping_key(v_title)
             part_info = parse_part_info(v_title)
             part_num = part_info["endNum"] if part_info else None
             part_label = part_info["label"] if part_info else "Phần 1"
 
-            # Attempt to merge into an existing series on the same channel
+            # Attempt to merge into an existing series with the same canonical series key (same or related channel)
             matched_film = None
-            if part_num and part_num > 1 and len(core_title) >= 10:
+            if len(s_key) >= 6:
                 for ef in films + new_films_list:
-                    if ef.get("channelId") == ch_id:
+                    ef_key = series_grouping_key(ef.get("title", ""))
+                    if ef_key == s_key:
+                        matched_film = ef
+                        break
+                    elif ef.get("channelId") == ch_id and part_num and part_num > 1 and len(core_title) >= 10:
                         ef_core = clean_core_title(ef.get("title", ""))
-                        if len(ef_core) >= 10 and (ef_core in core_title or core_title in ef_core):
+                        if len(ef_core) >= 10 and (ef_core.lower() in core_title.lower() or core_title.lower() in ef_core.lower()):
                             matched_film = ef
                             break
 
@@ -1542,10 +1625,16 @@ def main():
                     "publishedAt": v_pub,
                     "views": v_views,
                     "likes": v_likes,
-                    "isRedundant": False
+                    "isRedundant": False,
+                    "channelId": ch_id,
+                    "channelName": ch_name
                 }
                 existing_parts.append(new_part)
                 matched_film["parts"] = existing_parts
+                ch_ids = matched_film.get("channelIds") or [matched_film.get("channelId")]
+                if ch_id not in ch_ids:
+                    ch_ids.append(ch_id)
+                matched_film["channelIds"] = [c for c in ch_ids if c]
                 recalculate_film_summary(matched_film)
                 existing_video_ids.add(vid)
                 new_parts_count += 1
