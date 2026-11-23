@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2108,
+    "totalFilms": 2109,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-23T02:45:18.714886+00:00"
+    "lastUpdated": "2026-11-23T04:15:19.210223+00:00"
   },
   "channels": [
     {
@@ -61,7 +61,7 @@
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 77
+      "filmCount": 78
     },
     {
       "id": "zzzphim",
@@ -89,6 +89,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2109",
+      "title": "P1, Song Tử Thiên Tài Thức Tỉnh Thần Tự Khởi Nguyên Top 10 Nghịch Thiên Quật Khởi Chinh Phục Tai Vực",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7963,
+      "totalDurationStr": "2 giờ 12 phút",
+      "totalViews": 0,
+      "totalLikes": 4,
+      "review": "[ Full ] P1, Song Tử Thiên Tài Thức Tỉnh Thần Tự Khởi Nguyên Top 10, Nghịch Thiên Quật Khởi Chinh Phục Tai Vực! Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/Q3Pdg6_5wvc/hqdefault.jpg",
+      "publishedAt": "2026-11-23T04:03:15+00:00",
+      "updatedAt": "2026-11-23T04:03:15+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Song Tử Thiên Tài Thức Tỉnh Thần Tự Khởi Nguyên Top 10 Nghịch Thiên Quật Khởi Chinh Phục Tai Vực",
+          "url": "https://www.youtube.com/watch?v=Q3Pdg6_5wvc",
+          "id": "Q3Pdg6_5wvc",
+          "duration": 7963,
+          "durationStr": "2:12:43",
+          "publishedAt": "2026-11-23T04:03:15+00:00",
+          "views": 0,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2108",
       "title": "Xuyên Không Về Thập Niên 60, Ác Mẫu Nuôi 3 Trùm Phản Diện Bằng Không Gian Tùy Thân, Đổi Đời Cả Nhà!",
