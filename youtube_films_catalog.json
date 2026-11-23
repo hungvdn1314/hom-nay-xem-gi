@@ -6,7 +6,7 @@
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-23T23:00:50.419173+00:00"
+    "lastUpdated": "2026-11-23T23:15:47.829459+00:00"
   },
   "channels": [
     {
@@ -182,8 +182,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 40,
+      "totalDurationStr": "40 giây",
       "totalViews": 31526,
       "totalLikes": 466,
       "review": "📽Phim: [Full] Thông Báo Chuyển Nhà Và Gửi Lời Chào Tạm Biệt Với Kênh MyCherrySub Tóm tắt: \"Chào mọi người, mình có một thông báo hơi buồn một chút muốn chia sẻ với cả nhà. Kênh My Cherry Sub hiện tại đã bị dính lỗi và mất tính năng tắt kiếm tiền rồi. Đây là một cú sốc không nhỏ nhưng cũng là động lực để mình làm mới mọi thứ. Để tiếp tục duy trì đam mê và...",
@@ -193,7 +193,7 @@
       "thumbnail": "https://i2.ytimg.com/vi/QhgQ7xyeyGk/hqdefault.jpg",
       "publishedAt": "2026-11-17T07:42:20+00:00",
       "updatedAt": "2026-11-17T07:42:20+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -201,8 +201,8 @@
           "title": "[Full] Thông Báo Chuyển Nhà Và Gửi Lời Chào Tạm Biệt Với Kênh MyCherrySub",
           "url": "https://www.youtube.com/watch?v=QhgQ7xyeyGk",
           "id": "QhgQ7xyeyGk",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 40,
+          "durationStr": "0:40",
           "publishedAt": "2026-11-17T07:42:20+00:00",
           "views": 31526,
           "likes": 466,
