@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-23T18:30:39.503754+00:00"
+    "lastUpdated": "2026-11-23T18:45:31.593031+00:00"
   },
   "channels": [
     {
@@ -32837,10 +32837,10 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLGbkQ6menlP8",
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 24202,
-      "totalDurationStr": "6 giờ 43 phút",
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 32702,
+      "totalDurationStr": "9 giờ 05 phút",
       "review": "Lấy Chúng Sinh Làm Bàn Cờ. (2 phần / 2 video (Mùa 2, Mùa 11))",
       "genres": [
         "Võ hiệp / Cổ trang"
@@ -32891,13 +32891,28 @@ window.FILMS_DATA = {
           "likes": 190,
           "channelId": "melacreview",
           "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 4,
+          "label": "Mùa 13",
+          "title": "Mùa 13 | Nghịch Giang Hồ: Lấy Chúng Sinh Làm Bàn Cờ",
+          "url": "https://www.youtube.com/watch?v=qgmx3-7C0j4",
+          "id": "qgmx3-7C0j4",
+          "duration": 8500,
+          "durationStr": "2:21:40",
+          "publishedAt": "2026-11-23T18:39:51+00:00",
+          "views": 29,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
         }
       ],
-      "updatedAt": "2026-11-13T23:01:03+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-23T18:39:51+00:00",
+      "isRecent24h": true,
       "publishedAt": "2026-11-13T23:01:03+00:00",
-      "totalViews": 135042,
-      "totalLikes": 971,
+      "totalViews": 135071,
+      "totalLikes": 972,
       "channelIds": [
         "melacreview"
       ]
