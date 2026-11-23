@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2924,
+    "totalFilms": 2925,
     "totalDurationSec": 45739500,
     "totalDurationFormatted": "12705 giờ 25 phút",
     "totalViews": 151857149,
     "totalLikes": 1225945,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-23T11:15:23.327102+00:00"
+    "lastUpdated": "2026-11-23T11:30:52.259813+00:00"
   },
   "channels": [
     {
@@ -85,7 +85,7 @@ window.FILMS_DATA = {
       "id": "mycherrysub",
       "name": "MyCherrySub",
       "url": "https://www.youtube.com/@MyCherrySub",
-      "filmCount": 92
+      "filmCount": 93
     },
     {
       "id": "soradub",
@@ -173,6 +173,43 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2925",
+      "title": "[Full] Thông Báo Chuyển Nhà Và Gửi Lời Chào Tạm Biệt Với Kênh MyCherrySub",
+      "channelId": "mycherrysub",
+      "channelName": "MyCherrySub",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 30582,
+      "totalLikes": 460,
+      "review": "📽Phim: [Full] Thông Báo Chuyển Nhà Và Gửi Lời Chào Tạm Biệt Với Kênh MyCherrySub Tóm tắt: \"Chào mọi người, mình có một thông báo hơi buồn một chút muốn chia sẻ với cả nhà. Kênh My Cherry Sub hiện tại đã bị dính lỗi và mất tính năng tắt kiếm tiền rồi. Đây là một cú sốc không nhỏ nhưng cũng là động lực để mình làm mới mọi thứ. Để tiếp tục duy trì đam mê và...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/QhgQ7xyeyGk/hqdefault.jpg",
+      "publishedAt": "2026-11-17T07:42:20+00:00",
+      "updatedAt": "2026-11-17T07:42:20+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Thông Báo Chuyển Nhà Và Gửi Lời Chào Tạm Biệt Với Kênh MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=QhgQ7xyeyGk",
+          "id": "QhgQ7xyeyGk",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-17T07:42:20+00:00",
+          "views": 30582,
+          "likes": 460,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2924",
       "title": "Full | Tận Thế Cực Hàn Với Toàn Nữ Sinh Tôi Dùng Thiên Phú Vô Hạn Biến Hang Động Thành Pháo Đài",
