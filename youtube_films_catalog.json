@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5716,
+    "totalFilms": 5717,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-23T13:45:40.818042+00:00"
+    "lastUpdated": "2026-11-23T14:00:55.226190+00:00"
   },
   "channels": [
     {
@@ -127,7 +127,7 @@
       "id": "naophangtutien",
       "name": "Não Phẳng Tu Tiên",
       "url": "https://www.youtube.com/@nao-phang",
-      "filmCount": 90
+      "filmCount": 91
     },
     {
       "id": "hoatrenmay3d",
@@ -173,6 +173,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_5717",
+      "title": "Phần 2:  Vấn Đỉnh Tiên Đồ(Bản Mới)- Tu Tiên Từ Một Chiếc Đan Lô Gia Truyền",
+      "channelId": "naophangtutien",
+      "channelName": "Não Phẳng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@nao-phang",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10369,
+      "totalDurationStr": "2 giờ 52 phút",
+      "totalViews": 9,
+      "totalLikes": 1,
+      "review": "Tên Phim: Vấn Đỉnh Tiên Đồ Tên Khác: Vấn Đỉnh Tiên Đồ(Bản Mới)- Tu Tiên Từ Một Chiếc Đan Lô Gia Truyền 👉 “Video này chạy bằng cơm với niềm đam mê 🥲 Ai thương thì donate cho ad có động lực tiếp tục nha! Không có gì ngoài lòng biết ơn 🚀” Từ khoá: ✔ Phàm Nhân Bách Thế Thư ✔ Phim Hoạt Hình Trung Quốc ✔ Hoạt Hình 3D ✔ Hoạt Hình Xuyên Không ✔ Hoạt Hình Cổ...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/C1CL48hjtPo/hqdefault.jpg",
+      "publishedAt": "2026-11-23T13:59:35+00:00",
+      "updatedAt": "2026-11-23T13:59:35+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Phần 2:  Vấn Đỉnh Tiên Đồ(Bản Mới)- Tu Tiên Từ Một Chiếc Đan Lô Gia Truyền",
+          "url": "https://www.youtube.com/watch?v=C1CL48hjtPo",
+          "id": "C1CL48hjtPo",
+          "duration": 10369,
+          "durationStr": "2:52:49",
+          "publishedAt": "2026-11-23T13:59:35+00:00",
+          "views": 9,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5716",
       "title": "7 GIỜ 40 | Xuyên Không Thời Loạn: Thức Tỉnh Hệ Thống Vạn Thú, Từ Dân Nghèo Thành Cao Thủ!",
