@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 2109,
+    "totalFilms": 2110,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-23T04:30:26.211658+00:00"
+    "lastUpdated": "2026-11-23T06:30:35.605916+00:00"
   },
   "channels": [
     {
@@ -61,7 +61,7 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 78
+      "filmCount": 79
     },
     {
       "id": "zzzphim",
@@ -89,6 +89,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_2110",
+      "title": "P1, Trọng Sinh Mang Theo Thiên Phú Nghịch Thiên Ta Sáng Tạo Tiên Đạo Và Trở Thành Bắc Huyền Tiên Tôn",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9527,
+      "totalDurationStr": "2 giờ 38 phút",
+      "totalViews": 52,
+      "totalLikes": 3,
+      "review": "[ Full ] P1, Trọng Sinh Mang Theo Thiên Phú Nghịch Thiên Ta Sáng Tạo Tiên Đạo Và Trở Thành Bắc Huyền Tiên Tôn Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/KYH-FR-djx0/hqdefault.jpg",
+      "publishedAt": "2026-11-23T06:16:54+00:00",
+      "updatedAt": "2026-11-23T06:16:54+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Trọng Sinh Mang Theo Thiên Phú Nghịch Thiên Ta Sáng Tạo Tiên Đạo Và Trở Thành Bắc Huyền Tiên Tôn",
+          "url": "https://www.youtube.com/watch?v=KYH-FR-djx0",
+          "id": "KYH-FR-djx0",
+          "duration": 9527,
+          "durationStr": "2:38:47",
+          "publishedAt": "2026-11-23T06:16:54+00:00",
+          "views": 52,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2109",
       "title": "P1, Song Tử Thiên Tài Thức Tỉnh Thần Tự Khởi Nguyên Top 10 Nghịch Thiên Quật Khởi Chinh Phục Tai Vực",
@@ -12677,18 +12715,18 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 11062,
-      "totalDurationStr": "3 giờ 04 phút",
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 24772,
+      "totalDurationStr": "6 giờ 52 phút",
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Mùa 5 | Tiểu Sư Muội Quỷ Tài Toàn Năng Cô gái thời hiện đại Đào Tuyết trong một lần nhảy bungee thì khóa an toàn bị đứt, bất ngờ xuyên k",
       "genres": [
         "Tu tiên / Huyền huyễn"
       ],
       "thumbnail": "https://i1.ytimg.com/vi/4bBpWOfiPvI/hqdefault.jpg",
       "publishedAt": "2026-11-14T11:49:36+00:00",
-      "updatedAt": "2026-11-14T11:49:36+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-23T06:21:40+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -12702,10 +12740,23 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "views": 6219,
           "likes": 71
+        },
+        {
+          "index": 2,
+          "label": "Mùa 6",
+          "title": "Mùa 6 | Tiểu Sư Muội Quỷ Tài Toàn Năng",
+          "url": "https://www.youtube.com/watch?v=ME7RMNq__tk",
+          "id": "ME7RMNq__tk",
+          "duration": 13710,
+          "durationStr": "3:48:30",
+          "publishedAt": "2026-11-23T06:21:40+00:00",
+          "views": 40,
+          "likes": 5,
+          "isRedundant": false
         }
       ],
-      "totalViews": 6219,
-      "totalLikes": 71
+      "totalViews": 6259,
+      "totalLikes": 76
     },
     {
       "id": "film_268",
