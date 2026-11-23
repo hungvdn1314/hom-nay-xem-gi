@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2111,
+    "totalFilms": 2112,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-23T07:00:34.632314+00:00"
+    "lastUpdated": "2026-11-23T09:45:26.819328+00:00"
   },
   "channels": [
     {
@@ -49,7 +49,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 242
+      "filmCount": 243
     },
     {
       "id": "tieusumuoi",
@@ -89,6 +89,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2112",
+      "title": "Full Phần 1 | Xuyên Không Đến Tòa Tháp Quỷ Dị: Thức Tỉnh Hệ Thống Tạo Ra Quỷ Vật",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8160,
+      "totalDurationStr": "2 giờ 16 phút",
+      "totalViews": 72,
+      "totalLikes": 8,
+      "review": "🎬 【Xuyên Không Đến Tòa Tháp Quỷ Dị: Thức Tỉnh Hệ Thống Tạo Ra Quỷ Vật, Mang Theo Thú Cưng Bruce Dũng Cảm Xông Pha Quỷ Giới!】 👻🏰 Bất ngờ xuyên không đến một tòa tháp quỷ dị đầy rẫy hiểm nguy, nhân vật chính phải đối mặt với những sinh vật đáng sợ và vô số thử thách sinh tử! Giữa hoàn cảnh tưởng chừng không còn đường sống, anh lại thức tỉnh Hệ Thống Tạo Ra...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/W38dza6PzI4/hqdefault.jpg",
+      "publishedAt": "2026-11-23T09:20:03+00:00",
+      "updatedAt": "2026-11-23T09:20:03+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Xuyên Không Đến Tòa Tháp Quỷ Dị: Thức Tỉnh Hệ Thống Tạo Ra Quỷ Vật",
+          "url": "https://www.youtube.com/watch?v=W38dza6PzI4",
+          "id": "W38dza6PzI4",
+          "duration": 8160,
+          "durationStr": "2:16:00",
+          "publishedAt": "2026-11-23T09:20:03+00:00",
+          "views": 72,
+          "likes": 8,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2111",
       "title": "Full END | 【Hệ Thống Giả Làm Tài Phiệt: Đừng Cưng Chiều Tôi Quá Mức!】",
