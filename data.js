@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-23T04:15:19.210223+00:00"
+    "lastUpdated": "2026-11-23T04:30:26.211658+00:00"
   },
   "channels": [
     {
@@ -40048,10 +40048,10 @@ window.FILMS_DATA = {
       "channelName": "ChiuChiuSubTV",
       "channelUrl": "https://www.youtube.com/@chiuchiusubtv",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 18620,
-      "totalDurationStr": "5 giờ 10 phút",
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 27846,
+      "totalDurationStr": "7 giờ 44 phút",
       "review": "Hệ Thống Ngự Thú Phản Tổ, Ta Nuôi 'Chó Cỏ Gà Rừng' Hóa Thành THẦN THÚ Vô Địch. (2 phần (Gộp Phần 1+2 trong 1 video))",
       "genres": [
         "Tu tiên / Huyền huyễn",
@@ -40071,13 +40071,26 @@ window.FILMS_DATA = {
           "views": 22509,
           "likes": 395,
           "publishedAt": "2026-10-30T00:00:00+00:00"
+        },
+        {
+          "index": 2,
+          "label": "Phần 3",
+          "title": "(Phần 3) Hệ Thống Ngự Thú Phản Tổ, Ta Nuôi 'Chó Cỏ Gà Rừng' Hóa Thành THẦN THÚ Vô Địch",
+          "url": "https://www.youtube.com/watch?v=JJWs84Scukg",
+          "id": "JJWs84Scukg",
+          "duration": 9226,
+          "durationStr": "2:33:46",
+          "publishedAt": "2026-11-23T04:22:07+00:00",
+          "views": 0,
+          "likes": 5,
+          "isRedundant": false
         }
       ],
       "totalViews": 22509,
-      "totalLikes": 395,
+      "totalLikes": 400,
       "publishedAt": "2026-10-30T00:00:00+00:00",
-      "updatedAt": "2026-10-30T00:00:00+00:00",
-      "isRecent24h": false
+      "updatedAt": "2026-11-23T04:22:07+00:00",
+      "isRecent24h": true
     },
     {
       "id": "film_910",
