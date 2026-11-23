@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2110,
+    "totalFilms": 2111,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-23T06:30:35.605916+00:00"
+    "lastUpdated": "2026-11-23T07:00:34.632314+00:00"
   },
   "channels": [
     {
@@ -49,7 +49,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 241
+      "filmCount": 242
     },
     {
       "id": "tieusumuoi",
@@ -89,6 +89,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2111",
+      "title": "Full END | 【Hệ Thống Giả Làm Tài Phiệt: Đừng Cưng Chiều Tôi Quá Mức!】",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8489,
+      "totalDurationStr": "2 giờ 21 phút",
+      "totalViews": 48,
+      "totalLikes": 4,
+      "review": "🎬 【Hệ Thống Giả Làm Tài Phiệt: Đừng Cưng Chiều Tôi Quá Mức!】 💰👑 Cuộc sống bình thường bỗng chốc đảo lộn khi nhân vật chính bất ngờ gặp được một hệ thống giả làm tài phiệt vô cùng đặc biệt! Tưởng rằng chỉ là một cơ hội đổi đời đơn giản, nào ngờ hệ thống này lại mang đến những màn cưng chiều vượt xa tưởng tượng. Từ tiền bạc, vật chất đến những đãi ngộ xa...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/qCvrjvax7cI/hqdefault.jpg",
+      "publishedAt": "2026-11-23T06:45:23+00:00",
+      "updatedAt": "2026-11-23T06:45:23+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full END | 【Hệ Thống Giả Làm Tài Phiệt: Đừng Cưng Chiều Tôi Quá Mức!】",
+          "url": "https://www.youtube.com/watch?v=qCvrjvax7cI",
+          "id": "qCvrjvax7cI",
+          "duration": 8489,
+          "durationStr": "2:21:29",
+          "publishedAt": "2026-11-23T06:45:23+00:00",
+          "views": 48,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2110",
       "title": "P1, Trọng Sinh Mang Theo Thiên Phú Nghịch Thiên Ta Sáng Tạo Tiên Đạo Và Trở Thành Bắc Huyền Tiên Tôn",
