@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 2105,
+    "totalFilms": 2106,
     "totalDurationSec": 32625960,
     "totalDurationFormatted": "9062 giờ 46 phút",
     "totalViews": 107064904,
     "totalLikes": 1225643,
     "totalChannels": 13,
-    "lastUpdated": "2026-11-22T18:15:22.010294+00:00"
+    "lastUpdated": "2026-11-23T01:00:00.300351+00:00"
   },
   "channels": [
     {
@@ -49,7 +49,7 @@
       "id": "vanmonggiao",
       "name": "Vân Mộng Studio",
       "url": "https://www.youtube.com/@vanmonggiao",
-      "filmCount": 240
+      "filmCount": 241
     },
     {
       "id": "tieusumuoi",
@@ -89,6 +89,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_2106",
+      "title": "Full Phần 1 | Phá Đảo Game Mở Khóa Thành Tựu “Tra Nam”!",
+      "channelId": "vanmonggiao",
+      "channelName": "Vân Mộng Studio",
+      "channelUrl": "https://www.youtube.com/@vanmonggiao",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 22771,
+      "totalDurationStr": "6 giờ 19 phút",
+      "totalViews": 35,
+      "totalLikes": 2,
+      "review": "💖 Ủng hộ kên 🎬 【Phá Đảo Game Mở Khóa Thành Tựu “Tra Nam”!】 🎮💕 Tưởng chừng chỉ là một trò chơi giải trí bình thường, nào ngờ sau khi hoàn thành thử thách và phá đảo trò chơi, nhân vật chính lại bất ngờ mở khóa một thành tựu vô cùng khó đỡ: “Tra Nam”! Danh hiệu đặc biệt này khiến hành trình chinh phục trò chơi trở nên đầy bất ngờ, kéo theo những tình huống...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/Yh0JAbn-dzY/hqdefault.jpg",
+      "publishedAt": "2026-11-23T00:46:57+00:00",
+      "updatedAt": "2026-11-23T00:46:57+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Phá Đảo Game Mở Khóa Thành Tựu “Tra Nam”!",
+          "url": "https://www.youtube.com/watch?v=Yh0JAbn-dzY",
+          "id": "Yh0JAbn-dzY",
+          "duration": 22771,
+          "durationStr": "6:19:31",
+          "publishedAt": "2026-11-23T00:46:57+00:00",
+          "views": 35,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_2105",
       "title": "Xuyên Không Thành Hỗn Độn Giám Ngục: Giam Giữ 10 Vạn Ma Đế, Hút Sạch Tu Vi Chư Thiên",
