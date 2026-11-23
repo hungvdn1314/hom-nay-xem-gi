@@ -136,3 +136,25 @@
   1. Rebuilt catalog deterministically: 2,077 pure 3D films numbered strictly uniquely (`film_1` to `film_2077`, 0 duplicates).
   2. Added runtime client-side de-duplication in `app.js` (`seenFilmIds`) in `normalizeAndIngestData`.
   3. Verified via Puppeteer: Clicking "Oan Gia Ngõ Hẹp" (`film_96`) opens the exact MyCherrySub video (`MtzynyYeqJg`), and clicking "Hoá Độc" (`film_11`) opens the Anime 3D video (`lDyoP1U9B5s`).
+
+## Deep 3D Channel Discovery & Mid-Video Frame Audit (2026-11-23)
+- **Methodology**:
+  - Scanned 94 candidate channels across 12 diverse 3D search queries on YouTube.
+  - Audited actual internal mid-video stream frames (`https://i.ytimg.com/vi/<VIDEO_ID>/2.jpg`) in addition to video descriptions to eliminate channels that use 3D cover thumbnails over 2D Manhua/sand-sculpture content.
+  - Blacklisted `muoimuoilamphim` (3D cover but 2D Manhua inside) and `thietreview` (2D sand-sculpture meme animation) in `BANNED_CHANNEL_IDS` / `BANNED_CHANNELS_CLIENT`.
+- **12 New Verified 3D Channels Integrated (13 -> 25 Channels)**:
+  1. `soradub` (**Sora Dub**, `@SoraDub28`, `UCWw04AdPsuaf59SSjQHTTnw`): +100 films (100 parts)
+  2. `tieumuoingontinh` (**Tiểu Muội Ngôn Tình**, `@TieuMuoiNgonTinh`, `UCS06BV2A7a_75mmB-KMjAiw`): +76 films (76 parts)
+  3. `cibiisub` (**CibiiSub**, `@CibiiSub-01`, `UCoDbjVH_qTL7EvtEkTNpEzw`): +88 films (100 parts)
+  4. `nguyentuongvietsub` (**Nguyễn Tường Vietsub**, `@Nguyentuongvietsub`, `UC1lnWK-xwvUT1NVNT6N0FRw`): +80 films (81 parts)
+  5. `huyensutieumuoi` (**Huyền Sư Tiểu Muội**, `@HuyềnSưTiểuMuội`, `UCitGIROZ_grgO-ki_GZHs2A`): +46 films (46 parts)
+  6. `2ksub` (**2K Sub**, `@2KSUB2000`, `UCOt427I8MNYQubeVLWqdn_g`): +98 films (98 parts)
+  7. `naophangtutien` (**Não Phẳng Tu Tiên**, `@nao-phang`, `UCZFxno6YgiW4rIJb534B6TQ`): +69 films (98 parts)
+  8. `hoatrenmay3d` (**Hoa Trên Mây**, `@hoatrenmay3D`, `UCO9uFz0jJC8YP60gLKwJJJQ`): +24 films (24 parts)
+  9. `hhanime` (**HHANIME CHANNEL**, `@hhanimeofficial`, `UCP234GZcF-iOcYhImDCLQdQ`): +66 films (66 parts)
+  10. `daudauvietsub` (**Đậu Đậu Vietsub**, `@daudau.vietsub`, `UCuJieQ2VOPxm1GVKvepWioA`): +99 films (100 parts)
+  11. `godsub` (**GodSub**, `@Godsub01`, `UCnMTOk0TmPP49n7HMoRe9-w`): +25 films (25 parts)
+  12. `phimzooai` (**Phim Zoo AI**, `@PhimZooAI`, `UCaJF3EewrPYPb1rHpSUKtDA`): +22 films (22 parts)
+- **Catalog State**:
+  - Total films: **2,903 pure 3D films** across **25 channels** with strictly sequential unique IDs (`film_1`..`film_2903`, 0 duplicates).
+  - Verified live via Puppeteer (`Tất cả 25 kênh`).

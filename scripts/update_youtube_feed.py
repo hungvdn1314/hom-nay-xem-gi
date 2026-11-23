@@ -69,7 +69,19 @@ CHANNELS = [
     {"id": "zzzphim", "name": "Zzzphim", "url": "https://www.youtube.com/@Zzzphim", "channel_id": "UCkaKs808Jt2Mi9F-HJ0OmuQ"},
     {"id": "gianhireview", "name": "Gia Nhi Review", "url": "https://www.youtube.com/@GiaNhiReview", "channel_id": "UC58tvj8MyrryZ8Cci8nR_KA"},
     {"id": "kasvietsub", "name": "Kas Vietsub", "url": "https://www.youtube.com/@KasVietsub", "channel_id": "UCf-of2R81KFAFki2SkkIsBg"},
-    {"id": "mycherrysub", "name": "MyCherrySub", "url": "https://www.youtube.com/@MyCherrySub", "channel_id": "UC_Uo_2YxT471EiDlhJQri7A"}
+    {"id": "mycherrysub", "name": "MyCherrySub", "url": "https://www.youtube.com/@MyCherrySub", "channel_id": "UC_Uo_2YxT471EiDlhJQri7A"},
+    {"id": "soradub", "name": "Sora Dub", "url": "https://www.youtube.com/@SoraDub28", "channel_id": "UCWw04AdPsuaf59SSjQHTTnw"},
+    {"id": "tieumuoingontinh", "name": "Tiểu Muội Ngôn Tình", "url": "https://www.youtube.com/@TieuMuoiNgonTinh", "channel_id": "UCS06BV2A7a_75mmB-KMjAiw"},
+    {"id": "cibiisub", "name": "CibiiSub", "url": "https://www.youtube.com/@CibiiSub-01", "channel_id": "UCoDbjVH_qTL7EvtEkTNpEzw"},
+    {"id": "nguyentuongvietsub", "name": "Nguyễn Tường Vietsub", "url": "https://www.youtube.com/@Nguyentuongvietsub", "channel_id": "UC1lnWK-xwvUT1NVNT6N0FRw"},
+    {"id": "huyensutieumuoi", "name": "Huyền Sư Tiểu Muội", "url": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i", "channel_id": "UCitGIROZ_grgO-ki_GZHs2A"},
+    {"id": "2ksub", "name": "2K Sub", "url": "https://www.youtube.com/@2KSUB2000", "channel_id": "UCOt427I8MNYQubeVLWqdn_g"},
+    {"id": "naophangtutien", "name": "Não Phẳng Tu Tiên", "url": "https://www.youtube.com/@nao-phang", "channel_id": "UCZFxno6YgiW4rIJb534B6TQ"},
+    {"id": "hoatrenmay3d", "name": "Hoa Trên Mây", "url": "https://www.youtube.com/@hoatrenmay3D", "channel_id": "UCO9uFz0jJC8YP60gLKwJJJQ"},
+    {"id": "hhanime", "name": "HHANIME CHANNEL", "url": "https://www.youtube.com/@hhanimeofficial", "channel_id": "UCP234GZcF-iOcYhImDCLQdQ"},
+    {"id": "daudauvietsub", "name": "Đậu Đậu Vietsub", "url": "https://www.youtube.com/@daudau.vietsub", "channel_id": "UCuJieQ2VOPxm1GVKvepWioA"},
+    {"id": "godsub", "name": "GodSub", "url": "https://www.youtube.com/@Godsub01", "channel_id": "UCnMTOk0TmPP49n7HMoRe9-w"},
+    {"id": "phimzooai", "name": "Phim Zoo AI", "url": "https://www.youtube.com/@PhimZooAI", "channel_id": "UCaJF3EewrPYPb1rHpSUKtDA"}
 ]
 
 DISCOVERY_QUERIES = [
@@ -293,7 +305,8 @@ def clean_plot_summary(desc, title="", channel_name=""):
 
 
 BANNED_CHANNEL_IDS = {
-    "besuastudio", "gavangtutien", "thaolac", "tydemuoi", "thongocstudio"
+    "besuastudio", "gavangtutien", "thaolac", "tydemuoi", "thongocstudio",
+    "muoimuoilamphim", "thietreview"
 }
 
 def is_valid_3d_film_video(title, duration_sec=0, channel_id="", published_at=""):

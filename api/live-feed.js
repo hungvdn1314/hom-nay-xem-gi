@@ -19,7 +19,19 @@ const CHANNELS = [
   { id: 'zzzphim', name: 'Zzzphim', url: 'https://www.youtube.com/@Zzzphim', channelId: 'UCkaKs808Jt2Mi9F-HJ0OmuQ' },
   { id: 'gianhireview', name: 'Gia Nhi Review', url: 'https://www.youtube.com/@GiaNhiReview', channelId: 'UC58tvj8MyrryZ8Cci8nR_KA' },
   { id: 'kasvietsub', name: 'Kas Vietsub', url: 'https://www.youtube.com/@KasVietsub', channelId: 'UCf-of2R81KFAFki2SkkIsBg' },
-  { id: 'mycherrysub', name: 'MyCherrySub', url: 'https://www.youtube.com/@MyCherrySub', channelId: 'UC_Uo_2YxT471EiDlhJQri7A' }
+  { id: 'mycherrysub', name: 'MyCherrySub', url: 'https://www.youtube.com/@MyCherrySub', channelId: 'UC_Uo_2YxT471EiDlhJQri7A' },
+  { id: 'soradub', name: 'Sora Dub', url: 'https://www.youtube.com/@SoraDub28', channelId: 'UCWw04AdPsuaf59SSjQHTTnw' },
+  { id: 'tieumuoingontinh', name: 'Tiểu Muội Ngôn Tình', url: 'https://www.youtube.com/@TieuMuoiNgonTinh', channelId: 'UCS06BV2A7a_75mmB-KMjAiw' },
+  { id: 'cibiisub', name: 'CibiiSub', url: 'https://www.youtube.com/@CibiiSub-01', channelId: 'UCoDbjVH_qTL7EvtEkTNpEzw' },
+  { id: 'nguyentuongvietsub', name: 'Nguyễn Tường Vietsub', url: 'https://www.youtube.com/@Nguyentuongvietsub', channelId: 'UC1lnWK-xwvUT1NVNT6N0FRw' },
+  { id: 'huyensutieumuoi', name: 'Huyền Sư Tiểu Muội', url: 'https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i', channelId: 'UCitGIROZ_grgO-ki_GZHs2A' },
+  { id: '2ksub', name: '2K Sub', url: 'https://www.youtube.com/@2KSUB2000', channelId: 'UCOt427I8MNYQubeVLWqdn_g' },
+  { id: 'naophangtutien', name: 'Não Phẳng Tu Tiên', url: 'https://www.youtube.com/@nao-phang', channelId: 'UCZFxno6YgiW4rIJb534B6TQ' },
+  { id: 'hoatrenmay3d', name: 'Hoa Trên Mây', url: 'https://www.youtube.com/@hoatrenmay3D', channelId: 'UCO9uFz0jJC8YP60gLKwJJJQ' },
+  { id: 'hhanime', name: 'HHANIME CHANNEL', url: 'https://www.youtube.com/@hhanimeofficial', channelId: 'UCP234GZcF-iOcYhImDCLQdQ' },
+  { id: 'daudauvietsub', name: 'Đậu Đậu Vietsub', url: 'https://www.youtube.com/@daudau.vietsub', channelId: 'UCuJieQ2VOPxm1GVKvepWioA' },
+  { id: 'godsub', name: 'GodSub', url: 'https://www.youtube.com/@Godsub01', channelId: 'UCnMTOk0TmPP49n7HMoRe9-w' },
+  { id: 'phimzooai', name: 'Phim Zoo AI', url: 'https://www.youtube.com/@PhimZooAI', channelId: 'UCaJF3EewrPYPb1rHpSUKtDA' }
 ];
 
 const GENRE_RULES = [
@@ -137,7 +149,7 @@ function softenCapsTitle(title) {
 }
 
 const NON_3D_TITLE_RE = /\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|truyện tranh|review truyện|review manhua|review manga|review manhwa|manhua\s*audio|comic\s*audio|audio truyện|đọc truyện|kể truyện|bộ truyện|\[phim ngắn\]|\bchap\s*\d+|\bchương\s*\d+/i;
-const BANNED_CHANNEL_IDS = new Set(['besuastudio', 'gavangtutien', 'thaolac', 'tydemuoi', 'thongocstudio']);
+const BANNED_CHANNEL_IDS = new Set(['besuastudio', 'gavangtutien', 'thaolac', 'tydemuoi', 'thongocstudio', 'muoimuoilamphim', 'thietreview']);
 
 const FETCH_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
