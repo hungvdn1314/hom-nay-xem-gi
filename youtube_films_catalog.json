@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5722,
+    "totalFilms": 5725,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T01:16:25.358675+00:00"
+    "lastUpdated": "2026-11-24T03:00:52.423817+00:00"
   },
   "channels": [
     {
@@ -67,7 +67,7 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 323
+      "filmCount": 324
     },
     {
       "id": "gianhireview",
@@ -121,7 +121,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 485
+      "filmCount": 486
     },
     {
       "id": "naophangtutien",
@@ -145,7 +145,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 310
+      "filmCount": 311
     },
     {
       "id": "godsub",
@@ -173,6 +173,119 @@
     }
   ],
   "films": [
+    {
+      "id": "film_5725",
+      "title": "Tưởng Là Con Rể Vô Dụng Ai Ngờ Là Thần Ma Đạo Thể Khuấy Đảo Hồng Hoang. | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12941,
+      "totalDurationStr": "3 giờ 35 phút",
+      "totalViews": 0,
+      "totalLikes": 1,
+      "review": "Tưởng Là Con Rể Vô Dụng Ai Ngờ Là Thần Ma Đạo Thể Khuấy Đảo Hồng Hoang. | Đậu Đậu Vietsub Bị cướp đế cốt và hãm hại, Lạc Phó thức tỉnh Thái Cổ Thần Ma Đạo Thể, báo thù Lạc gia, kéo dài thọ nguyên cho Nam Cung Trường Không, phá kỷ lục tư chất, thiên phú, đột phá Tàng Hải cảnh cửu trọng và nghênh chiến vạn kẻ thù tại Hồng Hoang Thánh Địa. Thông điệp tích...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/KngKlYRuKCs/hqdefault.jpg",
+      "publishedAt": "2026-11-24T03:00:10+00:00",
+      "updatedAt": "2026-11-24T03:00:10+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Tưởng Là Con Rể Vô Dụng Ai Ngờ Là Thần Ma Đạo Thể Khuấy Đảo Hồng Hoang. | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=KngKlYRuKCs",
+          "id": "KngKlYRuKCs",
+          "duration": 12941,
+          "durationStr": "3:35:41",
+          "publishedAt": "2026-11-24T03:00:10+00:00",
+          "views": 0,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5724",
+      "title": "17 GIỜ THỎA MÃN | Xuyên Không Thành Thế Tử Phế Vật, Đoạt Vương Vị Đối Đầu Hoàng Đế!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 62110,
+      "totalDurationStr": "17 giờ 15 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **XUYÊN KHÔNG THÀNH THẾ TỬ PHẾ VẬT – ĐOẠT LẠI VƯƠNG VỊ, THỐNG LĨNH TRẤN BẮC QUÂN! | 17H15** ⚔️ **Quan Ninh**, một thanh niên xuyên không thành thế tử Trấn Bắc Vương phủ. Khi cha hắn là **Quan Trọng Sơn** dẫn 10 vạn đại quân mất tích, triều đình lập tức chèn ép, hủy hôn với Vĩnh...",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/2XgL7iovCgw/hqdefault.jpg",
+      "publishedAt": "2026-11-24T03:00:01+00:00",
+      "updatedAt": "2026-11-24T03:00:01+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "17 GIỜ THỎA MÃN | Xuyên Không Thành Thế Tử Phế Vật, Đoạt Vương Vị Đối Đầu Hoàng Đế!",
+          "url": "https://www.youtube.com/watch?v=2XgL7iovCgw",
+          "id": "2XgL7iovCgw",
+          "duration": 62110,
+          "durationStr": "17:15:10",
+          "publishedAt": "2026-11-24T03:00:01+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5723",
+      "title": "Tiểu Tiên Đế Xuống Núi Tìm Mẹ, Vạn Thần Khí Tranh Nhau Nhận Bé Làm Chủ!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10969,
+      "totalDurationStr": "3 giờ 02 phút",
+      "totalViews": 12,
+      "totalLikes": 2,
+      "review": "Tiểu Tiên Đế Xuống Núi Tìm Mẹ, Vạn Thần Khí Tranh Nhau Nhận Bé Làm Chủ!",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/76O1YFxyy1M/hqdefault.jpg",
+      "publishedAt": "2026-11-24T02:48:18+00:00",
+      "updatedAt": "2026-11-24T02:48:18+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Tiểu Tiên Đế Xuống Núi Tìm Mẹ, Vạn Thần Khí Tranh Nhau Nhận Bé Làm Chủ!",
+          "url": "https://www.youtube.com/watch?v=76O1YFxyy1M",
+          "id": "76O1YFxyy1M",
+          "duration": 10969,
+          "durationStr": "3:02:49",
+          "publishedAt": "2026-11-24T02:48:18+00:00",
+          "views": 12,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5722",
       "title": "Full P2 01~422 | Thức Tỉnh Ngự Thú Cấp Thần, Đánh Thức Tứ Đại Thần Thú Xưng Bá Toàn Quốc",
