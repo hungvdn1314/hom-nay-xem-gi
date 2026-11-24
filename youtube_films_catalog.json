@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5983,
+    "totalFilms": 5986,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 28,
-    "lastUpdated": "2026-11-24T11:30:47.082121+00:00"
+    "lastUpdated": "2026-11-24T12:00:48.511609+00:00"
   },
   "channels": [
     {
@@ -67,7 +67,7 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 324
+      "filmCount": 325
     },
     {
       "id": "gianhireview",
@@ -85,7 +85,7 @@
       "id": "mycherrysub",
       "name": "MyCherrySub",
       "url": "https://www.youtube.com/@MyCherrySub",
-      "filmCount": 511
+      "filmCount": 512
     },
     {
       "id": "soradub",
@@ -145,7 +145,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 315
+      "filmCount": 316
     },
     {
       "id": "godsub",
@@ -179,6 +179,117 @@
     }
   ],
   "films": [
+    {
+      "id": "film_5986",
+      "title": "Anh Lính Xuất Ngũ Lật Kèo Làm Vua Đảo Hoang | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 3509,
+      "totalDurationStr": "58 phút 29 giây",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Anh Lính Xuất Ngũ Lật Kèo Làm Vua Đảo Hoang | Đậu Đậu Vietsub Tóm Tắt : Sau vụ đắm du thuyền bí ẩn, Hàn Phong cùng nhóm người sống sót dạt vào đảo hoang. Nhờ kỹ năng sinh tồn xuất sắc, anh lật ngược thế cờ, xoá bỏ hiểu lầm và trở thành thủ lĩnh. Cả nhóm hợp lực dựng căn cứ, tiêu diệt 10 tên hải tặc và rèn luyện sẵn sàng đối phó hiểm hoạ 📋 THÔNG ĐIỆP TÍCH...",
+      "genres": [
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/CblTIsDuxuk/hqdefault.jpg",
+      "publishedAt": "2026-11-24T12:00:07+00:00",
+      "updatedAt": "2026-11-24T12:00:07+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Anh Lính Xuất Ngũ Lật Kèo Làm Vua Đảo Hoang | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=CblTIsDuxuk",
+          "id": "CblTIsDuxuk",
+          "duration": 3509,
+          "durationStr": "58:29",
+          "publishedAt": "2026-11-24T12:00:07+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5984",
+      "title": "Xuyên Không Thập Niên 80, Nữ Võ Vương Thành Mỹ Nhân Ốm Yếu, Quân Nhân Lạnh Lùng Mê Mẩn!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7729,
+      "totalDurationStr": "2 giờ 08 phút",
+      "totalViews": 32,
+      "totalLikes": 3,
+      "review": "Xuyên Không Thập Niên 80, Nữ Võ Vương Thành Mỹ Nhân Ốm Yếu, Quân Nhân Lạnh Lùng Mê Mẩn! — Tuyển tập hoạt hình 3D đặc sắc từ kênh Zzzphim.",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/hBS5XWiLG6M/hqdefault.jpg",
+      "publishedAt": "2026-11-24T11:48:17+00:00",
+      "updatedAt": "2026-11-24T11:48:17+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Thập Niên 80, Nữ Võ Vương Thành Mỹ Nhân Ốm Yếu, Quân Nhân Lạnh Lùng Mê Mẩn!",
+          "url": "https://www.youtube.com/watch?v=hBS5XWiLG6M",
+          "id": "hBS5XWiLG6M",
+          "duration": 7729,
+          "durationStr": "2:08:49",
+          "publishedAt": "2026-11-24T11:48:17+00:00",
+          "views": 32,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5985",
+      "title": "[Full] Thông Báo Chuyển Nhà Và Gửi Lời Chào Tạm Biệt Với Kênh MyCherrySub",
+      "channelId": "mycherrysub",
+      "channelName": "MyCherrySub",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 32573,
+      "totalLikes": 475,
+      "review": "📽Phim: [Full] Thông Báo Chuyển Nhà Và Gửi Lời Chào Tạm Biệt Với Kênh MyCherrySub Tóm tắt: \"Chào mọi người, mình có một thông báo hơi buồn một chút muốn chia sẻ với cả nhà. Kênh My Cherry Sub hiện tại đã bị dính lỗi và mất tính năng tắt kiếm tiền rồi. Đây là một cú sốc không nhỏ nhưng cũng là động lực để mình làm mới mọi thứ. Để tiếp tục duy trì đam mê và...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/QhgQ7xyeyGk/hqdefault.jpg",
+      "publishedAt": "2026-11-17T07:42:20+00:00",
+      "updatedAt": "2026-11-17T07:42:20+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Thông Báo Chuyển Nhà Và Gửi Lời Chào Tạm Biệt Với Kênh MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=QhgQ7xyeyGk",
+          "id": "QhgQ7xyeyGk",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-17T07:42:20+00:00",
+          "views": 32573,
+          "likes": 475,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5983",
       "title": "Full Tập 01~142 | Xuyên Không Thành Thiếu Nữ Ma Pháp, Vừa Làm Bác Sĩ Vừa Trừ Ma Cứu Người",
@@ -97680,12 +97791,12 @@
       "channelName": "2K Sub",
       "channelUrl": "https://www.youtube.com/@2KSUB2000",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 92110,
-      "totalDurationStr": "25 giờ 35 phút",
-      "totalViews": 177000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 101286,
+      "totalDurationStr": "28 giờ 08 phút",
+      "totalViews": 177172,
+      "totalLikes": 8,
       "review": "",
       "genres": [
         "Tu tiên / Huyền huyễn",
@@ -97693,8 +97804,8 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/xCZRG2Tc1p0/hqdefault.jpg",
       "publishedAt": "2026-10-24T11:50:19.700996+00:00",
-      "updatedAt": "2026-10-24T11:50:19.700996+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-24T11:47:18+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -97707,6 +97818,21 @@
           "publishedAt": "2026-10-24T11:50:19.700996+00:00",
           "views": 177000,
           "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 11",
+          "title": "SS11 | Hệ Thống Bói Toán Thiên Cơ: Chỉ Cần Trả Tiền, Sinh Tử Đại Lão Ta Đều Tính Được",
+          "url": "https://www.youtube.com/watch?v=n24c52VjFDw",
+          "id": "n24c52VjFDw",
+          "duration": 9176,
+          "durationStr": "2:32:56",
+          "publishedAt": "2026-11-24T11:47:18+00:00",
+          "views": 172,
+          "likes": 8,
           "isRedundant": false,
           "channelId": "2ksub",
           "channelName": "2K Sub"
