@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5738,
+    "totalFilms": 5740,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T09:30:36.779441+00:00"
+    "lastUpdated": "2026-11-24T10:01:29.992223+00:00"
   },
   "channels": [
     {
@@ -61,7 +61,7 @@
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 347
+      "filmCount": 348
     },
     {
       "id": "zzzphim",
@@ -145,7 +145,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 313
+      "filmCount": 314
     },
     {
       "id": "godsub",
@@ -173,6 +173,81 @@
     }
   ],
   "films": [
+    {
+      "id": "film_5740",
+      "title": "Hệ Thống Khế Ước Cá Biển: Từ Ngư Dân Nghèo Thành Đại Gia | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 31165,
+      "totalDurationStr": "8 giờ 39 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Hệ Thống Khế Ước Cá Biển: Từ Ngư Dân Nghèo Thành Đại Gia | Đậu Đậu Vietsub 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính bạn định nghĩa. Giữ vững bản lĩnh, tinh thần đồng đội và chút lạc quan hài hước sẽ giúp bạn biến thử thách thành bàn đạp để vươn lên và bảo vệ những điều xứng đáng. 📋...",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/zWH4_uDeViU/hqdefault.jpg",
+      "publishedAt": "2026-11-24T10:00:19+00:00",
+      "updatedAt": "2026-11-24T10:00:19+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Hệ Thống Khế Ước Cá Biển: Từ Ngư Dân Nghèo Thành Đại Gia | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=zWH4_uDeViU",
+          "id": "zWH4_uDeViU",
+          "duration": 31165,
+          "durationStr": "8:39:25",
+          "publishedAt": "2026-11-24T10:00:19+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5739",
+      "title": "P1, Thức Tỉnh Hệ Thống Cờ Tự Động, Ta Tiến Hóa Sủng Thú Thành Thần Thú Thượng Cổ, Chinh Phục Dị Giới",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5505,
+      "totalDurationStr": "1 giờ 31 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "[ Full ] P1, Thức Tỉnh Hệ Thống Cờ Tự Động, Ta Tiến Hóa Sủng Thú Thành Thần Thú Thượng Cổ, Chinh Phục Dị Giới Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/xJi0xT4VaWM/hqdefault.jpg",
+      "publishedAt": "2026-11-24T09:51:55+00:00",
+      "updatedAt": "2026-11-24T09:51:55+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Thức Tỉnh Hệ Thống Cờ Tự Động, Ta Tiến Hóa Sủng Thú Thành Thần Thú Thượng Cổ, Chinh Phục Dị Giới",
+          "url": "https://www.youtube.com/watch?v=xJi0xT4VaWM",
+          "id": "xJi0xT4VaWM",
+          "duration": 5505,
+          "durationStr": "1:31:45",
+          "publishedAt": "2026-11-24T09:51:55+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5738",
       "title": "13 GIỜ THỎA MÃN | Xuyên Không Tam Quốc, Mang Kiến Thức Hiện Đại Giúp Tào Tháo Tranh Bá Thiên Hạ!",
