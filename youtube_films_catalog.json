@@ -6,7 +6,7 @@
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-24T20:34:01.208893+00:00"
+    "lastUpdated": "2026-11-24T22:15:31.918162+00:00"
   },
   "channels": [
     {
@@ -8281,11 +8281,11 @@
       "channelName": "Não Phẳng Tu Tiên",
       "channelUrl": "https://www.youtube.com/@nao-phang",
       "playlistUrl": null,
-      "totalParts": 9,
-      "partsStr": "9 phần",
-      "totalDurationSec": 139082,
-      "totalDurationStr": "38 giờ 38 phút",
-      "totalViews": 156800,
+      "totalParts": 10,
+      "partsStr": "10 phần",
+      "totalDurationSec": 156929,
+      "totalDurationStr": "43 giờ 35 phút",
+      "totalViews": 156809,
       "totalLikes": 0,
       "review": "",
       "genres": [
@@ -8293,8 +8293,8 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/jhl_M-DGa7Q/hqdefault.jpg",
       "publishedAt": "2026-10-24T11:50:19.799409+00:00",
-      "updatedAt": "2026-11-22T10:49:42.537089+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-24T22:10:50+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -8388,6 +8388,21 @@
         },
         {
           "index": 7,
+          "label": "Phần 5",
+          "title": "Phần 5-P5(677-1000): Nghịch Đồ Cầu Tiên",
+          "url": "https://www.youtube.com/watch?v=jT3ZZpjiOVg",
+          "id": "jT3ZZpjiOVg",
+          "duration": 17847,
+          "durationStr": "4:57:27",
+          "publishedAt": "2026-11-24T22:10:50+00:00",
+          "views": 9,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 8,
           "label": "Phần 5.2",
           "title": "Phần 5- P2(416): Nghịch Đồ Cầu Tiên",
           "url": "https://www.youtube.com/watch?v=lSv_6Dve5QI",
@@ -8402,7 +8417,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 8,
+          "index": 9,
           "label": "Phần 5.3",
           "title": "Phần 5-P3(616): Nghịch Đồ Cầu Tiên",
           "url": "https://www.youtube.com/watch?v=ZlmaiCUQEoQ",
@@ -8417,7 +8432,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 9,
+          "index": 10,
           "label": "Phần 5.4",
           "title": "Phần 5-P4(676): Nghịch Đồ Cầu Tiên",
           "url": "https://www.youtube.com/watch?v=haWyiC12jSA",
