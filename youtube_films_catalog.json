@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5987,
+    "totalFilms": 5988,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 28,
-    "lastUpdated": "2026-11-24T12:15:35.505340+00:00"
+    "lastUpdated": "2026-11-24T12:30:35.508118+00:00"
   },
   "channels": [
     {
@@ -115,7 +115,7 @@
       "id": "huyensutieumuoi",
       "name": "Huyền Sư Tiểu Muội",
       "url": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
-      "filmCount": 45
+      "filmCount": 46
     },
     {
       "id": "2ksub",
@@ -179,6 +179,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_5988",
+      "title": "Full Bộ 01~125 | Thức Tỉnh Nghề Ẩn Độc Nhất Bạo Quân, Từng Bước Đạp Nát Mọi Thế Lực",
+      "channelId": "huyensutieumuoi",
+      "channelName": "Huyền Sư Tiểu Muội",
+      "channelUrl": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7361,
+      "totalDurationStr": "2 giờ 02 phút",
+      "totalViews": 14,
+      "totalLikes": 2,
+      "review": "Tận thế bùng nổ, thanh niên Lâm Vọng bị lây nhiễm nhưng lại thức tỉnh nghề ẩn độc nhất: Bạo Quân. Sở hữu nhục thân bất hoại, anh thu phục bác sĩ biến dị Lục Tư Ngôn, săn lùng các kẻ mang khí vận để cướp bàn tay vàng, từng bước đạp nát mọi thế lực dưới đêm Trăng Máu. 🔔 Nhấn chuông thông báo để không bỏ lỡ các tập phim kỳ ảo, tu chân và đô thị dị năng mới...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/WweqEL0xNEE/hqdefault.jpg",
+      "publishedAt": "2026-11-24T12:21:57+00:00",
+      "updatedAt": "2026-11-24T12:21:57+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Bộ 01~125 | Thức Tỉnh Nghề Ẩn Độc Nhất Bạo Quân, Từng Bước Đạp Nát Mọi Thế Lực",
+          "url": "https://www.youtube.com/watch?v=WweqEL0xNEE",
+          "id": "WweqEL0xNEE",
+          "duration": 7361,
+          "durationStr": "2:02:41",
+          "publishedAt": "2026-11-24T12:21:57+00:00",
+          "views": 14,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5987",
       "title": "14 GIỜ THỎA MÃN | Mạt Thế: Thức Tỉnh Song Thiên Phú, Săn Zombie Hấp Thụ Tinh Hạch Tiến Hóa!",
