@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 5734,
+    "totalFilms": 5735,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T07:15:31.628696+00:00"
+    "lastUpdated": "2026-11-24T08:00:44.461420+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 489
+      "filmCount": 490
     },
     {
       "id": "naophangtutien",
@@ -173,6 +173,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_5735",
+      "title": "18 GIỜ THỎA MÃN | Đô Thị Cao Thủ Xuống Núi, Mắc Nợ Mỹ Nhân Nên Đi Làm Bảo Vệ!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 63713,
+      "totalDurationStr": "17 giờ 41 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: ĐÔ THỊ CAO THỦ XUỐNG NÚI – VỪA XUỐNG NÚI ĐÃ MẮC NỢ, ĐÀNH LÀM BẢO VỆ CHO MỸ NHÂN! | 18H ⚔️ Bàng Thiên Xung là đệ tử thiên tài được sư phụ đánh giá hiếm có trong 300 năm, nhưng lại mắc kẹt ở bình cảnh suốt ba năm. Để tìm cơ hội đột phá, hắn buộc phải xuống núi bước vào chốn hồng...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/I8c4pDvrVSQ/hqdefault.jpg",
+      "publishedAt": "2026-11-24T08:00:19+00:00",
+      "updatedAt": "2026-11-24T08:00:19+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "18 GIỜ THỎA MÃN | Đô Thị Cao Thủ Xuống Núi, Mắc Nợ Mỹ Nhân Nên Đi Làm Bảo Vệ!",
+          "url": "https://www.youtube.com/watch?v=I8c4pDvrVSQ",
+          "id": "I8c4pDvrVSQ",
+          "duration": 63713,
+          "durationStr": "17:41:53",
+          "publishedAt": "2026-11-24T08:00:19+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5734",
       "title": "P1, Thiếu Niên Giải Phong Ấn Hệ Thống Thức Tỉnh Sức Mạnh Kiếm Thần, Một Kiếm Trấn Áp Tà Thần Dị Giới",
