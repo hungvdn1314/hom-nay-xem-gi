@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 5991,
+    "totalFilms": 5992,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 28,
-    "lastUpdated": "2026-11-24T14:00:45.464589+00:00"
+    "lastUpdated": "2026-11-24T14:15:44.443009+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 616
+      "filmCount": 617
     },
     {
       "id": "naophangtutien",
@@ -179,6 +179,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_5992",
+      "title": "5 GIỜ | Toàn Dân Sinh Tồn: Sở Hữu Bạo Kích 100 Lần, Ta Xây Thành Trì Và Thu Phục Thần Thú!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 17860,
+      "totalDurationStr": "4 giờ 57 phút",
+      "totalViews": 328,
+      "totalLikes": 18,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TOÀN DÂN SINH TỒN – HỆ THỐNG BẠO KÍCH 100 LẦN, XÂY LÃNH ĐỊA THÀNH PHÁO ĐÀI! | SS1–SS2 | 4H58** 🏹 **Lạc Vũ** cùng vô số chủng tộc bị đưa đến thế giới sinh tồn, nơi mỗi người phải tự xây dựng lãnh địa và chống lại thú dữ. May mắn thay, hắn nhận được thiên phú thần cấp **Thái Sơ...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/adf_ES05sMU/hqdefault.jpg",
+      "publishedAt": "2026-11-24T14:00:11+00:00",
+      "updatedAt": "2026-11-24T14:00:11+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "5 GIỜ | Toàn Dân Sinh Tồn: Sở Hữu Bạo Kích 100 Lần, Ta Xây Thành Trì Và Thu Phục Thần Thú!",
+          "url": "https://www.youtube.com/watch?v=adf_ES05sMU",
+          "id": "adf_ES05sMU",
+          "duration": 17860,
+          "durationStr": "4:57:40",
+          "publishedAt": "2026-11-24T14:00:11+00:00",
+          "views": 328,
+          "likes": 18,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5991",
       "title": "Full Phần 1 | Trung Tâm Điều Phái Thiếu Nữ Ma Pháp: Cuộc Chiến Chống Lại Âm Mưu Hắc Ma Pháp!",
