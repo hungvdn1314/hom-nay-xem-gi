@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5980,
+    "totalFilms": 5982,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 28,
-    "lastUpdated": "2026-11-24T10:33:20.995452+00:00"
+    "lastUpdated": "2026-11-24T11:00:46.128612+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 613
+      "filmCount": 614
     },
     {
       "id": "naophangtutien",
@@ -145,7 +145,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 314
+      "filmCount": 315
     },
     {
       "id": "godsub",
@@ -179,6 +179,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_5981",
+      "title": "10 GIỜ THỎA MÃN | Trọng Sinh Mạt Thế, Đoạt Dị Năng Cấp SSS, Khế Ước Vạn Thú Báo Thù!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TRỌNG SINH MẠT THẾ – ĐOẠT DỊ NĂNG KHẾ ƯỚC CẤP SSS, THU PHỤC QUÂN ĐOÀN BIẾN DỊ THÚ! | 10H16** ⚔️ **Triệu Anh** từng sống sót suốt 7 năm mạt thế, nhưng cuối cùng lại bị **Lâm Thiên Phong**, kẻ do chính mình cứu giúp, phản bội và cướp đoạt tất cả. Mang theo nỗi hận, hắn bất ngờ...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/5JSBjXk_wCo/hqdefault.jpg",
+      "publishedAt": "2026-11-24T11:00:30+00:00",
+      "updatedAt": "2026-11-24T11:00:30+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "10 GIỜ THỎA MÃN | Trọng Sinh Mạt Thế, Đoạt Dị Năng Cấp SSS, Khế Ước Vạn Thú Báo Thù!",
+          "url": "https://www.youtube.com/watch?v=5JSBjXk_wCo",
+          "id": "5JSBjXk_wCo",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-24T11:00:30+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5982",
+      "title": "Vạn Tượng Ma Phương: Hợp Thành Vạn Vật Quét Sạch Phó Bản và Săn Boss Bậc Cao | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7104,
+      "totalDurationStr": "1 giờ 58 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Vạn Tượng Ma Phương: Hợp Thành Vạn Vật Quét Sạch Phó Bản và Săn Boss Bậc Cao | Đậu Đậu Vietsub Tóm Tắt : Giang Thạc dùng Vạn Tượng Ma Phương hợp thành đồ, nâng cấp căn cứ, vượt phó bản, diệt boss Viện trưởng, mang Tô Tình về làm người phụ thuộc và nâng cấp ma phương 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/QesOXClfSn0/hqdefault.jpg",
+      "publishedAt": "2026-11-24T11:00:20+00:00",
+      "updatedAt": "2026-11-24T11:00:20+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Vạn Tượng Ma Phương: Hợp Thành Vạn Vật Quét Sạch Phó Bản và Săn Boss Bậc Cao | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=QesOXClfSn0",
+          "id": "QesOXClfSn0",
+          "duration": 7104,
+          "durationStr": "1:58:24",
+          "publishedAt": "2026-11-24T11:00:20+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1",
       "title": "Hệ Thống Khế Ước Cá Biển: Từ Ngư Dân Nghèo Thành Đại Gia",
