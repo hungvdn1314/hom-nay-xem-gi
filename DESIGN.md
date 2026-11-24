@@ -7,7 +7,7 @@
 ---
 
 ## 1. Executive Summary & Design Read
-- **Product Kind**: Curated anime, donghua, and animated film streaming platform for 1,564 films across 8 YouTube channels.
+- **Product Kind**: Curated anime, donghua, and 3D animated film streaming platform for 5,970+ films across 28 vetted YouTube channels.
 - **Design Read**: `Reading this as: High-craft Scandinavian streaming curation platform ("Hôm Nay Xem Gì") for donghua and anime enthusiasts, with an Arctic Slate & Glacier Ice Blue language, leaning toward Nordic Minimalist Pure Glass aesthetic.`
 - **Target Audience**: Film binger and donghua lovers seeking high-quality multi-hour recaps without clutter.
 - **Anti-Patterns Strictly Avoided**:
@@ -69,3 +69,4 @@
 - **Card Thumbnail**: Strictly 16:9 widescreen (`aspect-ratio: 16 / 9`) with `overflow: hidden`.
 - **Card Elevation**: `0 8px 30px rgba(0, 0, 0, 0.35)`, hover `0 14px 40px rgba(56, 189, 248, 0.16)`.
 - **Micro-interactions**: 200–250ms `cubic-bezier(0.16, 1, 0.3, 1)`.
+- **Spotlight Cinema Stage v2 (`#spotlightHero`)**: Asymmetric 2-column split (`1.85fr` 16:9 HD `maxresdefault.jpg` backdrop stage + `0.95fr` Frosted Glass Up-Next Rail on desktop; stacked 16:9 stage + horizontal scroll rail on `<= 1080px` / `375px` mobile), channel-diversified trending curation, tabular telemetry strip, 7s progress indicator, and `>= 44px` action targets (`Xem Ngay` / `Tiếp Tục`, `Chi Tiết`, `Lưu Phim`).

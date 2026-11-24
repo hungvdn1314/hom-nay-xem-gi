@@ -151,7 +151,7 @@ function softenCapsTitle(title) {
   return softenedParts.join('');
 }
 
-const NON_3D_TITLE_RE = /\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|\baudio\b|truyện tranh|review truyện|review manhua|review manga|review manhwa|manhua\s*audio|comic\s*audio|audio truyện|đọc truyện|kể truyện|bộ truyện|\[phim ngắn\]|\bchap\s*\d+|\bchương\s*\d+/i;
+const NON_3D_TITLE_RE = /\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|\baudio\b|truyện tranh|review truyện|review manhua|review manga|review manhwa|manhua\s*audio|comic\s*audio|audio truyện|đọc truyện|kể truyện|bộ truyện|\[phim ngắn\]|\bchap\s*\d+|\bchương\s*\d+|nhạc\s*phim\s*(?:cổ\s*phong|không\s*lời)|nhạc\s*không\s*lời|\bost\b|\bbgm\b/i;
 const BANNED_CHANNEL_IDS = new Set(['besuastudio', 'gavangtutien', 'thaolac', 'tydemuoi', 'thongocstudio', 'muoimuoilamphim', 'thietreview']);
 
 const FETCH_HEADERS = {
@@ -174,12 +174,12 @@ function decodeXmlEntities(str) {
 
 function cleanPlotSummary(desc) {
   if (!desc) return '';
-  const skipLineRe = /ủng hộ kênh|ngân hàng|số tài khoản|\bstk\b|chủ tài khoản|vietinbank|vietcombank|mbbank|techcombank|momo\b|đăng ký kênh|subscribe|bản quyền|copyright|liên hệ quảng cáo|tất cả hình ảnh và âm thanh|mọi vấn đề|email:|gmail\.com|https?:\/\/|^\s*#\w+/i;
+  const skipLineRe = /ủng hộ kênh|ngân hàng|số tài khoản|\bstk\b|chủ tài khoản|vietinbank|vietcombank|mbbank|techcombank|momo\b|đăng ký kênh|subscribe|bản quyền|copyright|fair\s*use|liên hệ quảng cáo|tất cả hình ảnh và âm thanh|mọi vấn đề|email:|gmail\.com|https?:\/\/|^\s*#\w+|zalo:|hagtag|tag:|©|chào mừng bạn đến với kênh|tại đây,?\s*bạn sẽ được|tóm tắt nội dung phim hoạt hình 3d|review phim hoạt hình 3d trung quốc|cảm ơn các bạn đã xem|nhớ nhấn like|bấm chuông|theo dõi kênh|chúc các bạn xem phim vui vẻ|phim hoạt hình 3d thuyết minh trọn bộ từ kênh|là kênh chuyên review|xem phần mới ở đây|vấn đề bản quyền|giải quyết nhanh nhất|thông số phân loại nội dung|content rating|_{4,}|review và tóm tắt cốt truyện ngắn gọn/i;
   const cleanedLines = [];
   for (const rawLine of String(desc).split(/\r?\n/)) {
     const trimmed = rawLine.trim();
     if (!trimmed || skipLineRe.test(trimmed)) continue;
-    const noUrl = trimmed.replace(/https?:\/\/\S+/g, '').trim();
+    const noUrl = trimmed.replace(/https?:\/\/\S+/g, '').replace(/\s*#[\wÀ-ỹ]+/g, '').trim();
     if (noUrl) cleanedLines.push(noUrl);
   }
   let summary = cleanedLines.join(' ').replace(/\s+/g, ' ').trim();

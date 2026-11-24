@@ -210,7 +210,8 @@ NON_3D_TITLE_REGEX = re.compile(
     r'ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|\baudio\b|'
     r'truyện tranh|review truyện|review manhua|review manga|review manhwa|'
     r'manhua\s*audio|comic\s*audio|audio truyện|đọc truyện|kể truyện|bộ truyện|'
-    r'\[phim ngắn\]|\bchap\s*\d+|\bchương\s*\d+',
+    r'\[phim ngắn\]|\bchap\s*\d+|\bchương\s*\d+|'
+    r'nhạc\s*phim\s*(?:cổ\s*phong|không\s*lời)|nhạc\s*không\s*lời|\bost\b|\bbgm\b',
     flags=re.IGNORECASE
 )
 
@@ -279,13 +280,19 @@ def format_part_duration_hms(sec):
 
 
 def clean_plot_summary(desc, title="", channel_name=""):
-    """Strip bank/donate/subscribe/copyright boilerplate from YouTube description to keep story synopsis clean."""
+    """Strip bank/donate/subscribe/promo boilerplate from YouTube description to keep story synopsis clean."""
     if not desc:
         return ""
     skip_line_re = re.compile(
         r'ủng hộ kênh|ngân hàng|số tài khoản|\bstk\b|chủ tài khoản|vietinbank|vietcombank|mbbank|techcombank|momo\b|'
-        r'đăng ký kênh|subscribe|bản quyền|copyright|liên hệ quảng cáo|tất cả hình ảnh và âm thanh|'
-        r'mọi vấn đề|email:|gmail\.com|https?://|^\s*#\w+',
+        r'đăng ký kênh|subscribe|bản quyền|copyright|fair\s*use|liên hệ quảng cáo|tất cả hình ảnh và âm thanh|'
+        r'mọi vấn đề|email:|gmail\.com|https?://|^\s*#\w+|zalo:|hagtag|tag:|©|'
+        r'chào mừng bạn đến với kênh|tại đây,?\s*bạn sẽ được|tóm tắt nội dung phim hoạt hình 3d|'
+        r'review phim hoạt hình 3d trung quốc|cảm ơn các bạn đã xem|nhớ nhấn like|bấm chuông|'
+        r'theo dõi kênh|chúc các bạn xem phim vui vẻ|phim hoạt hình 3d thuyết minh trọn bộ từ kênh|'
+        r'là kênh chuyên review|xem phần mới ở đây|vấn đề bản quyền|giải quyết nhanh nhất|'
+        r'thông số phân loại nội dung|content rating|_{4,}|review và tóm tắt cốt truyện ngắn gọn|'
+        r'mục đích giải trí|tình tiết và nhân vật trong video không có thật|minh huạ|minh hoạ|không sở hữu hoàn toàn',
         flags=re.IGNORECASE
     )
     cleaned_lines = []
@@ -295,8 +302,9 @@ def clean_plot_summary(desc, title="", channel_name=""):
             continue
         if skip_line_re.search(line):
             continue
-        # Strip inline URLs or repeated hash tags
+        # Strip inline URLs or trailing hashtags
         line = re.sub(r'https?://\S+', '', line).strip()
+        line = re.sub(r'\s*#[\wÀ-ỹ]+', '', line).strip()
         if not line:
             continue
         cleaned_lines.append(line)
@@ -362,26 +370,47 @@ LEAD_TOKEN_RE = re.compile(
     r'All\s+In\s+One|'
     r'Revi?ew\s+Phim|'
     r'Tóm\s+Tắt\s+Phim|'
-    r'Tổng\s+Hợp|'
-    r'Ful+l(?:\s*(?:Bộ|Kết|END|Version))?(?=\s*(?:[\|\-:–,\(\[]|$|\d|Phần|Tập|Mùa|P\d|S\d|SS\d))|'
-    r'Trọn\s*Bộ|'
+    r'Tổng\s+Hợp(?:\s+(?:Siêu\s*(?:Hay|Hài)|Full|Trọn\s*Bộ))*|'
+    r'Siêu\s*(?:Hay|Hài|Phẩm)(?:\s+(?:Full|Trọn\s*Bộ|Tổng\s*Hợp))*|'
+    r'Ful+l(?:\s*(?:Dài(?:\s*\d+(?:[.,]\d+)?\s*(?:H|Giờ|Tiếng)?)?|Video|Bộ|Kết|END|Version(?:\s*\d+(?:\s*[-–+]\s*\d+)*)?))?(?=\s*(?:[\|\-:–,\(\[]|$|\d|Phần|Tập|Mùa|P\d|S\d|SS\d))|'
+    r'Trọn\s*Bộ(?:\s*(?:Siêu\s*(?:Hay|Hài)))?|'
+    r'Version\s*\d+(?:\s*[-–+]\s*\d+)*|'
     r'\d+(?:[.,]\d+)?\s*(?:H|Giờ|Tiếng)(?:\s*\d+\s*(?:Phút|P)?)?(?:\s*Thỏa\s*Mãn)?|'
     r'(?:Ful+l\s*)?(?:Phần|Tập|Mùa|Bộ|P|S|SS|Version|EP)\s*\d+(?:\s*[-–+~.&]\s*(?:Phần|Tập|Mùa|P|S|SS|EP|Version|Part)?\s*\d+)*(?:\s*END)?(?:\s*Part\s*\d*)?|'
     r'Part\s*\d+|'
     r'\d{1,3}\s*[~–-]\s*\d{2,4}(?:\s*END)?|'
-    r'\(\s*(?:END|Full\s*END|Full\s*Kết|Full|Tập\s*Cuối|Phim\s*AI|Siêu\s*Phẩm\s*Kinh\s*Dị[^)]*|(?:EP|Tập|Phần|Mùa|Part|P)?\s*\d+(?:\s*[-–+~.&]\s*(?:P|Part|EP|Tập)?\s*\d+)*)\s*\)'
+    r'\(\s*(?:Tổng\s*Hợp[^)]*|Trọn\s*Bộ[^)]*|Siêu\s*Hay[^)]*|Siêu\s*Hài[^)]*|FIX|END|Full[^)]*|Tập\s*Cuối|Phim\s*AI|Siêu\s*Phẩm\s*Kinh\s*Dị[^)]*|\d+(?:[.,]\d+)?\s*(?:H|Giờ|Tiếng)[^)]*|(?:EP|Tập|Phần|Mùa|Part|P)?\s*\d+(?:\s*[-–+~.&]\s*(?:P|Part|EP|Tập)?\s*\d+)*)\s*\)'
     r')\s*[\|\-:–,]?\s*)+',
     re.IGNORECASE
 )
 
+GENERIC_FILLER_WORDS = {
+    'tổng', 'hợp', 'trọn', 'bộ', 'siêu', 'hay', 'hài', 'phẩm', 'full', 'dài',
+    'video', 'phim', 'hoạt', 'hình', '3d', 'ai', 'thuyết', 'minh', 'vietsub',
+    'review', 'tóm', 'tắt', 'tập', 'phần', 'mùa', 'end', 'kết', 'bản', 'đẹp',
+    'hd', '4k', '1080p', 'version', 'fix', 'hot', 'mới', 'nhất', 'cực'
+}
+
+
+def is_generic_title_segment(seg):
+    """Return True if a title segment has no real film name beyond generic marketing/episode tokens."""
+    if not seg:
+        return True
+    s = re.sub(r'[│｜¦]', '|', str(seg))
+    s = re.sub(r'\b\d+(?:[.,]\d+)?\s*(?:h|giờ|tiếng|phút|p)\b', ' ', s, flags=re.I)
+    words = [w for w in re.findall(r'[^\W_]+', s.lower()) if w not in GENERIC_FILLER_WORDS and not w.isdigit()]
+    alpha_chars = sum(len(w) for w in words if any(c.isalpha() for c in w))
+    return alpha_chars < 4
+
 
 def clean_core_title(title):
-    s = title or ""
+    s = re.sub(r'[│｜¦]', '|', title or "")
+    s = re.sub(r'^[\s🔥⚡🎬💥✨🌟⭐📌▶️]+', '', s)
 
     def _unwrap_bracket(m):
         inner = m.group(1).strip()
         test_inner = LEAD_TOKEN_RE.sub('', inner).strip()
-        if not test_inner or re.match(r'^(?:Ful+l|END|Kết|Phim\s*AI|Thuyết\s*Minh|Vietsub|\d+)$', test_inner, re.I):
+        if not test_inner or is_generic_title_segment(test_inner):
             return " "
         return f" {inner} "
 
@@ -389,9 +418,9 @@ def clean_core_title(title):
     s = re.sub(r'\[([^\]]*)\]', _unwrap_bracket, s)
     s = re.sub(r'《([^》]*)》', r' \1 ', s)
 
-    for _ in range(6):
+    for _ in range(8):
         new_s = LEAD_TOKEN_RE.sub('', s).strip()
-        new_s = re.sub(r'^[\|\-:–,\s"\']+', '', new_s).strip()
+        new_s = re.sub(r'^[\|\-:–,\s"\'🔥⚡🎬💥✨🌟⭐📌▶️]+', '', new_s).strip()
         if new_s == s:
             break
         s = new_s
@@ -411,7 +440,25 @@ def clean_core_title(title):
             break
         s = new_s
 
+    # If the title still splits on '|' with trailing generic or channel tokens, strip generic leading segments
+    if '|' in s:
+        segs = [clean_core_title_segment(p) for p in s.split('|')]
+        kept = [p for p in segs if p and not CHANNEL_SUFFIX_RE.match(f'| {p}') and not is_generic_title_segment(p)]
+        if kept:
+            s = ' | '.join(kept)
+
     s = re.sub(r'^[\|\-:–,\s"\']+|[\|\-:–,\s"\'.]+$', '', s)
+    return re.sub(r'\s+', ' ', s).strip()
+
+
+def clean_core_title_segment(seg):
+    s = re.sub(r'^[\|\-:–,\s"\'🔥⚡🎬💥✨🌟⭐📌▶️]+|[\|\-:–,\s"\'.]+$', '', seg or '').strip()
+    for _ in range(4):
+        ns = LEAD_TOKEN_RE.sub('', s).strip()
+        ns = re.sub(r'^[\|\-:–,\s"\']+', '', ns).strip()
+        if ns == s:
+            break
+        s = ns
     return re.sub(r'\s+', ' ', s).strip()
 
 
@@ -419,10 +466,13 @@ def series_grouping_key(title):
     """Canonical punctuation-agnostic series key for merging episodes within and across channels."""
     ct = clean_core_title(title)
     if '|' in ct:
-        left = ct.split('|')[0].strip()
-        left = clean_core_title(left)
-        if len(left) >= 6:
-            ct = left
+        for seg in ct.split('|'):
+            cand = clean_core_title_segment(seg)
+            if len(cand) >= 6 and not is_generic_title_segment(cand) and not CHANNEL_SUFFIX_RE.match(f'| {cand}'):
+                ct = cand
+                break
+    if is_generic_title_segment(ct):
+        return ""
     ct_alnum = re.sub(r'[^\w\s]', ' ', ct).lower()
     return re.sub(r'\s+', ' ', ct_alnum).strip()
 

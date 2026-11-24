@@ -35,6 +35,7 @@
     randomCandidate: null,
     spotlightIndex: 0,
     spotlightTimer: null,
+    _spotlightCache: null,
     autoNextEnabled: (function() { try { return localStorage.getItem('homnayxemgi_autonext') !== '0'; } catch(e) { return true; } })(),
     autoNextCountdownTimer: null,
     isTheaterWide: false,
@@ -170,9 +171,9 @@
     el.mobileBottomBar = document.getElementById('mobileBottomBar');
   }
 
-  const SCHEMA_VERSION = '20261116_v6_3d_genres_spotlight';
+  const SCHEMA_VERSION = '20261124_v7_spotlight_v2';
 
-  const NON_3D_CLIENT_RE = /\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|\baudio\b|truyện tranh|review truyện|review manhua|review manga|review manhwa|manhua\s*audio|comic\s*audio|audio truyện|đọc truyện|kể truyện|bộ truyện|\[phim ngắn\]|\bchap\s*\d+|\bchương\s*\d+/i;
+  const NON_3D_CLIENT_RE = /\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|\baudio\b|truyện tranh|review truyện|review manhua|review manga|review manhwa|manhua\s*audio|comic\s*audio|audio truyện|đọc truyện|kể truyện|bộ truyện|\[phim ngắn\]|\bchap\s*\d+|\bchương\s*\d+|nhạc\s*phim\s*(?:cổ\s*phong|không\s*lời)|nhạc\s*không\s*lời|\bost\b|\bbgm\b/i;
   const BANNED_CHANNELS_CLIENT = new Set(['besuastudio', 'gavangtutien', 'thaolac', 'tydemuoi', 'thongocstudio', 'muoimuoilamphim', 'thietreview']);
 
   function isValid3dFilmClient(film) {
@@ -236,32 +237,56 @@
   // -------------------------------------------------------------------------
   // DATA INGESTION & REAL-TIME YOUTUBE SYNC
   // -------------------------------------------------------------------------
+  const GENERIC_FILLER_CLIENT_RE = /\b(?:tổng|hợp|trọn|bộ|siêu|hay|hài|phẩm|full|dài|video|phim|hoạt|hình|3d|ai|thuyết|minh|vietsub|review|tóm|tắt|tập|phần|mùa|end|kết|bản|đẹp|hd|4k|1080p|version|fix|hot|mới|nhất|cực)\b/gi;
+
+  function isGenericTitleSegmentClient(seg) {
+    if (!seg) return true;
+    const stripped = String(seg)
+      .replace(/[│｜¦]/g, '|')
+      .replace(/\b\d+(?:[.,]\d+)?\s*(?:h|giờ|tiếng|phút|p)\b/gi, ' ')
+      .replace(GENERIC_FILLER_CLIENT_RE, ' ')
+      .replace(/[^\p{L}]/gu, '');
+    return stripped.length < 4;
+  }
+
   function cleanCoreTitleClient(title) {
     const unwrapBracket = (_, innerRaw) => {
       const inner = (innerRaw || '').trim();
-      if (/^(?:Ful+l\s*)?(?:Trọn\s*Bộ\s*)?(?:Version\s*)?(?:Phần|Tập|Mùa|Bộ|P|S|EP|V)?\s*\d*(?:\s*[-–+~]\s*(?:P|Phần|Tập|Mùa|S|EP)?\s*\d+)?(?:\s*\(\s*END\s*\)|\s*END|\s*Kết)?$/i.test(inner)) {
+      if (/^(?:Ful+l\s*)?(?:Trọn\s*Bộ\s*)?(?:Version\s*)?(?:Phần|Tập|Mùa|Bộ|P|S|EP|V)?\s*\d*(?:\s*[-–+~]\s*(?:P|Phần|Tập|Mùa|S|EP)?\s*\d+)?(?:\s*\(\s*END\s*\)|\s*END|\s*Kết)?$/i.test(inner) || isGenericTitleSegmentClient(inner)) {
         return ' ';
       }
       return ` ${inner} `;
     };
-    return (title || '')
+    let s = (title || '')
+      .replace(/[│｜¦]/g, '|')
+      .replace(/^[\s🔥⚡🎬💥✨🌟⭐📌▶️]+/u, '')
       .replace(/【([^】]*)】/g, unwrapBracket)
       .replace(/\[([^\]]*)\]/g, unwrapBracket)
-      .replace(/^(?:\s*(?:\((?:Phần|Tập|Mùa)\s*\d+[^)]*\)|(?:Ful+l(?:\s*Bộ|\s*Kết|\s*END|\s*Version)?\s*)?(?:Trọn\s*Bộ\s*)?(?:Phần|Tập|Mùa|P|S|SS)\s*\d+(?:\s*[-–+~]\s*(?:P|SS)?\s*\d+)?(?:\s*END)?(?:\s*\([^)]*\))?\s*[\|\-:–,]?)\s*)+/i, '')
-      .replace(/^(?:Ful+l(?:\s*Bộ|\s*Kết|\s*END|\s*Version)?)\s*[\|\-:–]\s*/i, '')
+      .replace(/^(?:\s*(?:\((?:Tổng\s*Hợp[^)]*|Trọn\s*Bộ[^)]*|Siêu\s*Hay[^)]*|Siêu\s*Hài[^)]*|FIX|END|Full[^)]*|\d+(?:[.,]\d+)?\s*(?:H|Giờ|Tiếng)[^)]*|(?:Phần|Tập|Mùa)\s*\d+[^)]*)\)|(?:Tổng\s*Hợp|Trọn\s*Bộ|Siêu\s*(?:Hay|Hài|Phẩm)|Ful+l(?:\s*Dài(?:\s*\d+(?:[.,]\d+)?\s*(?:H|Giờ|Tiếng)?)?|\s*Video|\s*Bộ|\s*Kết|\s*END|\s*Version(?:\s*\d+(?:\s*[-–+]\s*\d+)*)?)?)\s*(?:(?:Phần|Tập|Mùa|P|S|SS)\s*\d+(?:\s*[-–+~]\s*(?:P|SS)?\s*\d+)?(?:\s*END)?)?(?:\s*\([^)]*\))?\s*[\|\-:–,]?)\s*)+/i, '')
       .replace(/\s*\((?:Phần|Tập|Mùa)\s*\d+[^)]*\)\s*$/i, '')
-      .replace(/\s*[\|\-]\s*(?:Kas\s*Vietsub|MyCherrySub|Sora\s*Dub|CibiiSub|Đậu\s*Đậu\s*Vietsub|GodSub|Win\s*Vietsub|Thế\s*Vietsub|Vietsub\s*Phim|Akatsuki\s*Review)\s*$/i, '')
+      .replace(/\s*[\|\-]\s*(?:Kas\s*Vietsub|MyCherrySub|Sora\s*Dub|CibiiSub|Đậu\s*Đậu\s*Vietsub|GodSub|Win\s*Vietsub|Thế\s*Vietsub|Vietsub\s*Phim|Akatsuki\s*Review|2K\s*Sub|Zzzphim|Não\s*Phẳng\s*Tu\s*Tiên|Mộng\s*Ảnh\s*Studio|Nhật\s*Ảnh\s*Studio|Vạn\s*Ảnh\s*Studio|ChiuChiuSubTV|Tiểu\s*Hồ\s*Review(?:\s*\(Dorovietsub\))?|Mễ\s*Lạc\s*Review|HHANIME\s*CHANNEL|Hoa\s*Trên\s*Mây|Phim\s*Zoo\s*AI|Nguyễn\s*Tường\s*Vietsub|Huyền\s*Sư\s*Tiểu\s*Muội|Tiểu\s*Muội\s*Ngôn\s*Tình)\s*$/i, '')
       .replace(/^[\|\-:\s]+|[\|\-:\s]+$/g, '')
       .replace(/\s+/g, ' ')
       .trim();
+    if (s.includes('|')) {
+      const kept = s.split('|').map(x => x.trim()).filter(x => x && !isGenericTitleSegmentClient(x));
+      if (kept.length > 0) s = kept.join(' | ');
+    }
+    return s;
   }
 
   function seriesGroupingKeyClient(title) {
     let ct = cleanCoreTitleClient(title);
     if (ct.includes('|')) {
-      const left = cleanCoreTitleClient(ct.split('|')[0].trim());
-      if (left.length >= 6) ct = left;
+      for (const seg of ct.split('|')) {
+        const cand = cleanCoreTitleClient(seg);
+        if (cand.length >= 6 && !isGenericTitleSegmentClient(cand)) {
+          ct = cand;
+          break;
+        }
+      }
     }
+    if (isGenericTitleSegmentClient(ct)) return '';
     return ct
       .replace(/[^\p{L}\p{N}\s]/gu, ' ')
       .toLowerCase()
@@ -549,6 +574,7 @@
   }
 
   function rebuildRecentFeedAndGenres() {
+    state._spotlightCache = null;
     // Extract unique genres sorted by prevalence (descending)
     const genreCounts = new Map();
     state.allFilms.forEach(f => {
@@ -1676,7 +1702,7 @@
         genres.map(g => `<button type="button" class="random-tag-pill" data-scope-genre="${escapeHtml(g)}">${escapeHtml(g)}</button>`).join('') +
         `<span class="random-tag-pill tag-date">${escapeHtml(film.totalDuration || '')}</span>`;
     }
-    if (el.modalSynopsis) el.modalSynopsis.textContent = film.synopsis || '';
+    if (el.modalSynopsis) el.modalSynopsis.textContent = formatSpotlightEditorial(film).synopsis;
     if (el.btnPrevEp) el.btnPrevEp.disabled = pos <= 0;
     if (el.btnNextEp) el.btnNextEp.disabled = pos >= film.parts.length - 1;
     if (el.btnOpenYoutube) el.btnOpenYoutube.href = `https://www.youtube.com/watch?v=${part.videoId}`;
@@ -1852,16 +1878,243 @@
   }
 
   // -------------------------------------------------------------------------
-  // SPOTLIGHT HERO BANNER LOGIC (TOP TRENDING 3D SHOWCASE)
+  // SPOTLIGHT HERO v2 (CURATED EDITORIAL STAGE + INTERACTIVE UP-NEXT RAIL)
   // -------------------------------------------------------------------------
+  function getHiResPosterUrls(film) {
+    let vid = film?.parts?.[0]?.videoId || film?.parts?.[0]?.id || '';
+    if (!vid && film?.thumbnailUrl) {
+      const m = String(film.thumbnailUrl).match(/\/vi\/([a-zA-Z0-9_-]{11})\//);
+      if (m) vid = m[1];
+    }
+    const hq = film?.thumbnailUrl || (vid ? `https://i.ytimg.com/vi/${vid}/hqdefault.jpg` : '');
+    if (!vid) {
+      return { maxres: hq, sd: hq, mq: hq, hq };
+    }
+    return {
+      maxres: `https://i.ytimg.com/vi/${vid}/maxresdefault.jpg`,
+      sd: `https://i.ytimg.com/vi/${vid}/sddefault.jpg`,
+      mq: `https://i.ytimg.com/vi/${vid}/mqdefault.jpg`,
+      hq
+    };
+  }
+
+  function handleSpotlightImgFallback(img) {
+    if (!img) return;
+    const step = img.dataset.fbStep || 'maxres';
+    if (step === 'maxres' && img.dataset.sdSrc) {
+      img.dataset.fbStep = 'sd';
+      img.classList.add('is-letterbox-crop');
+      img.src = img.dataset.sdSrc;
+    } else if ((step === 'maxres' || step === 'sd') && img.dataset.hqSrc) {
+      img.dataset.fbStep = 'hq';
+      img.classList.add('is-letterbox-crop');
+      img.src = img.dataset.hqSrc;
+    } else {
+      img.dataset.fbStep = 'done';
+      img.src = 'https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1280&auto=format&fit=crop&q=80';
+    }
+  }
+
+  function hasCleanPlotSynopsis(film) {
+    const raw = String(film?.synopsis || '').trim();
+    if (!raw || raw.length < 55) return false;
+    if (/phim hoạt hình 3d thuyết minh trọn bộ từ kênh|tuyển tập hoạt hình 3d đặc sắc|một bộ phim hoạt hình đặc sắc|thông số phân loại nội dung|content rating|review và tóm tắt cốt truyện ngắn gọn|chào mừng bạn đến với kênh|kênh chuyên review|xem phần mới ở đây|©|zalo:|hagtag/i.test(raw)) {
+      return false;
+    }
+    return true;
+  }
+
+  function formatSpotlightEditorial(film, rankIdx = 0) {
+    let rawTitle = cleanCoreTitleClient(film?.title || 'Phim hoạt hình 3D') || film?.title || 'Phim hoạt hình 3D';
+    let mainTitle = rawTitle;
+    let hook = '';
+
+    // Split structured bilingual/hooked titles cleanly into Title + Hook
+    const parenMatch = rawTitle.match(/^([^\(\)]{6,44}?)\s*\(([^()]{14,140})\)\s*$/);
+    if (parenMatch) {
+      mainTitle = parenMatch[1].trim();
+      hook = parenMatch[2].trim();
+    } else {
+      const sepMatch = rawTitle.match(/^([^:|–—-]{6,40}?)\s*(?::|\||–|—|\s+-\s+)\s*(.{14,140})$/);
+      if (sepMatch && !isGenericTitleSegmentClient(sepMatch[1])) {
+        mainTitle = sepMatch[1].trim();
+        hook = sepMatch[2].trim();
+      } else {
+        const commaMatch = rawTitle.match(/^([^,]{8,38}?),\s*(.{12,140})$/);
+        const pivotMatch = !commaMatch && rawTitle.match(/^(.{10,36}?)\s+((?:Ta\s+(?:Xuyên|Trùng|Thức|Bất|Có|Dùng)|Tôi\s+(?:Xuyên|Trùng|Thức|Trở)|Lần\s+Này\s+Ta|Bắt\s+Đầu\s+Ta|Mở\s+Mắt\s+Ra)\b.{12,})$/i);
+        if (commaMatch && !isGenericTitleSegmentClient(commaMatch[1])) {
+          mainTitle = commaMatch[1].trim();
+          hook = commaMatch[2].trim();
+        } else if (pivotMatch && !isGenericTitleSegmentClient(pivotMatch[1])) {
+          mainTitle = pivotMatch[1].trim();
+          hook = pivotMatch[2].trim();
+        }
+      }
+    }
+    mainTitle = mainTitle.replace(/[\s\.!?,;:–—-]+$/g, '').trim() || rawTitle;
+    hook = hook.replace(/^[\s\-:|–—]+|[\s\.]+$/g, '').trim();
+
+    // Sanitize & deduplicate plot synopsis
+    let syn = String(film?.synopsis || '')
+      .replace(/^[\s•●\-–|]*(?:tóm\s*tắt(?:\s*phim)?\s*[:：\-]?|phần\s*\d+(?:\s*[+\-–]\s*\d+)?\s*)/i, '')
+      .replace(/^【[^】]{4,140}】\s*/, '')
+      .replace(/\.\s*\(\s*(?:\d+\s*phần(?:\s*\/\s*\d+\s*video)?(?:\s*\([^)]*\))?|Đã hoàn[^)]*)\s*\)\s*\.?\s*$/i, '.')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    const isBadSyn = !syn || syn.length < 48 ||
+      /phim hoạt hình 3d thuyết minh trọn bộ từ kênh|tuyển tập hoạt hình 3d đặc sắc|một bộ phim hoạt hình đặc sắc|thông số phân loại nội dung|content rating|review và tóm tắt cốt truyện ngắn gọn|chào mừng bạn đến với kênh|kênh chuyên review|xem phần mới ở đây|©|zalo:|hagtag/i.test(syn);
+
+    const genres = (Array.isArray(film?.genres) && film.genres.length ? film.genres : [film?.genre || 'Hoạt hình 3D']).slice(0, 2);
+    const partsLabel = film?.partsCount > 1 ? `${film.partsCount} Phần` : 'Trọn bộ Full';
+
+    if (isBadSyn) {
+      syn = `Tuyển tập ${genres.join(' • ')} gồm ${partsLabel}` +
+        (film?.totalDuration ? ` (${film.totalDuration})` : '') +
+        (film?.totalViews > 0 ? `, thu hút ${formatCompactCountVi(film.totalViews)} lượt xem trên kênh ${film.channelName}.` : ` trên kênh ${film?.channelName}.`);
+    } else {
+      // Avoid echoing exact mainTitle at start of synopsis
+      const lowSyn = syn.toLowerCase();
+      const lowTitle = mainTitle.toLowerCase();
+      if (lowSyn.startsWith(lowTitle)) {
+        const trimmedAfterTitle = syn.slice(mainTitle.length).replace(/^[\s,.:;\-–—|•]+/, '').trim();
+        if (trimmedAfterTitle.length >= 45) {
+          syn = trimmedAfterTitle.charAt(0).toUpperCase() + trimmedAfterTitle.slice(1);
+        }
+      }
+      if (!hook && syn.length < mainTitle.length + 22) {
+        syn = `${syn.replace(/[.]+$/, '')} — Tuyển tập ${genres[0]} (${partsLabel}, ${film?.totalDuration || ''}) từ ${film?.channelName}.`;
+      }
+    }
+
+    const updatedMs = film?.updatedAt || film?.publishedAt ? new Date(film.updatedAt || film.publishedAt).getTime() : 0;
+    const ageHours = updatedMs ? (Date.now() - updatedMs) / 3600000 : 9999;
+    let kickerLabel = `TOP ${rankIdx + 1} ĐỀ CỬ`;
+    if (rankIdx === 0) kickerLabel = 'TOP 1 THỊNH HÀNH';
+    else if (ageHours <= 72) kickerLabel = 'MỚI CẬP NHẬT';
+    else if ((film?.partsCount || 1) >= 6) kickerLabel = `SERIES ${film.partsCount} PHẦN`;
+
+    return { mainTitle, hook, synopsis: syn, genres, partsLabel, kickerLabel };
+  }
+
   function getSpotlightCandidates() {
     if (!state.allFilms || state.allFilms.length === 0) return [];
-    // Prioritize high-view, multi-part curated films with valid thumbnails
-    const pool = state.allFilms
-      .filter(f => f.thumbnailUrl && f.totalDurationSec > 1800)
-      .slice();
-    pool.sort((a, b) => (b.totalViews || 0) - (a.totalViews || 0));
-    return pool.slice(0, 5);
+    if (state._spotlightCache && state._spotlightCache.total === state.allFilms.length) {
+      return state._spotlightCache.items;
+    }
+
+    const nowMs = Date.now();
+    const scored = [];
+    for (const f of state.allFilms) {
+      if (!isValid3dFilmClient(f) || !f.thumbnailUrl || (f.totalDurationSec || 0) < 3600) continue;
+      if ((f.totalViews || 0) < 20000) continue;
+      const cleanT = cleanCoreTitleClient(f.title);
+      if (!cleanT || cleanT.length < 6 || isGenericTitleSegmentClient(cleanT)) continue;
+
+      const ts = f.updatedAt || f.publishedAt ? new Date(f.updatedAt || f.publishedAt).getTime() : 0;
+      const ageDays = ts && !Number.isNaN(ts) ? Math.max(0, (nowMs - ts) / 86400000) : 180;
+      const recencyBoost = ageDays <= 14 ? 2.35
+        : (ageDays <= 35 ? 1.85
+        : (ageDays <= 75 ? 1.35
+        : (ageDays <= 150 ? 1.0 : 0.55)));
+      const engagement = Math.log10((f.totalViews || 1) + 1) * 18
+        + Math.log10((f.totalLikes || 0) * 15 + 1) * 10
+        + Math.min(25, (f.totalViews || 0) / 120000);
+      const seriesBonus = f.partsCount >= 4 ? 12 : (f.partsCount >= 2 ? 7 : (f.totalDurationSec >= 14400 ? 6 : 0));
+      const synopsisBonus = hasCleanPlotSynopsis(f) ? 10 : 0;
+      const score = (engagement + seriesBonus + synopsisBonus) * recencyBoost;
+      scored.push({ film: f, score });
+    }
+
+    scored.sort((a, b) => b.score - a.score);
+
+    // Diversify: max 1 film per channel in pass 1, and prefer genre variety
+    const picked = [];
+    const seenChannels = new Set();
+    const genreCounts = new Map();
+
+    for (const item of scored) {
+      const f = item.film;
+      if (seenChannels.has(f.channelId)) continue;
+      const primaryGenre = (Array.isArray(f.genres) && f.genres[0]) || f.genre || '';
+      if (picked.length < 4 && (genreCounts.get(primaryGenre) || 0) >= 2 && scored.length > 12) continue;
+      seenChannels.add(f.channelId);
+      genreCounts.set(primaryGenre, (genreCounts.get(primaryGenre) || 0) + 1);
+      picked.push(f);
+      if (picked.length >= 6) break;
+    }
+
+    if (picked.length < 6) {
+      for (const item of scored) {
+        if (!picked.includes(item.film)) {
+          picked.push(item.film);
+          if (picked.length >= 6) break;
+        }
+      }
+    }
+
+    state._spotlightCache = { total: state.allFilms.length, items: picked };
+    return picked;
+  }
+
+  function buildSpotlightStageBodyMarkup(film, idx, total) {
+    const ed = formatSpotlightEditorial(film, idx);
+    const isFav = state.favorites.has(film.id);
+    const prog = state.progress[film.id];
+    const watchLabel = prog && Number.isInteger(prog.pos) && film.parts[prog.pos]
+      ? `Tiếp Tục ${prog.label || `Phần ${prog.pos + 1}`}`
+      : (film.partsCount > 1 ? 'Xem Ngay Tập 1' : 'Xem Trọn Bộ');
+    const primaryGenre = ed.genres[0] || 'Hoạt hình 3D';
+    const timeAgo = film.recentUpdate?.timeAgo || '';
+
+    const telemetryParts = [
+      `<span class="telemetry-item telemetry-parts">${escapeHtml(ed.partsLabel)}</span>`,
+      film.totalDuration ? `<span class="telemetry-item telemetry-dur"><svg class="icon icon-xs clock-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>${escapeHtml(film.totalDuration)}</span>` : '',
+      film.totalViews > 0 ? `<span class="telemetry-item"><svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>${formatCompactCountVi(film.totalViews)} xem</span>` : '',
+      film.totalLikes > 0 ? `<span class="telemetry-item telemetry-likes"><svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path></svg>${formatCompactCountVi(film.totalLikes)} thích</span>` : '',
+      timeAgo ? `<span class="telemetry-item telemetry-muted">Cập nhật ${escapeHtml(timeAgo)}</span>` : ''
+    ].filter(Boolean);
+
+    return `
+      <div class="spotlight-eyebrow-row">
+        <span class="spotlight-kicker-badge">
+          <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="currentColor"></polygon></svg>
+          <span>${escapeHtml(ed.kickerLabel)}</span>
+        </span>
+        <button type="button" class="spotlight-meta-link" data-spotlight-channel="${escapeHtml(film.channelId)}" title="Lọc phim kênh ${escapeHtml(film.channelName)}">
+          ${escapeHtml(film.channelName)}
+        </button>
+        <button type="button" class="spotlight-meta-link is-genre" data-spotlight-genre="${escapeHtml(primaryGenre)}" title="Lọc thể loại ${escapeHtml(primaryGenre)}">
+          ${escapeHtml(primaryGenre)}
+        </button>
+      </div>
+
+      <div class="spotlight-heading-group">
+        <h2 class="spotlight-title">${escapeHtml(ed.mainTitle)}</h2>
+        ${ed.hook ? `<p class="spotlight-hook">${escapeHtml(ed.hook)}</p>` : ''}
+      </div>
+
+      <p class="spotlight-synopsis">${escapeHtml(ed.synopsis)}</p>
+
+      <div class="spotlight-telemetry">
+        ${telemetryParts.join('<span class="telemetry-sep" aria-hidden="true">•</span>')}
+      </div>
+
+      <div class="spotlight-actions">
+        <button type="button" class="btn-spotlight-watch" data-spotlight-watch="${escapeHtml(film.id)}">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
+          <span>${escapeHtml(watchLabel)}</span>
+        </button>
+        <button type="button" class="btn-spotlight-details" data-spotlight-details="${escapeHtml(film.id)}">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <span>Chi Tiết</span>
+        </button>
+        <button type="button" class="btn-spotlight-fav ${isFav ? 'active' : ''}" data-spotlight-fav="${escapeHtml(film.id)}" aria-pressed="${isFav ? 'true' : 'false'}" title="${isFav ? 'Đang theo dõi (Bấm để hủy)' : 'Lưu vào tủ phim'}">
+          <svg class="icon icon-sm" viewBox="0 0 24 24" fill="${isFav ? 'currentColor' : 'none'}"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+          <span>${isFav ? 'Đã Lưu' : 'Lưu Phim'}</span>
+        </button>
+      </div>
+    `;
   }
 
   function renderSpotlightHero() {
@@ -1871,94 +2124,170 @@
       el.spotlightHeroShell?.classList.add('hidden');
       return;
     }
+
     const idx = (state.spotlightIndex % candidates.length + candidates.length) % candidates.length;
     state.spotlightIndex = idx;
-    const film = candidates[idx];
-    const isFav = state.favorites.has(film.id);
-    const partsLabel = film.partsCount > 1 ? `${film.partsCount} Phần` : 'Trọn bộ 1 tập';
-    const genres = (Array.isArray(film.genres) && film.genres.length ? film.genres : [film.genre]).slice(0, 2);
+    const renderedSignature = candidates.map(f => f.id).join(',');
 
-    const dotsHtml = candidates.map((_, i) =>
-      `<button type="button" class="spotlight-dot ${i === idx ? 'active' : ''}" data-spotlight-dot="${i}" aria-label="Xem phim nổi bật ${i + 1}"></button>`
-    ).join('');
+    // Fast path: if skeleton is already mounted for the same 6 candidates, switch in-place without flashing images
+    if (el.spotlightHero.dataset.renderedKey === renderedSignature && el.spotlightHero.querySelector('.spotlight-stage-body')) {
+      updateSpotlightSlide(idx);
+      return;
+    }
+
+    el.spotlightHero.dataset.renderedKey = renderedSignature;
+    const activeFilm = candidates[idx];
+
+    const backdropLayersHtml = candidates.map((f, i) => {
+      const posters = getHiResPosterUrls(f);
+      const ed = formatSpotlightEditorial(f, i);
+      return `
+        <img
+          class="spotlight-backdrop-img ${i === idx ? 'is-active' : ''}"
+          data-slide-img="${i}"
+          data-fb-step="maxres"
+          data-sd-src="${escapeHtml(posters.sd)}"
+          data-hq-src="${escapeHtml(posters.hq)}"
+          src="${escapeHtml(posters.maxres)}"
+          alt="${escapeHtml(ed.mainTitle)}"
+          loading="${i === 0 ? 'eager' : 'lazy'}"
+        >
+      `;
+    }).join('');
+
+    const railItemsHtml = candidates.map((f, i) => {
+      const posters = getHiResPosterUrls(f);
+      const ed = formatSpotlightEditorial(f, i);
+      const numStr = String(i + 1).padStart(2, '0');
+      return `
+        <button type="button" class="spotlight-rail-item ${i === idx ? 'is-active' : ''}" data-spotlight-dot="${i}" aria-label="Chọn phim nổi bật ${i + 1}: ${escapeHtml(ed.mainTitle)}">
+          <span class="spotlight-rail-thumb">
+            <img src="${escapeHtml(posters.mq || posters.hq)}" alt="" loading="lazy">
+            <span class="spotlight-rail-rank">${numStr}</span>
+          </span>
+          <span class="spotlight-rail-info">
+            <span class="spotlight-rail-title">${escapeHtml(ed.mainTitle)}</span>
+            <span class="spotlight-rail-meta">${escapeHtml(f.channelName)} • ${escapeHtml(ed.partsLabel)}</span>
+          </span>
+          <span class="spotlight-rail-progress" aria-hidden="true"><span class="spotlight-rail-progress-fill"></span></span>
+        </button>
+      `;
+    }).join('');
+
+    const countStr = `${String(idx + 1).padStart(2, '0')} / ${String(candidates.length).padStart(2, '0')}`;
 
     el.spotlightHero.innerHTML = `
-      <div class="spotlight-backdrop">
-        <img class="spotlight-backdrop-img" src="${escapeHtml(film.thumbnailUrl)}" alt="${escapeHtml(film.title)}" loading="eager" onerror="this.src='https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1200&auto=format&fit=crop&q=80'">
-      </div>
-      <div class="spotlight-vignette"></div>
-      <div class="spotlight-vignette-bottom"></div>
-
-      <div class="spotlight-content">
-        <div class="spotlight-kicker-row">
-          <span class="spotlight-kicker-badge">
-            <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="currentColor"></polygon></svg>
-            <span>PHIM 3D NỔI BẬT HÔM NAY</span>
-          </span>
-          <span class="spotlight-channel-pill">${escapeHtml(film.channelName)}</span>
+      <div class="spotlight-stage">
+        <div class="spotlight-backdrop">
+          ${backdropLayersHtml}
         </div>
-
-        <h2 class="spotlight-title">${escapeHtml(film.title)}</h2>
-
-        <div class="spotlight-meta-row">
-          <span class="spotlight-chip spotlight-chip-accent">
-            <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
-            <span>${partsLabel}</span>
-          </span>
-          ${film.totalDuration ? `
-            <span class="spotlight-chip spotlight-chip-amber">
-              <svg class="icon icon-xs clock-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-              <span>${escapeHtml(film.totalDuration)}</span>
-            </span>
-          ` : ''}
-          ${genres.map(g => `<span class="spotlight-chip">${escapeHtml(g)}</span>`).join('')}
-          ${film.totalViews > 0 ? `
-            <span class="spotlight-chip">
-              <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
-              <span>${formatCompactCountVi(film.totalViews)} xem</span>
-            </span>
-          ` : ''}
-        </div>
-
-        ${film.synopsis ? `<p class="spotlight-synopsis">${escapeHtml(film.synopsis)}</p>` : ''}
-
-        <div class="spotlight-actions">
-          <button type="button" class="btn-spotlight-watch" data-spotlight-watch="${escapeHtml(film.id)}">
-            <svg class="icon icon-sm" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
-            <span>Xem Ngay Tập 1</span>
-          </button>
-          <button type="button" class="btn-spotlight-fav ${isFav ? 'active' : ''}" data-spotlight-fav="${escapeHtml(film.id)}" title="${isFav ? 'Đã lưu' : 'Lưu phim'}">
-            <svg class="icon icon-sm" viewBox="0 0 24 24" fill="${isFav ? 'currentColor' : 'none'}"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
-            <span>${isFav ? 'Đã Lưu Vào Tủ Phim' : 'Lưu Vào Tủ Phim'}</span>
-          </button>
+        <div class="spotlight-scrim-left" aria-hidden="true"></div>
+        <div class="spotlight-scrim-bottom" aria-hidden="true"></div>
+        <div class="spotlight-stage-body" id="spotlightStageBody">
+          ${buildSpotlightStageBodyMarkup(activeFilm, idx, candidates.length)}
         </div>
       </div>
 
-      <div class="spotlight-nav-controls">
-        <div class="spotlight-dots">${dotsHtml}</div>
-        <button type="button" class="spotlight-arrow-btn" data-spotlight-dir="-1" aria-label="Phim trước">
-          <svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
-        </button>
-        <button type="button" class="spotlight-arrow-btn" data-spotlight-dir="1" aria-label="Phim tiếp theo">
-          <svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
-        </button>
-      </div>
+      <aside class="spotlight-rail" aria-label="Danh sách phim nổi bật">
+        <div class="spotlight-rail-head">
+          <div class="spotlight-rail-label">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
+            <span>ĐỀ CỬ HÔM NAY</span>
+          </div>
+          <div class="spotlight-rail-controls">
+            <span class="spotlight-counter" id="spotlightCounter">${countStr}</span>
+            <button type="button" class="spotlight-arrow-btn" data-spotlight-dir="-1" aria-label="Phim nổi bật trước">
+              <svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <button type="button" class="spotlight-arrow-btn" data-spotlight-dir="1" aria-label="Phim nổi bật tiếp theo">
+              <svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+          </div>
+        </div>
+        <div class="spotlight-rail-list" id="spotlightRailList">
+          ${railItemsHtml}
+        </div>
+      </aside>
     `;
+
+    // Attach HD image fallback detectors (catches both 404 errors and 120x90 YouTube placeholder thumbnails)
+    el.spotlightHero.querySelectorAll('.spotlight-backdrop-img').forEach(img => {
+      img.addEventListener('error', () => handleSpotlightImgFallback(img));
+      img.addEventListener('load', () => {
+        if (img.naturalWidth > 0 && img.naturalWidth <= 160 && img.dataset.fbStep !== 'done') {
+          handleSpotlightImgFallback(img);
+        }
+      });
+    });
+
+    startSpotlightTimer();
+  }
+
+  function updateSpotlightSlide(newIdx) {
+    if (!el.spotlightHero) return;
+    const candidates = getSpotlightCandidates();
+    if (candidates.length === 0) return;
+
+    const idx = (newIdx % candidates.length + candidates.length) % candidates.length;
+    state.spotlightIndex = idx;
+    const film = candidates[idx];
+
+    el.spotlightHero.querySelectorAll('.spotlight-backdrop-img').forEach((img, i) => {
+      img.classList.toggle('is-active', i === idx);
+    });
+
+    const railList = document.getElementById('spotlightRailList');
+    let activeRailItem = null;
+    el.spotlightHero.querySelectorAll('.spotlight-rail-item').forEach((btn, i) => {
+      const active = i === idx;
+      if (active) {
+        activeRailItem = btn;
+        // Restart CSS progress animation cleanly
+        const fill = btn.querySelector('.spotlight-rail-progress-fill');
+        if (fill) {
+          fill.style.animation = 'none';
+          void fill.offsetWidth;
+          fill.style.animation = '';
+        }
+      }
+      btn.classList.toggle('is-active', active);
+    });
+
+    // Horizontal-only scroll inside rail on tablet/mobile (never jumps page vertically)
+    if (railList && activeRailItem && railList.scrollWidth > railList.clientWidth + 4) {
+      const targetLeft = Math.max(0, activeRailItem.offsetLeft - (railList.clientWidth - activeRailItem.offsetWidth) / 2);
+      railList.scrollTo({ left: targetLeft, behavior: 'smooth' });
+    }
+
+    const counterEl = document.getElementById('spotlightCounter');
+    if (counterEl) {
+      counterEl.textContent = `${String(idx + 1).padStart(2, '0')} / ${String(candidates.length).padStart(2, '0')}`;
+    }
+
+    const bodyEl = document.getElementById('spotlightStageBody');
+    if (bodyEl) {
+      bodyEl.innerHTML = buildSpotlightStageBodyMarkup(film, idx, candidates.length);
+      bodyEl.classList.remove('is-entering');
+      void bodyEl.offsetWidth;
+      bodyEl.classList.add('is-entering');
+    }
 
     startSpotlightTimer();
   }
 
   function startSpotlightTimer() {
     if (state.spotlightTimer) clearInterval(state.spotlightTimer);
+    el.spotlightHero?.classList.remove('is-paused');
     state.spotlightTimer = setInterval(() => {
+      if (el.spotlightHeroShell?.classList.contains('hidden')) return;
       const candidates = getSpotlightCandidates();
       if (candidates.length <= 1) return;
-      state.spotlightIndex = (state.spotlightIndex + 1) % candidates.length;
-      renderSpotlightHero();
+      updateSpotlightSlide(state.spotlightIndex + 1);
     }, 7000);
   }
 
   function pauseSpotlightTimer() {
+    el.spotlightHero?.classList.add('is-paused');
     if (state.spotlightTimer) {
       clearInterval(state.spotlightTimer);
       state.spotlightTimer = null;
@@ -2076,6 +2405,17 @@
       btn.querySelector('svg').setAttribute('fill', isFav ? 'currentColor' : 'none');
     });
 
+    // Sync Spotlight favorite button if currently showing this film
+    document.querySelectorAll(`.btn-spotlight-fav[data-spotlight-fav="${filmId}"]`).forEach(btn => {
+      const isFav = state.favorites.has(filmId);
+      btn.classList.toggle('active', isFav);
+      btn.setAttribute('aria-pressed', isFav ? 'true' : 'false');
+      const lbl = btn.querySelector('span');
+      if (lbl) lbl.textContent = isFav ? 'Đã Lưu' : 'Lưu Phim';
+      const svg = btn.querySelector('svg');
+      if (svg) svg.setAttribute('fill', isFav ? 'currentColor' : 'none');
+    });
+
     if (state.activeTab === 'favorites') {
       applyFiltersAndRender(state.currentPage);
     }
@@ -2114,7 +2454,17 @@
     state.randomCandidate = pick;
 
     if (el.randomThumbImg) {
-      el.randomThumbImg.src = pick.thumbnailUrl || '';
+      const posters = getHiResPosterUrls(pick);
+      el.randomThumbImg.dataset.hqFallback = posters.hq;
+      el.randomThumbImg.onerror = function() {
+        if (this.src !== posters.hq) this.src = posters.hq;
+      };
+      el.randomThumbImg.onload = function() {
+        if (this.naturalWidth > 0 && this.naturalWidth <= 160 && this.src !== posters.hq) {
+          this.src = posters.hq;
+        }
+      };
+      el.randomThumbImg.src = posters.maxres || posters.hq || '';
       el.randomThumbImg.alt = pick.title;
     }
     if (el.randomPartsBadge) {
@@ -2155,7 +2505,7 @@
     }
 
     if (el.randomFilmSynopsis) {
-      el.randomFilmSynopsis.textContent = pick.synopsis || `${cleanCoreTitleClient(pick.title)} — Bộ phim hoạt hình 3D đặc sắc từ ${pick.channelName}.`;
+      el.randomFilmSynopsis.textContent = formatSpotlightEditorial(pick).synopsis;
     }
 
     if (el.btnRandomWatchNow) {
@@ -2429,7 +2779,7 @@
     el.qrBackdrop?.addEventListener('click', closeQrModal);
     el.btnCopyQrUrl?.addEventListener('click', copyQrUrl);
 
-    // Spotlight Hero carousel interactions
+    // Spotlight Hero v2 interactions (Stage CTAs, Up-Next Rail, Keyboard, Touch Swipe)
     el.spotlightHero?.addEventListener('click', e => {
       const watchBtn = e.target.closest('[data-spotlight-watch]');
       if (watchBtn) {
@@ -2441,29 +2791,75 @@
         }
         return;
       }
+      const detailsBtn = e.target.closest('[data-spotlight-details]');
+      if (detailsBtn) {
+        const f = state.allFilms.find(x => x.id === detailsBtn.dataset.spotlightDetails);
+        if (f) openRandomizer(f);
+        return;
+      }
+      const chBtn = e.target.closest('[data-spotlight-channel]');
+      if (chBtn) {
+        state.selectedChannel = chBtn.dataset.spotlightChannel || 'all';
+        state.selectedGenre = 'all';
+        state.activeTab = 'all';
+        syncAllScopeControls();
+        applyFiltersAndRender(1);
+        return;
+      }
+      const genreBtn = e.target.closest('[data-spotlight-genre]');
+      if (genreBtn) {
+        state.selectedGenre = genreBtn.dataset.spotlightGenre || 'all';
+        state.activeTab = 'all';
+        syncAllScopeControls();
+        applyFiltersAndRender(1);
+        return;
+      }
       const favBtn = e.target.closest('[data-spotlight-fav]');
       if (favBtn) {
         toggleFavorite(favBtn.dataset.spotlightFav);
-        renderSpotlightHero();
         return;
       }
       const dotBtn = e.target.closest('[data-spotlight-dot]');
       if (dotBtn) {
-        state.spotlightIndex = parseInt(dotBtn.dataset.spotlightDot, 10) || 0;
-        renderSpotlightHero();
+        const targetIdx = parseInt(dotBtn.dataset.spotlightDot, 10) || 0;
+        updateSpotlightSlide(targetIdx);
         return;
       }
       const dirBtn = e.target.closest('[data-spotlight-dir]');
       if (dirBtn) {
         const step = parseInt(dirBtn.dataset.spotlightDir, 10) || 1;
-        const candidates = getSpotlightCandidates();
-        if (candidates.length > 0) {
-          state.spotlightIndex = (state.spotlightIndex + step + candidates.length) % candidates.length;
-          renderSpotlightHero();
-        }
+        updateSpotlightSlide(state.spotlightIndex + step);
         return;
       }
     });
+
+    el.spotlightHero?.addEventListener('keydown', e => {
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        updateSpotlightSlide(state.spotlightIndex - 1);
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        updateSpotlightSlide(state.spotlightIndex + 1);
+      }
+    });
+
+    let spotlightTouchX = null;
+    el.spotlightHero?.addEventListener('touchstart', e => {
+      if (e.target.closest('#spotlightRailList')) {
+        spotlightTouchX = null;
+        return;
+      }
+      spotlightTouchX = e.changedTouches?.[0]?.clientX ?? null;
+    }, { passive: true });
+    el.spotlightHero?.addEventListener('touchend', e => {
+      if (spotlightTouchX === null) return;
+      const endX = e.changedTouches?.[0]?.clientX;
+      const dx = typeof endX === 'number' ? endX - spotlightTouchX : 0;
+      spotlightTouchX = null;
+      if (Math.abs(dx) >= 48) {
+        updateSpotlightSlide(state.spotlightIndex + (dx < 0 ? 1 : -1));
+      }
+    }, { passive: true });
 
     el.spotlightHero?.addEventListener('mouseenter', pauseSpotlightTimer);
     el.spotlightHero?.addEventListener('mouseleave', startSpotlightTimer);

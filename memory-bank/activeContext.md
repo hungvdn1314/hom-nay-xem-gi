@@ -166,4 +166,15 @@
 - Added 28th partner channel: `akatsukireview` (**Akatsuki Review**, `@Akatsuki-KT`, `UCRkGgoKdH3K05UdgRamBb3Q`).
 - Updated `CHANNEL_SUFFIX_RE`, `LEAD_TOKEN_RE`, `parse_part_info` (Python) and `cleanCoreTitleClient`, `parsePartInfoClient` (JS) to handle concatenated prefixes (`FULLSS1`, `Full SS1-4END`, `FullTập1-185END`) and `| Akatsuki Review` suffixes.
 - Crawled 100% of channel history (383 videos -> 187 valid 3D films >=20m -> unified into **120 films** on `Akatsuki Review`).
-- Catalog now stands at **5,859 unique 3D films across 28 channels** (`film_1`..`film_5859`, 0 duplicate IDs), verified live via Puppeteer (`Tất cả 28 kênh`, `Akatsuki Review 120`).
+
+## Spotlight Hero v2 Overhaul — Content Curation & Asymmetric Nordic Split Stage (2026-11-24)
+- **Catalog Content Repair & Plot Enrichment (`scripts/update_youtube_feed.py`, `api/live-feed.js`, `data.js`, `youtube_films_catalog.json`)**:
+  - Added `is_generic_title_segment` / `isGenericTitleSegmentClient` + expanded `LEAD_TOKEN_RE` and `NON_3D_TITLE_REGEX` (`nhạc phim cổ phong`, `nhạc không lời`, `ost`, `bgm`).
+  - Unmerged 18 corrupted generic-prefix buckets (e.g., `( Tổng Hợp ) FULL` 78 parts, `( Trọn Bộ )` 18 parts, `( Siêu Hay )` 6 parts) into **139 clean individual series** and filtered 1 non-3D music compilation (`film_2748`), bringing catalog to **5,980 unique 3D films across 28 channels** (0 duplicate IDs, 7,390 valid 3D parts).
+  - Enriched 47/53 top trending Spotlight candidates with genuine YouTube plot descriptions via Innertube `/youtubei/v1/next`, and hardened `clean_plot_summary` / `cleanPlotSummary` to strip channel promo/Zalo/copyright/content-rating boilerplate.
+- **Spotlight Hero v2 Design & Logic (`app.js`, `style.css`, `index.html`, `DESIGN.md`)**:
+  - Replaced single-box dark-vignette banner with **Asymmetric Nordic Split Cinema Stage** (`1.85fr` 16:9 HD poster stage + `0.95fr` Frosted Glass Up-Next Rail on desktop; stacked 16:9 poster above body + horizontal touch-scroll rail on `<= 1080px` / `375px` mobile).
+  - Upgraded `getSpotlightCandidates()` to rank Top 6 curated films by recency decay + views/likes engagement + multi-part richness + clean plot synopsis, diversified max 1 film per channel.
+  - Added `formatSpotlightEditorial()` (splits long titles into crisp Display Title + Glacier Ice Blue Hook, strips echo/machine-tail text from synopses, also applied inside `#randomModal` and `#theaterModal`) and `getHiResPosterUrls()` (`maxresdefault.jpg` 1280×720 with automatic `120×90` placeholder & error fallback to `sddefault` -> `hqdefault`).
+  - Implemented non-destructive `updateSpotlightSlide()` crossfade switching with 7s rail progress indicator, pause on hover, keyboard `←`/`→`, horizontal swipe, `"Xem Ngay"` / `"Tiếp Tục Phần X"`, `"Chi Tiết"`, and `"Lưu Phim"` actions.
+- **Verified Live via Puppeteer**: Desktop `1440×900` (`overflowX: false`, all 6 `maxresdefault.jpg` loaded at `1280×720`, 44px CTAs, interactive rail click / Chi Tiết modal / Xem Ngay theater modal) and Mobile `375×812` (`docScrollW: 375`, `overflowX: false`, horizontal rail scroll, 44px CTAs).
