@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 28,
-    "lastUpdated": "2026-11-24T14:45:39.716150+00:00"
+    "lastUpdated": "2026-11-24T17:15:36.052281+00:00"
   },
   "channels": [
     {
@@ -46147,10 +46147,10 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLWaxBqk8ziJ8",
-      "totalParts": 7,
-      "partsStr": "7 phần",
-      "totalDurationSec": 59991,
-      "totalDurationStr": "16 giờ 39 phút",
+      "totalParts": 8,
+      "partsStr": "8 phần",
+      "totalDurationSec": 67643,
+      "totalDurationStr": "18 giờ 47 phút",
       "review": "Ai bảo không có linh căn không thể tu tiên?",
       "genres": [
         "Tu tiên / Huyền huyễn"
@@ -46261,13 +46261,28 @@ window.FILMS_DATA = {
           "likes": 116,
           "channelId": "melacreview",
           "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 8,
+          "label": "Mùa 49",
+          "title": "Mùa 49 | Vô Linh Chứng Đạo - Ai bảo không có linh căn không thể tu tiên?",
+          "url": "https://www.youtube.com/watch?v=qkO64IEgkOg",
+          "id": "qkO64IEgkOg",
+          "duration": 7652,
+          "durationStr": "2:07:32",
+          "publishedAt": "2026-11-24T17:14:12+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
         }
       ],
       "totalViews": 122628,
       "totalLikes": 1046,
       "publishedAt": "2026-07-01T00:00:00+00:00",
-      "updatedAt": "2026-11-10T22:49:34+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-24T17:14:12+00:00",
+      "isRecent24h": true,
       "channelIds": [
         "melacreview"
       ]
