@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 28,
-    "lastUpdated": "2026-11-24T11:00:46.128612+00:00"
+    "lastUpdated": "2026-11-24T11:15:36.875424+00:00"
   },
   "channels": [
     {
@@ -188,8 +188,8 @@ window.FILMS_DATA = {
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 37003,
+      "totalDurationStr": "10 giờ 16 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TRỌNG SINH MẠT THẾ – ĐOẠT DỊ NĂNG KHẾ ƯỚC CẤP SSS, THU PHỤC QUÂN ĐOÀN BIẾN DỊ THÚ! | 10H16** ⚔️ **Triệu Anh** từng sống sót suốt 7 năm mạt thế, nhưng cuối cùng lại bị **Lâm Thiên Phong**, kẻ do chính mình cứu giúp, phản bội và cướp đoạt tất cả. Mang theo nỗi hận, hắn bất ngờ...",
@@ -208,8 +208,8 @@ window.FILMS_DATA = {
           "title": "10 GIỜ THỎA MÃN | Trọng Sinh Mạt Thế, Đoạt Dị Năng Cấp SSS, Khế Ước Vạn Thú Báo Thù!",
           "url": "https://www.youtube.com/watch?v=5JSBjXk_wCo",
           "id": "5JSBjXk_wCo",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 37003,
+          "durationStr": "10:16:43",
           "publishedAt": "2026-11-24T11:00:30+00:00",
           "views": 0,
           "likes": 0,
