@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5737,
+    "totalFilms": 5738,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T08:30:36.686103+00:00"
+    "lastUpdated": "2026-11-24T09:00:46.184695+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 491
+      "filmCount": 492
     },
     {
       "id": "naophangtutien",
@@ -173,6 +173,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_5738",
+      "title": "13 GIỜ THỎA MÃN | Xuyên Không Tam Quốc, Mang Kiến Thức Hiện Đại Giúp Tào Tháo Tranh Bá Thiên Hạ!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 48106,
+      "totalDurationStr": "13 giờ 21 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **XUYÊN KHÔNG TAM QUỐC – MANG HỆ THỐNG LUYỆN BINH, GIÚP TÀO THÁO TRANH BÁ THIÊN HẠ! | 13H22** ⚔️ **Thạch Tạo** bất ngờ xuyên không về cuối thời Đông Hán, năm 188. Vừa đặt chân đến thế giới Tam Quốc, hắn đã bị hổ truy đuổi và may mắn gặp mãnh tướng **Điển Vi**. Biết trước lịch sử,...",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/5GeeOdYJ-qE/hqdefault.jpg",
+      "publishedAt": "2026-11-24T09:00:28+00:00",
+      "updatedAt": "2026-11-24T09:00:28+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "13 GIỜ THỎA MÃN | Xuyên Không Tam Quốc, Mang Kiến Thức Hiện Đại Giúp Tào Tháo Tranh Bá Thiên Hạ!",
+          "url": "https://www.youtube.com/watch?v=5GeeOdYJ-qE",
+          "id": "5GeeOdYJ-qE",
+          "duration": 48106,
+          "durationStr": "13:21:46",
+          "publishedAt": "2026-11-24T09:00:28+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5737",
       "title": "8 GIỜ 30 | Tu Tiên Hài Hước: Không Có Linh Căn, Ta Tự Sửa Công Pháp Luyện Thành Cao Thủ!",
