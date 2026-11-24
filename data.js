@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T01:00:54.960070+00:00"
+    "lastUpdated": "2026-11-24T01:16:25.358675+00:00"
   },
   "channels": [
     {
@@ -1934,10 +1934,10 @@ window.FILMS_DATA = {
       "channelName": "2K Sub",
       "channelUrl": "https://www.youtube.com/@2KSUB2000",
       "playlistUrl": null,
-      "totalParts": 17,
-      "partsStr": "17 phần",
-      "totalDurationSec": 399540,
-      "totalDurationStr": "110 giờ 59 phút",
+      "totalParts": 18,
+      "partsStr": "18 phần",
+      "totalDurationSec": 406985,
+      "totalDurationStr": "113 giờ 03 phút",
       "totalViews": 423200,
       "totalLikes": 0,
       "review": "Phim hoạt hình 3D thuyết minh trọn bộ từ kênh 2K Sub.",
@@ -1946,7 +1946,7 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i.ytimg.com/vi/8P-VpGtBPXM/hqdefault.jpg",
       "publishedAt": "2026-11-02T11:50:19.700996+00:00",
-      "updatedAt": "2026-11-23T01:49:42.583751+00:00",
+      "updatedAt": "2026-11-24T01:00:03+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -2199,6 +2199,21 @@ window.FILMS_DATA = {
           "durationStr": "2:00:20",
           "publishedAt": "2026-11-23T01:49:42.583751+00:00",
           "views": 5600,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 18,
+          "label": "Mùa 5",
+          "title": "SS5 PART 8 | Bị Nguyền Chết Tuổi 40, Ta Kết 3 Đan Vượt Tam Sắc Lôi Kiếp | Hà Vô Tà Tu Tiên Ký",
+          "url": "https://www.youtube.com/watch?v=iUA9Vxgu5n4",
+          "id": "iUA9Vxgu5n4",
+          "duration": 7445,
+          "durationStr": "2:04:05",
+          "publishedAt": "2026-11-24T01:00:03+00:00",
+          "views": 0,
           "likes": 0,
           "isRedundant": false,
           "channelId": "2ksub",
