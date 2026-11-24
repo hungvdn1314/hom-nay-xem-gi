@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 5992,
+    "totalFilms": 5993,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 28,
-    "lastUpdated": "2026-11-24T14:15:44.443009+00:00"
+    "lastUpdated": "2026-11-24T14:45:39.716150+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 617
+      "filmCount": 618
     },
     {
       "id": "naophangtutien",
@@ -179,6 +179,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_5993",
+      "title": "8 GIỜ 40 | Xuyên Thư Mạt Thế: Nữ Phụ Kích Hoạt Hệ Thống Vị Diện, Đổi Vật Tư Để Sống Sót!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 31259,
+      "totalDurationStr": "8 giờ 40 phút",
+      "totalViews": 168,
+      "totalLikes": 8,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: XUYÊN THƯ MẠT THẾ – NỮ PHỤ KÍCH HOẠT HỆ THỐNG VỊ DIỆN, ĐỔI VẬT TƯ ĐỂ SINH TỒN! | SS1–SS3 | 8H41 ⚔️ Giang Vân Đàm xuyên vào một cuốn tiểu thuyết mạt thế, lại đúng ngay thân phận nữ phụ pháo hôi có kết cục bi thảm. Biết trước mình sẽ bị hãm hại rồi trở thành mồi cho zombie, cô quyết...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/O9BGMhY_LcU/hqdefault.jpg",
+      "publishedAt": "2026-11-24T14:30:34+00:00",
+      "updatedAt": "2026-11-24T14:30:34+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "8 GIỜ 40 | Xuyên Thư Mạt Thế: Nữ Phụ Kích Hoạt Hệ Thống Vị Diện, Đổi Vật Tư Để Sống Sót!",
+          "url": "https://www.youtube.com/watch?v=O9BGMhY_LcU",
+          "id": "O9BGMhY_LcU",
+          "duration": 31259,
+          "durationStr": "8:40:59",
+          "publishedAt": "2026-11-24T14:30:34+00:00",
+          "views": 168,
+          "likes": 8,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5992",
       "title": "5 GIỜ | Toàn Dân Sinh Tồn: Sở Hữu Bạo Kích 100 Lần, Ta Xây Thành Trì Và Thu Phục Thần Thú!",
