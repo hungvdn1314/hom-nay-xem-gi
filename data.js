@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 5725,
+    "totalFilms": 5726,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T03:00:52.423817+00:00"
+    "lastUpdated": "2026-11-24T03:30:47.715800+00:00"
   },
   "channels": [
     {
@@ -97,7 +97,7 @@ window.FILMS_DATA = {
       "id": "tieumuoingontinh",
       "name": "Tiểu Muội Ngôn Tình",
       "url": "https://www.youtube.com/@TieuMuoiNgonTinh",
-      "filmCount": 71
+      "filmCount": 72
     },
     {
       "id": "cibiisub",
@@ -169,10 +169,48 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 18
+      "filmCount": 19
     }
   ],
   "films": [
+    {
+      "id": "film_5726",
+      "title": "Full Tập 01~306 | Đại Tiểu Thư Lạnh Lùng Tỉnh Ngộ, Làm Bà Trùm Hải Tặc Tam Giác Đen",
+      "channelId": "tieumuoingontinh",
+      "channelName": "Tiểu Muội Ngôn Tình",
+      "channelUrl": "https://www.youtube.com/@TieuMuoiNgonTinh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 15177,
+      "totalDurationStr": "4 giờ 12 phút",
+      "totalViews": 23,
+      "totalLikes": 4,
+      "review": "Thấy trước cảnh bị vị hôn phu phản bội đến mất mạng, đại tiểu thư Kinh Viện Hy tỉnh ngộ, lạnh lùng xé bỏ hôn ước. Cô đơn độc thu phục hải tặc Tam Giác Đen, thâu tóm tuyến hải thương đế quốc và trở về vạch trần bê bối gia tộc họ Hàn. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt Nhật, Phim Ngôn Tình Tổng Tài,...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/OJCfKJm9GTU/hqdefault.jpg",
+      "publishedAt": "2026-11-24T03:26:10+00:00",
+      "updatedAt": "2026-11-24T03:26:10+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1",
+          "title": "Full Tập 01~306 | Đại Tiểu Thư Lạnh Lùng Tỉnh Ngộ, Làm Bà Trùm Hải Tặc Tam Giác Đen",
+          "url": "https://www.youtube.com/watch?v=OJCfKJm9GTU",
+          "id": "OJCfKJm9GTU",
+          "duration": 15177,
+          "durationStr": "4:12:57",
+          "publishedAt": "2026-11-24T03:26:10+00:00",
+          "views": 23,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5725",
       "title": "Tưởng Là Con Rể Vô Dụng Ai Ngờ Là Thần Ma Đạo Thể Khuấy Đảo Hồng Hoang. | Đậu Đậu Vietsub",
@@ -41925,10 +41963,10 @@ window.FILMS_DATA = {
       "channelName": "Vân Mộng Studio",
       "channelUrl": "https://www.youtube.com/@vanmonggiao",
       "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 20427,
-      "totalDurationStr": "5 giờ 40 phút",
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 30441,
+      "totalDurationStr": "8 giờ 27 phút",
       "review": "Shipper Thức Tỉnh Hệ Thống Nghề Nghiệp Ngẫu Nhiên Mỗi Tuần!. (1 phần (Phần 1))",
       "genres": [
         "Trò chơi / Phó bản",
@@ -41965,15 +42003,31 @@ window.FILMS_DATA = {
           "likes": 804,
           "channelId": "vanmonggiao",
           "channelName": "Vân Mộng Studio"
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Full Phần 3 | Shipper Thức Tỉnh Hệ Thống Nghề Nghiệp Ngẫu Nhiên Mỗi Tuần!",
+          "url": "https://www.youtube.com/watch?v=O6Y8NMwduxo",
+          "id": "O6Y8NMwduxo",
+          "duration": 10014,
+          "durationStr": "2:46:54",
+          "publishedAt": "2026-11-24T03:15:39+00:00",
+          "views": 5,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "vananhstudio",
+          "channelName": "Vạn Ảnh Studio"
         }
       ],
-      "updatedAt": "2026-11-11T09:17:58+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-24T03:15:39+00:00",
+      "isRecent24h": true,
       "publishedAt": "2026-11-11T09:17:58+00:00",
-      "totalViews": 244622,
-      "totalLikes": 4744,
+      "totalViews": 244627,
+      "totalLikes": 4745,
       "channelIds": [
-        "vanmonggiao"
+        "vanmonggiao",
+        "vananhstudio"
       ]
     },
     {
