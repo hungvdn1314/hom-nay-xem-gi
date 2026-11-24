@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 5728,
+    "totalFilms": 5730,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T04:15:43.285475+00:00"
+    "lastUpdated": "2026-11-24T05:00:41.567966+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 487
+      "filmCount": 488
     },
     {
       "id": "naophangtutien",
@@ -145,7 +145,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 312
+      "filmCount": 313
     },
     {
       "id": "godsub",
@@ -173,6 +173,81 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_5730",
+      "title": "Bị Rút Cạn Nguyên Hạch Tôi Được Nữ Gia Chủ Chiêu Mộc Làm Chồng | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 15492,
+      "totalDurationStr": "4 giờ 18 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Bị Rút Cạn Nguyên Hạch Tôi Được Nữ Gia Chủ Chiêu Mộc Làm Chồng | Đậu Đậu Vietsub Tóm Tắt : Tề Hạ bị Tề Gia bóc quẹt Nguyên Hạch cho con nuôi, quyết định cắt đứt quan hệ. Được Bạch Uyển bảo vệ và giúp khôi phục sức mạnh, anh vạch mặt sự hối hận muộn màng của gia tộc 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/gZ3iU1RqBqk/hqdefault.jpg",
+      "publishedAt": "2026-11-24T05:00:21+00:00",
+      "updatedAt": "2026-11-24T05:00:21+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Bị Rút Cạn Nguyên Hạch Tôi Được Nữ Gia Chủ Chiêu Mộc Làm Chồng | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=gZ3iU1RqBqk",
+          "id": "gZ3iU1RqBqk",
+          "duration": 15492,
+          "durationStr": "4:18:12",
+          "publishedAt": "2026-11-24T05:00:21+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5729",
+      "title": "9 GIỜ | Quốc Vận Sinh Tồn: Ta Có Hệ Thống Tình Báo, Tìm Bảo Vật Nhân Vạn Lần Cứu Long Quốc!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 31875,
+      "totalDurationStr": "8 giờ 51 phút",
+      "totalViews": 0,
+      "totalLikes": 1,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **QUỐC VẬN SINH TỒN – HỆ THỐNG TÌNH BÁO MỖI NGÀY, TÌM BẢO VẬT CỨU CẢ QUỐC GIA! | SS1–SS2 | 8H51** 🌊 Năm 2080, tài nguyên Trái Đất cạn kiệt, nhân loại bước vào cuộc sinh tồn tại **Vô Tận Tinh Hải**. **Lâm Châu** khởi đầu chỉ với một tấm ván gỗ, xếp hạng 9.527, khiến Long Quốc phải...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/TQRMntfD5Kg/hqdefault.jpg",
+      "publishedAt": "2026-11-24T05:00:04+00:00",
+      "updatedAt": "2026-11-24T05:00:04+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "9 GIỜ | Quốc Vận Sinh Tồn: Ta Có Hệ Thống Tình Báo, Tìm Bảo Vật Nhân Vạn Lần Cứu Long Quốc!",
+          "url": "https://www.youtube.com/watch?v=TQRMntfD5Kg",
+          "id": "TQRMntfD5Kg",
+          "duration": 31875,
+          "durationStr": "8:51:15",
+          "publishedAt": "2026-11-24T05:00:04+00:00",
+          "views": 0,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5728",
       "title": "Bị Đuổi Khỏi Đảo Hoang Vì Một Hiểu Lầm Tôi Kích Hoạt Hệ Thống Sống Sót Đỉnh Cao | Đậu Đậu Vietsub",
