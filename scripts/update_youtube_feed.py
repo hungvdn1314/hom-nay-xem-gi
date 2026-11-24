@@ -83,7 +83,8 @@ CHANNELS = [
     {"id": "godsub", "name": "GodSub", "url": "https://www.youtube.com/@Godsub01", "channel_id": "UCnMTOk0TmPP49n7HMoRe9-w"},
     {"id": "phimzooai", "name": "Phim Zoo AI", "url": "https://www.youtube.com/@PhimZooAI", "channel_id": "UCaJF3EewrPYPb1rHpSUKtDA"},
     {"id": "nhatanhstudio", "name": "Nhật Ảnh Studio", "url": "https://www.youtube.com/@StudioCitraMentari", "channel_id": "UC9ymEAdoYS17Vtkk8B60mCw"},
-    {"id": "vananhstudio", "name": "Vạn Ảnh Studio", "url": "https://www.youtube.com/@vananhanhstudio", "channel_id": "UCYjCN2YydxT6UaRlE7t83jQ"}
+    {"id": "vananhstudio", "name": "Vạn Ảnh Studio", "url": "https://www.youtube.com/@vananhanhstudio", "channel_id": "UCYjCN2YydxT6UaRlE7t83jQ"},
+    {"id": "akatsukireview", "name": "Akatsuki Review", "url": "https://www.youtube.com/@Akatsuki-KT", "channel_id": "UCRkGgoKdH3K05UdgRamBb3Q"}
 ]
 
 DISCOVERY_QUERIES = [
@@ -350,7 +351,7 @@ CHANNEL_SUFFIX_RE = re.compile(
     r'MQV\s*Vietsub|Nguyễn\s*Tường\s*Vietsub|2K\s*Sub|Tỷ\s*Đệ\s*Muội|Tiểu\s*Sư\s*Muội|'
     r'Thiên\s*Phạt\s*Review|Tiểu\s*Hồ\s*Review(?:\s*\(Dorovietsub\))?|Mễ\s*Lạc\s*Review|ChiuChiuSubTV|'
     r'Thiên\s*Ảnh\s*Studio|Mộng\s*Ảnh\s*Studio|Vân\s*Mộng\s*Studio|Nhật\s*Ảnh\s*Studio|Vạn\s*Ảnh\s*Studio|'
-    r'Gia\s*Nhi\s*Review|Phim\s*Zoo\s*AI|Zoo\s*AI\s*phim|Phim\s*Zombie|'
+    r'Gia\s*Nhi\s*Review|Phim\s*Zoo\s*AI|Zoo\s*AI\s*phim|Phim\s*Zombie|Akatsuki\s*Review|'
     r'Hoạt\s*Hình\s*(?:Kinh\s*Dị|Tận\s*Thế|3D[^|]*)|Phim\s*Hoạt\s*Hình[^|]*'
     r')|#\w+)\s*["\'.]*\s*$',
     re.IGNORECASE
@@ -365,9 +366,9 @@ LEAD_TOKEN_RE = re.compile(
     r'Ful+l(?:\s*(?:Bộ|Kết|END|Version))?(?=\s*(?:[\|\-:–,\(\[]|$|\d|Phần|Tập|Mùa|P\d|S\d|SS\d))|'
     r'Trọn\s*Bộ|'
     r'\d+(?:[.,]\d+)?\s*(?:H|Giờ|Tiếng)(?:\s*\d+\s*(?:Phút|P)?)?(?:\s*Thỏa\s*Mãn)?|'
-    r'(?:Phần|Tập|Mùa|Bộ|P|S|SS|Version|EP)\s*\d+(?:\s*[-–+~.&]\s*(?:Phần|Tập|Mùa|P|S|SS|EP|Version|Part)?\s*\d+)*(?:\s*Part\s*\d*)?|'
+    r'(?:Ful+l\s*)?(?:Phần|Tập|Mùa|Bộ|P|S|SS|Version|EP)\s*\d+(?:\s*[-–+~.&]\s*(?:Phần|Tập|Mùa|P|S|SS|EP|Version|Part)?\s*\d+)*(?:\s*END)?(?:\s*Part\s*\d*)?|'
     r'Part\s*\d+|'
-    r'\d{1,3}\s*[~–-]\s*\d{2,4}|'
+    r'\d{1,3}\s*[~–-]\s*\d{2,4}(?:\s*END)?|'
     r'\(\s*(?:END|Full\s*END|Full\s*Kết|Full|Tập\s*Cuối|Phim\s*AI|Siêu\s*Phẩm\s*Kinh\s*Dị[^)]*|(?:EP|Tập|Phần|Mùa|Part|P)?\s*\d+(?:\s*[-–+~.&]\s*(?:P|Part|EP|Tập)?\s*\d+)*)\s*\)'
     r')\s*[\|\-:–,]?\s*)+',
     re.IGNORECASE
@@ -481,9 +482,9 @@ def parse_part_info(text, default_prefix="Phần"):
             "label": f"{prefix} {a}.{b}",
         }
 
-    # Handle single or chained merged episodes: 'Phần 1+2', 'Phần 1+2+3', 'Phần 1-3', 'TẬP 793+794', '[Full 4]', '[Full-S3]'
+    # Handle single or chained merged episodes: 'Phần 1+2', 'Phần 1+2+3', 'Phần 1-3', 'TẬP 793+794', '[Full 4]', '[Full-S3]', 'FULLSS1', 'FullTập1-185END'
     m_ep = re.search(
-        r'\b(Phần|Tập|Mùa|P|SS|Full\s*-\s*S|Full(?=\s+\d+\b)|Version)\s*(\d+)((?:\s*[+\-–&]\s*(?:(?:Phần|Tập|Mùa|P|SS)\s*)?\d+)*)',
+        r'(?:\b|(?<=Full))(Phần|Tập|Mùa|P|SS|Full\s*-?\s*SS?|Full(?=\s+\d+\b)|Version)\s*(\d+)((?:\s*[+\-–&]\s*(?:(?:Phần|Tập|Mùa|P|SS)\s*)?\d+)*)',
         s,
         flags=re.IGNORECASE
     )
@@ -491,7 +492,7 @@ def parse_part_info(text, default_prefix="Phần"):
         return None
 
     raw_kw = re.sub(r'\s+', '', m_ep.group(1).lower())
-    prefix = "Tập" if raw_kw == "tập" else ("Mùa" if raw_kw in ("mùa", "ss", "full-s") else ("Phần" if raw_kw in ("phần", "p", "full", "version") else default_prefix))
+    prefix = "Tập" if raw_kw == "tập" else ("Mùa" if raw_kw in ("mùa", "ss", "full-s", "fulls", "fullss", "full-ss") else ("Phần" if raw_kw in ("phần", "p", "full", "version") else default_prefix))
     first_num = int(m_ep.group(2))
     tail = m_ep.group(3) or ""
 

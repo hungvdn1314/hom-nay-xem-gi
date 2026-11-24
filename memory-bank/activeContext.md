@@ -161,3 +161,9 @@
   - Added `series_grouping_key` (Python) and `seriesGroupingKeyClient` (JS) to unify all episodes of the same series both within a channel and across related channels (`channelIds` multi-channel support in `app.js` and `sync_channel_meta`).
   - Added `\baudio\b` to `NON_3D_TITLE_REGEX` / `NON_3D_TITLE_RE` / `NON_3D_CLIENT_RE` to block audio novel videos (`FUll bộ Audio`).
   - Verified live via Puppeteer (`Tất cả 27 kênh 5708`, verified 4-part playback on *Thân Ở Thế Giới Quỷ Dị*, *Người Khác Ngự Thú Tôi Ngự Thiên Sứ*, and *Toàn Dân Cai Ngục Sinh Tồn*).
+
+## Akatsuki Review Channel Integration (2026-11-24)
+- Added 28th partner channel: `akatsukireview` (**Akatsuki Review**, `@Akatsuki-KT`, `UCRkGgoKdH3K05UdgRamBb3Q`).
+- Updated `CHANNEL_SUFFIX_RE`, `LEAD_TOKEN_RE`, `parse_part_info` (Python) and `cleanCoreTitleClient`, `parsePartInfoClient` (JS) to handle concatenated prefixes (`FULLSS1`, `Full SS1-4END`, `FullTập1-185END`) and `| Akatsuki Review` suffixes.
+- Crawled 100% of channel history (383 videos -> 187 valid 3D films >=20m -> unified into **120 films** on `Akatsuki Review`).
+- Catalog now stands at **5,859 unique 3D films across 28 channels** (`film_1`..`film_5859`, 0 duplicate IDs), verified live via Puppeteer (`Tất cả 28 kênh`, `Akatsuki Review 120`).

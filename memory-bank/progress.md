@@ -33,6 +33,7 @@
 - [x] Audited 94 candidate YouTube channels using mid-video internal frame inspection (`2.jpg`), blacklisted 2D false-positives (`muoimuoilamphim`, `thietreview`), and integrated 12 new high-quality 3D channels (`Sora Dub`, `Tiểu Muội Ngôn Tình`, `CibiiSub`, `Nguyễn Tường Vietsub`, `Huyền Sư Tiểu Muội`, `2K Sub`, `Não Phẳng Tu Tiên`, `Hoa Trên Mây`, `HHANIME CHANNEL`, `Đậu Đậu Vietsub`, `GodSub`, `Phim Zoo AI`).
 - [x] Expanded catalog to **5,708 pure 3D films across 27 channels** (0 duplicate IDs), including `Nhật Ảnh Studio` (`@StudioCitraMentari`) & `Vạn Ảnh Studio` (`@vananhanhstudio`).
 - [x] Upgraded `fetch_channel_browse_data` to unlimited `continuationCommand` pagination (crawling 100% of every channel's history, +3,551 historical 3D videos) and unified **681 split episode cards** into **607 multi-part series** (including cross-channel series with `channelIds` support).
+- [x] Added 28th channel `Akatsuki Review` (`@Akatsuki-KT`, 187 valid 3D videos unified into 120 films), bringing catalog to **5,859 unique 3D films across 28 channels**, verified via Puppeteer.
 - [x] Diagnosed auto-update delay: GitHub Actions public schedule queue delay (6-13h) vs client-side `/api/live-feed` live fetching.
 - [x] Added strict `no-cache` headers for `data.js` and `youtube_films_catalog.json` in `vercel.json`.
 - [x] Implemented `/api/cron-update.js` endpoint to trigger GitHub Actions `workflow_dispatch` on-demand via external cron / webhooks.

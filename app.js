@@ -247,10 +247,10 @@
     return (title || '')
       .replace(/【([^】]*)】/g, unwrapBracket)
       .replace(/\[([^\]]*)\]/g, unwrapBracket)
-      .replace(/^(?:\s*(?:\((?:Phần|Tập|Mùa)\s*\d+[^)]*\)|(?:Ful+l(?:\s*Bộ|\s*Kết|\s*END|\s*Version)?\s*)?(?:Trọn\s*Bộ\s*)?(?:Phần|Tập|Mùa|P|S)\s*\d+(?:\s*[-–+~]\s*(?:P?\s*)?\d+)?(?:\s*\([^)]*\))?\s*[\|\-:–,]?)\s*)+/i, '')
+      .replace(/^(?:\s*(?:\((?:Phần|Tập|Mùa)\s*\d+[^)]*\)|(?:Ful+l(?:\s*Bộ|\s*Kết|\s*END|\s*Version)?\s*)?(?:Trọn\s*Bộ\s*)?(?:Phần|Tập|Mùa|P|S|SS)\s*\d+(?:\s*[-–+~]\s*(?:P|SS)?\s*\d+)?(?:\s*END)?(?:\s*\([^)]*\))?\s*[\|\-:–,]?)\s*)+/i, '')
       .replace(/^(?:Ful+l(?:\s*Bộ|\s*Kết|\s*END|\s*Version)?)\s*[\|\-:–]\s*/i, '')
       .replace(/\s*\((?:Phần|Tập|Mùa)\s*\d+[^)]*\)\s*$/i, '')
-      .replace(/\s*[\|\-]\s*(?:Kas\s*Vietsub|MyCherrySub|Sora\s*Dub|CibiiSub|Đậu\s*Đậu\s*Vietsub|GodSub|Win\s*Vietsub|Thế\s*Vietsub|Vietsub\s*Phim)\s*$/i, '')
+      .replace(/\s*[\|\-]\s*(?:Kas\s*Vietsub|MyCherrySub|Sora\s*Dub|CibiiSub|Đậu\s*Đậu\s*Vietsub|GodSub|Win\s*Vietsub|Thế\s*Vietsub|Vietsub\s*Phim|Akatsuki\s*Review)\s*$/i, '')
       .replace(/^[\|\-:\s]+|[\|\-:\s]+$/g, '')
       .replace(/\s+/g, ' ')
       .trim();
@@ -306,11 +306,11 @@
       };
     }
 
-    const mEp = s.match(/\b(Phần|Tập|Mùa|P|SS|Full\s*-\s*S|Full(?=\s+\d+\b)|Version)\s*(\d+)((?:\s*[+\-–&]\s*(?:(?:Phần|Tập|Mùa|P|SS)\s*)?\d+)*)/i);
+    const mEp = s.match(/(?:\b|(?<=Full))(Phần|Tập|Mùa|P|SS|Full\s*-?\s*SS?|Full(?=\s+\d+\b)|Version)\s*(\d+)((?:\s*[+\-–&]\s*(?:(?:Phần|Tập|Mùa|P|SS)\s*)?\d+)*)/i);
     if (!mEp) return null;
 
     const kw = mEp[1].toLowerCase().replace(/\s+/g, '');
-    const prefix = kw === 'tập' ? 'Tập' : ((kw === 'mùa' || kw === 'ss' || kw === 'full-s') ? 'Mùa' : 'Phần');
+    const prefix = kw === 'tập' ? 'Tập' : ((kw === 'mùa' || kw === 'ss' || kw === 'full-s' || kw === 'fulls' || kw === 'fullss' || kw === 'full-ss') ? 'Mùa' : 'Phần');
     const firstNum = parseInt(mEp[2], 10);
     const tail = mEp[3] || '';
     const tokens = Array.from(tail.matchAll(/([+\-–&])\s*(?:(?:Phần|Tập|Mùa|P)\s*)?(\d+)/gi));
