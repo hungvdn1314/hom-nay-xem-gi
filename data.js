@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 28,
-    "lastUpdated": "2026-11-24T13:15:37.610932+00:00"
+    "lastUpdated": "2026-11-24T14:00:45.464589+00:00"
   },
   "channels": [
     {
@@ -169,7 +169,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 21
+      "filmCount": 22
     },
     {
       "id": "akatsukireview",
@@ -6008,10 +6008,10 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLBtchk8QK0SE",
-      "totalParts": 13,
-      "partsStr": "13 phần",
-      "totalDurationSec": 207581,
-      "totalDurationStr": "57 giờ 39 phút",
+      "totalParts": 14,
+      "partsStr": "14 phần",
+      "totalDurationSec": 220781,
+      "totalDurationStr": "61 giờ 19 phút",
       "review": "Phàm Nhân Vấn Đạo",
       "genres": [
         "Tu tiên / Huyền huyễn"
@@ -6212,13 +6212,28 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "melacreview",
           "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 14,
+          "label": "Mùa 5 - P6",
+          "title": "Mùa 5 - P6 (EP767-1000) | Thiên Đạo Dư Đồ: Phàm Nhân Vấn Đạo",
+          "url": "https://www.youtube.com/watch?v=YzLMZT8eJNQ",
+          "id": "YzLMZT8eJNQ",
+          "duration": 13200,
+          "durationStr": "3:40:00",
+          "publishedAt": "2026-11-24T13:46:05+00:00",
+          "views": 291,
+          "likes": 22,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
         }
       ],
-      "totalViews": 292084,
-      "totalLikes": 2213,
+      "totalViews": 292375,
+      "totalLikes": 2235,
       "publishedAt": "2026-11-03T00:00:00+00:00",
-      "updatedAt": "2026-11-22T10:55:42+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-24T13:46:05+00:00",
+      "isRecent24h": true,
       "channelIds": [
         "melacreview"
       ]
@@ -43000,10 +43015,10 @@ window.FILMS_DATA = {
       "channelName": "Thiên Ảnh Studio",
       "channelUrl": "https://www.youtube.com/@thienanhstudio9",
       "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 32671,
-      "totalDurationStr": "9 giờ 04 phút",
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 42442,
+      "totalDurationStr": "11 giờ 47 phút",
       "review": "Siêu Thần Rút Thưởng Sư! Nhờ Rút Thưởng Ta Liền Vô Địch Thiên Hạ",
       "genres": [
         "Tu tiên / Huyền huyễn"
@@ -43039,15 +43054,31 @@ window.FILMS_DATA = {
           "likes": 93,
           "channelId": "thienanhstudio9",
           "channelName": "Thiên Ảnh Studio"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 4",
+          "title": "【Mùa 4】Siêu Thần Rút Thưởng Sư! Nhờ Rút Thưởng Ta Liền Vô Địch Thiên Hạ",
+          "url": "https://www.youtube.com/watch?v=-AnkiP-IQ0I",
+          "id": "-AnkiP-IQ0I",
+          "duration": 9771,
+          "durationStr": "2:42:51",
+          "publishedAt": "2026-11-24T13:57:32+00:00",
+          "views": 2,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "vananhstudio",
+          "channelName": "Vạn Ảnh Studio"
         }
       ],
-      "totalViews": 41380,
-      "totalLikes": 775,
+      "totalViews": 41382,
+      "totalLikes": 776,
       "publishedAt": "2026-11-03T00:00:00+00:00",
-      "updatedAt": "2026-11-11T12:22:37+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-24T13:57:32+00:00",
+      "isRecent24h": true,
       "channelIds": [
-        "thienanhstudio9"
+        "thienanhstudio9",
+        "vananhstudio"
       ]
     },
     {
