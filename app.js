@@ -52,6 +52,7 @@
     cacheDomElements();
     loadStoredData();
     normalizeAndIngestData();
+    setupProgressiveEnhancements();
     setupNotificationsEngine();
     setupEventListeners();
     renderSidebar();
@@ -62,7 +63,35 @@
     syncLiveYouTubeFeed();
   });
 
+  function setupProgressiveEnhancements() {
+    window.addEventListener('scroll', () => {
+      el.siteHeader?.classList.toggle('is-scrolled', window.scrollY > 36);
+    }, { passive: true });
+
+    if (!Object.hasOwn(HTMLElement.prototype, 'popover')) {
+      const s = document.createElement('script');
+      s.src = 'https://unpkg.com/@oddbird/popover-polyfill@latest/dist/popover.min.js';
+      s.async = true;
+      document.head.appendChild(s);
+    }
+  }
+
+  function hidePopoverSafe(node) {
+    if (node && typeof node.hidePopover === 'function') {
+      try { node.hidePopover(); } catch (err) {}
+    }
+  }
+
   function cacheDomElements() {
+    el.siteHeader = document.getElementById('siteHeader');
+    el.catalogSection = document.getElementById('catalogSection');
+    el.channelDrawer = document.getElementById('channelDrawer');
+    el.channelSearchInput = document.getElementById('channelSearchInput');
+    el.channelLabel = document.getElementById('channelLabel');
+    el.sidebarStudioLabel = document.getElementById('sidebarStudioLabel');
+    el.sidebarDurationChips = document.getElementById('sidebarDurationChips');
+    el.mobileFilterDrawer = document.getElementById('mobileFilterDrawer');
+    el.mobileFilterBody = document.getElementById('mobileFilterBody');
     el.continueShelf = document.getElementById('continueShelf');
     el.continueRow = document.getElementById('continueRow');
     el.btnClearContinue = document.getElementById('btnClearContinue');
@@ -171,7 +200,7 @@
     el.mobileBottomBar = document.getElementById('mobileBottomBar');
   }
 
-  const SCHEMA_VERSION = '20261124_v7_spotlight_v2';
+  const SCHEMA_VERSION = '20261125_v8_ambient_hybrid';
 
   const NON_3D_CLIENT_RE = /\b(?:episode|tập)\s*\d{3,}\b|ngự thú sư mạnh nhất|the strongest beast tamer|\b2d\b|\baudio\b|truyện tranh|review truyện|review manhua|review manga|review manhwa|manhua\s*audio|comic\s*audio|audio truyện|đọc truyện|kể truyện|bộ truyện|\[phim ngắn\]|\bchap\s*\d+|\bchương\s*\d+|nhạc\s*phim\s*(?:cổ\s*phong|không\s*lời)|nhạc\s*không\s*lời|\bost\b|\bbgm\b/i;
   const BANNED_CHANNELS_CLIENT = new Set(['besuastudio', 'gavangtutien', 'thaolac', 'tydemuoi', 'thongocstudio', 'muoimuoilamphim', 'thietreview']);
@@ -231,7 +260,10 @@
   }
 
   function updateBadgeCounts() {
-    if (el.favCountBadge) el.favCountBadge.textContent = state.favorites.size;
+    if (el.favCountBadge) {
+      el.favCountBadge.textContent = state.favorites.size;
+      el.favCountBadge.classList.toggle('empty', state.favorites.size === 0);
+    }
   }
 
   // -------------------------------------------------------------------------
@@ -1007,6 +1039,28 @@
   // -------------------------------------------------------------------------
   // SIDEBAR & CHIPS RENDERING
   // -------------------------------------------------------------------------
+  function renderChannelDrawerList() {
+    if (!el.channelNavList) return;
+    const q = (el.channelSearchInput?.value || '').trim().toLowerCase();
+    const list = state.channels.filter(ch => !q || ch.name.toLowerCase().includes(q));
+    let cHtml = `
+      <button type="button" class="sidebar-menu-btn ${state.selectedChannel === 'all' ? 'active' : ''}" data-channel="all">
+        <span>Tất cả ${state.channels.length || ''} kênh</span>
+        <span class="sidebar-count-tag">${state.allFilms.length}</span>
+      </button>
+    `;
+    list.forEach(ch => {
+      const count = state.allFilms.filter(f => filmMatchesChannel(f, ch.id)).length;
+      cHtml += `
+        <button type="button" class="sidebar-menu-btn ${state.selectedChannel === ch.id ? 'active' : ''}" data-channel="${ch.id}">
+          <span class="truncate">${escapeHtml(ch.name)}</span>
+          <span class="sidebar-count-tag">${count}</span>
+        </button>
+      `;
+    });
+    el.channelNavList.innerHTML = cHtml;
+  }
+
   function renderSidebar() {
     // Genres
     if (el.genreNavList) {
@@ -1028,24 +1082,12 @@
       el.genreNavList.innerHTML = gHtml;
     }
 
-    // Channels
-    if (el.channelNavList) {
-      let cHtml = `
-        <button type="button" class="sidebar-menu-btn ${state.selectedChannel === 'all' ? 'active' : ''}" data-channel="all">
-          <span>Tất cả ${state.channels.length || ''} kênh</span>
-          <span class="sidebar-count-tag">${state.allFilms.length}</span>
-        </button>
-      `;
-      state.channels.forEach(ch => {
-        const count = state.allFilms.filter(f => filmMatchesChannel(f, ch.id)).length;
-        cHtml += `
-          <button type="button" class="sidebar-menu-btn ${state.selectedChannel === ch.id ? 'active' : ''}" data-channel="${ch.id}">
-            <span class="truncate">${escapeHtml(ch.name)}</span>
-            <span class="sidebar-count-tag">${count}</span>
-          </button>
-        `;
-      });
-      el.channelNavList.innerHTML = cHtml;
+    renderChannelDrawerList();
+
+    // Mirror sidebar attribute groups inside Mobile Filter Drawer
+    const desktopSidebar = document.getElementById('appSidebar');
+    if (el.mobileFilterBody && desktopSidebar) {
+      el.mobileFilterBody.innerHTML = desktopSidebar.innerHTML;
     }
 
     populateLeaderboardSelects();
@@ -1137,6 +1179,15 @@
         </button>
       `);
     }
+    if (state.durationFilter !== 'all') {
+      const durLabels = { short: '< 1.5h', medium: '1.5h - 3h', long: '3h - 6h', marathon: '> 6h' };
+      pills.push(`
+        <button type="button" class="scope-active-chip" data-clear-scope="duration" title="Bấm để bỏ lọc thời lượng">
+          <span>Thời lượng: ${durLabels[state.durationFilter] || state.durationFilter}</span>
+          <span class="scope-clear-x" aria-hidden="true">×</span>
+        </button>
+      `);
+    }
     el.activeScopeBadges.innerHTML = pills.join('');
     el.activeScopeBadges.classList.toggle('hidden', pills.length === 0);
   }
@@ -1170,6 +1221,8 @@
       if (state.activeTab === 'recent24h') {
         const recentIds = new Set(state.recent24hFilms.map(f => f.id));
         if (!recentIds.has(film.id)) continue;
+      } else if (state.activeTab === 'hot' && (film.totalDurationSec || 0) < 21600) {
+        continue;
       } else if (state.activeTab === 'multipart' && film.partsCount <= 1) {
         continue;
       } else if (state.activeTab === 'single' && film.partsCount !== 1) {
@@ -1185,7 +1238,7 @@
         if (bucket !== state.durationFilter) continue;
       }
 
-      // 4. Time window filter &amp; period views/likes calculation
+      // 4. Time window filter & period views/likes calculation
       const pm = getFilmPeriodMetrics(film, activeTimeWindow);
       if (!pm.matches) continue;
 
@@ -1211,7 +1264,6 @@
     } else if (state.activeTab === 'recent24h') {
       scored.sort((a, b) => (b.film.recentUpdate?.timestamp || 0) - (a.film.recentUpdate?.timestamp || 0));
     } else {
-      // 'recent': preserve latest updates first, then original catalog order
       if (state.timeRange !== 'all') {
         scored.sort((a, b) => (b.updatedTs - a.updatedTs) || (b.periodViews - a.periodViews));
       }
@@ -1229,7 +1281,6 @@
       rank: startIndex + idx + 1
     }));
 
-    // Leaderboard Showcase Subheading & Top 1-3 Spotlight / Podium
     if (isLeaderboard && el.lbSubheading) {
       const metricLabel = state.leaderboardMetric === 'likes' ? 'Yêu thích nhất' : 'Xem nhiều nhất';
       const timeLabel = TIME_RANGE_LABELS[state.leaderboardTime] || 'Tuần này';
@@ -1241,32 +1292,20 @@
     renderActiveScopeBadges();
     if (state.urlReady) syncScopeToUrl();
     if (el.feedCountSummary) {
-      if (totalCount === 0) {
-        el.feedCountSummary.textContent = 'Không tìm thấy bộ phim phù hợp';
-      } else if (isLeaderboard) {
-        el.feedCountSummary.textContent = `BXH Top ${totalCount.toLocaleString('vi-VN')} phim (${TIME_RANGE_LABELS[state.leaderboardTime] || 'Tuần này'})`;
-      } else if (state.activeTab === 'recent24h') {
-        el.feedCountSummary.textContent = `Dòng thời gian: ${totalCount} phim mới cập nhật trong 24 giờ qua`;
-      } else {
-        el.feedCountSummary.textContent = `Hiển thị ${startIndex + 1} - ${endIndex} trên ${totalCount.toLocaleString('vi-VN')} phim`;
-      }
+      el.feedCountSummary.textContent = totalCount === 0
+        ? '0 BỘ PHIM'
+        : `${totalCount.toLocaleString('en-US')} BỘ PHIM`;
     }
 
-    // Leaderboard uses high-density Chart List mode
     const isChartListMode = isLeaderboard && totalCount > 0;
     if (el.cardsWidescreenGrid) {
       el.cardsWidescreenGrid.classList.toggle('chart-list-mode', isChartListMode);
     }
 
-    // Spotlight Hero Banner: visible on default view (page 1, tab 'all', without search or narrow filters)
-    const shouldShowHero = !isLeaderboard && state.activeTab === 'all' && state.currentPage === 1 && !state.searchQuery.trim() && state.selectedGenre === 'all' && state.selectedChannel === 'all' && state.durationFilter === 'all';
+    // AMBIENT HERO ALWAYS MOUNTED -> ZERO JUMP WHEN FILTERING OR SWITCHING TABS
     if (el.spotlightHeroShell) {
-      el.spotlightHeroShell.classList.toggle('hidden', !shouldShowHero);
-      if (shouldShowHero) {
-        renderSpotlightHero();
-      } else {
-        pauseSpotlightTimer();
-      }
+      el.spotlightHeroShell.classList.remove('hidden');
+      renderSpotlightHero();
     }
 
     if (isLeaderboard) {
@@ -1309,13 +1348,11 @@
     const { film, periodViews, periodLikes, rank } = entry;
     const { showRank = false, extraClass = '' } = options;
     const isFav = state.favorites.has(film.id);
-    const partsLabel = film.partsCount > 1 ? `${film.partsCount} Phần` : 'Trọn bộ 1 tập';
+    const partsLabel = film.partsCount > 1 ? `${film.partsCount} phần` : 'Full';
     const hasRecentBadge = film.isRecent24h && film.recentUpdate;
-
     const viewsVal = periodViews !== undefined ? periodViews : (film.totalViews || 0);
-    const likesVal = periodLikes !== undefined ? periodLikes : (film.totalLikes || 0);
     const rankClass = rank === 1 ? 'rank-gold' : (rank === 2 ? 'rank-silver' : (rank === 3 ? 'rank-bronze' : ''));
-    const statsMarkup = renderCardStatsHtml(viewsVal, likesVal);
+    const coreTitle = cleanCoreTitleClient(film.title) || film.title;
 
     // Watch Progress indicator on card
     const progressEntry = state.progress[film.id];
@@ -1343,9 +1380,9 @@
     return `
       <article class="film-card ${extraClass} ${rankClass} ${hasProgressClass}" data-film-id="${film.id}" title="${escapeHtml(film.title)}">
         <div class="card-thumbnail-box">
-          <img 
-            class="card-img" 
-            src="${escapeHtml(film.thumbnailUrl)}" 
+          <img
+            class="card-img"
+            src="${escapeHtml(film.thumbnailUrl)}"
             alt="${escapeHtml(film.title)}"
             loading="lazy"
             onerror="this.src='https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&auto=format&fit=crop&q=80'"
@@ -1353,56 +1390,29 @@
           <div class="card-vignette"></div>
 
           ${showRank && rank ? `
-            <div class="card-rank-badge ${rankClass}" aria-label="Hạng ${rank}">
-              <span>#${rank}</span>
-            </div>
-          ` : `
-            <div class="card-parts-stamp">
-              <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
-              <span>${partsLabel}</span>
-            </div>
-          `}
-
-          ${hasRecentBadge && !showRank ? `
-            <div class="card-update-pill" title="Cập nhật ${escapeHtml(film.recentUpdate.timeAgo)}">
-              <span>${escapeHtml(film.recentUpdate.timeAgo)}</span>
-            </div>
-          ` : ''}
+            <div class="card-rank-badge ${rankClass}" aria-label="Hạng ${rank}">#${rank}</div>
+          ` : (hasRecentBadge ? `
+            <div class="card-update-pill" title="Cập nhật ${escapeHtml(film.recentUpdate.timeAgo)}">MỚI · ${escapeHtml(film.recentUpdate.timeAgo)}</div>
+          ` : '')}
 
           ${film.totalDuration ? `
-            <div class="card-duration-badge">
-              <svg class="icon icon-xs clock-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-              <span>${escapeHtml(film.totalDuration)}</span>
-            </div>
+            <div class="card-duration-badge">${escapeHtml(film.totalDuration)}</div>
           ` : ''}
 
-          <button type="button" class="card-fav-btn ${isFav ? 'active' : ''}" data-fav-id="${film.id}" title="${isFav ? 'Đang theo dõi (Bấm để hủy)' : 'Theo dõi phim này để nhận thông báo tập mới'}">
+          <button type="button" class="card-fav-btn ${isFav ? 'active' : ''}" data-fav-id="${film.id}" aria-label="Lưu phim" title="${isFav ? 'Đang theo dõi (Bấm để hủy)' : 'Lưu phim để nhận thông báo tập mới'}">
             <svg class="icon icon-xs" viewBox="0 0 24 24" fill="${isFav ? 'currentColor' : 'none'}"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
           </button>
 
-          <div class="card-hover-play">
-            <div class="play-circle-halo">
-              <svg class="icon icon-sm" viewBox="0 0 24 24" style="margin-left: 2px;"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
-            </div>
+          <div class="card-hover-actions">
+            <span class="hover-play-pill">${film.partsCount > 1 ? 'Xem Tập 1' : 'Xem Ngay'}</span>
+            <button type="button" class="card-info-btn" data-info-id="${film.id}" aria-label="Xem tóm tắt cốt truyện">Chi Tiết</button>
           </div>
 
           ${progressBarMarkup}
         </div>
 
-          <div class="card-body">
-          <h3 class="card-title">${escapeHtml(film.title)}</h3>
-          <div class="card-meta-row">
-            <span class="card-channel-name">${escapeHtml(film.channelName)}</span>
-            <button type="button" class="card-info-btn" data-info-id="${film.id}" aria-label="Xem tóm tắt cốt truyện" title="Xem tóm tắt cốt truyện">
-              <svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-              <span>Tóm tắt</span>
-            </button>
-          </div>
-          <div class="card-genre-tags">
-            ${(Array.isArray(film.genres) && film.genres.length ? film.genres : [film.genre]).slice(0, 2).map(g => `<span class="card-genre-chip">${escapeHtml(g)}</span>`).join('')}
-          </div>
-          ${statsMarkup}
-        </div>
+        <h3 class="card-title">${escapeHtml(coreTitle)}</h3>
+        <div class="card-meta-row">${escapeHtml(film.channelName)} · ${formatCompactCountVi(viewsVal)} xem · ${partsLabel}</div>
       </article>
     `;
   }
@@ -2068,49 +2078,38 @@
     const timeAgo = film.recentUpdate?.timeAgo || '';
 
     const telemetryParts = [
-      `<span class="telemetry-item telemetry-parts">${escapeHtml(ed.partsLabel)}</span>`,
-      film.totalDuration ? `<span class="telemetry-item telemetry-dur"><svg class="icon icon-xs clock-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>${escapeHtml(film.totalDuration)}</span>` : '',
-      film.totalViews > 0 ? `<span class="telemetry-item"><svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>${formatCompactCountVi(film.totalViews)} xem</span>` : '',
-      film.totalLikes > 0 ? `<span class="telemetry-item telemetry-likes"><svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path></svg>${formatCompactCountVi(film.totalLikes)} thích</span>` : '',
-      timeAgo ? `<span class="telemetry-item telemetry-muted">Cập nhật ${escapeHtml(timeAgo)}</span>` : ''
+      ed.partsLabel,
+      film.totalDuration || '',
+      film.totalViews > 0 ? `${formatCompactCountVi(film.totalViews)} xem` : '',
+      film.totalLikes > 0 ? `${formatCompactCountVi(film.totalLikes)} thích` : '',
+      timeAgo ? `Cập nhật ${timeAgo}` : ''
     ].filter(Boolean);
 
     return `
-      <div class="spotlight-eyebrow-row">
-        <span class="spotlight-kicker-badge">
-          <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="currentColor"></polygon></svg>
-          <span>${escapeHtml(ed.kickerLabel)}</span>
-        </span>
+      <div class="ambient-kicker-row">
+        <span class="ambient-rank-pill">${escapeHtml(ed.kickerLabel)}</span>
         <button type="button" class="spotlight-meta-link" data-spotlight-channel="${escapeHtml(film.channelId)}" title="Lọc phim kênh ${escapeHtml(film.channelName)}">
           ${escapeHtml(film.channelName)}
         </button>
-        <button type="button" class="spotlight-meta-link is-genre" data-spotlight-genre="${escapeHtml(primaryGenre)}" title="Lọc thể loại ${escapeHtml(primaryGenre)}">
+        <span>·</span>
+        <button type="button" class="spotlight-meta-link" data-spotlight-genre="${escapeHtml(primaryGenre)}" title="Lọc thể loại ${escapeHtml(primaryGenre)}">
           ${escapeHtml(primaryGenre)}
         </button>
       </div>
 
-      <div class="spotlight-heading-group">
-        <h2 class="spotlight-title">${escapeHtml(ed.mainTitle)}</h2>
-        ${ed.hook ? `<p class="spotlight-hook">${escapeHtml(ed.hook)}</p>` : ''}
-      </div>
+      <h1 class="ambient-hero-title">${escapeHtml(ed.mainTitle)}</h1>
+      ${ed.hook ? `<p class="ambient-hook">${escapeHtml(ed.hook)}</p>` : ''}
+      <p class="ambient-syn">${escapeHtml(ed.synopsis)}</p>
+      <div class="ambient-telemetry">${escapeHtml(telemetryParts.join(' · '))}</div>
 
-      <p class="spotlight-synopsis">${escapeHtml(ed.synopsis)}</p>
-
-      <div class="spotlight-telemetry">
-        ${telemetryParts.join('<span class="telemetry-sep" aria-hidden="true">•</span>')}
-      </div>
-
-      <div class="spotlight-actions">
+      <div class="v3-cta-row">
         <button type="button" class="btn-spotlight-watch" data-spotlight-watch="${escapeHtml(film.id)}">
-          <svg class="icon icon-sm" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
           <span>${escapeHtml(watchLabel)}</span>
         </button>
         <button type="button" class="btn-spotlight-details" data-spotlight-details="${escapeHtml(film.id)}">
-          <svg class="icon icon-sm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
           <span>Chi Tiết</span>
         </button>
         <button type="button" class="btn-spotlight-fav ${isFav ? 'active' : ''}" data-spotlight-fav="${escapeHtml(film.id)}" aria-pressed="${isFav ? 'true' : 'false'}" title="${isFav ? 'Đang theo dõi (Bấm để hủy)' : 'Lưu vào tủ phim'}">
-          <svg class="icon icon-sm" viewBox="0 0 24 24" fill="${isFav ? 'currentColor' : 'none'}"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
           <span>${isFav ? 'Đã Lưu' : 'Lưu Phim'}</span>
         </button>
       </div>
@@ -2120,105 +2119,68 @@
   function renderSpotlightHero() {
     if (!el.spotlightHero) return;
     const candidates = getSpotlightCandidates();
-    if (candidates.length === 0) {
-      el.spotlightHeroShell?.classList.add('hidden');
-      return;
-    }
+    if (candidates.length === 0) return;
 
     const idx = (state.spotlightIndex % candidates.length + candidates.length) % candidates.length;
     state.spotlightIndex = idx;
     const renderedSignature = candidates.map(f => f.id).join(',');
 
-    // Fast path: if skeleton is already mounted for the same 6 candidates, switch in-place without flashing images
-    if (el.spotlightHero.dataset.renderedKey === renderedSignature && el.spotlightHero.querySelector('.spotlight-stage-body')) {
+    if (el.spotlightHero.dataset.renderedKey === renderedSignature && el.spotlightHero.querySelector('.ambient-stage-wrap')) {
       updateSpotlightSlide(idx);
       return;
     }
 
     el.spotlightHero.dataset.renderedKey = renderedSignature;
     const activeFilm = candidates[idx];
+    const activePosters = getHiResPosterUrls(activeFilm);
+    const activeEd = formatSpotlightEditorial(activeFilm, idx);
 
-    const backdropLayersHtml = candidates.map((f, i) => {
+    const chipsHtml = candidates.map((f, i) => {
       const posters = getHiResPosterUrls(f);
       const ed = formatSpotlightEditorial(f, i);
       return `
-        <img
-          class="spotlight-backdrop-img ${i === idx ? 'is-active' : ''}"
-          data-slide-img="${i}"
-          data-fb-step="maxres"
-          data-sd-src="${escapeHtml(posters.sd)}"
-          data-hq-src="${escapeHtml(posters.hq)}"
-          src="${escapeHtml(posters.maxres)}"
-          alt="${escapeHtml(ed.mainTitle)}"
-          loading="${i === 0 ? 'eager' : 'lazy'}"
-        >
-      `;
-    }).join('');
-
-    const railItemsHtml = candidates.map((f, i) => {
-      const posters = getHiResPosterUrls(f);
-      const ed = formatSpotlightEditorial(f, i);
-      const numStr = String(i + 1).padStart(2, '0');
-      return `
-        <button type="button" class="spotlight-rail-item ${i === idx ? 'is-active' : ''}" data-spotlight-dot="${i}" aria-label="Chọn phim nổi bật ${i + 1}: ${escapeHtml(ed.mainTitle)}">
-          <span class="spotlight-rail-thumb">
-            <img src="${escapeHtml(posters.mq || posters.hq)}" alt="" loading="lazy">
-            <span class="spotlight-rail-rank">${numStr}</span>
-          </span>
-          <span class="spotlight-rail-info">
-            <span class="spotlight-rail-title">${escapeHtml(ed.mainTitle)}</span>
-            <span class="spotlight-rail-meta">${escapeHtml(f.channelName)} • ${escapeHtml(ed.partsLabel)}</span>
-          </span>
-          <span class="spotlight-rail-progress" aria-hidden="true"><span class="spotlight-rail-progress-fill"></span></span>
+        <button type="button" class="ambient-thumb-chip ${i === idx ? 'is-active' : ''}" data-spotlight-dot="${i}" aria-label="Chọn phim nổi bật ${i + 1}: ${escapeHtml(ed.mainTitle)}">
+          <img src="${escapeHtml(posters.mq || posters.hq)}" alt="" loading="lazy">
         </button>
       `;
     }).join('');
 
-    const countStr = `${String(idx + 1).padStart(2, '0')} / ${String(candidates.length).padStart(2, '0')}`;
-
     el.spotlightHero.innerHTML = `
-      <div class="spotlight-stage">
-        <div class="spotlight-backdrop">
-          ${backdropLayersHtml}
-        </div>
-        <div class="spotlight-scrim-left" aria-hidden="true"></div>
-        <div class="spotlight-scrim-bottom" aria-hidden="true"></div>
-        <div class="spotlight-stage-body" id="spotlightStageBody">
-          ${buildSpotlightStageBodyMarkup(activeFilm, idx, candidates.length)}
+      <div class="ambient-hero">
+        <img class="ambient-aura-img" id="spotlightAuraImg" src="${escapeHtml(activePosters.hq)}" alt="" aria-hidden="true">
+        <div class="ambient-bottom-fade" aria-hidden="true"></div>
+        <div class="ambient-stage-wrap">
+          <div class="ambient-copy-col" id="spotlightStageBody">
+            ${buildSpotlightStageBodyMarkup(activeFilm, idx, candidates.length)}
+          </div>
+          <div class="ambient-media-col">
+            <div class="ambient-poster-frame">
+              <img
+                id="spotlightMainImg"
+                data-fb-step="maxres"
+                data-sd-src="${escapeHtml(activePosters.sd)}"
+                data-hq-src="${escapeHtml(activePosters.hq)}"
+                src="${escapeHtml(activePosters.maxres)}"
+                alt="${escapeHtml(activeEd.mainTitle)}"
+              >
+            </div>
+            <div class="ambient-dots-rail" aria-label="Chọn phim đề cử">
+              ${chipsHtml}
+            </div>
+          </div>
         </div>
       </div>
-
-      <aside class="spotlight-rail" aria-label="Danh sách phim nổi bật">
-        <div class="spotlight-rail-head">
-          <div class="spotlight-rail-label">
-            <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
-            <span>ĐỀ CỬ HÔM NAY</span>
-          </div>
-          <div class="spotlight-rail-controls">
-            <span class="spotlight-counter" id="spotlightCounter">${countStr}</span>
-            <button type="button" class="spotlight-arrow-btn" data-spotlight-dir="-1" aria-label="Phim nổi bật trước">
-              <svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
-            </button>
-            <button type="button" class="spotlight-arrow-btn" data-spotlight-dir="1" aria-label="Phim nổi bật tiếp theo">
-              <svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
-            </button>
-          </div>
-        </div>
-        <div class="spotlight-rail-list" id="spotlightRailList">
-          ${railItemsHtml}
-        </div>
-      </aside>
     `;
 
-    // Attach HD image fallback detectors (catches both 404 errors and 120x90 YouTube placeholder thumbnails)
-    el.spotlightHero.querySelectorAll('.spotlight-backdrop-img').forEach(img => {
-      img.addEventListener('error', () => handleSpotlightImgFallback(img));
-      img.addEventListener('load', () => {
-        if (img.naturalWidth > 0 && img.naturalWidth <= 160 && img.dataset.fbStep !== 'done') {
-          handleSpotlightImgFallback(img);
+    const mainImg = document.getElementById('spotlightMainImg');
+    if (mainImg) {
+      mainImg.addEventListener('error', () => handleSpotlightImgFallback(mainImg));
+      mainImg.addEventListener('load', () => {
+        if (mainImg.naturalWidth > 0 && mainImg.naturalWidth <= 160 && mainImg.dataset.fbStep !== 'done') {
+          handleSpotlightImgFallback(mainImg);
         }
       });
-    });
+    }
 
     startSpotlightTimer();
   }
@@ -2231,45 +2193,30 @@
     const idx = (newIdx % candidates.length + candidates.length) % candidates.length;
     state.spotlightIndex = idx;
     const film = candidates[idx];
+    const posters = getHiResPosterUrls(film);
+    const ed = formatSpotlightEditorial(film, idx);
 
-    el.spotlightHero.querySelectorAll('.spotlight-backdrop-img').forEach((img, i) => {
-      img.classList.toggle('is-active', i === idx);
-    });
-
-    const railList = document.getElementById('spotlightRailList');
-    let activeRailItem = null;
-    el.spotlightHero.querySelectorAll('.spotlight-rail-item').forEach((btn, i) => {
-      const active = i === idx;
-      if (active) {
-        activeRailItem = btn;
-        // Restart CSS progress animation cleanly
-        const fill = btn.querySelector('.spotlight-rail-progress-fill');
-        if (fill) {
-          fill.style.animation = 'none';
-          void fill.offsetWidth;
-          fill.style.animation = '';
-        }
-      }
-      btn.classList.toggle('is-active', active);
-    });
-
-    // Horizontal-only scroll inside rail on tablet/mobile (never jumps page vertically)
-    if (railList && activeRailItem && railList.scrollWidth > railList.clientWidth + 4) {
-      const targetLeft = Math.max(0, activeRailItem.offsetLeft - (railList.clientWidth - activeRailItem.offsetWidth) / 2);
-      railList.scrollTo({ left: targetLeft, behavior: 'smooth' });
+    const auraImg = document.getElementById('spotlightAuraImg');
+    if (auraImg && auraImg.src !== posters.hq) {
+      auraImg.src = posters.hq;
     }
 
-    const counterEl = document.getElementById('spotlightCounter');
-    if (counterEl) {
-      counterEl.textContent = `${String(idx + 1).padStart(2, '0')} / ${String(candidates.length).padStart(2, '0')}`;
+    const mainImg = document.getElementById('spotlightMainImg');
+    if (mainImg) {
+      mainImg.dataset.fbStep = 'maxres';
+      mainImg.dataset.sdSrc = posters.sd;
+      mainImg.dataset.hqSrc = posters.hq;
+      mainImg.src = posters.maxres;
+      mainImg.alt = ed.mainTitle;
     }
+
+    el.spotlightHero.querySelectorAll('.ambient-thumb-chip').forEach((btn, i) => {
+      btn.classList.toggle('is-active', i === idx);
+    });
 
     const bodyEl = document.getElementById('spotlightStageBody');
     if (bodyEl) {
       bodyEl.innerHTML = buildSpotlightStageBodyMarkup(film, idx, candidates.length);
-      bodyEl.classList.remove('is-entering');
-      void bodyEl.offsetWidth;
-      bodyEl.classList.add('is-entering');
     }
 
     startSpotlightTimer();
@@ -2627,6 +2574,10 @@
         state.timeRange = 'all';
         if (el.timeRangeSelect) el.timeRangeSelect.value = 'all';
       }
+      if (scope === 'duration') {
+        state.durationFilter = 'all';
+        if (el.durationSelect) el.durationSelect.value = 'all';
+      }
       syncAllScopeControls();
       applyFiltersAndRender(1);
     });
@@ -2697,12 +2648,63 @@
     });
 
     // Sidebar Channel click
+    // Sidebar Channel click (inside Popover Drawer)
+    el.channelSearchInput?.addEventListener('input', renderChannelDrawerList);
+
     el.channelNavList?.addEventListener('click', e => {
       const btn = e.target.closest('.sidebar-menu-btn');
       if (!btn) return;
       state.selectedChannel = btn.dataset.channel;
+      hidePopoverSafe(el.channelDrawer);
+      renderChannelDrawerList();
       syncAllScopeControls();
       applyFiltersAndRender(1);
+    });
+
+    // Sidebar Duration Chips click
+    el.sidebarDurationChips?.addEventListener('click', e => {
+      const btn = e.target.closest('[data-duration]');
+      if (!btn) return;
+      state.durationFilter = btn.dataset.duration || 'all';
+      syncAllScopeControls();
+      applyFiltersAndRender(1);
+    });
+
+    // Mobile Filter Drawer delegated clicks (genres + durations)
+    el.mobileFilterBody?.addEventListener('click', e => {
+      const gBtn = e.target.closest('[data-genre]');
+      if (gBtn) {
+        state.selectedGenre = gBtn.dataset.genre;
+        hidePopoverSafe(el.mobileFilterDrawer);
+        syncAllScopeControls();
+        applyFiltersAndRender(1);
+        return;
+      }
+      const dBtn = e.target.closest('[data-duration]');
+      if (dBtn) {
+        state.durationFilter = dBtn.dataset.duration || 'all';
+        hidePopoverSafe(el.mobileFilterDrawer);
+        syncAllScopeControls();
+        applyFiltersAndRender(1);
+      }
+    });
+
+    // Brand Home reset
+    el.brandHomeBtn?.addEventListener('click', e => {
+      e.preventDefault();
+      state.activeTab = 'all';
+      state.selectedGenre = 'all';
+      state.selectedChannel = 'all';
+      state.durationFilter = 'all';
+      state.timeRange = 'all';
+      state.searchQuery = '';
+      if (el.searchInput) el.searchInput.value = '';
+      if (el.timeRangeSelect) el.timeRangeSelect.value = 'all';
+      el.categoryTabsGroup?.querySelectorAll('.tab-pill').forEach(b => b.classList.toggle('active', b.dataset.tab === 'all'));
+      syncAllScopeControls();
+      syncMobileDockActive();
+      applyFiltersAndRender(1);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
     // Film Card & Chart Row clicks
@@ -2913,12 +2915,15 @@
       applyFiltersAndRender(1);
     });
 
-    // Pagination clicks
+    // Pagination clicks (scrolls cleanly to catalog top, never back to Hero)
     el.paginationBar?.addEventListener('click', e => {
       const btn = e.target.closest('.page-num-btn');
       if (btn && btn.dataset.page) {
         applyFiltersAndRender(parseInt(btn.dataset.page, 10));
-        window.scrollTo({ top: 120, behavior: 'smooth' });
+        if (el.catalogSection) {
+          const catTop = Math.max(0, el.catalogSection.getBoundingClientRect().top + window.scrollY - 74);
+          window.scrollTo({ top: catTop, behavior: 'smooth' });
+        }
       }
     });
 
@@ -3012,8 +3017,17 @@
     updateMobileChipActive();
     updateSidebarGenreActive();
     updateSidebarChannelActive();
+    document.querySelectorAll('[data-duration]').forEach(b => {
+      b.classList.toggle('active', b.dataset.duration === state.durationFilter);
+    });
+    if (el.durationSelect) el.durationSelect.value = state.durationFilter;
     if (el.lbChannelSelect) el.lbChannelSelect.value = state.selectedChannel;
     if (el.lbGenreSelect) el.lbGenreSelect.value = state.selectedGenre;
+    const chLabel = state.selectedChannel === 'all' ? `${state.channels.length || 28} Kênh` : getChannelDisplayName(state.selectedChannel);
+    if (el.channelLabel) el.channelLabel.textContent = chLabel;
+    document.querySelectorAll('#sidebarStudioLabel').forEach(node => {
+      node.textContent = state.selectedChannel === 'all' ? `Tất cả ${state.channels.length || 28} kênh` : getChannelDisplayName(state.selectedChannel);
+    });
   }
 
   function updateSidebarChannelActive() {
@@ -3023,7 +3037,7 @@
   }
 
   function updateSidebarGenreActive() {
-    el.genreNavList?.querySelectorAll('.sidebar-menu-btn').forEach(b => {
+    document.querySelectorAll('[data-genre]').forEach(b => {
       b.classList.toggle('active', b.dataset.genre === state.selectedGenre);
     });
   }

@@ -49,3 +49,5 @@
 - [x] Implemented Theater Wide Mode (`.is-wide`, 96vw) and Ambient Dim Mode (`.is-dimmed`, 0.08 ambient opacity, `#btnAmbientUndim`).
 - [x] Implemented Auto-Play Next Episode engine with 5-second countdown overlay and cancel action.
 - [x] Verified zero horizontal overflow on mobile 375px (`scrollWidth: 358px`).
+- [x] Finalized UI Redesign **Ambient Cinema Hybrid (A + B)** + custom 3D Prism brand logo (`logo.svg`, `index.html`, `style.css`, `app.js`, `DESIGN.md`), removed temporary demo harnesses, and verified Desktop (`1440×900`) & Mobile (`375×812`) with `0px` filter scroll jump.
+- [x] Finalized Brand Logo **Option 08 (`Clapperboard 3D · Play-AI`)** (`logo.svg`, `100/100` `svg_audit.py`), exported full `icons/` web/PWA icon pack (`favicon.svg`, obsidian-tiled `favicon.ico`, `apple-touch-icon.png`, `192/512/maskable` PNGs, `site.webmanifest`), updated `index.html` & `DESIGN.md`, cleaned up `logo-preview*`, and verified live on Desktop (`1440×900`) & Mobile (`375×812`).

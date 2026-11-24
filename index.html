@@ -3,326 +3,294 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hôm Nay Xem Gì - Kho Phim Hoạt Hình & Review 3D</title>
-  <meta name="description" content="Khám phá kho phim hoạt hình 3D, tu tiên, mạt thế, hệ thống tuyển chọn tự động từ hàng chục kênh YouTube uy tín.">
+  <title>Hôm Nay Xem Gì · Kho Phim Hoạt Hình 3D Chọn Lọc</title>
+  <meta name="description" content="Khám phá kho phim hoạt hình 3D, tu tiên, mạt thế, hệ thống tuyển chọn tự động từ 28 kênh YouTube uy tín.">
 
-  <!-- Google Fonts: Plus Jakarta Sans for flawless typography & Vietnamese diacritics -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=20261124_173500">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2338bdf8'><polygon points='5 3 19 12 5 21 5 3'/></svg>">
+  <link rel="stylesheet" href="style.css?v=20261125_031800">
+  <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+  <link rel="icon" href="icons/favicon.ico" sizes="48x48">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="manifest" href="icons/site.webmanifest">
+  <meta name="theme-color" content="#060608">
 </head>
-<body class="nordic-app">
+<body class="ambient-app">
 
-  <!-- ==========================================
-       FLOATING FROSTED HEADER (64PX)
-       ========================================== -->
+  <!-- ADAPTIVE AMBIENT HEADER (Transparent over Hero -> Frosted Obsidian on scroll) -->
   <header class="site-header" id="siteHeader">
     <div class="container header-inner">
-      
-      <!-- Brand Identity -->
+
+      <!-- Custom Clapperboard 3D · Play-AI Brand Identity -->
       <a href="#" class="brand-link" id="brandHomeBtn" title="Về trang chủ Hôm Nay Xem Gì">
-        <div class="brand-icon-box">
-          <svg class="icon brand-icon" viewBox="0 0 24 24">
-            <polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon>
-          </svg>
-        </div>
-        <div class="brand-text-stack">
-          <span class="brand-title">HÔM NAY XEM GÌ</span>
-        </div>
+        <svg class="brand-logo-svg" viewBox="16 20 224 212" fill="none" aria-hidden="true">
+          <path fill="#FFFFFF" fill-rule="evenodd" d="M 34 112 H 200 A 6 6 0 0 1 206 118 V 206 A 18 18 0 0 1 188 224 H 46 A 18 18 0 0 1 28 206 V 118 A 6 6 0 0 1 34 112 Z M 89.9 128 L 159.2 168 L 89.9 208 Z"/>
+          <path fill="#F43F5E" d="M 113.0 151.5 Q 116.1 164.9 129.5 168 Q 116.1 171.1 113.0 184.5 Q 109.9 171.1 96.5 168 Q 109.9 164.9 113.0 151.5 Z"/>
+          <path fill="#F43F5E" fill-rule="evenodd" d="M 28.0 102.0 L 205.7 54.4 L 198.0 25.4 L 20.2 73.0 Z M 51.2 95.8 L 70.5 90.6 L 79.5 57.2 L 60.1 62.3 Z M 99.5 82.8 L 118.8 77.7 L 127.8 44.2 L 108.4 49.4 Z M 147.8 69.9 L 167.1 64.7 L 176.1 31.3 L 156.7 36.4 Z"/>
+          <path fill="#F43F5E" d="M 214 112 H 220 L 234 126 V 210 L 220 224 H 214 Z"/>
+        </svg>
+        <span class="brand-title">HÔM NAY XEM GÌ</span>
       </a>
 
-      <!-- Header Action Buttons -->
+      <!-- Search + Studio Drawer + Bell + Bookmarks + Randomizer -->
       <div class="header-actions">
-        <!-- Dice Randomizer Action -->
-        <button type="button" class="btn-dice-pill" id="btnDiceRandom" title="Quay ngẫu nhiên một phim">
-          <svg class="icon icon-sm" viewBox="0 0 24 24">
-            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-            <circle cx="8" cy="8" r="1.5" fill="currentColor"></circle>
-            <circle cx="16" cy="16" r="1.5" fill="currentColor"></circle>
-            <circle cx="12" cy="12" r="1.5" fill="currentColor"></circle>
-            <circle cx="16" cy="8" r="1.5" fill="currentColor"></circle>
-            <circle cx="8" cy="16" r="1.5" fill="currentColor"></circle>
+        <div class="search-input-box">
+          <svg class="icon search-glass-icon" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
-          <span>Gợi ý phim</span>
+          <input
+            type="search"
+            id="searchInput"
+            class="search-text-input"
+            placeholder="Tìm phim, studio..."
+            autocomplete="off"
+            aria-label="Tìm kiếm phim"
+          >
+          <button type="button" id="searchClearBtn" class="search-clear-icon" aria-label="Xóa tìm kiếm">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+          <kbd class="key-hint" title="Bấm phím '/' để tìm nhanh">/</kbd>
+        </div>
+
+        <button type="button" class="hdr-act-btn" id="btnChannelsDrawer" popovertarget="channelDrawer" aria-controls="channelDrawer">
+          <svg class="icon hdr-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="7.5" height="7.5" rx="2"></rect><rect x="13.5" y="3" width="7.5" height="7.5" rx="2"></rect><rect x="3" y="13.5" width="7.5" height="7.5" rx="2"></rect><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="2"></rect></svg>
+          <span id="channelLabel">28 Kênh</span>
         </button>
 
         <!-- Notification Bell Action & Popover -->
         <div class="notification-wrapper" id="notifWrapper">
-          <button type="button" class="btn-circle-action notif-bell-btn" id="btnNotifOpen" title="Thông báo tập mới của phim bạn theo dõi">
-            <svg class="icon icon-sm" viewBox="0 0 24 24">
+          <button type="button" class="btn-circle-action notif-bell-btn" id="btnNotifOpen" title="Thông báo tập mới của phim bạn theo dõi" aria-label="Thông báo cập nhật">
+            <svg class="icon hdr-icon" viewBox="0 0 24 24">
               <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
               <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
             </svg>
-            <span class="count-pill notif-count-pill" id="notifCountBadge">0</span>
+            <span class="count-pill notif-count-pill empty" id="notifCountBadge">0</span>
           </button>
 
-          <!-- Notification Popover Panel -->
           <div class="notification-popover" id="notificationPopover" role="dialog" aria-label="Thông báo cập nhật phim">
             <div class="notif-popover-head">
               <div class="notif-head-title-wrap">
                 <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
                 <span class="notif-popover-title">THÔNG BÁO TẬP MỚI</span>
               </div>
-              <button type="button" class="btn-mark-all-read" id="btnMarkAllRead" title="Đánh dấu tất cả là đã đọc">
-                Đã đọc hết
-              </button>
+              <button type="button" class="btn-mark-all-read" id="btnMarkAllRead">Đã đọc hết</button>
             </div>
-            
-            <div class="notif-list-container" id="notifListContainer">
-              <!-- Rendered dynamically via JS -->
-            </div>
-
+            <div class="notif-list-container" id="notifListContainer"></div>
             <div class="notif-popover-foot">
               <svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-              <span>Tự động báo khi phim bạn theo dõi có tập mới</span>
+              <span>Tự động báo khi phim theo dõi có tập mới</span>
             </div>
           </div>
         </div>
 
         <!-- Saved Bookmark Button -->
-        <button type="button" class="btn-circle-action" id="btnFavoritesOpen" title="Phim đã lưu & đang theo dõi" aria-label="Phim đã lưu và đang theo dõi">
-          <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
-          <span class="count-pill" id="favCountBadge">0</span>
+        <button type="button" class="btn-circle-action" id="btnFavoritesOpen" title="Phim đã lưu và đang theo dõi" aria-label="Phim đã lưu">
+          <svg class="icon hdr-icon" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+          <span class="count-pill fav-count-pill empty" id="favCountBadge">0</span>
+        </button>
+
+        <!-- Primary Randomizer Action -->
+        <button type="button" class="btn-dice-pill" id="btnDiceRandom" title="Quay ngẫu nhiên một phim 3D">
+          <svg class="icon hdr-icon spark-icon" viewBox="0 0 24 24"><path d="M12 2.5C12.8 7.5 16.5 11.2 21.5 12C16.5 12.8 12.8 16.5 12 21.5C11.2 16.5 7.5 12.8 2.5 12C7.5 11.2 11.2 7.5 12 2.5Z" fill="currentColor" stroke="none"></path></svg>
+          <span class="hdr-hide-mobile">Ngẫu Nhiên</span>
         </button>
       </div>
-
     </div>
   </header>
 
-  <!-- ==========================================
-       MAIN WORKSPACE (SCANDINAVIAN 2-COLUMN LAYOUT)
-       ========================================== -->
-  <main class="container app-layout">
-
-    <!-- LEFT SIDEBAR: GENRES & CHANNELS -->
-    <aside class="app-sidebar" id="appSidebar">
-      
-      <!-- Box 1: Genres -->
-      <section class="sidebar-card">
-        <div class="sidebar-card-head">
-          <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-          <h2 class="sidebar-card-title">THỂ LOẠI PHIM</h2>
-        </div>
-        <nav class="sidebar-menu-list" id="genreNavList" aria-label="Danh mục thể loại">
-          <!-- Rendered dynamically via JS -->
-        </nav>
-      </section>
-
-      <!-- Box 2: Curated YouTube Channels -->
-      <section class="sidebar-card">
-        <div class="sidebar-card-head">
-          <svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
-          <h2 class="sidebar-card-title">KÊNH REVIEW UY TÍN</h2>
-        </div>
-        <nav class="sidebar-menu-list" id="channelNavList" aria-label="Danh sách kênh review">
-          <!-- Rendered dynamically via JS -->
-        </nav>
-      </section>
-
-    </aside>
-
-    <!-- RIGHT FEED: SEARCH, TABS, 16:9 FILM CARDS -->
-    <section class="app-feed" id="appFeed">
-
-      <!-- Glass Search Command Bar -->
-      <div class="search-bar-shell">
-        <div class="search-input-box">
-          <svg class="icon search-glass-icon" viewBox="0 0 24 24">
-            <circle cx="11" cy="11" r="8"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-          </svg>
-          <input 
-            type="text" 
-            id="searchInput" 
-            class="search-text-input" 
-            placeholder="Tìm kiếm phim, nhân vật, thể loại, kênh review..." 
-            autocomplete="off"
-            aria-label="Tìm kiếm phim"
-          >
-          <button type="button" id="searchClearBtn" class="search-clear-icon" aria-label="Xóa nội dung tìm kiếm">
-            <svg class="icon icon-xs" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-          </button>
-          <div class="key-hint" title="Bấm phím '/' để tìm nhanh">/</div>
-        </div>
+  <!-- NATIVE POPOVER: 28 STUDIO DIRECTORY -->
+  <aside id="channelDrawer" class="v3-drawer" popover="auto" aria-label="Danh sách 28 kênh 3D">
+    <div class="v3-drawer-head">
+      <div>
+        <div class="v3-drawer-kicker">ĐỐI TÁC 3D CHỌN LỌC</div>
+        <h2 class="v3-drawer-title">Chọn Studio Nguồn</h2>
       </div>
+      <button type="button" class="v3-icon-btn" popovertarget="channelDrawer" popovertargetaction="hide" aria-label="Đóng danh sách kênh">
+        <svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+    <input type="search" id="channelSearchInput" class="v3-drawer-search" placeholder="Lọc nhanh tên kênh..." aria-label="Lọc nhanh tên kênh">
+    <nav class="v3-drawer-list" id="channelNavList" aria-label="Danh sách kênh"></nav>
+  </aside>
 
-      <!-- Spotlight Hero Banner (Asymmetric Nordic Split Cinema Stage) -->
-      <section class="spotlight-hero-shell" id="spotlightHeroShell" aria-label="Phim 3D nổi bật hôm nay">
-        <div class="spotlight-hero" id="spotlightHero" aria-roledescription="carousel" aria-label="Danh sách phim 3D đề cử" tabindex="0">
-          <!-- Rendered dynamically via JS -->
-        </div>
-      </section>
-
-      <!-- Continue Watching Shelf (rendered by JS, hidden when empty) -->
-      <section class="continue-shelf hidden" id="continueShelf" aria-label="Đang xem dở">
-        <div class="continue-head">
-          <div class="continue-title">
-            <svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span>ĐANG XEM DỞ</span>
-          </div>
-          <button type="button" class="continue-clear" id="btnClearContinue">Xóa lịch sử</button>
-        </div>
-        <div class="continue-row" id="continueRow"></div>
-      </section>
-
-      <!-- Master Category Tabs -->
-      <div class="feed-tabs-header">
-        <div class="category-tabs-group" id="categoryTabsGroup">
-          <button type="button" class="tab-pill active" data-tab="all">Tất Cả Phim</button>
-          <button type="button" class="tab-pill tab-pill-leaderboard" data-tab="leaderboard">
-            <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
-            <span>Bảng Xếp Hạng</span>
-          </button>
-          <button type="button" class="tab-pill tab-pill-recent" data-tab="recent24h">
-            <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-            <span>Mới Cập Nhật 24h</span>
-            <span class="tab-badge-recent" id="tabRecentBadge">0</span>
-          </button>
-          <button type="button" class="tab-pill" data-tab="hot">
-            <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
-            <span>Cày Đêm (Dài Nhất)</span>
-          </button>
-          <button type="button" class="tab-pill" data-tab="multipart">Series Nhiều Phần</button>
-          <button type="button" class="tab-pill" data-tab="single">Phim 1 Tập (Full)</button>
-          <button type="button" class="tab-pill" data-tab="favorites">
-            <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
-            <span>Đang Theo Dõi</span>
-          </button>
-        </div>
-
-        <div class="feed-count-summary" id="feedCountSummary">
-          Đang nạp kho phim...
-        </div>
+  <!-- NATIVE POPOVER: MOBILE FILTER DRAWER (<= 1024px) -->
+  <aside id="mobileFilterDrawer" class="v3-drawer v3-drawer-left" popover="auto" aria-label="Bộ lọc kho phim">
+    <div class="v3-drawer-head">
+      <div>
+        <div class="v3-drawer-kicker">BỘ LỌC KHO PHIM</div>
+        <h2 class="v3-drawer-title">Thể Loại &amp; Thời Lượng</h2>
       </div>
+      <button type="button" class="v3-icon-btn" popovertarget="mobileFilterDrawer" popovertargetaction="hide" aria-label="Đóng bộ lọc">
+        <svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+    <div class="v3-mobile-filter-body" id="mobileFilterBody"></div>
+  </aside>
 
-      <!-- Mobile Horizontal Genre Chips (Visible when sidebar hidden on small screens) -->
-      <div class="mobile-chips-row" id="mobileChipsRow" aria-label="Lọc thể loại trên di động">
-        <!-- Rendered dynamically via JS -->
-      </div>
+  <!-- MAIN STREAMING WORKSPACE -->
+  <main id="appMain" tabindex="-1">
 
-      <!-- Inline Channel/Category Filter & Sort Toolbar (Visible on Standard Tabs) -->
-      <div class="inline-filter-bar" id="inlineFilterBar">
-        <div class="inline-filter-controls">
-          <div class="filter-control-item">
-            <label for="sortBySelect" class="filter-label">
-              <svg class="icon icon-xs" viewBox="0 0 24 24"><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="12" x2="14" y2="12"></line><line x1="4" y1="18" x2="9" y2="18"></line></svg>
-              <span>Sắp xếp:</span>
-            </label>
-            <select id="sortBySelect" class="filter-select" aria-label="Sắp xếp danh sách phim">
-              <option value="recent">Mới cập nhật</option>
-              <option value="views">Xem nhiều nhất</option>
-              <option value="likes">Yêu thích nhất</option>
-              <option value="duration">Cày đêm (Dài nhất)</option>
-            </select>
-          </div>
-
-          <div class="filter-control-item">
-            <label for="durationSelect" class="filter-label">
-              <svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-              <span>Thời lượng:</span>
-            </label>
-            <select id="durationSelect" class="filter-select" aria-label="Lọc theo thời lượng phim">
-              <option value="all">Mọi thời lượng</option>
-              <option value="short">Ngắn (dưới 1,5 giờ)</option>
-              <option value="medium">Vừa (1,5 – 3 giờ)</option>
-              <option value="long">Dài (3 – 6 giờ)</option>
-              <option value="marathon">Cày đêm (trên 6 giờ)</option>
-            </select>
-          </div>
-
-          <div class="filter-control-item">
-            <label for="timeRangeSelect" class="filter-label">
-              <svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-              <span>Thời gian:</span>
-            </label>
-            <select id="timeRangeSelect" class="filter-select" aria-label="Khoảng thời gian">
-              <option value="all">Mọi thời đại (All-time)</option>
-              <option value="day">Hôm nay (24h)</option>
-              <option value="week">Tuần này (7 ngày)</option>
-              <option value="month">Tháng này (30 ngày)</option>
-              <option value="year">Năm nay (365 ngày)</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="active-scope-badges" id="activeScopeBadges">
-          <!-- Rendered dynamically via JS when Channel or Genre is active -->
-        </div>
-      </div>
-
-      <!-- Dedicated Leaderboard Panel (Visible when activeTab === 'leaderboard') -->
-      <section class="leaderboard-panel hidden" id="leaderboardPanel" aria-label="Bảng xếp hạng phim hot">
-        <div class="lb-controls-top">
-          <div class="lb-title-wrap">
-            <div class="lb-trophy-badge">
-              <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
-            </div>
-            <div>
-              <h2 class="lb-heading">Bảng Xếp Hạng Phim Hot</h2>
-              <p class="lb-subheading" id="lbSubheading">Vinh danh phim nổi bật theo lượt xem và lượt thích thực tế trên YouTube</p>
-            </div>
-          </div>
-
-          <div class="lb-metric-group" id="lbMetricGroup" role="group" aria-label="Tiêu chí xếp hạng">
-            <button type="button" class="lb-metric-btn active" data-metric="views">
-              <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
-              <span>Xem Nhiều Nhất</span>
-            </button>
-            <button type="button" class="lb-metric-btn" data-metric="likes">
-              <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-              <span>Yêu Thích Nhất</span>
-            </button>
-          </div>
-        </div>
-
-        <div class="lb-controls-bottom">
-          <div class="lb-time-group" id="lbTimeGroup" role="group" aria-label="Chu kỳ bảng xếp hạng">
-            <button type="button" class="lb-time-btn" data-range="day">Hôm nay</button>
-            <button type="button" class="lb-time-btn active" data-range="week">Tuần này</button>
-            <button type="button" class="lb-time-btn" data-range="month">Tháng này</button>
-            <button type="button" class="lb-time-btn" data-range="year">Năm nay</button>
-            <button type="button" class="lb-time-btn" data-range="all">All-time</button>
-          </div>
-
-          <div class="lb-scope-selects">
-            <select id="lbChannelSelect" class="filter-select" aria-label="Lọc bảng xếp hạng theo kênh">
-              <option value="all">Tất cả 8 kênh</option>
-            </select>
-            <select id="lbGenreSelect" class="filter-select" aria-label="Lọc bảng xếp hạng theo thể loại">
-              <option value="all">Tất cả thể loại</option>
-            </select>
-          </div>
-        </div>
-
-        <!-- Leaderboard Showcase (Top 1-3 Podium / Spotlight Hero depending on active UI variant) -->
-        <div class="leaderboard-showcase" id="leaderboardShowcase"></div>
-      </section>
-
-      <!-- Main 16:9 Film Cards Grid -->
-      <div class="cards-widescreen-grid" id="cardsWidescreenGrid">
-        <!-- Rendered dynamically via JS -->
-      </div>
-
-      <!-- Pagination Navigation -->
-      <nav class="pagination-bar" id="paginationBar" aria-label="Phân trang danh sách phim">
-        <!-- Rendered dynamically via JS -->
-      </nav>
-
+    <!-- FULL-BLEED AMBIENT CINEMA HERO (ALWAYS MOUNTED · ZERO JUMP) -->
+    <section class="spotlight-hero-shell" id="spotlightHeroShell" aria-label="Phim 3D đề cử hôm nay">
+      <div class="spotlight-hero" id="spotlightHero" aria-roledescription="carousel" aria-label="Danh sách phim 3D đề cử" tabindex="0"></div>
     </section>
 
+    <!-- CONTINUE WATCHING SHELF (Shown only when user has resume progress) -->
+    <section class="container continue-shelf hidden" id="continueShelf" aria-label="Đang xem dở">
+      <div class="continue-head">
+        <div class="continue-title">
+          <svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <span>ĐANG XEM DỞ</span>
+        </div>
+        <button type="button" class="continue-clear" id="btnClearContinue">Xóa lịch sử</button>
+      </div>
+      <div class="continue-row" id="continueRow"></div>
+    </section>
+
+    <!-- HYBRID A+B CATALOG WORKSPACE (COMMAND DOCK + STICKY ATTRIBUTE SIDEBAR + 3-COL GRID) -->
+    <section class="container catalog-section" id="catalogSection" aria-label="Kho phim hoạt hình 3D">
+
+      <!-- OPTION B: STICKY HORIZONTAL COMMAND DOCK (Quick Modes + Count + Sort/Time) -->
+      <div class="command-dock" id="commandDock">
+        <div class="category-tabs-group" id="categoryTabsGroup" role="tablist" aria-label="Chế độ xem kho phim">
+          <button type="button" class="tab-pill active" data-tab="all">Tất Cả</button>
+          <button type="button" class="tab-pill" data-tab="recent24h">
+            <span>Mới 24h</span>
+            <span class="tab-badge-recent" id="tabRecentBadge">0</span>
+          </button>
+          <button type="button" class="tab-pill" data-tab="leaderboard">Bảng XH</button>
+          <button type="button" class="tab-pill" data-tab="hot">Cày Đêm &gt;6h</button>
+          <button type="button" class="tab-pill" data-tab="multipart">Series Dài</button>
+          <button type="button" class="tab-pill" data-tab="single">Phim 1 Tập</button>
+          <button type="button" class="tab-pill" data-tab="favorites">Tủ Phim</button>
+        </div>
+
+        <div class="dock-right-tools">
+          <button type="button" class="mobile-filter-trigger" id="btnMobileFilterDrawer" popovertarget="mobileFilterDrawer">
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line></svg>
+            <span>Lọc Thể Loại</span>
+          </button>
+
+          <span class="feed-count-summary" id="feedCountSummary">Đang nạp kho phim...</span>
+
+          <div class="dock-selects" id="inlineFilterBar">
+            <label class="select-pill">
+              <span class="select-lbl">XẾP</span>
+              <select id="sortBySelect" aria-label="Sắp xếp danh sách phim">
+                <option value="recent">Mới cập nhật</option>
+                <option value="views">Xem nhiều nhất</option>
+                <option value="likes">Yêu thích nhất</option>
+                <option value="duration">Cày đêm (Dài nhất)</option>
+              </select>
+            </label>
+            <label class="select-pill">
+              <span class="select-lbl">LÚC</span>
+              <select id="timeRangeSelect" aria-label="Khoảng thời gian">
+                <option value="all">Mọi lúc</option>
+                <option value="day">24 giờ</option>
+                <option value="week">7 ngày</option>
+                <option value="month">30 ngày</option>
+                <option value="year">Năm nay</option>
+              </select>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2-COLUMN WORKSPACE: OPTION A STICKY SIDEBAR + 3-COLUMN CATALOG FEED -->
+      <div class="app-layout">
+
+        <!-- OPTION A: STICKY ATTRIBUTE SIDEBAR (Genres · Duration · Studio) -->
+        <aside class="app-sidebar" id="appSidebar" aria-label="Bộ lọc thuộc tính">
+          <section class="side-group">
+            <h2 class="side-kicker">THỂ LOẠI 3D</h2>
+            <nav class="side-list" id="genreNavList" aria-label="Danh mục thể loại"></nav>
+          </section>
+
+          <section class="side-group">
+            <h2 class="side-kicker">THỜI LƯỢNG</h2>
+            <div class="side-duration-chips" id="sidebarDurationChips">
+              <button type="button" class="side-dur-chip active" data-duration="all">Tất cả</button>
+              <button type="button" class="side-dur-chip" data-duration="short">&lt; 1.5h</button>
+              <button type="button" class="side-dur-chip" data-duration="medium">1.5h - 3h</button>
+              <button type="button" class="side-dur-chip" data-duration="long">3h - 6h</button>
+              <button type="button" class="side-dur-chip" data-duration="marathon">&gt; 6h</button>
+            </div>
+            <select id="durationSelect" class="sr-only" aria-label="Lọc theo thời lượng phim">
+              <option value="all">Mọi thời lượng</option>
+              <option value="short">Ngắn (dưới 1,5 giờ)</option>
+              <option value="medium">Vừa (1,5 - 3 giờ)</option>
+              <option value="long">Dài (3 - 6 giờ)</option>
+              <option value="marathon">Cày đêm (trên 6 giờ)</option>
+            </select>
+          </section>
+
+          <section class="side-group">
+            <h2 class="side-kicker">NGUỒN STUDIO</h2>
+            <button type="button" class="side-studio-btn" id="sidebarStudioBtn" popovertarget="channelDrawer">
+              <span id="sidebarStudioLabel">Tất cả 28 kênh</span>
+              <svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+          </section>
+        </aside>
+
+        <!-- RIGHT 3-COLUMN CATALOG FEED -->
+        <section class="app-feed" id="appFeed">
+          <div class="active-scope-badges hidden" id="activeScopeBadges"></div>
+
+          <!-- Dedicated Leaderboard Panel (Visible when activeTab === 'leaderboard') -->
+          <section class="leaderboard-panel hidden" id="leaderboardPanel" aria-label="Bảng xếp hạng phim hot">
+            <div class="lb-controls-top">
+              <div>
+                <span class="lb-kicker">BẢNG XẾP HẠNG THỰC TẾ YOUTUBE</span>
+                <h2 class="lb-heading">Top Phim Thịnh Hành</h2>
+                <p class="lb-subheading" id="lbSubheading">Vinh danh phim nổi bật theo lượt xem và lượt thích thực tế</p>
+              </div>
+              <div class="lb-metric-group" id="lbMetricGroup" role="group" aria-label="Tiêu chí xếp hạng">
+                <button type="button" class="lb-metric-btn active" data-metric="views">Xem Nhiều Nhất</button>
+                <button type="button" class="lb-metric-btn" data-metric="likes">Yêu Thích Nhất</button>
+              </div>
+            </div>
+
+            <div class="lb-controls-bottom">
+              <div class="lb-time-group" id="lbTimeGroup" role="group" aria-label="Chu kỳ bảng xếp hạng">
+                <button type="button" class="lb-time-btn" data-range="day">Hôm nay</button>
+                <button type="button" class="lb-time-btn active" data-range="week">Tuần này</button>
+                <button type="button" class="lb-time-btn" data-range="month">Tháng này</button>
+                <button type="button" class="lb-time-btn" data-range="year">Năm nay</button>
+                <button type="button" class="lb-time-btn" data-range="all">All-time</button>
+              </div>
+
+              <div class="lb-scope-selects">
+                <select id="lbChannelSelect" class="filter-select" aria-label="Lọc bảng xếp hạng theo kênh">
+                  <option value="all">Tất cả 28 kênh</option>
+                </select>
+                <select id="lbGenreSelect" class="filter-select" aria-label="Lọc bảng xếp hạng theo thể loại">
+                  <option value="all">Tất cả thể loại</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="leaderboard-showcase" id="leaderboardShowcase"></div>
+          </section>
+
+          <!-- Main 3-Column Cinema Grid -->
+          <div class="cards-widescreen-grid" id="cardsWidescreenGrid"></div>
+
+          <!-- Pagination -->
+          <nav class="pagination-bar" id="paginationBar" aria-label="Phân trang danh sách phim"></nav>
+        </section>
+      </div>
+    </section>
   </main>
 
-  <!-- ==========================================
-       NORDIC CINEMA THEATER MODAL PLAYER
-       ========================================== -->
+  <!-- SCREENING ROOM MODAL PLAYER -->
   <div class="cinema-modal" id="theaterModal" role="dialog" aria-modal="true" aria-labelledby="modalFilmTitle">
     <div class="modal-dim-backdrop" id="modalBackdrop"></div>
-    
     <div class="cinema-dialog-shell">
-      <!-- Modal Top Header -->
       <div class="cinema-dialog-head">
         <div class="cinema-title-stack">
           <span class="cinema-channel-kicker" id="modalChannelKicker">REVIEW PHIM</span>
@@ -333,10 +301,9 @@
         </button>
       </div>
 
-      <!-- 16:9 Cinema Viewport -->
       <div class="cinema-screen-wrap">
         <button type="button" class="btn-ambient-undim hidden" id="btnAmbientUndim" title="Bật lại đèn rạp">
-          <svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line></svg>
           <span>Bật đèn</span>
         </button>
         <div class="auto-next-overlay hidden" id="autoNextOverlay">
@@ -352,25 +319,24 @@
             </div>
           </div>
         </div>
-        <iframe 
-          id="youtubeIframe" 
-          src="" 
+        <iframe
+          id="youtubeIframe"
+          src=""
           title="YouTube Video Player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
       </div>
 
-      <!-- Modal Bottom Panel: Episode Selector -->
       <div class="cinema-dialog-body">
         <div class="player-toolbar">
           <button type="button" class="player-nav-btn" id="btnPrevEp"><svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg><span>Tập trước</span></button>
           <button type="button" class="player-nav-btn is-primary" id="btnNextEp"><span>Tập tiếp</span><svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
-          <button type="button" class="player-nav-btn is-toggle active" id="btnToggleAutoNext" title="Bật/Tắt tự động chuyển sang tập tiếp theo khi hết tập"><svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="5 4 15 12 5 20 5 4"></polygon><line x1="19" y1="5" x2="19" y2="19"></line></svg><span>Tự chuyển tập</span></button>
-          <button type="button" class="player-nav-btn is-toggle" id="btnTheaterWide" title="Mở rộng khung rạp chiếu (96vw)"><svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg><span>Rạp rộng</span></button>
-          <button type="button" class="player-nav-btn is-toggle" id="btnAmbientDim" title="Tắt đèn không gian để tập trung xem"><svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg><span>Tắt đèn</span></button>
-          <button type="button" class="player-nav-btn" id="btnQrCode" title="Quét mã QR xem ngay trên Điện thoại / Smart TV"><svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg><span>Xem trên TV/Phone</span></button>
-          <button type="button" class="player-nav-btn" id="btnShareFilm" title="Sao chép link phim/tập này"><svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg><span>Chia sẻ</span></button>
+          <button type="button" class="player-nav-btn is-toggle active" id="btnToggleAutoNext"><svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="5 4 15 12 5 20 5 4"></polygon><line x1="19" y1="5" x2="19" y2="19"></line></svg><span>Tự chuyển tập</span></button>
+          <button type="button" class="player-nav-btn is-toggle" id="btnTheaterWide"><svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg><span>Rạp rộng</span></button>
+          <button type="button" class="player-nav-btn is-toggle" id="btnAmbientDim"><svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg><span>Tắt đèn</span></button>
+          <button type="button" class="player-nav-btn" id="btnQrCode"><svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg><span>TV / Mobile</span></button>
+          <button type="button" class="player-nav-btn" id="btnShareFilm"><svg class="icon icon-xs" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg><span>Chia sẻ</span></button>
           <a class="player-nav-btn" id="btnOpenYoutube" href="#" target="_blank" rel="noopener noreferrer"><svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg><span>YouTube</span></a>
         </div>
 
@@ -382,41 +348,35 @@
         <div class="episodes-bar-head">
           <div class="episodes-heading">
             <svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-            <span>DANH SÁCH TẬP PHIM:</span>
+            <span>DANH SÁCH TẬP PHIM</span>
             <span class="episodes-badge-count" id="modalEpCounter">1 Tập</span>
           </div>
           <button type="button" class="btn-modal-bookmark" id="btnModalBookmark">
             <svg class="icon icon-xs" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
-            <span>Lưu Vào Bộ Sưu Tập</span>
+            <span>Lưu Vào Tủ Phim</span>
           </button>
         </div>
 
-        <!-- Episode Matrix Buttons Grid -->
-        <div class="episode-capsules-grid" id="modalEpMatrix">
-          <!-- Rendered dynamically via JS -->
-        </div>
+        <div class="episode-capsules-grid" id="modalEpMatrix"></div>
 
         <div class="related-block" id="relatedBlock">
           <div class="episodes-heading"><span id="relatedTitle">PHIM 3D CÙNG THỂ LOẠI</span></div>
           <div class="related-row" id="relatedRow"></div>
         </div>
-
       </div>
     </div>
   </div>
 
-  <!-- ==========================================
-       NORDIC RANDOMIZER SPOTLIGHT MODAL (GỢI Ý PHIM)
-       ========================================== -->
+  <!-- DETAIL / RANDOMIZER SPOTLIGHT MODAL -->
   <div class="random-modal" id="randomModal" role="dialog" aria-modal="true" aria-labelledby="randomFilmTitle">
     <div class="random-backdrop" id="randomBackdrop"></div>
     <div class="random-dialog">
       <div class="random-modal-head">
         <span class="random-kicker">
           <svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><circle cx="9" cy="9" r="1.5" fill="currentColor"></circle><circle cx="15" cy="15" r="1.5" fill="currentColor"></circle></svg>
-          <span>GỢI Ý PHIM 3D HÔM NAY</span>
+          <span>CHI TIẾT &amp; ĐỀ CỬ PHIM 3D</span>
         </span>
-        <button type="button" class="cinema-close-circle" id="btnCloseRandom" aria-label="Đóng gợi ý phim">
+        <button type="button" class="cinema-close-circle" id="btnCloseRandom" aria-label="Đóng chi tiết phim">
           <svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
         </button>
       </div>
@@ -433,11 +393,8 @@
       </div>
 
       <div class="random-card-body">
-        <h3 class="random-film-title" id="randomFilmTitle">Đang chọn ngẫu nhiên một siêu phẩm 3D...</h3>
-
-        <div class="random-tags-row" id="randomTagsRow">
-          <!-- Populated dynamically: Channel + Genre chips -->
-        </div>
+        <h3 class="random-film-title" id="randomFilmTitle">Đang chọn phim...</h3>
+        <div class="random-tags-row" id="randomTagsRow"></div>
 
         <div class="random-stats-grid" id="randomStatsGrid">
           <div class="random-stat-box">
@@ -448,11 +405,11 @@
             <span class="rs-label">Số tập</span>
             <strong class="rs-value" id="randomStatParts">-</strong>
           </div>
-          <div class="random-stat-box rs-views">
+          <div class="random-stat-box">
             <span class="rs-label">Lượt xem</span>
             <strong class="rs-value" id="randomStatViews">-</strong>
           </div>
-          <div class="random-stat-box rs-likes">
+          <div class="random-stat-box">
             <span class="rs-label">Lượt thích</span>
             <strong class="rs-value" id="randomStatLikes">-</strong>
           </div>
@@ -460,7 +417,7 @@
 
         <div class="random-synopsis-wrap">
           <div class="random-synopsis-label">Tóm tắt nội dung</div>
-          <p class="random-synopsis-text" id="randomFilmSynopsis">Đang tải nội dung tóm tắt...</p>
+          <p class="random-synopsis-text" id="randomFilmSynopsis"></p>
         </div>
 
         <div class="random-actions">
@@ -468,10 +425,7 @@
             <svg class="icon icon-sm" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
             <span>Xem Ngay Tập 1</span>
           </button>
-          <button type="button" class="btn-roll-again" id="btnRandomRollAgain">
-            <svg class="icon icon-sm" viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
-            <span>Đổi Phim Khác</span>
-          </button>
+          <button type="button" class="btn-roll-again" id="btnRandomRollAgain">Đổi Phim Khác</button>
           <button type="button" class="btn-random-bookmark" id="btnRandomBookmark" title="Lưu theo dõi phim">
             <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
             <span>Lưu</span>
@@ -481,9 +435,7 @@
     </div>
   </div>
 
-  <!-- ==========================================
-       QR CODE DIALOG MODAL (XEM TRÊN ĐIỆN THOẠI / TV)
-       ========================================== -->
+  <!-- QR CODE HANDOVER MODAL -->
   <div class="qr-modal" id="qrModal" role="dialog" aria-modal="true" aria-labelledby="qrModalTitle">
     <div class="qr-backdrop" id="qrBackdrop"></div>
     <div class="qr-dialog">
@@ -497,10 +449,8 @@
         </button>
       </div>
       <div class="qr-dialog-body">
-        <p class="qr-description">Quét mã QR bằng Camera điện thoại hoặc Zalo để chuyển rạp chiếu lên điện thoại / Smart TV:</p>
-        <div class="qr-code-frame" id="qrCodeFrame">
-          <!-- Standalone SVG QR Code dynamically rendered here -->
-        </div>
+        <p class="qr-description">Quét mã QR bằng Camera điện thoại hoặc Zalo để mở nhanh rạp chiếu:</p>
+        <div class="qr-code-frame" id="qrCodeFrame"></div>
         <p class="qr-target-title" id="qrTargetTitle"></p>
         <div class="qr-action-row">
           <button type="button" class="btn-copy-qr-url" id="btnCopyQrUrl">
@@ -512,31 +462,30 @@
     </div>
   </div>
 
-  <!-- Toast Notification Bubble -->
+  <!-- TOAST -->
   <div class="toast-pill" id="toastPill" role="status" aria-live="polite"></div>
 
-  <!-- Mobile Bottom Dock Navigation -->
+  <!-- MOBILE BOTTOM DOCK -->
   <nav class="mobile-bottom-bar" id="mobileBottomBar" aria-label="Điều hướng nhanh di động">
     <button type="button" class="dock-item active" data-dock="all">
-      <svg class="icon icon-sm" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+      <svg class="icon icon-sm" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
       <span>Khám Phá</span>
     </button>
     <button type="button" class="dock-item" data-dock="leaderboard">
-      <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
+      <svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
       <span>Bảng XH</span>
     </button>
-    <button type="button" class="dock-item" id="dockDiceBtn">
-      <svg class="icon icon-sm" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><circle cx="12" cy="12" r="2" fill="currentColor"></circle></svg>
-      <span>Gợi Ý</span>
+    <button type="button" class="dock-item" popovertarget="channelDrawer">
+      <svg class="icon icon-sm" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="14" rx="2"></rect><polyline points="17 2 12 6 7 2"></polyline></svg>
+      <span>28 Kênh</span>
     </button>
     <button type="button" class="dock-item" data-dock="favorites">
       <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
-      <span>Đã Lưu</span>
+      <span>Tủ Phim</span>
     </button>
   </nav>
 
-  <!-- Load Data and Application Controller -->
-  <script src="data.js?v=20261124_173500"></script>
-  <script src="app.js?v=20261124_173500"></script>
+  <script src="data.js?v=20261125_020000"></script>
+  <script src="app.js?v=20261125_031500"></script>
 </body>
 </html>

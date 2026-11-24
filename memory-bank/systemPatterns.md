@@ -1,14 +1,15 @@
 # System Patterns — Hôm Nay Xem Gì (24h Live Feed & Notification Engine Edition)
 
 ## Architecture
-- **Design Philosophy**: Nordic Minimalist Pure Glass (Scandinavian Humanist Streaming UI).
+- **Design Philosophy**: Ambient Cinema Hybrid (`#060608` Obsidian Cinema + Sticky Horizontal Command Dock + Sticky Vertical Attribute Sidebar + 3-Column Cinema Grid) with bespoke `logo.svg` 3D Cinema Prism brand mark.
 - **Core Design Tokens**:
-  - Background Canvas: Arctic Slate `#0B0D11`
-  - Glass Surfaces: Frosted Glass `rgba(255, 255, 255, 0.035)` to `0.065` with `backdrop-filter: blur(20px)`
-  - Frosted Capsule: Deep Opaque Glass `rgba(11, 15, 23, 0.88)` with `backdrop-filter: blur(8px)`
-  - Primary Accent: Glacier Ice Blue `#38BDF8` (Sky 400)
-  - Secondary Accents: Amber Gold `#F59E0B` (Duration clock & Hot badge), Crimson `#EF4444` (Bookmarks)
-  - Typography: Google Font `Plus Jakarta Sans` across entire interface for flawless Vietnamese diacritics and geometric precision.
+  - Background Canvas: Obsidian `#060608` (`--bg-surface: #111116`, `--bg-elevated: #1A1A22`)
+  - Primary Accent: Cinema Crimson `#F43F5E`, High-Contrast CTA `#FFFFFF` on `#060608`
+  - Progressive Gradient Mixing: `@supports` `--in-oklab: in oklab` with empty fallback preamble
+  - Typography: `Space Grotesk` (display headings), `Be Vietnam Pro` (body), `JetBrains Mono` (metadata & tabular counts)
+- **Catalog Filtering & Zero-Jump Architecture**:
+  - `#spotlightHeroShell` remains mounted permanently (never toggled off on filter clicks).
+  - Horizontal `#commandDock` holds mode tabs (`all`, `recent24h`, `leaderboard`, `hot`, `multipart`, `single`, `favorites`), result count, Sort & Timeframe selects; vertical `#appSidebar` holds `Thể Loại 3D`, `Thời Lượng`, and `Nguồn Studio` (`popovertarget="channelDrawer"`), collapsing into `#mobileFilterDrawer` at `<= 1024px`.
 
 ## New Feature Subsystems
 1. **24-Hour Live Update Newfeed Engine**:
