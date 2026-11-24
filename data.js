@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 5859,
+    "totalFilms": 5860,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 28,
-    "lastUpdated": "2026-11-24T10:05:46.454966+00:00"
+    "lastUpdated": "2026-11-24T10:15:32.561998+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 492
+      "filmCount": 493
     },
     {
       "id": "naophangtutien",
@@ -179,6 +179,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_5860",
+      "title": "15 GIỜ THỎA MÃN | Xuyên Không Tu Tiên, Hệ Thống Bị Lỗi, Ta Ẩn Tu Tích Khí Vận Thành Vô Địch!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 53442,
+      "totalDurationStr": "14 giờ 50 phút",
+      "totalViews": 464,
+      "totalLikes": 27,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **XUYÊN KHÔNG TU TIÊN – HỆ THỐNG BỊ HỎNG, TA ẨN TU TÍCH KHÍ VẬN THÀNH VÔ ĐỊCH! | 15H** ⚔️ **Tô Khởi** bất ngờ xuyên không đến thế giới tu tiên sau cuộc chạm trán với một chiếc xe tải kỳ lạ. Trớ trêu thay, hệ thống của hắn bị hỏng, không thể nhận thưởng như bình thường! 🔥 Phát hiện...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/y5UVmN9XMQk/hqdefault.jpg",
+      "publishedAt": "2026-11-24T10:00:15+00:00",
+      "updatedAt": "2026-11-24T10:00:15+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "15 GIỜ THỎA MÃN | Xuyên Không Tu Tiên, Hệ Thống Bị Lỗi, Ta Ẩn Tu Tích Khí Vận Thành Vô Địch!",
+          "url": "https://www.youtube.com/watch?v=y5UVmN9XMQk",
+          "id": "y5UVmN9XMQk",
+          "duration": 53442,
+          "durationStr": "14:50:42",
+          "publishedAt": "2026-11-24T10:00:15+00:00",
+          "views": 464,
+          "likes": 27,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1",
       "title": "Hệ Thống Khế Ước Cá Biển: Từ Ngư Dân Nghèo Thành Đại Gia | Đậu Đậu Vietsub",
