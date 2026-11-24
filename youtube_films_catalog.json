@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5736,
+    "totalFilms": 5737,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T08:15:28.761995+00:00"
+    "lastUpdated": "2026-11-24T08:30:36.686103+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 490
+      "filmCount": 491
     },
     {
       "id": "naophangtutien",
@@ -173,6 +173,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_5737",
+      "title": "8 GIỜ 30 | Tu Tiên Hài Hước: Không Có Linh Căn, Ta Tự Sửa Công Pháp Luyện Thành Cao Thủ!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 30383,
+      "totalDurationStr": "8 giờ 26 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TU TIÊN HÀI HƯỚC – KHÔNG LINH CĂN, TỰ SỬA CÔNG PHÁP KHIẾN CẢ GIỚI TU TIÊN KINH NGẠC! | 8H25** ⚔️ **Hoa Lưu Vân** xuyên không đến thế giới tu tiên, sống tại Thượng Bá thôn. Trong khi 15 người cùng làng đều sở hữu tư chất Đại Đế, riêng hắn lại bị phán là phàm nhân không có linh...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/r3psP8Eb6pY/hqdefault.jpg",
+      "publishedAt": "2026-11-24T08:30:21+00:00",
+      "updatedAt": "2026-11-24T08:30:21+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "8 GIỜ 30 | Tu Tiên Hài Hước: Không Có Linh Căn, Ta Tự Sửa Công Pháp Luyện Thành Cao Thủ!",
+          "url": "https://www.youtube.com/watch?v=r3psP8Eb6pY",
+          "id": "r3psP8Eb6pY",
+          "duration": 30383,
+          "durationStr": "8:26:23",
+          "publishedAt": "2026-11-24T08:30:21+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5736",
       "title": "Full P2 01~171 |  Tưởng Học Viên Ph.ế V.ật, Nào Ngờ Cậu Lại Là Chủ Nhân Vùng Đất Táng Thần",
