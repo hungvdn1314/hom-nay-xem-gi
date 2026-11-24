@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5735,
+    "totalFilms": 5736,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T08:00:44.461420+00:00"
+    "lastUpdated": "2026-11-24T08:15:28.761995+00:00"
   },
   "channels": [
     {
@@ -115,7 +115,7 @@
       "id": "huyensutieumuoi",
       "name": "Huyền Sư Tiểu Muội",
       "url": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
-      "filmCount": 44
+      "filmCount": 45
     },
     {
       "id": "2ksub",
@@ -173,6 +173,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_5736",
+      "title": "Full P2 01~171 |  Tưởng Học Viên Ph.ế V.ật, Nào Ngờ Cậu Lại Là Chủ Nhân Vùng Đất Táng Thần",
+      "channelId": "huyensutieumuoi",
+      "channelName": "Huyền Sư Tiểu Muội",
+      "channelUrl": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11041,
+      "totalDurationStr": "3 giờ 04 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Xuất thân từ phế tích loạn dân, Hoàng Dã che giấu bí mật song đồ kinh Hủy Diệt và Khế Ước. Để cứu mẹ và chị gái bị tà giáo biến thành quỷ dị, cậu cầm xẻng máu Thần Sứ xông vào Quỷ Vực, vượt cấp đánh bại cường địch, gây dựng thế lực bảo vệ gia đình. 🔔 Nhấn chuông thông báo để không bỏ lỡ các tập phim kỳ ảo, tu chân và đô thị dị năng mới nhất mỗi ngày. ❖...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/ekf_RXTdq6o/hqdefault.jpg",
+      "publishedAt": "2026-11-24T08:15:02+00:00",
+      "updatedAt": "2026-11-24T08:15:02+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Full P2 01~171 |  Tưởng Học Viên Ph.ế V.ật, Nào Ngờ Cậu Lại Là Chủ Nhân Vùng Đất Táng Thần",
+          "url": "https://www.youtube.com/watch?v=ekf_RXTdq6o",
+          "id": "ekf_RXTdq6o",
+          "duration": 11041,
+          "durationStr": "3:04:01",
+          "publishedAt": "2026-11-24T08:15:02+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5735",
       "title": "18 GIỜ THỎA MÃN | Đô Thị Cao Thủ Xuống Núi, Mắc Nợ Mỹ Nhân Nên Đi Làm Bảo Vệ!",
@@ -31559,12 +31597,12 @@
       "channelName": "Não Phẳng Tu Tiên",
       "channelUrl": "https://www.youtube.com/@nao-phang",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 12)",
-      "totalDurationSec": 7938,
-      "totalDurationStr": "2 giờ 12 phút",
-      "totalViews": 2900,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 16202,
+      "totalDurationStr": "4 giờ 30 phút",
+      "totalViews": 2912,
+      "totalLikes": 1,
       "review": "Phim hoạt hình 3D thuyết minh trọn bộ từ kênh Não Phẳng Tu Tiên.",
       "genres": [
         "Võ hiệp / Cổ trang",
@@ -31572,11 +31610,11 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/sByvZZA2Nk4/hqdefault.jpg",
       "publishedAt": "2026-11-14T10:49:42.537089+00:00",
-      "updatedAt": "2026-11-14T10:49:42.537089+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-24T08:08:44+00:00",
+      "isRecent24h": true,
       "parts": [
         {
-          "index": 12,
+          "index": 1,
           "label": "Phần 12",
           "title": "Phần 12: Từ Đống Xác Trở Lại, Cầm Đao Khuấy Động Giang Hồ, Lật Tung Bàn Cờ",
           "url": "https://www.youtube.com/watch?v=sByvZZA2Nk4",
@@ -31586,6 +31624,21 @@
           "publishedAt": "2026-11-14T10:49:42.537089+00:00",
           "views": 2900,
           "likes": 0,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 2,
+          "label": "Phần 13",
+          "title": "Phần 13: Từ Đống Xác Trở Lại, Cầm Đao Khuấy Động Giang Hồ, Lật Tung Bàn Cờ",
+          "url": "https://www.youtube.com/watch?v=_Q5hiDr7gKE",
+          "id": "_Q5hiDr7gKE",
+          "duration": 8264,
+          "durationStr": "2:17:44",
+          "publishedAt": "2026-11-24T08:08:44+00:00",
+          "views": 12,
+          "likes": 1,
           "isRedundant": false,
           "channelId": "naophangtutien",
           "channelName": "Não Phẳng Tu Tiên"
