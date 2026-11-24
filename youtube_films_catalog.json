@@ -6,7 +6,7 @@
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 28,
-    "lastUpdated": "2026-11-24T17:15:36.052281+00:00"
+    "lastUpdated": "2026-11-24T19:00:52.591157+00:00"
   },
   "channels": [
     {
@@ -7336,20 +7336,20 @@
       "channelName": "Não Phẳng Tu Tiên",
       "channelUrl": "https://www.youtube.com/@nao-phang",
       "playlistUrl": null,
-      "totalParts": 13,
-      "partsStr": "13 phần",
-      "totalDurationSec": 87138,
-      "totalDurationStr": "24 giờ 12 phút",
-      "totalViews": 128100,
-      "totalLikes": 0,
+      "totalParts": 14,
+      "partsStr": "14 phần",
+      "totalDurationSec": 97530,
+      "totalDurationStr": "27 giờ 05 phút",
+      "totalViews": 128123,
+      "totalLikes": 1,
       "review": "",
       "genres": [
         "Tu tiên / Huyền huyễn"
       ],
       "thumbnail": "https://i.ytimg.com/vi/c5iiDKLQcZg/hqdefault.jpg",
       "publishedAt": "2026-11-09T10:49:42.537089+00:00",
-      "updatedAt": "2026-11-22T10:49:42.537089+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-24T18:47:24+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -7458,6 +7458,21 @@
         },
         {
           "index": 8,
+          "label": "Phần 6.3",
+          "title": "Phần 6-P3 (676-885): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
+          "url": "https://www.youtube.com/watch?v=jzETKZvVLSQ",
+          "id": "jzETKZvVLSQ",
+          "duration": 10392,
+          "durationStr": "2:53:12",
+          "publishedAt": "2026-11-24T18:47:24+00:00",
+          "views": 23,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 9,
           "label": "Phần 5-6",
           "title": "Phần 5 -P6(685): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=LNrDktAS8Uo",
@@ -7472,7 +7487,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 9,
+          "index": 10,
           "label": "Phần 5-7",
           "title": "Phần 5 -P7(740): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=AFVS8jA5Neg",
@@ -7487,7 +7502,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 10,
+          "index": 11,
           "label": "Phần 5-8",
           "title": "Phần 5- P8(795): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=jJ-L7l4oOwU",
@@ -7502,7 +7517,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 11,
+          "index": 12,
           "label": "Phần 5-9",
           "title": "Phần 5-P9(850): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=lq0u7MMBreA",
@@ -7517,7 +7532,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 12,
+          "index": 13,
           "label": "Phần 5-10",
           "title": "Phần 5-P10(950): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=KuAkH_EUmE4",
@@ -7532,7 +7547,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 13,
+          "index": 14,
           "label": "Phần 5-11",
           "title": "Phần 5-P11(1000): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=hQrxQ--Ac5s",
