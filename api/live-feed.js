@@ -34,7 +34,8 @@ const CHANNELS = [
   { id: 'phimzooai', name: 'Phim Zoo AI', url: 'https://www.youtube.com/@PhimZooAI', channelId: 'UCaJF3EewrPYPb1rHpSUKtDA' },
   { id: 'nhatanhstudio', name: 'Nhật Ảnh Studio', url: 'https://www.youtube.com/@StudioCitraMentari', channelId: 'UC9ymEAdoYS17Vtkk8B60mCw' },
   { id: 'vananhstudio', name: 'Vạn Ảnh Studio', url: 'https://www.youtube.com/@vananhanhstudio', channelId: 'UCYjCN2YydxT6UaRlE7t83jQ' },
-  { id: 'akatsukireview', name: 'Akatsuki Review', url: 'https://www.youtube.com/@Akatsuki-KT', channelId: 'UCRkGgoKdH3K05UdgRamBb3Q' }
+  { id: 'akatsukireview', name: 'Akatsuki Review', url: 'https://www.youtube.com/@Akatsuki-KT', channelId: 'UCRkGgoKdH3K05UdgRamBb3Q' },
+  { id: 'mianhstudio', name: 'Mị Ảnh Studio', url: 'https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio', channelId: 'UCf6RjHLIxO2DYaH7PR2OvuQ' }
 ];
 
 const GENRE_RULES = [

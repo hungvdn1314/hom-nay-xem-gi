@@ -874,10 +874,14 @@ img {
 
 .continue-card {
   flex: 0 0 250px;
+  width: 250px;
+  min-width: 0;
+  max-width: 250px;
   display: flex;
   flex-direction: column;
   gap: 0.45rem;
   text-align: left;
+  overflow: hidden;
 }
 
 .continue-thumb {
@@ -885,15 +889,28 @@ img {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 9;
+  flex-shrink: 0;
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid var(--border-hairline);
+  background: #0B0B0F;
+  transition: border-color 0.18s ease;
+}
+
+.continue-card:hover .continue-thumb {
+  border-color: var(--border-strong);
 }
 
 .continue-thumb img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.25s ease;
+}
+
+.continue-card:hover .continue-thumb img {
+  transform: scale(1.04);
 }
 
 .continue-badge {
@@ -908,8 +925,17 @@ img {
   color: #FFFFFF;
 }
 
+.continue-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  width: 100%;
+  min-width: 0;
+}
+
 .continue-film-title {
   display: block;
+  max-width: 100%;
   font-size: 0.84375rem;
   font-weight: 600;
   white-space: nowrap;
@@ -919,9 +945,13 @@ img {
 
 .continue-sub {
   display: block;
+  max-width: 100%;
   font-family: var(--font-mono);
   font-size: 0.6875rem;
   color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* --------------------------------------------------------------------------
@@ -2008,6 +2038,9 @@ img {
 
 .related-card {
   flex: 0 0 210px;
+  width: 210px;
+  min-width: 0;
+  max-width: 210px;
 }
 
 /* Random / Detail Spotlight Modal */
@@ -2309,6 +2342,11 @@ img {
     height: 36px;
     padding: 0;
     justify-content: center;
+  }
+  .continue-card:not(.related-card) {
+    flex: 0 0 200px;
+    width: 200px;
+    max-width: 200px;
   }
   .command-dock {
     padding: 0.65rem;

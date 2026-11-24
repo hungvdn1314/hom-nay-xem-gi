@@ -84,7 +84,8 @@ CHANNELS = [
     {"id": "phimzooai", "name": "Phim Zoo AI", "url": "https://www.youtube.com/@PhimZooAI", "channel_id": "UCaJF3EewrPYPb1rHpSUKtDA"},
     {"id": "nhatanhstudio", "name": "Nhật Ảnh Studio", "url": "https://www.youtube.com/@StudioCitraMentari", "channel_id": "UC9ymEAdoYS17Vtkk8B60mCw"},
     {"id": "vananhstudio", "name": "Vạn Ảnh Studio", "url": "https://www.youtube.com/@vananhanhstudio", "channel_id": "UCYjCN2YydxT6UaRlE7t83jQ"},
-    {"id": "akatsukireview", "name": "Akatsuki Review", "url": "https://www.youtube.com/@Akatsuki-KT", "channel_id": "UCRkGgoKdH3K05UdgRamBb3Q"}
+    {"id": "akatsukireview", "name": "Akatsuki Review", "url": "https://www.youtube.com/@Akatsuki-KT", "channel_id": "UCRkGgoKdH3K05UdgRamBb3Q"},
+    {"id": "mianhstudio", "name": "Mị Ảnh Studio", "url": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio", "channel_id": "UCf6RjHLIxO2DYaH7PR2OvuQ"}
 ]
 
 DISCOVERY_QUERIES = [

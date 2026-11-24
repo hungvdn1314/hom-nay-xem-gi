@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 5993,
+    "totalFilms": 6024,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
-    "totalChannels": 28,
-    "lastUpdated": "2026-11-24T19:00:52.591157+00:00"
+    "totalChannels": 29,
+    "lastUpdated": "2026-11-24T20:34:01.208893+00:00"
   },
   "channels": [
     {
@@ -176,9 +176,1201 @@ window.FILMS_DATA = {
       "name": "Akatsuki Review",
       "url": "https://www.youtube.com/@Akatsuki-KT",
       "filmCount": 120
+    },
+    {
+      "id": "mianhstudio",
+      "name": "Mị Ảnh Studio",
+      "url": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "filmCount": 31
     }
   ],
   "films": [
+    {
+      "id": "film_6024",
+      "title": "Full Phần 1 |【Không Giả Vờ Nữa, Ta Mới Chính Là Đại Phản Diện Số Một Cửu Châu!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8831,
+      "totalDurationStr": "2 giờ 27 phút",
+      "totalViews": 115,
+      "totalLikes": 7,
+      "review": "🎬 【Không Giả Vờ Nữa, Ta Mới Chính Là Đại Phản Diện Số Một Cửu Châu!】 😈🔥 Giữa thế giới Cửu Châu rộng lớn, nơi các thiên kiêu tranh bá và vô số thế lực tu tiên không ngừng đấu đá, nhân vật chính lại che giấu một thân phận khiến cả thiên hạ phải kinh sợ! Tưởng chừng chỉ là một kẻ bình thường không đáng chú ý, nhưng đằng sau vẻ ngoài ấy lại là Đại Phản Diện...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/k0evNhrEc4A/hqdefault.jpg",
+      "publishedAt": "2026-11-24T06:33:40.344462+00:00",
+      "updatedAt": "2026-11-24T06:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Không Giả Vờ Nữa, Ta Mới Chính Là Đại Phản Diện Số Một Cửu Châu!】",
+          "url": "https://www.youtube.com/watch?v=k0evNhrEc4A",
+          "id": "k0evNhrEc4A",
+          "duration": 8831,
+          "durationStr": "2:27:11",
+          "publishedAt": "2026-11-24T06:33:40.344462+00:00",
+          "views": 115,
+          "likes": 7,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6023",
+      "title": "Full Phần 1 | 【Nhạc Sĩ Đỉnh Lưu: Siêu Sao Trở Lại, Một Bài Hát Phong Thần!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8173,
+      "totalDurationStr": "2 giờ 16 phút",
+      "totalViews": 237,
+      "totalLikes": 16,
+      "review": "🎬 【Nhạc Sĩ Đỉnh Lưu: Siêu Sao Trở Lại, Một Bài Hát Phong Thần!】 🎤🎶 Từng đứng trên đỉnh cao âm nhạc, một nhạc sĩ tài năng nay bắt đầu hành trình trở lại đầy ngoạn mục! Giữa làng giải trí cạnh tranh khốc liệt, nơi danh tiếng và tài năng luôn bị đặt lên bàn cân, anh quyết tâm dùng chính những sáng tác của mình để chứng minh thực lực. Không cần chiêu trò hay...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/eEBWu0sks1s/hqdefault.jpg",
+      "publishedAt": "2026-11-24T03:33:40.344462+00:00",
+      "updatedAt": "2026-11-24T03:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Nhạc Sĩ Đỉnh Lưu: Siêu Sao Trở Lại, Một Bài Hát Phong Thần!】",
+          "url": "https://www.youtube.com/watch?v=eEBWu0sks1s",
+          "id": "eEBWu0sks1s",
+          "duration": 8173,
+          "durationStr": "2:16:13",
+          "publishedAt": "2026-11-24T03:33:40.344462+00:00",
+          "views": 237,
+          "likes": 16,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6022",
+      "title": "【Mùa 1 | Tửu Kiếm Nhân Hoàng】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 17080,
+      "totalDurationStr": "4 giờ 44 phút",
+      "totalViews": 864,
+      "totalLikes": 4,
+      "review": "🎬 【Mùa 1 | Tửu Kiếm Nhân Hoàng】 🍶 Xuyên đến thế giới tôn sùng võ đạo, Cố Bình An kích hoạt khuôn mẫu Tửu Kiếm Tiên, chỉ cần uống rượu là có thể mạnh lên! Nhưng muốn tìm được rượu ngon ủ theo cổ pháp lại chẳng dễ dàng. Con đường tu luyện của chàng trai mê rượu cũng vì thế mà đầy những chuyện khó lường. ⚔️ Một lần say xỉn gây náo loạn trường học, Cố Bình...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/h8efZJy9xvQ/hqdefault.jpg",
+      "publishedAt": "2026-11-21T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-21T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "【Mùa 1 | Tửu Kiếm Nhân Hoàng】",
+          "url": "https://www.youtube.com/watch?v=h8efZJy9xvQ",
+          "id": "h8efZJy9xvQ",
+          "duration": 17080,
+          "durationStr": "4:44:40",
+          "publishedAt": "2026-11-21T20:33:40.344462+00:00",
+          "views": 864,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6021",
+      "title": "Full Phần 1 |【Hệ Thống Pháo Đài Tận Thế: Tôi Điên Cuồng Xây Dựng Giữa Giới Tu Tiên!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12754,
+      "totalDurationStr": "3 giờ 32 phút",
+      "totalViews": 213,
+      "totalLikes": 4,
+      "review": "🎬 【Hệ Thống Pháo Đài Tận Thế: Tôi Điên Cuồng Xây Dựng Giữa Giới Tu Tiên!】 🏗️ Tám tỷ người bất ngờ bị đưa đến giới tu tiên, mỗi người nhận hai dị năng để sinh tồn. Chu Phàm vừa đặt chân tới đã bị hổ dữ chặn đường, phải tìm cách thoát hiểm, kiếm thức ăn và dựng nơi trú ẩn. Giữa hoàn cảnh ấy, anh phát hiện mình có thể giả làm hệ thống để giao nhiệm vụ cho...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/cSe3Qpw5DBk/hqdefault.jpg",
+      "publishedAt": "2026-11-20T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-20T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Hệ Thống Pháo Đài Tận Thế: Tôi Điên Cuồng Xây Dựng Giữa Giới Tu Tiên!】",
+          "url": "https://www.youtube.com/watch?v=cSe3Qpw5DBk",
+          "id": "cSe3Qpw5DBk",
+          "duration": 12754,
+          "durationStr": "3:32:34",
+          "publishedAt": "2026-11-20T20:33:40.344462+00:00",
+          "views": 213,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6019",
+      "title": "Full P1 【Ngự Thú: Từ Bỏ Thanh Long Cấp SSS Để Chọn Hùng Đại!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6417,
+      "totalDurationStr": "1 giờ 46 phút",
+      "totalViews": 175,
+      "totalLikes": 2,
+      "review": "🎬 【Ngự Thú: Từ Bỏ Thanh Long Cấp SSS Để Chọn Hùng Đại!】 🔥 Xuyên không đến một thế giới lấy ngự thú làm sức mạnh tối thượng, Giang Dã bất ngờ thức tỉnh hệ thống lựa chọn thần bí! 🐉 Trước mắt hắn là cơ hội sở hữu Thanh Long cấp SSS, thần thú vô cùng mạnh mẽ mà bất kỳ ngự thú sư nào cũng khao khát. Thế nhưng, thay vì lựa chọn Thanh Long, Giang Dã lại quyết...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/UYTFPa_Zur8/hqdefault.jpg",
+      "publishedAt": "2026-11-19T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-19T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full P1 【Ngự Thú: Từ Bỏ Thanh Long Cấp SSS Để Chọn Hùng Đại!】",
+          "url": "https://www.youtube.com/watch?v=UYTFPa_Zur8",
+          "id": "UYTFPa_Zur8",
+          "duration": 6417,
+          "durationStr": "1:46:57",
+          "publishedAt": "2026-11-19T20:33:40.344462+00:00",
+          "views": 175,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6020",
+      "title": "Full P1【Thu Nhận Những Thực Thể Cấm Kỵ Làm Nhân Viên, Cục 749 Bất Ngờ Tìm Đến Cửa!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8413,
+      "totalDurationStr": "2 giờ 20 phút",
+      "totalViews": 535,
+      "totalLikes": 30,
+      "review": "🎬 【Thu Nhận Những Thực Thể Cấm Kỵ Làm Nhân Viên, Cục 749 Bất Ngờ Tìm Đến Cửa!】 🔥 Giữa một thế giới đầy rẫy những sinh vật kỳ dị và hiện tượng siêu nhiên, Tô Niên lại có một ý tưởng kinh doanh vô cùng táo bạo: thu nhận những thực thể cấm kỵ về làm nhân viên! 👻 Từ những yêu quái sở hữu năng lực đáng sợ đến các sinh vật bí ẩn không ai dám tiếp cận, tất cả...",
+      "genres": [
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/g2_peU9PoUI/hqdefault.jpg",
+      "publishedAt": "2026-11-19T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-19T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full P1【Thu Nhận Những Thực Thể Cấm Kỵ Làm Nhân Viên, Cục 749 Bất Ngờ Tìm Đến Cửa!】",
+          "url": "https://www.youtube.com/watch?v=g2_peU9PoUI",
+          "id": "g2_peU9PoUI",
+          "duration": 8413,
+          "durationStr": "2:20:13",
+          "publishedAt": "2026-11-19T20:33:40.344462+00:00",
+          "views": 535,
+          "likes": 30,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6016",
+      "title": "Full Phần 1 | Trò Chơi Kinh Dị: Hành Trình Đào Thoát Bắt Đầu Từ Tòa Lâu Đài Cổ!",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8189,
+      "totalDurationStr": "2 giờ 16 phút",
+      "totalViews": 863,
+      "totalLikes": 10,
+      "review": "🎬 【Trò Chơi Kinh Dị: Hành Trình Đào Thoát Bắt Đầu Từ Tòa Lâu Đài Cổ!】 🏰 Hành trình sinh tồn bắt đầu trong một tòa lâu đài cổ. Mục tiêu nghe qua rất đơn giản: tìm đường thoát ra ngoài. Nhưng giữa những hành lang xa lạ và những cánh cửa chưa mở, làm sao biết lối nào dẫn ra ngoài, lối nào chỉ đưa người chơi lún sâu hơn vào trò chơi? 🕯️ Càng muốn thoát...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/uLEdUx_rdtU/hqdefault.jpg",
+      "publishedAt": "2026-11-18T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-18T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Trò Chơi Kinh Dị: Hành Trình Đào Thoát Bắt Đầu Từ Tòa Lâu Đài Cổ!",
+          "url": "https://www.youtube.com/watch?v=uLEdUx_rdtU",
+          "id": "uLEdUx_rdtU",
+          "duration": 8189,
+          "durationStr": "2:16:29",
+          "publishedAt": "2026-11-18T20:33:40.344462+00:00",
+          "views": 863,
+          "likes": 10,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6017",
+      "title": "Full Phần 1 |【Sinh Tồn Trên Đường Cao Tốc: Tài Nguyên Của Tôi Có Thể Khuếch Đại Vô Hạn!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8258,
+      "totalDurationStr": "2 giờ 17 phút",
+      "totalViews": 1319,
+      "totalLikes": 27,
+      "review": "🎬 【Sinh Tồn Trên Đường Cao Tốc: Tài Nguyên Của Tôi Có Thể Khuếch Đại Vô Hạn!】 🚗 Trong trò chơi sinh tồn trên đường cao tốc, mỗi món vật tư nhặt được dọc đường đều đáng giá. Giữa lúc mọi người còn lo kiếm đủ đồ cho chặng tiếp theo, nam chính phát hiện mình có thể khuếch đại tài nguyên vô hạn. Một món đồ nhỏ cũng có thể trở thành cả kho dự trữ. 📦 Có năng...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/m9e6c3rojMc/hqdefault.jpg",
+      "publishedAt": "2026-11-18T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-18T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Sinh Tồn Trên Đường Cao Tốc: Tài Nguyên Của Tôi Có Thể Khuếch Đại Vô Hạn!】",
+          "url": "https://www.youtube.com/watch?v=m9e6c3rojMc",
+          "id": "m9e6c3rojMc",
+          "duration": 8258,
+          "durationStr": "2:17:38",
+          "publishedAt": "2026-11-18T20:33:40.344462+00:00",
+          "views": 1319,
+          "likes": 27,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6018",
+      "title": "Full P1【Trọng Sinh Thành Hắc Long: Trang Bị Đều Là Cấp Truyền Thuyết!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9718,
+      "totalDurationStr": "2 giờ 41 phút",
+      "totalViews": 720,
+      "totalLikes": 13,
+      "review": "🔥 【Trọng Sinh Thành Hắc Long: Trang Bị Đều Là Cấp Truyền Thuyết!】 🐉 Trần Văn, một thanh niên mắc bệnh hiểm nghèo, bất ngờ trọng sinh thành một con Hắc Long trong thế giới ma pháp đầy nguy hiểm! ⚔️ Vốn chỉ muốn tự do ngao du thiên địa, hắn lại sở hữu trí tuệ vượt xa Long tộc thông thường. Nhờ kiến thức từ kiếp trước, Trần Văn tự chế tạo vũ khí, áo giáp,...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/ZUamXRe44UY/hqdefault.jpg",
+      "publishedAt": "2026-11-18T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-18T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full P1【Trọng Sinh Thành Hắc Long: Trang Bị Đều Là Cấp Truyền Thuyết!】",
+          "url": "https://www.youtube.com/watch?v=ZUamXRe44UY",
+          "id": "ZUamXRe44UY",
+          "duration": 9718,
+          "durationStr": "2:41:58",
+          "publishedAt": "2026-11-18T20:33:40.344462+00:00",
+          "views": 720,
+          "likes": 13,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6014",
+      "title": "Full Phần 1 |【Tiệm Vàng Mã Bất Ngờ Đón Một Vị Quỷ Dị Đứng Đầu!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9095,
+      "totalDurationStr": "2 giờ 31 phút",
+      "totalViews": 915,
+      "totalLikes": 19,
+      "review": "🎬 【Tiệm Vàng Mã Bất Ngờ Đón Một Vị Quỷ Dị Đứng Đầu!】 🏮 Ngồi sau quầy, Tô Mặc vẫn cầm bút làm đồ mã như thường lệ. Thấy có khách, anh chỉ nói một câu đơn giản: “Chỗ tôi bán đồ mã.” Ai ngờ người vừa ghé tiệm lại là một vị quỷ dị đứng đầu! 👻 Giữa những bộ áo giấy và hình nhân bày kín tiệm, cuộc trò chuyện với vị khách ấy khiến buổi bán hàng thường ngày trở...",
+      "genres": [
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/L4f87UPnW0o/hqdefault.jpg",
+      "publishedAt": "2026-11-17T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-17T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Tiệm Vàng Mã Bất Ngờ Đón Một Vị Quỷ Dị Đứng Đầu!】",
+          "url": "https://www.youtube.com/watch?v=L4f87UPnW0o",
+          "id": "L4f87UPnW0o",
+          "duration": 9095,
+          "durationStr": "2:31:35",
+          "publishedAt": "2026-11-17T20:33:40.344462+00:00",
+          "views": 915,
+          "likes": 19,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6015",
+      "title": "Full Phần 1 |【Sinh Tồn Trên Đại Dương: Mỗi Ngày Bạo Kích Gấp 10.000 Lần!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8061,
+      "totalDurationStr": "2 giờ 14 phút",
+      "totalViews": 1200,
+      "totalLikes": 16,
+      "review": "🎬 【Sinh Tồn Trên Đại Dương: Mỗi Ngày Bạo Kích Gấp 10.000 Lần!】 🌊 Giữa đại dương mênh mông, kiếm đủ nước ngọt và thức ăn cho ngày mai đã là chuyện khó. Thế mà nhân vật chính lại có một lợi thế bất ngờ: mỗi ngày đều có thể bạo kích gấp 10.000 lần. Một món vật tư nhỏ cũng có thể giúp xoay chuyển tình thế. ⚡ Giữa thứ cần dùng ngay và thứ đáng để dành cho...",
+      "genres": [
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/n899Z3Xgit8/hqdefault.jpg",
+      "publishedAt": "2026-11-17T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-17T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Sinh Tồn Trên Đại Dương: Mỗi Ngày Bạo Kích Gấp 10.000 Lần!】",
+          "url": "https://www.youtube.com/watch?v=n899Z3Xgit8",
+          "id": "n899Z3Xgit8",
+          "duration": 8061,
+          "durationStr": "2:14:21",
+          "publishedAt": "2026-11-17T20:33:40.344462+00:00",
+          "views": 1200,
+          "likes": 16,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6013",
+      "title": "Full Phần 1 | Trọng Sinh Vào Thế Giới Trò Chơi, Tôi Trở Thành Tồn Tại Chung Yên!",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 15369,
+      "totalDurationStr": "4 giờ 16 phút",
+      "totalViews": 1718,
+      "totalLikes": 31,
+      "review": "🎬 【Trò Chơi Quỷ Dị: Tôi Bị Búp Bê Thông Cảm Của Boss Ràng Buộc!】 🍲 Bị kéo vào một trang viên quỷ dị, Giang Tiểu Đường phải tìm chìa khóa vàng để vượt ải. Phòng an toàn chỉ mở lúc nửa đêm, mà cứ một người chết thì hôm sau lại mất hai phòng. Trong lúc cả nhóm lo tìm chỗ trú, cô mang lẩu tự sôi ra đổi lấy thông tin từ lũ quỷ. 🧸 Tiểu Đường còn hứa bảo kê Cố...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/WXgc41wwSGM/hqdefault.jpg",
+      "publishedAt": "2026-11-16T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-16T20:33:40.344462+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Trọng Sinh Vào Thế Giới Trò Chơi, Tôi Trở Thành Tồn Tại Chung Yên!",
+          "url": "https://www.youtube.com/watch?v=WXgc41wwSGM",
+          "id": "WXgc41wwSGM",
+          "duration": 5530,
+          "durationStr": "1:32:10",
+          "publishedAt": "2026-11-16T20:33:40.344462+00:00",
+          "views": 837,
+          "likes": 13,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Trọng Sinh Vào Thế Giới Trò Chơi, Tôi Trở Thành Tồn Tại Chung Yên!",
+          "url": "https://www.youtube.com/watch?v=zNWbpaPuOYE",
+          "id": "zNWbpaPuOYE",
+          "duration": 9839,
+          "durationStr": "2:43:59",
+          "publishedAt": "2026-11-16T20:33:40.344462+00:00",
+          "views": 881,
+          "likes": 18,
+          "isRedundant": false,
+          "channelId": "mianhstudio",
+          "channelName": "Mị Ảnh Studio"
+        }
+      ],
+      "channelIds": [
+        "mianhstudio"
+      ]
+    },
+    {
+      "id": "film_6011",
+      "title": "【Mới Nhất 2026Lãnh Chúa Bạo Binh: Binh Chủng Của Ta Từ Bộ Xương Nhỏ Bé Đến Đại Quân Vong Linh Vô Hạn",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8491,
+      "totalDurationStr": "2 giờ 21 phút",
+      "totalViews": 837,
+      "totalLikes": 15,
+      "review": "【Mới Nhất 2026】Lãnh Chúa Bạo Binh: Binh Chủng Của Ta Mỗi Ngày Tăng Gấp Đôi! Từ Bộ Xương Nhỏ Bé Đến Đại Quân Vong Linh Vô Hạn – Quân Đoàn Thiên Tai!!! Trong tay vị lãnh chúa ban đầu chỉ có một bộ xương nhỏ bé. Sang ngày thứ hai, con số ấy tăng lên hai. Ngày thứ ba đã là bốn. Với khả năng nhân đôi binh chủng mỗi ngày, hắn chỉ cần thêm thời gian để biến một...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/AbAVYXGGJFc/hqdefault.jpg",
+      "publishedAt": "2026-11-15T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-15T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "【Mới Nhất 2026Lãnh Chúa Bạo Binh: Binh Chủng Của Ta Từ Bộ Xương Nhỏ Bé Đến Đại Quân Vong Linh Vô Hạn",
+          "url": "https://www.youtube.com/watch?v=AbAVYXGGJFc",
+          "id": "AbAVYXGGJFc",
+          "duration": 8491,
+          "durationStr": "2:21:31",
+          "publishedAt": "2026-11-15T20:33:40.344462+00:00",
+          "views": 837,
+          "likes": 15,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6012",
+      "title": "【Quyết Chí Trở Thành Ác Thú | Full P1–08: Cuộc Báo Thù Của Chú Chuột Hamster Đàn Em】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 2240,
+      "totalDurationStr": "37 phút 20 giây",
+      "totalViews": 1258,
+      "totalLikes": 10,
+      "review": "🎬 【Quyết Chí Trở Thành Ác Thú | Full P1–08: Cuộc Báo Thù Của Chú Chuột Hamster Đàn Em】 Vô tình xuyên không trở thành một con ác thú, nhân vật chính quyết tâm trở thành phản diện đáng sợ nhất! Nhờ sở hữu hệ thống đặc biệt có thể hấp thụ ma thạch và đổi lấy những trang bị kỳ lạ, hắn liên tục đối đầu với vô số kẻ thù. Sau khi sòng bạc bị phá hủy, chú chuột...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/265ieXXqflo/hqdefault.jpg",
+      "publishedAt": "2026-11-15T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-15T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-08",
+          "title": "【Quyết Chí Trở Thành Ác Thú | Full P1–08: Cuộc Báo Thù Của Chú Chuột Hamster Đàn Em】",
+          "url": "https://www.youtube.com/watch?v=265ieXXqflo",
+          "id": "265ieXXqflo",
+          "duration": 2240,
+          "durationStr": "37:20",
+          "publishedAt": "2026-11-15T20:33:40.344462+00:00",
+          "views": 1258,
+          "likes": 10,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6008",
+      "title": "【50 Năm Trước, Không Gian Luân Hồi Giáng Lâm – Tôi Bước Vào Phó Bản Ẩn Hồng Hoang!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8391,
+      "totalDurationStr": "2 giờ 19 phút",
+      "totalViews": 634,
+      "totalLikes": 7,
+      "review": "🎬 【50 Năm Trước, Không Gian Luân Hồi Giáng Lâm – Tôi Bước Vào Phó Bản Ẩn Hồng Hoang!】 🔥 50 năm trước, Không Gian Luân Hồi bất ngờ giáng lâm, mở ra một thời đại hoàn toàn mới. Toàn nhân loại đều có cơ hội tiến vào các phó bản thần bí để tu luyện, chiến đấu và nâng cao sức mạnh. ⚔️ Trong khi mọi người lựa chọn những phó bản thông thường, nam chính lại vô...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/OnJjAWatBz4/hqdefault.jpg",
+      "publishedAt": "2026-11-14T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-14T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "【50 Năm Trước, Không Gian Luân Hồi Giáng Lâm – Tôi Bước Vào Phó Bản Ẩn Hồng Hoang!】",
+          "url": "https://www.youtube.com/watch?v=OnJjAWatBz4",
+          "id": "OnJjAWatBz4",
+          "duration": 8391,
+          "durationStr": "2:19:51",
+          "publishedAt": "2026-11-14T20:33:40.344462+00:00",
+          "views": 634,
+          "likes": 7,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6009",
+      "title": "【Mùa 5】Boss Âm Hiểm Hết Chỗ Nói, Hệ Thống Của Tôi Cũng Chẳng Kém!",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8456,
+      "totalDurationStr": "2 giờ 20 phút",
+      "totalViews": 390,
+      "totalLikes": 6,
+      "review": "🎬 【Mùa 5】Boss Âm Hiểm Hết Chỗ Nói, Hệ Thống Của Tôi Cũng Chẳng Kém! 🔥 Tại thành phố Từ Hàng, những cuộc đối đầu với Quỷ Vương, Đại Yêu và các thế lực bí ẩn ngày càng trở nên nguy hiểm. Khi một kẻ xuyên không sở hữu khả năng đảo ngược thời gian xuất hiện, hàng loạt âm mưu tưởng chừng hoàn hảo liên tiếp bị phá vỡ. ⚔️ Giữa vòng vây của quái vật và những cái...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/V23eJrc6KoQ/hqdefault.jpg",
+      "publishedAt": "2026-11-14T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-14T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 5",
+          "title": "【Mùa 5】Boss Âm Hiểm Hết Chỗ Nói, Hệ Thống Của Tôi Cũng Chẳng Kém!",
+          "url": "https://www.youtube.com/watch?v=V23eJrc6KoQ",
+          "id": "V23eJrc6KoQ",
+          "duration": 8456,
+          "durationStr": "2:20:56",
+          "publishedAt": "2026-11-14T20:33:40.344462+00:00",
+          "views": 390,
+          "likes": 6,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6010",
+      "title": "【Thiếu nữ mèo, cứu thế giới trên cung đường tận thế】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8251,
+      "totalDurationStr": "2 giờ 17 phút",
+      "totalViews": 22437,
+      "totalLikes": 517,
+      "review": "🎬 【Thiếu nữ mèo, cứu thế giới trên cung đường tận thế】 🐱 Giữa một thế giới đang trên bờ sụp đổ, thiếu nữ mèo lên đường với mục tiêu tưởng chừng bất khả thi: cứu lấy thế giới. Trên cung đường tận thế, sống sót qua mỗi chặng đã là một thử thách. Còn cô phải tìm cách đi xa hơn thế. 🛣️ Càng tiến về phía trước, cô càng phải cân nhắc từng bước đi. Khi một...",
+      "genres": [
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/sDOC38wn0Kw/hqdefault.jpg",
+      "publishedAt": "2026-11-14T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-14T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "【Thiếu nữ mèo, cứu thế giới trên cung đường tận thế】",
+          "url": "https://www.youtube.com/watch?v=sDOC38wn0Kw",
+          "id": "sDOC38wn0Kw",
+          "duration": 8251,
+          "durationStr": "2:17:31",
+          "publishedAt": "2026-11-14T20:33:40.344462+00:00",
+          "views": 22437,
+          "likes": 517,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6007",
+      "title": "【FULL P1】TẬN THẾ CƯỜNG HÓA VẠN VẬT – TỪ CĂN NHÀ ĐỔ NÁT!",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8085,
+      "totalDurationStr": "2 giờ 14 phút",
+      "totalViews": 473,
+      "totalLikes": 6,
+      "review": "🎬 【FULL P1】TẬN THẾ CƯỜNG HÓA VẠN VẬT – TỪ CĂN NHÀ ĐỔ NÁT! 🔥 Khi tận thế giáng xuống, zombie hoành hành khắp nơi, trật tự xã hội sụp đổ, nhân loại phải vật lộn để sinh tồn. ⚡️ Giữa thế giới đầy nguy hiểm ấy, nam chính sở hữu Hệ Thống Cường Hóa Vạn Vật, có khả năng nâng cấp các vật phẩm bình thường thành trang bị mạnh mẽ! 🏚 Khởi đầu chỉ với một căn nhà đổ...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/aUcSQno8ZFc/hqdefault.jpg",
+      "publishedAt": "2026-11-12T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-12T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "【FULL P1】TẬN THẾ CƯỜNG HÓA VẠN VẬT – TỪ CĂN NHÀ ĐỔ NÁT!",
+          "url": "https://www.youtube.com/watch?v=aUcSQno8ZFc",
+          "id": "aUcSQno8ZFc",
+          "duration": 8085,
+          "durationStr": "2:14:45",
+          "publishedAt": "2026-11-12T20:33:40.344462+00:00",
+          "views": 473,
+          "likes": 6,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6006",
+      "title": "Full P1 【MÂY NỔI THANH KHÂU: TIỂU HỒ LY VÌ TIỀN XÔNG PHA CỬU CHÂU】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9182,
+      "totalDurationStr": "2 giờ 33 phút",
+      "totalViews": 726,
+      "totalLikes": 8,
+      "review": "🎬 【MÂY NỔI THANH KHÂU: TIỂU HỒ LY VÌ TIỀN XÔNG PHA CỬU CHÂU】 🦊 Sinh ra tại Thanh Khâu, vùng đất đang ngày càng khan hiếm tài nguyên, tiểu hồ ly Bạch Thiển Thiển lại chẳng hề có hứng thú với tu tiên hay những mỹ nam tuyệt sắc. Trong đầu nàng chỉ có một mục tiêu duy nhất: KIẾM TIỀN, KIẾM THẬT NHIỀU TIỀN! 💰 ✨ Mang theo khát vọng làm giàu, nàng quyết tâm...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/g2fQmQK02P0/hqdefault.jpg",
+      "publishedAt": "2026-11-11T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-11T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full P1 【MÂY NỔI THANH KHÂU: TIỂU HỒ LY VÌ TIỀN XÔNG PHA CỬU CHÂU】",
+          "url": "https://www.youtube.com/watch?v=g2fQmQK02P0",
+          "id": "g2fQmQK02P0",
+          "duration": 9182,
+          "durationStr": "2:33:02",
+          "publishedAt": "2026-11-11T20:33:40.344462+00:00",
+          "views": 726,
+          "likes": 8,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5999",
+      "title": "【FULL 1】TRIỆU HỒI HOÀNG KIM: THỨC TỈNH THIÊN PHÚ CỰC HIẾM",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9958,
+      "totalDurationStr": "2 giờ 45 phút",
+      "totalViews": 424,
+      "totalLikes": 0,
+      "review": "🎬 【FULL 1】TRIỆU HỒI HOÀNG KIM: THỨC TỈNH THIÊN PHÚ CỰC HIẾM! 🔥 Trong một thế giới nơi thần linh thống trị, con người có thể ký kết khế ước với linh thú, quỷ dị và những sinh vật siêu nhiên để trở thành triệu hồi sư hùng mạnh! ⚡️ Nam chính mang trong mình một bí mật kinh hoàng: Hắn là tín đồ của Tà Thần Hủy Diệt nhưng lại giả danh tín đồ Chính Thần Khế...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/64yOVsTdgnM/hqdefault.jpg",
+      "publishedAt": "2026-11-10T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-10T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "【FULL 1】TRIỆU HỒI HOÀNG KIM: THỨC TỈNH THIÊN PHÚ CỰC HIẾM",
+          "url": "https://www.youtube.com/watch?v=64yOVsTdgnM",
+          "id": "64yOVsTdgnM",
+          "duration": 9958,
+          "durationStr": "2:45:58",
+          "publishedAt": "2026-11-10T20:33:40.344462+00:00",
+          "views": 424,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6000",
+      "title": "Full Phần 1 |【Đại Thánh Ngự Thú Lộ: Thiên Hạ Đại Hạ】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7170,
+      "totalDurationStr": "1 giờ 59 phút",
+      "totalViews": 768,
+      "totalLikes": 13,
+      "review": "🎬 【Đại Thánh Ngự Thú Lộ: Thiên Hạ Đại Hạ】 ⚔️ Giữa thiên hạ Đại Hạ rộng lớn, nơi cường giả vi tôn và những linh thú sở hữu sức mạnh phi thường, con đường trở thành một Ngự Thú Sư hùng mạnh chưa bao giờ dễ dàng. Muốn đứng trên đỉnh cao, không chỉ cần thiên phú xuất chúng mà còn phải có bản lĩnh thu phục, bồi dưỡng và điều khiển những linh thú đáng sợ! 🐉...",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/TSUGajNIYw8/hqdefault.jpg",
+      "publishedAt": "2026-11-10T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-10T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Đại Thánh Ngự Thú Lộ: Thiên Hạ Đại Hạ】",
+          "url": "https://www.youtube.com/watch?v=TSUGajNIYw8",
+          "id": "TSUGajNIYw8",
+          "duration": 7170,
+          "durationStr": "1:59:30",
+          "publishedAt": "2026-11-10T20:33:40.344462+00:00",
+          "views": 768,
+          "likes": 13,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6001",
+      "title": "🎬 【Mùa 1–2】Nhật Ký Thăng Quan Của Tiên Quan: Từ Kẻ Làm Công Khổ Sai Đến Màn Nghịch Tập Đổi Đời!",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 25450,
+      "totalDurationStr": "7 giờ 04 phút",
+      "totalViews": 966,
+      "totalLikes": 10,
+      "review": "🎬 【Mùa 1–2】Nhật Ký Thăng Quan Của Tiên Quan: Từ Kẻ Làm Công Khổ Sai Đến Màn Nghịch Tập Đổi Đời! ⚔️ Giữa Tiên Giới nơi thần tiên cũng phải phân chia chức vị và cấp bậc, nam chính chỉ là một tiểu tiên quan thấp kém, ngày ngày phải làm việc vất vả, chịu đủ mọi sự sai khiến và chèn ép từ những kẻ có quyền thế! 👑 Không cam chịu cả đời làm một kẻ sai vặt, hắn...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/O1ImK85hGlo/hqdefault.jpg",
+      "publishedAt": "2026-11-10T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-10T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "🎬 【Mùa 1–2】Nhật Ký Thăng Quan Của Tiên Quan: Từ Kẻ Làm Công Khổ Sai Đến Màn Nghịch Tập Đổi Đời!",
+          "url": "https://www.youtube.com/watch?v=O1ImK85hGlo",
+          "id": "O1ImK85hGlo",
+          "duration": 25450,
+          "durationStr": "7:04:10",
+          "publishedAt": "2026-11-10T20:33:40.344462+00:00",
+          "views": 966,
+          "likes": 10,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6002",
+      "title": "【Đập Phá Nhà Tân Hôn, Bất Ngờ Phát Hiện Kho Vàng Thỏi Trị Giá 160 Triệu Tệ!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 3493,
+      "totalDurationStr": "58 phút 13 giây",
+      "totalViews": 502,
+      "totalLikes": 4,
+      "review": "🎬 【Đập Phá Nhà Tân Hôn, Bất Ngờ Phát Hiện Kho Vàng Thỏi Trị Giá 160 Triệu Tệ!】 💰 Tưởng chừng chỉ là một lần đập phá, sửa sang căn nhà tân hôn bình thường, nào ngờ nam chính lại vô tình phát hiện một bí mật kinh thiên động địa: Bên trong căn nhà竟然 cất giấu cả kho vàng thỏi trị giá lên đến 160 triệu tệ! 🏠 Từ một căn nhà tưởng chừng chẳng có gì đặc biệt,...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/0dHPfPow2fU/hqdefault.jpg",
+      "publishedAt": "2026-11-10T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-10T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "【Đập Phá Nhà Tân Hôn, Bất Ngờ Phát Hiện Kho Vàng Thỏi Trị Giá 160 Triệu Tệ!】",
+          "url": "https://www.youtube.com/watch?v=0dHPfPow2fU",
+          "id": "0dHPfPow2fU",
+          "duration": 3493,
+          "durationStr": "58:13",
+          "publishedAt": "2026-11-10T20:33:40.344462+00:00",
+          "views": 502,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6003",
+      "title": "Full Phần 1 |  [Toàn Dân Sinh Tồn Tôi Thức Tỉnh]",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7364,
+      "totalDurationStr": "2 giờ 02 phút",
+      "totalViews": 389,
+      "totalLikes": 2,
+      "review": "【Full Phần 1 Toàn Dân Sinh Tồn Tôi Thức Tỉnh】 Khi toàn dân bước vào cuộc chiến sinh tồn, mỗi quyết định đều có thể định đoạt số phận. Giữa những thử thách liên tiếp, nam chính bất ngờ thức tỉnh năng lực, mở ra cơ hội thay đổi vận mệnh và tìm kiếm con đường sống cho chính mình! Sức mạnh mới mang đến hy vọng, nhưng để tồn tại, anh còn phải dựa vào sự tỉnh...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/D3SjfC5H6Jw/hqdefault.jpg",
+      "publishedAt": "2026-11-10T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-10T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |  [Toàn Dân Sinh Tồn Tôi Thức Tỉnh]",
+          "url": "https://www.youtube.com/watch?v=D3SjfC5H6Jw",
+          "id": "D3SjfC5H6Jw",
+          "duration": 7364,
+          "durationStr": "2:02:44",
+          "publishedAt": "2026-11-10T20:33:40.344462+00:00",
+          "views": 389,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6004",
+      "title": "FULL P3  [40 sinh viên đại học lạc vào tử thành vĩnh dạ]",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10784,
+      "totalDurationStr": "2 giờ 59 phút",
+      "totalViews": 239,
+      "totalLikes": 5,
+      "review": "🎬 【40 Sinh Viên Đại Học Lạc Vào Tử Thành Vĩnh Dạ!】 ⚔️ 40 sinh viên đại học bất ngờ lạc vào một thành phố chết chìm trong bóng tối vĩnh hằng. Tưởng rằng đây chỉ là một chuyến phiêu lưu kỳ lạ, nào ngờ tất cả nhanh chóng phát hiện mình đã bị mắc kẹt trong Tử Thành Vĩnh Dạ, nơi không có tín hiệu liên lạc, lương thực cạn kiệt và mọi con đường thoát thân đều...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/7WCdjJ89kOw/hqdefault.jpg",
+      "publishedAt": "2026-11-10T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-10T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 3",
+          "title": "FULL P3  [40 sinh viên đại học lạc vào tử thành vĩnh dạ]",
+          "url": "https://www.youtube.com/watch?v=7WCdjJ89kOw",
+          "id": "7WCdjJ89kOw",
+          "duration": 10784,
+          "durationStr": "2:59:44",
+          "publishedAt": "2026-11-10T20:33:40.344462+00:00",
+          "views": 239,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6005",
+      "title": "FULL P1 | Phù Của Ta Mạnh Đến Mức… Mất Mặt!",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7266,
+      "totalDurationStr": "2 giờ 01 phút",
+      "totalViews": 195,
+      "totalLikes": 3,
+      "review": "【Phù Của Ta Mạnh Đến Mức Mất Mặt 【Bạn Gái Chê Tôi Không Có Nhà, Nào Ngờ Nhà Tôi Lại Có Cả Một Tiên Giới!】 🎬 【Bạn Gái Chê Tôi Không Có Nhà, Nào Ngờ Nhà Tôi Lại Có Cả Một Tiên Giới!】 ⚔️ Vốn chỉ là một thanh niên bình thường, nam chính bất ngờ bị bạn gái chê bai vì nghèo khó, không có nhà cửa đàng hoàng. Thế nhưng, cô nàng đâu biết rằng ngôi nhà tưởng chừng...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/PCkr506zVdc/hqdefault.jpg",
+      "publishedAt": "2026-11-10T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-10T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "FULL P1 | Phù Của Ta Mạnh Đến Mức… Mất Mặt!",
+          "url": "https://www.youtube.com/watch?v=PCkr506zVdc",
+          "id": "PCkr506zVdc",
+          "duration": 7266,
+          "durationStr": "2:01:06",
+          "publishedAt": "2026-11-10T20:33:40.344462+00:00",
+          "views": 195,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5994",
+      "title": "【Mùa 1...】Năm Mất Mùa, Cả Làng Phải Gặm Vỏ Cây Cầm Hơi, Riêng Cô Nhờ Hệ Thống Thương Thành Mà Tích",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13923,
+      "totalDurationStr": "3 giờ 52 phút",
+      "totalViews": 717,
+      "totalLikes": 7,
+      "review": "🎬 【Mùa 1–3】Năm Mất Mùa, Cả Làng Phải Gặm Vỏ Cây Cầm Hơi, Riêng Cô Nhờ Hệ Thống Thương Thành Mà Tích Đầy Kho Thịt! ⚔️ Xuyên đến thời cổ đại đúng vào năm mất mùa nghiêm trọng, nữ chính phải đối mặt với cảnh đói khát khắp nơi. Lương thực cạn kiệt, dân làng nghèo khổ đến mức phải đào rễ cây, gặm vỏ cây để cầm hơi qua ngày! 👑 Giữa lúc mọi người đang tuyệt...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/4F1XLN5kjZc/hqdefault.jpg",
+      "publishedAt": "2026-11-03T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-03T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "【Mùa 1...】Năm Mất Mùa, Cả Làng Phải Gặm Vỏ Cây Cầm Hơi, Riêng Cô Nhờ Hệ Thống Thương Thành Mà Tích",
+          "url": "https://www.youtube.com/watch?v=4F1XLN5kjZc",
+          "id": "4F1XLN5kjZc",
+          "duration": 13923,
+          "durationStr": "3:52:03",
+          "publishedAt": "2026-11-03T20:33:40.344462+00:00",
+          "views": 717,
+          "likes": 7,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5995",
+      "title": "Xuyên Không Đến Thế Giới Tận Thế, Được Thiếu",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7597,
+      "totalDurationStr": "2 giờ 06 phút",
+      "totalViews": 459,
+      "totalLikes": 5,
+      "review": "🐾 【Xuyên Không Đến Thế Giới Tận Thế, Được Thiếu Nữ Tai Thỏ Cứu Mạng, Thức Tỉnh Hệ Thống Thuần Thú Sư!】 ⚔️ Bất ngờ xuyên không đến thế giới tận thế đầy hiểm nguy, chàng trai may mắn được một thiếu nữ tai thỏ cứu mạng. Từ đây, anh bước vào hành trình sinh tồn giữa những loài quái thú đáng sợ và lòng người khó đoán. 👑 Thức tỉnh hệ thống Thuần Thú Sư, anh...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/NuTd0NzrLf0/hqdefault.jpg",
+      "publishedAt": "2026-11-03T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-03T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Đến Thế Giới Tận Thế, Được Thiếu",
+          "url": "https://www.youtube.com/watch?v=NuTd0NzrLf0",
+          "id": "NuTd0NzrLf0",
+          "duration": 7597,
+          "durationStr": "2:06:37",
+          "publishedAt": "2026-11-03T20:33:40.344462+00:00",
+          "views": 459,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5996",
+      "title": "Full Phần 1 |【Hệ Thống Phản Diện: Tôi Diễn Vai Quạ Đen Nổi Khắp Giới Giải Trí!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13075,
+      "totalDurationStr": "3 giờ 37 phút",
+      "totalViews": 790,
+      "totalLikes": 21,
+      "review": "【Hệ Thống Phản Diện: Tôi Diễn Vai Quạ Đen Nổi Khắp Giới Giải Trí!】 Bất ngờ kích hoạt Hệ Thống Phản Diện, nam chính bước vào giới giải trí với một nhiệm vụ đặc biệt: Diễn những vai phản diện khiến khán giả vừa căm ghét vừa không thể rời mắt! Từ một diễn viên vô danh, hắn từng bước chinh phục khán giả nhờ khả năng nhập vai xuất thần. Đặc biệt, vai diễn Quạ...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/TlKs8_Y7wf8/hqdefault.jpg",
+      "publishedAt": "2026-11-03T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-03T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Hệ Thống Phản Diện: Tôi Diễn Vai Quạ Đen Nổi Khắp Giới Giải Trí!】",
+          "url": "https://www.youtube.com/watch?v=TlKs8_Y7wf8",
+          "id": "TlKs8_Y7wf8",
+          "duration": 13075,
+          "durationStr": "3:37:55",
+          "publishedAt": "2026-11-03T20:33:40.344462+00:00",
+          "views": 790,
+          "likes": 21,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5997",
+      "title": "Full Phần 1 |【Chư Thiên Làm Nô Dịch: Đừng Chọc Vào Đại Lão Cầm Hắc Liêm!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5455,
+      "totalDurationStr": "1 giờ 30 phút",
+      "totalViews": 191,
+      "totalLikes": 3,
+      "review": "【FULL PHẦN KẾT | Bạn Thân Tích Lương Thực, Tôi Tích Súng Đạn — Tận Thế Sinh Tồn Chẳng Cần Hoảng!】 Khi thảm họa tận thế sắp giáng lâm, cả thế giới đứng trước nguy cơ hỗn loạn, tài nguyên cạn kiệt và zombie hoành hành! Trong khi người bạn thân lựa chọn tích trữ lương thực để chuẩn bị sinh tồn, nhân vật chính lại quyết định đi theo một con đường hoàn toàn...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Lf66GpyyqkY/hqdefault.jpg",
+      "publishedAt": "2026-11-03T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-03T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Chư Thiên Làm Nô Dịch: Đừng Chọc Vào Đại Lão Cầm Hắc Liêm!】",
+          "url": "https://www.youtube.com/watch?v=Lf66GpyyqkY",
+          "id": "Lf66GpyyqkY",
+          "duration": 5455,
+          "durationStr": "1:30:55",
+          "publishedAt": "2026-11-03T20:33:40.344462+00:00",
+          "views": 191,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5998",
+      "title": "Full P1 |【Em Bé Từ Trên Trời Rơi Xuống: Nặc Nặc Trở Thành Bảo Bối Được Cả Nhà Cưng Chiều!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7239,
+      "totalDurationStr": "2 giờ 00 phút",
+      "totalViews": 200,
+      "totalLikes": 1,
+      "review": "【Em Bé Từ Trên Trời Rơi Xuống: Nặc Nặc Trở Thành Bảo Bối Được Cả Nhà Cưng Chiều!】 Một ngày nọ, bé Nặc Nặc vô cùng đáng yêu bất ngờ từ trên trời rơi xuống, khiến cuộc sống của những người xung quanh hoàn toàn thay đổi! Với vẻ ngoài ngây thơ, tính cách tinh nghịch và những hành động dễ thương, cô bé nhanh chóng trở thành bảo bối được mọi người yêu thương,...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/nmlFQsJ5jns/hqdefault.jpg",
+      "publishedAt": "2026-11-03T20:33:40.344462+00:00",
+      "updatedAt": "2026-11-03T20:33:40.344462+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full P1 |【Em Bé Từ Trên Trời Rơi Xuống: Nặc Nặc Trở Thành Bảo Bối Được Cả Nhà Cưng Chiều!】",
+          "url": "https://www.youtube.com/watch?v=nmlFQsJ5jns",
+          "id": "nmlFQsJ5jns",
+          "duration": 7239,
+          "durationStr": "2:00:39",
+          "publishedAt": "2026-11-03T20:33:40.344462+00:00",
+          "views": 200,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5993",
       "title": "8 GIỜ 40 | Xuyên Thư Mạt Thế: Nữ Phụ Kích Hoạt Hệ Thống Vị Diện, Đổi Vật Tư Để Sống Sót!",

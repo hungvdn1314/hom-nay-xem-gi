@@ -4,10 +4,10 @@
 
 # Hôm Nay Xem Gì
 
-Trang tổng hợp và xem phim hoạt hình 3D từ 28 kênh YouTube tiếng Việt.
+Trang tổng hợp và xem phim hoạt hình 3D từ 29 kênh YouTube tiếng Việt.
 
 [![Stack](https://img.shields.io/badge/Stack-HTML%20%C2%B7%20CSS%20%C2%B7%20Vanilla%20JS-09090B?style=flat-square&labelColor=111116&color=F43F5E)](./index.html)
-[![Catalog](https://img.shields.io/badge/Kho%20phim-5.990%2B%20b%E1%BB%99%203D%20%C2%B7%2028%20k%C3%AAnh-111116?style=flat-square&color=F43F5E)](./data.js)
+[![Catalog](https://img.shields.io/badge/Kho%20phim-6.020%2B%20b%E1%BB%99%203D%20%C2%B7%2029%20k%C3%AAnh-111116?style=flat-square&color=F43F5E)](./data.js)
 [![Deploy](https://img.shields.io/badge/Hosting-Vercel-09090B?style=flat-square&labelColor=111116&color=FFFFFF)](./vercel.json)
 [![Auto-Sync](https://img.shields.io/badge/Sync-GitHub%20Actions%20%2B%20Innertube-09090B?style=flat-square&labelColor=111116&color=10B981)](./.github/workflows/auto_update_youtube.yml)
 
@@ -29,7 +29,7 @@ Trang tổng hợp và xem phim hoạt hình 3D từ 28 kênh YouTube tiếng Vi
 
 ## Tính năng
 
-**Hôm Nay Xem Gì** chạy bằng HTML, CSS và JavaScript thuần, không cần bước build. Dữ liệu gồm hơn **5.990 bộ phim hoạt hình 3D** gom từ **28 kênh YouTube** (Tu tiên, Huyền huyễn, Mạt thế, Hệ thống, Ngự thú, Đô thị, Trò chơi...).
+**Hôm Nay Xem Gì** chạy bằng HTML, CSS và JavaScript thuần, không cần bước build. Dữ liệu gồm hơn **6.020 bộ phim hoạt hình 3D** gom từ **29 kênh YouTube** (Tu tiên, Huyền huyễn, Mạt thế, Hệ thống, Ngự thú, Đô thị, Trò chơi...).
 
 Những điểm chính đang chạy trên web:
 
@@ -107,13 +107,13 @@ Trên Windows có thể bấm đúp vào file [`run_web.bat`](./run_web.bat).
 
 Dữ liệu mới được cập nhật qua hai đường:
 
-1. **Tự động lưu vào repo (GitHub Actions):** Workflow [`.github/workflows/auto_update_youtube.yml`](./.github/workflows/auto_update_youtube.yml) chạy mỗi 30 phút, gọi [`scripts/update_youtube_feed.py`](./scripts/update_youtube_feed.py) đọc RSS và API nội bộ của YouTube (Innertube `browse` và `next`) từ 28 kênh. Khi có phim hoặc tập mới, script ghi lại `data.js`, `youtube_films_catalog.json`, tăng chuỗi `?v=` trong `index.html` rồi tự push commit mới lên `main`.
-2. **Cập nhật nóng lúc mở web (Vercel Serverless):** File [`api/live-feed.js`](./api/live-feed.js) đọc các video mới đăng của 28 kênh với cache 5 phút trên Edge (`s-maxage=300, stale-while-revalidate=600`). Trình duyệt tự gọi endpoint này và gộp thêm các video vừa lên sóng chưa kịp vào file tĩnh `data.js`.
+1. **Tự động lưu vào repo (GitHub Actions):** Workflow [`.github/workflows/auto_update_youtube.yml`](./.github/workflows/auto_update_youtube.yml) chạy mỗi 30 phút, gọi [`scripts/update_youtube_feed.py`](./scripts/update_youtube_feed.py) đọc RSS và API nội bộ của YouTube (Innertube `browse` và `next`) từ 29 kênh. Khi có phim hoặc tập mới, script ghi lại `data.js`, `youtube_films_catalog.json`, tăng chuỗi `?v=` trong `index.html` rồi tự push commit mới lên `main`.
+2. **Cập nhật nóng lúc mở web (Vercel Serverless):** File [`api/live-feed.js`](./api/live-feed.js) đọc các video mới đăng của 29 kênh với cache 5 phút trên Edge (`s-maxage=300, stale-while-revalidate=600`). Trình duyệt tự gọi endpoint này và gộp thêm các video vừa lên sóng chưa kịp vào file tĩnh `data.js`.
 
 Khi cần bảo trì lại dữ liệu bằng tay trên máy, dùng các cờ sau của `update_youtube_feed.py`:
 
 ```bash
-python scripts/update_youtube_feed.py                   # Quét video mới của 28 kênh
+python scripts/update_youtube_feed.py                   # Quét video mới của 29 kênh
 python scripts/update_youtube_feed.py --backfill        # Bổ sung thời lượng còn thiếu
 python scripts/update_youtube_feed.py --backfill-stats  # Cập nhật lại lượt xem và lượt thích
 python scripts/update_youtube_feed.py --clean-3d        # Quét lại bộ lọc 2D/short và phân loại thể loại
