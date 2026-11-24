@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T07:00:47.670809+00:00"
+    "lastUpdated": "2026-11-24T07:15:31.628696+00:00"
   },
   "channels": [
     {
@@ -38069,12 +38069,12 @@ window.FILMS_DATA = {
       "channelName": "2K Sub",
       "channelUrl": "https://www.youtube.com/@2KSUB2000",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 11669,
-      "totalDurationStr": "3 giờ 14 phút",
-      "totalViews": 146000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 19789,
+      "totalDurationStr": "5 giờ 29 phút",
+      "totalViews": 146120,
+      "totalLikes": 7,
       "review": "Phim hoạt hình 3D thuyết minh trọn bộ từ kênh 2K Sub.",
       "genres": [
         "Quỷ dị / Linh dị",
@@ -38082,8 +38082,8 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i.ytimg.com/vi/HHW9b4su578/hqdefault.jpg",
       "publishedAt": "2026-11-12T11:50:19.700996+00:00",
-      "updatedAt": "2026-11-12T11:50:19.700996+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-24T07:00:11+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -38096,6 +38096,21 @@ window.FILMS_DATA = {
           "publishedAt": "2026-11-12T11:50:19.700996+00:00",
           "views": 146000,
           "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 3",
+          "title": "SS3 | Toàn Dân Sinh Tồn, Ta Thức Tỉnh Pháp Sư Minecraft Cấp S, Xây Căn Cứ Giữa Hoang Dã!",
+          "url": "https://www.youtube.com/watch?v=isNh_idSDLg",
+          "id": "isNh_idSDLg",
+          "duration": 8120,
+          "durationStr": "2:15:20",
+          "publishedAt": "2026-11-24T07:00:11+00:00",
+          "views": 120,
+          "likes": 7,
           "isRedundant": false,
           "channelId": "2ksub",
           "channelName": "2K Sub"
