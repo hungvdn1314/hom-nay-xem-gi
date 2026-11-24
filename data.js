@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T09:00:46.184695+00:00"
+    "lastUpdated": "2026-11-24T09:30:36.779441+00:00"
   },
   "channels": [
     {
@@ -1082,12 +1082,12 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 9206,
-      "totalDurationStr": "2 giờ 33 phút",
-      "totalViews": 68,
-      "totalLikes": 1,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 32945,
+      "totalDurationStr": "9 giờ 09 phút",
+      "totalViews": 203,
+      "totalLikes": 7,
       "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Mùa 2 | Tu Tiên Trở Về, Vị Hôn Thê Của Tôi Không Giấu Nổi NữaBàng Thiên Xung khổ tu mười chín năm trên núi Côn Lôn, vâng lệnh sư phụ xuống núi rèn luyện tâm tính nơi hồng trần, đồng thời tìm kiếm cha mẹ ruột thất lạc. Cơ duyên xảo hợp, anh vào làm bảo vệ cho tập đoàn Đới Khang, dựa vào bản...",
       "genres": [
         "Tu tiên / Huyền huyễn",
@@ -1095,7 +1095,7 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i1.ytimg.com/vi/HJjb6cXAzmI/hqdefault.jpg",
       "publishedAt": "2026-11-23T13:01:31+00:00",
-      "updatedAt": "2026-11-23T13:01:31+00:00",
+      "updatedAt": "2026-11-24T09:13:14+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -1110,7 +1110,25 @@ window.FILMS_DATA = {
           "views": 68,
           "likes": 1,
           "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Mùa 3",
+          "title": "Mùa 3 | Tu Tiên Trở Về, Vị Hôn Thê Của Tôi Không Giấu Nổi Nữa",
+          "url": "https://www.youtube.com/watch?v=qd20NtZnLuc",
+          "id": "qd20NtZnLuc",
+          "duration": 23739,
+          "durationStr": "6:35:39",
+          "publishedAt": "2026-11-24T09:13:14+00:00",
+          "views": 135,
+          "likes": 6,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
         }
+      ],
+      "channelIds": [
+        "melacreview"
       ]
     },
     {
