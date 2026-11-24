@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5720,
+    "totalFilms": 5721,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T00:00:44.054583+00:00"
+    "lastUpdated": "2026-11-24T00:45:32.307609+00:00"
   },
   "channels": [
     {
@@ -169,10 +169,48 @@
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 17
+      "filmCount": 18
     }
   ],
   "films": [
+    {
+      "id": "film_5721",
+      "title": "Full Phần 1 |【Trúng Số Đổi Đời Về Quê: Nhật Ký Sống An Nhàn Của Tôi Tại Thị Trấn Nhỏ!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 26257,
+      "totalDurationStr": "7 giờ 17 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Trúng Số Đổi Đời Về Quê: Nhật Ký Sống An Nhàn Của Tôi Tại Thị Trấn Nhỏ!】 💰🏡 Tưởng chừng cuộc sống sẽ mãi xoay quanh những ngày tháng bận rộn và áp lực cơm áo gạo tiền, nào ngờ nhân vật chính bất ngờ trúng số độc đắc, một bước đổi đời! Thay vì lao vào cuộc sống xa hoa nơi thành phố náo nhiệt, anh quyết định trở về quê hương, tận hưởng những ngày tháng...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/cOI1UmWVlsI/hqdefault.jpg",
+      "publishedAt": "2026-11-24T00:44:54+00:00",
+      "updatedAt": "2026-11-24T00:44:54+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Trúng Số Đổi Đời Về Quê: Nhật Ký Sống An Nhàn Của Tôi Tại Thị Trấn Nhỏ!】",
+          "url": "https://www.youtube.com/watch?v=cOI1UmWVlsI",
+          "id": "cOI1UmWVlsI",
+          "duration": 26257,
+          "durationStr": "7:17:37",
+          "publishedAt": "2026-11-24T00:44:54+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5720",
       "title": "[Full] Thông Báo Chuyển Nhà Và Gửi Lời Chào Tạm Biệt Với Kênh MyCherrySub",
