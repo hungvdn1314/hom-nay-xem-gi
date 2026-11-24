@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 5988,
+    "totalFilms": 5989,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 28,
-    "lastUpdated": "2026-11-24T12:30:35.508118+00:00"
+    "lastUpdated": "2026-11-24T13:01:00.468788+00:00"
   },
   "channels": [
     {
@@ -145,7 +145,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 316
+      "filmCount": 317
     },
     {
       "id": "godsub",
@@ -179,6 +179,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_5989",
+      "title": "Sở Hữu Dị Năng Cấp SS Và Hệ Thống Bao Phê Tôi Khuấy Đảo Giới Dị Năng Giả | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7148,
+      "totalDurationStr": "1 giờ 59 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Sở Hữu Dị Năng Cấp SS Và Hệ Thống Bao Phê Tôi Khuấy Đảo Giới Dị Năng Giả | Đậu Đậu Vietsub 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính bạn định nghĩa. Giữ vững bản lĩnh, tinh thần đồng đội và chút lạc quan hài hước sẽ giúp bạn biến thử thách thành bàn đạp để vươn lên và bảo vệ những...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/IbKsQr8In6o/hqdefault.jpg",
+      "publishedAt": "2026-11-24T13:00:06+00:00",
+      "updatedAt": "2026-11-24T13:00:06+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Sở Hữu Dị Năng Cấp SS Và Hệ Thống Bao Phê Tôi Khuấy Đảo Giới Dị Năng Giả | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=IbKsQr8In6o",
+          "id": "IbKsQr8In6o",
+          "duration": 7148,
+          "durationStr": "1:59:08",
+          "publishedAt": "2026-11-24T13:00:06+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5988",
       "title": "Full Bộ 01~125 | Thức Tỉnh Nghề Ẩn Độc Nhất Bạo Quân, Từng Bước Đạp Nát Mọi Thế Lực",
