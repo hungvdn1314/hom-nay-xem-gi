@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 5982,
+    "totalFilms": 5983,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 28,
-    "lastUpdated": "2026-11-24T11:15:36.875424+00:00"
+    "lastUpdated": "2026-11-24T11:30:47.082121+00:00"
   },
   "channels": [
     {
@@ -97,7 +97,7 @@ window.FILMS_DATA = {
       "id": "tieumuoingontinh",
       "name": "Tiểu Muội Ngôn Tình",
       "url": "https://www.youtube.com/@TieuMuoiNgonTinh",
-      "filmCount": 72
+      "filmCount": 73
     },
     {
       "id": "cibiisub",
@@ -179,6 +179,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_5983",
+      "title": "Full Tập 01~142 | Xuyên Không Thành Thiếu Nữ Ma Pháp, Vừa Làm Bác Sĩ Vừa Trừ Ma Cứu Người",
+      "channelId": "tieumuoingontinh",
+      "channelName": "Tiểu Muội Ngôn Tình",
+      "channelUrl": "https://www.youtube.com/@TieuMuoiNgonTinh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8033,
+      "totalDurationStr": "2 giờ 13 phút",
+      "totalViews": 66,
+      "totalLikes": 10,
+      "review": "Hứa Thành xuyên không đến thế giới đầy rẫy quỷ dị, vô tình kích hoạt gương cổ biến thân thành Thiếu nữ Ma pháp váy đỏ quyền năng. Ban ngày làm bác sĩ tâm lý, ban đêm anh lái xe buýt ma cứu người, vác nắp quan tài càn quét tà giáo Tử Sinh. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt Nhật, Phim Ngôn Tình Tổng...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/Kaowf0B-sC0/hqdefault.jpg",
+      "publishedAt": "2026-11-24T11:15:11+00:00",
+      "updatedAt": "2026-11-24T11:15:11+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1",
+          "title": "Full Tập 01~142 | Xuyên Không Thành Thiếu Nữ Ma Pháp, Vừa Làm Bác Sĩ Vừa Trừ Ma Cứu Người",
+          "url": "https://www.youtube.com/watch?v=Kaowf0B-sC0",
+          "id": "Kaowf0B-sC0",
+          "duration": 8033,
+          "durationStr": "2:13:53",
+          "publishedAt": "2026-11-24T11:15:11+00:00",
+          "views": 66,
+          "likes": 10,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5981",
       "title": "10 GIỜ THỎA MÃN | Trọng Sinh Mạt Thế, Đoạt Dị Năng Cấp SSS, Khế Ước Vạn Thú Báo Thù!",
@@ -4386,11 +4424,11 @@ window.FILMS_DATA = {
       "channelName": "Não Phẳng Tu Tiên",
       "channelUrl": "https://www.youtube.com/@nao-phang",
       "playlistUrl": null,
-      "totalParts": 11,
-      "partsStr": "11 phần",
-      "totalDurationSec": 99456,
-      "totalDurationStr": "27 giờ 37 phút",
-      "totalViews": 57400,
+      "totalParts": 12,
+      "partsStr": "12 phần",
+      "totalDurationSec": 108813,
+      "totalDurationStr": "30 giờ 13 phút",
+      "totalViews": 57406,
       "totalLikes": 0,
       "review": "",
       "genres": [
@@ -4398,8 +4436,8 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i.ytimg.com/vi/gbqWjgeWA18/hqdefault.jpg",
       "publishedAt": "2026-10-24T11:50:19.799409+00:00",
-      "updatedAt": "2026-11-23T00:49:42.537089+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-24T11:23:54+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -4561,6 +4599,21 @@ window.FILMS_DATA = {
           "durationStr": "2:41:26",
           "publishedAt": "2026-11-23T00:49:42.537089+00:00",
           "views": 2600,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 12,
+          "label": "Phần 32",
+          "title": "Phần 32: Không Có Chút Tu Vi, Ta Tưởng Mình Là Phế Vật Cho Đến Khi Lão Tổ Gọi Ta Tiền Bối",
+          "url": "https://www.youtube.com/watch?v=0BxOCuZMAHk",
+          "id": "0BxOCuZMAHk",
+          "duration": 9357,
+          "durationStr": "2:35:57",
+          "publishedAt": "2026-11-24T11:23:54+00:00",
+          "views": 6,
           "likes": 0,
           "isRedundant": false,
           "channelId": "naophangtutien",
