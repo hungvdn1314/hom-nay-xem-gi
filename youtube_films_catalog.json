@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5726,
+    "totalFilms": 5728,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T03:30:47.715800+00:00"
+    "lastUpdated": "2026-11-24T04:00:46.815464+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 486
+      "filmCount": 487
     },
     {
       "id": "naophangtutien",
@@ -145,7 +145,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 311
+      "filmCount": 312
     },
     {
       "id": "godsub",
@@ -173,6 +173,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_5728",
+      "title": "Bị Đuổi Khỏi Đảo Hoang Vì Một Hiểu Lầm Tôi Kích Hoạt Hệ Thống Sống Sót Đỉnh Cao | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Bị Đuổi Khỏi Đảo Hoang Vì Một Hiểu Lầm Tôi Kích Hoạt Hệ Thống Sống Sót Đỉnh Cao | Đậu Đậu Vietsub Tóm Tắt : Tô Triệt bị đuổi khỏi trại nữ trên đảo hoang, kích hoạt hệ thống tổng hợp vạn vật sống sung túc, bắt họ làm việc đổi thức ăn giữa cảnh chia rẽ, cạn kiệt 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/WU4oDcSPoX4/hqdefault.jpg",
+      "publishedAt": "2026-11-24T04:00:29+00:00",
+      "updatedAt": "2026-11-24T04:00:29+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Bị Đuổi Khỏi Đảo Hoang Vì Một Hiểu Lầm Tôi Kích Hoạt Hệ Thống Sống Sót Đỉnh Cao | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=WU4oDcSPoX4",
+          "id": "WU4oDcSPoX4",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-24T04:00:29+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5727",
+      "title": "7 GIỜ 40 | Xuyên Không Cổ Đại: Từ Gã Cờ Bạc Nghèo Khó, Ta Săn Thú Kiếm Tiền Nuôi Vợ Đổi Đời!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **XUYÊN KHÔNG CỔ ĐẠI – TỪ GÃ CỜ BẠC NGHÈO KHÓ, TA SĂN THÚ LÀM GIÀU NUÔI GIA ĐÌNH! | 7H43** 🏹 **Kỷ Bác Đạt** bất ngờ xuyên không về thời cổ đại, nhập vào thân xác một gã nghiện cờ bạc đã bán sạch ruộng đất, nhà cửa, thậm chí định bán cả vợ để trả nợ! 🔥 Quyết tâm thay đổi số phận,...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/MSdtYxN_yT8/hqdefault.jpg",
+      "publishedAt": "2026-11-24T04:00:26+00:00",
+      "updatedAt": "2026-11-24T04:00:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "7 GIỜ 40 | Xuyên Không Cổ Đại: Từ Gã Cờ Bạc Nghèo Khó, Ta Săn Thú Kiếm Tiền Nuôi Vợ Đổi Đời!",
+          "url": "https://www.youtube.com/watch?v=MSdtYxN_yT8",
+          "id": "MSdtYxN_yT8",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-24T04:00:26+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5726",
       "title": "Full Tập 01~306 | Đại Tiểu Thư Lạnh Lùng Tỉnh Ngộ, Làm Bà Trùm Hải Tặc Tam Giác Đen",
