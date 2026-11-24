@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 5730,
+    "totalFilms": 5733,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T05:00:41.567966+00:00"
+    "lastUpdated": "2026-11-24T06:15:29.778926+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 488
+      "filmCount": 489
     },
     {
       "id": "naophangtutien",
@@ -163,16 +163,129 @@
       "id": "nhatanhstudio",
       "name": "Nhật Ảnh Studio",
       "url": "https://www.youtube.com/@StudioCitraMentari",
-      "filmCount": 33
+      "filmCount": 34
     },
     {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 19
+      "filmCount": 20
     }
   ],
   "films": [
+    {
+      "id": "film_5732",
+      "title": "P1 |【Vượt Qua Muôn Trùng Phó Bản: Mỗi Lần Phá Đảo, Tôi Lại Mở Khóa Một Hình Thái Mới Của Bạn Trai!】",
+      "channelId": "nhatanhstudio",
+      "channelName": "Nhật Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@StudioCitraMentari",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10671,
+      "totalDurationStr": "2 giờ 57 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Vượt Qua Muôn Trùng Phó Bản: Mỗi Lần Phá Đảo, Tôi Lại Mở Khóa Một Hình Thái Mới Của Bạn Trai!】 👻💕 Bước vào thế giới phó bản đầy rẫy bí ẩn và những thử thách nguy hiểm, nữ chính không ngờ rằng hành trình sinh tồn của mình lại gắn liền với một bí mật vô cùng đặc biệt! Mỗi lần vượt qua một phó bản, cô lại có thể mở khóa một hình thái hoàn toàn mới của...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/_0xnEYH82Kc/hqdefault.jpg",
+      "publishedAt": "2026-11-24T06:04:32+00:00",
+      "updatedAt": "2026-11-24T06:04:32+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1 |【Vượt Qua Muôn Trùng Phó Bản: Mỗi Lần Phá Đảo, Tôi Lại Mở Khóa Một Hình Thái Mới Của Bạn Trai!】",
+          "url": "https://www.youtube.com/watch?v=_0xnEYH82Kc",
+          "id": "_0xnEYH82Kc",
+          "duration": 10671,
+          "durationStr": "2:57:51",
+          "publishedAt": "2026-11-24T06:04:32+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5733",
+      "title": "Full Phần 1 | 【Kỷ Nguyên Toàn Dân Thành Thần: Ta Ban Cho Nhân Tộc Toàn Bộ Thất Đại Tội Cấm Kỵ!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9742,
+      "totalDurationStr": "2 giờ 42 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Kỷ Nguyên Toàn Dân Thành Thần: Ta Ban Cho Nhân Tộc Toàn Bộ Thất Đại Tội Cấm Kỵ!】 ⚡👑 Khi Kỷ Nguyên Toàn Dân Thành Thần mở ra, vô số chủng tộc bước lên con đường thần hóa, tranh giành tín ngưỡng và sức mạnh tối cao! Giữa thời đại thần linh thống trị, nhân vật chính lại lựa chọn một con đường hoàn toàn khác biệt: ban cho Nhân Tộc sức mạnh của Thất Đại...",
+      "genres": [
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/-na8730dYGQ/hqdefault.jpg",
+      "publishedAt": "2026-11-24T06:02:13+00:00",
+      "updatedAt": "2026-11-24T06:02:13+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Kỷ Nguyên Toàn Dân Thành Thần: Ta Ban Cho Nhân Tộc Toàn Bộ Thất Đại Tội Cấm Kỵ!】",
+          "url": "https://www.youtube.com/watch?v=-na8730dYGQ",
+          "id": "-na8730dYGQ",
+          "duration": 9742,
+          "durationStr": "2:42:22",
+          "publishedAt": "2026-11-24T06:02:13+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5731",
+      "title": "9 GIỜ | Quỷ Dị Sinh Tồn: Mất Ký Ức Trong Thế Giới Quy Tắc, Ta Phá Vỡ Vòng Lặp Sinh Tử!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 32778,
+      "totalDurationStr": "9 giờ 06 phút",
+      "totalViews": 7,
+      "totalLikes": 4,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **QUỶ DỊ SINH TỒN – BỊ NHỐT TRONG THẾ GIỚI QUY TẮC, PHÁ GIẢI VÒNG LẶP SINH TỬ! | SS1–SS2 | 9H06** ⚔️ Sau vụ nổ bí ẩn ở độ sâu **30.000 mét dưới lòng đất**, nhiều người tỉnh dậy trong một thế giới kỳ lạ, mất hết tên tuổi và ký ức. Họ bị gọi bằng những mã số như **Que Diêm Số 11,...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/fqSyGIuStdI/hqdefault.jpg",
+      "publishedAt": "2026-11-24T06:00:35+00:00",
+      "updatedAt": "2026-11-24T06:00:35+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "9 GIỜ | Quỷ Dị Sinh Tồn: Mất Ký Ức Trong Thế Giới Quy Tắc, Ta Phá Vỡ Vòng Lặp Sinh Tử!",
+          "url": "https://www.youtube.com/watch?v=fqSyGIuStdI",
+          "id": "fqSyGIuStdI",
+          "duration": 32778,
+          "durationStr": "9:06:18",
+          "publishedAt": "2026-11-24T06:00:35+00:00",
+          "views": 7,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5730",
       "title": "Bị Rút Cạn Nguyên Hạch Tôi Được Nữ Gia Chủ Chiêu Mộc Làm Chồng | Đậu Đậu Vietsub",
