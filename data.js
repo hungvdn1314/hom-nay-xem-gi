@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 5986,
+    "totalFilms": 5987,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 28,
-    "lastUpdated": "2026-11-24T12:00:48.511609+00:00"
+    "lastUpdated": "2026-11-24T12:15:35.505340+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 614
+      "filmCount": 615
     },
     {
       "id": "naophangtutien",
@@ -179,6 +179,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_5987",
+      "title": "14 GIỜ THỎA MÃN | Mạt Thế: Thức Tỉnh Song Thiên Phú, Săn Zombie Hấp Thụ Tinh Hạch Tiến Hóa!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 49333,
+      "totalDurationStr": "13 giờ 42 phút",
+      "totalViews": 473,
+      "totalLikes": 42,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **MẠT THẾ SINH TỒN – THỨC TỈNH SONG THIÊN PHÚ, SĂN ZOMBIE ĐỂ TIẾN HÓA! | 14H** ⚔️ **Trương Thần** bất ngờ xuyên không đến hành tinh **Thủy Lan**, nơi zombie và sinh vật đột biến chiếm đóng. May mắn sở hữu khả năng **nhìn thấy gợi ý ẩn**, hắn có thể phát hiện nguy hiểm, tìm kiếm...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/r1W6q_LfB4A/hqdefault.jpg",
+      "publishedAt": "2026-11-24T12:00:25+00:00",
+      "updatedAt": "2026-11-24T12:00:25+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "14 GIỜ THỎA MÃN | Mạt Thế: Thức Tỉnh Song Thiên Phú, Săn Zombie Hấp Thụ Tinh Hạch Tiến Hóa!",
+          "url": "https://www.youtube.com/watch?v=r1W6q_LfB4A",
+          "id": "r1W6q_LfB4A",
+          "duration": 49333,
+          "durationStr": "13:42:13",
+          "publishedAt": "2026-11-24T12:00:25+00:00",
+          "views": 473,
+          "likes": 42,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5986",
       "title": "Anh Lính Xuất Ngũ Lật Kèo Làm Vua Đảo Hoang | Đậu Đậu Vietsub",
@@ -262,8 +300,8 @@ window.FILMS_DATA = {
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 40,
+      "totalDurationStr": "40 giây",
       "totalViews": 32573,
       "totalLikes": 475,
       "review": "📽Phim: [Full] Thông Báo Chuyển Nhà Và Gửi Lời Chào Tạm Biệt Với Kênh MyCherrySub Tóm tắt: \"Chào mọi người, mình có một thông báo hơi buồn một chút muốn chia sẻ với cả nhà. Kênh My Cherry Sub hiện tại đã bị dính lỗi và mất tính năng tắt kiếm tiền rồi. Đây là một cú sốc không nhỏ nhưng cũng là động lực để mình làm mới mọi thứ. Để tiếp tục duy trì đam mê và...",
@@ -273,7 +311,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i2.ytimg.com/vi/QhgQ7xyeyGk/hqdefault.jpg",
       "publishedAt": "2026-11-17T07:42:20+00:00",
       "updatedAt": "2026-11-17T07:42:20+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -281,8 +319,8 @@ window.FILMS_DATA = {
           "title": "[Full] Thông Báo Chuyển Nhà Và Gửi Lời Chào Tạm Biệt Với Kênh MyCherrySub",
           "url": "https://www.youtube.com/watch?v=QhgQ7xyeyGk",
           "id": "QhgQ7xyeyGk",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 40,
+          "durationStr": "0:40",
           "publishedAt": "2026-11-17T07:42:20+00:00",
           "views": 32573,
           "likes": 475,
@@ -37424,10 +37462,10 @@ window.FILMS_DATA = {
       "channelName": "Thiên Phạt Review",
       "channelUrl": "https://www.youtube.com/@thienphatreview",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 13400,
-      "totalDurationStr": "3 giờ 43 phút",
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 28004,
+      "totalDurationStr": "7 giờ 46 phút",
       "review": "",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -37435,8 +37473,8 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i3.ytimg.com/vi/n9YaO2sdEbU/hqdefault.jpg",
       "publishedAt": "2026-11-13T11:00:24+00:00",
-      "updatedAt": "2026-11-13T11:00:24+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-24T12:00:09+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -37452,10 +37490,25 @@ window.FILMS_DATA = {
           "likes": 54,
           "channelId": "thienphatreview",
           "channelName": "Thiên Phạt Review"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Phần 2 | Sinh Tồn Quỷ Vụ: Trở Về Trước Tận Thế 3 Ngày, Ta Săn Quỷ Thú Để Tiến Hóa",
+          "url": "https://www.youtube.com/watch?v=EqMx0tIFNl4",
+          "id": "EqMx0tIFNl4",
+          "duration": 14604,
+          "durationStr": "4:03:24",
+          "publishedAt": "2026-11-24T12:00:09+00:00",
+          "views": 42,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "thienphatreview",
+          "channelName": "Thiên Phạt Review"
         }
       ],
-      "totalViews": 3779,
-      "totalLikes": 54,
+      "totalViews": 3821,
+      "totalLikes": 55,
       "channelIds": [
         "thienphatreview"
       ]
