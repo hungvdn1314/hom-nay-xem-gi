@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 5733,
+    "totalFilms": 5734,
     "totalDurationSec": 87474339,
     "totalDurationFormatted": "24298 giờ 25 phút",
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-24T06:15:29.778926+00:00"
+    "lastUpdated": "2026-11-24T07:00:47.670809+00:00"
   },
   "channels": [
     {
@@ -61,7 +61,7 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 346
+      "filmCount": 347
     },
     {
       "id": "zzzphim",
@@ -173,6 +173,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_5734",
+      "title": "P1, Thiếu Niên Giải Phong Ấn Hệ Thống Thức Tỉnh Sức Mạnh Kiếm Thần, Một Kiếm Trấn Áp Tà Thần Dị Giới",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7340,
+      "totalDurationStr": "2 giờ 02 phút",
+      "totalViews": 33,
+      "totalLikes": 3,
+      "review": "[ Full ] P1, Thiếu Niên Giải Phong Ấn Hệ Thống Thức Tỉnh Sức Mạnh Kiếm Thần, Một Kiếm Trấn Áp Tà Thần Dị Giới Lưu ý: Nội dung được tạo dựng bằng AI và kịch bản là quan điểm review cá nhân do đó không có thực, cảm ơn các bạn đã xem video ! Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/MBKeKa2YllE/hqdefault.jpg",
+      "publishedAt": "2026-11-24T06:48:39+00:00",
+      "updatedAt": "2026-11-24T06:48:39+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Thiếu Niên Giải Phong Ấn Hệ Thống Thức Tỉnh Sức Mạnh Kiếm Thần, Một Kiếm Trấn Áp Tà Thần Dị Giới",
+          "url": "https://www.youtube.com/watch?v=MBKeKa2YllE",
+          "id": "MBKeKa2YllE",
+          "duration": 7340,
+          "durationStr": "2:02:20",
+          "publishedAt": "2026-11-24T06:48:39+00:00",
+          "views": 33,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5732",
       "title": "P1 |【Vượt Qua Muôn Trùng Phó Bản: Mỗi Lần Phá Đảo, Tôi Lại Mở Khóa Một Hình Thái Mới Của Bạn Trai!】",
