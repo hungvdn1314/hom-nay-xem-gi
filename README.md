@@ -1,98 +1,152 @@
-# Hôm Nay Xem Gì - Kho Phim Hoạt Hình & Review 3D Chiếu Rạp
+<div align="center">
 
-Nền tảng xem và khám phá hơn **1.564 bộ phim hoạt hình 2D/3D**, tu tiên, mạt thế, hệ thống tuyển chọn từ **8 kênh review YouTube hàng đầu**, phát triển theo phong cách **Nordic Minimalist Pure Glass** (Bắc Âu Tinh Khiết) với luồng trực tiếp 24h và hệ thống thông báo tập mới thông minh.
+<img src="./logo.svg" alt="Logo Hôm Nay Xem Gì" width="76" height="76" />
 
----
+# Hôm Nay Xem Gì
 
-## 🌟 Điểm Nhấn & Tính Năng Nổi Bật
+Trang tổng hợp và xem phim hoạt hình 3D từ 28 kênh YouTube tiếng Việt.
 
-1. **Giao Diện Bắc Âu Tinh Khiết (Nordic Minimalist Pure Glass)**:
-   - Tông nền Arctic Slate (`#0B0D11`) kết hợp bề mặt kính mờ siêu mịn (*Frosted Glass*) và điểm nhấn Xanh Băng Glacier (`#38BDF8`).
-   - Font chữ chuẩn quốc tế **Plus Jakarta Sans** hiển thị sắc nét 100% dấu tiếng Việt.
-   - Thẻ phim tỷ lệ **16:9 Widescreen** chuẩn rạp, không méo hay mờ ảnh thumbnail.
+[![Stack](https://img.shields.io/badge/Stack-HTML%20%C2%B7%20CSS%20%C2%B7%20Vanilla%20JS-09090B?style=flat-square&labelColor=111116&color=F43F5E)](./index.html)
+[![Catalog](https://img.shields.io/badge/Kho%20phim-5.990%2B%20b%E1%BB%99%203D%20%C2%B7%2028%20k%C3%AAnh-111116?style=flat-square&color=F43F5E)](./data.js)
+[![Deploy](https://img.shields.io/badge/Hosting-Vercel-09090B?style=flat-square&labelColor=111116&color=FFFFFF)](./vercel.json)
+[![Auto-Sync](https://img.shields.io/badge/Sync-GitHub%20Actions%20%2B%20Innertube-09090B?style=flat-square&labelColor=111116&color=10B981)](./.github/workflows/auto_update_youtube.yml)
 
-2. **⚡ Dòng Thời Gian "Mới Cập Nhật Trong 24h Qua"**:
-   - Tab phân loại riêng biệt với huy hiệu cập nhật theo thời gian thực (*"15 phút trước"*, *"1 giờ trước"*...).
-   - Đánh dấu tập mới và phân loại series theo thời gian phát hành.
-
-3. **🔔 Hệ Thống Thông Báo Tập Mới (Notification & Follow Tracker)**:
-   - Chuông thông báo trên Header hiển thị số tập mới chưa đọc của các phim bạn đang theo dõi.
-   - Bảng Popover kính mờ cho phép nhấp vào thông báo là mở ngay tập phim mới trong rạp chiếu.
-   - Nút "Đã đọc hết" và tự động đồng bộ qua LocalStorage.
-
-4. **Trình Chiếu Rạp Cinema Theater Modal**:
-   - Tích hợp video YouTube mượt mà, không quảng cáo phụ.
-   - Ma trận chọn tập dạng viên thuốc (`[Tập 1]`, `[Tập 2]`... `[Tập 50]`) với nhãn `[MỚI]` cho tập vừa cập nhật.
-
-5. **🎲 Gợi Ý Phim Ngẫu Nhiên: "Hôm Nay Xem Gì?"**:
-   - Bấm nút xúc xắc trên Header hoặc thanh điều hướng để hệ thống tự động chọn một siêu phẩm dài tập đỉnh cao ($\ge$ 2 tiếng).
-
-6. **Bộ Lọc Đa Tầng & Tìm Kiếm Tức Thì**:
-   - Tìm kiếm không dấu với độ trễ tối ưu 160ms, phím tắt `/`.
-   - Lọc theo 10 thể loại phim và 8 kênh review uy tín.
+</div>
 
 ---
 
-## 🚀 Hướng Dẫn Deploy Lên Vercel
+## Mục lục
 
-Dự án là ứng dụng Single Page Application (SPA) thuần tĩnh (`HTML + CSS + Vanilla JS`), **không cần cài đặt Node.js hay build step phức tạp**, deploy lên Vercel chạy ngay 100% sau 30 giây!
+- [Tính năng](#tính-năng)
+- [Giao diện và logo](#giao-diện-và-logo)
+- [Cấu trúc thư mục](#cấu-trúc-thư-mục)
+- [Chạy trên máy](#chạy-trên-máy)
+- [Cách lấy và cập nhật phim](#cách-lấy-và-cập-nhật-phim)
+- [Deploy lên Vercel](#deploy-lên-vercel)
+- [Phím tắt](#phím-tắt)
 
-### Cách 1: Deploy qua GitHub (Khuyên dùng)
-1. Khởi tạo Git và Commit mã nguồn:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: complete Hom Nay Xem Gi platform with Nordic Pure Glass UI"
-   ```
-2. Tạo Repository mới trên GitHub (ví dụ: `hom-nay-xem-gi`) và push lên:
-   ```bash
-   git remote add origin https://github.com/<tai-khoan-cua-ban>/hom-nay-xem-gi.git
-   git branch -M main
-   git push -u origin main
-   ```
-3. Đăng nhập [vercel.com](https://vercel.com) $\rightarrow$ Bấm **"Add New..."** $\rightarrow$ **"Project"** $\rightarrow$ Chọn repo `hom-nay-xem-gi`.
-4. Cấu hình trên Vercel:
-   - **Project Name:** `hom-nay-xem-gi`
-   - **Framework Preset:** `Other` (hoặc để tự động nhận diện)
-   - **Root Directory:** `./`
-   - Bấm **Deploy**.
-5. Trang web của bạn sẽ có tên miền miễn phí dạng:  
-   👉 **`https://hom-nay-xem-gi.vercel.app`**
+---
 
-### Cách 2: Deploy trực tiếp bằng Vercel CLI
-Nếu bạn đã cài Vercel CLI trên máy tính:
-```bash
-vercel
+## Tính năng
+
+**Hôm Nay Xem Gì** chạy bằng HTML, CSS và JavaScript thuần, không cần bước build. Dữ liệu gồm hơn **5.990 bộ phim hoạt hình 3D** gom từ **28 kênh YouTube** (Tu tiên, Huyền huyễn, Mạt thế, Hệ thống, Ngự thú, Đô thị, Trò chơi...).
+
+Những điểm chính đang chạy trên web:
+
+- **Hero và bộ lọc không bị nhảy trang:** Phía trên cùng là 6 phim đề cử dùng ảnh bìa lớn (`maxresdefault.jpg`, tự lùi về `sddefault` hoặc `hqdefault` nếu YouTube không có ảnh gốc). Phía dưới là thanh chuyển tab nhanh (`Tất Cả`, `Mới 24h`, `Bảng XH`, `Cày Đêm >6h`, `Series Dài`, `Phim 1 Tập`, `Tủ Phim`) đi kèm cột lọc bên trái theo thể loại, thời lượng và kênh. Hero giữ cố định phía trên nên lúc chuyển tab hay đổi thể loại trang không bị giật lên xuống.
+- **Lọc bỏ video 2D và gộp tập:** Bộ lọc chạy cả ở script Python, Serverless API lẫn phía trình duyệt để loại video dưới 20 phút, truyện audio ghép ảnh tĩnh, review truyện tranh 2D và video nhạc nền. Các tập lẻ cùng bộ (kể cả kiểu `Phần 1+2`, `Tập 793-794`, `Full SS1` hoặc đăng ở nhiều kênh) được gom thành một series và phân về 10 thể loại 3D chính.
+- **Theo dõi tập mới và thông báo:** Tab `Mới 24h` sắp xếp theo giờ đăng thật trên YouTube lấy qua `/api/live-feed`. Phim bạn bấm lưu vào `localStorage` sẽ tự báo qua nút chuông trên header khi có tập mới, bấm vào thông báo là mở thẳng tới tập đó.
+- **Khung xem phim (Theater Modal):** Có nút mở rộng khung xem (`Wide Mode`), làm tối nền xung quanh (`Ambient Dim`), tự chuyển tập sau 5 giây đếm ngược (`Auto-Next`), nhớ tập và mốc giây đang xem dở qua tham số `&start=` của YouTube. Ngoài ra có nút tạo mã QR dạng SVG ngay trên trình duyệt để quét mở nhanh sang TV hoặc điện thoại, hỗ trợ chia sẻ link trực tiếp qua URL (`?film=&ep=`).
+- **Bảng xếp hạng và chọn ngẫu nhiên:** Bảng xếp hạng lọc được theo lượt xem hoặc lượt thích, chia mốc hôm nay, tuần, tháng, năm, mọi lúc và lọc chéo theo từng kênh, từng thể loại. Nút `Ngẫu Nhiên` chọn một phim 3D bất kỳ kèm sẵn poster, thông số và tóm tắt cốt truyện.
+
+---
+
+## Giao diện và logo
+
+Quy ước màu sắc, font chữ và khoảng cách được ghi trong [`DESIGN.md`](./DESIGN.md) (`v5.1.0`):
+
+| Thành phần | Giá trị đang dùng |
+| :--- | :--- |
+| **Phong cách** | Ambient Cinema (nền tối, các nút điều khiển phủ mờ) |
+| **Bảng màu** | Nền chính `#060608`, khung card `#111116`, nút `#1A1A22`, điểm nhấn `#F43F5E` |
+| **Font chữ** | Tiêu đề `Space Grotesk`, nội dung `Be Vietnam Pro`, số liệu `JetBrains Mono` |
+| **Logo chính** | Clapperboard 3D kết hợp Play và sao 4 cánh AI ([`logo.svg`](./logo.svg), `256x256`) |
+| **Bộ icon web & PWA** | [`icons/favicon.svg`](./icons/favicon.svg) tự đổi màu theo theme sáng/tối của trình duyệt, `favicon.ico`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, `maskable-512.png` và [`site.webmanifest`](./icons/site.webmanifest) |
+
+---
+
+## Cấu trúc thư mục
+
+```text
+film-ai-3d/
+├── index.html                  # Giao diện trang chủ, header và các modal xem phim
+├── style.css                   # Biến màu, layout 3 cột desktop và responsive mobile (375px)
+├── app.js                      # Xử lý lọc, live feed, player, lưu tiến trình xem, QR SVG
+├── data.js                     # Kho phim tĩnh (window.FILMS_DATA) được bot cập nhật định kỳ
+├── youtube_films_catalog.json  # Bản JSON của kho phim phục vụ đối chiếu và kiểm tra
+├── logo.svg                    # File logo vector gốc
+├── icons/                      # Bộ favicon, icon iOS và PWA manifest
+├── api/
+│   ├── live-feed.js            # Vercel function lấy danh sách video mới và thời lượng 24h
+│   └── cron-update.js          # Endpoint gọi GitHub Actions chạy cập nhật qua webhook/cron
+├── scripts/
+│   ├── update_youtube_feed.py  # Script crawl YouTube RSS + Innertube, gộp tập và phân loại
+│   └── dev_server.py           # Server chạy thử trên máy có giả lập sẵn /api/live-feed
+├── .github/workflows/
+│   └── auto_update_youtube.yml # Lịch chạy tự động mỗi 30 phút trên GitHub Actions
+├── DESIGN.md                   # Tài liệu quy chuẩn giao diện của dự án
+├── vercel.json                 # Cấu hình cache Vercel và cron hàng ngày
+└── run_web.bat                 # File mở nhanh web bằng Python trên Windows
 ```
-(Làm theo hướng dẫn trên terminal và chọn `y` cho các cấu hình mặc định).
 
 ---
 
-## 💻 Chạy Cục Bộ (Local Development)
+## Chạy trên máy
 
-- Click đúp vào file [`run_web.bat`](file:///c:/Users/Admin/Documents/antigravity/film-ai-3d/run_web.bat) trên Windows để tự động mở trình duyệt tại `http://localhost:8080`.
-- Hoặc chạy lệnh:
-  ```bash
-  python -m http.server 8080
-  ```
+Dự án không dùng `npm` hay bundler. Bạn chỉ cần cài Python 3.9 trở lên.
+
+**Chạy đầy đủ cả `/api/live-feed` (khuyên dùng khi sửa code):**
+
+```bash
+python scripts/dev_server.py 8080
+```
+
+Xong mở trình duyệt vào `http://localhost:8080/`.
+
+**Hoặc chỉ mở nhanh giao diện tĩnh:**
+
+```bash
+python -m http.server 8080
+```
+
+Trên Windows có thể bấm đúp vào file [`run_web.bat`](./run_web.bat).
 
 ---
 
-## ⚡ Hệ Thống Tự Động Cập Nhật Video YouTube (GitHub Actions Cron)
+## Cách lấy và cập nhật phim
 
-Dự án tích hợp sẵn hệ thống **Tự Động Fetch & Cập Nhật Video Mới (100% Free)**:
+Dữ liệu mới được cập nhật qua hai đường:
 
-- **Tần suất quét:** Chạy tự động **mỗi 30 phút** (`cron: '*/30 * * * *'`) qua GitHub Actions.
-- **Nguồn cấp:** Đọc XML RSS chính thức của 8 kênh YouTube đối tác (không cần API Key, không lo quota giới hạn).
-- **Cơ chế thông minh:**
-  - Tự động nhận diện video thuộc tập mới của series cũ hay là phim hoàn toàn mới.
-  - Phân tích từ khóa để gán thể loại chuẩn xác.
-  - **Chỉ commit & kích hoạt Vercel deploy khi thực sự có video mới**, đảm bảo tối ưu 100% tài nguyên miễn phí.
-- **Kích hoạt thủ công bất cứ lúc nào:**
-  1. Vào tab **Actions** trên GitHub repository: [`hungvdn1314/hom-nay-xem-gi/actions`](https://github.com/hungvdn1314/hom-nay-xem-gi/actions).
-  2. Chọn workflow **"YouTube 30-Minute Auto-Updater"**.
-  3. Bấm **"Run workflow"** $\rightarrow$ Hệ thống sẽ quét ngay lập tức sau 20 giây!
-- **Chạy trực tiếp tại máy cục bộ:**
-  ```bash
-  python scripts/update_youtube_feed.py
-  ```
+1. **Tự động lưu vào repo (GitHub Actions):** Workflow [`.github/workflows/auto_update_youtube.yml`](./.github/workflows/auto_update_youtube.yml) chạy mỗi 30 phút, gọi [`scripts/update_youtube_feed.py`](./scripts/update_youtube_feed.py) đọc RSS và API nội bộ của YouTube (Innertube `browse` và `next`) từ 28 kênh. Khi có phim hoặc tập mới, script ghi lại `data.js`, `youtube_films_catalog.json`, tăng chuỗi `?v=` trong `index.html` rồi tự push commit mới lên `main`.
+2. **Cập nhật nóng lúc mở web (Vercel Serverless):** File [`api/live-feed.js`](./api/live-feed.js) đọc các video mới đăng của 28 kênh với cache 5 phút trên Edge (`s-maxage=300, stale-while-revalidate=600`). Trình duyệt tự gọi endpoint này và gộp thêm các video vừa lên sóng chưa kịp vào file tĩnh `data.js`.
+
+Khi cần bảo trì lại dữ liệu bằng tay trên máy, dùng các cờ sau của `update_youtube_feed.py`:
+
+```bash
+python scripts/update_youtube_feed.py                   # Quét video mới của 28 kênh
+python scripts/update_youtube_feed.py --backfill        # Bổ sung thời lượng còn thiếu
+python scripts/update_youtube_feed.py --backfill-stats  # Cập nhật lại lượt xem và lượt thích
+python scripts/update_youtube_feed.py --clean-3d        # Quét lại bộ lọc 2D/short và phân loại thể loại
+python scripts/update_youtube_feed.py --repair-parts    # Sắp xếp và đánh số lại các tập bị ghép
+python scripts/update_youtube_feed.py --discover-channels # Tìm và chấm điểm kênh 3D mới
+```
+
+---
+
+## Deploy lên Vercel
+
+**Qua GitHub:**
+1. Push hoặc fork repo lên GitHub.
+2. Vào [Vercel](https://vercel.com), chọn **Add New Project** và trỏ tới repo này.
+3. Giữ nguyên **Framework Preset** là `Other`, **Root Directory** là `./` rồi bấm **Deploy**.
+
+**Qua Vercel CLI:**
+
+```bash
+vercel --prod
+```
+
+Mặc định web chạy được ngay mà không cần API Key. Nếu muốn bổ sung thêm, bạn có thể khai báo hai biến môi trường sau trong Vercel Project Settings:
+
+- `YOUTUBE_API_KEY`: dùng thêm YouTube Data API v3 khi tra cứu thống kê video.
+- `GH_TOKEN` (hoặc `GITHUB_DISPATCH_TOKEN`): cần có quyền `repo` hoặc `actions:write` để endpoint `/api/cron-update` kích hoạt lại workflow GitHub Actions theo lịch khai báo trong [`vercel.json`](./vercel.json).
+
+---
+
+## Phím tắt
+
+| Phím | Tác dụng |
+| :--- | :--- |
+| `/` | Nhảy con trỏ vào ô tìm kiếm phim và kênh |
+| `Esc` | Đóng khung xem phim, hộp gợi ý ngẫu nhiên hoặc bảng thông báo đang mở |
+| `←` / `→` | Chuyển qua lại giữa 6 phim đề cử khi đang focus ở khu vực Hero |
