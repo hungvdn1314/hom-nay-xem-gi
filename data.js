@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 5989,
+    "totalFilms": 5991,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 28,
-    "lastUpdated": "2026-11-24T13:01:00.468788+00:00"
+    "lastUpdated": "2026-11-24T13:15:37.610932+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 615
+      "filmCount": 616
     },
     {
       "id": "naophangtutien",
@@ -169,7 +169,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 20
+      "filmCount": 21
     },
     {
       "id": "akatsukireview",
@@ -179,6 +179,81 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_5991",
+      "title": "Full Phần 1 | Trung Tâm Điều Phái Thiếu Nữ Ma Pháp: Cuộc Chiến Chống Lại Âm Mưu Hắc Ma Pháp!",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8119,
+      "totalDurationStr": "2 giờ 15 phút",
+      "totalViews": 1,
+      "totalLikes": 1,
+      "review": "🎬 【Trung Tâm Điều Phái Thiếu Nữ Ma Pháp: Cuộc Chiến Chống Lại Âm Mưu Hắc Ma Pháp!】 🪄✨ Trong một thế giới nơi ma pháp tồn tại, những thiếu nữ sở hữu năng lực phép thuật đặc biệt cùng nhau thực hiện các nhiệm vụ thông qua Trung Tâm Điều Phái Thiếu Nữ Ma Pháp! Tưởng chừng chỉ là những nhiệm vụ thường ngày, nhưng đằng sau vẻ yên bình ấy lại ẩn giấu một âm...",
+      "genres": [
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/Mc2hNEPQUrE/hqdefault.jpg",
+      "publishedAt": "2026-11-24T13:13:08+00:00",
+      "updatedAt": "2026-11-24T13:13:08+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Trung Tâm Điều Phái Thiếu Nữ Ma Pháp: Cuộc Chiến Chống Lại Âm Mưu Hắc Ma Pháp!",
+          "url": "https://www.youtube.com/watch?v=Mc2hNEPQUrE",
+          "id": "Mc2hNEPQUrE",
+          "duration": 8119,
+          "durationStr": "2:15:19",
+          "publishedAt": "2026-11-24T13:13:08+00:00",
+          "views": 1,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_5990",
+      "title": "8 GIỜ | Ngự Thú: Chia Sẻ Thiên Phú Linh Thú, Ta Bồi Dưỡng Vạn Thú Tiến Hóa Thành Thần!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 29366,
+      "totalDurationStr": "8 giờ 09 phút",
+      "totalViews": 309,
+      "totalLikes": 19,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **NGỰ THÚ CHIA SẺ THIÊN PHÚ – NUÔI LINH THÚ TIẾN HÓA, XÂY DỰNG TRẠI THANH MỘC! | 8H09** 🐉 **Vương Mộc**, thiên tài bồi dưỡng linh thú 18 tuổi, tốt nghiệp học viện sớm và nhận được **Thanh Mộc Yêu**. Nhờ sự giúp đỡ của gia đình, hắn mở trại bồi dưỡng Thanh Mộc, bắt đầu hành trình...",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/QQm3AZPrRjM/hqdefault.jpg",
+      "publishedAt": "2026-11-24T13:00:03+00:00",
+      "updatedAt": "2026-11-24T13:00:03+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "8 GIỜ | Ngự Thú: Chia Sẻ Thiên Phú Linh Thú, Ta Bồi Dưỡng Vạn Thú Tiến Hóa Thành Thần!",
+          "url": "https://www.youtube.com/watch?v=QQm3AZPrRjM",
+          "id": "QQm3AZPrRjM",
+          "duration": 29366,
+          "durationStr": "8:09:26",
+          "publishedAt": "2026-11-24T13:00:03+00:00",
+          "views": 309,
+          "likes": 19,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_5989",
       "title": "Sở Hữu Dị Năng Cấp SS Và Hệ Thống Bao Phê Tôi Khuấy Đảo Giới Dị Năng Giả | Đậu Đậu Vietsub",
