@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 344641927,
     "totalLikes": 1225929,
     "totalChannels": 27,
-    "lastUpdated": "2026-11-23T23:15:47.829459+00:00"
+    "lastUpdated": "2026-11-24T00:00:44.054583+00:00"
   },
   "channels": [
     {
@@ -24464,10 +24464,10 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLPyZGjXwqIOc",
-      "totalParts": 6,
-      "partsStr": "6 phần",
-      "totalDurationSec": 120231,
-      "totalDurationStr": "33 giờ 23 phút",
+      "totalParts": 7,
+      "partsStr": "7 phần",
+      "totalDurationSec": 130423,
+      "totalDurationStr": "36 giờ 13 phút",
       "review": "Thần Tai Chi Thể. (5 phần (Phần 1 -> 5))",
       "genres": [
         "Tu tiên / Huyền huyễn"
@@ -24563,13 +24563,28 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "melacreview",
           "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 7,
+          "label": "Mùa 7",
+          "title": "Mùa 7 | Trảm Thần Quan: Thần Tai Chi",
+          "url": "https://www.youtube.com/watch?v=Gtk4_ToZ_VQ",
+          "id": "Gtk4_ToZ_VQ",
+          "duration": 10192,
+          "durationStr": "2:49:52",
+          "publishedAt": "2026-11-23T23:55:46+00:00",
+          "views": 13,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
         }
       ],
-      "totalViews": 399202,
+      "totalViews": 399215,
       "totalLikes": 4080,
       "publishedAt": "2026-08-18T00:00:00+00:00",
-      "updatedAt": "2026-11-15T18:33:00.759816+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-23T23:55:46+00:00",
+      "isRecent24h": true,
       "channelIds": [
         "melacreview"
       ]
