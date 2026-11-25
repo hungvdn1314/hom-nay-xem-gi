@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6057,
+    "totalFilms": 6058,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T12:15:34.821317+00:00"
+    "lastUpdated": "2026-11-25T12:30:39.642845+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 625
+      "filmCount": 626
     },
     {
       "id": "naophangtutien",
@@ -185,6 +185,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6058",
+      "title": "23 GIỜ 40 THỎA MÃN | Tu Tiên Bị Thánh Nữ Hủy Hôn, Ta Thức Tỉnh Đế Thể Thôn Phệ Vạn Binh!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TU TIÊN NGHỊCH TẬP – BỊ THÁNH NỮ HỦY HÔN, THỨC TỈNH VẠN ĐẠO ĐẾ THỂ! | SS1–SS2 | 23H40** ⚔️ **Diệp Viêm**, thiếu gia Diệp gia, không thể ngưng tụ linh khí nên bị coi là phế vật. Ngay trước mặt mọi người, hai chị em **Vân Phi Tuyết và Vân Phi Nguyệt** đến ép hắn hủy hôn, khiến gia...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/hbNs6ZwN5b8/hqdefault.jpg",
+      "publishedAt": "2026-11-25T12:30:28+00:00",
+      "updatedAt": "2026-11-25T12:30:28+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "23 GIỜ 40 THỎA MÃN | Tu Tiên Bị Thánh Nữ Hủy Hôn, Ta Thức Tỉnh Đế Thể Thôn Phệ Vạn Binh!",
+          "url": "https://www.youtube.com/watch?v=hbNs6ZwN5b8",
+          "id": "hbNs6ZwN5b8",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-25T12:30:28+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6057",
       "title": "Kích Hoạt Hệ Thống Nhặt Xác: Một Đao Phá Vạn Quân Lật Đổ Quyền Gia | Đậu Đậu Vietsub",
