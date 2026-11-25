@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6031,
+    "totalFilms": 6032,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T02:00:47.805652+00:00"
+    "lastUpdated": "2026-11-25T02:15:45.173221+00:00"
   },
   "channels": [
     {
@@ -169,7 +169,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 23
+      "filmCount": 24
     },
     {
       "id": "akatsukireview",
@@ -185,6 +185,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6032",
+      "title": "P1 |【Thư Kiếm Thịnh Đường: Được Tiên Nhân Xoa Đầu Truyền Đạo, Ta Một Đường Quét Ngang Đại Đường!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 22060,
+      "totalDurationStr": "6 giờ 07 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Thư Kiếm Thịnh Đường: Được Tiên Nhân Xoa Đầu Truyền Đạo, Ta Một Đường Quét Ngang Đại Đường!】 ⚔️📜 Giữa thời kỳ Đại Đường thịnh thế, nơi văn đạo và võ đạo cùng tỏa sáng, nhân vật chính bất ngờ gặp được cơ duyên nghịch thiên khi được tiên nhân xoa đầu truyền đạo! Chỉ một lần điểm hóa đã mở ra con đường tu luyện phi thường, giúp anh bước vào thế giới...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/mI5ywIToROk/hqdefault.jpg",
+      "publishedAt": "2026-11-25T02:12:06+00:00",
+      "updatedAt": "2026-11-25T02:12:06+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1 |【Thư Kiếm Thịnh Đường: Được Tiên Nhân Xoa Đầu Truyền Đạo, Ta Một Đường Quét Ngang Đại Đường!】",
+          "url": "https://www.youtube.com/watch?v=mI5ywIToROk",
+          "id": "mI5ywIToROk",
+          "duration": 22060,
+          "durationStr": "6:07:40",
+          "publishedAt": "2026-11-25T02:12:06+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6031",
       "title": "Full | Toàn Server Sinh Tồn: Tôi Rút Trúng Khinh Khí Cầu Cũ Nát Nhưng Lại Mở Khóa Hệ Thống Thần Cấp",
