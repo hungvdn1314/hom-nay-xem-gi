@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6058,
+    "totalFilms": 6059,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T12:45:36.528989+00:00"
+    "lastUpdated": "2026-11-25T13:00:46.889781+00:00"
   },
   "channels": [
     {
@@ -145,7 +145,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 322
+      "filmCount": 323
     },
     {
       "id": "godsub",
@@ -185,6 +185,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6059",
+      "title": "Tôi Cùng Nữ Hoàng Zombie Sinh Tồn Thời Tận Thế | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7455,
+      "totalDurationStr": "2 giờ 04 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Tôi Cùng Nữ Hoàng Zombie Sinh Tồn Thời Tận Thế | Đậu Đậu Vietsub 📋 Tóm Tắt : Streamer Lâm Hữu cùng Nữ hoàng Zombie (từng là fan donate số một) sinh tồn qua quy tắc, dọn tòa nhà, yêu nhau, vạch trần âm mưu và chờ cứu hộ. 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính bạn định nghĩa. Giữ...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/JLBpETfytlo/hqdefault.jpg",
+      "publishedAt": "2026-11-25T13:00:19+00:00",
+      "updatedAt": "2026-11-25T13:00:19+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Tôi Cùng Nữ Hoàng Zombie Sinh Tồn Thời Tận Thế | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=JLBpETfytlo",
+          "id": "JLBpETfytlo",
+          "duration": 7455,
+          "durationStr": "2:04:15",
+          "publishedAt": "2026-11-25T13:00:19+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6058",
       "title": "23 GIỜ 40 THỎA MÃN | Tu Tiên Bị Thánh Nữ Hủy Hôn, Ta Thức Tỉnh Đế Thể Thôn Phệ Vạn Binh!",
