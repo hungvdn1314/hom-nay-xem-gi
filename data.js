@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T09:00:46.005284+00:00"
+    "lastUpdated": "2026-11-25T09:15:36.193140+00:00"
   },
   "channels": [
     {
@@ -14233,8 +14233,8 @@ window.FILMS_DATA = {
       "playlistUrl": null,
       "totalParts": 6,
       "partsStr": "6 phần",
-      "totalDurationSec": 132849,
-      "totalDurationStr": "36 giờ 54 phút",
+      "totalDurationSec": 144816,
+      "totalDurationStr": "40 giờ 13 phút",
       "totalViews": 208000,
       "totalLikes": 0,
       "review": "",
@@ -14327,8 +14327,8 @@ window.FILMS_DATA = {
           "title": "SS9 | Võng Du Thần Vực: Thức Tỉnh Thiên Phú Độc SSS+, Càng Giết Quái Độc Càng Mạnh!",
           "url": "https://www.youtube.com/watch?v=KukMq0GJkvc",
           "id": "KukMq0GJkvc",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 11967,
+          "durationStr": "3:19:27",
           "publishedAt": "2026-11-25T09:00:30+00:00",
           "views": 0,
           "likes": 0,
