@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6034,
+    "totalFilms": 6035,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T03:15:29.740751+00:00"
+    "lastUpdated": "2026-11-25T03:45:31.128074+00:00"
   },
   "channels": [
     {
@@ -67,7 +67,7 @@ window.FILMS_DATA = {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 325
+      "filmCount": 326
     },
     {
       "id": "gianhireview",
@@ -185,6 +185,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6035",
+      "title": "Trọng Sinh Bị Chị Họ Ép Đổi Hôn, Mang Không Gian Linh Tuyền Gả Thợ Săn, Nghịch Thiên Đổi Mệnh",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8447,
+      "totalDurationStr": "2 giờ 20 phút",
+      "totalViews": 17,
+      "totalLikes": 2,
+      "review": "Trọng Sinh Bị Chị Họ Ép Đổi Hôn, Mang Không Gian Linh Tuyền Gả Thợ Săn, Nghịch Thiên Đổi Mệnh",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/2ffQJWc8uPI/hqdefault.jpg",
+      "publishedAt": "2026-11-25T03:37:13+00:00",
+      "updatedAt": "2026-11-25T03:37:13+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trọng Sinh Bị Chị Họ Ép Đổi Hôn, Mang Không Gian Linh Tuyền Gả Thợ Săn, Nghịch Thiên Đổi Mệnh",
+          "url": "https://www.youtube.com/watch?v=2ffQJWc8uPI",
+          "id": "2ffQJWc8uPI",
+          "duration": 8447,
+          "durationStr": "2:20:47",
+          "publishedAt": "2026-11-25T03:37:13+00:00",
+          "views": 17,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6034",
       "title": "Full | Toàn Dân Sinh Tồn Đường Cao Tốc Người Ta Lái Xe Nâng Cấp Tôi Lên Cấp Kiếm Tiên Đạp Phi Kiếm!",
