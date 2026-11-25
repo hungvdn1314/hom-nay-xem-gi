@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6028,
+    "totalFilms": 6029,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T01:15:34.534983+00:00"
+    "lastUpdated": "2026-11-25T01:30:34.917312+00:00"
   },
   "channels": [
     {
@@ -97,7 +97,7 @@ window.FILMS_DATA = {
       "id": "tieumuoingontinh",
       "name": "Tiểu Muội Ngôn Tình",
       "url": "https://www.youtube.com/@TieuMuoiNgonTinh",
-      "filmCount": 73
+      "filmCount": 74
     },
     {
       "id": "cibiisub",
@@ -185,6 +185,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6029",
+      "title": "Full Tập 01~134 | Thiên Tài Huyền Môn Trọng Sinh, Sở Hữu Mắt Âm Dương Phá Kỳ Án Diệt Tà Thần",
+      "channelId": "tieumuoingontinh",
+      "channelName": "Tiểu Muội Ngôn Tình",
+      "channelUrl": "https://www.youtube.com/@TieuMuoiNgonTinh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7404,
+      "totalDurationStr": "2 giờ 03 phút",
+      "totalViews": 21,
+      "totalLikes": 0,
+      "review": "Thiên tài Huyền Môn ngàn năm Tô Mặc trọng sinh vào thân xác cô gái bị tra nam và tiểu thư hào môn hãm hại. Sở hữu mắt âm dương, cô mở livestream xem bói, vạch trần tà thuật tráo hồn mượn mạng, phá kỳ án, vả mặt kẻ phản bội và diệt trừ tà thần. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt Nhật, Phim Ngôn Tình...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/hY7WKjH5I3Q/hqdefault.jpg",
+      "publishedAt": "2026-11-25T01:22:17+00:00",
+      "updatedAt": "2026-11-25T01:22:17+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1",
+          "title": "Full Tập 01~134 | Thiên Tài Huyền Môn Trọng Sinh, Sở Hữu Mắt Âm Dương Phá Kỳ Án Diệt Tà Thần",
+          "url": "https://www.youtube.com/watch?v=hY7WKjH5I3Q",
+          "id": "hY7WKjH5I3Q",
+          "duration": 7404,
+          "durationStr": "2:03:24",
+          "publishedAt": "2026-11-25T01:22:17+00:00",
+          "views": 21,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6027",
       "title": "P1 | Tiểu Thần Bếp Giữa Ngân Hà: Xuyên Đến Thế Giới Tinh Tế, Tôi Dùng Mỹ Thực Chinh Phục Mọi Người",
