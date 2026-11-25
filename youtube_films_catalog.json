@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6040,
+    "totalFilms": 6041,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T06:01:21.993667+00:00"
+    "lastUpdated": "2026-11-25T06:30:33.807826+00:00"
   },
   "channels": [
     {
@@ -61,7 +61,7 @@
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 348
+      "filmCount": 349
     },
     {
       "id": "zzzphim",
@@ -185,6 +185,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6041",
+      "title": "P1, Xuyên Không Thức Tỉnh Hệ Thống Sao Chép Thiên Phú, Càng Chiến Đấu Càng Mạnh, Trở Thành Vô Địch",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9896,
+      "totalDurationStr": "2 giờ 44 phút",
+      "totalViews": 32,
+      "totalLikes": 1,
+      "review": "[ Full ] P1, Xuyên Không Thức Tỉnh Hệ Thống Sao Chép Thiên Phú, Càng Chiến Đấu Càng Mạnh, Trở Thành Vô Địch Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/5P_QAk93Q24/hqdefault.jpg",
+      "publishedAt": "2026-11-25T06:19:22+00:00",
+      "updatedAt": "2026-11-25T06:19:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Xuyên Không Thức Tỉnh Hệ Thống Sao Chép Thiên Phú, Càng Chiến Đấu Càng Mạnh, Trở Thành Vô Địch",
+          "url": "https://www.youtube.com/watch?v=5P_QAk93Q24",
+          "id": "5P_QAk93Q24",
+          "duration": 9896,
+          "durationStr": "2:44:56",
+          "publishedAt": "2026-11-25T06:19:22+00:00",
+          "views": 32,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6039",
       "title": "16 GIỜ  THỎA MÃN | Nữ Tiên Nhân Tu Luyện 2 Vạn Năm, Trở Về Đô Thị Bảo Vệ Mẹ Và Chị Gái!",
