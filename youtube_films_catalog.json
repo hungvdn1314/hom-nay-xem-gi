@@ -6,7 +6,7 @@
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T12:30:39.642845+00:00"
+    "lastUpdated": "2026-11-25T12:45:36.528989+00:00"
   },
   "channels": [
     {
@@ -194,8 +194,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 85217,
+      "totalDurationStr": "23 giờ 40 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TU TIÊN NGHỊCH TẬP – BỊ THÁNH NỮ HỦY HÔN, THỨC TỈNH VẠN ĐẠO ĐẾ THỂ! | SS1–SS2 | 23H40** ⚔️ **Diệp Viêm**, thiếu gia Diệp gia, không thể ngưng tụ linh khí nên bị coi là phế vật. Ngay trước mặt mọi người, hai chị em **Vân Phi Tuyết và Vân Phi Nguyệt** đến ép hắn hủy hôn, khiến gia...",
@@ -214,8 +214,8 @@
           "title": "23 GIỜ 40 THỎA MÃN | Tu Tiên Bị Thánh Nữ Hủy Hôn, Ta Thức Tỉnh Đế Thể Thôn Phệ Vạn Binh!",
           "url": "https://www.youtube.com/watch?v=hbNs6ZwN5b8",
           "id": "hbNs6ZwN5b8",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 85217,
+          "durationStr": "23:40:17",
           "publishedAt": "2026-11-25T12:30:28+00:00",
           "views": 0,
           "likes": 0,
@@ -9864,19 +9864,19 @@
       "channelName": "Não Phẳng Tu Tiên",
       "channelUrl": "https://www.youtube.com/@nao-phang",
       "playlistUrl": null,
-      "totalParts": 14,
-      "partsStr": "14 phần",
-      "totalDurationSec": 97530,
-      "totalDurationStr": "27 giờ 05 phút",
-      "totalViews": 128123,
-      "totalLikes": 1,
+      "totalParts": 15,
+      "partsStr": "15 phần",
+      "totalDurationSec": 100222,
+      "totalDurationStr": "27 giờ 50 phút",
+      "totalViews": 128127,
+      "totalLikes": 2,
       "review": "",
       "genres": [
         "Tu tiên / Huyền huyễn"
       ],
       "thumbnail": "https://i.ytimg.com/vi/c5iiDKLQcZg/hqdefault.jpg",
       "publishedAt": "2026-11-09T10:49:42.537089+00:00",
-      "updatedAt": "2026-11-24T18:47:24+00:00",
+      "updatedAt": "2026-11-25T12:43:46+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -10001,6 +10001,21 @@
         },
         {
           "index": 9,
+          "label": "Phần 6.4",
+          "title": "Phần 6-P4 (881-940): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
+          "url": "https://www.youtube.com/watch?v=ehtR5HSQASE",
+          "id": "ehtR5HSQASE",
+          "duration": 2692,
+          "durationStr": "44:52",
+          "publishedAt": "2026-11-25T12:43:46+00:00",
+          "views": 4,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 10,
           "label": "Phần 5-6",
           "title": "Phần 5 -P6(685): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=LNrDktAS8Uo",
@@ -10015,7 +10030,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 10,
+          "index": 11,
           "label": "Phần 5-7",
           "title": "Phần 5 -P7(740): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=AFVS8jA5Neg",
@@ -10030,7 +10045,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 11,
+          "index": 12,
           "label": "Phần 5-8",
           "title": "Phần 5- P8(795): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=jJ-L7l4oOwU",
@@ -10045,7 +10060,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 12,
+          "index": 13,
           "label": "Phần 5-9",
           "title": "Phần 5-P9(850): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=lq0u7MMBreA",
@@ -10060,7 +10075,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 13,
+          "index": 14,
           "label": "Phần 5-10",
           "title": "Phần 5-P10(950): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=KuAkH_EUmE4",
@@ -10075,7 +10090,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 14,
+          "index": 15,
           "label": "Phần 5-11",
           "title": "Phần 5-P11(1000): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=hQrxQ--Ac5s",
