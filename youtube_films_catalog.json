@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6033,
+    "totalFilms": 6034,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T03:00:44.666311+00:00"
+    "lastUpdated": "2026-11-25T03:15:29.740751+00:00"
   },
   "channels": [
     {
@@ -145,7 +145,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 318
+      "filmCount": 319
     },
     {
       "id": "godsub",
@@ -185,6 +185,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6034",
+      "title": "Full | Toàn Dân Sinh Tồn Đường Cao Tốc Người Ta Lái Xe Nâng Cấp Tôi Lên Cấp Kiếm Tiên Đạp Phi Kiếm!",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10951,
+      "totalDurationStr": "3 giờ 02 phút",
+      "totalViews": 31,
+      "totalLikes": 3,
+      "review": "Full | Toàn Dân Sinh Tồn Đường Cao Tốc Người Ta Lái Xe Nâng Cấp Tôi Lên Cấp Kiếm Tiên Đạp Phi Kiếm! 📋 Tóm Tắt : Lâm Uyên sở hữu ngộ tính nghịch thiên và Hệ thống Kiếm Tiên trong game sinh tồn cao tốc. Anh biến ván trượt thành phi kiếm, tiêu diệt Zombie Vương và thống trị bảng xếp hạng. 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/bl0-gso7FOw/hqdefault.jpg",
+      "publishedAt": "2026-11-25T03:00:25+00:00",
+      "updatedAt": "2026-11-25T03:00:25+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full | Toàn Dân Sinh Tồn Đường Cao Tốc Người Ta Lái Xe Nâng Cấp Tôi Lên Cấp Kiếm Tiên Đạp Phi Kiếm!",
+          "url": "https://www.youtube.com/watch?v=bl0-gso7FOw",
+          "id": "bl0-gso7FOw",
+          "duration": 10951,
+          "durationStr": "3:02:31",
+          "publishedAt": "2026-11-25T03:00:25+00:00",
+          "views": 31,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6033",
       "title": "7 GIỜ 30 | Cao Võ Dị Năng: Xuyên Không Đến Kỷ Nguyên Tai Biến, Đồ Độc Vào Tay Ta Hóa Bảo Vật!",
