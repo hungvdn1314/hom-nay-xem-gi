@@ -4,10 +4,10 @@
 
 # Hôm Nay Xem Gì
 
-Trang tổng hợp và xem phim hoạt hình 3D từ 29 kênh YouTube tiếng Việt.
+Trang tổng hợp và xem phim hoạt hình 3D từ 31 kênh YouTube tiếng Việt.
 
 [![Stack](https://img.shields.io/badge/Stack-HTML%20%C2%B7%20CSS%20%C2%B7%20Vanilla%20JS-09090B?style=flat-square&labelColor=111116&color=F43F5E)](./index.html)
-[![Catalog](https://img.shields.io/badge/Kho%20phim-6.020%2B%20b%E1%BB%99%203D%20%C2%B7%2029%20k%C3%AAnh-111116?style=flat-square&color=F43F5E)](./data.js)
+[![Catalog](https://img.shields.io/badge/Kho%20phim-6.540%2B%20b%E1%BB%99%203D%20%C2%B7%2031%20k%C3%AAnh-111116?style=flat-square&color=F43F5E)](./data.js)
 [![Deploy](https://img.shields.io/badge/Hosting-Vercel-09090B?style=flat-square&labelColor=111116&color=FFFFFF)](./vercel.json)
 [![Auto-Sync](https://img.shields.io/badge/Sync-GitHub%20Actions%20%2B%20Innertube-09090B?style=flat-square&labelColor=111116&color=10B981)](./.github/workflows/auto_update_youtube.yml)
 
@@ -29,12 +29,12 @@ Trang tổng hợp và xem phim hoạt hình 3D từ 29 kênh YouTube tiếng Vi
 
 ## Tính năng
 
-**Hôm Nay Xem Gì** chạy bằng HTML, CSS và JavaScript thuần, không cần bước build. Dữ liệu gồm hơn **6.020 bộ phim hoạt hình 3D** gom từ **29 kênh YouTube** (Tu tiên, Huyền huyễn, Mạt thế, Hệ thống, Ngự thú, Đô thị, Trò chơi...).
+**Hôm Nay Xem Gì** chạy bằng HTML, CSS và JavaScript thuần, không cần bước build. Dữ liệu gồm hơn **6.540 bộ phim hoạt hình 3D** gom từ **31 kênh YouTube** (Tu tiên, Huyền huyễn, Mạt thế, Hệ thống, Ngự thú, Đô thị, Trò chơi...).
 
 Những điểm chính đang chạy trên web:
 
-- **Hero và bộ lọc không bị nhảy trang:** Phía trên cùng là 6 phim đề cử dùng ảnh bìa lớn (`maxresdefault.jpg`, tự lùi về `sddefault` hoặc `hqdefault` nếu YouTube không có ảnh gốc). Phía dưới là thanh chuyển tab nhanh (`Tất Cả`, `Mới 24h`, `Bảng XH`, `Cày Đêm >6h`, `Series Dài`, `Phim 1 Tập`, `Tủ Phim`) đi kèm cột lọc bên trái theo thể loại, thời lượng và kênh. Hero giữ cố định phía trên nên lúc chuyển tab hay đổi thể loại trang không bị giật lên xuống.
-- **Lọc bỏ video 2D và gộp tập:** Bộ lọc chạy cả ở script Python, Serverless API lẫn phía trình duyệt để loại video dưới 20 phút, truyện audio ghép ảnh tĩnh, review truyện tranh 2D và video nhạc nền. Các tập lẻ cùng bộ (kể cả kiểu `Phần 1+2`, `Tập 793-794`, `Full SS1` hoặc đăng ở nhiều kênh) được gom thành một series và phân về 10 thể loại 3D chính.
+- **Hero, lọc nhiều kênh và lọc nhiều thể loại cùng lúc:** Phía trên cùng là 6 phim đề cử dùng ảnh bìa lớn (`maxresdefault.jpg`, tự lùi về `sddefault` hoặc `hqdefault` nếu YouTube không có ảnh gốc). Phía dưới là thanh chuyển tab nhanh (`Tất Cả`, `Mới 24h`, `Bảng XH`, `Cày Đêm >6h`, `Series Dài`, `Phim 1 Tập`, `Tủ Phim`) đi kèm cột lọc cho phép tích chọn cùng lúc nhiều thể loại (hỗ trợ gạt `Bất kỳ` / `Tất cả`) và nhiều kênh/studio mà trang không bị giật lên xuống.
+- **Tự động gộp kênh cùng hệ thống và gộp tập:** Script [`scripts/update_youtube_feed.py`](./scripts/update_youtube_feed.py) quét dấu hiệu sở hữu chung (cộng tác viên/liên kết kênh trên trang chủ YouTube, tài khoản ủng hộ, email, link chéo) để tự gộp các kênh cha-con thành một mục chọn duy nhất trên web (như cụm 6 kênh **Hệ Thống Mộng Ảnh Studio** và cụm 2 kênh **Hệ Thống Trùm Phim Sinh Tồn New**) và gom các tập lẻ phát hành chéo kênh về cùng một series. Bộ lọc 3 lớp chặn video dưới 20 phút, truyện audio tĩnh và review truyện tranh 2D.
 - **Theo dõi tập mới và thông báo:** Tab `Mới 24h` sắp xếp theo giờ đăng thật trên YouTube lấy qua `/api/live-feed`. Phim bạn bấm lưu vào `localStorage` sẽ tự báo qua nút chuông trên header khi có tập mới, bấm vào thông báo là mở thẳng tới tập đó.
 - **Khung xem phim (Theater Modal):** Có nút mở rộng khung xem (`Wide Mode`), làm tối nền xung quanh (`Ambient Dim`), tự chuyển tập sau 5 giây đếm ngược (`Auto-Next`), nhớ tập và mốc giây đang xem dở qua tham số `&start=` của YouTube. Ngoài ra có nút tạo mã QR dạng SVG ngay trên trình duyệt để quét mở nhanh sang TV hoặc điện thoại, hỗ trợ chia sẻ link trực tiếp qua URL (`?film=&ep=`).
 - **Bảng xếp hạng và chọn ngẫu nhiên:** Bảng xếp hạng lọc được theo lượt xem hoặc lượt thích, chia mốc hôm nay, tuần, tháng, năm, mọi lúc và lọc chéo theo từng kênh, từng thể loại. Nút `Ngẫu Nhiên` chọn một phim 3D bất kỳ kèm sẵn poster, thông số và tóm tắt cốt truyện.
@@ -107,13 +107,14 @@ Trên Windows có thể bấm đúp vào file [`run_web.bat`](./run_web.bat).
 
 Dữ liệu mới được cập nhật qua hai đường:
 
-1. **Tự động lưu vào repo (GitHub Actions):** Workflow [`.github/workflows/auto_update_youtube.yml`](./.github/workflows/auto_update_youtube.yml) chạy mỗi 30 phút, gọi [`scripts/update_youtube_feed.py`](./scripts/update_youtube_feed.py) đọc RSS và API nội bộ của YouTube (Innertube `browse` và `next`) từ 29 kênh. Khi có phim hoặc tập mới, script ghi lại `data.js`, `youtube_films_catalog.json`, tăng chuỗi `?v=` trong `index.html` rồi tự push commit mới lên `main`.
-2. **Cập nhật nóng lúc mở web (Vercel Serverless):** File [`api/live-feed.js`](./api/live-feed.js) đọc các video mới đăng của 29 kênh với cache 5 phút trên Edge (`s-maxage=300, stale-while-revalidate=600`). Trình duyệt tự gọi endpoint này và gộp thêm các video vừa lên sóng chưa kịp vào file tĩnh `data.js`.
+1. **Tự động lưu vào repo (GitHub Actions):** Workflow [`.github/workflows/auto_update_youtube.yml`](./.github/workflows/auto_update_youtube.yml) chạy mỗi 30 phút, gọi [`scripts/update_youtube_feed.py`](./scripts/update_youtube_feed.py) đọc RSS và API nội bộ của YouTube (Innertube `browse` và `next`) từ 31 kênh. Khi có phim hoặc tập mới, script ghi lại `data.js`, `youtube_films_catalog.json`, tự cập nhật nhóm kênh liên kết, tăng chuỗi `?v=` trong `index.html` rồi tự push commit mới lên `main`.
+2. **Cập nhật nóng lúc mở web (Vercel Serverless):** File [`api/live-feed.js`](./api/live-feed.js) đọc các video mới đăng của 31 kênh với cache 5 phút trên Edge (`s-maxage=300, stale-while-revalidate=600`). Trình duyệt tự gọi endpoint này và gộp thêm các video vừa lên sóng chưa kịp vào file tĩnh `data.js`.
 
 Khi cần bảo trì lại dữ liệu bằng tay trên máy, dùng các cờ sau của `update_youtube_feed.py`:
 
 ```bash
-python scripts/update_youtube_feed.py                   # Quét video mới của 29 kênh
+python scripts/update_youtube_feed.py                   # Quét video mới của 31 kênh
+python scripts/update_youtube_feed.py --sync-groups     # Quét và gộp lại các cụm kênh liên kết
 python scripts/update_youtube_feed.py --backfill        # Bổ sung thời lượng còn thiếu
 python scripts/update_youtube_feed.py --backfill-stats  # Cập nhật lại lượt xem và lượt thích
 python scripts/update_youtube_feed.py --clean-3d        # Quét lại bộ lọc 2D/short và phân loại thể loại

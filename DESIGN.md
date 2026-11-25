@@ -1,13 +1,13 @@
 # Brand & Design System: Hôm Nay Xem Gì (Ambient Cinema · Hybrid A + B)
 
-> Version: 5.1.0 (Official Production Release)  
+> Version: 5.2.0 (Official Production Release)  
 > Aesthetic Persona: Ambient Cinema (Editorial Dark Obsidian + Frosted Command Dock + Sticky Sidebar Rail)  
 > Brand Mark: Custom Clapperboard 3D · Play-AI Emblem (`logo.svg` + `icons/`)
 
 ---
 
 ## 1. Executive Summary & Design Read
-- **Product Kind**: Curated 3D donghua, anime, and animated series cinema archive (`6,024` pure 3D films across `29` vetted YouTube channels).
+- **Product Kind**: Curated 3D donghua, anime, and animated series cinema archive (`6,549` pure 3D films across `31` vetted YouTube channels / `25` unified studio entries).
 - **Design Read**: `Reading this as: High-contrast dark-room cinema library ("Hôm Nay Xem Gì") for Vietnamese 3D donghua enthusiasts, pairing full-bleed Ambilight editorial spotlighting with a frictionless dual-axis Command Dock + Sticky Sidebar catalog.`
 - **Logo Identity (`logo.svg` & `icons/`)**:
   - Audited `100/100` (`svg_audit.py`) flat architectural 256×256 vector mark (`fill-rule="evenodd"`, zero gradients, `#FFFFFF` primary on dark / `#09090B` primary on light + `#F43F5E` Brand Crimson accent).
@@ -28,10 +28,11 @@
 3. **Typography**: Body `'Be Vietnam Pro'` (`1.55` line-height), Mono telemetry `'JetBrains Mono'`.
 4. **Display Font**: `'Space Grotesk'` (`-0.03em` tight editorial display tracking).
 5. **Layout Model**:
-   - Full-bleed Ambient Cinema Hero (`#spotlightHeroShell`) kept permanently mounted (`0px` filter scroll jump).
-   - Direct transition to Catalog `#catalogSection` (zero middle carousels):
+   - **Full-Screen `100dvh` MUBI Minimalist Cinema Hero (`#spotlightHeroShell`)**: Dual-layer cross-fading full-bleed artwork + `18s` Ken Burns drift, unboxed top-left Clapperboard 3D brand signature (`.hero-brand-mark`), lower-left editorial column (kicker + 2-line title + 4–5 line extracted `extractCleanPlotSummary` plot synopsis + solo `[ ▶ Xem Ngay ]` CTA), MUBI 6-title hairline rail (`#spotlightTitleRail`) with `7s` crimson tick progress & accessible pause control (`#btnSpotlightPause`), and bare bottom scroll cue (`Cuộn xuống để xem thêm nội dung ↓`).
+   - **2-Zone Compositor Scroll & Scroll-Revealed Header**: `#siteHeader` & `.mobile-bottom-bar` stay hidden (`is-hero-hidden` + `inert`) while viewing Hero (`scrollY < 0.52 * H`) and slide cleanly into view upon scrolling down into `#browseWorkspace` (`#continueShelf` + `#catalogSection`). Decisive `scrollToCinemaZone` snaps Hero ↔ Browse without getting stuck midway while keeping catalog scrolling 100% free.
+   - **Catalog Workspace (`#catalogSection`)**:
      - **Option B Horizontal Sticky Command Dock (`#commandDock`)**: Quick scopes (`Tất Cả`, `Mới 24h`, `Bảng XH`, `Cày Đêm >6h`, `Series Dài`, `Phim 1 Tập`, `Tủ Phim`) + result count + Sort & Timeframe selects.
-     - **Option A Sticky Left Attribute Sidebar (`248px`, `#appSidebar`)**: `Thể Loại 3D` with tabular mono counts, `Thời Lượng` chips, `Nguồn Studio` popover trigger. Collapses into native Popover `#mobileFilterDrawer` at `<= 1024px`.
+     - **Option A Sticky Left Attribute Sidebar (`248px`, `#appSidebar`)**: `Thể Loại 3D` with tabular mono counts + `Bất kỳ`/`Tất cả` multi-genre toggle, `Thời Lượng` chips, `Nguồn Studio` popover trigger. Collapses into native Popover `#mobileFilterDrawer` at `<= 1024px`.
      - **Right 3-Column Cinema Grid (`#cardsWidescreenGrid`)**: Clean 16:9 posters, concise mono metadata, hover-reveal bottom strip (`Xem Tập 1` + `Chi Tiết`), locked `min-height: 780px; overflow-anchor: none;`.
 6. **Component Style**: `10px` card radius, `6px` crisp button radius, `>= 44px` hero CTAs, native `popover="auto"` Studio Directory & Filter Drawers.
 7. **Mood & Vibe**: Obsidian Cinema Screening Room (Apple TV+ / Criterion / MUBI restraint).

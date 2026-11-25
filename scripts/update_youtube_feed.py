@@ -10,6 +10,7 @@ import os
 import re
 import sys
 import json
+import hashlib
 import urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -85,7 +86,9 @@ CHANNELS = [
     {"id": "nhatanhstudio", "name": "Nhật Ảnh Studio", "url": "https://www.youtube.com/@StudioCitraMentari", "channel_id": "UC9ymEAdoYS17Vtkk8B60mCw"},
     {"id": "vananhstudio", "name": "Vạn Ảnh Studio", "url": "https://www.youtube.com/@vananhanhstudio", "channel_id": "UCYjCN2YydxT6UaRlE7t83jQ"},
     {"id": "akatsukireview", "name": "Akatsuki Review", "url": "https://www.youtube.com/@Akatsuki-KT", "channel_id": "UCRkGgoKdH3K05UdgRamBb3Q"},
-    {"id": "mianhstudio", "name": "Mị Ảnh Studio", "url": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio", "channel_id": "UCf6RjHLIxO2DYaH7PR2OvuQ"}
+    {"id": "mianhstudio", "name": "Mị Ảnh Studio", "url": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio", "channel_id": "UCf6RjHLIxO2DYaH7PR2OvuQ"},
+    {"id": "trumphimsinhton", "name": "Trùm Phim Sinh Tồn New", "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1", "channel_id": "UCAJdyl3HED639LTM76i7FcQ"},
+    {"id": "sinhtontanthe", "name": "Sinh Tồn Tận Thế", "url": "https://www.youtube.com/@SinhT%E1%BB%93nT%E1%BA%ADnTh%E1%BA%BFNew", "channel_id": "UCHDAV_skG6U-BClpm3ik10Q"}
 ]
 
 DISCOVERY_QUERIES = [
@@ -359,8 +362,9 @@ CHANNEL_SUFFIX_RE = re.compile(
     r'Win\s*Vietsub|Thế\s*Vietsub|Vietsub\s*Phim|Thiết\s*Review|Hải\s*Anh\s*Vietsub|'
     r'MQV\s*Vietsub|Nguyễn\s*Tường\s*Vietsub|2K\s*Sub|Tỷ\s*Đệ\s*Muội|Tiểu\s*Sư\s*Muội|'
     r'Thiên\s*Phạt\s*Review|Tiểu\s*Hồ\s*Review(?:\s*\(Dorovietsub\))?|Mễ\s*Lạc\s*Review|ChiuChiuSubTV|'
-    r'Thiên\s*Ảnh\s*Studio|Mộng\s*Ảnh\s*Studio|Vân\s*Mộng\s*Studio|Nhật\s*Ảnh\s*Studio|Vạn\s*Ảnh\s*Studio|'
+    r'Thiên\s*Ảnh\s*Studio|Mộng\s*Ảnh\s*Studio|Vân\s*Mộng\s*Studio|Nhật\s*Ảnh\s*Studio|Vạn\s*Ảnh\s*Studio|Mị\s*Ảnh\s*Studio|'
     r'Gia\s*Nhi\s*Review|Phim\s*Zoo\s*AI|Zoo\s*AI\s*phim|Phim\s*Zombie|Akatsuki\s*Review|'
+    r'Trùm\s*Phim\s*Sinh\s*Tồn(?:\s*New)?|Sinh\s*Tồn\s*Tận\s*Thế|'
     r'Hoạt\s*Hình\s*(?:Kinh\s*Dị|Tận\s*Thế|3D[^|]*)|Phim\s*Hoạt\s*Hình[^|]*'
     r')|#\w+)\s*["\'.]*\s*$',
     re.IGNORECASE
@@ -1512,19 +1516,319 @@ def discover_channels(min_ratio=0.8):
     print(f"[Discover] {len(staged)} channels passed the quality gate -> {out_path}. Add approved ones to CHANNELS.")
 
 
-def sync_channel_meta(data, films):
-    """Keep data['channels'] aligned with CHANNELS and film counts (including multi-channel series)."""
+def _sig_hash(raw_key):
+    return "sig:" + hashlib.sha256(raw_key.encode("utf-8")).hexdigest()[:12]
+
+
+def _extract_ownership_signatures(text, ch_obj, all_channels):
+    """Extract deterministic hashed ownership signatures (bank/email/social/cross-channel links) from text."""
+    sigs = set()
+    if not text:
+        return sigs
+    low = text.lower()
+
+    for m in re.finditer(
+        r'(?:stk|số\s*tài\s*khoản|tài\s*khoản|ngân\s*hàng|bank|vietinbank|vietcombank|vcb|techcombank|mb\s*bank|tpbank|acb|bidv|agribank|vpbank|sacombank|momo|zalopay)[^\n\d]{0,36}(\d[\d\s.-]{6,16}\d)',
+        low
+    ):
+        digits = re.sub(r'\D', '', m.group(1))
+        if 8 <= len(digits) <= 16:
+            sigs.add(_sig_hash("bank:" + digits))
+
+    for email in re.findall(r'[\w.+-]+@[\w-]+\.[\w.-]{2,}', low):
+        email = email.strip(".")
+        if email and not email.endswith(("example.com", "youtube.com")):
+            sigs.add(_sig_hash("email:" + email))
+
+    for soc in re.findall(r'(?:facebook\.com|fb\.com|tiktok\.com|t\.me|zalo\.me|coigiday\.xyz)/[^\s\n"\'<>,]+', low):
+        soc = soc.rstrip(".,;:!?/)")
+        if soc:
+            sigs.add(_sig_hash("social:" + soc))
+
+    # Cross-channel YouTube links / explicit mentions of another tracked channel's UC ID or @handle
+    own_id = ch_obj["id"]
+    decoded_text = urllib.request.unquote(low)
+    for other in all_channels:
+        if other["id"] == own_id:
+            continue
+        other_cid = other["channel_id"].lower()
+        other_handle = urllib.request.unquote(other["url"]).split("/")[-1].lower()
+        if other_cid in low or (other_handle.startswith("@") and len(other_handle) >= 5 and other_handle in decoded_text):
+            pair = tuple(sorted((own_id, other["id"])))
+            sigs.add(_sig_hash(f"ytlink:{pair[0]}:{pair[1]}"))
+
+    return sigs
+
+
+def _walk_home_linked_channel_ids(obj, own_cid, out_cids):
+    """Extract linked UC channel IDs from YouTube Collaborator & Featured Channel links in ytInitialData."""
+    if isinstance(obj, dict):
+        meta = (obj.get("commandMetadata") or {}).get("webCommandMetadata") or {}
+        if meta.get("webPageType") == "WEB_PAGE_TYPE_CHANNEL":
+            bid = (obj.get("browseEndpoint") or {}).get("browseId") or ""
+            if bid.startswith("UC") and bid != own_cid:
+                out_cids.add(bid)
+        for v in obj.values():
+            _walk_home_linked_channel_ids(v, own_cid, out_cids)
+    elif isinstance(obj, list):
+        for x in obj:
+            _walk_home_linked_channel_ids(x, own_cid, out_cids)
+
+
+def _fetch_channel_home_signals(channel_id):
+    """Fetch channel description + official YouTube Home Collaborator/Featured Channel IDs."""
+    try:
+        req = urllib.request.Request(
+            f"https://www.youtube.com/channel/{channel_id}",
+            headers={"User-Agent": HEADERS["User-Agent"], "Accept-Language": "vi-VN,vi;q=0.9"}
+        )
+        html = urllib.request.urlopen(req, timeout=12).read().decode("utf-8", "ignore")
+        m = re.search(r'var ytInitialData = (\{.*?\});</script>', html)
+        if not m:
+            return "", set()
+        data = json.loads(m.group(1))
+        meta = data.get("metadata", {}).get("channelMetadataRenderer", {})
+        desc = meta.get("description", "") or ""
+        linked_cids = set()
+        _walk_home_linked_channel_ids(data, channel_id, linked_cids)
+        return desc, linked_cids
+    except Exception:
+        return "", set()
+
+
+def scan_channel_ownership_signatures(channels, films, prev_sigs=None, extra_stats_by_vid=None, force_scan=False):
+    """Build hashed ownership signature map per channel, scanning new/missing channels or all on --sync-groups."""
+    sigs_by_ch = {k: sorted(set(v)) for k, v in (prev_sigs or {}).items() if isinstance(v, list)}
+    ch_by_id = {c["id"]: c for c in channels}
+    cid_to_id = {c["channel_id"]: c["id"] for c in channels}
+
+    # Fold any newly fetched video descriptions from the current run
+    if extra_stats_by_vid:
+        vid_to_ch = {}
+        for f in films:
+            f_ch = f.get("channelId")
+            for p in f.get("parts", []):
+                vid = p.get("id") or p.get("videoId")
+                if vid:
+                    vid_to_ch[vid] = p.get("channelId") or f_ch
+        for vid, st in extra_stats_by_vid.items():
+            cid = vid_to_ch.get(vid)
+            desc = (st or {}).get("description") or ""
+            if cid and cid in ch_by_id and desc:
+                found = _extract_ownership_signatures(desc, ch_by_id[cid], channels)
+                if found:
+                    sigs_by_ch[cid] = sorted(set(sigs_by_ch.get(cid, [])) | found)
+
+    to_scan = [c for c in channels if force_scan or not sigs_by_ch.get(c["id"])]
+    if not to_scan:
+        return sigs_by_ch
+
+    print(f"[Groups] Scanning ownership signatures across {len(to_scan)} channel(s)...")
+    home_signals = {}
+    with ThreadPoolExecutor(max_workers=10) as ex:
+        fut_map = {ex.submit(_fetch_channel_home_signals, c["channel_id"]): c["id"] for c in to_scan}
+        for fut in as_completed(fut_map):
+            cid = fut_map[fut]
+            try:
+                home_signals[cid] = fut.result() or ("", set())
+            except Exception:
+                home_signals[cid] = ("", set())
+
+    # Collect up to 2 sample videoIds per channel to scan descriptions
+    sample_vids_by_ch = {c["id"]: [] for c in to_scan}
+    for f in films:
+        cid = f.get("channelId")
+        if cid in sample_vids_by_ch and len(sample_vids_by_ch[cid]) < 2 and f.get("parts"):
+            vid = f["parts"][-1].get("id") or f["parts"][-1].get("videoId")
+            if vid:
+                sample_vids_by_ch[cid].append(vid)
+
+    sample_ids = [vid for vids in sample_vids_by_ch.values() for vid in vids]
+    sample_stats = batch_fetch_stats(sample_ids, max_workers=16) if sample_ids else {}
+
+    for c in to_scan:
+        cid = c["id"]
+        home_desc, home_linked_cids = home_signals.get(cid, ("", set()))
+        combined = home_desc + "\n" + "\n".join(
+            (sample_stats.get(vid, {}).get("description") or "") for vid in sample_vids_by_ch[cid]
+        )
+        found = _extract_ownership_signatures(combined, c, channels)
+        if found:
+            sigs_by_ch[cid] = sorted(set(sigs_by_ch.get(cid, [])) | found)
+
+        # Official YouTube Collaborator / Featured Channels links between tracked channels
+        for target_uc in home_linked_cids:
+            target_id = cid_to_id.get(target_uc)
+            if target_id and target_id != cid:
+                pair = tuple(sorted((cid, target_id)))
+                link_sig = _sig_hash(f"ytlink:{pair[0]}:{pair[1]}")
+                sigs_by_ch[cid] = sorted(set(sigs_by_ch.get(cid, [])) | {link_sig})
+                sigs_by_ch[target_id] = sorted(set(sigs_by_ch.get(target_id, [])) | {link_sig})
+
+    return sigs_by_ch
+
+
+def detect_linked_channel_groups(channels, films, sigs_by_ch):
+    """Group linked/parent-child channels via Union-Find over shared ownership signatures."""
     counts = {}
     for f in films:
         ch_list = f.get("channelIds") or ([f.get("channelId")] if f.get("channelId") else [])
         for cid in set(ch_list):
             if cid:
                 counts[cid] = counts.get(cid, 0) + 1
-    data["channels"] = [
-        {"id": c["id"], "name": c["name"], "url": c["url"], "filmCount": counts.get(c["id"], 0)}
-        for c in CHANNELS
-    ]
-    data.setdefault("stats", {})["totalChannels"] = len(CHANNELS)
+
+    parent = {c["id"]: c["id"] for c in channels}
+
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[rb] = ra
+
+    sig_owners = {}
+    for c in channels:
+        cid = c["id"]
+        for s in sigs_by_ch.get(cid, []):
+            sig_owners.setdefault(s, []).append(cid)
+
+    for s, owners in sig_owners.items():
+        if len(owners) > 1:
+            base = owners[0]
+            for other in owners[1:]:
+                union(base, other)
+
+    clusters = {}
+    for c in channels:
+        clusters.setdefault(find(c["id"]), []).append(c)
+
+    groups = []
+    for root_id, members in clusters.items():
+        if len(members) <= 1:
+            continue
+        members_sorted = sorted(members, key=lambda c: counts.get(c["id"], 0), reverse=True)
+        primary = members_sorted[0]
+        base_name = primary["name"]
+        group_name = base_name if base_name.lower().startswith("hệ thống") else f"Hệ Thống {base_name}"
+        groups.append({
+            "id": f"group_{primary['id']}",
+            "name": group_name,
+            "primaryId": primary["id"],
+            "memberIds": [m["id"] for m in members_sorted],
+            "memberNames": [m["name"] for m in members_sorted],
+            "countLabel": f"{len(members_sorted)} kênh"
+        })
+
+    groups.sort(key=lambda g: sum(counts.get(mid, 0) for mid in g["memberIds"]), reverse=True)
+    return groups
+
+
+def merge_linked_group_films(films, channel_groups):
+    """Merge duplicate series across channels belonging to the same linked studio group."""
+    if not channel_groups or not films:
+        return films, 0
+
+    ch_to_group = {}
+    for g in channel_groups:
+        for mid in g["memberIds"]:
+            ch_to_group[mid] = g["id"]
+
+    by_group_key = {}
+    to_remove = set()
+    merged_count = 0
+
+    for idx, f in enumerate(films):
+        gid = ch_to_group.get(f.get("channelId"))
+        if not gid:
+            for cid in (f.get("channelIds") or []):
+                if cid in ch_to_group:
+                    gid = ch_to_group[cid]
+                    break
+        if not gid:
+            continue
+
+        s_key = series_grouping_key(f.get("title", ""))
+        if len(s_key) < 6:
+            continue
+
+        bucket_key = (gid, s_key)
+        if bucket_key not in by_group_key:
+            by_group_key[bucket_key] = idx
+            continue
+
+        base_idx = by_group_key[bucket_key]
+        base_film = films[base_idx]
+        if len(f.get("parts", [])) > len(base_film.get("parts", [])):
+            # Promote richer film as base
+            by_group_key[bucket_key] = idx
+            base_film, f_src = f, base_film
+            to_remove.add(base_idx)
+        else:
+            f_src = f
+            to_remove.add(idx)
+
+        known_vids = {p.get("id") or p.get("videoId") for p in base_film.get("parts", []) if p.get("id") or p.get("videoId")}
+        for p in f_src.get("parts", []):
+            vid = p.get("id") or p.get("videoId")
+            if vid and vid in known_vids:
+                continue
+            p_copy = dict(p)
+            if not p_copy.get("channelId"):
+                p_copy["channelId"] = f_src.get("channelId")
+                p_copy["channelName"] = f_src.get("channelName")
+            base_film.setdefault("parts", []).append(p_copy)
+            if vid:
+                known_vids.add(vid)
+
+        ch_ids = list(base_film.get("channelIds") or ([base_film.get("channelId")] if base_film.get("channelId") else []))
+        for cid in (f_src.get("channelIds") or [f_src.get("channelId")]):
+            if cid and cid not in ch_ids:
+                ch_ids.append(cid)
+        base_film["channelIds"] = [c for c in ch_ids if c]
+        recalculate_film_summary(base_film)
+        merged_count += 1
+
+    if to_remove:
+        films = [f for i, f in enumerate(films) if i not in to_remove]
+    return films, merged_count
+
+
+def sync_channel_meta(data, films, channel_groups=None, channel_sigs=None):
+    """Keep data['channels'], data['channelGroups'], and counts aligned with CHANNELS."""
+    counts = {}
+    for f in films:
+        ch_list = f.get("channelIds") or ([f.get("channelId")] if f.get("channelId") else [])
+        for cid in set(ch_list):
+            if cid:
+                counts[cid] = counts.get(cid, 0) + 1
+
+    groups = channel_groups if channel_groups is not None else data.get("channelGroups", [])
+    ch_to_group = {}
+    for g in groups:
+        for mid in g.get("memberIds", []):
+            ch_to_group[mid] = g
+
+    data["channels"] = []
+    for c in CHANNELS:
+        entry = {"id": c["id"], "name": c["name"], "url": c["url"], "filmCount": counts.get(c["id"], 0)}
+        grp = ch_to_group.get(c["id"])
+        if grp:
+            entry["groupId"] = grp["id"]
+            entry["groupName"] = grp["name"]
+        data["channels"].append(entry)
+
+    data["channelGroups"] = groups
+    if channel_sigs is not None:
+        data["channelSignatures"] = channel_sigs
+
+    merged_reduction = sum(max(0, len(g.get("memberIds", [])) - 1) for g in groups)
+    stats = data.setdefault("stats", {})
+    stats["totalChannels"] = len(CHANNELS)
+    stats["totalChannelGroups"] = len(CHANNELS) - merged_reduction
 
 
 def main():
@@ -1535,12 +1839,13 @@ def main():
     do_backfill = "--backfill" in sys.argv
     do_backfill_stats = "--backfill-stats" in sys.argv
     do_clean_3d = "--clean-3d" in sys.argv
+    do_sync_groups = "--sync-groups" in sys.argv
     do_repair_parts = "--repair-parts" in sys.argv or do_backfill or do_backfill_stats or do_clean_3d
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_js_path = os.path.join(base_dir, "data.js")
     catalog_json_path = os.path.join(base_dir, "youtube_films_catalog.json")
 
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting YouTube Auto-Update (backfill={do_backfill}, backfill_stats={do_backfill_stats}, clean_3d={do_clean_3d}, repair_parts={do_repair_parts})...")
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting YouTube Auto-Update (backfill={do_backfill}, backfill_stats={do_backfill_stats}, clean_3d={do_clean_3d}, sync_groups={do_sync_groups}, repair_parts={do_repair_parts})...")
 
     if not os.path.exists(data_js_path):
         print(f"[Error] data.js not found at {data_js_path}")
@@ -1736,15 +2041,31 @@ def main():
                 new_films_count += 1
                 print(f"  [+] New Film ({total_dur_str}): '{v_title}' ({vid})")
 
-    total_changes = new_films_count + new_parts_count + repaired_count + stats_updated_count + cleaned_changes
-    if total_changes == 0:
+    all_films = new_films_list + films
+    prev_sigs = data.get("channelSignatures", {})
+    need_group_scan = do_sync_groups or not data.get("channelGroups") or any(not prev_sigs.get(c["id"]) for c in CHANNELS)
+    sigs_by_ch = scan_channel_ownership_signatures(
+        CHANNELS,
+        all_films,
+        prev_sigs=prev_sigs,
+        extra_stats_by_vid=new_stats_map,
+        force_scan=do_sync_groups
+    )
+    channel_groups = detect_linked_channel_groups(CHANNELS, all_films, sigs_by_ch)
+    all_films, merged_group_films = merge_linked_group_films(all_films, channel_groups)
+    total_changes = new_films_count + new_parts_count + repaired_count + stats_updated_count + cleaned_changes + merged_group_films
+
+    if total_changes == 0 and not need_group_scan:
         print("[Auto-Update] Everything is up to date! No new videos or repairs needed.")
         return
 
-    # Sort newly created films newest-first before prepending
-    new_films_list.sort(key=lambda f: parse_iso_utc(f.get("updatedAt")) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
-    data["films"] = new_films_list + films
-    sync_channel_meta(data, data["films"])
+    # Sort newly created films newest-first before keeping existing tail order
+    new_ids_set = {f["id"] for f in new_films_list}
+    head_new = [f for f in all_films if f["id"] in new_ids_set]
+    tail_existing = [f for f in all_films if f["id"] not in new_ids_set]
+    head_new.sort(key=lambda f: parse_iso_utc(f.get("updatedAt")) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
+    data["films"] = head_new + tail_existing
+    sync_channel_meta(data, data["films"], channel_groups=channel_groups, channel_sigs=sigs_by_ch)
     stats["totalFilms"] = len(data["films"])
     stats["lastUpdated"] = datetime.now(timezone.utc).isoformat()
     data["stats"] = stats
@@ -1759,7 +2080,7 @@ def main():
         print(f"[Auto-Update] Saved '{catalog_json_path}'.")
 
     bump_html_cache_version(base_dir)
-    print(f"\n[Summary] Added {new_films_count} films, {new_parts_count} parts, repaired {repaired_count} films.")
+    print(f"\n[Summary] Added {new_films_count} films, {new_parts_count} parts, repaired {repaired_count} films, merged {merged_group_films} cross-group films, groups={len(channel_groups)}.")
 
 
 if __name__ == "__main__":

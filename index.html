@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hôm Nay Xem Gì · Kho Phim Hoạt Hình 3D Chọn Lọc</title>
-  <meta name="description" content="Khám phá kho phim hoạt hình 3D, tu tiên, mạt thế, hệ thống tuyển chọn tự động từ 29 kênh YouTube uy tín.">
+  <meta name="description" content="Khám phá kho phim hoạt hình 3D, tu tiên, mạt thế, hệ thống tuyển chọn tự động từ 31 kênh YouTube uy tín.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=20261124_203401">
+  <link rel="stylesheet" href="style.css?v=20261125_182638">
   <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
   <link rel="icon" href="icons/favicon.ico" sizes="48x48">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -19,8 +19,8 @@
 </head>
 <body class="ambient-app">
 
-  <!-- ADAPTIVE AMBIENT HEADER (Transparent over Hero -> Frosted Obsidian on scroll) -->
-  <header class="site-header" id="siteHeader">
+  <!-- ADAPTIVE SCROLL-REVEALED HEADER (Hidden over 100dvh Hero -> Slides in on Browse) -->
+  <header class="site-header is-hero-hidden is-scrolled" id="siteHeader" inert>
     <div class="container header-inner">
 
       <!-- Custom Clapperboard 3D · Play-AI Brand Identity -->
@@ -57,7 +57,7 @@
 
         <button type="button" class="hdr-act-btn" id="btnChannelsDrawer" popovertarget="channelDrawer" aria-controls="channelDrawer">
           <svg class="icon hdr-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="7.5" height="7.5" rx="2"></rect><rect x="13.5" y="3" width="7.5" height="7.5" rx="2"></rect><rect x="3" y="13.5" width="7.5" height="7.5" rx="2"></rect><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="2"></rect></svg>
-          <span id="channelLabel">29 Kênh</span>
+          <span id="channelLabel">31 Kênh</span>
         </button>
 
         <!-- Notification Bell Action & Popover -->
@@ -101,42 +101,91 @@
     </div>
   </header>
 
-  <!-- NATIVE POPOVER: 29 STUDIO DIRECTORY -->
-  <aside id="channelDrawer" class="v3-drawer" popover="auto" aria-label="Danh sách 29 kênh 3D">
+  <!-- NATIVE POPOVER: STUDIO DIRECTORY (MULTI-SELECT & GROUPED CHANNELS) -->
+  <aside id="channelDrawer" class="v3-drawer" popover="auto" aria-label="Danh sách kênh 3D">
     <div class="v3-drawer-head">
       <div>
-        <div class="v3-drawer-kicker">ĐỐI TÁC 3D CHỌN LỌC</div>
-        <h2 class="v3-drawer-title">Chọn Studio Nguồn</h2>
+        <div class="v3-drawer-kicker">CHỌN NHIỀU STUDIO NGUỒN</div>
+        <h2 class="v3-drawer-title">Chọn Kênh Phát Hành</h2>
       </div>
       <button type="button" class="v3-icon-btn" popovertarget="channelDrawer" popovertargetaction="hide" aria-label="Đóng danh sách kênh">
         <svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
       </button>
     </div>
-    <input type="search" id="channelSearchInput" class="v3-drawer-search" placeholder="Lọc nhanh tên kênh..." aria-label="Lọc nhanh tên kênh">
+    <input type="search" id="channelSearchInput" class="v3-drawer-search" placeholder="Lọc nhanh tên kênh hoặc studio con..." aria-label="Lọc nhanh tên kênh">
+    <div class="v3-drawer-toolbar" id="channelDrawerToolbar">
+      <span id="channelSelectionSummary">Đang hiện: Tất cả kênh</span>
+      <button type="button" class="v3-clear-link hidden" id="btnClearChannels">Bỏ chọn</button>
+    </div>
     <nav class="v3-drawer-list" id="channelNavList" aria-label="Danh sách kênh"></nav>
+    <div class="v3-drawer-foot">
+      <button type="button" class="v3-apply-btn" id="btnApplyChannels" popovertarget="channelDrawer" popovertargetaction="hide">Xem kết quả</button>
+    </div>
   </aside>
 
-  <!-- NATIVE POPOVER: MOBILE FILTER DRAWER (<= 1024px) -->
+  <!-- NATIVE POPOVER: MULTI-SELECT GENRE & DURATION DRAWER -->
   <aside id="mobileFilterDrawer" class="v3-drawer v3-drawer-left" popover="auto" aria-label="Bộ lọc kho phim">
     <div class="v3-drawer-head">
       <div>
-        <div class="v3-drawer-kicker">BỘ LỌC KHO PHIM</div>
+        <div class="v3-drawer-kicker">CHỌN NHIỀU THỂ LOẠI</div>
         <h2 class="v3-drawer-title">Thể Loại &amp; Thời Lượng</h2>
       </div>
       <button type="button" class="v3-icon-btn" popovertarget="mobileFilterDrawer" popovertargetaction="hide" aria-label="Đóng bộ lọc">
         <svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
       </button>
     </div>
+    <div class="v3-drawer-toolbar" id="mobileFilterToolbar">
+      <span id="mobileFilterSummary">Tích chọn nhiều thể loại cùng lúc</span>
+      <button type="button" class="v3-clear-link hidden" id="btnClearGenresDrawer">Bỏ chọn</button>
+    </div>
     <div class="v3-mobile-filter-body" id="mobileFilterBody"></div>
+    <div class="v3-drawer-foot">
+      <button type="button" class="v3-apply-btn" id="btnApplyMobileFilter" popovertarget="mobileFilterDrawer" popovertargetaction="hide">Xem kết quả</button>
+    </div>
   </aside>
 
   <!-- MAIN STREAMING WORKSPACE -->
   <main id="appMain" tabindex="-1">
 
-    <!-- FULL-BLEED AMBIENT CINEMA HERO (ALWAYS MOUNTED · ZERO JUMP) -->
-    <section class="spotlight-hero-shell" id="spotlightHeroShell" aria-label="Phim 3D đề cử hôm nay">
-      <div class="spotlight-hero" id="spotlightHero" aria-roledescription="carousel" aria-label="Danh sách phim 3D đề cử" tabindex="0"></div>
+    <!-- FULL-SCREEN 100dvh CINEMA SPOTLIGHT HERO (PA C · MUBI MINIMALIST) -->
+    <section class="cinema-hero-shell" id="spotlightHeroShell" aria-label="Phim 3D đề cử hôm nay">
+      <div class="cinema-backdrop-stack" aria-hidden="true">
+        <img class="cinema-bg-layer is-active" id="spotlightBgA" alt="">
+        <img class="cinema-bg-layer" id="spotlightBgB" alt="">
+      </div>
+      <div class="cinema-scrim" aria-hidden="true"></div>
+
+      <div class="cinema-stage" id="cinemaStage">
+        <!-- Unboxed Top-Left Brand Mark over Hero (fades out cleanly as Header slides in) -->
+        <div class="hero-brand-mark" aria-hidden="true">
+          <svg class="brand-logo-svg" viewBox="16 20 224 212" fill="none">
+            <path fill="#FFFFFF" fill-rule="evenodd" d="M 34 112 H 200 A 6 6 0 0 1 206 118 V 206 A 18 18 0 0 1 188 224 H 46 A 18 18 0 0 1 28 206 V 118 A 6 6 0 0 1 34 112 Z M 89.9 128 L 159.2 168 L 89.9 208 Z"/>
+            <path fill="#F43F5E" d="M 113.0 151.5 Q 116.1 164.9 129.5 168 Q 116.1 171.1 113.0 184.5 Q 109.9 171.1 96.5 168 Q 109.9 164.9 113.0 151.5 Z"/>
+            <path fill="#F43F5E" fill-rule="evenodd" d="M 28.0 102.0 L 205.7 54.4 L 198.0 25.4 L 20.2 73.0 Z M 51.2 95.8 L 70.5 90.6 L 79.5 57.2 L 60.1 62.3 Z M 99.5 82.8 L 118.8 77.7 L 127.8 44.2 L 108.4 49.4 Z M 147.8 69.9 L 167.1 64.7 L 176.1 31.3 L 156.7 36.4 Z"/>
+            <path fill="#F43F5E" d="M 214 112 H 220 L 234 126 V 210 L 220 224 H 214 Z"/>
+          </svg>
+          <span class="brand-title">HÔM NAY XEM GÌ</span>
+        </div>
+
+        <div class="spotlight-hero" id="spotlightHero" aria-roledescription="carousel" aria-label="Danh sách phim 3D đề cử" tabindex="0"></div>
+
+        <div class="cinema-bottom-area">
+          <div class="m3-rail-wrap">
+            <div class="m3-titles-grid" id="spotlightTitleRail" role="tablist" aria-label="6 phim đề cử nổi bật"></div>
+            <button type="button" class="tiny-pause-btn" id="btnSpotlightPause" aria-label="Tạm dừng tự chuyển slide" title="Tạm dừng tự chuyển slide">
+              <svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16" fill="currentColor" stroke="none"></rect><rect x="14" y="4" width="4" height="16" fill="currentColor" stroke="none"></rect></svg>
+            </button>
+          </div>
+          <button type="button" class="scroll-cue-bare" id="btnHeroExplore">
+            <span>Cuộn xuống để xem thêm nội dung</span>
+            <svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+        </div>
+      </div>
     </section>
+
+    <!-- ZONE 2: BROWSE WORKSPACE (ĐANG XEM DỞ + KHO PHIM) -->
+    <div class="browse-workspace" id="browseWorkspace" tabindex="-1">
 
     <!-- CONTINUE WATCHING SHELF (Shown only when user has resume progress) -->
     <section class="container continue-shelf hidden" id="continueShelf" aria-label="Đang xem dở">
@@ -206,7 +255,13 @@
         <!-- OPTION A: STICKY ATTRIBUTE SIDEBAR (Genres · Duration · Studio) -->
         <aside class="app-sidebar" id="appSidebar" aria-label="Bộ lọc thuộc tính">
           <section class="side-group">
-            <h2 class="side-kicker">THỂ LOẠI 3D</h2>
+            <div class="side-head-row">
+              <h2 class="side-kicker">THỂ LOẠI 3D</h2>
+              <div class="genre-mode-toggle hidden" id="genreMatchModeToggle" role="group" aria-label="Kiểu khớp nhiều thể loại">
+                <button type="button" class="genre-mode-btn active" data-genre-mode="or" title="Hiện phim thuộc ít nhất 1 thể loại đã chọn">Bất kỳ</button>
+                <button type="button" class="genre-mode-btn" data-genre-mode="and" title="Chỉ hiện phim có đủ tất cả thể loại đã chọn">Tất cả</button>
+              </div>
+            </div>
             <nav class="side-list" id="genreNavList" aria-label="Danh mục thể loại"></nav>
           </section>
 
@@ -231,7 +286,7 @@
           <section class="side-group">
             <h2 class="side-kicker">NGUỒN STUDIO</h2>
             <button type="button" class="side-studio-btn" id="sidebarStudioBtn" popovertarget="channelDrawer">
-              <span id="sidebarStudioLabel">Tất cả 29 kênh</span>
+              <span id="sidebarStudioLabel">Tất cả 31 kênh</span>
               <svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
             </button>
           </section>
@@ -265,12 +320,14 @@
               </div>
 
               <div class="lb-scope-selects">
-                <select id="lbChannelSelect" class="filter-select" aria-label="Lọc bảng xếp hạng theo kênh">
-                  <option value="all">Tất cả 29 kênh</option>
-                </select>
-                <select id="lbGenreSelect" class="filter-select" aria-label="Lọc bảng xếp hạng theo thể loại">
-                  <option value="all">Tất cả thể loại</option>
-                </select>
+                <button type="button" class="lb-scope-btn" id="btnLbChannels" popovertarget="channelDrawer">
+                  <span id="lbChannelBtnLabel">Tất cả 31 kênh</span>
+                  <svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <button type="button" class="lb-scope-btn" id="btnLbGenres" popovertarget="mobileFilterDrawer">
+                  <span id="lbGenreBtnLabel">Tất cả thể loại</span>
+                  <svg class="icon icon-xs" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
               </div>
             </div>
 
@@ -285,7 +342,30 @@
         </section>
       </div>
     </section>
+    </div>
   </main>
+
+  <!-- MINIMALIST CINEMA FOOTER -->
+  <footer class="site-footer" id="siteFooter">
+    <div class="container footer-inner">
+      <a href="#top" class="footer-brand" id="footerHomeBtn" title="Về đầu trang">
+        <svg class="footer-logo-svg" viewBox="16 20 224 212" fill="none" aria-hidden="true">
+          <path fill="#FFFFFF" fill-rule="evenodd" d="M 34 112 H 200 A 6 6 0 0 1 206 118 V 206 A 18 18 0 0 1 188 224 H 46 A 18 18 0 0 1 28 206 V 118 A 6 6 0 0 1 34 112 Z M 89.9 128 L 159.2 168 L 89.9 208 Z"/>
+          <path fill="#F43F5E" d="M 113.0 151.5 Q 116.1 164.9 129.5 168 Q 116.1 171.1 113.0 184.5 Q 109.9 171.1 96.5 168 Q 109.9 164.9 113.0 151.5 Z"/>
+          <path fill="#F43F5E" fill-rule="evenodd" d="M 28.0 102.0 L 205.7 54.4 L 198.0 25.4 L 20.2 73.0 Z M 51.2 95.8 L 70.5 90.6 L 79.5 57.2 L 60.1 62.3 Z M 99.5 82.8 L 118.8 77.7 L 127.8 44.2 L 108.4 49.4 Z M 147.8 69.9 L 167.1 64.7 L 176.1 31.3 L 156.7 36.4 Z"/>
+          <path fill="#F43F5E" d="M 214 112 H 220 L 234 126 V 210 L 220 224 H 214 Z"/>
+        </svg>
+        <span class="footer-brand-name">HÔM NAY XEM GÌ</span>
+        <span class="footer-sep footer-tagline-sep" aria-hidden="true">·</span>
+        <span class="footer-tagline">Kho phim hoạt hình 3D</span>
+      </a>
+
+      <div class="footer-credit">
+        <span class="footer-year">&copy; 2026</span>
+        <span class="footer-author">IrrationaL<span class="footer-author-dot" aria-hidden="true">.</span></span>
+      </div>
+    </div>
+  </footer>
 
   <!-- SCREENING ROOM MODAL PLAYER -->
   <div class="cinema-modal" id="theaterModal" role="dialog" aria-modal="true" aria-labelledby="modalFilmTitle">
@@ -465,8 +545,8 @@
   <!-- TOAST -->
   <div class="toast-pill" id="toastPill" role="status" aria-live="polite"></div>
 
-  <!-- MOBILE BOTTOM DOCK -->
-  <nav class="mobile-bottom-bar" id="mobileBottomBar" aria-label="Điều hướng nhanh di động">
+  <!-- MOBILE BOTTOM DOCK (Hidden on Hero -> Slides up on Browse) -->
+  <nav class="mobile-bottom-bar is-hero-hidden" id="mobileBottomBar" aria-label="Điều hướng nhanh di động" inert>
     <button type="button" class="dock-item active" data-dock="all">
       <svg class="icon icon-sm" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
       <span>Khám Phá</span>
@@ -477,7 +557,7 @@
     </button>
     <button type="button" class="dock-item" popovertarget="channelDrawer">
       <svg class="icon icon-sm" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="14" rx="2"></rect><polyline points="17 2 12 6 7 2"></polyline></svg>
-      <span>29 Kênh</span>
+      <span>31 Kênh</span>
     </button>
     <button type="button" class="dock-item" data-dock="favorites">
       <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
@@ -485,7 +565,7 @@
     </button>
   </nav>
 
-  <script src="data.js?v=20261124_203401"></script>
-  <script src="app.js?v=20261124_203401"></script>
+  <script src="data.js?v=20261125_182638"></script>
+  <script src="app.js?v=20261125_182638"></script>
 </body>
 </html>

@@ -35,7 +35,9 @@ const CHANNELS = [
   { id: 'nhatanhstudio', name: 'Nhật Ảnh Studio', url: 'https://www.youtube.com/@StudioCitraMentari', channelId: 'UC9ymEAdoYS17Vtkk8B60mCw' },
   { id: 'vananhstudio', name: 'Vạn Ảnh Studio', url: 'https://www.youtube.com/@vananhanhstudio', channelId: 'UCYjCN2YydxT6UaRlE7t83jQ' },
   { id: 'akatsukireview', name: 'Akatsuki Review', url: 'https://www.youtube.com/@Akatsuki-KT', channelId: 'UCRkGgoKdH3K05UdgRamBb3Q' },
-  { id: 'mianhstudio', name: 'Mị Ảnh Studio', url: 'https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio', channelId: 'UCf6RjHLIxO2DYaH7PR2OvuQ' }
+  { id: 'mianhstudio', name: 'Mị Ảnh Studio', url: 'https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio', channelId: 'UCf6RjHLIxO2DYaH7PR2OvuQ' },
+  { id: 'trumphimsinhton', name: 'Trùm Phim Sinh Tồn New', url: 'https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1', channelId: 'UCAJdyl3HED639LTM76i7FcQ' },
+  { id: 'sinhtontanthe', name: 'Sinh Tồn Tận Thế', url: 'https://www.youtube.com/@SinhT%E1%BB%93nT%E1%BA%ADnTh%E1%BA%BFNew', channelId: 'UCHDAV_skG6U-BClpm3ik10Q' }
 ];
 
 const GENRE_RULES = [

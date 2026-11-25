@@ -13,12 +13,16 @@
   const state = {
     allFilms: [],
     channels: [],
+    channelGroups: [],
+    channelEntries: [],
+    channelToEntryMap: new Map(),
     genres: [],
     recent24hFilms: [],
     notifications: [],
     activeTab: 'all',
-    selectedGenre: 'all',
-    selectedChannel: 'all',
+    selectedGenres: new Set(),
+    selectedChannels: new Set(),
+    genreMatchMode: 'or',
     sortBy: 'recent',
     timeRange: 'all',
     leaderboardMetric: 'views',
@@ -35,7 +39,18 @@
     randomCandidate: null,
     spotlightIndex: 0,
     spotlightTimer: null,
+    isSpotlightPaused: false,
+    _activeBgSlot: 'A',
+    _spotlightPreloaded: false,
     _spotlightCache: null,
+    _cachedHeroHeight: typeof window !== 'undefined' ? window.innerHeight : 900,
+    _lastScrollY: 0,
+    _scrollDir: 'down',
+    _deepScrollUpGuardUntil: 0,
+    _inBrowse: false,
+    _isGliding: false,
+    _wheelCooldownUntil: 0,
+    _glideReleaseTimer: null,
     autoNextEnabled: (function() { try { return localStorage.getItem('homnayxemgi_autonext') !== '0'; } catch(e) { return true; } })(),
     autoNextCountdownTimer: null,
     isTheaterWide: false,
@@ -63,9 +78,216 @@
     syncLiveYouTubeFeed();
   });
 
+  function isOverlayOpen() {
+    if (el.theaterModal?.classList.contains('active')) return true;
+    if (el.randomModal?.classList.contains('active')) return true;
+    if (el.qrModal?.classList.contains('active')) return true;
+    try {
+      if (el.channelDrawer?.matches(':popover-open') || el.mobileFilterDrawer?.matches(':popover-open')) return true;
+    } catch (e) {}
+    return false;
+  }
+
+  function refreshCachedHeroHeight(options = {}) {
+    const { force = false } = options;
+    const nextH = (el.spotlightHeroShell && el.spotlightHeroShell.offsetHeight > 0)
+      ? Math.round(el.spotlightHeroShell.offsetHeight)
+      : (window.innerHeight || 900);
+    if (force || window.scrollY < 20 || Math.abs(nextH - state._cachedHeroHeight) > 80) {
+      state._cachedHeroHeight = nextH;
+    }
+  }
+
+  function setBrowseChromeVisible(inBrowse) {
+    if (inBrowse === state._inBrowse) return;
+    state._inBrowse = inBrowse;
+
+    if (el.siteHeader) {
+      el.siteHeader.classList.toggle('is-hero-hidden', !inBrowse);
+      el.siteHeader.inert = !inBrowse;
+    }
+    if (el.mobileBottomBar) {
+      el.mobileBottomBar.classList.toggle('is-hero-hidden', !inBrowse);
+      el.mobileBottomBar.inert = !inBrowse;
+    }
+    document.body.classList.toggle('in-browse-zone', inBrowse);
+
+    if (!inBrowse && el.notificationPopover?.classList.contains('active')) {
+      el.notificationPopover.classList.remove('active');
+    }
+  }
+
+  function syncHeaderWithScroll() {
+    const curY = window.scrollY;
+    if (Math.abs(curY - state._lastScrollY) >= 2) {
+      state._scrollDir = curY > state._lastScrollY ? 'down' : 'up';
+      state._lastScrollY = curY;
+    }
+    if (state._isGliding) return;
+
+    const boundary = state._cachedHeroHeight || window.innerHeight || 900;
+    const inBrowse = curY >= boundary * 0.52;
+    setBrowseChromeVisible(inBrowse);
+  }
+
+  function releaseGlideLock() {
+    if (!state._isGliding) return;
+    state._isGliding = false;
+    clearTimeout(state._glideReleaseTimer);
+    document.body.classList.remove('is-scroll-gliding');
+    const boundary = state._cachedHeroHeight || window.innerHeight || 900;
+    setBrowseChromeVisible(window.scrollY >= boundary * 0.52);
+  }
+
+  function scrollToCinemaZone(zone, options = {}) {
+    const { instant = false } = options;
+    refreshCachedHeroHeight({ force: window.scrollY < 20 });
+    const targetY = zone === 'browse' ? state._cachedHeroHeight : 0;
+    const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (Math.abs(window.scrollY - targetY) <= 2) {
+      setBrowseChromeVisible(zone === 'browse');
+      return;
+    }
+
+    if (instant || reduced) {
+      releaseGlideLock();
+      window.scrollTo({ top: targetY, behavior: 'instant' });
+      state._lastScrollY = targetY;
+      setBrowseChromeVisible(zone === 'browse');
+      return;
+    }
+
+    state._scrollDir = zone === 'browse' ? 'down' : 'up';
+    state._isGliding = true;
+    state._wheelCooldownUntil = performance.now() + 720;
+    document.body.classList.add('is-scroll-gliding');
+    setBrowseChromeVisible(zone === 'browse');
+    clearTimeout(state._glideReleaseTimer);
+    state._glideReleaseTimer = setTimeout(releaseGlideLock, 760);
+
+    window.scrollTo({ top: targetY, behavior: 'smooth' });
+  }
+
+  function settleHeroSeamIfNeeded() {
+    if (state._isGliding || isOverlayOpen() || performance.now() < state._wheelCooldownUntil) return;
+    const boundary = state._cachedHeroHeight || window.innerHeight || 900;
+    const y = window.scrollY;
+    if (y > 8 && y < boundary - 8) {
+      if (state._scrollDir === 'up') {
+        scrollToCinemaZone(y < boundary * 0.88 ? 'hero' : 'browse');
+      } else {
+        scrollToCinemaZone(y > boundary * 0.12 ? 'browse' : 'hero');
+      }
+    }
+  }
+
   function setupProgressiveEnhancements() {
-    window.addEventListener('scroll', () => {
-      el.siteHeader?.classList.toggle('is-scrolled', window.scrollY > 36);
+    refreshCachedHeroHeight({ force: true });
+    state._lastScrollY = window.scrollY;
+    state._inBrowse = null;
+    syncHeaderWithScroll();
+
+    if (typeof ResizeObserver === 'function' && el.spotlightHeroShell) {
+      const ro = new ResizeObserver(() => {
+        refreshCachedHeroHeight();
+        syncHeaderWithScroll();
+      });
+      ro.observe(el.spotlightHeroShell);
+    } else {
+      window.addEventListener('resize', () => {
+        refreshCachedHeroHeight();
+        syncHeaderWithScroll();
+      }, { passive: true });
+    }
+
+    window.addEventListener('scroll', syncHeaderWithScroll, { passive: true });
+
+    if ('onscrollend' in window) {
+      window.addEventListener('scrollend', () => {
+        releaseGlideLock();
+        settleHeroSeamIfNeeded();
+      });
+    } else {
+      let fallbackTimer = null;
+      window.addEventListener('scroll', () => {
+        clearTimeout(fallbackTimer);
+        fallbackTimer = setTimeout(() => {
+          releaseGlideLock();
+          settleHeroSeamIfNeeded();
+        }, 130);
+      }, { passive: true });
+    }
+
+    window.addEventListener('wheel', e => {
+      if (e.ctrlKey || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
+      if (isOverlayOpen()) return;
+      if (e.target.closest('.m3-titles-grid, .continue-row, .app-sidebar, .notification-popover')) return;
+
+      const boundary = state._cachedHeroHeight || window.innerHeight || 900;
+      const y = window.scrollY;
+      const now = performance.now();
+
+      if (y > boundary + 24) {
+        if (e.deltaY < 0) state._deepScrollUpGuardUntil = now + 260;
+        return;
+      }
+
+      if (state._isGliding || (now < state._wheelCooldownUntil && y <= boundary + 24)) {
+        e.preventDefault();
+        return;
+      }
+
+      if (y < boundary - 8 && e.deltaY > 4) {
+        e.preventDefault();
+        scrollToCinemaZone('browse');
+      } else if (y > 4 && y <= boundary + 16 && e.deltaY < -4) {
+        e.preventDefault();
+        if (now < state._deepScrollUpGuardUntil) {
+          if (y < boundary - 4) {
+            scrollToCinemaZone('browse');
+          } else {
+            window.scrollTo({ top: boundary, behavior: 'instant' });
+            state._lastScrollY = boundary;
+            state._wheelCooldownUntil = now + 240;
+            setBrowseChromeVisible(true);
+          }
+          return;
+        }
+        scrollToCinemaZone('hero');
+      }
+    }, { passive: false });
+
+    let seamTouchY = null;
+    let seamTouchX = null;
+    window.addEventListener('touchstart', e => {
+      if (e.touches.length !== 1 || isOverlayOpen()) {
+        seamTouchY = null;
+        return;
+      }
+      if (e.target.closest('#spotlightTitleRail, .continue-row, .app-sidebar, .notification-popover')) {
+        seamTouchY = null;
+        return;
+      }
+      seamTouchY = e.touches[0].clientY;
+      seamTouchX = e.touches[0].clientX;
+    }, { passive: true });
+
+    window.addEventListener('touchend', e => {
+      if (seamTouchY === null || e.changedTouches.length !== 1 || isOverlayOpen()) return;
+      const dy = e.changedTouches[0].clientY - seamTouchY;
+      const dx = e.changedTouches[0].clientX - seamTouchX;
+      seamTouchY = null;
+      seamTouchX = null;
+      if (Math.abs(dy) < 54 || Math.abs(dy) <= Math.abs(dx) * 1.4) return;
+
+      const boundary = state._cachedHeroHeight || window.innerHeight || 900;
+      const y = window.scrollY;
+      if (y <= 14 && dy < -54) {
+        scrollToCinemaZone('browse');
+      } else if (y >= boundary - 12 && y <= boundary + 20 && dy > 54) {
+        scrollToCinemaZone('hero');
+      }
     }, { passive: true });
 
     if (!Object.hasOwn(HTMLElement.prototype, 'popover')) {
@@ -87,10 +309,16 @@
     el.catalogSection = document.getElementById('catalogSection');
     el.channelDrawer = document.getElementById('channelDrawer');
     el.channelSearchInput = document.getElementById('channelSearchInput');
+    el.channelSelectionSummary = document.getElementById('channelSelectionSummary');
+    el.btnClearChannels = document.getElementById('btnClearChannels');
+    el.btnApplyChannels = document.getElementById('btnApplyChannels');
     el.channelLabel = document.getElementById('channelLabel');
     el.sidebarStudioLabel = document.getElementById('sidebarStudioLabel');
     el.sidebarDurationChips = document.getElementById('sidebarDurationChips');
     el.mobileFilterDrawer = document.getElementById('mobileFilterDrawer');
+    el.mobileFilterSummary = document.getElementById('mobileFilterSummary');
+    el.btnClearGenresDrawer = document.getElementById('btnClearGenresDrawer');
+    el.btnApplyMobileFilter = document.getElementById('btnApplyMobileFilter');
     el.mobileFilterBody = document.getElementById('mobileFilterBody');
     el.continueShelf = document.getElementById('continueShelf');
     el.continueRow = document.getElementById('continueRow');
@@ -106,6 +334,7 @@
     el.relatedTitle = document.getElementById('relatedTitle');
     el.relatedRow = document.getElementById('relatedRow');
     el.brandHomeBtn = document.getElementById('brandHomeBtn');
+    el.footerHomeBtn = document.getElementById('footerHomeBtn');
     el.btnDiceRandom = document.getElementById('btnDiceRandom');
     el.btnFavoritesOpen = document.getElementById('btnFavoritesOpen');
     el.favCountBadge = document.getElementById('favCountBadge');
@@ -136,15 +365,23 @@
     el.lbSubheading = document.getElementById('lbSubheading');
     el.lbMetricGroup = document.getElementById('lbMetricGroup');
     el.lbTimeGroup = document.getElementById('lbTimeGroup');
-    el.lbChannelSelect = document.getElementById('lbChannelSelect');
-    el.lbGenreSelect = document.getElementById('lbGenreSelect');
+    el.btnLbChannels = document.getElementById('btnLbChannels');
+    el.lbChannelBtnLabel = document.getElementById('lbChannelBtnLabel');
+    el.btnLbGenres = document.getElementById('btnLbGenres');
+    el.lbGenreBtnLabel = document.getElementById('lbGenreBtnLabel');
     el.leaderboardShowcase = document.getElementById('leaderboardShowcase');
     el.cardsWidescreenGrid = document.getElementById('cardsWidescreenGrid');
     el.paginationBar = document.getElementById('paginationBar');
 
-    // Spotlight Hero Container
+    // Spotlight Hero Container (PA C · MUBI Full-Screen Cinema)
     el.spotlightHeroShell = document.getElementById('spotlightHeroShell');
+    el.spotlightBgA = document.getElementById('spotlightBgA');
+    el.spotlightBgB = document.getElementById('spotlightBgB');
     el.spotlightHero = document.getElementById('spotlightHero');
+    el.spotlightTitleRail = document.getElementById('spotlightTitleRail');
+    el.btnSpotlightPause = document.getElementById('btnSpotlightPause');
+    el.btnHeroExplore = document.getElementById('btnHeroExplore');
+    el.browseWorkspace = document.getElementById('browseWorkspace');
 
     // Theater Modal & Toolbar Controls
     el.theaterModal = document.getElementById('theaterModal');
@@ -227,6 +464,110 @@
     return Array.isArray(film.channelIds) && film.channelIds.includes(channelId);
   }
 
+  function resolveChannelSelectionId(channelId) {
+    if (!channelId || channelId === 'all') return 'all';
+    return state.channelToEntryMap.get(channelId) || channelId;
+  }
+
+  function buildChannelEntries() {
+    const chMap = new Map(state.channels.map(c => [c.id, c]));
+    const groupedMembers = new Set();
+    const entryMap = new Map();
+    const entries = [];
+
+    (state.channelGroups || []).forEach(grp => {
+      const memberIds = (grp.memberIds || []).filter(id => chMap.has(id));
+      if (memberIds.length <= 1) return;
+      memberIds.forEach(id => {
+        groupedMembers.add(id);
+        entryMap.set(id, grp.id);
+      });
+      entryMap.set(grp.id, grp.id);
+      const memberNames = memberIds.map(id => chMap.get(id)?.name || id);
+      const memberSet = new Set(memberIds);
+      const filmCount = state.allFilms.filter(f => {
+        if (memberSet.has(f.channelId)) return true;
+        return Array.isArray(f.channelIds) && f.channelIds.some(cid => memberSet.has(cid));
+      }).length;
+      entries.push({
+        id: grp.id,
+        name: grp.name,
+        isGroup: true,
+        memberIds,
+        memberNames,
+        filmCount
+      });
+    });
+
+    state.channels.forEach(ch => {
+      if (groupedMembers.has(ch.id)) return;
+      entryMap.set(ch.id, ch.id);
+      const filmCount = state.allFilms.filter(f => filmMatchesChannel(f, ch.id)).length;
+      entries.push({
+        id: ch.id,
+        name: ch.name,
+        isGroup: false,
+        memberIds: [ch.id],
+        memberNames: [ch.name],
+        filmCount
+      });
+    });
+
+    entries.sort((a, b) => (b.filmCount - a.filmCount) || a.name.localeCompare(b.name));
+    state.channelEntries = entries;
+    state.channelToEntryMap = entryMap;
+  }
+
+  function filmMatchesChannelEntry(film, entryId) {
+    if (!entryId || entryId === 'all') return true;
+    const entry = state.channelEntries.find(e => e.id === entryId);
+    if (!entry) return filmMatchesChannel(film, entryId);
+    if (entry.memberIds.includes(film.channelId)) return true;
+    return Array.isArray(film.channelIds) && film.channelIds.some(cid => entry.memberIds.includes(cid));
+  }
+
+  function filmMatchesSelectedChannels(film) {
+    if (state.selectedChannels.size === 0) return true;
+    for (const entryId of state.selectedChannels) {
+      if (filmMatchesChannelEntry(film, entryId)) return true;
+    }
+    return false;
+  }
+
+  function filmMatchesSelectedGenres(film) {
+    if (state.selectedGenres.size === 0) return true;
+    const list = Array.from(state.selectedGenres);
+    if (state.genreMatchMode === 'and') {
+      return list.every(g => filmMatchesGenre(film, g));
+    }
+    return list.some(g => filmMatchesGenre(film, g));
+  }
+
+  function toggleSelectedChannel(entryId) {
+    if (!entryId || entryId === 'all') {
+      state.selectedChannels.clear();
+      return;
+    }
+    const resolved = resolveChannelSelectionId(entryId);
+    if (state.selectedChannels.has(resolved)) {
+      state.selectedChannels.delete(resolved);
+    } else {
+      state.selectedChannels.add(resolved);
+    }
+  }
+
+  function toggleSelectedGenre(genre) {
+    if (!genre || genre === 'all') {
+      state.selectedGenres.clear();
+      return;
+    }
+    if (state.selectedGenres.has(genre)) {
+      state.selectedGenres.delete(genre);
+    } else {
+      state.selectedGenres.add(genre);
+    }
+  }
+
   function loadStoredData() {
     try {
       const v = localStorage.getItem('homnayxemgi_version');
@@ -296,7 +637,7 @@
       .replace(/\[([^\]]*)\]/g, unwrapBracket)
       .replace(/^(?:\s*(?:\((?:Tổng\s*Hợp[^)]*|Trọn\s*Bộ[^)]*|Siêu\s*Hay[^)]*|Siêu\s*Hài[^)]*|FIX|END|Full[^)]*|\d+(?:[.,]\d+)?\s*(?:H|Giờ|Tiếng)[^)]*|(?:Phần|Tập|Mùa)\s*\d+[^)]*)\)|(?:Tổng\s*Hợp|Trọn\s*Bộ|Siêu\s*(?:Hay|Hài|Phẩm)|Ful+l(?:\s*Dài(?:\s*\d+(?:[.,]\d+)?\s*(?:H|Giờ|Tiếng)?)?|\s*Video|\s*Bộ|\s*Kết|\s*END|\s*Version(?:\s*\d+(?:\s*[-–+]\s*\d+)*)?)?)\s*(?:(?:Phần|Tập|Mùa|P|S|SS)\s*\d+(?:\s*[-–+~]\s*(?:P|SS)?\s*\d+)?(?:\s*END)?)?(?:\s*\([^)]*\))?\s*[\|\-:–,]?)\s*)+/i, '')
       .replace(/\s*\((?:Phần|Tập|Mùa)\s*\d+[^)]*\)\s*$/i, '')
-      .replace(/\s*[\|\-]\s*(?:Kas\s*Vietsub|MyCherrySub|Sora\s*Dub|CibiiSub|Đậu\s*Đậu\s*Vietsub|GodSub|Win\s*Vietsub|Thế\s*Vietsub|Vietsub\s*Phim|Akatsuki\s*Review|2K\s*Sub|Zzzphim|Não\s*Phẳng\s*Tu\s*Tiên|Mộng\s*Ảnh\s*Studio|Nhật\s*Ảnh\s*Studio|Vạn\s*Ảnh\s*Studio|ChiuChiuSubTV|Tiểu\s*Hồ\s*Review(?:\s*\(Dorovietsub\))?|Mễ\s*Lạc\s*Review|HHANIME\s*CHANNEL|Hoa\s*Trên\s*Mây|Phim\s*Zoo\s*AI|Nguyễn\s*Tường\s*Vietsub|Huyền\s*Sư\s*Tiểu\s*Muội|Tiểu\s*Muội\s*Ngôn\s*Tình)\s*$/i, '')
+      .replace(/\s*[\|\-]\s*(?:Kas\s*Vietsub|MyCherrySub|Sora\s*Dub|CibiiSub|Đậu\s*Đậu\s*Vietsub|GodSub|Win\s*Vietsub|Thế\s*Vietsub|Vietsub\s*Phim|Akatsuki\s*Review|2K\s*Sub|Zzzphim|Não\s*Phẳng\s*Tu\s*Tiên|Thiên\s*Ảnh\s*Studio|Mộng\s*Ảnh\s*Studio|Vân\s*Mộng\s*Studio|Nhật\s*Ảnh\s*Studio|Vạn\s*Ảnh\s*Studio|Mị\s*Ảnh\s*Studio|Trùm\s*Phim\s*Sinh\s*Tồn(?:\s*New)?|Sinh\s*Tồn\s*Tận\s*Thế|ChiuChiuSubTV|Tiểu\s*Hồ\s*Review(?:\s*\(Dorovietsub\))?|Mễ\s*Lạc\s*Review|HHANIME\s*CHANNEL|Hoa\s*Trên\s*Mây|Phim\s*Zoo\s*AI|Nguyễn\s*Tường\s*Vietsub|Huyền\s*Sư\s*Tiểu\s*Muội|Tiểu\s*Muội\s*Ngôn\s*Tình)\s*$/i, '')
       .replace(/^[\|\-:\s]+|[\|\-:\s]+$/g, '')
       .replace(/\s+/g, ' ')
       .trim();
@@ -531,6 +872,7 @@
     const rawChannels = rootData.channels || window.CHANNELS_DATA || [];
 
     state.channels = rawChannels.filter(c => !BANNED_CHANNELS_CLIENT.has(c.id));
+    state.channelGroups = Array.isArray(rootData.channelGroups) ? rootData.channelGroups : [];
 
     const seenFilmIds = new Set();
     state.allFilms = rawFilms
@@ -664,6 +1006,7 @@
     if (el.tabRecentBadge) {
       el.tabRecentBadge.textContent = state.recent24hFilms.length;
     }
+    buildChannelEntries();
   }
 
   async function syncLiveYouTubeFeed() {
@@ -1039,42 +1382,83 @@
   // -------------------------------------------------------------------------
   // SIDEBAR & CHIPS RENDERING
   // -------------------------------------------------------------------------
+  const CHECK_ICON_SVG = '<span class="multi-check" aria-hidden="true"><svg viewBox="0 0 16 16"><polyline points="3.2 8.4 6.6 11.8 12.8 4.6"></polyline></svg></span>';
+
   function renderChannelDrawerList() {
     if (!el.channelNavList) return;
-    const q = (el.channelSearchInput?.value || '').trim().toLowerCase();
-    const list = state.channels.filter(ch => !q || ch.name.toLowerCase().includes(q));
+    const rawQ = (el.channelSearchInput?.value || '').trim().toLowerCase();
+    const q = removeVietnameseTones(rawQ);
+    const list = state.channelEntries.filter(entry => {
+      if (!q) return true;
+      const hay = removeVietnameseTones(`${entry.name} ${entry.memberNames.join(' ')}`.toLowerCase());
+      return hay.includes(q);
+    });
+    const allActive = state.selectedChannels.size === 0;
+    const visibleStudioCount = state.channelEntries.length || state.channels.length || '';
     let cHtml = `
-      <button type="button" class="sidebar-menu-btn ${state.selectedChannel === 'all' ? 'active' : ''}" data-channel="all">
-        <span>Tất cả ${state.channels.length || ''} kênh</span>
+      <button type="button" class="sidebar-menu-btn ${allActive ? 'active' : ''}" data-channel="all">
+        <span class="sidebar-btn-left">
+          ${CHECK_ICON_SVG}
+          <span>Tất cả kênh (${visibleStudioCount} mục · ${state.channels.length || 31} kênh)</span>
+        </span>
         <span class="sidebar-count-tag">${state.allFilms.length}</span>
       </button>
     `;
-    list.forEach(ch => {
-      const count = state.allFilms.filter(f => filmMatchesChannel(f, ch.id)).length;
-      cHtml += `
-        <button type="button" class="sidebar-menu-btn ${state.selectedChannel === ch.id ? 'active' : ''}" data-channel="${ch.id}">
-          <span class="truncate">${escapeHtml(ch.name)}</span>
-          <span class="sidebar-count-tag">${count}</span>
-        </button>
-      `;
+    list.forEach(entry => {
+      const active = state.selectedChannels.has(entry.id);
+      if (entry.isGroup) {
+        const membersLabel = entry.memberNames.join(' · ');
+        cHtml += `
+          <button type="button" class="sidebar-menu-btn is-group-entry ${active ? 'active' : ''}" data-channel="${escapeHtml(entry.id)}" title="${escapeHtml(membersLabel)}">
+            <span class="sidebar-btn-left">
+              ${CHECK_ICON_SVG}
+              <span class="studio-text-col">
+                <span class="studio-name-line">
+                  <span class="truncate">${escapeHtml(entry.name)}</span>
+                  <span class="studio-group-pill">${entry.memberIds.length} kênh</span>
+                </span>
+                <span class="studio-group-sub">${escapeHtml(membersLabel)}</span>
+              </span>
+            </span>
+            <span class="sidebar-count-tag">${entry.filmCount}</span>
+          </button>
+        `;
+      } else {
+        cHtml += `
+          <button type="button" class="sidebar-menu-btn ${active ? 'active' : ''}" data-channel="${escapeHtml(entry.id)}">
+            <span class="sidebar-btn-left">
+              ${CHECK_ICON_SVG}
+              <span class="truncate">${escapeHtml(entry.name)}</span>
+            </span>
+            <span class="sidebar-count-tag">${entry.filmCount}</span>
+          </button>
+        `;
+      }
     });
     el.channelNavList.innerHTML = cHtml;
   }
 
   function renderSidebar() {
-    // Genres
     if (el.genreNavList) {
+      const allActive = state.selectedGenres.size === 0;
       let gHtml = `
-        <button type="button" class="sidebar-menu-btn ${state.selectedGenre === 'all' ? 'active' : ''}" data-genre="all">
-          <span>Tất cả thể loại</span>
+        <button type="button" class="sidebar-menu-btn ${allActive ? 'active' : ''}" data-genre="all">
+          <span class="sidebar-btn-left">
+            ${CHECK_ICON_SVG}
+            <span>Tất cả thể loại</span>
+          </span>
           <span class="sidebar-count-tag">${state.allFilms.length}</span>
         </button>
       `;
       state.genres.forEach(g => {
         const count = state.allFilms.filter(f => filmMatchesGenre(f, g)).length;
+        const active = state.selectedGenres.has(g);
         gHtml += `
-          <button type="button" class="sidebar-menu-btn ${state.selectedGenre === g ? 'active' : ''}" data-genre="${escapeHtml(g)}">
-            <span class="truncate">${escapeHtml(g)}</span>
+          <button type="button" class="sidebar-menu-btn ${active ? 'active' : ''}" data-genre="${escapeHtml(g)}">
+            <span class="sidebar-btn-left">
+              ${CHECK_ICON_SVG}
+              <span class="truncate">${escapeHtml(g)}</span>
+            </span>
             <span class="sidebar-count-tag">${count}</span>
           </button>
         `;
@@ -1084,7 +1468,7 @@
 
     renderChannelDrawerList();
 
-    // Mirror sidebar attribute groups inside Mobile Filter Drawer
+    // Mirror sidebar attribute groups inside Multi-Select Genre & Duration Drawer
     const desktopSidebar = document.getElementById('appSidebar');
     if (el.mobileFilterBody && desktopSidebar) {
       el.mobileFilterBody.innerHTML = desktopSidebar.innerHTML;
@@ -1095,37 +1479,26 @@
   }
 
   function populateLeaderboardSelects() {
-    if (el.lbChannelSelect) {
-      let html = `<option value="all">Tất cả ${state.channels.length || 8} kênh (${state.allFilms.length})</option>`;
-      state.channels.forEach(ch => {
-        const count = state.allFilms.filter(f => filmMatchesChannel(f, ch.id)).length;
-        html += `<option value="${escapeHtml(ch.id)}">${escapeHtml(ch.name)} (${count})</option>`;
-      });
-      el.lbChannelSelect.innerHTML = html;
-      el.lbChannelSelect.value = state.selectedChannel;
+    if (el.lbChannelBtnLabel) {
+      el.lbChannelBtnLabel.textContent = getChannelSummaryLabel('full');
     }
-
-    if (el.lbGenreSelect) {
-      let html = `<option value="all">Tất cả thể loại (${state.allFilms.length})</option>`;
-      state.genres.forEach(g => {
-        const count = state.allFilms.filter(f => filmMatchesGenre(f, g)).length;
-        html += `<option value="${escapeHtml(g)}">${escapeHtml(g)} (${count})</option>`;
-      });
-      el.lbGenreSelect.innerHTML = html;
-      el.lbGenreSelect.value = state.selectedGenre;
+    if (el.lbGenreBtnLabel) {
+      el.lbGenreBtnLabel.textContent = getGenreSummaryLabel();
     }
   }
 
   function renderMobileChips() {
     if (!el.mobileChipsRow) return;
+    const allActive = state.selectedGenres.size === 0;
     let html = `
-      <button type="button" class="mobile-chip-btn ${state.selectedGenre === 'all' ? 'active' : ''}" data-genre="all">
+      <button type="button" class="mobile-chip-btn ${allActive ? 'active' : ''}" data-genre="all">
         Tất cả
       </button>
     `;
     state.genres.forEach(g => {
+      const active = state.selectedGenres.has(g);
       html += `
-        <button type="button" class="mobile-chip-btn ${state.selectedGenre === g ? 'active' : ''}" data-genre="${escapeHtml(g)}">
+        <button type="button" class="mobile-chip-btn ${active ? 'active' : ''}" data-genre="${escapeHtml(g)}">
           ${escapeHtml(g)}
         </button>
       `;
@@ -1148,29 +1521,52 @@
 
   function getChannelDisplayName(chId) {
     if (!chId || chId === 'all') return 'Tất cả kênh';
+    const entry = state.channelEntries.find(e => e.id === chId);
+    if (entry) return entry.name;
     const found = state.channels.find(c => c.id === chId);
     return found ? found.name : chId;
+  }
+
+  function getChannelSummaryLabel(style = 'compact') {
+    const chTotal = state.channels.length || 31;
+    if (state.selectedChannels.size === 0) {
+      return style === 'compact' ? `${chTotal} Kênh` : `Tất cả ${chTotal} kênh`;
+    }
+    if (state.selectedChannels.size === 1) {
+      const onlyId = Array.from(state.selectedChannels)[0];
+      return getChannelDisplayName(onlyId);
+    }
+    return `Đã chọn ${state.selectedChannels.size} studio`;
+  }
+
+  function getGenreSummaryLabel() {
+    if (state.selectedGenres.size === 0) return 'Tất cả thể loại';
+    if (state.selectedGenres.size === 1) return Array.from(state.selectedGenres)[0];
+    return `${state.selectedGenres.size} thể loại (${state.genreMatchMode === 'and' ? 'Và' : 'Hoặc'})`;
   }
 
   function renderActiveScopeBadges() {
     if (!el.activeScopeBadges) return;
     const pills = [];
-    if (state.selectedChannel !== 'all') {
+    state.selectedChannels.forEach(entryId => {
+      const entry = state.channelEntries.find(e => e.id === entryId);
+      const label = getChannelDisplayName(entryId);
+      const suffix = entry && entry.isGroup ? ` (${entry.memberIds.length} kênh)` : '';
       pills.push(`
-        <button type="button" class="scope-active-chip" data-clear-scope="channel" title="Bấm để bỏ lọc kênh">
-          <span>Kênh: ${escapeHtml(getChannelDisplayName(state.selectedChannel))}</span>
+        <button type="button" class="scope-active-chip" data-remove-channel="${escapeHtml(entryId)}" title="Bấm để bỏ lọc studio này">
+          <span>Studio: ${escapeHtml(label + suffix)}</span>
           <span class="scope-clear-x" aria-hidden="true">×</span>
         </button>
       `);
-    }
-    if (state.selectedGenre !== 'all') {
+    });
+    state.selectedGenres.forEach(g => {
       pills.push(`
-        <button type="button" class="scope-active-chip" data-clear-scope="genre" title="Bấm để bỏ lọc thể loại">
-          <span>Thể loại: ${escapeHtml(state.selectedGenre)}</span>
+        <button type="button" class="scope-active-chip" data-remove-genre="${escapeHtml(g)}" title="Bấm để bỏ lọc thể loại này">
+          <span>Thể loại: ${escapeHtml(g)}</span>
           <span class="scope-clear-x" aria-hidden="true">×</span>
         </button>
       `);
-    }
+    });
     if (state.timeRange !== 'all') {
       pills.push(`
         <button type="button" class="scope-active-chip scope-chip-time" data-clear-scope="time" title="Bấm để xem mọi thời đại">
@@ -1186,6 +1582,11 @@
           <span>Thời lượng: ${durLabels[state.durationFilter] || state.durationFilter}</span>
           <span class="scope-clear-x" aria-hidden="true">×</span>
         </button>
+      `);
+    }
+    if (pills.length >= 2) {
+      pills.push(`
+        <button type="button" class="scope-clear-all-btn" data-clear-all-scopes="1">Xóa tất cả</button>
       `);
     }
     el.activeScopeBadges.innerHTML = pills.join('');
@@ -1209,13 +1610,15 @@
         const titleMatch = removeVietnameseTones(film.title.toLowerCase()).includes(q);
         const genresText = (Array.isArray(film.genres) ? film.genres.join(' ') : film.genre).toLowerCase();
         const genreMatch = removeVietnameseTones(genresText).includes(q);
-        const chMatch = removeVietnameseTones(film.channelName.toLowerCase()).includes(q);
+        const resolvedGroup = resolveChannelSelectionId(film.channelId);
+        const groupName = resolvedGroup !== film.channelId ? getChannelDisplayName(resolvedGroup) : '';
+        const chMatch = removeVietnameseTones(`${film.channelName} ${groupName}`.toLowerCase()).includes(q);
         if (!titleMatch && !genreMatch && !chMatch) continue;
       }
 
-      // 2. Genre & Channel filters (shared across both normal tabs and Leaderboard!)
-      if (!filmMatchesGenre(film, state.selectedGenre)) continue;
-      if (!filmMatchesChannel(film, state.selectedChannel)) continue;
+      // 2. Multi-Select Genre & Channel/Group filters (shared across normal tabs and Leaderboard)
+      if (!filmMatchesSelectedGenres(film)) continue;
+      if (!filmMatchesSelectedChannels(film)) continue;
 
       // 3. Tab filter
       if (state.activeTab === 'recent24h') {
@@ -1284,8 +1687,8 @@
     if (isLeaderboard && el.lbSubheading) {
       const metricLabel = state.leaderboardMetric === 'likes' ? 'Yêu thích nhất' : 'Xem nhiều nhất';
       const timeLabel = TIME_RANGE_LABELS[state.leaderboardTime] || 'Tuần này';
-      const chLabel = getChannelDisplayName(state.selectedChannel);
-      const genLabel = state.selectedGenre === 'all' ? 'Tất cả thể loại' : state.selectedGenre;
+      const chLabel = getChannelSummaryLabel('full');
+      const genLabel = getGenreSummaryLabel();
       el.lbSubheading.textContent = `${metricLabel} • ${timeLabel} • ${chLabel} • ${genLabel}`;
     }
 
@@ -1295,6 +1698,12 @@
       el.feedCountSummary.textContent = totalCount === 0
         ? '0 BỘ PHIM'
         : `${totalCount.toLocaleString('en-US')} BỘ PHIM`;
+    }
+    if (el.btnApplyChannels) {
+      el.btnApplyChannels.textContent = `Xem ${totalCount.toLocaleString('en-US')} kết quả`;
+    }
+    if (el.btnApplyMobileFilter) {
+      el.btnApplyMobileFilter.textContent = `Xem ${totalCount.toLocaleString('en-US')} kết quả`;
     }
 
     const isChartListMode = isLeaderboard && totalCount > 0;
@@ -1428,7 +1837,7 @@
           <div class="lb-empty-actions">
             ${state.leaderboardTime !== 'month' ? '<button type="button" class="lb-reset-btn" data-lb-quick-time="month">Xem BXH Tháng Này</button>' : ''}
             <button type="button" class="lb-reset-btn lb-reset-primary" data-lb-quick-time="all">Xem BXH All-time</button>
-            ${(state.selectedChannel !== 'all' || state.selectedGenre !== 'all') ? '<button type="button" class="lb-reset-btn" data-lb-clear-scope="1">Hiện Tất Cả Kênh &amp; Thể Loại</button>' : ''}
+            ${(state.selectedChannels.size > 0 || state.selectedGenres.size > 0) ? '<button type="button" class="lb-reset-btn" data-lb-clear-scope="1">Hiện Tất Cả Kênh &amp; Thể Loại</button>' : ''}
           </div>
         </div>
       `;
@@ -1925,13 +2334,48 @@
     }
   }
 
-  function hasCleanPlotSynopsis(film) {
-    const raw = String(film?.synopsis || '').trim();
-    if (!raw || raw.length < 55) return false;
-    if (/phim hoạt hình 3d thuyết minh trọn bộ từ kênh|tuyển tập hoạt hình 3d đặc sắc|một bộ phim hoạt hình đặc sắc|thông số phân loại nội dung|content rating|review và tóm tắt cốt truyện ngắn gọn|chào mừng bạn đến với kênh|kênh chuyên review|xem phần mới ở đây|©|zalo:|hagtag/i.test(raw)) {
-      return false;
+  function extractCleanPlotSummary(film) {
+    let raw = String(film?.synopsis || film?.review || '').trim();
+    if (!raw) return '';
+
+    raw = raw
+      .replace(/^[📽🔥📌🚀👉❌\s•●\-–|】\]]*/u, '')
+      .replace(/^(?:Ủng\s*hộ\s*AD[^)\n]*?(?:dưới\s*cmt|Tpbank|momo|tại\s*:?)|Donate\s*ủng\s*hộ[^:]*:|Nhớ\s*tăng\s*tốc\s*video[^!.]*[!.]\s*)/iu, '')
+      .replace(/Cảnh\s*giới\s*:[^📌\n]*(?:Phong\s*Vương|Chí\s*Tôn|Đế\s*Cảnh)/iu, '')
+      .replace(/📽?\s*Phim\s*:\s*[^|\n]+\|\s*[A-Za-z0-9\s]+/iu, '')
+      .replace(/【[^】]{0,140}】/g, ' ')
+      .replace(/\(\s*Nội\s*dung\s*giải\s*trí\s*hư\s*cấu[^)]*\)\s*/gi, '')
+      .replace(/^Mùa\s*\d+\s*\|\s*[^(\n]{4,60}/iu, '')
+      .replace(/^\*[^*]{4,90}\*\s*/g, '')
+      .replace(/(?:📌\s*)?(?:tóm\s*tắt(?:\s*phim)?|nội\s*dung)\s*[:：\-]?\s*/giu, '')
+      .replace(/^[\s•●\-–|:：!\]】]+/u, '')
+      .replace(/\.\s*\(\s*(?:\d+\s*phần(?:\s*\/\s*\d+\s*video)?(?:\s*\([^)]*\))?|Đã hoàn[^)]*)\s*\)\s*\.?\s*$/i, '.')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    if (!raw || raw.length < 75 ||
+        /phim hoạt hình 3d thuyết minh trọn bộ từ kênh|tuyển tập hoạt hình 3d đặc sắc|một bộ phim hoạt hình đặc sắc|phân\s*loại\s*độ\s*tuổi|cảnh\s*báo\s*\(advisories\)|all\s*content\s*on\s*this\s*channel|all\s*music\s*,\s*pictures|xem\s*tập\s*mới\s*ở\s*đây|chào\s*mừng\s*bạn\s*đến\s*với\s*kênh|kênh\s*chuyên\s*review|copyright\s*disclaimer|phân\s*tích\s*các\s*nhân\s*vật|cập\s*nhật\s*(?:anime|những\s*bộ\s*phim)|video\s*được\s*dịch\s*và\s*thuyết\s*minh\s*bởi|hagtag|©/i.test(raw)) {
+      return '';
     }
-    return true;
+
+    const coreTitle = cleanCoreTitleClient(film?.title || '');
+    if (coreTitle && raw.toLowerCase().includes(coreTitle.toLowerCase())) {
+      const idx = raw.toLowerCase().indexOf(coreTitle.toLowerCase());
+      if (idx >= 0 && idx <= 28) {
+        const after = raw.slice(idx + coreTitle.length).replace(/^[\s.,:;\-–—|\]】]+/, '').trim();
+        if (after.length >= 80) raw = after;
+      }
+    }
+
+    raw = raw.charAt(0).toUpperCase() + raw.slice(1);
+    if (raw.endsWith('...')) {
+      raw = raw.slice(0, -3).replace(/\s+\S*$/, '').trim() + '…';
+    }
+    return raw;
+  }
+
+  function hasCleanPlotSynopsis(film) {
+    return extractCleanPlotSummary(film).length >= 80;
   }
 
   function formatSpotlightEditorial(film, rankIdx = 0) {
@@ -1964,45 +2408,20 @@
     mainTitle = mainTitle.replace(/[\s\.!?,;:–—-]+$/g, '').trim() || rawTitle;
     hook = hook.replace(/^[\s\-:|–—]+|[\s\.]+$/g, '').trim();
 
-    // Sanitize & deduplicate plot synopsis
-    let syn = String(film?.synopsis || '')
-      .replace(/^[\s•●\-–|]*(?:tóm\s*tắt(?:\s*phim)?\s*[:：\-]?|phần\s*\d+(?:\s*[+\-–]\s*\d+)?\s*)/i, '')
-      .replace(/^【[^】]{4,140}】\s*/, '')
-      .replace(/\.\s*\(\s*(?:\d+\s*phần(?:\s*\/\s*\d+\s*video)?(?:\s*\([^)]*\))?|Đã hoàn[^)]*)\s*\)\s*\.?\s*$/i, '.')
-      .replace(/\s+/g, ' ')
-      .trim();
-
-    const isBadSyn = !syn || syn.length < 48 ||
-      /phim hoạt hình 3d thuyết minh trọn bộ từ kênh|tuyển tập hoạt hình 3d đặc sắc|một bộ phim hoạt hình đặc sắc|thông số phân loại nội dung|content rating|review và tóm tắt cốt truyện ngắn gọn|chào mừng bạn đến với kênh|kênh chuyên review|xem phần mới ở đây|©|zalo:|hagtag/i.test(syn);
-
     const genres = (Array.isArray(film?.genres) && film.genres.length ? film.genres : [film?.genre || 'Hoạt hình 3D']).slice(0, 2);
     const partsLabel = film?.partsCount > 1 ? `${film.partsCount} Phần` : 'Trọn bộ Full';
-
-    if (isBadSyn) {
-      syn = `Tuyển tập ${genres.join(' • ')} gồm ${partsLabel}` +
-        (film?.totalDuration ? ` (${film.totalDuration})` : '') +
-        (film?.totalViews > 0 ? `, thu hút ${formatCompactCountVi(film.totalViews)} lượt xem trên kênh ${film.channelName}.` : ` trên kênh ${film?.channelName}.`);
-    } else {
-      // Avoid echoing exact mainTitle at start of synopsis
-      const lowSyn = syn.toLowerCase();
-      const lowTitle = mainTitle.toLowerCase();
-      if (lowSyn.startsWith(lowTitle)) {
-        const trimmedAfterTitle = syn.slice(mainTitle.length).replace(/^[\s,.:;\-–—|•]+/, '').trim();
-        if (trimmedAfterTitle.length >= 45) {
-          syn = trimmedAfterTitle.charAt(0).toUpperCase() + trimmedAfterTitle.slice(1);
-        }
-      }
-      if (!hook && syn.length < mainTitle.length + 22) {
-        syn = `${syn.replace(/[.]+$/, '')} — Tuyển tập ${genres[0]} (${partsLabel}, ${film?.totalDuration || ''}) từ ${film?.channelName}.`;
-      }
-    }
+    const cleanPlot = extractCleanPlotSummary(film);
+    const syn = cleanPlot || (
+      `Bộ phim ${genres.join(', ')} gồm ${partsLabel}` +
+      (film?.totalDuration ? ` (${film.totalDuration})` : '') +
+      (film?.totalViews > 0 ? `, thu hút ${formatCompactCountVi(film.totalViews)} lượt xem trên kênh ${film.channelName}.` : ` được tuyển chọn trên kênh ${film?.channelName}.`)
+    );
 
     const updatedMs = film?.updatedAt || film?.publishedAt ? new Date(film.updatedAt || film.publishedAt).getTime() : 0;
     const ageHours = updatedMs ? (Date.now() - updatedMs) / 3600000 : 9999;
-    let kickerLabel = `TOP ${rankIdx + 1} ĐỀ CỬ`;
-    if (rankIdx === 0) kickerLabel = 'TOP 1 THỊNH HÀNH';
+    let kickerLabel = `ĐỀ CỬ #${rankIdx + 1}`;
+    if (rankIdx === 0) kickerLabel = 'TOP 1 ĐỀ CỬ';
     else if (ageHours <= 72) kickerLabel = 'MỚI CẬP NHẬT';
-    else if ((film?.partsCount || 1) >= 6) kickerLabel = `SERIES ${film.partsCount} PHẦN`;
 
     return { mainTitle, hook, synopsis: syn, genres, partsLabel, kickerLabel };
   }
@@ -2023,15 +2442,13 @@
 
       const ts = f.updatedAt || f.publishedAt ? new Date(f.updatedAt || f.publishedAt).getTime() : 0;
       const ageDays = ts && !Number.isNaN(ts) ? Math.max(0, (nowMs - ts) / 86400000) : 180;
-      const recencyBoost = ageDays <= 14 ? 2.35
-        : (ageDays <= 35 ? 1.85
-        : (ageDays <= 75 ? 1.35
-        : (ageDays <= 150 ? 1.0 : 0.55)));
+      const recencyBoost = ageDays <= 21 ? 1.85
+        : (ageDays <= 60 ? 1.45
+        : (ageDays <= 140 ? 1.05 : 0.7));
       const engagement = Math.log10((f.totalViews || 1) + 1) * 18
-        + Math.log10((f.totalLikes || 0) * 15 + 1) * 10
-        + Math.min(25, (f.totalViews || 0) / 120000);
-      const seriesBonus = f.partsCount >= 4 ? 12 : (f.partsCount >= 2 ? 7 : (f.totalDurationSec >= 14400 ? 6 : 0));
-      const synopsisBonus = hasCleanPlotSynopsis(f) ? 10 : 0;
+        + Math.log10((f.totalLikes || 0) * 15 + 1) * 8;
+      const seriesBonus = f.partsCount >= 4 ? 10 : (f.partsCount >= 2 ? 6 : 0);
+      const synopsisBonus = extractCleanPlotSummary(f).length >= 90 ? 45 : 0;
       const score = (engagement + seriesBonus + synopsisBonus) * recencyBoost;
       scored.push({ film: f, score });
     }
@@ -2067,53 +2484,83 @@
     return picked;
   }
 
-  function buildSpotlightStageBodyMarkup(film, idx, total) {
-    const ed = formatSpotlightEditorial(film, idx);
-    const isFav = state.favorites.has(film.id);
-    const prog = state.progress[film.id];
-    const watchLabel = prog && Number.isInteger(prog.pos) && film.parts[prog.pos]
-      ? `Tiếp Tục ${prog.label || `Phần ${prog.pos + 1}`}`
-      : (film.partsCount > 1 ? 'Xem Ngay Tập 1' : 'Xem Trọn Bộ');
-    const primaryGenre = ed.genres[0] || 'Hoạt hình 3D';
-    const timeAgo = film.recentUpdate?.timeAgo || '';
+  function setSpotlightImgSrc(imgEl, posters) {
+    if (!imgEl || !posters) return;
+    imgEl.dataset.fbStep = 'maxres';
+    imgEl.dataset.sdSrc = posters.sd || posters.hq;
+    imgEl.dataset.hqSrc = posters.hq;
+    if (!imgEl.dataset.fbBound) {
+      imgEl.dataset.fbBound = '1';
+      imgEl.addEventListener('error', () => handleSpotlightImgFallback(imgEl));
+      imgEl.addEventListener('load', () => {
+        if (imgEl.naturalWidth > 0 && imgEl.naturalWidth <= 160 && imgEl.dataset.fbStep !== 'done') {
+          handleSpotlightImgFallback(imgEl);
+        }
+      });
+    }
+    imgEl.src = posters.maxres || posters.hq;
+  }
 
-    const telemetryParts = [
+  function crossFadeSpotlightBackdrop(posters) {
+    if (!el.spotlightBgA || !el.spotlightBgB) return;
+    const incoming = state._activeBgSlot === 'A' ? el.spotlightBgB : el.spotlightBgA;
+    const outgoing = state._activeBgSlot === 'A' ? el.spotlightBgA : el.spotlightBgB;
+    setSpotlightImgSrc(incoming, posters);
+    incoming.classList.add('is-active');
+    outgoing.classList.remove('is-active');
+    state._activeBgSlot = state._activeBgSlot === 'A' ? 'B' : 'A';
+  }
+
+  function buildSpotlightStageBodyMarkup(film, idx) {
+    const ed = formatSpotlightEditorial(film, idx);
+    const primaryGenre = ed.genres[0] || 'Hoạt hình 3D';
+    const timeAgo = film.recentUpdate?.timeAgo || (film.updatedAt ? formatRealTimeAgo(film.updatedAt) : '');
+
+    const metaParts = [
       ed.partsLabel,
       film.totalDuration || '',
-      film.totalViews > 0 ? `${formatCompactCountVi(film.totalViews)} xem` : '',
-      film.totalLikes > 0 ? `${formatCompactCountVi(film.totalLikes)} thích` : '',
+      film.totalViews > 0 ? `${formatCompactCountVi(film.totalViews)} lượt xem` : '',
       timeAgo ? `Cập nhật ${timeAgo}` : ''
     ].filter(Boolean);
 
     return `
-      <div class="ambient-kicker-row">
-        <span class="ambient-rank-pill">${escapeHtml(ed.kickerLabel)}</span>
-        <button type="button" class="spotlight-meta-link" data-spotlight-channel="${escapeHtml(film.channelId)}" title="Lọc phim kênh ${escapeHtml(film.channelName)}">
-          ${escapeHtml(film.channelName)}
-        </button>
-        <span>·</span>
-        <button type="button" class="spotlight-meta-link" data-spotlight-genre="${escapeHtml(primaryGenre)}" title="Lọc thể loại ${escapeHtml(primaryGenre)}">
-          ${escapeHtml(primaryGenre)}
-        </button>
-      </div>
+      <div class="cinema-copy-col">
+        <div class="cinema-kicker">
+          <span class="cinema-kicker-accent">${escapeHtml(ed.kickerLabel)}</span>
+          <span>·</span>
+          <button type="button" class="spotlight-meta-link" data-spotlight-channel="${escapeHtml(film.channelId)}" title="Lọc phim kênh ${escapeHtml(film.channelName)}">
+            ${escapeHtml(film.channelName)}
+          </button>
+          <span>·</span>
+          <button type="button" class="spotlight-meta-link" data-spotlight-genre="${escapeHtml(primaryGenre)}" title="Lọc thể loại ${escapeHtml(primaryGenre)}">
+            ${escapeHtml(primaryGenre)}
+          </button>
+        </div>
 
-      <h1 class="ambient-hero-title">${escapeHtml(ed.mainTitle)}</h1>
-      ${ed.hook ? `<p class="ambient-hook">${escapeHtml(ed.hook)}</p>` : ''}
-      <p class="ambient-syn">${escapeHtml(ed.synopsis)}</p>
-      <div class="ambient-telemetry">${escapeHtml(telemetryParts.join(' · '))}</div>
+        <h1 class="cinema-title">${escapeHtml(ed.mainTitle)}</h1>
+        ${ed.hook ? `<p class="cinema-hook">${escapeHtml(ed.hook)}</p>` : ''}
+        <p class="cinema-story">${escapeHtml(ed.synopsis)}</p>
+        <div class="cinema-meta-line">${escapeHtml(metaParts.join('  ·  '))}</div>
 
-      <div class="v3-cta-row">
-        <button type="button" class="btn-spotlight-watch" data-spotlight-watch="${escapeHtml(film.id)}">
-          <span>${escapeHtml(watchLabel)}</span>
-        </button>
-        <button type="button" class="btn-spotlight-details" data-spotlight-details="${escapeHtml(film.id)}">
-          <span>Chi Tiết</span>
-        </button>
-        <button type="button" class="btn-spotlight-fav ${isFav ? 'active' : ''}" data-spotlight-fav="${escapeHtml(film.id)}" aria-pressed="${isFav ? 'true' : 'false'}" title="${isFav ? 'Đang theo dõi (Bấm để hủy)' : 'Lưu vào tủ phim'}">
-          <span>${isFav ? 'Đã Lưu' : 'Lưu Phim'}</span>
-        </button>
+        <div class="cinema-actions">
+          <button type="button" class="btn-cinema-play" data-spotlight-watch="${escapeHtml(film.id)}">
+            <svg class="icon icon-sm" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor" stroke="none"></polygon></svg>
+            <span>Xem Ngay</span>
+          </button>
+        </div>
       </div>
     `;
+  }
+
+  function syncSpotlightPauseBtn() {
+    document.body.classList.toggle('is-hero-paused', state.isSpotlightPaused);
+    if (!el.btnSpotlightPause) return;
+    const lbl = state.isSpotlightPaused ? 'Tự chạy slides' : 'Tạm dừng slides';
+    el.btnSpotlightPause.setAttribute('aria-label', lbl);
+    el.btnSpotlightPause.title = lbl;
+    el.btnSpotlightPause.innerHTML = state.isSpotlightPaused
+      ? '<svg class="icon icon-xs" viewBox="0 0 24 24"><polygon points="6 4 20 12 6 20 6 4" fill="currentColor" stroke="none"></polygon></svg>'
+      : '<svg class="icon icon-xs" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16" fill="currentColor" stroke="none"></rect><rect x="14" y="4" width="4" height="16" fill="currentColor" stroke="none"></rect></svg>';
   }
 
   function renderSpotlightHero() {
@@ -2121,11 +2568,20 @@
     const candidates = getSpotlightCandidates();
     if (candidates.length === 0) return;
 
+    if (!state._spotlightPreloaded) {
+      state._spotlightPreloaded = true;
+      candidates.forEach(c => {
+        const p = getHiResPosterUrls(c);
+        if (p.maxres) { const img = new Image(); img.src = p.maxres; }
+        if (p.hq) { const img2 = new Image(); img2.src = p.hq; }
+      });
+    }
+
     const idx = (state.spotlightIndex % candidates.length + candidates.length) % candidates.length;
     state.spotlightIndex = idx;
     const renderedSignature = candidates.map(f => f.id).join(',');
 
-    if (el.spotlightHero.dataset.renderedKey === renderedSignature && el.spotlightHero.querySelector('.ambient-stage-wrap')) {
+    if (el.spotlightHero.dataset.renderedKey === renderedSignature && el.spotlightHero.querySelector('.cinema-copy-col')) {
       updateSpotlightSlide(idx);
       return;
     }
@@ -2133,56 +2589,39 @@
     el.spotlightHero.dataset.renderedKey = renderedSignature;
     const activeFilm = candidates[idx];
     const activePosters = getHiResPosterUrls(activeFilm);
-    const activeEd = formatSpotlightEditorial(activeFilm, idx);
 
-    const chipsHtml = candidates.map((f, i) => {
-      const posters = getHiResPosterUrls(f);
-      const ed = formatSpotlightEditorial(f, i);
-      return `
-        <button type="button" class="ambient-thumb-chip ${i === idx ? 'is-active' : ''}" data-spotlight-dot="${i}" aria-label="Chọn phim nổi bật ${i + 1}: ${escapeHtml(ed.mainTitle)}">
-          <img src="${escapeHtml(posters.mq || posters.hq)}" alt="" loading="lazy">
-        </button>
-      `;
-    }).join('');
+    crossFadeSpotlightBackdrop(activePosters);
+    el.spotlightHero.innerHTML = buildSpotlightStageBodyMarkup(activeFilm, idx);
 
-    el.spotlightHero.innerHTML = `
-      <div class="ambient-hero">
-        <img class="ambient-aura-img" id="spotlightAuraImg" src="${escapeHtml(activePosters.hq)}" alt="" aria-hidden="true">
-        <div class="ambient-bottom-fade" aria-hidden="true"></div>
-        <div class="ambient-stage-wrap">
-          <div class="ambient-copy-col" id="spotlightStageBody">
-            ${buildSpotlightStageBodyMarkup(activeFilm, idx, candidates.length)}
-          </div>
-          <div class="ambient-media-col">
-            <div class="ambient-poster-frame">
-              <img
-                id="spotlightMainImg"
-                data-fb-step="maxres"
-                data-sd-src="${escapeHtml(activePosters.sd)}"
-                data-hq-src="${escapeHtml(activePosters.hq)}"
-                src="${escapeHtml(activePosters.maxres)}"
-                alt="${escapeHtml(activeEd.mainTitle)}"
-              >
+    if (el.spotlightTitleRail) {
+      el.spotlightTitleRail.innerHTML = candidates.map((f, i) => {
+        const ed = formatSpotlightEditorial(f, i);
+        const act = i === idx;
+        return `
+          <button type="button" role="tab" aria-selected="${act ? 'true' : 'false'}" class="m3-title-btn ${act ? 'is-active' : ''}" data-spotlight-dot="${i}">
+            <div class="m3-progress-line" aria-hidden="true">
+              <div class="m3-progress-fill ${act ? 'is-animating' : ''}"></div>
             </div>
-            <div class="ambient-dots-rail" aria-label="Chọn phim đề cử">
-              ${chipsHtml}
-            </div>
-          </div>
-        </div>
-      </div>
-    `;
-
-    const mainImg = document.getElementById('spotlightMainImg');
-    if (mainImg) {
-      mainImg.addEventListener('error', () => handleSpotlightImgFallback(mainImg));
-      mainImg.addEventListener('load', () => {
-        if (mainImg.naturalWidth > 0 && mainImg.naturalWidth <= 160 && mainImg.dataset.fbStep !== 'done') {
-          handleSpotlightImgFallback(mainImg);
-        }
-      });
+            <span class="m3-num">0${i + 1}</span>
+            <span class="m3-name">${escapeHtml(ed.mainTitle)}</span>
+          </button>
+        `;
+      }).join('');
     }
 
+    syncSpotlightPauseBtn();
+    syncActiveRailScroll(idx);
     startSpotlightTimer();
+  }
+
+  function syncActiveRailScroll(idx) {
+    const rail = el.spotlightTitleRail;
+    if (!rail || rail.scrollWidth <= rail.clientWidth + 4) return;
+    const btn = rail.querySelector(`[data-spotlight-dot="${idx}"]`);
+    if (!btn) return;
+    const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const targetLeft = Math.max(0, btn.offsetLeft - 12);
+    rail.scrollTo({ left: targetLeft, behavior: reduced ? 'instant' : 'smooth' });
   }
 
   function updateSpotlightSlide(newIdx) {
@@ -2194,39 +2633,34 @@
     state.spotlightIndex = idx;
     const film = candidates[idx];
     const posters = getHiResPosterUrls(film);
-    const ed = formatSpotlightEditorial(film, idx);
 
-    const auraImg = document.getElementById('spotlightAuraImg');
-    if (auraImg && auraImg.src !== posters.hq) {
-      auraImg.src = posters.hq;
-    }
+    crossFadeSpotlightBackdrop(posters);
+    el.spotlightHero.innerHTML = buildSpotlightStageBodyMarkup(film, idx);
 
-    const mainImg = document.getElementById('spotlightMainImg');
-    if (mainImg) {
-      mainImg.dataset.fbStep = 'maxres';
-      mainImg.dataset.sdSrc = posters.sd;
-      mainImg.dataset.hqSrc = posters.hq;
-      mainImg.src = posters.maxres;
-      mainImg.alt = ed.mainTitle;
-    }
-
-    el.spotlightHero.querySelectorAll('.ambient-thumb-chip').forEach((btn, i) => {
-      btn.classList.toggle('is-active', i === idx);
+    el.spotlightTitleRail?.querySelectorAll('.m3-title-btn').forEach((btn, i) => {
+      const act = i === idx;
+      btn.classList.toggle('is-active', act);
+      btn.setAttribute('aria-selected', act ? 'true' : 'false');
+      const fill = btn.querySelector('.m3-progress-fill');
+      if (fill) {
+        fill.classList.remove('is-animating');
+        if (act) {
+          void fill.offsetWidth;
+          fill.classList.add('is-animating');
+        }
+      }
     });
 
-    const bodyEl = document.getElementById('spotlightStageBody');
-    if (bodyEl) {
-      bodyEl.innerHTML = buildSpotlightStageBodyMarkup(film, idx, candidates.length);
-    }
-
+    syncActiveRailScroll(idx);
     startSpotlightTimer();
   }
 
   function startSpotlightTimer() {
     if (state.spotlightTimer) clearInterval(state.spotlightTimer);
-    el.spotlightHero?.classList.remove('is-paused');
+    if (state.isSpotlightPaused) return;
     state.spotlightTimer = setInterval(() => {
       if (el.spotlightHeroShell?.classList.contains('hidden')) return;
+      if (window.scrollY > (state._cachedHeroHeight || window.innerHeight) * 0.7) return;
       const candidates = getSpotlightCandidates();
       if (candidates.length <= 1) return;
       updateSpotlightSlide(state.spotlightIndex + 1);
@@ -2234,11 +2668,17 @@
   }
 
   function pauseSpotlightTimer() {
-    el.spotlightHero?.classList.add('is-paused');
     if (state.spotlightTimer) {
       clearInterval(state.spotlightTimer);
       state.spotlightTimer = null;
     }
+  }
+
+  function toggleSpotlightPause() {
+    state.isSpotlightPaused = !state.isSpotlightPaused;
+    syncSpotlightPauseBtn();
+    if (state.isSpotlightPaused) pauseSpotlightTimer();
+    else startSpotlightTimer();
   }
 
   // ---- URL deep-linking ----
@@ -2255,8 +2695,11 @@
   function syncScopeToUrl() {
     syncUrl({
       tab: state.activeTab,
-      channel: state.selectedChannel,
-      genre: state.selectedGenre,
+      channel: null,
+      genre: null,
+      channels: state.selectedChannels.size > 0 ? Array.from(state.selectedChannels).join(',') : null,
+      genres: state.selectedGenres.size > 0 ? Array.from(state.selectedGenres).join(',') : null,
+      gmode: state.selectedGenres.size >= 2 && state.genreMatchMode === 'and' ? 'and' : null,
       metric: state.activeTab === 'leaderboard' ? state.leaderboardMetric : null,
       range: state.activeTab === 'leaderboard' ? state.leaderboardTime : null
     });
@@ -2269,8 +2712,24 @@
       state.activeTab = tab;
       el.categoryTabsGroup.querySelectorAll('.tab-pill').forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
     }
-    if (q.get('channel') && state.channels.some(c => c.id === q.get('channel'))) state.selectedChannel = q.get('channel');
-    if (q.get('genre') && state.genres.includes(q.get('genre'))) state.selectedGenre = q.get('genre');
+
+    const validEntryIds = new Set(state.channelEntries.map(e => e.id));
+    const rawChannelsParam = q.get('channels') || q.get('channel') || '';
+    if (rawChannelsParam && rawChannelsParam !== 'all') {
+      rawChannelsParam.split(',').map(s => s.trim()).filter(Boolean).forEach(rawId => {
+        const resolved = resolveChannelSelectionId(rawId);
+        if (validEntryIds.has(resolved)) state.selectedChannels.add(resolved);
+      });
+    }
+
+    const rawGenresParam = q.get('genres') || q.get('genre') || '';
+    if (rawGenresParam && rawGenresParam !== 'all') {
+      rawGenresParam.split(',').map(s => s.trim()).filter(Boolean).forEach(g => {
+        if (state.genres.includes(g)) state.selectedGenres.add(g);
+      });
+    }
+
+    if (q.get('gmode') === 'and') state.genreMatchMode = 'and';
     if (['views', 'likes'].includes(q.get('metric'))) {
       state.leaderboardMetric = q.get('metric');
       el.lbMetricGroup?.querySelectorAll('.lb-metric-btn').forEach(b => b.classList.toggle('active', b.dataset.metric === state.leaderboardMetric));
@@ -2288,6 +2747,8 @@
     if (film) {
       const epPos = Math.max(0, (parseInt(q.get('ep'), 10) || 1) - 1);
       openPlayer(film, { partPos: Math.min(epPos, film.parts.length - 1) });
+    } else if (state.selectedChannels.size > 0 || state.selectedGenres.size > 0 || state.activeTab !== 'all') {
+      scrollToCinemaZone('browse', { instant: true });
     }
   }
 
@@ -2384,10 +2845,10 @@
   // -------------------------------------------------------------------------
   function openRandomizer(forcedFilm) {
     const forced = forcedFilm && forcedFilm.parts ? forcedFilm : null;
-    // Respect current channel/genre filter if active, otherwise pull high-quality 3D films >= 2h
+    // Respect current multi-select channel/genre filter if active, otherwise pull high-quality 3D films >= 2h
     let scoped = state.allFilms.filter(f =>
-      filmMatchesChannel(f, state.selectedChannel) &&
-      filmMatchesGenre(f, state.selectedGenre)
+      filmMatchesSelectedChannels(f) &&
+      filmMatchesSelectedGenres(f)
     );
     if (scoped.length === 0) scoped = state.allFilms;
     const longPool = scoped.filter(f => f.totalDurationSec >= 7200);
@@ -2565,11 +3026,36 @@
     });
 
     el.activeScopeBadges?.addEventListener('click', e => {
+      const rmCh = e.target.closest('[data-remove-channel]');
+      if (rmCh) {
+        state.selectedChannels.delete(rmCh.dataset.removeChannel);
+        renderChannelDrawerList();
+        syncAllScopeControls();
+        applyFiltersAndRender(1);
+        return;
+      }
+      const rmGenre = e.target.closest('[data-remove-genre]');
+      if (rmGenre) {
+        state.selectedGenres.delete(rmGenre.dataset.removeGenre);
+        syncAllScopeControls();
+        applyFiltersAndRender(1);
+        return;
+      }
+      if (e.target.closest('[data-clear-all-scopes]')) {
+        state.selectedChannels.clear();
+        state.selectedGenres.clear();
+        state.timeRange = 'all';
+        state.durationFilter = 'all';
+        if (el.timeRangeSelect) el.timeRangeSelect.value = 'all';
+        if (el.durationSelect) el.durationSelect.value = 'all';
+        renderChannelDrawerList();
+        syncAllScopeControls();
+        applyFiltersAndRender(1);
+        return;
+      }
       const btn = e.target.closest('[data-clear-scope]');
       if (!btn) return;
       const scope = btn.dataset.clearScope;
-      if (scope === 'channel') state.selectedChannel = 'all';
-      if (scope === 'genre') state.selectedGenre = 'all';
       if (scope === 'time') {
         state.timeRange = 'all';
         if (el.timeRangeSelect) el.timeRangeSelect.value = 'all';
@@ -2599,18 +3085,6 @@
       applyFiltersAndRender(1);
     });
 
-    el.lbChannelSelect?.addEventListener('change', e => {
-      state.selectedChannel = e.target.value || 'all';
-      syncAllScopeControls();
-      applyFiltersAndRender(1);
-    });
-
-    el.lbGenreSelect?.addEventListener('change', e => {
-      state.selectedGenre = e.target.value || 'all';
-      syncAllScopeControls();
-      applyFiltersAndRender(1);
-    });
-
     el.leaderboardShowcase?.addEventListener('click', e => {
       const quickTimeBtn = e.target.closest('[data-lb-quick-time]');
       if (quickTimeBtn) {
@@ -2621,41 +3095,62 @@
       }
       const clearScopeBtn = e.target.closest('[data-lb-clear-scope]');
       if (clearScopeBtn) {
-        state.selectedChannel = 'all';
-        state.selectedGenre = 'all';
+        state.selectedChannels.clear();
+        state.selectedGenres.clear();
+        renderChannelDrawerList();
         syncAllScopeControls();
         applyFiltersAndRender(1);
         return;
       }
     });
 
-    // Sidebar Genre click
+    // Genre multi-select mode toggle (Desktop Sidebar & Mobile Drawer)
+    document.addEventListener('click', e => {
+      const modeBtn = e.target.closest('[data-genre-mode]');
+      if (!modeBtn) return;
+      state.genreMatchMode = modeBtn.dataset.genreMode === 'and' ? 'and' : 'or';
+      syncAllScopeControls();
+      applyFiltersAndRender(1);
+    });
+
+    // Sidebar Genre multi-select click
     el.genreNavList?.addEventListener('click', e => {
       const btn = e.target.closest('.sidebar-menu-btn');
       if (!btn) return;
-      state.selectedGenre = btn.dataset.genre;
+      toggleSelectedGenre(btn.dataset.genre);
       syncAllScopeControls();
       applyFiltersAndRender(1);
     });
 
-    // Mobile Chips Genre click
+    // Mobile Chips Genre multi-select click
     el.mobileChipsRow?.addEventListener('click', e => {
       const chip = e.target.closest('.mobile-chip-btn');
       if (!chip) return;
-      state.selectedGenre = chip.dataset.genre;
+      toggleSelectedGenre(chip.dataset.genre);
       syncAllScopeControls();
       applyFiltersAndRender(1);
     });
 
-    // Sidebar Channel click
-    // Sidebar Channel click (inside Popover Drawer)
+    // Clear all selected channels / genres inside Popover Drawers
+    el.btnClearChannels?.addEventListener('click', () => {
+      state.selectedChannels.clear();
+      renderChannelDrawerList();
+      syncAllScopeControls();
+      applyFiltersAndRender(1);
+    });
+    el.btnClearGenresDrawer?.addEventListener('click', () => {
+      state.selectedGenres.clear();
+      syncAllScopeControls();
+      applyFiltersAndRender(1);
+    });
+
+    // Studio Drawer search + multi-select toggle (stays open so user can pick multiple!)
     el.channelSearchInput?.addEventListener('input', renderChannelDrawerList);
 
     el.channelNavList?.addEventListener('click', e => {
       const btn = e.target.closest('.sidebar-menu-btn');
       if (!btn) return;
-      state.selectedChannel = btn.dataset.channel;
-      hidePopoverSafe(el.channelDrawer);
+      toggleSelectedChannel(btn.dataset.channel);
       renderChannelDrawerList();
       syncAllScopeControls();
       applyFiltersAndRender(1);
@@ -2670,12 +3165,11 @@
       applyFiltersAndRender(1);
     });
 
-    // Mobile Filter Drawer delegated clicks (genres + durations)
+    // Mobile/Leaderboard Filter Drawer delegated clicks (multi-select stays open!)
     el.mobileFilterBody?.addEventListener('click', e => {
       const gBtn = e.target.closest('[data-genre]');
       if (gBtn) {
-        state.selectedGenre = gBtn.dataset.genre;
-        hidePopoverSafe(el.mobileFilterDrawer);
+        toggleSelectedGenre(gBtn.dataset.genre);
         syncAllScopeControls();
         applyFiltersAndRender(1);
         return;
@@ -2683,7 +3177,6 @@
       const dBtn = e.target.closest('[data-duration]');
       if (dBtn) {
         state.durationFilter = dBtn.dataset.duration || 'all';
-        hidePopoverSafe(el.mobileFilterDrawer);
         syncAllScopeControls();
         applyFiltersAndRender(1);
       }
@@ -2693,18 +3186,24 @@
     el.brandHomeBtn?.addEventListener('click', e => {
       e.preventDefault();
       state.activeTab = 'all';
-      state.selectedGenre = 'all';
-      state.selectedChannel = 'all';
+      state.selectedGenres.clear();
+      state.selectedChannels.clear();
       state.durationFilter = 'all';
       state.timeRange = 'all';
       state.searchQuery = '';
       if (el.searchInput) el.searchInput.value = '';
       if (el.timeRangeSelect) el.timeRangeSelect.value = 'all';
       el.categoryTabsGroup?.querySelectorAll('.tab-pill').forEach(b => b.classList.toggle('active', b.dataset.tab === 'all'));
+      renderChannelDrawerList();
       syncAllScopeControls();
       syncMobileDockActive();
       applyFiltersAndRender(1);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      scrollToCinemaZone('hero');
+    });
+
+    el.footerHomeBtn?.addEventListener('click', e => {
+      e.preventDefault();
+      scrollToCinemaZone('hero');
     });
 
     // Film Card & Chart Row clicks
@@ -2759,12 +3258,17 @@
       const chBtn = e.target.closest('[data-scope-channel]');
       const gBtn = e.target.closest('[data-scope-genre]');
       if (!chBtn && !gBtn) return;
-      if (chBtn) state.selectedChannel = chBtn.dataset.scopeChannel;
-      if (gBtn) state.selectedGenre = gBtn.dataset.scopeGenre;
+      if (chBtn) {
+        state.selectedChannels = new Set([resolveChannelSelectionId(chBtn.dataset.scopeChannel)]);
+      }
+      if (gBtn) {
+        state.selectedGenres = new Set([gBtn.dataset.scopeGenre]);
+      }
       closePlayer();
+      renderChannelDrawerList();
       syncAllScopeControls();
       applyFiltersAndRender(1);
-      window.scrollTo({ top: 120, behavior: 'smooth' });
+      scrollToCinemaZone('browse');
     });
     el.btnPrevEp?.addEventListener('click', () => stepEpisode(-1));
     el.btnNextEp?.addEventListener('click', () => stepEpisode(1));
@@ -2781,7 +3285,16 @@
     el.qrBackdrop?.addEventListener('click', closeQrModal);
     el.btnCopyQrUrl?.addEventListener('click', copyQrUrl);
 
-    // Spotlight Hero v2 interactions (Stage CTAs, Up-Next Rail, Keyboard, Touch Swipe)
+    // Spotlight Hero (PA C MUBI Editorial, Title Rail, Pause, Scroll Cue & Swipe)
+    el.btnHeroExplore?.addEventListener('click', () => scrollToCinemaZone('browse'));
+    el.btnSpotlightPause?.addEventListener('click', toggleSpotlightPause);
+    el.spotlightTitleRail?.addEventListener('click', e => {
+      const dotBtn = e.target.closest('[data-spotlight-dot]');
+      if (!dotBtn) return;
+      const targetIdx = parseInt(dotBtn.dataset.spotlightDot, 10) || 0;
+      updateSpotlightSlide(targetIdx);
+    });
+
     el.spotlightHero?.addEventListener('click', e => {
       const watchBtn = e.target.closest('[data-spotlight-watch]');
       if (watchBtn) {
@@ -2793,45 +3306,26 @@
         }
         return;
       }
-      const detailsBtn = e.target.closest('[data-spotlight-details]');
-      if (detailsBtn) {
-        const f = state.allFilms.find(x => x.id === detailsBtn.dataset.spotlightDetails);
-        if (f) openRandomizer(f);
-        return;
-      }
       const chBtn = e.target.closest('[data-spotlight-channel]');
       if (chBtn) {
-        state.selectedChannel = chBtn.dataset.spotlightChannel || 'all';
-        state.selectedGenre = 'all';
+        const raw = chBtn.dataset.spotlightChannel;
+        state.selectedChannels = raw && raw !== 'all' ? new Set([resolveChannelSelectionId(raw)]) : new Set();
+        state.selectedGenres.clear();
         state.activeTab = 'all';
+        renderChannelDrawerList();
         syncAllScopeControls();
         applyFiltersAndRender(1);
+        scrollToCinemaZone('browse');
         return;
       }
       const genreBtn = e.target.closest('[data-spotlight-genre]');
       if (genreBtn) {
-        state.selectedGenre = genreBtn.dataset.spotlightGenre || 'all';
+        const rawG = genreBtn.dataset.spotlightGenre;
+        state.selectedGenres = rawG && rawG !== 'all' ? new Set([rawG]) : new Set();
         state.activeTab = 'all';
         syncAllScopeControls();
         applyFiltersAndRender(1);
-        return;
-      }
-      const favBtn = e.target.closest('[data-spotlight-fav]');
-      if (favBtn) {
-        toggleFavorite(favBtn.dataset.spotlightFav);
-        return;
-      }
-      const dotBtn = e.target.closest('[data-spotlight-dot]');
-      if (dotBtn) {
-        const targetIdx = parseInt(dotBtn.dataset.spotlightDot, 10) || 0;
-        updateSpotlightSlide(targetIdx);
-        return;
-      }
-      const dirBtn = e.target.closest('[data-spotlight-dir]');
-      if (dirBtn) {
-        const step = parseInt(dirBtn.dataset.spotlightDir, 10) || 1;
-        updateSpotlightSlide(state.spotlightIndex + step);
-        return;
+        scrollToCinemaZone('browse');
       }
     });
 
@@ -2846,14 +3340,14 @@
     });
 
     let spotlightTouchX = null;
-    el.spotlightHero?.addEventListener('touchstart', e => {
-      if (e.target.closest('#spotlightRailList')) {
+    el.spotlightHeroShell?.addEventListener('touchstart', e => {
+      if (e.target.closest('#spotlightTitleRail')) {
         spotlightTouchX = null;
         return;
       }
       spotlightTouchX = e.changedTouches?.[0]?.clientX ?? null;
     }, { passive: true });
-    el.spotlightHero?.addEventListener('touchend', e => {
+    el.spotlightHeroShell?.addEventListener('touchend', e => {
       if (spotlightTouchX === null) return;
       const endX = e.changedTouches?.[0]?.clientX;
       const dx = typeof endX === 'number' ? endX - spotlightTouchX : 0;
@@ -2862,9 +3356,6 @@
         updateSpotlightSlide(state.spotlightIndex + (dx < 0 ? 1 : -1));
       }
     }, { passive: true });
-
-    el.spotlightHero?.addEventListener('mouseenter', pauseSpotlightTimer);
-    el.spotlightHero?.addEventListener('mouseleave', startSpotlightTimer);
 
     // YouTube iframe postMessage listener for playback resume & auto-next
     window.addEventListener('message', evt => {
@@ -2990,13 +3481,43 @@
 
     // Global Keyboard Shortcuts
     window.addEventListener('keydown', e => {
-      if (e.key === '/' && document.activeElement !== el.searchInput) {
+      const activeTag = document.activeElement?.tagName;
+      const isTyping = activeTag === 'INPUT' || activeTag === 'TEXTAREA' || activeTag === 'SELECT';
+
+      if (e.key === '/' && document.activeElement !== el.searchInput && !isTyping) {
         e.preventDefault();
-        el.searchInput?.focus();
+        if (window.scrollY < (state._cachedHeroHeight || window.innerHeight) * 0.6) {
+          scrollToCinemaZone('browse');
+          const focusSearch = () => {
+            if (el.siteHeader) el.siteHeader.inert = false;
+            el.searchInput?.focus();
+          };
+          if ('onscrollend' in window) {
+            window.addEventListener('scrollend', focusSearch, { once: true });
+          }
+          setTimeout(focusSearch, 520);
+        } else {
+          el.searchInput?.focus();
+        }
       } else if (e.key === 'Escape') {
         if (el.theaterModal?.classList.contains('active')) closePlayer();
         if (el.randomModal?.classList.contains('active')) closeRandomizer();
         if (el.notificationPopover?.classList.contains('active')) el.notificationPopover.classList.remove('active');
+      } else if (!isTyping && !isOverlayOpen()) {
+        const boundary = state._cachedHeroHeight || window.innerHeight || 900;
+        if ((e.key === 'ArrowDown' || e.key === 'PageDown') && window.scrollY < 16) {
+          e.preventDefault();
+          scrollToCinemaZone('browse');
+        } else if ((e.key === 'ArrowUp' || e.key === 'PageUp' || e.key === 'Home') && window.scrollY <= boundary + 20 && window.scrollY > 4) {
+          e.preventDefault();
+          scrollToCinemaZone('hero');
+        } else if (window.scrollY < boundary * 0.5 && e.key === 'ArrowLeft') {
+          e.preventDefault();
+          updateSpotlightSlide(state.spotlightIndex - 1);
+        } else if (window.scrollY < boundary * 0.5 && e.key === 'ArrowRight') {
+          e.preventDefault();
+          updateSpotlightSlide(state.spotlightIndex + 1);
+        }
       }
     });
   }
@@ -3008,8 +3529,10 @@
   }
 
   function updateMobileChipActive() {
+    const allG = state.selectedGenres.size === 0;
     el.mobileChipsRow?.querySelectorAll('.mobile-chip-btn').forEach(c => {
-      c.classList.toggle('active', c.dataset.genre === state.selectedGenre);
+      const active = c.dataset.genre === 'all' ? allG : state.selectedGenres.has(c.dataset.genre);
+      c.classList.toggle('active', active);
     });
   }
 
@@ -3021,24 +3544,59 @@
       b.classList.toggle('active', b.dataset.duration === state.durationFilter);
     });
     if (el.durationSelect) el.durationSelect.value = state.durationFilter;
-    if (el.lbChannelSelect) el.lbChannelSelect.value = state.selectedChannel;
-    if (el.lbGenreSelect) el.lbGenreSelect.value = state.selectedGenre;
-    const chLabel = state.selectedChannel === 'all' ? `${state.channels.length || 28} Kênh` : getChannelDisplayName(state.selectedChannel);
-    if (el.channelLabel) el.channelLabel.textContent = chLabel;
+
+    const chCompact = getChannelSummaryLabel('compact');
+    const chFull = getChannelSummaryLabel('full');
+    const genFull = getGenreSummaryLabel();
+
+    if (el.channelLabel) el.channelLabel.textContent = chCompact;
     document.querySelectorAll('#sidebarStudioLabel').forEach(node => {
-      node.textContent = state.selectedChannel === 'all' ? `Tất cả ${state.channels.length || 28} kênh` : getChannelDisplayName(state.selectedChannel);
+      node.textContent = chFull;
+    });
+    if (el.lbChannelBtnLabel) el.lbChannelBtnLabel.textContent = chFull;
+    if (el.lbGenreBtnLabel) el.lbGenreBtnLabel.textContent = genFull;
+    if (el.btnLbChannels) el.btnLbChannels.classList.toggle('is-filtered', state.selectedChannels.size > 0);
+    if (el.btnLbGenres) el.btnLbGenres.classList.toggle('is-filtered', state.selectedGenres.size > 0);
+
+    if (el.channelSelectionSummary) {
+      el.channelSelectionSummary.textContent = state.selectedChannels.size > 0
+        ? `Đang chọn ${state.selectedChannels.size} mục studio`
+        : 'Đang hiện: Tất cả kênh';
+    }
+    if (el.btnClearChannels) {
+      el.btnClearChannels.classList.toggle('hidden', state.selectedChannels.size === 0);
+    }
+    if (el.mobileFilterSummary) {
+      el.mobileFilterSummary.textContent = state.selectedGenres.size > 0
+        ? `Đang chọn ${state.selectedGenres.size} thể loại`
+        : 'Tích chọn nhiều thể loại cùng lúc';
+    }
+    if (el.btnClearGenresDrawer) {
+      el.btnClearGenresDrawer.classList.toggle('hidden', state.selectedGenres.size === 0);
+    }
+
+    const showModeToggle = state.selectedGenres.size >= 2;
+    document.querySelectorAll('.genre-mode-toggle').forEach(t => {
+      t.classList.toggle('hidden', !showModeToggle);
+    });
+    document.querySelectorAll('[data-genre-mode]').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.genreMode === state.genreMatchMode);
     });
   }
 
   function updateSidebarChannelActive() {
+    const allC = state.selectedChannels.size === 0;
     el.channelNavList?.querySelectorAll('.sidebar-menu-btn').forEach(b => {
-      b.classList.toggle('active', b.dataset.channel === state.selectedChannel);
+      const act = b.dataset.channel === 'all' ? allC : state.selectedChannels.has(b.dataset.channel);
+      b.classList.toggle('active', act);
     });
   }
 
   function updateSidebarGenreActive() {
+    const allG = state.selectedGenres.size === 0;
     document.querySelectorAll('[data-genre]').forEach(b => {
-      b.classList.toggle('active', b.dataset.genre === state.selectedGenre);
+      const act = b.dataset.genre === 'all' ? allG : state.selectedGenres.has(b.dataset.genre);
+      b.classList.toggle('active', act);
     });
   }
 
