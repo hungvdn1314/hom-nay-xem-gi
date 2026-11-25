@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6032,
+    "totalFilms": 6033,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T02:15:45.173221+00:00"
+    "lastUpdated": "2026-11-25T03:00:44.666311+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 618
+      "filmCount": 619
     },
     {
       "id": "naophangtutien",
@@ -185,6 +185,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6033",
+      "title": "7 GIỜ 30 | Cao Võ Dị Năng: Xuyên Không Đến Kỷ Nguyên Tai Biến, Đồ Độc Vào Tay Ta Hóa Bảo Vật!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 27023,
+      "totalDurationStr": "7 giờ 30 phút",
+      "totalViews": 1,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! 325 Cảnh giới : 📌 Tóm Tắt Phim: **SIÊU NĂNG LỰC QUÁ BIẾN THÁI – ĐỒ ĐỘC VÀO TAY TA ĐỀU THÀNH BẢO VẬT! | 7H30** ⚔️ **Dương Đồng** bất ngờ xuyên không đến kỷ nguyên tai biến, nơi dị chủng hoành hành và nhân loại phải dựa vào võ giả để sinh tồn. Trong lúc đói khát, chạy nạn đến thành phố Lâm Giang, hắn phát hiện...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/CjRHvGcMsMA/hqdefault.jpg",
+      "publishedAt": "2026-11-25T03:00:18+00:00",
+      "updatedAt": "2026-11-25T03:00:18+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "7 GIỜ 30 | Cao Võ Dị Năng: Xuyên Không Đến Kỷ Nguyên Tai Biến, Đồ Độc Vào Tay Ta Hóa Bảo Vật!",
+          "url": "https://www.youtube.com/watch?v=CjRHvGcMsMA",
+          "id": "CjRHvGcMsMA",
+          "duration": 27023,
+          "durationStr": "7:30:23",
+          "publishedAt": "2026-11-25T03:00:18+00:00",
+          "views": 1,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6032",
       "title": "P1 |【Thư Kiếm Thịnh Đường: Được Tiên Nhân Xoa Đầu Truyền Đạo, Ta Một Đường Quét Ngang Đại Đường!】",
