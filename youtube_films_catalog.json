@@ -6,7 +6,7 @@
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T16:30:40.609053+00:00"
+    "lastUpdated": "2026-11-25T18:00:50.606945+00:00"
   },
   "channels": [
     {
@@ -20358,20 +20358,20 @@
       "channelName": "2K Sub",
       "channelUrl": "https://www.youtube.com/@2KSUB2000",
       "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 79391,
-      "totalDurationStr": "22 giờ 03 phút",
-      "totalViews": 172000,
-      "totalLikes": 0,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 103235,
+      "totalDurationStr": "28 giờ 40 phút",
+      "totalViews": 172013,
+      "totalLikes": 1,
       "review": "",
       "genres": [
         "Hệ thống / Thức tỉnh"
       ],
       "thumbnail": "https://i.ytimg.com/vi/A5w-NmPA38c/hqdefault.jpg",
       "publishedAt": "2026-11-02T11:50:19.700996+00:00",
-      "updatedAt": "2026-11-18T10:49:42.583751+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-25T17:58:00+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -20399,6 +20399,21 @@
           "publishedAt": "2026-11-18T10:49:42.583751+00:00",
           "views": 29000,
           "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 4",
+          "title": "SS4 | Bị Cha Mẹ Ruồng Bỏ, Ta Nhập Ma Thức Tỉnh Hệ Thống, Từ Phế Vật Thành Ma Thần!",
+          "url": "https://www.youtube.com/watch?v=J7AL7PZCXgk",
+          "id": "J7AL7PZCXgk",
+          "duration": 23844,
+          "durationStr": "6:37:24",
+          "publishedAt": "2026-11-25T17:58:00+00:00",
+          "views": 13,
+          "likes": 1,
           "isRedundant": false,
           "channelId": "2ksub",
           "channelName": "2K Sub"
