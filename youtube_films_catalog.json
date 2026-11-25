@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6048,
+    "totalFilms": 6050,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T10:00:42.632492+00:00"
+    "lastUpdated": "2026-11-25T10:15:32.301827+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 623
+      "filmCount": 624
     },
     {
       "id": "naophangtutien",
@@ -145,7 +145,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 319
+      "filmCount": 320
     },
     {
       "id": "godsub",
@@ -185,6 +185,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6049",
+      "title": "13 GIỜ THỎA MÃN | Mạt Thế Tiến Hóa: Thức Tỉnh Không Gian Sinh Mệnh, Săn Dị Thú Đột Phá Gen",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 46659,
+      "totalDurationStr": "12 giờ 57 phút",
+      "totalViews": 428,
+      "totalLikes": 36,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **MẠT THẾ TIẾN HÓA – THỨC TỈNH KHÔNG GIAN SINH MỆNH, SĂN DỊ THÚ ĐỘT PHÁ GEN! | SS1–SS2 | 12H57** ⚔️ **Tô Du**, một bác sĩ thường xuyên làm việc quá sức, bất ngờ kích hoạt **Không Gian Tái Thiết Sinh Mệnh**, nhận được khả năng cường hóa thể chất và nhìn thấy những ký ức về tương...",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/Byi1zs_34RY/hqdefault.jpg",
+      "publishedAt": "2026-11-25T10:00:12+00:00",
+      "updatedAt": "2026-11-25T10:00:12+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "13 GIỜ THỎA MÃN | Mạt Thế Tiến Hóa: Thức Tỉnh Không Gian Sinh Mệnh, Săn Dị Thú Đột Phá Gen",
+          "url": "https://www.youtube.com/watch?v=Byi1zs_34RY",
+          "id": "Byi1zs_34RY",
+          "duration": 46659,
+          "durationStr": "12:57:39",
+          "publishedAt": "2026-11-25T10:00:12+00:00",
+          "views": 428,
+          "likes": 36,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6050",
+      "title": "Trùng Sinh Sinh Tồn Cao Tốc Tôi Gom Sạch Vật Tư Tối Thượng Trừng Trị Kẻ Chơi Bẩn! | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12484,
+      "totalDurationStr": "3 giờ 28 phút",
+      "totalViews": 32,
+      "totalLikes": 2,
+      "review": "Trùng Sinh Sinh Tồn Cao Tốc Tôi Gom Sạch Vật Tư Tối Thượng Trừng Trị Kẻ Chơi Bẩn! | Đậu Đậu Vietsub 📋 Tóm Tắt : Kỳ Hứa trùng sinh trên đường cao tốc khắc nghiệt, nâng cấp xe thành biệt thự di động, trừng trị kẻ lừa đảo và cùng liên minh chuẩn bị chinh phục phó bản nguy hiểm. 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/sp3sTZrx55o/hqdefault.jpg",
+      "publishedAt": "2026-11-25T10:00:06+00:00",
+      "updatedAt": "2026-11-25T10:00:06+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trùng Sinh Sinh Tồn Cao Tốc Tôi Gom Sạch Vật Tư Tối Thượng Trừng Trị Kẻ Chơi Bẩn! | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=sp3sTZrx55o",
+          "id": "sp3sTZrx55o",
+          "duration": 12484,
+          "durationStr": "3:28:04",
+          "publishedAt": "2026-11-25T10:00:06+00:00",
+          "views": 32,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6047",
       "title": "Full Tập 01~181 | Xuyên Ko Hệ Thống Cho Trăm Tỷ, Ép Đóng Vai Phản Diện Khiến 4 Thiếu Gia Theo Đuổi",
