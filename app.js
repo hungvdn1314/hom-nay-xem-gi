@@ -637,7 +637,7 @@
       .replace(/\[([^\]]*)\]/g, unwrapBracket)
       .replace(/^(?:\s*(?:\((?:Tổng\s*Hợp[^)]*|Trọn\s*Bộ[^)]*|Siêu\s*Hay[^)]*|Siêu\s*Hài[^)]*|FIX|END|Full[^)]*|\d+(?:[.,]\d+)?\s*(?:H|Giờ|Tiếng)[^)]*|(?:Phần|Tập|Mùa)\s*\d+[^)]*)\)|(?:Tổng\s*Hợp|Trọn\s*Bộ|Siêu\s*(?:Hay|Hài|Phẩm)|Ful+l(?:\s*Dài(?:\s*\d+(?:[.,]\d+)?\s*(?:H|Giờ|Tiếng)?)?|\s*Video|\s*Bộ|\s*Kết|\s*END|\s*Version(?:\s*\d+(?:\s*[-–+]\s*\d+)*)?)?)\s*(?:(?:Phần|Tập|Mùa|P|S|SS)\s*\d+(?:\s*[-–+~]\s*(?:P|SS)?\s*\d+)?(?:\s*END)?)?(?:\s*\([^)]*\))?\s*[\|\-:–,]?)\s*)+/i, '')
       .replace(/\s*\((?:Phần|Tập|Mùa)\s*\d+[^)]*\)\s*$/i, '')
-      .replace(/\s*[\|\-]\s*(?:Kas\s*Vietsub|MyCherrySub|Sora\s*Dub|CibiiSub|Đậu\s*Đậu\s*Vietsub|GodSub|Win\s*Vietsub|Thế\s*Vietsub|Vietsub\s*Phim|Akatsuki\s*Review|2K\s*Sub|Zzzphim|Não\s*Phẳng\s*Tu\s*Tiên|Thiên\s*Ảnh\s*Studio|Mộng\s*Ảnh\s*Studio|Vân\s*Mộng\s*Studio|Nhật\s*Ảnh\s*Studio|Vạn\s*Ảnh\s*Studio|Mị\s*Ảnh\s*Studio|Trùm\s*Phim\s*Sinh\s*Tồn(?:\s*New)?|Sinh\s*Tồn\s*Tận\s*Thế|ChiuChiuSubTV|Tiểu\s*Hồ\s*Review(?:\s*\(Dorovietsub\))?|Mễ\s*Lạc\s*Review|HHANIME\s*CHANNEL|Hoa\s*Trên\s*Mây|Phim\s*Zoo\s*AI|Nguyễn\s*Tường\s*Vietsub|Huyền\s*Sư\s*Tiểu\s*Muội|Tiểu\s*Muội\s*Ngôn\s*Tình)\s*$/i, '')
+      .replace(/\s*[\|\-]\s*(?:Kas\s*Vietsub|MyCherrySub|Egg\s*Vietsub|Lara\s*Sub|Bản\s*Tin\s*Cherry|HiCherrySub|Sora\s*Dub|CibiiSub|Đậu\s*Đậu\s*Vietsub|GodSub|Win\s*Vietsub|Thế\s*Vietsub|Vietsub\s*Phim|Akatsuki\s*Review|2K\s*Sub|Zzzphim|Não\s*Phẳng\s*Tu\s*Tiên|Thiên\s*Ảnh\s*Studio|Mộng\s*Ảnh\s*Studio|Vân\s*Mộng\s*Studio|Nhật\s*Ảnh\s*Studio|Vạn\s*Ảnh\s*Studio|Mị\s*Ảnh\s*Studio|Trùm\s*Phim\s*Sinh\s*Tồn(?:\s*New)?|Sinh\s*Tồn\s*Tận\s*Thế|ChiuChiuSubTV|Tiểu\s*Hồ\s*Review(?:\s*\(Dorovietsub\))?|Mễ\s*Lạc\s*Review|HHANIME\s*CHANNEL|Hoa\s*Trên\s*Mây|Phim\s*Zoo\s*AI|Nguyễn\s*Tường\s*Vietsub|Huyền\s*Sư\s*Tiểu\s*Muội|Tiểu\s*Muội\s*Ngôn\s*Tình)\s*$/i, '')
       .replace(/^[\|\-:\s]+|[\|\-:\s]+$/g, '')
       .replace(/\s+/g, ' ')
       .trim();
@@ -1399,7 +1399,7 @@
       <button type="button" class="sidebar-menu-btn ${allActive ? 'active' : ''}" data-channel="all">
         <span class="sidebar-btn-left">
           ${CHECK_ICON_SVG}
-          <span>Tất cả kênh (${visibleStudioCount} mục · ${state.channels.length || 31} kênh)</span>
+          <span>Tất cả kênh (${visibleStudioCount} mục · ${state.channels.length || 35} kênh)</span>
         </span>
         <span class="sidebar-count-tag">${state.allFilms.length}</span>
       </button>
@@ -1528,7 +1528,7 @@
   }
 
   function getChannelSummaryLabel(style = 'compact') {
-    const chTotal = state.channels.length || 31;
+    const chTotal = state.channels.length || 35;
     if (state.selectedChannels.size === 0) {
       return style === 'compact' ? `${chTotal} Kênh` : `Tất cả ${chTotal} kênh`;
     }

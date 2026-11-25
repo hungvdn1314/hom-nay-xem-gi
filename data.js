@@ -1,13 +1,13 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6549,
+    "totalFilms": 6737,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
-    "totalChannels": 31,
-    "lastUpdated": "2026-11-25T18:26:37.745148+00:00",
-    "totalChannelGroups": 25
+    "totalChannels": 35,
+    "lastUpdated": "2026-11-25T20:17:17.204068+00:00",
+    "totalChannelGroups": 27
   },
   "channels": [
     {
@@ -92,7 +92,9 @@ window.FILMS_DATA = {
       "id": "mycherrysub",
       "name": "MyCherrySub",
       "url": "https://www.youtube.com/@MyCherrySub",
-      "filmCount": 512
+      "filmCount": 510,
+      "groupId": "group_mycherrysub",
+      "groupName": "Hệ Thống MyCherrySub"
     },
     {
       "id": "soradub",
@@ -211,9 +213,7821 @@ window.FILMS_DATA = {
       "filmCount": 181,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
+    },
+    {
+      "id": "eggvietsub",
+      "name": "Egg Vietsub",
+      "url": "https://www.youtube.com/@EggVietsub",
+      "filmCount": 29
+    },
+    {
+      "id": "larasub22",
+      "name": "Lara Sub",
+      "url": "https://www.youtube.com/@larasub22",
+      "filmCount": 11
+    },
+    {
+      "id": "mycherrysub2",
+      "name": "Bản Tin Cherry",
+      "url": "https://www.youtube.com/@MyCherrySub2",
+      "filmCount": 166,
+      "groupId": "group_mycherrysub",
+      "groupName": "Hệ Thống MyCherrySub"
+    },
+    {
+      "id": "mycherrysub3",
+      "name": "HiCherrySub",
+      "url": "https://www.youtube.com/@MyCherrySub3",
+      "filmCount": 4,
+      "groupId": "group_mycherrysub",
+      "groupName": "Hệ Thống MyCherrySub"
     }
   ],
   "films": [
+    {
+      "id": "film_6735",
+      "title": "[Full] Vừa Bị Nữ Thần Giả Nai Gài Bẫy Lên Đồn Ai Ngờ Lại Còn Là Bạn Cùng Lớp Đại Học! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10022,
+      "totalDurationStr": "2 giờ 47 phút",
+      "totalViews": 2211,
+      "totalLikes": 55,
+      "review": "📽Phim: [Full] Vừa Bị Nữ Thần Giả Nai Gài Bẫy Lên Đồn Ai Ngờ Lại Còn Là Bạn Cùng Lớp Đại Học! | MyCherrySub Tóm tắt: Nam chính Bạch Tuyên là một chàng sinh viên 18 tuổi có hoàn cảnh vô cùng éo le: bố đang thụ án tù, mẹ bỏ đi biệt tích, một mình cậu phải làm thêm ở quán trà sữa để tự trang trải cuộc sống. Tưởng chừng chuỗi ngày bình lặng sẽ cứ thế trôi...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/oynR2bhSEQk/hqdefault.jpg",
+      "publishedAt": "2026-11-25T15:15:48.196532+00:00",
+      "updatedAt": "2026-11-25T15:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Vừa Bị Nữ Thần Giả Nai Gài Bẫy Lên Đồn Ai Ngờ Lại Còn Là Bạn Cùng Lớp Đại Học! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=oynR2bhSEQk",
+          "id": "oynR2bhSEQk",
+          "duration": 10022,
+          "durationStr": "2:47:02",
+          "publishedAt": "2026-11-25T15:15:48.196532+00:00",
+          "views": 2211,
+          "likes": 55,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6734",
+      "title": "[Full] Cùng Đỗ 1 Trường Đại Học Tôi Bị Mẹ Gài Kèo Sống Chung Với Cô Tiểu Thư Lầy Lội! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8582,
+      "totalDurationStr": "2 giờ 23 phút",
+      "totalViews": 3398,
+      "totalLikes": 135,
+      "review": "📽Phim: [Full] Cùng Đỗ 1 Trường Đại Học Tôi Bị Mẹ Gài Kèo Sống Chung Với Cô Tiểu Thư Lầy Lội! | MyCherrySub Tóm tắt: Nam chính Lâm Thần (khoa Luật) và Tô Tiểu Tiểu (khoa Báo chí) là đôi bạn thanh mai trúc mã quen nhau suốt 17 năm, hễ chạm mặt là chí chóe không ngừng. Vừa cùng đỗ vào Đại học Giang Thành, Lâm Thần chưa kịp tận hưởng cuộc sống tự do thì đã...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/xwr1Z1qeDQ4/hqdefault.jpg",
+      "publishedAt": "2026-11-25T13:15:48.196532+00:00",
+      "updatedAt": "2026-11-25T13:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Cùng Đỗ 1 Trường Đại Học Tôi Bị Mẹ Gài Kèo Sống Chung Với Cô Tiểu Thư Lầy Lội! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=xwr1Z1qeDQ4",
+          "id": "xwr1Z1qeDQ4",
+          "duration": 8582,
+          "durationStr": "2:23:02",
+          "publishedAt": "2026-11-25T13:15:48.196532+00:00",
+          "views": 3398,
+          "likes": 135,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6733",
+      "title": "[Full] Xuyên Không Thành Phản Diện Tôi Vội Vả Mặt Trà Xanh Quay Xe Độc Sủng Nữ Chính! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8035,
+      "totalDurationStr": "2 giờ 13 phút",
+      "totalViews": 6158,
+      "totalLikes": 214,
+      "review": "📽Phim: [Full] Xuyên Không Thành Phản Diện Tôi Vội Vả Mặt Trà Xanh Quay Xe Độc Sủng Nữ Chính! | MyCherrySub Tóm tắt: Nam chính Giang Tâm xuyên không vào tựa game mình từng phá đảo nhiều lần, nhưng lại rơi đúng vào \"tuyến hắc hóa\" với thân phận tên phản diện chuyên lừa gạt nữ chính Nguyễn Kim Hi. Biết trước nếu đi theo cốt truyện gốc sẽ bị ông anh họ Long...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/EaWLWex020Y/hqdefault.jpg",
+      "publishedAt": "2026-11-25T10:15:48.196532+00:00",
+      "updatedAt": "2026-11-25T10:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xuyên Không Thành Phản Diện Tôi Vội Vả Mặt Trà Xanh Quay Xe Độc Sủng Nữ Chính! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=EaWLWex020Y",
+          "id": "EaWLWex020Y",
+          "duration": 8035,
+          "durationStr": "2:13:55",
+          "publishedAt": "2026-11-25T10:15:48.196532+00:00",
+          "views": 6158,
+          "likes": 214,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6732",
+      "title": "[Full] Mất Trí Nhớ Quên Luôn Trà Xanh Tôi Gọi Nhầm Thanh Mai Tổng Tài Là Vợ! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 18940,
+      "totalDurationStr": "5 giờ 15 phút",
+      "totalViews": 8554,
+      "totalLikes": 276,
+      "review": "📽Phim: [Full] Mất Trí Nhớ Quên Luôn Trà Xanh Tôi Gọi Nhầm Thanh Mai Tổng Tài Là Vợ! | MyCherrySub Tóm tắt: Nam chính Thẩm Dật Thần vốn là thiếu gia nhà giàu nhưng lại mù quáng làm \"chó liếm\" cho con gái tài xế là Liễu Như Yên, phũ phàng từ chối người thanh mai trúc mã yêu mình suốt 10 năm là nữ tổng tài Ôn Mộc Uyển. Trên đường đi mua đồ cho bạn gái, anh...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/lTqYTfxsZSI/hqdefault.jpg",
+      "publishedAt": "2026-11-25T04:15:48.196532+00:00",
+      "updatedAt": "2026-11-25T04:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Mất Trí Nhớ Quên Luôn Trà Xanh Tôi Gọi Nhầm Thanh Mai Tổng Tài Là Vợ! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=lTqYTfxsZSI",
+          "id": "lTqYTfxsZSI",
+          "duration": 18940,
+          "durationStr": "5:15:40",
+          "publishedAt": "2026-11-25T04:15:48.196532+00:00",
+          "views": 8554,
+          "likes": 276,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6728",
+      "title": "[Full] Tôi Giả Chớt Để Trốn Bạn Gái Bệnh Kiều Ai Ngờ Cô Ấy Múc Luôn Tro Cốt Ra Ăn Thử! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8983,
+      "totalDurationStr": "2 giờ 29 phút",
+      "totalViews": 5897,
+      "totalLikes": 125,
+      "review": "📽Phim: [Full] Tôi Giả Chớt Để Trốn Bạn Gái Bệnh Kiều Ai Ngờ Cô Ấy Múc Luôn Tro Cốt Ra Ăn Thử! | MyCherrySub Tóm tắt: Không chịu nổi tính kiểm soát biến thái của cô bạn gái yêu qua mạng giàu nứt đố đổ vách tên Vạn Hân, chàng trai \"cá mặn\" Lục Thính Bạch liền bày kế cùng bạn thân đổ sữa bột trẻ em vào hũ tro cốt để giả chết chạy trốn. Nào ngờ đại tiểu thư...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/-Rl7yL5xjQU/hqdefault.jpg",
+      "publishedAt": "2026-11-24T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-24T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Tôi Giả Chớt Để Trốn Bạn Gái Bệnh Kiều Ai Ngờ Cô Ấy Múc Luôn Tro Cốt Ra Ăn Thử! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=-Rl7yL5xjQU",
+          "id": "-Rl7yL5xjQU",
+          "duration": 8983,
+          "durationStr": "2:29:43",
+          "publishedAt": "2026-11-24T20:15:48.196532+00:00",
+          "views": 5897,
+          "likes": 125,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6729",
+      "title": "[Full] Cô Bạn Thanh Mai Làm Giáo Viên Đến Ở Nhà Tôi Để Lộ Bản Chất Bệnh Kiều Đáng Sợ! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7400,
+      "totalDurationStr": "2 giờ 03 phút",
+      "totalViews": 6850,
+      "totalLikes": 212,
+      "review": "📽Phim: [Full] Cô Bạn Thanh Mai Làm Giáo Viên Đến Ở Nhà Tôi Để Lộ Bản Chất Bệnh Kiều Đáng Sợ! | MyCherrySub Tóm tắt: Cuộc sống yên bình của Trịnh Vũ bỗng chốc đảo lộn khi Hứa An Nhiên — cô bạn thanh mai trúc mã vốn là một nữ giáo viên trung học đoan trang, chuẩn mực — bất ngờ tìm đến nhà anh xin ở nhờ với lý do hết hạn thuê trọ và chưa có lương. Ban đầu,...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/SHfZwsYvlcg/hqdefault.jpg",
+      "publishedAt": "2026-11-24T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-24T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Cô Bạn Thanh Mai Làm Giáo Viên Đến Ở Nhà Tôi Để Lộ Bản Chất Bệnh Kiều Đáng Sợ! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=SHfZwsYvlcg",
+          "id": "SHfZwsYvlcg",
+          "duration": 7400,
+          "durationStr": "2:03:20",
+          "publishedAt": "2026-11-24T20:15:48.196532+00:00",
+          "views": 6850,
+          "likes": 212,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6730",
+      "title": "[Full] Bị Đại Tiểu Thư Bá Đạo Ép Yêu, Tôi Đành Liều Mạng Tìm Cách Bỏ Trốn! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10648,
+      "totalDurationStr": "2 giờ 57 phút",
+      "totalViews": 6607,
+      "totalLikes": 185,
+      "review": "📽Phim: [Full] Bị Đại Tiểu Thư Bá Đạo Ép Yêu, Tôi Đành Liều Mạng Tìm Cách Bỏ Trốn! | MyCherrySub Tóm tắt: Chỉ vì vô tình giành mất vị trí đứng đầu trong kỳ thi tháng, chàng sinh viên nghèo Lâm Tín bất ngờ rơi vào tầm ngắm của Ninh Trúc Nhã – đại tiểu thư bá đạo của Tập đoàn Thiên Mục và là át chủ bài câu lạc bộ Cung Đạo. Bị ép buộc làm bạn trai bằng cả vũ...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/08ulmgTnXGY/hqdefault.jpg",
+      "publishedAt": "2026-11-24T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-24T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Đại Tiểu Thư Bá Đạo Ép Yêu, Tôi Đành Liều Mạng Tìm Cách Bỏ Trốn! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=08ulmgTnXGY",
+          "id": "08ulmgTnXGY",
+          "duration": 10648,
+          "durationStr": "2:57:28",
+          "publishedAt": "2026-11-24T20:15:48.196532+00:00",
+          "views": 6607,
+          "likes": 185,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6731",
+      "title": "[Full] 3 Năm Ngồi Tù Oan Tôi Bỗng Trở Thành Truyền Nhân Của 9 Vị Sư Phụ Tuyệt Thế! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 38664,
+      "totalDurationStr": "10 giờ 44 phút",
+      "totalViews": 11351,
+      "totalLikes": 258,
+      "review": "📽Phim: [Full] 3 Năm Ngồi Tù Oan Tôi Bỗng Trở Thành Truyền Nhân Của 9 Vị Sư Phụ Tuyệt Thế! | MyCherrySub Tóm tắt: Ba năm trước, vì gom tiền chữa bệnh cho mẹ, Tô Nam Thiên chấp nhận ở rể nhà họ Hứa rồi gánh tội thay thiếu gia Tống Cương để cứu công ty của vợ mình là Hứa Như Yên. Không ngờ trong nhà tù cấp SS, anh lại gặp được chín vị sư phụ đỉnh cao và...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/q-uuAJKNhy8/hqdefault.jpg",
+      "publishedAt": "2026-11-24T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-24T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 3",
+          "title": "[Full] 3 Năm Ngồi Tù Oan Tôi Bỗng Trở Thành Truyền Nhân Của 9 Vị Sư Phụ Tuyệt Thế! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=q-uuAJKNhy8",
+          "id": "q-uuAJKNhy8",
+          "duration": 38664,
+          "durationStr": "10:44:24",
+          "publishedAt": "2026-11-24T20:15:48.196532+00:00",
+          "views": 11351,
+          "likes": 258,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6726",
+      "title": "[Full] Hẹn Gặp Mặt Đồng Đội Gà Mờ Ai Ngờ Lại Là Hoa Khôi Lạnh Lùng Của Trường! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9694,
+      "totalDurationStr": "2 giờ 41 phút",
+      "totalViews": 7199,
+      "totalLikes": 168,
+      "review": "📽Phim: [Full] Hẹn Gặp Mặt Đồng Đội Gà Mờ Ai Ngờ Lại Là Hoa Khôi Lạnh Lùng Của Trường! | MyCherrySub Tóm tắt: Chơi game gặp ngay đồng đội cầm Trình Giảo Kim chết 11 mạng trong 10 phút, tân sinh viên Lục Thần tức giận buông lời mắng chửi rồi bị đối phương hẹn ra sân vận động Đại học Giang Nam giải quyết. Đến nơi, cậu ngỡ ngàng phát hiện \"báo thủ\" kia lại...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/c8d83zLjid0/hqdefault.jpg",
+      "publishedAt": "2026-11-23T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-23T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Hẹn Gặp Mặt Đồng Đội Gà Mờ Ai Ngờ Lại Là Hoa Khôi Lạnh Lùng Của Trường! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=c8d83zLjid0",
+          "id": "c8d83zLjid0",
+          "duration": 9694,
+          "durationStr": "2:41:34",
+          "publishedAt": "2026-11-23T20:15:48.196532+00:00",
+          "views": 7199,
+          "likes": 168,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6727",
+      "title": "[Full] Xuyên Không Làm Shipper Nhận Phải Hệ Thống Lỗi Tôi Quậy Đục Cả Show Thực Tế! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10914,
+      "totalDurationStr": "3 giờ 01 phút",
+      "totalViews": 4488,
+      "totalLikes": 87,
+      "review": "📽Phim: [Full] Xuyên Không Làm Shipper Nhận Phải Hệ Thống Lỗi Tôi Quậy Đục Cả Show Thực Tế! | MyCherrySub 🚀 Mọi người xem phim vui vẻ nhé ạ! 🚧 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện ❌Vui lòng không reup dưới mọi hình thức. ❗Thumbnails are for illustrative purposes only regarding the story content. ❓The...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/mt46vRaJq4U/hqdefault.jpg",
+      "publishedAt": "2026-11-23T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-23T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xuyên Không Làm Shipper Nhận Phải Hệ Thống Lỗi Tôi Quậy Đục Cả Show Thực Tế! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=mt46vRaJq4U",
+          "id": "mt46vRaJq4U",
+          "duration": 10914,
+          "durationStr": "3:01:54",
+          "publishedAt": "2026-11-23T20:15:48.196532+00:00",
+          "views": 4488,
+          "likes": 87,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6722",
+      "title": "[Full] Bị Bạn Gái Bỏ Rơi Tôi Liền Kích Hoạt Hệ Thống Thánh Bôi Đổi Đời Thành Phó Tổng! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10968,
+      "totalDurationStr": "3 giờ 02 phút",
+      "totalViews": 5294,
+      "totalLikes": 100,
+      "review": "📽Phim: [Full] Bị Bạn Gái Bỏ Rơi Tôi Liền Kích Hoạt Hệ Thống Thánh Bôi Đổi Đời Thành Phó Tổng! | MyCherrySub Tóm tắt: Nam chính Trương Viễn là một nhân viên làm thuê tỉnh lẻ với mức lương 3.000 tệ mỗi tháng, bất ngờ bị bạn gái Trần Đình Đình thẳng thừng chia tay vì chê anh nghèo và không cùng đẳng cấp. Đúng lúc rơi vào ngõ cụt, Trương Viễn kích hoạt Hệ...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/A_pl9R0yGWk/hqdefault.jpg",
+      "publishedAt": "2026-11-22T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-22T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Bạn Gái Bỏ Rơi Tôi Liền Kích Hoạt Hệ Thống Thánh Bôi Đổi Đời Thành Phó Tổng! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=A_pl9R0yGWk",
+          "id": "A_pl9R0yGWk",
+          "duration": 10968,
+          "durationStr": "3:02:48",
+          "publishedAt": "2026-11-22T20:15:48.196532+00:00",
+          "views": 5294,
+          "likes": 100,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6723",
+      "title": "[Full] Bắt Gặp Lớp Trưởng Khó Tính Khóc Ngoài Đường Cuộc Sống Của Tôi Bắt Đầu Rắc Rối! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10013,
+      "totalDurationStr": "2 giờ 46 phút",
+      "totalViews": 4057,
+      "totalLikes": 70,
+      "review": "📽Phim: [Full] Bắt Gặp Lớp Trưởng Khó Tính Khóc Ngoài Đường Cuộc Sống Của Tôi Bắt Đầu Rắc Rối! | MyCherrySub Tóm tắt: Nam chính Tô Triết là một nam sinh tính cách hài hước, thẳng thắn và thích sống vô tư. Một ngày nọ, anh vô tình bắt gặp Khâu Nhiên – nữ lớp trưởng vốn nổi tiếng nghiêm khắc và luôn phạt anh vì tội đi muộn – đang suy sụp ngoài trường sau...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/iyC4DUXu2KQ/hqdefault.jpg",
+      "publishedAt": "2026-11-22T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-22T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bắt Gặp Lớp Trưởng Khó Tính Khóc Ngoài Đường Cuộc Sống Của Tôi Bắt Đầu Rắc Rối! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=iyC4DUXu2KQ",
+          "id": "iyC4DUXu2KQ",
+          "duration": 10013,
+          "durationStr": "2:46:53",
+          "publishedAt": "2026-11-22T20:15:48.196532+00:00",
+          "views": 4057,
+          "likes": 70,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6724",
+      "title": "[Full] Thoát Khỏi Cốt Truyện Và Bị Xóa Ký Ức Ai Ngờ Nữ Tổng Tài Lại Xuyên Đến Tìm Tôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9978,
+      "totalDurationStr": "2 giờ 46 phút",
+      "totalViews": 7750,
+      "totalLikes": 177,
+      "review": "📽Phim: [Full] Thoát Khỏi Cốt Truyện Và Bị Xóa Ký Ức Ai Ngờ Nữ Tổng Tài Lại Xuyên Đến Tìm Tôi! | MyCherrySub Tóm tắt: Nam chính Tiêu Thiên sau khi hoàn thành vai diễn phản diện lớn nhất trong thế giới truyện bị xóa ký ức và quay về thế giới thực với căn bệnh tim bẩm sinh giai đoạn cuối, chỉ còn sống được chưa đầy ba tháng. Sau khi anh rời đi, dòng thời...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/UCM7OSGuwj4/hqdefault.jpg",
+      "publishedAt": "2026-11-22T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-22T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Thoát Khỏi Cốt Truyện Và Bị Xóa Ký Ức Ai Ngờ Nữ Tổng Tài Lại Xuyên Đến Tìm Tôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=UCM7OSGuwj4",
+          "id": "UCM7OSGuwj4",
+          "duration": 9978,
+          "durationStr": "2:46:18",
+          "publishedAt": "2026-11-22T20:15:48.196532+00:00",
+          "views": 7750,
+          "likes": 177,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6725",
+      "title": "[Full] Trọng Sinh Không Làm Kẻ Lụy Tình Tôi Chỉ Cưng Chiều Cô Bạn Cùng Bàn Bị Xa Lánh! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 16390,
+      "totalDurationStr": "4 giờ 33 phút",
+      "totalViews": 9768,
+      "totalLikes": 244,
+      "review": "📽Phim: [Full] Trọng Sinh Không Làm Kẻ Lụy Tình Tôi Chỉ Cưng Chiều Cô Bạn Cùng Bàn Bị Xa Lánh! | MyCherrySub Tóm tắt: Kiếp trước, Nam chính Lục Trạch – thiếu gia nhà họ Lục – mù quáng chạy theo hoa khôi Lâm Vũ Băng, để rồi lúc nguy nan lại bị chính cô ta bỏ mặc để cứu Tô Vũ Triết. Người duy nhất liều mình cứu anh lại là Hạ Nam Tinh – cô bạn cùng bàn luôn...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/DT95YPSD2tk/hqdefault.jpg",
+      "publishedAt": "2026-11-22T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-22T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trọng Sinh Không Làm Kẻ Lụy Tình Tôi Chỉ Cưng Chiều Cô Bạn Cùng Bàn Bị Xa Lánh! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=DT95YPSD2tk",
+          "id": "DT95YPSD2tk",
+          "duration": 16390,
+          "durationStr": "4:33:10",
+          "publishedAt": "2026-11-22T20:15:48.196532+00:00",
+          "views": 9768,
+          "likes": 244,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6719",
+      "title": "[Full] Nợ Tình 6 Năm Nữ Tổng Tài Băng Sơn Chỉ Nhắm Mình Vào Tôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9713,
+      "totalDurationStr": "2 giờ 41 phút",
+      "totalViews": 9844,
+      "totalLikes": 231,
+      "review": "📽Phim: [Full] Nợ Tình 6 Năm Nữ Tổng Tài Băng Sơn Chỉ Nhắm Mình Vào Tôi! | MyCherrySub Tóm tắt: Nam chính Lâm Nghị hồi còn học cấp ba 6 năm trước từng thẳng thừng từ chối cô bé Tô Thanh Tuyết chỉ vì chê cô ngày nào cũng đi tất trắng, sợ... hôi chân, khiến cô tức phát khóc và thề lớn lên sẽ trả thù. Trớ trêu thay, 6 năm sau, khi Lâm Nghị chỉ là một nhân...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Gp_n8Itckrs/hqdefault.jpg",
+      "publishedAt": "2026-11-21T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-21T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Nợ Tình 6 Năm Nữ Tổng Tài Băng Sơn Chỉ Nhắm Mình Vào Tôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=Gp_n8Itckrs",
+          "id": "Gp_n8Itckrs",
+          "duration": 9713,
+          "durationStr": "2:41:53",
+          "publishedAt": "2026-11-21T20:15:48.196532+00:00",
+          "views": 9844,
+          "likes": 231,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6720",
+      "title": "[Full] Xuyên Thành Phản Diện Tôi Hốt Sạch Toàn Bộ Hậu Cung Và Cơ Duyên Của Nam Chính! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9920,
+      "totalDurationStr": "2 giờ 45 phút",
+      "totalViews": 10526,
+      "totalLikes": 305,
+      "review": "📽Phim: [Full] Xuyên Thành Phản Diện Tôi Hốt Sạch Toàn Bộ Hậu Cung Và Cơ Duyên Của Nam Chính! | MyCherrySub Tóm tắt: Nam chính Lâm Bá – thiếu gia nhà giàu nhất Giang Thành bị trói buộc với Hệ Thống Phản Diện, buộc phải đi bắt nạt các nữ chính và cướp cơ duyên của Thiên Mệnh Chi Tử Diệp Bất Phàm để giữ mạng và nhận thưởng. Mở đầu, Lâm Bá nhắm vào cô em gái...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/BA-XdEYYIIg/hqdefault.jpg",
+      "publishedAt": "2026-11-21T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-21T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xuyên Thành Phản Diện Tôi Hốt Sạch Toàn Bộ Hậu Cung Và Cơ Duyên Của Nam Chính! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=BA-XdEYYIIg",
+          "id": "BA-XdEYYIIg",
+          "duration": 9920,
+          "durationStr": "2:45:20",
+          "publishedAt": "2026-11-21T20:15:48.196532+00:00",
+          "views": 10526,
+          "likes": 305,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6721",
+      "title": "[Full] Xuyên Không Thành Chó Liếm Tôi Liền Cưỡng Hôn Hoa Khôi Rồi Đá Thẳng Cẳng! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9649,
+      "totalDurationStr": "2 giờ 40 phút",
+      "totalViews": 9915,
+      "totalLikes": 263,
+      "review": "📽Phim: [Full] Xuyên Không Thành Chó Liếm Tôi Liền Cưỡng Hôn Hoa Khôi Rồi Đá Thẳng Cẳng! | MyCherrySub Tóm tắt: Nam chính Lâm Nghị từng là Vua lính đánh thuê mật danh \"Tu La\" khét tiếng thế giới ngầm bất ngờ xuyên không vào cơ thể một nam sinh đại học cùng tên – kẻ đã làm \"chó liếm\" cho hoa khôi Cố Vũ Ninh suốt 3 năm trời. Ngay lúc vừa tỉnh lại, anh bị cô...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/SAC1Cgjud_Y/hqdefault.jpg",
+      "publishedAt": "2026-11-21T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-21T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xuyên Không Thành Chó Liếm Tôi Liền Cưỡng Hôn Hoa Khôi Rồi Đá Thẳng Cẳng! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=SAC1Cgjud_Y",
+          "id": "SAC1Cgjud_Y",
+          "duration": 9649,
+          "durationStr": "2:40:49",
+          "publishedAt": "2026-11-21T20:15:48.196532+00:00",
+          "views": 9915,
+          "likes": 263,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6716",
+      "title": "[Full] Bị 29 Mỹ Nữ Đuổi Khỏi Đội, Tôi Thức Tỉnh Mắt Thiên Khải Trở Thành Trùm Cuối! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9831,
+      "totalDurationStr": "2 giờ 43 phút",
+      "totalViews": 3468,
+      "totalLikes": 61,
+      "review": "📽Phim: [Full] Bị 29 Mỹ Nữ Đuổi Khỏi Đội, Tôi Thức Tỉnh Mắt Thiên Khải Trở Thành Trùm Cuối! | MyCherrySub Tóm tắt: Nam chính Diệp Phong bị đưa vào trò chơi sinh tồn trên đảo bay cùng 29 cô gái, trở thành người đàn ông duy nhất trong đội — lập tức bị cả đám liên thủ cô lập và đuổi đi với lý do \"giữ đàn ông lại là mối họa ngầm\". Thậm chí, họ còn ra điều...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/vdwr8WYmZnI/hqdefault.jpg",
+      "publishedAt": "2026-11-20T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-20T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị 29 Mỹ Nữ Đuổi Khỏi Đội, Tôi Thức Tỉnh Mắt Thiên Khải Trở Thành Trùm Cuối! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=vdwr8WYmZnI",
+          "id": "vdwr8WYmZnI",
+          "duration": 9831,
+          "durationStr": "2:43:51",
+          "publishedAt": "2026-11-20T20:15:48.196532+00:00",
+          "views": 3468,
+          "likes": 61,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6717",
+      "title": "[Full] Xuyên Không Thành Tay Sai Phản Diện, Tôi Bị Nữ Ma Đầu Ép Đi Cưa Đổ Nữ Chính! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 14256,
+      "totalDurationStr": "3 giờ 57 phút",
+      "totalViews": 14651,
+      "totalLikes": 426,
+      "review": "📽Phim: [Full] Xuyên Không Thành Tay Sai Phản Diện, Tôi Bị Nữ Ma Đầu Ép Đi Cưa Đổ Nữ Chính! | MyCherrySub Tóm tắt: Nam chính Thẩm Phong xuyên sách thành tay sai số một của nữ phản diện độc ác Giang Thư. Để tránh kết cục bị nữ chính Tô Niệm (thiên kim hào môn thất lạc) hành hạ đến chết sau này, anh bí mật thỏa thuận với cô: cô phối hợp diễn kịch qua mắt...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/QiOIze_nPNA/hqdefault.jpg",
+      "publishedAt": "2026-11-20T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-20T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xuyên Không Thành Tay Sai Phản Diện, Tôi Bị Nữ Ma Đầu Ép Đi Cưa Đổ Nữ Chính! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=QiOIze_nPNA",
+          "id": "QiOIze_nPNA",
+          "duration": 14256,
+          "durationStr": "3:57:36",
+          "publishedAt": "2026-11-20T20:15:48.196532+00:00",
+          "views": 14651,
+          "likes": 426,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6718",
+      "title": "[Full] Tỏ Tình 87 Lần Với Hoa Khôi Bị Từ Chối Tôi Quay Xe Nhận Việc Xa Xứ Bỏ Lại Tất Cả| MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 14496,
+      "totalDurationStr": "4 giờ 01 phút",
+      "totalViews": 10445,
+      "totalLikes": 193,
+      "review": "📽Phim: [Full] Tỏ Tình 87 Lần Với Hoa Khôi Bị Từ Chối Tôi Quay Xe Nhận Việc Xa Xứ Bỏ Lại Tất Cả! | MyCherrySub Tóm tắt: Nam chính Phương Viên suốt 3 năm đại học – thủ khoa chuyên ngành Kiến trúc đã tỏ tình với hoa khôi Liễu Như Yên tổng cộng 87 lần. Đáp lại chân tình của anh là những tờ séc lạnh lùng và sự chế giễu của cả trường rằng anh chỉ là một \"thằng...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/MtIH29DksG0/hqdefault.jpg",
+      "publishedAt": "2026-11-20T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-20T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Tỏ Tình 87 Lần Với Hoa Khôi Bị Từ Chối Tôi Quay Xe Nhận Việc Xa Xứ Bỏ Lại Tất Cả| MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=MtIH29DksG0",
+          "id": "MtIH29DksG0",
+          "duration": 14496,
+          "durationStr": "4:01:36",
+          "publishedAt": "2026-11-20T20:15:48.196532+00:00",
+          "views": 10445,
+          "likes": 193,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6739",
+      "title": "[Full] Bị Vợ Và Hai Con Bỏ Rơi, Trọng Sinh Tôi Ký Đơn Ly Hôn Rời Đi Họ Lại Phát Điên! | HiCherrySub",
+      "channelId": "mycherrysub3",
+      "channelName": "HiCherrySub",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub3",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6007,
+      "totalDurationStr": "1 giờ 40 phút",
+      "totalViews": 2832,
+      "totalLikes": 103,
+      "review": "📽Movie: [Full] Abandoned by Wife and Two Children, Reborn, I Sign the Divorce Papers and Leave, But They Go Crazy Again! | HiCherrySub Synopsis: In his previous life, Yun Mo and billionaire Mi Cai married through a commercial marriage, having a son and a daughter. Throughout his life, he devoted himself to supporting his family, providing for their every...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/JWzCFXFFRDM/hqdefault.jpg",
+      "publishedAt": "2026-11-19T20:15:48.209807+00:00",
+      "updatedAt": "2026-11-19T20:15:48.209807+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Vợ Và Hai Con Bỏ Rơi, Trọng Sinh Tôi Ký Đơn Ly Hôn Rời Đi Họ Lại Phát Điên! | HiCherrySub",
+          "url": "https://www.youtube.com/watch?v=JWzCFXFFRDM",
+          "id": "JWzCFXFFRDM",
+          "duration": 6007,
+          "durationStr": "1:40:07",
+          "publishedAt": "2026-11-19T20:15:48.209807+00:00",
+          "views": 2832,
+          "likes": 103,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6713",
+      "title": "[Full] Tưởng Đi Xem Mắt Với Hoa Khôi, Ai Ngờ Tôi Cưới Luôn Mẹ Nuôi Tổng Tài 36 Tuổi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 14539,
+      "totalDurationStr": "4 giờ 02 phút",
+      "totalViews": 17193,
+      "totalLikes": 491,
+      "review": "📽Phim: [Full] Tưởng Đi Xem Mắt Với Hoa Khôi, Ai Ngờ Tôi Cưới Luôn Mẹ Nuôi Tổng Tài 36 Tuổi! | MyCherrySub Tóm tắt: Nam chính Cố Thành vừa tốt nghiệp đại học chưa đầy một tháng đã bị mẹ ép đi xem mắt. Đối diện với anh là Diệp Nhu — bạn thân của mẹ, một nữ tổng tài 36 tuổi nắm trong tay công ty niêm yết doanh thu hàng chục tỷ nhưng vẻ ngoài trẻ trung như...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/7HOzI6x1nT0/hqdefault.jpg",
+      "publishedAt": "2026-11-19T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-19T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Tưởng Đi Xem Mắt Với Hoa Khôi, Ai Ngờ Tôi Cưới Luôn Mẹ Nuôi Tổng Tài 36 Tuổi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=7HOzI6x1nT0",
+          "id": "7HOzI6x1nT0",
+          "duration": 14539,
+          "durationStr": "4:02:19",
+          "publishedAt": "2026-11-19T20:15:48.196532+00:00",
+          "views": 17193,
+          "likes": 491,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6714",
+      "title": "[Full] Cứu Nhầm Tiểu Thư Bệnh Kiều Giả Nghèo, Tôi Bị Cô Ấy Bám Riết Không Rời! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10479,
+      "totalDurationStr": "2 giờ 54 phút",
+      "totalViews": 11438,
+      "totalLikes": 304,
+      "review": "📽Phim: [Full] Cứu Nhầm Tiểu Thư Bệnh Kiều Giả Nghèo, Tôi Bị Cô Ấy Bám Riết Không Rời! | MyCherrySub Tóm tắt: Nam chính Trịnh Lãng là một nam sinh điển trai, từng là thủ khoa của Nam Thành và hiện đang theo học tại Đại học Nam Đại. Vừa trải qua cú sốc bị bạn gái cũ Sở Huyên Huyên phũ phàng đá để chạy theo bạn thân, anh lại tình cờ bắt gặp một cô gái lấm...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/ZreoyrXR9dE/hqdefault.jpg",
+      "publishedAt": "2026-11-19T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-19T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Cứu Nhầm Tiểu Thư Bệnh Kiều Giả Nghèo, Tôi Bị Cô Ấy Bám Riết Không Rời! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=ZreoyrXR9dE",
+          "id": "ZreoyrXR9dE",
+          "duration": 10479,
+          "durationStr": "2:54:39",
+          "publishedAt": "2026-11-19T20:15:48.196532+00:00",
+          "views": 11438,
+          "likes": 304,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6715",
+      "title": "[Full] Bị Bạn Gái Đá Tôi Thức Tỉnh Hệ Thống Thần Hào Mỗi Ngày Tiêu Hết Một Trăm Triệu! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10932,
+      "totalDurationStr": "3 giờ 02 phút",
+      "totalViews": 3183,
+      "totalLikes": 59,
+      "review": "📽Phim: [Full] Bị Bạn Gái Đá Tôi Thức Tỉnh Hệ Thống Thần Hào Mỗi Ngày Tiêu Hết Một Trăm Triệu! | MyCherrySub Tóm tắt: Nam chính Giang Thần, một thanh niên nghèo làm công ăn lương, bị bạn gái 5 năm Liễu Hồng nhẫn tâm ruồng bỏ để chạy theo Triệu Khải – một kẻ thích khoe khoang vừa kiếm được chút tiền từ thị trường chứng khoán. Ngay lúc chạm đáy sự nhục nhã,...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/y0sbKe-gdQo/hqdefault.jpg",
+      "publishedAt": "2026-11-19T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-19T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Bạn Gái Đá Tôi Thức Tỉnh Hệ Thống Thần Hào Mỗi Ngày Tiêu Hết Một Trăm Triệu! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=y0sbKe-gdQo",
+          "id": "y0sbKe-gdQo",
+          "duration": 10932,
+          "durationStr": "3:02:12",
+          "publishedAt": "2026-11-19T20:15:48.196532+00:00",
+          "views": 3183,
+          "likes": 59,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6589",
+      "title": "Full Phần 1-2 | Cô Con Gái Đến Từ Tương Lai Se Duyên Cho Đôi Bố Mẹ Oan Gia | Lara Sub",
+      "channelId": "larasub22",
+      "channelName": "Lara Sub",
+      "channelUrl": "https://www.youtube.com/@larasub22",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19089,
+      "totalDurationStr": "5 giờ 18 phút",
+      "totalViews": 10615,
+      "totalLikes": 172,
+      "review": "Cô Con Gái Đến Từ Tương Lai Se Duyên Cho Đôi Bố Mẹ Oan Gia — Tuyển tập hoạt hình 3D đặc sắc từ kênh Lara Sub.",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/FD3fMZiR9p4/hqdefault.jpg",
+      "publishedAt": "2026-11-19T20:15:47.863441+00:00",
+      "updatedAt": "2026-11-19T20:15:47.863441+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-2",
+          "title": "Full Phần 1-2 | Cô Con Gái Đến Từ Tương Lai Se Duyên Cho Đôi Bố Mẹ Oan Gia | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=FD3fMZiR9p4",
+          "id": "FD3fMZiR9p4",
+          "duration": 19089,
+          "durationStr": "5:18:09",
+          "publishedAt": "2026-11-19T20:15:47.863441+00:00",
+          "views": 10615,
+          "likes": 172,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6709",
+      "title": "[Full] Bạn Gái Đi Phượt Cùng Bạn Thân Khác Giới Tôi Liền Hủy Hôn Cưới Đi Người Khác! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9160,
+      "totalDurationStr": "2 giờ 32 phút",
+      "totalViews": 5472,
+      "totalLikes": 87,
+      "review": "📽Phim: [Full] Bạn Gái Đi Phượt Cùng Bạn Thân Khác Giới Tôi Liền Hủy Hôn Cưới Đi Người Khác! | MyCherrySub Tóm tắt: Ngay trước thềm đám cưới, cô vợ sắp cưới Mộng Kỳ nằng nặc đòi đi phượt một tháng cùng \"cậu bạn thân khác giới\" Thư Hằng với lý do... giúp cậu ta giải khuây thất tình. Bỏ ngoài tai tối hậu thư của chồng sắp cưới là Phó Duyệt (nam chính), cô...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/df7pScmwQNk/hqdefault.jpg",
+      "publishedAt": "2026-11-18T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-18T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bạn Gái Đi Phượt Cùng Bạn Thân Khác Giới Tôi Liền Hủy Hôn Cưới Đi Người Khác! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=df7pScmwQNk",
+          "id": "df7pScmwQNk",
+          "duration": 9160,
+          "durationStr": "2:32:40",
+          "publishedAt": "2026-11-18T20:15:48.196532+00:00",
+          "views": 5472,
+          "likes": 87,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6710",
+      "title": "[Full] Trùng Sinh Bỏ Việc Bác Sĩ Đi Mở Phòng Khám Tôi Càng Muốn Lỗ Lại Càng Giàu! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10370,
+      "totalDurationStr": "2 giờ 52 phút",
+      "totalViews": 2863,
+      "totalLikes": 44,
+      "review": "📽Phim: [Full] Trùng Sinh Bỏ Việc Bác Sĩ Đi Mở Phòng Khám Tôi Càng Muốn Lỗ Lại Càng Giàu! | MyCherrySub Tóm tắt: Nam chính Lục Phàm – một bác sĩ tuyến đầu làm việc kiệt sức đến chết – bất ngờ trọng sinh về đúng 3 tiếng trước khi đột tử. Ám ảnh bởi cái chết, anh quyết đoán nộp đơn từ chức và đến Vân Hoa tiếp quản phòng khám Tây y xập xệ do người chú họ xa...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/FqgxwNRfz1M/hqdefault.jpg",
+      "publishedAt": "2026-11-18T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-18T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trùng Sinh Bỏ Việc Bác Sĩ Đi Mở Phòng Khám Tôi Càng Muốn Lỗ Lại Càng Giàu! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=FqgxwNRfz1M",
+          "id": "FqgxwNRfz1M",
+          "duration": 10370,
+          "durationStr": "2:52:50",
+          "publishedAt": "2026-11-18T20:15:48.196532+00:00",
+          "views": 2863,
+          "likes": 44,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6711",
+      "title": "[Full] Ly Hôn Mơ Ôm 30 Triệu Ai Ngờ Vợ Tổng Băng Giá Lại Nghe Được Tiếng Lòng Của Tôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5284,
+      "totalDurationStr": "1 giờ 28 phút",
+      "totalViews": 11520,
+      "totalLikes": 306,
+      "review": "📽Phim: [Full] Ly Hôn Mơ Ôm 30 Triệu Ai Ngờ Vợ Tổng Băng Giá Lại Nghe Được Tiếng Lòng Của Tôi! | MyCherrySub Tóm tắt: Nam chính Lục Hành Chu xuyên không vào một cuốn tiểu thuyết đô thị, trở thành chàng rể \"phế vật\" ăn bám của nữ tổng tài băng giá Tô Thanh Nhã. Mục tiêu duy nhất của anh là ngoan ngoãn diễn trọn vai: chờ vợ vứt tờ đơn ly hôn vào mặt cùng 30...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/1TOGW-JN75w/hqdefault.jpg",
+      "publishedAt": "2026-11-18T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-18T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Ly Hôn Mơ Ôm 30 Triệu Ai Ngờ Vợ Tổng Băng Giá Lại Nghe Được Tiếng Lòng Của Tôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=1TOGW-JN75w",
+          "id": "1TOGW-JN75w",
+          "duration": 5284,
+          "durationStr": "1:28:04",
+          "publishedAt": "2026-11-18T20:15:48.196532+00:00",
+          "views": 11520,
+          "likes": 306,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6712",
+      "title": "[Full] Trùng Sinh Về Năm 2008 Tôi Cự Tuyệt Trà Xanh Cùng Anh Em Tốt Chế Tạo Siêu Game! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12789,
+      "totalDurationStr": "3 giờ 33 phút",
+      "totalViews": 1662,
+      "totalLikes": 17,
+      "review": "📽Phim: [Full] Trùng Sinh Về Năm 2008 Tôi Cự Tuyệt Trà Xanh Cùng Anh Em Tốt Chế Tạo Siêu Game! | MyCherrySub Tóm tắt: Ở kiếp trước, Lục Thần vì mù quáng theo đuổi cô nàng Triệu Mỹ Na mà nướng sạch 300 ngàn tệ tiền khởi nghiệp xương máu của bố để mua tặng cô ta một chiếc Mercedes, dẫn đến việc kinh doanh của gia đình đổ vỡ, bố đột quỵ qua đời, còn bản thân...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/pcSFVre6OwA/hqdefault.jpg",
+      "publishedAt": "2026-11-18T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-18T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trùng Sinh Về Năm 2008 Tôi Cự Tuyệt Trà Xanh Cùng Anh Em Tốt Chế Tạo Siêu Game! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=pcSFVre6OwA",
+          "id": "pcSFVre6OwA",
+          "duration": 12789,
+          "durationStr": "3:33:09",
+          "publishedAt": "2026-11-18T20:15:48.196532+00:00",
+          "views": 1662,
+          "likes": 17,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6705",
+      "title": "[Full] Bỗng Thức Tỉnh Hệ Thống Thần Hào Vô Sỉ Bắt Tôi Đi Trộm Tất Của Nữ Hiệu Trưởng! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10119,
+      "totalDurationStr": "2 giờ 48 phút",
+      "totalViews": 5161,
+      "totalLikes": 117,
+      "review": "📽Phim: [Full] Bỗng Thức Tỉnh Hệ Thống Thần Hào Vô Sỉ Bắt Tôi Đi Trộm Tất Của Nữ Hiệu Trưởng! | MyCherrySub Tóm tắt: Nam chính Châu Phàm – một nam sinh viên nghèo vừa bị cắm sừng, bất ngờ trói buộc thành công với \"Hệ thống Thần Hào\". Nhưng trớ trêu thay, nhiệm vụ đầu tiên để nhận được phần thưởng 10 ngàn tỷ lại là... đi trộm tất đen của Tống Vãn Thu, vị...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/qkh5ayEkDD0/hqdefault.jpg",
+      "publishedAt": "2026-11-17T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-17T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bỗng Thức Tỉnh Hệ Thống Thần Hào Vô Sỉ Bắt Tôi Đi Trộm Tất Của Nữ Hiệu Trưởng! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=qkh5ayEkDD0",
+          "id": "qkh5ayEkDD0",
+          "duration": 10119,
+          "durationStr": "2:48:39",
+          "publishedAt": "2026-11-17T20:15:48.196532+00:00",
+          "views": 5161,
+          "likes": 117,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6706",
+      "title": "[Full] Sau 299.999 Lần Luân Hồi, Tôi Thoát Khỏi Vòng Lặp Cưới Được Ảnh Hậu Xinh Đẹp! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 24009,
+      "totalDurationStr": "6 giờ 40 phút",
+      "totalViews": 6511,
+      "totalLikes": 138,
+      "review": "📽Phim: [Full] Sau 299.999 Lần Luân Hồi, Tôi Thoát Khỏi Vòng Lặp Cưới Được Ảnh Hậu Xinh Đẹp! | MyCherrySub Tóm tắt: Nam chính Thẩm Phong bị mắc kẹt trong vòng lặp thời gian của ngày 31 tháng 7 suốt 299.999 lần. Cho đến khi anh tuyệt vọng nhảy lầu, thời gian bỗng kỳ diệu bước sang ngày 1 tháng 8, đánh dấu sự tái sinh. Chào đón anh ở bệnh viện là Khương...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/yYqDOYStAv0/hqdefault.jpg",
+      "publishedAt": "2026-11-17T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-17T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Sau 299.999 Lần Luân Hồi, Tôi Thoát Khỏi Vòng Lặp Cưới Được Ảnh Hậu Xinh Đẹp! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=yYqDOYStAv0",
+          "id": "yYqDOYStAv0",
+          "duration": 24009,
+          "durationStr": "6:40:09",
+          "publishedAt": "2026-11-17T20:15:48.196532+00:00",
+          "views": 6511,
+          "likes": 138,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6707",
+      "title": "[Full] Vô Tình Cứu Nữ Minh Tinh Say Xỉn Chàng Đầu Bếp Là Tôi Bất Ngờ Được Làm Bố! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10235,
+      "totalDurationStr": "2 giờ 50 phút",
+      "totalViews": 6030,
+      "totalLikes": 169,
+      "review": "📽Phim: [Full] Vô Tình Cứu Nữ Minh Tinh Say Xỉn Chàng Đầu Bếp Là Tôi Bất Ngờ Được Làm Bố! | MyCherrySub Tóm tắt: Nam chính Nghiêm Linh Chi bề ngoài chỉ là một anh chàng đầu bếp hiền lành, đang quản lý quán ăn nhỏ của gia đình ở một vùng huyện lỵ hẻo lánh. Tuy nhiên, ít ai biết anh vốn là một thiên tài ẩm thực, sở hữu suất học bổng Thạc sĩ - Tiến sĩ danh...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/vCjP9jfI_74/hqdefault.jpg",
+      "publishedAt": "2026-11-17T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-17T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Vô Tình Cứu Nữ Minh Tinh Say Xỉn Chàng Đầu Bếp Là Tôi Bất Ngờ Được Làm Bố! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=vCjP9jfI_74",
+          "id": "vCjP9jfI_74",
+          "duration": 10235,
+          "durationStr": "2:50:35",
+          "publishedAt": "2026-11-17T20:15:48.196532+00:00",
+          "views": 6030,
+          "likes": 169,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6708",
+      "title": "[Full] Hợp Đồng Hết Hạn Tôi Cầm 30 Tệ Rời Đi, Nữ Thần Kiêu Ngạo Lại Hối Hận Phát Điên! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7822,
+      "totalDurationStr": "2 giờ 10 phút",
+      "totalViews": 6953,
+      "totalLikes": 172,
+      "review": "📽Phim: [Full] Hợp Đồng Hết Hạn Tôi Cầm 30 Tệ Rời Đi, Nữ Thần Kiêu Ngạo Lại Hối Hận Phát Điên! | MyCherrySub Tóm tắt: Nam chính Lâm Hoài Tây và nữ thần nổi tiếng Cố Không Khanh có một bản \"hợp đồng tình yêu\" kéo dài 3 năm. Lâm Hoài Tây chấp nhận làm bạn trai giả vì cần khoản tiền thù lao 300.000 tệ (khoảng hơn 1 tỷ VNĐ) để chữa bệnh cho người mẹ ốm nặng...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/85THY1Ul9Wo/hqdefault.jpg",
+      "publishedAt": "2026-11-17T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-17T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Hợp Đồng Hết Hạn Tôi Cầm 30 Tệ Rời Đi, Nữ Thần Kiêu Ngạo Lại Hối Hận Phát Điên! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=85THY1Ul9Wo",
+          "id": "85THY1Ul9Wo",
+          "duration": 7822,
+          "durationStr": "2:10:22",
+          "publishedAt": "2026-11-17T20:15:48.196532+00:00",
+          "views": 6953,
+          "likes": 172,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6704",
+      "title": "[Full] Giấu Thân Phận Suốt 4 Năm Thiếu Gia Là Tôi Lật Bài Ngửa Tại Tiệc Tốt Nghiệp! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5360,
+      "totalDurationStr": "1 giờ 29 phút",
+      "totalViews": 3318,
+      "totalLikes": 57,
+      "review": "📽Phim: [Full] Giấu Thân Phận Suốt 4 Năm Thiếu Gia Là Tôi Lật Bài Ngửa Tại Tiệc Tốt Nghiệp! | MyCherrySub Tóm tắt: Suốt 4 năm đại học, Thẩm Nam luôn vui vẻ sống với thân phận một nam sinh nghèo ngày ngày đạp xe đạp công cộng, che giấu thân phận thật là người thừa kế của một gia tộc quyền lực. Sóng gió ập đến vào đêm tiệc tốt nghiệp, Lâm Tiểu Hào - con...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/25CH4p2zgHk/hqdefault.jpg",
+      "publishedAt": "2026-11-16T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-16T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Giấu Thân Phận Suốt 4 Năm Thiếu Gia Là Tôi Lật Bài Ngửa Tại Tiệc Tốt Nghiệp! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=25CH4p2zgHk",
+          "id": "25CH4p2zgHk",
+          "duration": 5360,
+          "durationStr": "1:29:20",
+          "publishedAt": "2026-11-16T20:15:48.196532+00:00",
+          "views": 3318,
+          "likes": 57,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6578",
+      "title": "Kết thúc Phần 3 | Xuyên Sách Thành Tên Thiếu Gia Phản Diện | Tập 91 - 139",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 3477,
+      "totalDurationStr": "57 phút 57 giây",
+      "totalViews": 13435,
+      "totalLikes": 170,
+      "review": "End of Part 3 | Transmigrating into a Book as a Villainous Young Master | Episodes 91-139 Support me with some eggs 🥚🥚🥚 here: Bank Account (TPBank): 06209227101",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/m3iUayngk68/hqdefault.jpg",
+      "publishedAt": "2026-11-16T20:15:47.671403+00:00",
+      "updatedAt": "2026-11-16T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 3",
+          "title": "Kết thúc Phần 3 | Xuyên Sách Thành Tên Thiếu Gia Phản Diện | Tập 91 - 139",
+          "url": "https://www.youtube.com/watch?v=m3iUayngk68",
+          "id": "m3iUayngk68",
+          "duration": 3477,
+          "durationStr": "57:57",
+          "publishedAt": "2026-11-16T20:15:47.671403+00:00",
+          "views": 13435,
+          "likes": 170,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6703",
+      "title": "[Full] Ban Ngày Vợ Lạnh Lùng Đòi Ly Hôn Nhưng Ban Đêm Lại Hóa \"Yandere\" Giam Cầm Tôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 1671,
+      "totalDurationStr": "27 phút 51 giây",
+      "totalViews": 4423,
+      "totalLikes": 145,
+      "review": "📽Phim: [Full] Ban Ngày Vợ Lạnh Lùng Đòi Ly Hôn Nhưng Ban Đêm Lại Hóa \"Yandere\" Giam Cầm Tôi! | MyCherrySub Tóm tắt: Sau một vụ tai nạn xe hơi bất ngờ, Thẩm Niệm Khanh mất sạch ký ức về cuộc hôn nhân 3 năm hạnh phúc với Cố Yến, quay trở lại thành nàng hoa khôi băng giá, kiêu ngạo thời đại học và lập tức đòi ly hôn. Tưởng chừng cuộc hôn nhân đã đi đến hồi...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/S4Ef9j5JaAo/hqdefault.jpg",
+      "publishedAt": "2026-11-15T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-15T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Ban Ngày Vợ Lạnh Lùng Đòi Ly Hôn Nhưng Ban Đêm Lại Hóa \"Yandere\" Giam Cầm Tôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=S4Ef9j5JaAo",
+          "id": "S4Ef9j5JaAo",
+          "duration": 1671,
+          "durationStr": "27:51",
+          "publishedAt": "2026-11-15T20:15:48.196532+00:00",
+          "views": 4423,
+          "likes": 145,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6582",
+      "title": "Phần 3 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
+      "channelId": "larasub22",
+      "channelName": "Lara Sub",
+      "channelUrl": "https://www.youtube.com/@larasub22",
+      "playlistUrl": null,
+      "totalParts": 5,
+      "partsStr": "5 phần",
+      "totalDurationSec": 50162,
+      "totalDurationStr": "13 giờ 56 phút",
+      "totalViews": 8707,
+      "totalLikes": 113,
+      "review": "Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh — Tuyển tập hoạt hình 3D đặc sắc từ kênh Lara Sub.",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/fCcBA0btNKk/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+      "updatedAt": "2026-11-15T20:15:47.863441+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=pj5tG4C1YeE",
+          "id": "pj5tG4C1YeE",
+          "duration": 10801,
+          "durationStr": "3:00:01",
+          "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+          "views": 2546,
+          "likes": 26,
+          "isRedundant": false,
+          "channelId": "larasub22",
+          "channelName": "Lara Sub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Phần 2 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=vOy7SN6Mvok",
+          "id": "vOy7SN6Mvok",
+          "duration": 10801,
+          "durationStr": "3:00:01",
+          "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+          "views": 1470,
+          "likes": 23,
+          "isRedundant": false,
+          "channelId": "larasub22",
+          "channelName": "Lara Sub"
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Phần 3 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=fCcBA0btNKk",
+          "id": "fCcBA0btNKk",
+          "duration": 9544,
+          "durationStr": "2:39:04",
+          "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+          "views": 1882,
+          "likes": 25,
+          "isRedundant": false
+        },
+        {
+          "index": 4,
+          "label": "Phần 4",
+          "title": "Phần 4 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=IN103uj8Lw0",
+          "id": "IN103uj8Lw0",
+          "duration": 8180,
+          "durationStr": "2:16:20",
+          "publishedAt": "2026-11-04T20:15:47.863441+00:00",
+          "views": 1462,
+          "likes": 22,
+          "isRedundant": false,
+          "channelId": "larasub22",
+          "channelName": "Lara Sub"
+        },
+        {
+          "index": 5,
+          "label": "Phần 5",
+          "title": "Phần 5 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=toOHkqW5HCQ",
+          "id": "toOHkqW5HCQ",
+          "duration": 10836,
+          "durationStr": "3:00:36",
+          "publishedAt": "2026-11-15T20:15:47.863441+00:00",
+          "views": 1347,
+          "likes": 17,
+          "isRedundant": false,
+          "channelId": "larasub22",
+          "channelName": "Lara Sub"
+        }
+      ],
+      "channelIds": [
+        "larasub22"
+      ]
+    },
+    {
+      "id": "film_6577",
+      "title": "Xuyên Sách Thành Tên Thiếu Gia Phản Diện Phần 3 | Tập 1 - 50",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 6241,
+      "totalDurationStr": "1 giờ 44 phút",
+      "totalViews": 26180,
+      "totalLikes": 462,
+      "review": "Transmigrating into a Book as a Villainous Young Master Part 3 | Episodes 1-50 Support me with some eggs 🥚🥚🥚 here: Bank Account (TPBank): 06209227101",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/CL250nJZuAs/hqdefault.jpg",
+      "publishedAt": "2026-11-13T20:15:47.671403+00:00",
+      "updatedAt": "2026-11-15T20:15:47.671403+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 3",
+          "title": "Xuyên Sách Thành Tên Thiếu Gia Phản Diện Phần 3 | Tập 1 - 50",
+          "url": "https://www.youtube.com/watch?v=CL250nJZuAs",
+          "id": "CL250nJZuAs",
+          "duration": 3601,
+          "durationStr": "1:00:01",
+          "publishedAt": "2026-11-13T20:15:47.671403+00:00",
+          "views": 17827,
+          "likes": 320,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 3",
+          "title": "Xuyên Sách Thành Tên Thiếu Gia Phản Diện Phần 3 | Tập 51 - 90",
+          "url": "https://www.youtube.com/watch?v=mU-bfkvEY0o",
+          "id": "mU-bfkvEY0o",
+          "duration": 2640,
+          "durationStr": "44:00",
+          "publishedAt": "2026-11-15T20:15:47.671403+00:00",
+          "views": 8353,
+          "likes": 142,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        }
+      ],
+      "channelIds": [
+        "eggvietsub"
+      ]
+    },
+    {
+      "id": "film_6702",
+      "title": "[Full] Mang Tông Lào Đi Xem Mắt Tôi Lọt Ngay Vào Mắt Xanh Của Nữ Tổng Tài! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 3007,
+      "totalDurationStr": "50 phút 07 giây",
+      "totalViews": 18614,
+      "totalLikes": 266,
+      "review": "📽Phim: [Full] Mang Tông Lào Đi Xem Mắt Tôi Lọt Ngay Vào Mắt Xanh Của Nữ Tổng Tài! | MyCherrySub Tóm tắt: Nam chính Trì Hằng, một kẻ bề ngoài vô công rồi nghề, trong thẻ chỉ còn đúng 300 tệ, bị mẹ ép đi xem mắt tại một nhà hàng sang trọng. Để chọc giận đối phương, anh cố tình mang dép tông lào và hành xử cợt nhả. Thế nhưng, ngồi đối diện anh lại là Bùi...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/F7_hGHjqOrc/hqdefault.jpg",
+      "publishedAt": "2026-11-14T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-14T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Mang Tông Lào Đi Xem Mắt Tôi Lọt Ngay Vào Mắt Xanh Của Nữ Tổng Tài! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=F7_hGHjqOrc",
+          "id": "F7_hGHjqOrc",
+          "duration": 3007,
+          "durationStr": "50:07",
+          "publishedAt": "2026-11-14T20:15:48.196532+00:00",
+          "views": 18614,
+          "likes": 266,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6701",
+      "title": "[Full] Bị Vị Hôn Thê Ép Bán Công Nghệ Trong Ngày Cưới, Tôi Hủy Hôn Tự Lập Đế Chế Mới! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7170,
+      "totalDurationStr": "1 giờ 59 phút",
+      "totalViews": 4067,
+      "totalLikes": 29,
+      "review": "📽Phim: [Full] Bị Vị Hôn Thê Ép Bán Công Nghệ Trong Ngày Cưới, Tôi Hủy Hôn Tự Lập Đế Chế Mới! | MyCherrySub Tóm tắt: Lục Yến Châu - người đã dành 7 năm tâm huyết viết ra hệ thống công nghệ lõi cho công ty. Tuy nhiên, lòng tham không đáy đã khiến vợ sắp cưới của anh và ban lãnh đạo công ty thông đồng với nhà đầu tư Triệu tổng. Họ mượn hôn lễ để ép anh ký...",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/OHRm21tzkto/hqdefault.jpg",
+      "publishedAt": "2026-11-13T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-13T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Vị Hôn Thê Ép Bán Công Nghệ Trong Ngày Cưới, Tôi Hủy Hôn Tự Lập Đế Chế Mới! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=OHRm21tzkto",
+          "id": "OHRm21tzkto",
+          "duration": 7170,
+          "durationStr": "1:59:30",
+          "publishedAt": "2026-11-13T20:15:48.196532+00:00",
+          "views": 4067,
+          "likes": 29,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6585",
+      "title": "Full Phần 3 | Ngày Tốt Nghiệp Tôi Đã Có Hai Cô Con Gái Sinh Đôi Và Cô Vợ Xinh Đẹp",
+      "channelId": "larasub22",
+      "channelName": "Lara Sub",
+      "channelUrl": "https://www.youtube.com/@larasub22",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 11596,
+      "totalDurationStr": "3 giờ 13 phút",
+      "totalViews": 176255,
+      "totalLikes": 3120,
+      "review": "Ngày Tốt Nghiệp Tôi Đã Có Hai Cô Con Gái Sinh Đôi Và Cô Vợ Xinh Đẹp — Tuyển tập hoạt hình 3D đặc sắc từ kênh Lara Sub.",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/_MGSMg0-XL0/hqdefault.jpg",
+      "publishedAt": "2026-10-28T20:15:47.863441+00:00",
+      "updatedAt": "2026-11-13T20:15:47.863441+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 3",
+          "title": "Full Phần 3 | Ngày Tốt Nghiệp Tôi Đã Có Hai Cô Con Gái Sinh Đôi Và Cô Vợ Xinh Đẹp",
+          "url": "https://www.youtube.com/watch?v=_MGSMg0-XL0",
+          "id": "_MGSMg0-XL0",
+          "duration": 7229,
+          "durationStr": "2:00:29",
+          "publishedAt": "2026-10-28T20:15:47.863441+00:00",
+          "views": 126711,
+          "likes": 2128,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 4",
+          "title": "Full Phần 4 | Ngày Tốt Nghiệp Tôi Đã Có Hai Cô Con Gái Sinh Đôi Và Cô Vợ Xinh Đẹp",
+          "url": "https://www.youtube.com/watch?v=f0VqZ0rRoqA",
+          "id": "f0VqZ0rRoqA",
+          "duration": 4367,
+          "durationStr": "1:12:47",
+          "publishedAt": "2026-11-13T20:15:47.863441+00:00",
+          "views": 49544,
+          "likes": 992,
+          "isRedundant": false,
+          "channelId": "larasub22",
+          "channelName": "Lara Sub"
+        }
+      ],
+      "channelIds": [
+        "larasub22"
+      ]
+    },
+    {
+      "id": "film_6700",
+      "title": "[Full] Vị Hôn Thê Đêm Trước Ngày Cưới Đi Khách Sạn Với Tình Cũ Tôi Dứt Khoát Hủy Hôn! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5206,
+      "totalDurationStr": "1 giờ 26 phút",
+      "totalViews": 5909,
+      "totalLikes": 85,
+      "review": "📽Phim: [Full] Vị Hôn Thê Đêm Trước Ngày Cưới Đi Khách Sạn Với Tình Cũ Tôi Dứt Khoát Hủy Hôn! | MyCherrySub Tóm tắt: Nam chính Lục Diên ngay trong đêm trước ngày cử hành hôn lễ gọi điện cho vị hôn thê Hứa Chi Ý (người anh đã yêu 7 năm), nhưng người bắt máy lại là Thẩm Gia Thụ - tình cũ của cô ta, kèm theo những lời lẽ khiêu khích trắng trợn. Không để bản...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/YR-VmEMZGMQ/hqdefault.jpg",
+      "publishedAt": "2026-11-12T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-12T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Vị Hôn Thê Đêm Trước Ngày Cưới Đi Khách Sạn Với Tình Cũ Tôi Dứt Khoát Hủy Hôn! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=YR-VmEMZGMQ",
+          "id": "YR-VmEMZGMQ",
+          "duration": 5206,
+          "durationStr": "1:26:46",
+          "publishedAt": "2026-11-12T20:15:48.196532+00:00",
+          "views": 5909,
+          "likes": 85,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6693",
+      "title": "[Full] Trói Buộc Hệ Thống Cầu Được Khinh Bỉ Tôi Lại Bị Nữ Chủ Tịch Đập Tiền Bắt Ở Rể! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10285,
+      "totalDurationStr": "2 giờ 51 phút",
+      "totalViews": 5425,
+      "totalLikes": 88,
+      "review": "📽Phim: [Full] Trói Buộc Hệ Thống Cầu Được Khinh Bỉ Tôi Lại Bị Nữ Chủ Tịch Đập Tiền Bắt Ở Rể! | MyCherrySub Tóm tắt: Nam chính Hứa Phóng (26 tuổi) vô tình bị trói buộc với \"Hệ thống xem mắt vô dụng\". Chỉ cần xem mắt thất bại và tích đủ 10.000 điểm bị đối phương ghét bỏ, anh sẽ nhận ngay phần thưởng 900 tỷ tiền dưỡng lão. Ở lần xem mắt thứ 100 (cũng là lần...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/4_-bj918wnA/hqdefault.jpg",
+      "publishedAt": "2026-11-11T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-11T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trói Buộc Hệ Thống Cầu Được Khinh Bỉ Tôi Lại Bị Nữ Chủ Tịch Đập Tiền Bắt Ở Rể! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=4_-bj918wnA",
+          "id": "4_-bj918wnA",
+          "duration": 10285,
+          "durationStr": "2:51:25",
+          "publishedAt": "2026-11-11T20:15:48.196532+00:00",
+          "views": 5425,
+          "likes": 88,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6694",
+      "title": "[Full] Trọng Sinh Nhường Cho Cốt Vợ Mập, Tôi Đường Đường Chính Chính Cưới Nữ Tổng Tài! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5846,
+      "totalDurationStr": "1 giờ 37 phút",
+      "totalViews": 7267,
+      "totalLikes": 148,
+      "review": "📽Phim: [Full] Trọng Sinh Nhường Cho Cốt Vợ Mập, Tôi Đường Đường Chính Chính Cưới Nữ Tổng Tài! | MyCherrySub Tóm tắt: Kiếp trước, Lâm Diễn Chu bị người \"anh em tốt\" Trần Sinh lừa gạt, đẩy anh lên giường với một cô gái mập mạp, nghèo kiết xác tên Ninh Dao để chiếm đoạt cơ hội kết hôn với nữ tổng tài hào môn Tống Chi Kiều. Bất ngờ thay, Ninh Dao sau đó giảm...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/-g3XbN6UB5M/hqdefault.jpg",
+      "publishedAt": "2026-11-11T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-11T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trọng Sinh Nhường Cho Cốt Vợ Mập, Tôi Đường Đường Chính Chính Cưới Nữ Tổng Tài! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=-g3XbN6UB5M",
+          "id": "-g3XbN6UB5M",
+          "duration": 5846,
+          "durationStr": "1:37:26",
+          "publishedAt": "2026-11-11T20:15:48.196532+00:00",
+          "views": 7267,
+          "likes": 148,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6695",
+      "title": "[Full] 6 Năm Yêu Nhau Không Bằng Mối Tình Đầu Tôi Hủy Bỏ Màn Cầu Hôn Dứt Khoát Rời Đi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6479,
+      "totalDurationStr": "1 giờ 47 phút",
+      "totalViews": 3108,
+      "totalLikes": 40,
+      "review": "📽Phim: [Full] 6 Năm Yêu Nhau Không Bằng Mối Tình Đầu Tôi Hủy Bỏ Màn Cầu Hôn Dứt Khoát Rời Đi! | MyCherrySub Tóm tắt: Nam chính Trần Phóng, người đã lên kế hoạch cầu hôn bạn gái 6 năm Tô Vãn Tình nhưng lại bị cô yêu cầu ra sân bay xách hành lý cho tình đầu của cô (Chu Mộc Xuyên) đúng vào ngày anh ta về nước. Sự việc này như giọt nước tràn ly, khiến Trần...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/j90CDLR22k0/hqdefault.jpg",
+      "publishedAt": "2026-11-11T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-11T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 6",
+          "title": "[Full] 6 Năm Yêu Nhau Không Bằng Mối Tình Đầu Tôi Hủy Bỏ Màn Cầu Hôn Dứt Khoát Rời Đi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=j90CDLR22k0",
+          "id": "j90CDLR22k0",
+          "duration": 6479,
+          "durationStr": "1:47:59",
+          "publishedAt": "2026-11-11T20:15:48.196532+00:00",
+          "views": 3108,
+          "likes": 40,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6696",
+      "title": "[Full] Nhận 5 Triệu Phí Chia Tay Từ Bố Vợ Tôi Bị Cô Nàng Tổng Tài Hắc Hóa Bắt Giam Về! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 4825,
+      "totalDurationStr": "1 giờ 20 phút",
+      "totalViews": 8999,
+      "totalLikes": 247,
+      "review": "📽Phim: [Full] Nhận 5 Triệu Phí Chia Tay Từ Bố Vợ Tôi Bị Cô Nàng Tổng Tài Hắc Hóa Bắt Giam Về! | MyCherrySub Tóm tắt: Nam chính Tần Phong chấp nhận làm người chồng hờ thế thân suốt 3 năm cho nữ bá tổng lạnh lùng Thẩm Thanh Thu. Ngay trước ngày \"bạch nguyệt quang\" (tình đầu) của vợ về nước, bố vợ vung tấm séc 5 triệu tệ ép anh lập tức ly hôn. Không chút do...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/myTDCQmVDzs/hqdefault.jpg",
+      "publishedAt": "2026-11-11T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-11T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Nhận 5 Triệu Phí Chia Tay Từ Bố Vợ Tôi Bị Cô Nàng Tổng Tài Hắc Hóa Bắt Giam Về! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=myTDCQmVDzs",
+          "id": "myTDCQmVDzs",
+          "duration": 4825,
+          "durationStr": "1:20:25",
+          "publishedAt": "2026-11-11T20:15:48.196532+00:00",
+          "views": 8999,
+          "likes": 247,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6697",
+      "title": "[Full] Trùng Sinh Trở Về Tôi Tống Cổ Trà Xanh Chỉ Sủng Mình Thiên Kim Tiểu Thư Lụy Tình| MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7476,
+      "totalDurationStr": "2 giờ 04 phút",
+      "totalViews": 8843,
+      "totalLikes": 227,
+      "review": "📽Phim: [Full] Trùng Sinh Trở Về Tôi Tống Cổ Trà Xanh Chỉ Sủng Mình Thiên Kim Tiểu Thư Lụy Tình! | MyCherrySub Tóm tắt: Kiếp trước, Tống Việt mù quáng đem lòng yêu thương \"trà xanh\" Kiều Uyển Uyển, để rồi đánh mất người con gái yêu anh đến tận xương tủy là Lê Thư Nguyệt. Lê Thư Nguyệt cam tâm tình nguyện nhường liều thuốc cứu mạng duy nhất cho Uyển Uyển...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/-_kRVhakd1g/hqdefault.jpg",
+      "publishedAt": "2026-11-11T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-11T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trùng Sinh Trở Về Tôi Tống Cổ Trà Xanh Chỉ Sủng Mình Thiên Kim Tiểu Thư Lụy Tình| MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=-_kRVhakd1g",
+          "id": "-_kRVhakd1g",
+          "duration": 7476,
+          "durationStr": "2:04:36",
+          "publishedAt": "2026-11-11T20:15:48.196532+00:00",
+          "views": 8843,
+          "likes": 227,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6698",
+      "title": "[Full] Bị Bỏ Rơi Ngay Trong Ngày Cưới Tôi Quay Xe Lấy Luôn Tỷ Phú Giấu Nghề! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6272,
+      "totalDurationStr": "1 giờ 44 phút",
+      "totalViews": 3507,
+      "totalLikes": 54,
+      "review": "📽Phim: [Full] Bị Bỏ Rơi Ngay Trong Ngày Cưới Tôi Lấy Luôn Tỷ Phú Giấu Nghề! | MyCherrySub Tóm tắt: Ngay trong ngày cưới, nữ tổng tài Tô Hiền Nhi bị vị hôn phu Hàn Cẩn phũ phàng từ hôn ngay tại trận chỉ vì gia đình cô vừa gánh khoản nợ khổng lồ 1 tỷ. Không cam chịu nhục nhã, cô ném hoa cưới và tuyên bố: \"Ai bắt được hoa, tôi sẽ gả cho người đó!\". Người...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/GJ9BXi83sOE/hqdefault.jpg",
+      "publishedAt": "2026-11-11T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-11T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Bỏ Rơi Ngay Trong Ngày Cưới Tôi Quay Xe Lấy Luôn Tỷ Phú Giấu Nghề! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=GJ9BXi83sOE",
+          "id": "GJ9BXi83sOE",
+          "duration": 6272,
+          "durationStr": "1:44:32",
+          "publishedAt": "2026-11-11T20:15:48.196532+00:00",
+          "views": 3507,
+          "likes": 54,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6699",
+      "title": "[Full] Bất Ngờ Hoa Khôi Băng Lãnh Ở Trường Lại Là Người Chị Họ Kiêu Ngạo Của Tôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9578,
+      "totalDurationStr": "2 giờ 39 phút",
+      "totalViews": 3824,
+      "totalLikes": 62,
+      "review": "📽Phim: [Full] Bất Ngờ Hoa Khôi Băng Lãnh Ở Trường Lại Là Người Chị Họ Kiêu Ngạo Của Tôi! | MyCherrySub Tóm tắt: Nam chính Trần Quán, một nam sinh viên hoạt bát và có tài chụp ảnh, vừa thi đỗ vào Học viện Cảnh sát (Cảnh Đại). Trước khi nhập học, cậu bất ngờ được bố mẹ thông báo mình có một người chị họ (con của cô) cũng đang học tại trường này. Trần Quán...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/QLP3Ojy_9PY/hqdefault.jpg",
+      "publishedAt": "2026-11-11T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-11T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bất Ngờ Hoa Khôi Băng Lãnh Ở Trường Lại Là Người Chị Họ Kiêu Ngạo Của Tôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=QLP3Ojy_9PY",
+          "id": "QLP3Ojy_9PY",
+          "duration": 9578,
+          "durationStr": "2:39:38",
+          "publishedAt": "2026-11-11T20:15:48.196532+00:00",
+          "views": 3824,
+          "likes": 62,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6583",
+      "title": "Phần 2 | Thiên Kim 3 Tuổi Thất Lạc Trở Về Cứu Cả Gia Tộc Tần Gia | Lara Sub",
+      "channelId": "larasub22",
+      "channelName": "Lara Sub",
+      "channelUrl": "https://www.youtube.com/@larasub22",
+      "playlistUrl": null,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 32157,
+      "totalDurationStr": "8 giờ 55 phút",
+      "totalViews": 23243,
+      "totalLikes": 417,
+      "review": "Thiên Kim 3 Tuổi Thất Lạc Trở Về Cứu Cả Gia Tộc Tần Gia — Tuyển tập hoạt hình 3D đặc sắc từ kênh Lara Sub.",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/LdqS0T7YNSU/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+      "updatedAt": "2026-11-11T20:15:47.863441+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full phần 1 | Thiên Kim 3 Tuổi Thất Lạc Trở Về Cứu Cả Gia Tộc Tần Gia | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=6j_zexXFb-g",
+          "id": "6j_zexXFb-g",
+          "duration": 14243,
+          "durationStr": "3:57:23",
+          "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+          "views": 16590,
+          "likes": 270,
+          "isRedundant": false,
+          "channelId": "larasub22",
+          "channelName": "Lara Sub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Phần 2 | Thiên Kim 3 Tuổi Thất Lạc Trở Về Cứu Cả Gia Tộc Tần Gia | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=LdqS0T7YNSU",
+          "id": "LdqS0T7YNSU",
+          "duration": 9192,
+          "durationStr": "2:33:12",
+          "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+          "views": 2221,
+          "likes": 70,
+          "isRedundant": false
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Phần 3 | Thiên Kim 3 Tuổi Thất Lạc Trở Về Cứu Cả Gia Tộc Tần Gia | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=cQSXwIlswzw",
+          "id": "cQSXwIlswzw",
+          "duration": 8722,
+          "durationStr": "2:25:22",
+          "publishedAt": "2026-11-11T20:15:47.863441+00:00",
+          "views": 4432,
+          "likes": 77,
+          "isRedundant": false,
+          "channelId": "larasub22",
+          "channelName": "Lara Sub"
+        }
+      ],
+      "channelIds": [
+        "larasub22"
+      ]
+    },
+    {
+      "id": "film_6587",
+      "title": "Full Phần 1 | Bạn Cùng Bàn Của Tôi Hóa Ra Là Con Gái | Lara Sub",
+      "channelId": "larasub22",
+      "channelName": "Lara Sub",
+      "channelUrl": "https://www.youtube.com/@larasub22",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 4750,
+      "totalDurationStr": "1 giờ 19 phút",
+      "totalViews": 1668,
+      "totalLikes": 33,
+      "review": "Bạn Cùng Bàn Của Tôi Hóa Ra Là Con Gái — Tuyển tập hoạt hình 3D đặc sắc từ kênh Lara Sub.",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/c15YOrVzFVE/hqdefault.jpg",
+      "publishedAt": "2026-11-11T20:15:47.863441+00:00",
+      "updatedAt": "2026-11-11T20:15:47.863441+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Bạn Cùng Bàn Của Tôi Hóa Ra Là Con Gái | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=c15YOrVzFVE",
+          "id": "c15YOrVzFVE",
+          "duration": 4750,
+          "durationStr": "1:19:10",
+          "publishedAt": "2026-11-11T20:15:47.863441+00:00",
+          "views": 1668,
+          "likes": 33,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6588",
+      "title": "Full Phần 1 | Buổi Đi Xem Mắt Cho Qua Chuyện Ai Ngờ gặp Được Cô Gái Báu Vật | Lara sub",
+      "channelId": "larasub22",
+      "channelName": "Lara Sub",
+      "channelUrl": "https://www.youtube.com/@larasub22",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8306,
+      "totalDurationStr": "2 giờ 18 phút",
+      "totalViews": 14023,
+      "totalLikes": 177,
+      "review": "Buổi Đi Xem Mắt Cho Qua Chuyện Ai Ngờ gặp Được Cô Gái Báu Vật — Tuyển tập hoạt hình 3D đặc sắc từ kênh Lara Sub.",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/FTipCGQPMIQ/hqdefault.jpg",
+      "publishedAt": "2026-11-11T20:15:47.863441+00:00",
+      "updatedAt": "2026-11-11T20:15:47.863441+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Buổi Đi Xem Mắt Cho Qua Chuyện Ai Ngờ gặp Được Cô Gái Báu Vật | Lara sub",
+          "url": "https://www.youtube.com/watch?v=FTipCGQPMIQ",
+          "id": "FTipCGQPMIQ",
+          "duration": 8306,
+          "durationStr": "2:18:26",
+          "publishedAt": "2026-11-11T20:15:47.863441+00:00",
+          "views": 14023,
+          "likes": 177,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6571",
+      "title": "Kết Thúc Phần 1 | Trọng Sinh Về Thời Cấp 3, Từ Bỏ Hoa Khôi Tiến Tới Bên Em | Tập 77 - 82",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 11,
+      "partsStr": "11 phần",
+      "totalDurationSec": 38550,
+      "totalDurationStr": "10 giờ 42 phút",
+      "totalViews": 759278,
+      "totalLikes": 5962,
+      "review": "Part 1 Ending | Reborn into High School, Giving Up the Beauty Queen to Be With Her | Episodes 77-82 Support me with some eggs 🥚🥚🥚 here: Account Number (TPBank): 06209227101",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/RMlScxTkv7Q/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:47.671403+00:00",
+      "updatedAt": "2026-11-11T20:15:47.671403+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Kết Thúc Phần 1 | Trọng Sinh Về Thời Cấp 3, Từ Bỏ Hoa Khôi Tiến Tới Bên Em | Tập 77 - 82",
+          "url": "https://www.youtube.com/watch?v=RMlScxTkv7Q",
+          "id": "RMlScxTkv7Q",
+          "duration": 1507,
+          "durationStr": "25:07",
+          "publishedAt": "2026-09-26T20:15:47.671403+00:00",
+          "views": 29061,
+          "likes": 329,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 1",
+          "title": "Kết Thúc Phần 1 | Cô Bạn Thanh Mai Của Tôi HƠI Chiếm Hữu Và Cuồng Yêu | Tập 31 - 50",
+          "url": "https://www.youtube.com/watch?v=xqUY3BiuPHw",
+          "id": "xqUY3BiuPHw",
+          "duration": 2862,
+          "durationStr": "47:42",
+          "publishedAt": "2026-11-11T20:15:47.671403+00:00",
+          "views": 3706,
+          "likes": 55,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 3,
+          "label": "Phần 2",
+          "title": "Phần 2 | Trọng Sinh Về Thời Cấp 3, Từ Bỏ Hoa Khôi Tiến Tới Bên Em | Tập 21 - 50",
+          "url": "https://www.youtube.com/watch?v=9grOtdmbfAs",
+          "id": "9grOtdmbfAs",
+          "duration": 2911,
+          "durationStr": "48:31",
+          "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+          "views": 10562,
+          "likes": 120,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 4,
+          "label": "Phần 2",
+          "title": "Phần 2 | Trọng Sinh Về Thời Cấp 3, Từ Bỏ Hoa Khôi Tiến Tới Bên Em | Tập 1 - 20",
+          "url": "https://www.youtube.com/watch?v=Ud7bILS2Jvo",
+          "id": "Ud7bILS2Jvo",
+          "duration": 2156,
+          "durationStr": "35:56",
+          "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+          "views": 12072,
+          "likes": 161,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 5,
+          "label": "Phần 2",
+          "title": "Phần 2 | Trọng Sinh Về Thời Cấp 3, Từ Bỏ Hoa Khôi Tiến Tới Bên Em | Tập 51 - 85",
+          "url": "https://www.youtube.com/watch?v=yTfSC2uLUuM",
+          "id": "yTfSC2uLUuM",
+          "duration": 3729,
+          "durationStr": "1:02:09",
+          "publishedAt": "2026-10-28T20:15:47.671403+00:00",
+          "views": 12903,
+          "likes": 145,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 6,
+          "label": "Phần 2",
+          "title": "Phần 2 | Trọng Sinh Về Thời Cấp 3, Từ Bỏ Hoa Khôi Tiến Tới Bên Em | Tập 86 - 125",
+          "url": "https://www.youtube.com/watch?v=TMKDh2EJ0ws",
+          "id": "TMKDh2EJ0ws",
+          "duration": 4174,
+          "durationStr": "1:09:34",
+          "publishedAt": "2026-11-04T20:15:47.671403+00:00",
+          "views": 11161,
+          "likes": 148,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 7,
+          "label": "Tập 1-15",
+          "title": "Trọng Sinh Về Thời Cấp 3, Từ Bỏ Hoa Khôi Tiến Tới Bên Em | Tập 1 - 15",
+          "url": "https://www.youtube.com/watch?v=bxkumP1VmgE",
+          "id": "bxkumP1VmgE",
+          "duration": 3715,
+          "durationStr": "1:01:55",
+          "publishedAt": "2026-09-26T20:15:47.671403+00:00",
+          "views": 507856,
+          "likes": 2854,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 8,
+          "label": "Tập 16-30",
+          "title": "Trọng Sinh Về Thời Cấp 3, Từ Bỏ Hoa Khôi Tiến Tới Bên Em | Tập 16 - 30",
+          "url": "https://www.youtube.com/watch?v=tHJaU8P62zg",
+          "id": "tHJaU8P62zg",
+          "duration": 3899,
+          "durationStr": "1:04:59",
+          "publishedAt": "2026-09-26T20:15:47.671403+00:00",
+          "views": 60118,
+          "likes": 820,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 9,
+          "label": "Tập 31-45",
+          "title": "Trọng Sinh Về Thời Cấp 3, Từ Bỏ Hoa Khôi Tiến Tới Bên Em | Tập 31 - 45",
+          "url": "https://www.youtube.com/watch?v=dKXiVZ8IR7g",
+          "id": "dKXiVZ8IR7g",
+          "duration": 4556,
+          "durationStr": "1:15:56",
+          "publishedAt": "2026-09-26T20:15:47.671403+00:00",
+          "views": 43072,
+          "likes": 558,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 10,
+          "label": "Tập 46-60",
+          "title": "Trọng Sinh Về Thời Cấp 3, Từ Bỏ Hoa Khôi Tiến Tới Bên Em | Tập 46 - 60",
+          "url": "https://www.youtube.com/watch?v=C734ymQDH8s",
+          "id": "C734ymQDH8s",
+          "duration": 4597,
+          "durationStr": "1:16:37",
+          "publishedAt": "2026-09-26T20:15:47.671403+00:00",
+          "views": 39847,
+          "likes": 428,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 11,
+          "label": "Tập 61-76",
+          "title": "Trọng Sinh Về Thời Cấp 3, Từ Bỏ Hoa Khôi Tiến Tới Bên Em | Tập 61 - 76",
+          "url": "https://www.youtube.com/watch?v=sNUxbBcR5bY",
+          "id": "sNUxbBcR5bY",
+          "duration": 4444,
+          "durationStr": "1:14:04",
+          "publishedAt": "2026-09-26T20:15:47.671403+00:00",
+          "views": 28920,
+          "likes": 344,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        }
+      ],
+      "channelIds": [
+        "eggvietsub"
+      ]
+    },
+    {
+      "id": "film_6576",
+      "title": "[16+] Cơn Mưa Tận Thế Tập 1 - 5 | Tôi Sở Hữu Tàu Ma Dành Lại Mọi Thứ Sau Khi Bị Phản Bội",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 2934,
+      "totalDurationStr": "48 phút 54 giây",
+      "totalViews": 2176,
+      "totalLikes": 46,
+      "review": "The Apocalypse Rain Episodes 1-5 | I Own a Ghost Ship and Reclaim Everything After Being Betrayed Support me with some eggs 🥚🥚🥚 here: Account Number (TPBank): 06209227101",
+      "genres": [
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Rj9tlCgdOIg/hqdefault.jpg",
+      "publishedAt": "2026-11-11T20:15:47.671403+00:00",
+      "updatedAt": "2026-11-11T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1-5",
+          "title": "[16+] Cơn Mưa Tận Thế Tập 1 - 5 | Tôi Sở Hữu Tàu Ma Dành Lại Mọi Thứ Sau Khi Bị Phản Bội",
+          "url": "https://www.youtube.com/watch?v=Rj9tlCgdOIg",
+          "id": "Rj9tlCgdOIg",
+          "duration": 2934,
+          "durationStr": "48:54",
+          "publishedAt": "2026-11-11T20:15:47.671403+00:00",
+          "views": 2176,
+          "likes": 46,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6689",
+      "title": "[Full] Trọng Sinh Tuyệt Giao Hào Môn Thiếu Gia Thật Là Tôi Tự Quyết Định Cuộc Đời! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7224,
+      "totalDurationStr": "2 giờ 00 phút",
+      "totalViews": 4921,
+      "totalLikes": 82,
+      "review": "📽Phim: [Full] Trọng Sinh Tuyệt Giao Hào Môn Thiếu Gia Thật Là Tôi Tự Quyết Định Cuộc Đời! | MyCherrySub Tóm tắt: Nam chính Thành Nghiệp, thiếu gia thật của nhà họ Thành, kiếp trước bị gia đình ruột thịt hắt hủi, chèn ép để thiên vị người con nuôi yếu đuối Thành Phong Hạo, cuối cùng phải bỏ học và chết thảm vì lao lực nơi công xưởng. Trọng sinh về năm 18...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/tK-DFaISfcY/hqdefault.jpg",
+      "publishedAt": "2026-11-04T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-04T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trọng Sinh Tuyệt Giao Hào Môn Thiếu Gia Thật Là Tôi Tự Quyết Định Cuộc Đời! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=tK-DFaISfcY",
+          "id": "tK-DFaISfcY",
+          "duration": 7224,
+          "durationStr": "2:00:24",
+          "publishedAt": "2026-11-04T20:15:48.196532+00:00",
+          "views": 4921,
+          "likes": 82,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6690",
+      "title": "[Full] Bị Bạn Gái Coi Là Nhân Tình Thiếu Gia Tài Phiệt Là Tôi Trở Về Kế Thừa Gia Sản! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11739,
+      "totalDurationStr": "3 giờ 15 phút",
+      "totalViews": 4237,
+      "totalLikes": 54,
+      "review": "📽Phim: [Full] Bị Bạn Gái Coi Là Nhân Tình Thiếu Gia Tài Phiệt Là Tôi Trở Về Kế Thừa Gia Sản! | MyCherrySub Tóm tắt: Nam chính Từ Diễn chấp nhận che giấu thân phận là con trai độc nhất của người giàu nhất thế giới để giữ trọn vẹn tình yêu 5 năm với nữ tổng tài Tô Uyển Ninh. Tuy nhiên, anh vô tình nghe được cô cùng hội bạn thân bàn bạc về cuộc hôn nhân...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/YirE5G2H96k/hqdefault.jpg",
+      "publishedAt": "2026-11-04T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-04T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Bạn Gái Coi Là Nhân Tình Thiếu Gia Tài Phiệt Là Tôi Trở Về Kế Thừa Gia Sản! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=YirE5G2H96k",
+          "id": "YirE5G2H96k",
+          "duration": 11739,
+          "durationStr": "3:15:39",
+          "publishedAt": "2026-11-04T20:15:48.196532+00:00",
+          "views": 4237,
+          "likes": 54,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6691",
+      "title": "[Full] Trót Trêu Chọc Nữ Sếp Tổng Lạnh Lùng Tôi Không Có Gì Đành Phải Lấy Thân Báo Đáp | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10323,
+      "totalDurationStr": "2 giờ 52 phút",
+      "totalViews": 9909,
+      "totalLikes": 190,
+      "review": "📽Phim: [Full] Trót Trêu Chọc Nữ Sếp Tổng Lạnh Lùng, Tôi Không Có Gì Đành Phải Lấy Thân Báo Đáp! | MyCherrySub Tóm tắt: Nam chính Trần Vũ – một nhân viên kế hoạch 24 tuổi tài năng nhưng tay trắng – vừa trải qua ngày xui xẻo nhất đời khi sáng bị đuổi việc, chiều bị bạn gái cắm sừng. Quá chán nản, anh đi bar giải sầu và lỡ có \"tình một đêm\" với một cô nàng...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/-X3fNnydvYQ/hqdefault.jpg",
+      "publishedAt": "2026-11-04T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-04T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trót Trêu Chọc Nữ Sếp Tổng Lạnh Lùng Tôi Không Có Gì Đành Phải Lấy Thân Báo Đáp | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=-X3fNnydvYQ",
+          "id": "-X3fNnydvYQ",
+          "duration": 10323,
+          "durationStr": "2:52:03",
+          "publishedAt": "2026-11-04T20:15:48.196532+00:00",
+          "views": 9909,
+          "likes": 190,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6692",
+      "title": "[Full] 15 Năm Chờ Đợi Không Bằng Nửa Năm Vô Tình Ngày Mưa Ấy Tôi Chọn Cách Buông Tay! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9615,
+      "totalDurationStr": "2 giờ 40 phút",
+      "totalViews": 9534,
+      "totalLikes": 194,
+      "review": "📽Phim: [Full] 15 Năm Chờ Đợi Không Bằng Nửa Năm Vô Tình Ngày Mưa Ấy Tôi Chọn Cách Buông Tay! | MyCherrySub Tóm tắt: Sở Nhất và Giang Vãn Thanh, đôi thanh mai trúc mã đã gắn bó 15 năm và có chung ngày sinh nhật. Sở Nhất vốn dành trọn tình cảm và lên kế hoạch tỏ tình vào tiệc sinh nhật chung, nhưng Vãn Thanh lại bỏ mặc cậu để đi cùng Lâm Mặc – một nam sinh...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/CpatI4F2xMk/hqdefault.jpg",
+      "publishedAt": "2026-11-04T20:15:48.196532+00:00",
+      "updatedAt": "2026-11-04T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 15",
+          "title": "[Full] 15 Năm Chờ Đợi Không Bằng Nửa Năm Vô Tình Ngày Mưa Ấy Tôi Chọn Cách Buông Tay! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=CpatI4F2xMk",
+          "id": "CpatI4F2xMk",
+          "duration": 9615,
+          "durationStr": "2:40:15",
+          "publishedAt": "2026-11-04T20:15:48.196532+00:00",
+          "views": 9534,
+          "likes": 194,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6586",
+      "title": "Nhóc Tỳ 4 Tuổi Đại Náo Hào Môn Hở Ra Là Đòi Đuổi Bố Tổng Tài Đi Ăn Mày | Lara Sub",
+      "channelId": "larasub22",
+      "channelName": "Lara Sub",
+      "channelUrl": "https://www.youtube.com/@larasub22",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 1568,
+      "totalDurationStr": "26 phút 08 giây",
+      "totalViews": 34415,
+      "totalLikes": 472,
+      "review": "Nhóc Tỳ 4 Tuổi Đại Náo Hào Môn Hở Ra Là Đòi Đuổi Bố Tổng Tài Đi Ăn Mày — Tuyển tập hoạt hình 3D đặc sắc từ kênh Lara Sub.",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/AdyVexGtt5U/hqdefault.jpg",
+      "publishedAt": "2026-11-04T20:15:47.863441+00:00",
+      "updatedAt": "2026-11-04T20:15:47.863441+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Nhóc Tỳ 4 Tuổi Đại Náo Hào Môn Hở Ra Là Đòi Đuổi Bố Tổng Tài Đi Ăn Mày | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=AdyVexGtt5U",
+          "id": "AdyVexGtt5U",
+          "duration": 1568,
+          "durationStr": "26:08",
+          "publishedAt": "2026-11-04T20:15:47.863441+00:00",
+          "views": 34415,
+          "likes": 472,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6686",
+      "title": "[Full] Trùng Sinh Tôi Mặc Kệ Vị Hôn Thê Đâm Đầu Vào Biển Lửa Để Cứu Bạch Nguyệt Quang! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 4325,
+      "totalDurationStr": "1 giờ 12 phút",
+      "totalViews": 7210,
+      "totalLikes": 143,
+      "review": "📽Phim: [Full] Trùng Sinh Tôi Mặc Kệ Vị Hôn Thê Đâm Đầu Vào Biển Lửa Để Cứu Bạch Nguyệt Quang! | MyCherrySub Tóm tắt: Kiếp trước, Tô Bạch vì cản vị hôn thê Thẩm Thư Dao lao vào biển lửa mà khiến \"bạch nguyệt quang\" của ả là Giang Thần An bỏ mạng. Dù sau đó hai người kết hôn và Tô Bạch dốc lòng giúp ả đoạt quyền thừa kế, Thẩm Thư Dao vẫn ôm hận, giăng bẫy...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/HUyms8DWF5A/hqdefault.jpg",
+      "publishedAt": "2026-10-28T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-28T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trùng Sinh Tôi Mặc Kệ Vị Hôn Thê Đâm Đầu Vào Biển Lửa Để Cứu Bạch Nguyệt Quang! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=HUyms8DWF5A",
+          "id": "HUyms8DWF5A",
+          "duration": 4325,
+          "durationStr": "1:12:05",
+          "publishedAt": "2026-10-28T20:15:48.196532+00:00",
+          "views": 7210,
+          "likes": 143,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6687",
+      "title": "[Full] Hôn Thê Bỏ Lại Tôi Theo Cậu Bạn Thân Ra Nước Ngoài Ba Năm Quay Về Liền Hối Hận! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6952,
+      "totalDurationStr": "1 giờ 55 phút",
+      "totalViews": 6831,
+      "totalLikes": 119,
+      "review": "📽Phim: [Full] Hôn Thê Bỏ Lại Tôi Theo Cậu Bạn Thân Ra Nước Ngoài Ba Năm Quay Về Liền Hối Hận! | MyCherrySub Tóm tắt: Ba năm trước, vị hôn thê Tô Niệm Niệm nhẫn tâm bỏ rơi Tề Ngôn tại sân bay để ra nước ngoài cùng \"cậu bạn thân\" Cố Trạch, hống hách vứt lại một bản hợp đồng yêu cầu anh phải chờ đợi cô ta suốt 3 năm. Không chút bi lụy hay níu kéo, Tề Ngôn...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/YXjrdiA3gwc/hqdefault.jpg",
+      "publishedAt": "2026-10-28T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-28T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Hôn Thê Bỏ Lại Tôi Theo Cậu Bạn Thân Ra Nước Ngoài Ba Năm Quay Về Liền Hối Hận! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=YXjrdiA3gwc",
+          "id": "YXjrdiA3gwc",
+          "duration": 6952,
+          "durationStr": "1:55:52",
+          "publishedAt": "2026-10-28T20:15:48.196532+00:00",
+          "views": 6831,
+          "likes": 119,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6688",
+      "title": "[Full] Trùng Sinh Trở Về Tuổi 18, Kiếp Này Tôi Quyết Cưới Được Thanh Mai Trúc Mã! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9969,
+      "totalDurationStr": "2 giờ 46 phút",
+      "totalViews": 9026,
+      "totalLikes": 221,
+      "review": "📽Phim: [Full] Trùng Sinh Trở Về Tuổi 18, Kiếp Này Tôi Quyết Cưới Được Thanh Mai Trúc Mã! | MyCherrySub Tóm tắt: Kiếp trước, nam chính là một tỷ phú nhưng phải chịu cảnh vợ phản bội khi mắc bệnh nan y. Đến lúc sắp qua đời, anh mới nhận ra cô bạn thanh mai trúc mã Lý Tư Vũ (Tiểu Ngư) đã âm thầm yêu mình suốt 16 năm và từng hiến tủy để cứu anh. Được trùng...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/GntR_VYlI2s/hqdefault.jpg",
+      "publishedAt": "2026-10-28T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-28T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trùng Sinh Trở Về Tuổi 18, Kiếp Này Tôi Quyết Cưới Được Thanh Mai Trúc Mã! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=GntR_VYlI2s",
+          "id": "GntR_VYlI2s",
+          "duration": 9969,
+          "durationStr": "2:46:09",
+          "publishedAt": "2026-10-28T20:15:48.196532+00:00",
+          "views": 9026,
+          "likes": 221,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6574",
+      "title": "Trở Về Năm Ấy, Bù Đắp Lại Những Hối Tiếc Cho Em | Tập 21 - 30",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 12686,
+      "totalDurationStr": "3 giờ 31 phút",
+      "totalViews": 77443,
+      "totalLikes": 847,
+      "review": "Returning to That Year, Making Up for Regrets for You | Episodes 1-20 Support me with some eggs 🥚🥚🥚 here: Bank Account (MB): 12464627664",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/ZDHBKmRwfXk/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+      "updatedAt": "2026-10-28T20:15:47.671403+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1-20",
+          "title": "Trở Về Năm Ấy, Bù Đắp Lại Những Hối Tiếc Cho Em | Tập 1 - 20",
+          "url": "https://www.youtube.com/watch?v=IQUG3eHg9c0",
+          "id": "IQUG3eHg9c0",
+          "duration": 6235,
+          "durationStr": "1:43:55",
+          "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+          "views": 63655,
+          "likes": 638,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 2,
+          "label": "Tập 21-30",
+          "title": "Trở Về Năm Ấy, Bù Đắp Lại Những Hối Tiếc Cho Em | Tập 21 - 30",
+          "url": "https://www.youtube.com/watch?v=ZDHBKmRwfXk",
+          "id": "ZDHBKmRwfXk",
+          "duration": 2777,
+          "durationStr": "46:17",
+          "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+          "views": 8531,
+          "likes": 140,
+          "isRedundant": false
+        },
+        {
+          "index": 3,
+          "label": "Tập 31-40",
+          "title": "Trở Về Năm Ấy, Bù Đắp Lại Những Hối Tiếc Cho Em | Tập 31 - 40",
+          "url": "https://www.youtube.com/watch?v=-b_lFj1jrYo",
+          "id": "-b_lFj1jrYo",
+          "duration": 3674,
+          "durationStr": "1:01:14",
+          "publishedAt": "2026-10-28T20:15:47.671403+00:00",
+          "views": 5257,
+          "likes": 69,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        }
+      ],
+      "channelIds": [
+        "eggvietsub"
+      ]
+    },
+    {
+      "id": "film_6737",
+      "title": "[Full] Kết Hôn Giả Nhưng Lỡ Diễn Quá Sâu Tôi Không Ngờ Lại Thành Phim Giả Tình Thật! | HiCherrySub",
+      "channelId": "mycherrysub3",
+      "channelName": "HiCherrySub",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub3",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7089,
+      "totalDurationStr": "1 giờ 58 phút",
+      "totalViews": 14082,
+      "totalLikes": 191,
+      "review": "📽Movie: [Full] Fake Marriage, But I Unexpectedly Got Too Deep into It, Turning Fake Marriage into Real Love! | HiCherrySub Synopsis: To avoid blind dates and family pressure, two neighbors, Su Wan and Lin Zhou, decide to sign a contract to pretend to be lovers for 60 days. To deceive their parents and neighbors, they constantly invent countless hilarious...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/OuX6QpVjz90/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.209807+00:00",
+      "updatedAt": "2026-10-26T20:15:48.209807+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Kết Hôn Giả Nhưng Lỡ Diễn Quá Sâu Tôi Không Ngờ Lại Thành Phim Giả Tình Thật! | HiCherrySub",
+          "url": "https://www.youtube.com/watch?v=OuX6QpVjz90",
+          "id": "OuX6QpVjz90",
+          "duration": 7089,
+          "durationStr": "1:58:09",
+          "publishedAt": "2026-10-26T20:15:48.209807+00:00",
+          "views": 14082,
+          "likes": 191,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6738",
+      "title": "[Full] Từ Bỏ Làm Simp Chúa Tôi Thức Tỉnh Hệ Thống Nhặt Rác, Chinh Phục Đại Hoa Khôi! | HiCherrySub",
+      "channelId": "mycherrysub3",
+      "channelName": "HiCherrySub",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub3",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 3329,
+      "totalDurationStr": "55 phút 29 giây",
+      "totalViews": 29129,
+      "totalLikes": 373,
+      "review": "📽 Movie: [Full] Giving Up Being a Simp, My Lord Awakens a Trash-Collecting System, Conquering the Beauty Queen! | HiCherrySub Synopsis: Lin Yi, a male student once ridiculed as a pathetic, hopeless romantic, unexpectedly awakens a system that provides incredibly generous cashback rewards for collecting trash from beautiful women. Thanks to this system,...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/2r_Tfsmix28/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.209807+00:00",
+      "updatedAt": "2026-10-26T20:15:48.209807+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Từ Bỏ Làm Simp Chúa Tôi Thức Tỉnh Hệ Thống Nhặt Rác, Chinh Phục Đại Hoa Khôi! | HiCherrySub",
+          "url": "https://www.youtube.com/watch?v=2r_Tfsmix28",
+          "id": "2r_Tfsmix28",
+          "duration": 3329,
+          "durationStr": "55:29",
+          "publishedAt": "2026-10-26T20:15:48.209807+00:00",
+          "views": 29129,
+          "likes": 373,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6600",
+      "title": "[Full 1] Bỗng Nhiên Thức Tỉnh Hệ Thống Nghịch Tập Bắt Đầu Tôi Kết Hôn Cùng Nữ Chủ Tịch | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 28898,
+      "totalDurationStr": "8 giờ 01 phút",
+      "totalViews": 22657,
+      "totalLikes": 508,
+      "review": "📽Phim: [Full 1] Bỗng Nhiên Thức Tỉnh Hệ Thống Nghịch Tập Bắt Đầu Tôi Kết Hôn Cùng Nữ Chủ Tịch! | MyCherrySub Tóm tắt: Nam chính Lục Dương, một chàng sinh viên nghèo, bất ngờ thức tỉnh \"Hệ thống nghịch tập nhân sinh\" nhằm thay đổi số phận bi đát ở kiếp trước. Nhiệm vụ đầu tiên hệ thống giao phó đã đưa đẩy anh đăng ký kết hôn chớp nhoáng với Lâm Khê Tuyết...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/fq3wgsPeDN4/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full 1] Bỗng Nhiên Thức Tỉnh Hệ Thống Nghịch Tập Bắt Đầu Tôi Kết Hôn Cùng Nữ Chủ Tịch | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=fq3wgsPeDN4",
+          "id": "fq3wgsPeDN4",
+          "duration": 12997,
+          "durationStr": "3:36:37",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 15820,
+          "likes": 397,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Bỗng Nhiên Thức Tỉnh Hệ Thống Nghịch Tập Bắt Đầu Tôi Kết Hôn Cùng Nữ Chủ Tịch | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=fYy7jcSAXtk",
+          "id": "fYy7jcSAXtk",
+          "duration": 15901,
+          "durationStr": "4:25:01",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 6837,
+          "likes": 111,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
+        }
+      ],
+      "channelIds": [
+        "mycherrysub2"
+      ]
+    },
+    {
+      "id": "film_6609",
+      "title": "[Full 1] Xuyên Không Viết Tiểu Thuyết Để Kiếm Tiền Tôi Lỡ Chân Mà Thành Sao Hạng A! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 21478,
+      "totalDurationStr": "5 giờ 57 phút",
+      "totalViews": 77937,
+      "totalLikes": 1069,
+      "review": "📽Phim: [Full 1] Xuyên Không Viết Tiểu Thuyết Mạng Để Kiếm Tiền Tôi Lỡ Chân Mà Thành Sao Hạng A! | MyCherrySub Tóm tắt: Trình Triệt, một sinh viên trường nhạc ưu tú bất ngờ xuyên không, quyết định kiếm tiền nhanh chóng bằng cách trở thành tiểu thuyết gia mạng với bút danh Lâm Hạo. Sở thích của cậu là \"ngược\" độc giả không thương tiếc. Ngay khi vừa tự tay...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/rq70NqVT-vI/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full 1] Xuyên Không Viết Tiểu Thuyết Để Kiếm Tiền Tôi Lỡ Chân Mà Thành Sao Hạng A! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=rq70NqVT-vI",
+          "id": "rq70NqVT-vI",
+          "duration": 9440,
+          "durationStr": "2:37:20",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 73232,
+          "likes": 953,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Xuyên Không Viết Tiểu Thuyết Để Kiếm Tiền Tôi Lỡ Chân Mà Thành Sao Hạng A! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=IJhq0g9JTjk",
+          "id": "IJhq0g9JTjk",
+          "duration": 12038,
+          "durationStr": "3:20:38",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 4705,
+          "likes": 116,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
+        }
+      ],
+      "channelIds": [
+        "mycherrysub2"
+      ]
+    },
+    {
+      "id": "film_6639",
+      "title": "[Full] Bỗng Thức Tỉnh Hệ Thống Khách Trọ Thời Không Tôi Vô Tình Trở Thành Thần Nhân! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7544,
+      "totalDurationStr": "2 giờ 05 phút",
+      "totalViews": 6343,
+      "totalLikes": 127,
+      "review": "📽Phim: [Full] Bỗng Thức Tỉnh Hệ Thống Khách Trọ Thời Không Tôi Vô Tình Trở Thành Thần Nhân! | MyCherrySub Tóm tắt: Nam chính Lâm Uyên vốn chỉ là một thanh niên hiện đại bình thường, cho đến khi hắn bất ngờ bị trói buộc với \"Hệ thống Giá trị Cảm xúc\" và đảm nhận vai trò Người bảo vệ du khách thời không. Vị khách đầu tiên bất thình lình rơi xuống phòng...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/a6_UByXln5o/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bỗng Thức Tỉnh Hệ Thống Khách Trọ Thời Không Tôi Vô Tình Trở Thành Thần Nhân! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=a6_UByXln5o",
+          "id": "a6_UByXln5o",
+          "duration": 7544,
+          "durationStr": "2:05:44",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 6343,
+          "likes": 127,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6640",
+      "title": "[Full] Bỗng Thức Tỉnh Hệ Thống Tối Thượng Tôi Trở Thành Ông Trùm Cả 2 Giới Hắc Bạch Đạo| MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7613,
+      "totalDurationStr": "2 giờ 06 phút",
+      "totalViews": 5446,
+      "totalLikes": 83,
+      "review": "📽Phim: [Full] Bỗng Thức Tỉnh Hệ Thống Tối Thượng Tôi Trở Thành Ông Trùm Cả 2 Giới Hắc Bạch Đạo! | MyCherrySub Tóm tắt: Nam chính Tô Mộc vốn là một sinh viên nghèo bị bạn gái ham vật chất nhẫn tâm ruồng bỏ để chạy theo một thiếu gia giàu có. Ngay lúc bị sỉ nhục chà đạp thậm tệ nhất, cậu bất ngờ thức tỉnh một hệ thống thần bí và liên tục được ban cho những...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/iYl4ytHwrxw/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bỗng Thức Tỉnh Hệ Thống Tối Thượng Tôi Trở Thành Ông Trùm Cả 2 Giới Hắc Bạch Đạo| MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=iYl4ytHwrxw",
+          "id": "iYl4ytHwrxw",
+          "duration": 7613,
+          "durationStr": "2:06:53",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 5446,
+          "likes": 83,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6641",
+      "title": "[Full] Trùng Sinh Quay Về Tôi Chỉ Sủng Ái Một Mình Thanh Mai Trúc Mã! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9389,
+      "totalDurationStr": "2 giờ 36 phút",
+      "totalViews": 11164,
+      "totalLikes": 156,
+      "review": "📽Phim: [Full] Trùng Sinh Quay Về Tôi Chỉ Sủng Ái Một Mình Thanh Mai Trúc Mã! | MyCherrySub Tóm tắt: Nam chính Yến Thúc, một bác sĩ mang nỗi ân hận tột cùng vì kiếp trước đã lạnh nhạt và không thể cứu sống cô bạn thanh mai trúc mã Hứa Mật Nhi (Tiểu Nhĩ Đóa) – người đã luôn âm thầm yêu anh. Được trao cơ hội trùng sinh về thời cấp ba, Yến Thúc quyết tâm...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/6wIRB7l9IZk/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trùng Sinh Quay Về Tôi Chỉ Sủng Ái Một Mình Thanh Mai Trúc Mã! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=6wIRB7l9IZk",
+          "id": "6wIRB7l9IZk",
+          "duration": 9389,
+          "durationStr": "2:36:29",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 11164,
+          "likes": 156,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6642",
+      "title": "[Full] Trọng Sinh Bị Tra Nữ Từ Hôn, Tôi Lật Mình Trở Thành Tỷ Phú Ngầm! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10020,
+      "totalDurationStr": "2 giờ 47 phút",
+      "totalViews": 6528,
+      "totalLikes": 92,
+      "review": "📽Phim: [Full] Trọng Sinh Bị Tra Nữ Từ Hôn, Tôi Lật Mình Trở Thành Tỷ Phú Ngầm! | MyCherrySub Tóm tắt: Nam chính Tần Trúc, một người trọng sinh mang theo tri thức tương lai, chấp nhận ở bên chăm sóc Ôn Ninh suốt 3 năm nhưng luôn bị cô xem là \"kẻ thế thân\" cho trúc mã Lâm Sùng Quang. Khi Sùng Quang về nước, Ôn Ninh phũ phàng đuổi Tần Trúc đi vì cho rằng...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/GKvM5N_Y9-I/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trọng Sinh Bị Tra Nữ Từ Hôn, Tôi Lật Mình Trở Thành Tỷ Phú Ngầm! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=GKvM5N_Y9-I",
+          "id": "GKvM5N_Y9-I",
+          "duration": 10020,
+          "durationStr": "2:47:00",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 6528,
+          "likes": 92,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6643",
+      "title": "[Full] Một Câu Nói Một Triệu Tệ: Tôi Dùng Sự Vô Liêm Sỉ Chọc Điên Đại Tiểu Thư Tự Kỷ! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 3248,
+      "totalDurationStr": "54 phút 08 giây",
+      "totalViews": 4754,
+      "totalLikes": 89,
+      "review": "📽Phim: [Full] Một Câu Nói Một Triệu Tệ: Tôi Dùng Sự Vô Liêm Sỉ Chọc Điên Đại Tiểu Thư Tự Kỷ! | MyCherrySub Tóm tắt: Nam chính Lam Bạch là một thanh niên vừa tốt nghiệp đại học một năm, đang lâm vào cảnh túng quẫn và sắp bị chủ trọ đuổi ra đường. Cơ hội đổi đời đến với anh nhờ một đoạn video quay cảnh anh chọc điên một nghệ sĩ đường phố đóng giả tượng...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/nudlRUVpGUY/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Một Câu Nói Một Triệu Tệ: Tôi Dùng Sự Vô Liêm Sỉ Chọc Điên Đại Tiểu Thư Tự Kỷ! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=nudlRUVpGUY",
+          "id": "nudlRUVpGUY",
+          "duration": 3248,
+          "durationStr": "54:08",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 4754,
+          "likes": 89,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6644",
+      "title": "[Full] Oan Gia Ngõ Hẹp: Ăn Một Viên Gạch Tôi Liền Vớ Được Hoa Khôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9792,
+      "totalDurationStr": "2 giờ 43 phút",
+      "totalViews": 3988,
+      "totalLikes": 77,
+      "review": "📽Phim: [Full] Oan Gia Ngõ Hẹp: Ăn Một Viên Gạch Tôi Liền Vớ Được Hoa Khôi! | MyCherrySub Tóm tắt: Nam chính Trần Nghiêm — một nam sinh vừa thi đại học với số điểm cao chót vót (721 điểm) — trong một lần trượng nghĩa bắt trộm đã bị cô gái xinh đẹp qua đường hiểu lầm là kẻ xấu và phang cho một viên gạch toác đầu. Chị gái cậu là Trần Lạc Thủy (giảng viên...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/g6KXGw_Xhj4/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Oan Gia Ngõ Hẹp: Ăn Một Viên Gạch Tôi Liền Vớ Được Hoa Khôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=g6KXGw_Xhj4",
+          "id": "g6KXGw_Xhj4",
+          "duration": 9792,
+          "durationStr": "2:43:12",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 3988,
+          "likes": 77,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6645",
+      "title": "[Full] Trùng Sinh Tuổi 18, Kiếp Này Tôi Không Làm Cái Đuôi Của Đại Tiểu Thư Nữa! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13435,
+      "totalDurationStr": "3 giờ 43 phút",
+      "totalViews": 5956,
+      "totalLikes": 96,
+      "review": "📽Phim: [Full] Trùng Sinh Tuổi 18, Kiếp Này Tôi Không Làm Cái Đuôi Của Đại Tiểu Thư Nữa! | MyCherrySub Tóm tắt: Kiếp trước, Phương Hưu dành trọn 6 năm thanh xuân để làm một người rể hờ hèn mọn, cam chịu làm cái bóng hầu hạ đại tiểu thư kiêu ngạo Thẩm Bộ Du nhưng chỉ nhận lại sự ghẻ lạnh, khinh thường. Bất ngờ được trọng sinh quay về đúng ngày lễ tốt...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/WeMNAnySZY4/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trùng Sinh Tuổi 18, Kiếp Này Tôi Không Làm Cái Đuôi Của Đại Tiểu Thư Nữa! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=WeMNAnySZY4",
+          "id": "WeMNAnySZY4",
+          "duration": 13435,
+          "durationStr": "3:43:55",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 5956,
+          "likes": 96,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6646",
+      "title": "[Full] Oan Gia Ngõ Hẹp: Yêu Thầm Nhiều Năm Tôi Cưới Được Vợ Nhờ Hợp Đồng Hôn Nhân! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11428,
+      "totalDurationStr": "3 giờ 10 phút",
+      "totalViews": 5801,
+      "totalLikes": 108,
+      "review": "📽Phim: [Full] Oan Gia Ngõ Hẹp: Yêu Thầm Nhiều Năm Tôi Cưới Được Vợ Nhờ Hợp Đồng Hôn Nhân! | MyCherrySub Tóm tắt: Nam chính Bùi Trì – tổng tài kiêu ngạo của tập đoàn Bùi thị, người luôn mang dáng vẻ bá đạo, lạnh lùng và không để ai vào mắt – thực chất lại cất giấu một bí mật động trời: Anh đã yêu thầm Nguyễn Yên suốt bao nhiêu năm kể từ thời cấp 3. Khi...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/rry_oDUcB6o/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Oan Gia Ngõ Hẹp: Yêu Thầm Nhiều Năm Tôi Cưới Được Vợ Nhờ Hợp Đồng Hôn Nhân! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=rry_oDUcB6o",
+          "id": "rry_oDUcB6o",
+          "duration": 11428,
+          "durationStr": "3:10:28",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 5801,
+          "likes": 108,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6647",
+      "title": "[Full] Trùng Sinh Từ Bỏ Chị Gái Nuôi Kiếp Này Tôi Tự Định Đoạt Cuộc Đời Mình! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6719,
+      "totalDurationStr": "1 giờ 51 phút",
+      "totalViews": 11263,
+      "totalLikes": 205,
+      "review": "📽Phim: [Full] Trùng Sinh Từ Bỏ Chị Gái Nuôi Kiếp Này Tôi Tự Định Đoạt Cuộc Đời Mình! | MyCherrySub Tóm tắt: Kiếp trước, Cố Minh Xuyên vì mù quáng tỏ tình với người chị gái nuôi Lâm Tuyết Ngưng mà bị từ chối phũ phàng, trở thành trò cười cho toàn trường. Đả kích liên tiếp khiến cậu lỡ dở kỳ thi đại học, bị người bố độc đoán đuổi khỏi nhà và bỏ mạng tức...",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/RdON5dIVN44/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trùng Sinh Từ Bỏ Chị Gái Nuôi Kiếp Này Tôi Tự Định Đoạt Cuộc Đời Mình! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=RdON5dIVN44",
+          "id": "RdON5dIVN44",
+          "duration": 6719,
+          "durationStr": "1:51:59",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 11263,
+          "likes": 205,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6648",
+      "title": "[Full] Vừa Thất Tình, Tôi Liền Bị Ông Bố Ép Cưới Luôn Hoa Khôi Học Tỷ! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7304,
+      "totalDurationStr": "2 giờ 01 phút",
+      "totalViews": 7833,
+      "totalLikes": 147,
+      "review": "📽Phim: [Full] Vừa Thất Tình, Tôi Liền Bị Ông Bố Ép Cưới Luôn Hoa Khôi Học Tỷ! | MyCherrySub Tóm tắt: Nam chính Phương Hạo Vũ là một nam sinh xuất sắc thi đỗ đại học với 680 điểm nhưng lại bị cô gái mình theo đuổi suốt 3 năm phũ phàng từ chối ngay trong buổi tiệc tốt nghiệp. Đang trong lúc chán nản, cậu bất ngờ bị bố \"ép duyên\" bắt thực hiện hôn ước từ...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/wNsGMzXbHAc/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Vừa Thất Tình, Tôi Liền Bị Ông Bố Ép Cưới Luôn Hoa Khôi Học Tỷ! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=wNsGMzXbHAc",
+          "id": "wNsGMzXbHAc",
+          "duration": 7304,
+          "durationStr": "2:01:44",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 7833,
+          "likes": 147,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6649",
+      "title": "[Full] Lớ Ngớ Vớ Được Tình Yêu, Đại Tiểu Thư Giả Nghèo Để Được Ở Ghép Cùng Tôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10139,
+      "totalDurationStr": "2 giờ 48 phút",
+      "totalViews": 4444,
+      "totalLikes": 75,
+      "review": "📽Phim: [Full] Lớ Ngớ Vớ Được Tình Yêu, Đại Tiểu Thư Giả Nghèo Để Được Ở Ghép Cùng Tôi! | MyCherrySub Tóm tắt: Nam chính Cố Thần - một nam sinh \"học bá\" sở hữu IQ cực cao nhưng EQ trong tình yêu lại hơi ngây ngô. Cậu đang sống yên bình trong căn nhà thuê giá rẻ 500 tệ/tháng thì đột nhiên có một cô gái xinh đẹp tên Tô Chi Dực (Tô Tiểu Hoa) xin đến ở ghép....",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/l2SI4tjSVUQ/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Lớ Ngớ Vớ Được Tình Yêu, Đại Tiểu Thư Giả Nghèo Để Được Ở Ghép Cùng Tôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=l2SI4tjSVUQ",
+          "id": "l2SI4tjSVUQ",
+          "duration": 10139,
+          "durationStr": "2:48:59",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 4444,
+          "likes": 75,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6650",
+      "title": "[Full] Vừa Chia Tay Bạn Gái Cũ Tôi Bất Ngờ Phát Hiện Ông Bố Là Tỷ Phú Giả Nghèo! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9121,
+      "totalDurationStr": "2 giờ 32 phút",
+      "totalViews": 4227,
+      "totalLikes": 61,
+      "review": "📽Phim: [Full] Vừa Chia Tay Bạn Gái Cũ Tôi Bất Ngờ Phát Hiện Ông Bố Là Tỷ Phú Giả Nghèo! | MyCherrySub Tóm tắt: Nam chính Trần Dã, một thanh niên nghèo làm nghề giao đồ ăn, bị bạn gái Tô Mạn Ninh phũ phàng ruồng bỏ vì chê bai hoàn cảnh. Trong lúc tuyệt vọng và xảy ra xô xát đập phá tại một nhà hàng 5 sao, anh bàng hoàng phát hiện người bố làm nghề sửa xe...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/VmCWAl7vA50/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Vừa Chia Tay Bạn Gái Cũ Tôi Bất Ngờ Phát Hiện Ông Bố Là Tỷ Phú Giả Nghèo! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=VmCWAl7vA50",
+          "id": "VmCWAl7vA50",
+          "duration": 9121,
+          "durationStr": "2:32:01",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 4227,
+          "likes": 61,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6651",
+      "title": "[Full] Nhật Ký Ở Ghép Tôi Bị Kẹt Giữa Cô Em Cuồng Anh Trai Và Cô Bạn Thanh Mai Mỏ Hỗn! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7173,
+      "totalDurationStr": "1 giờ 59 phút",
+      "totalViews": 3538,
+      "totalLikes": 53,
+      "review": "📽Phim: [Full] Nhật Ký Ở Ghép Tôi Bị Kẹp Giữa Cô Em Cuồng Anh Trai Và Cô Bạn Thanh Mai Mỏ Hỗn! | MyCherrySub Tóm tắt: Mở đầu là nam chính Tần Hiên cùng cuộc sống sinh viên vừa mới bắt đầu của anh. Tần Hiên nhập học trường Đại học Thục Đô cùng với Tần Linh Nhi (cô em gái thiên tài nhảy đúp lớp, luôn bám dính lấy anh trai) và Liễu Nhược Hy (cô bạn thanh mai...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/6KE5bkB3YX8/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Nhật Ký Ở Ghép Tôi Bị Kẹt Giữa Cô Em Cuồng Anh Trai Và Cô Bạn Thanh Mai Mỏ Hỗn! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=6KE5bkB3YX8",
+          "id": "6KE5bkB3YX8",
+          "duration": 7173,
+          "durationStr": "1:59:33",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 3538,
+          "likes": 53,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6652",
+      "title": "[Full] Thức Tỉnh Hệ Thống Thanh Mai Trúc Mã Bệnh Kiều Lúc Nào Cũng Muốn Chiếm Hữu Tôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9955,
+      "totalDurationStr": "2 giờ 45 phút",
+      "totalViews": 5995,
+      "totalLikes": 163,
+      "review": "📽Phim: [Full] Thức Tỉnh Hệ Thống Thanh Mai Trúc Mã Bệnh Kiều Lúc Nào Cũng Muốn Chiếm Hữu Tôi! | MyCherrySub Tóm tắt: Nam chính Lý Vũ và Lâm Hàm Ngư là đôi bạn thanh mai trúc mã lớn lên bên nhau. Một ngày nọ, Lâm Hàm Ngư đột ngột bộc lộ bản tính \"bệnh kiều\" (yandere) với khao khát chiếm hữu Lý Vũ làm của riêng. Đặc biệt, một ngày lọ nam chính được hỗ trợ...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Q0-EiQbiRoI/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Thức Tỉnh Hệ Thống Thanh Mai Trúc Mã Bệnh Kiều Lúc Nào Cũng Muốn Chiếm Hữu Tôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=Q0-EiQbiRoI",
+          "id": "Q0-EiQbiRoI",
+          "duration": 9955,
+          "durationStr": "2:45:55",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 5995,
+          "likes": 163,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6653",
+      "title": "[Full] Vừa Chia Tay Tôi Bỗng Thức Tỉnh Hệ Thống Ăn Bám Được Nữ Tổng Tài Bá Đạo Cầu Hôn | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10112,
+      "totalDurationStr": "2 giờ 48 phút",
+      "totalViews": 6189,
+      "totalLikes": 103,
+      "review": "📽Phim: [Full] Vừa Chia Tay Tôi Bỗng Thức Tỉnh Hệ Thống Ăn Bám Được Nữ Tổng Tài Bá Đạo Cầu Hôn! | MyCherrySub Tóm tắt: Nam chính Phương Hằng quyết đoán chia tay cô bạn gái độc hại Lưu Lệ vì thói quen mập mờ, coi trọng \"bạn thân khác giới\" hơn cả người yêu. Ngay lúc vừa dứt tình, anh bất ngờ được một mỹ nữ băng giá vô cùng xinh đẹp ngỏ lời cầu hôn kèm theo...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/iLHCU6Cqqno/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Vừa Chia Tay Tôi Bỗng Thức Tỉnh Hệ Thống Ăn Bám Được Nữ Tổng Tài Bá Đạo Cầu Hôn | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=iLHCU6Cqqno",
+          "id": "iLHCU6Cqqno",
+          "duration": 10112,
+          "durationStr": "2:48:32",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 6189,
+          "likes": 103,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6654",
+      "title": "[Full] Cưới Trước Yêu Sau Tôi Kết Hôn Chớp Nhoáng Với Cô Nàng Tiểu Thuyết Gia Tĩnh Lặng| MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9706,
+      "totalDurationStr": "2 giờ 41 phút",
+      "totalViews": 4602,
+      "totalLikes": 86,
+      "review": "📽Phim: [Full] Cưới Trước Yêu Sau Tôi Kết Hôn Chớp Nhoáng Với Cô Nàng Tiểu Thuyết Gia Tĩnh Lặng! | MyCherrySub Tóm tắt: Bắt đầu là cuộc hôn nhân \"cưới trước yêu sau\" chớp nhoáng nhưng đầy ngọt ngào giữa Lâm An Hữu - một nữ tác giả tiểu thuyết bị câm, và Phó Khanh - một nam streamer hoạt ngôn, tốt bụng. Dù mới gặp nhau chưa đầy 30 phút qua một buổi xem...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/IAjDy6lRvjg/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Cưới Trước Yêu Sau Tôi Kết Hôn Chớp Nhoáng Với Cô Nàng Tiểu Thuyết Gia Tĩnh Lặng| MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=IAjDy6lRvjg",
+          "id": "IAjDy6lRvjg",
+          "duration": 9706,
+          "durationStr": "2:41:46",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 4602,
+          "likes": 86,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6655",
+      "title": "[Full] Bị Bạn Gái Đá Tôi Thức Tỉnh Hệ Thống Hoàn Tiền, Lái Xe Điện Trở Thành Thần Hào! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7341,
+      "totalDurationStr": "2 giờ 02 phút",
+      "totalViews": 3953,
+      "totalLikes": 61,
+      "review": "📽Phim: [Full] Bị Bạn Gái Đá Tôi Thức Tỉnh Hệ Thống Hoàn Tiền, Lái Xe Điện Trở Thành Thần Hào! | MyCherrySub Tóm tắt: Nam chính Giang Dã, một tài xế chạy xe điện nghèo khó, bị cô bạn gái thực dụng Liễu Như Yên phũ phàng vứt bỏ để chạy theo gã nhà giàu mới nổi. Ngay trong lúc bị sỉ nhục và đạp dưới đáy xã hội, anh bất ngờ thức tỉnh \"Hệ thống hoàn tiền vạn...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Xfp-v-bKmBg/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Bạn Gái Đá Tôi Thức Tỉnh Hệ Thống Hoàn Tiền, Lái Xe Điện Trở Thành Thần Hào! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=Xfp-v-bKmBg",
+          "id": "Xfp-v-bKmBg",
+          "duration": 7341,
+          "durationStr": "2:02:21",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 3953,
+          "likes": 61,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6656",
+      "title": "[Full] Bỗng Thức Tỉnh Hệ Thống Hoàn Tiền Tôi Tự Lập Công Ty Trở Thành Ông Chủ Có Tâm! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11446,
+      "totalDurationStr": "3 giờ 10 phút",
+      "totalViews": 3410,
+      "totalLikes": 43,
+      "review": "📽Phim: [Full] Bỗng Thức Tỉnh Hệ Thống Hoàn Tiền Tôi Tự Lập Công Ty Trở Thành Ông Chủ Có Tâm! | MyCherrySub Tóm tắt: Nam chính Lâm Triệt, một nhân viên văn phòng vừa nghỉ việc do bị bóc lột thì bất ngờ kích hoạt \"Hệ thống Hoàn tiền Doanh nhân Có tâm\". Để nhận được khoản tiền hoàn lại khổng lồ từ hệ thống, anh mở công ty game Tinh Hán với đãi ngộ không...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Ym2oJkvp95I/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bỗng Thức Tỉnh Hệ Thống Hoàn Tiền Tôi Tự Lập Công Ty Trở Thành Ông Chủ Có Tâm! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=Ym2oJkvp95I",
+          "id": "Ym2oJkvp95I",
+          "duration": 11446,
+          "durationStr": "3:10:46",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 3410,
+          "likes": 43,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6657",
+      "title": "[Full] Tình Cảm 7 Năm Bị Đem Ra Cá Cược Tôi Quay Đầu Cưới Luôn Thanh Mai Trúc Mã! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6455,
+      "totalDurationStr": "1 giờ 47 phút",
+      "totalViews": 4413,
+      "totalLikes": 61,
+      "review": "📽Phim: [Full] Tình Cảm 7 Năm Bị Đem Ra Cá Cược Tôi Quay Đầu Cưới Luôn Thanh Mai Trúc Mã! | MyCherrySub Tóm tắt: Lục Xuyên và Hứa Tình đã ở bên nhau 7 năm. Trong khi Lục Xuyên dồn hết tâm huyết chuẩn bị cho đám cưới, Hứa Tình lại coi nhẹ tình cảm đó, mang ngày cưới ra đánh cược trong một cuộc đua xe để thỏa mãn sự hiếu thắng. Quá thất vọng trước sự ích kỷ...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/jSB9eblICEo/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Tình Cảm 7 Năm Bị Đem Ra Cá Cược Tôi Quay Đầu Cưới Luôn Thanh Mai Trúc Mã! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=jSB9eblICEo",
+          "id": "jSB9eblICEo",
+          "duration": 6455,
+          "durationStr": "1:47:35",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 4413,
+          "likes": 61,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6658",
+      "title": "[Full] Trùng sinh về năm 18 tuổi, Đại Hoa Khôi Cùng Bàn Bám Lấy Tôi Không Buông! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9681,
+      "totalDurationStr": "2 giờ 41 phút",
+      "totalViews": 7257,
+      "totalLikes": 168,
+      "review": "📽Phim: [Full] Trùng sinh về năm 18 tuổi, Đại Hoa Khôi Cùng Bàn Bám Lấy Tôi Không Buông! | MyCherrySub Tóm tắt: Kiếp trước, Lâm Nhiên vì cứu đại hoa khôi Tô Thanh Yên mà đánh đổi cả tính mạng. Cùng lúc trùng sinh về năm 18 tuổi, Lâm Nhiên – mang theo linh hồn của người đàn ông 34 tuổi – quyết tâm không làm \"chó liếm\" cho cô nàng đào mỏ Thẩm Linh San nữa....",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/J0KKW--NIbY/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trùng sinh về năm 18 tuổi, Đại Hoa Khôi Cùng Bàn Bám Lấy Tôi Không Buông! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=J0KKW--NIbY",
+          "id": "J0KKW--NIbY",
+          "duration": 9681,
+          "durationStr": "2:41:21",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 7257,
+          "likes": 168,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6659",
+      "title": "[Full] Thi Nhau Giả Nghèo Thái Tử Gia Là Tôi Cùng Đại Tiểu Thư Về Chung 1 Mái Nhà! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5549,
+      "totalDurationStr": "1 giờ 32 phút",
+      "totalViews": 5160,
+      "totalLikes": 92,
+      "review": "📽Phim: [Full] Thi Nhau Giả Nghèo Thái Tử Gia Là Tôi Cùng Đại Tiểu Thư Về Chung 1 Mái Nhà! | MyCherrySub Tóm tắt: Nam chính Hứa An, con trai gia tộc tỷ phú thủ đô, bị mẹ cắt toàn bộ viện trợ để thử thách sống nghèo khổ trong 4 năm. Trôi dạt đến Lư Thành với vỏn vẹn 100 tệ trong túi, anh suýt phải ngủ ngoài công viên thì tình cờ được Tô Vũ - một cô gái...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/dFHsKr-cz6c/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Thi Nhau Giả Nghèo Thái Tử Gia Là Tôi Cùng Đại Tiểu Thư Về Chung 1 Mái Nhà! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=dFHsKr-cz6c",
+          "id": "dFHsKr-cz6c",
+          "duration": 5549,
+          "durationStr": "1:32:29",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 5160,
+          "likes": 92,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6660",
+      "title": "[Full] Bị Ép Cưới Nữ Tỷ Phú, Chàng Thủ Khoa Nghèo Là Tôi Bắt Đầu Cuộc Sống \"Ăn Bám\"! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12254,
+      "totalDurationStr": "3 giờ 24 phút",
+      "totalViews": 7052,
+      "totalLikes": 151,
+      "review": "📽Phim: [Full] Bị Ép Cưới Nữ Tỷ Phú, Chàng Thủ Khoa Nghèo Là Tôi Bắt Đầu Cuộc Sống \"Ăn Bám\"! | MyCherrySub Tóm tắt: Nam chính Lạc Diệp – một nam sinh 18 tuổi xuất thân từ vùng quê nghèo, mang theo danh hiệu thủ khoa đại học lên Kinh Đô nhập học với ước mơ giản dị là học hành và làm thêm kiếm tiền phụ giúp gia đình. Thế nhưng, sự ngây thơ của chàng tân...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/2jyJxdWDg-s/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Ép Cưới Nữ Tỷ Phú, Chàng Thủ Khoa Nghèo Là Tôi Bắt Đầu Cuộc Sống \"Ăn Bám\"! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=2jyJxdWDg-s",
+          "id": "2jyJxdWDg-s",
+          "duration": 12254,
+          "durationStr": "3:24:14",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 7052,
+          "likes": 151,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6661",
+      "title": "[Full] Trùng Sinh Bị Bạn Gái Cũ Quấn Lấy, Tôi Quay Xe Chọn Ngay Cô Thanh Mai Làm Vợ! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10626,
+      "totalDurationStr": "2 giờ 57 phút",
+      "totalViews": 5400,
+      "totalLikes": 103,
+      "review": "📽Phim: [Full] Trùng Sinh Bị Bạn Gái Cũ Quấn Lấy, Tôi Quay Xe Chọn Ngay Cô Thanh Mai Làm Vợ! | MyCherrySub Tóm tắt: Nam chính Yến Thúc bất ngờ trùng sinh về thời cấp 3, rơi đúng vào khoảnh khắc đụng độ giữa cô bạn gái cũ rắc rối Kim Lệ Lệ và cô bạn thanh mai trúc mã Từ Minh Nhiễm (Tiểu Nhĩ Đóa) – người vợ tương lai của cậu. Nhận ra những sai lầm phung phí...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/8LbtDesY4Bo/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trùng Sinh Bị Bạn Gái Cũ Quấn Lấy, Tôi Quay Xe Chọn Ngay Cô Thanh Mai Làm Vợ! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=8LbtDesY4Bo",
+          "id": "8LbtDesY4Bo",
+          "duration": 10626,
+          "durationStr": "2:57:06",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 5400,
+          "likes": 103,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6662",
+      "title": "[Full] Ngày Đầu Nhập Học Tôi Liền Bị Nữ Giáo Sư Băng Lãnh Ép Đi Đăng Ký Kết Hôn! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10570,
+      "totalDurationStr": "2 giờ 56 phút",
+      "totalViews": 8329,
+      "totalLikes": 176,
+      "review": "📽Phim: [Full] Ngày Đầu Nhập Học Tôi Liền Bị Nữ Giáo Sư Băng Lãnh Ép Đi Đăng Ký Kết Hôn! | MyCherrySub Tóm tắt: Nam chính Phương Du, một thiếu gia nhà giàu (phú nhị đại) nhưng bị gia đình giấu giếm thân phận và chỉ chu cấp cho một khoản sinh hoạt phí ít ỏi, chuẩn bị bước vào cuộc sống sinh viên năm nhất tại Đại học Giang Thành. Trớ trêu thay, trong một sự...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/b6-NZtD9ea8/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Ngày Đầu Nhập Học Tôi Liền Bị Nữ Giáo Sư Băng Lãnh Ép Đi Đăng Ký Kết Hôn! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=b6-NZtD9ea8",
+          "id": "b6-NZtD9ea8",
+          "duration": 10570,
+          "durationStr": "2:56:10",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 8329,
+          "likes": 176,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6663",
+      "title": "[Full] Xuyên Không Đối Tượng Xem Mắt Của Tôi Lại Chính Là Cô Giáo Đại Học Lạnh Lùng! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5782,
+      "totalDurationStr": "1 giờ 36 phút",
+      "totalViews": 4002,
+      "totalLikes": 53,
+      "review": "📽Phim: [Full] Xuyên Không Đối Tượng Xem Mắt Của Tôi Lại Chính Là Cô Giáo Đại Học Lạnh Lùng! | MyCherrySub Tóm tắt: Lâm Nghị, một thanh niên sau khi xuyên không đến thế giới Lam Tinh đã bất đắc dĩ bị gia đình giục cưới và đi xem mắt với Lạc Thanh Hàm – nữ giáo sư đại học từng cho cậu rớt môn chuyên ngành. Trái với những lo âu ban đầu, cả hai nhanh chóng...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/BZEMRhd0vNs/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xuyên Không Đối Tượng Xem Mắt Của Tôi Lại Chính Là Cô Giáo Đại Học Lạnh Lùng! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=BZEMRhd0vNs",
+          "id": "BZEMRhd0vNs",
+          "duration": 5782,
+          "durationStr": "1:36:22",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 4002,
+          "likes": 53,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6664",
+      "title": "[Full] Hết Hạn Hợp Đồng Tôi Không Làm Liếm Cẩu Nữa Nhưng Hoa Khôi Lại Gấp Rồi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11289,
+      "totalDurationStr": "3 giờ 08 phút",
+      "totalViews": 10794,
+      "totalLikes": 219,
+      "review": "📽Phim: [Full] Hết Hạn Hợp Đồng Tôi Không Làm Liếm Cẩu Nữa Nhưng Hoa Khôi Lại Gấp Rồi! | MyCherrySub Tóm tắt: Nam chính Lục Tinh, một thanh niên có hoàn cảnh khó khăn, được một vị tỷ phú thuê với giá cao để làm vệ sĩ ngầm bảo vệ con gái ông — hoa khôi lạnh lùng Ngụy Thanh Ngư. Để che mắt thiên hạ, Lục Tinh chấp nhận đóng vai một kẻ si tình (liếm cẩu), vứt...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/6LGWQuE4iZA/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Hết Hạn Hợp Đồng Tôi Không Làm Liếm Cẩu Nữa Nhưng Hoa Khôi Lại Gấp Rồi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=6LGWQuE4iZA",
+          "id": "6LGWQuE4iZA",
+          "duration": 11289,
+          "durationStr": "3:08:09",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 10794,
+          "likes": 219,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6665",
+      "title": "[Full] Tỏ Tình 99 Lần Bị Thẳng Thừng Từ Chối Tôi Quyết Tâm Lựa Chọn Rời Đi ! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5823,
+      "totalDurationStr": "1 giờ 37 phút",
+      "totalViews": 15200,
+      "totalLikes": 144,
+      "review": "📽Phim: [Full] Tỏ Tình 99 Lần Bị Thẳng Thừng Từ Chối Tôi Quyết Tâm Lựa Chọn Rời Đi ! | MyCherrySub Tóm tắt: Nam chính Giang Diên Xuyên ròng rã theo đuổi hoa khôi Hứa Tri Ý suốt hai năm, nhẫn nhục chịu đựng 99 lần bị cự tuyệt phũ phàng cùng sự chế giễu của bạn học. Ngay trước thềm lần tỏ tình thứ 100, anh vô tình nhặt được điện thoại của cô và phát hiện...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/J01Jw4tpzXQ/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Tỏ Tình 99 Lần Bị Thẳng Thừng Từ Chối Tôi Quyết Tâm Lựa Chọn Rời Đi ! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=J01Jw4tpzXQ",
+          "id": "J01Jw4tpzXQ",
+          "duration": 5823,
+          "durationStr": "1:37:03",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 15200,
+          "likes": 144,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6666",
+      "title": "[Full] Đỉnh Cấp Hào Môn Chống Lưng, Thật Thiếu Gia Là Tôi Đây Đi Ngang Trở Về ! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 4943,
+      "totalDurationStr": "1 giờ 22 phút",
+      "totalViews": 5845,
+      "totalLikes": 94,
+      "review": "📽Phim: [Full] Đỉnh Cấp Hào Môn Chống Lưng, Thật Thiếu Gia Là Tôi Đây Đi Ngang Trở Về ! | MyCherrySub Tóm tắt: Nam chính Thẩm Yến, thiếu gia ruột của nhà họ Thẩm, chính thức bước chân về hào môn sau 22 năm lưu lạc. Ban đầu, anh cứ ngỡ sẽ phải đối đầu với kịch bản tranh giành gia sản máu chó, nhưng thiếu gia giả Thẩm Nghị lại là một kẻ khờ khạo khét tiếng,...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/5vTCQi0ZL5Q/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Đỉnh Cấp Hào Môn Chống Lưng, Thật Thiếu Gia Là Tôi Đây Đi Ngang Trở Về ! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=5vTCQi0ZL5Q",
+          "id": "5vTCQi0ZL5Q",
+          "duration": 4943,
+          "durationStr": "1:22:23",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 5845,
+          "likes": 94,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6667",
+      "title": "[Full] Vô Tình Cùng Hoa Khôi Hoán Đổi Giác Quan Tôi Bỗng Thức Tỉnh Hệ Thống Thần Cấp! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9918,
+      "totalDurationStr": "2 giờ 45 phút",
+      "totalViews": 4677,
+      "totalLikes": 93,
+      "review": "📽Phim: [Full] Vô Tình Cùng Hoa Khôi Hoán Đổi Giác Quan Tôi Bỗng Thức Tỉnh Hệ Thống Thần Cấp! | MyCherrySub Tóm tắt: Nam chính Diệp Phàm, một sinh viên đại học bình thường. Trong một lần liều mình nhảy xuống nước cứu hoa khôi của trường là Mộc Tâm Từ, cả hai vô tình bị \"hoán đổi giác quan\" (vị giác, khứu giác, xúc giác). Tình huống trớ trêu này dẫn đến vô...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/CnR3v1vrOKw/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Vô Tình Cùng Hoa Khôi Hoán Đổi Giác Quan Tôi Bỗng Thức Tỉnh Hệ Thống Thần Cấp! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=CnR3v1vrOKw",
+          "id": "CnR3v1vrOKw",
+          "duration": 9918,
+          "durationStr": "2:45:18",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 4677,
+          "likes": 93,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6668",
+      "title": "[Full] Sau Khi Tỏ Tình Bị Thanh Mai Từ Chối Tôi Quay Xe Yêu Luôn Chị Gái Của Bạn Thân! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9675,
+      "totalDurationStr": "2 giờ 41 phút",
+      "totalViews": 10055,
+      "totalLikes": 260,
+      "review": "📽Phim: [Full] Sau Khi Tỏ Tình Bị Thanh Mai Từ Chối Tôi Quay Xe Yêu Luôn Chị Gái Của Bạn Thân! | MyCherrySub Tóm tắt: Nam chính Hà Cụ dành trọn 10 năm thanh xuân để theo đuổi cô bạn thanh mai trúc mã Tô Nhiên, chăm sóc cô từng li từng tí như vợ sắp cưới. Thế nhưng, trong ngày sinh nhật tuổi 20 của Tô Nhiên, lời tỏ tình chân thành của anh lại bị chối từ...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/iSWxX2i1gf8/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Sau Khi Tỏ Tình Bị Thanh Mai Từ Chối Tôi Quay Xe Yêu Luôn Chị Gái Của Bạn Thân! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=iSWxX2i1gf8",
+          "id": "iSWxX2i1gf8",
+          "duration": 9675,
+          "durationStr": "2:41:15",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 10055,
+          "likes": 260,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6669",
+      "title": "[Full] Sau Khi Gặp Tai Nạn Xe Mất Trí Nhớ Ký Ức Của Tôi Bị Dừng Lại Ở Tuổi 18! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5227,
+      "totalDurationStr": "1 giờ 27 phút",
+      "totalViews": 5091,
+      "totalLikes": 105,
+      "review": "📽Phim: [Full] Sau Khi Gặp Tai Nạn Xe Mất Trí Nhớ Ký Ức Của Tôi Bị Dừng Lại Ở Tuổi 18! | MyCherrySub Tóm tắt: Nam chính Phó Thời Thâm - tổng tài 24 tuổi cấm dục, lạnh lùng của tập đoàn Phó Thị - vừa lạnh nhạt đề nghị ly hôn với người vợ chung sống suốt một năm là Lâm Chí Uyển. Không ngờ, một vụ tai nạn xe hơi bất ngờ xảy ra khiến anh mất đi 6 năm ký ức,...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/BWYcN3UzNzM/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Sau Khi Gặp Tai Nạn Xe Mất Trí Nhớ Ký Ức Của Tôi Bị Dừng Lại Ở Tuổi 18! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=BWYcN3UzNzM",
+          "id": "BWYcN3UzNzM",
+          "duration": 5227,
+          "durationStr": "1:27:07",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 5091,
+          "likes": 105,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6670",
+      "title": "[Full] Sau Khi Đá Văng Bạn Gái Đào Mỏ Tôi Vô Tình Chữa Khỏi \"Tâm Bệnh\" Cho Nữ Thần! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10399,
+      "totalDurationStr": "2 giờ 53 phút",
+      "totalViews": 5893,
+      "totalLikes": 129,
+      "review": "📽Phim: [Full] Sau Khi Đá Văng Bạn Gái Đào Mỏ Tôi Vô Tình Chữa Khỏi \"Tâm Bệnh\" Cho Nữ Thần! | MyCherrySub Tóm tắt: Nam chính Phương Yến Châu, một họa sĩ truyện tranh sở hữu hàng triệu fan, quyết định chấm dứt chuỗi ngày làm \"kẻ lụy tình\" khi nhìn thấu bản chất đào mỏ và sự phản bội của cô bạn gái Trương Tiểu Hà sau 3 năm dốc lòng chu cấp. Trương Tiểu Hà...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/B71BEdc2LN8/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Sau Khi Đá Văng Bạn Gái Đào Mỏ Tôi Vô Tình Chữa Khỏi \"Tâm Bệnh\" Cho Nữ Thần! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=B71BEdc2LN8",
+          "id": "B71BEdc2LN8",
+          "duration": 10399,
+          "durationStr": "2:53:19",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 5893,
+          "likes": 129,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6671",
+      "title": "[Full] Bị Trói Buộc Hệ Thống Ép Yêu Tôi Vô Tình Biến Thành Kẻ Thế Thân Cho Con Chó! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10239,
+      "totalDurationStr": "2 giờ 50 phút",
+      "totalViews": 3699,
+      "totalLikes": 74,
+      "review": "📽Phim: [Full] Bị Trói Buộc Hệ Thống Ép Yêu Tôi Vô Tình Biến Thành Kẻ Thế Thân Cho Con Chó! | MyCherrySub Tóm tắt: Nam chính Lữ Toàn, một nam sinh vô cùng bình thường, bất ngờ bị trói định với \"Hệ thống Goblin nghịch tập\" cùng hình phạt tàn khốc: phải tìm được một người con gái yêu mình thật lòng trong vòng 1 tháng, nếu không sẽ cô độc đến già. Đường...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/T-XhZf_AokE/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Trói Buộc Hệ Thống Ép Yêu Tôi Vô Tình Biến Thành Kẻ Thế Thân Cho Con Chó! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=T-XhZf_AokE",
+          "id": "T-XhZf_AokE",
+          "duration": 10239,
+          "durationStr": "2:50:39",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 3699,
+          "likes": 74,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6672",
+      "title": "[Full] Bị Bạn Gái Đá Tôi Bỗng Thức Tỉnh Hệ Thống Vả Mặt Bỏ Túi 100 Triệu Tệ Mỗi Ngày! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10588,
+      "totalDurationStr": "2 giờ 56 phút",
+      "totalViews": 4698,
+      "totalLikes": 100,
+      "review": "📽Phim: [Full] Bị Bạn Gái Đá Tôi Bỗng Thức Tỉnh Hệ Thống Vả Mặt Bỏ Túi 100 Triệu Tệ Mỗi Ngày! | MyCherrySub 🚀 Mọi người xem phim vui vẻ nhé ạ! 🚧 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện ❌Vui lòng không reup dưới mọi hình thức. ❗Thumbnails are for illustrative purposes only regarding the story content. ❓The...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Aze4GjptO44/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Bạn Gái Đá Tôi Bỗng Thức Tỉnh Hệ Thống Vả Mặt Bỏ Túi 100 Triệu Tệ Mỗi Ngày! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=Aze4GjptO44",
+          "id": "Aze4GjptO44",
+          "duration": 10588,
+          "durationStr": "2:56:28",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 4698,
+          "likes": 100,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6673",
+      "title": "[Full] Bỗng Dưng Nghe Được Tiếng Lòng, Hoa Khôi Cao Lãnh Hóa Ra Lại Cuồng Si Tôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10288,
+      "totalDurationStr": "2 giờ 51 phút",
+      "totalViews": 5961,
+      "totalLikes": 132,
+      "review": "📽Phim: [Full] Bỗng Dưng Nghe Được Tiếng Lòng, Hoa Khôi Cao Lãnh Hóa Ra Lại Cuồng Si Tôi! | MyCherrySub Tóm tắt: Diệp Thần vốn là một nam sinh mồ côi, sống nương nhờ nhà người dì ruột tệ bạc – những kẻ âm thầm chiếm đoạt tiền tử tuất của bố mẹ cậu. Suốt một thời gian dài, Diệp Thần bị ép phải nhẫn nhục, làm \"kẻ theo đuôi\" phục tùng mọi yêu sách của cô...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/k3atLNrVcM8/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bỗng Dưng Nghe Được Tiếng Lòng, Hoa Khôi Cao Lãnh Hóa Ra Lại Cuồng Si Tôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=k3atLNrVcM8",
+          "id": "k3atLNrVcM8",
+          "duration": 10288,
+          "durationStr": "2:51:28",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 5961,
+          "likes": 132,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6674",
+      "title": "[Full] Tỉnh Ngộ Sau 7 Năm Làm Liếm Cẩu Tôi Quay Xe Chọn Yêu Cô Gái Nghèo Hiểu Chuyện! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13451,
+      "totalDurationStr": "3 giờ 44 phút",
+      "totalViews": 7214,
+      "totalLikes": 180,
+      "review": "📽Phim: [Full] Tỉnh Ngộ Sau 7 Năm Làm Liếm Cẩu Tôi Quay Xe Chọn Yêu Cô Gái Nghèo Hiểu Chuyện! | MyCherrySub Tóm tắt: Trần Mặc dành trọn 7 năm thanh xuân để theo đuổi Mộc Vũ Nhu nhưng chỉ nhận lại sự vô tâm, phũ phàng và kiêu ngạo. Sự tuyệt vọng giúp anh tỉnh ngộ, quyết định buông tay và chấm dứt chuỗi ngày làm \"liếm cẩu\" hèn mọn. Đúng lúc trái tim nguội...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/zyN5VThAc8g/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Tỉnh Ngộ Sau 7 Năm Làm Liếm Cẩu Tôi Quay Xe Chọn Yêu Cô Gái Nghèo Hiểu Chuyện! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=zyN5VThAc8g",
+          "id": "zyN5VThAc8g",
+          "duration": 13451,
+          "durationStr": "3:44:11",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 7214,
+          "likes": 180,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6675",
+      "title": "[Full] Thưởng Tết Bị Vắt Còn 19 Ngàn Tệ Tôi Bắt Công Ty Trả Giá Bằng Hợp Đồng 30 Tỷ! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9770,
+      "totalDurationStr": "2 giờ 42 phút",
+      "totalViews": 3175,
+      "totalLikes": 42,
+      "review": "📽Phim: [Full] Thưởng Tết Bị Vắt Còn 19 Ngàn Tệ Tôi Bắt Công Ty Trả Giá Bằng Hợp Đồng 30 Tỷ! | MyCherrySub 🚀 Mọi người xem phim vui vẻ nhé ạ! 🚧 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện ❌Vui lòng không reup dưới mọi hình thức. ❗Thumbnails are for illustrative purposes only regarding the story content. ❓The...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/YhvEHjIyi5g/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Thưởng Tết Bị Vắt Còn 19 Ngàn Tệ Tôi Bắt Công Ty Trả Giá Bằng Hợp Đồng 30 Tỷ! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=YhvEHjIyi5g",
+          "id": "YhvEHjIyi5g",
+          "duration": 9770,
+          "durationStr": "2:42:50",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 3175,
+          "likes": 42,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6676",
+      "title": "[Full] Oan Gia Ngõ Hẹp: Bố Già Gài Bẫy Ép Tôi Phải Nuôi Đại Tiểu Thư Bị Phá Sản! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 15976,
+      "totalDurationStr": "4 giờ 26 phút",
+      "totalViews": 6625,
+      "totalLikes": 120,
+      "review": "📽Phim: [Full] Oan Gia Ngõ Hẹp: Bố Già Gài Bẫy Ép Tôi Phải Nuôi Đại Tiểu Thư Bị Phá Sản! | MyCherrySub Tóm tắt: Tiền Tranh, một nhân viên IT với mức lương cơ bản, bất ngờ bị chính người cha ruột giàu có của mình \"gài bẫy\". Lấy cớ phá sản phải trốn ra nước ngoài, người cha ép anh nhận một căn hộ cao cấp, một chiếc BMW X5 cũ cùng nhiệm vụ oái oăm: cưu mang...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/YvYiq2UyRqA/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Oan Gia Ngõ Hẹp: Bố Già Gài Bẫy Ép Tôi Phải Nuôi Đại Tiểu Thư Bị Phá Sản! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=YvYiq2UyRqA",
+          "id": "YvYiq2UyRqA",
+          "duration": 15976,
+          "durationStr": "4:26:16",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 6625,
+          "likes": 120,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6677",
+      "title": "[Full] Đường Đường Là Nam Quyền Vương Sàn Đấu Hệ Thống Lại Ép Tôi Trở Thành Hoa Khôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5268,
+      "totalDurationStr": "1 giờ 27 phút",
+      "totalViews": 3914,
+      "totalLikes": 90,
+      "review": "📽Phim: [Full] Đường Đường Là Nam Quyền Vương Sàn Đấu Hệ Thống Lại Ép Tôi Trở Thành Hoa Khôi! | MyCherrySub Tóm tắt: Cố Bắc Thần là một tân sinh viên năm nhất sở hữu vẻ ngoài thanh tú, giọng nói êm ái khiến ai cũng lầm tưởng cậu là nữ. Tuy nhiên, thân phận thật của cậu là \"Diêm Vương\" – tay đấm bốc khét tiếng bước ra từ sàn quyền anh chợ đen ngầm từ năm...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/ksfuyEABFck/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Đường Đường Là Nam Quyền Vương Sàn Đấu Hệ Thống Lại Ép Tôi Trở Thành Hoa Khôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=ksfuyEABFck",
+          "id": "ksfuyEABFck",
+          "duration": 5268,
+          "durationStr": "1:27:48",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 3914,
+          "likes": 90,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6678",
+      "title": "[Full] Trùng Sinh Tôi Vả Mặt Bạn Gái Cũ Trà Xanh Quyết Không Làm Lốp Dự Phòng Nữa! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11278,
+      "totalDurationStr": "3 giờ 07 phút",
+      "totalViews": 5505,
+      "totalLikes": 137,
+      "review": "📽Phim: [Full] Trùng Sinh Tôi Vả Mặt Bạn Gái Cũ Trà Xanh Quyết Không Làm Lốp Dự Phòng Nữa! | MyCherrySub Tóm tắt: Lâm Diên Châu, người thừa kế duy nhất của tập đoàn Lâm thị, từng mù quáng làm \"lốp dự phòng\" suốt 3 năm cho Giản Nhiên. Anh dốc cạn tài sản, chịu đựng uất ức để chu cấp cho cô ta và \"ánh trăng sáng\" Tề Thân, hệ lụy khiến gia đình khuynh gia...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/5xlt3hkIFi0/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trùng Sinh Tôi Vả Mặt Bạn Gái Cũ Trà Xanh Quyết Không Làm Lốp Dự Phòng Nữa! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=5xlt3hkIFi0",
+          "id": "5xlt3hkIFi0",
+          "duration": 11278,
+          "durationStr": "3:07:58",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 5505,
+          "likes": 137,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6679",
+      "title": "[Full] Oan Gia Vườn Trường: Đại Hoa Khôi Hóa Ra Là Phú Bà Bao Nuôi Tôi Trong Game! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9702,
+      "totalDurationStr": "2 giờ 41 phút",
+      "totalViews": 5328,
+      "totalLikes": 107,
+      "review": "📽Phim: [Full] Oan Gia Vườn Trường: Đại Hoa Khôi Hóa Ra Là Phú Bà Bao Nuôi Tôi Trong Game! | MyCherrySub Tóm tắt: Lục Thập - một nam sinh nghèo, cứng đầu, thường ngày phải làm thêm vất vả nhưng thực chất lại là đại thần Top 1 server game mang ID \"Sơn Hải Bất Từ\". Ở ngoài đời, anh có một mối \"thâm thù\" với hoa khôi nhà giàu Ôn Dĩ Ninh, nguyên nhân chỉ vì...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/_1zugAK9_98/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Oan Gia Vườn Trường: Đại Hoa Khôi Hóa Ra Là Phú Bà Bao Nuôi Tôi Trong Game! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=_1zugAK9_98",
+          "id": "_1zugAK9_98",
+          "duration": 9702,
+          "durationStr": "2:41:42",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 5328,
+          "likes": 107,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6680",
+      "title": "[Full] Gánh Khoản Nợ 8 Triệu Tệ, Tôi Bỗng Thức Tỉnh Được Hệ Thống Giám Định Hàng Hiệu! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10568,
+      "totalDurationStr": "2 giờ 56 phút",
+      "totalViews": 7527,
+      "totalLikes": 164,
+      "review": "📽Phim: [Full] Gánh Khoản Nợ 8 Triệu Tệ, Tôi Bỗng Thức Tỉnh Được Hệ Thống Giám Định Hàng Hiệu! | MyCherrySub Tóm tắt: Vừa thi đại học xong, nam chính Trần Lãng bất ngờ phải kế thừa một cửa hàng đồ xa xỉ cũ cùng khoản nợ khổng lồ lên tới 8 triệu tệ. Tưởng chừng rơi vào ngõ cụt, cậu bất ngờ thức tỉnh một \"Hệ thống Thu hồi Đồ xa xỉ\" mang lại các kỹ năng giám...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Kx4l1IRjmL8/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Gánh Khoản Nợ 8 Triệu Tệ, Tôi Bỗng Thức Tỉnh Được Hệ Thống Giám Định Hàng Hiệu! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=Kx4l1IRjmL8",
+          "id": "Kx4l1IRjmL8",
+          "duration": 10568,
+          "durationStr": "2:56:08",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 7527,
+          "likes": 164,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6681",
+      "title": "[Full] Oan Gia Ngoc Hẹp: Đi Xem Mắt Đối Tượng Hẹn Gặp Lại Là Cô Giáo Cũ Của Tôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9751,
+      "totalDurationStr": "2 giờ 42 phút",
+      "totalViews": 6866,
+      "totalLikes": 167,
+      "review": "📽Phim: [Full] Oan Gia Ngoc Hẹp: Đi Xem Mắt Đối Tượng Hẹn Gặp Lại Là Cô Giáo Cũ Của Tôi! | MyCherrySub Tóm tắt: Nam chính Chu Giai – một chàng trai trẻ bị mẹ ép đi xem mắt vào ngày nghỉ cuối tuần. Định mệnh trớ trêu, đối tượng xem mắt (do sự nhầm lẫn) lại chính là cô Trần, giáo viên chủ nhiệm môn Ngữ Văn thời cấp ba của cậu. Cả hai ban đầu đều rất bối rối...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/KsIxckkw2Mc/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Oan Gia Ngoc Hẹp: Đi Xem Mắt Đối Tượng Hẹn Gặp Lại Là Cô Giáo Cũ Của Tôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=KsIxckkw2Mc",
+          "id": "KsIxckkw2Mc",
+          "duration": 9751,
+          "durationStr": "2:42:31",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 6866,
+          "likes": 167,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6682",
+      "title": "[Full] Rõ Ràng Có Nhan Sắc Nam Chính Nhưng Hệ Thống Lại Bắt Tôi Diễn Vai Quần Chúng! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11005,
+      "totalDurationStr": "3 giờ 03 phút",
+      "totalViews": 6037,
+      "totalLikes": 120,
+      "review": "📽Phim: [Full] Rõ Ràng Có Nhan Sắc Nam Chính Nhưng Hệ Thống Lại Bắt Tôi Diễn Vai Quần Chúng! | MyCherrySub Tóm tắt: Nam chính Tống Thế An, một thanh niên đột tử vì làm việc quá sức, bất ngờ xuyên không vào thân xác của một diễn viên tuyến 18 đang ngập trong nợ nần do bị công ty quản lý chèn ép. Cùng lúc đó, cậu thức tỉnh \"Hệ thống diễn xuất pháo hôi\"....",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/KIDuR5Qaigo/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Rõ Ràng Có Nhan Sắc Nam Chính Nhưng Hệ Thống Lại Bắt Tôi Diễn Vai Quần Chúng! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=KIDuR5Qaigo",
+          "id": "KIDuR5Qaigo",
+          "duration": 11005,
+          "durationStr": "3:03:25",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 6037,
+          "likes": 120,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6683",
+      "title": "[Full] Xuyên Không Về Năm 1966 Tôi Dẫn Dắt Gia Tộc Nhà Vợ Thoát Khỏi Hạo Kiếp! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13658,
+      "totalDurationStr": "3 giờ 47 phút",
+      "totalViews": 4491,
+      "totalLikes": 105,
+      "review": "📽Phim: [Full] Xuyên Không Về Năm 1966 Tôi Dẫn Dắt Gia Tộc Nhà Vợ Thoát Khỏi Hạo Kiếp! | MyCherrySub Tóm tắt: Nối tiếp phần trước, sau khi hoàn thành cốt truyện. Tỉnh dậy nam chính Phương Chí Viễn bất ngờ xuyên không về thời điểm năm 1966, nhập vào thân xác một chàng trai 18 tuổi vừa tốt nghiệp cấp ba. Anh phát hiện mình đang làm rể tại gia tộc họ Giang...",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/toR_33QrUEc/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xuyên Không Về Năm 1966 Tôi Dẫn Dắt Gia Tộc Nhà Vợ Thoát Khỏi Hạo Kiếp! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=toR_33QrUEc",
+          "id": "toR_33QrUEc",
+          "duration": 13658,
+          "durationStr": "3:47:38",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 4491,
+          "likes": 105,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6684",
+      "title": "[Full] Đi Bán Cơm Chiên Thiếu Gia Tỷ Phú Bỏ Trốn Là Tôi Vô Tình Cưa Đổ Hoa Khôi Trường | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9738,
+      "totalDurationStr": "2 giờ 42 phút",
+      "totalViews": 6311,
+      "totalLikes": 131,
+      "review": "📽Phim: [Full] Đi Bán Cơm Chiên Thiếu Gia Tỷ Phú Bỏ Trốn Là Tôi Vô Tình Cưa Đổ Hoa Khôi Trường! | MyCherrySub Tóm tắt: Nam chính Lâm Bắc là con trai của một chủ tịch tập đoàn tỷ phú nhưng kiên quyết từ chối kế thừa gia sản, chọn cách giả nghèo và mở sạp bán cơm chiên vỉa hè tại trường đại học để tự lập. Mặc dù luôn muốn sống yên bình, nhưng sự điềm tĩnh,...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/3RJaHy7u40w/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Đi Bán Cơm Chiên Thiếu Gia Tỷ Phú Bỏ Trốn Là Tôi Vô Tình Cưa Đổ Hoa Khôi Trường | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=3RJaHy7u40w",
+          "id": "3RJaHy7u40w",
+          "duration": 9738,
+          "durationStr": "2:42:18",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 6311,
+          "likes": 131,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6685",
+      "title": "[Full] Trọng Sinh Học Thần Là Tôi Bị Hệ Thống Ép Phải Đi Ăn Bám Bạch Phú Mỹ! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11321,
+      "totalDurationStr": "3 giờ 08 phút",
+      "totalViews": 10995,
+      "totalLikes": 314,
+      "review": "📽Phim: [Full] Trọng Sinh Học Thần Là Tôi Bị Hệ Thống Ép Phải Đi Ăn Bám Bạch Phú Mỹ! | MyCherrySub Tóm tắt: Nam chính Phương Chí Viễn trói buộc với \"Hệ thống Ăn bám\" (9527) nhưng lại xui xẻo bốc trúng thiết lập nhân vật \"Mọt sách\" – chỉ biết cắm đầu vào học, thanh cao không màng vật chất. Để mở khóa cửa hàng hệ thống và đổi lấy cuộc sống trong mơ, cậu...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/fMHy2vlj3uA/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trọng Sinh Học Thần Là Tôi Bị Hệ Thống Ép Phải Đi Ăn Bám Bạch Phú Mỹ! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=fMHy2vlj3uA",
+          "id": "fMHy2vlj3uA",
+          "duration": 11321,
+          "durationStr": "3:08:41",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 10995,
+          "likes": 314,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6579",
+      "title": "Full Phần 1 | Trẩm Thượng Dao Duệ - Hợp Đồng Tình Yêu & Âm Mưu 8 Năm Của Tổng Tài  | Lara Sub",
+      "channelId": "larasub22",
+      "channelName": "Lara Sub",
+      "channelUrl": "https://www.youtube.com/@larasub22",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7302,
+      "totalDurationStr": "2 giờ 01 phút",
+      "totalViews": 1618,
+      "totalLikes": 23,
+      "review": "Mô Tả Phim | Trẩm Thượng Dao Duệ - Hợp Đồng Tình Yêu & Âm Mưu 8 Năm Của Tổng Tài Người bạn trai yêu nhau nhiều năm đột ngột đề nghị chia tay. Lâm Sơ Đường còn chưa kịp đau lòng thì đã phải đối mặt với mâu thuẫn gia đình và khủng hoảng của công ty. Đúng lúc này, Thẩm Tứ – người thừa kế nhà họ Thẩm đã 8 năm không gặp – phô trương trở về nước, một lần nữa...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/iJACywgJ7LU/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+      "updatedAt": "2026-10-26T20:15:47.863441+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Trẩm Thượng Dao Duệ - Hợp Đồng Tình Yêu & Âm Mưu 8 Năm Của Tổng Tài  | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=iJACywgJ7LU",
+          "id": "iJACywgJ7LU",
+          "duration": 7302,
+          "durationStr": "2:01:42",
+          "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+          "views": 1618,
+          "likes": 23,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6580",
+      "title": "Full Phần 1 | Xuyên Sách Tôi Dành Cả Đời Để Che Chở Cho Em | Lara Sub",
+      "channelId": "larasub22",
+      "channelName": "Lara Sub",
+      "channelUrl": "https://www.youtube.com/@larasub22",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7807,
+      "totalDurationStr": "2 giờ 10 phút",
+      "totalViews": 896,
+      "totalLikes": 17,
+      "review": "Tóm Tắt Nội Dung Phim | Xuyên Sách Tôi Dành Cả Đời Để Che Chở Cho Em Trần Sở Sinh đột ngột xuyên vào một thế giới hoàn toàn mới, trở thành nhân vật phụ có số phận đầy trắc trở trong một cuốn sách. Không chấp nhận đi theo quỹ đạo câu chuyện đã được định sẵn, để có thể sống tốt hơn, anh chủ động tiến lại gần Lâm Tịch Nhan — một cô gái mang trong mình đầy...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/VZ3NbcgKcDs/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+      "updatedAt": "2026-10-26T20:15:47.863441+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Xuyên Sách Tôi Dành Cả Đời Để Che Chở Cho Em | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=VZ3NbcgKcDs",
+          "id": "VZ3NbcgKcDs",
+          "duration": 7807,
+          "durationStr": "2:10:07",
+          "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+          "views": 896,
+          "likes": 17,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6581",
+      "title": "Phần 1 | Theo Đuổi Lại Cô Vợ Cũ Và Ba Bảo Bối | Lara Sub",
+      "channelId": "larasub22",
+      "channelName": "Lara Sub",
+      "channelUrl": "https://www.youtube.com/@larasub22",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 21013,
+      "totalDurationStr": "5 giờ 50 phút",
+      "totalViews": 5277,
+      "totalLikes": 131,
+      "review": "Theo Đuổi Lại Cô Vợ Cũ Và Ba Bảo Bối — Tuyển tập hoạt hình 3D đặc sắc từ kênh Lara Sub.",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/1gt3f-tLzRg/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+      "updatedAt": "2026-10-26T20:15:47.863441+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1 | Theo Đuổi Lại Cô Vợ Cũ Và Ba Bảo Bối | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=1gt3f-tLzRg",
+          "id": "1gt3f-tLzRg",
+          "duration": 21013,
+          "durationStr": "5:50:13",
+          "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+          "views": 5277,
+          "likes": 131,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6584",
+      "title": "Phần 1 | Tiểu Thiên Kim 2 Tuổi Trở Về, Vừa Xuất Hiện Đã Làm Cả Nam Cung Gia Náo Loạn | Lara Sub",
+      "channelId": "larasub22",
+      "channelName": "Lara Sub",
+      "channelUrl": "https://www.youtube.com/@larasub22",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8303,
+      "totalDurationStr": "2 giờ 18 phút",
+      "totalViews": 3329,
+      "totalLikes": 51,
+      "review": "Tiểu Thiên Kim 2 Tuổi Trở Về, Vừa Xuất Hiện Đã Làm Cả Nam Cung Gia Náo Loạn — Tuyển tập hoạt hình 3D đặc sắc từ kênh Lara Sub.",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/FbfS_5rVUdU/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+      "updatedAt": "2026-10-26T20:15:47.863441+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1 | Tiểu Thiên Kim 2 Tuổi Trở Về, Vừa Xuất Hiện Đã Làm Cả Nam Cung Gia Náo Loạn | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=FbfS_5rVUdU",
+          "id": "FbfS_5rVUdU",
+          "duration": 8303,
+          "durationStr": "2:18:23",
+          "publishedAt": "2026-10-26T20:15:47.863441+00:00",
+          "views": 3329,
+          "likes": 51,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6567",
+      "title": "Tập Cuối Phần 1 | Xuyên Sách Thành Tên Thiếu Gia Phản Diện, Làm Lành Với Nữ Chính Để Sống Sót",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 8997,
+      "totalDurationStr": "2 giờ 29 phút",
+      "totalViews": 228391,
+      "totalLikes": 4164,
+      "review": "Tập Cuối Phần 1 | Xuyên Sách Thành Tên Thiếu Gia Phản Diện, Làm Lành Với Nữ Chính Để Sống Sót Đăng ký ủng hộ Egg Vietsub nhé !!! Ủng hộ tớ vài quả trứng 🥚🥚🥚 tại đây :",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Lhu1QI9brEU/hqdefault.jpg",
+      "publishedAt": "2026-08-27T20:15:47.671403+00:00",
+      "updatedAt": "2026-10-26T20:15:47.671403+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Tập Cuối Phần 1 | Xuyên Sách Thành Tên Thiếu Gia Phản Diện, Làm Lành Với Nữ Chính Để Sống Sót",
+          "url": "https://www.youtube.com/watch?v=Lhu1QI9brEU",
+          "id": "Lhu1QI9brEU",
+          "duration": 2689,
+          "durationStr": "44:49",
+          "publishedAt": "2026-08-27T20:15:47.671403+00:00",
+          "views": 131295,
+          "likes": 2343,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Phần 2 | Xuyên Sách Thành Tên Thiếu Gia Phản Diện | Tập 61 - 80",
+          "url": "https://www.youtube.com/watch?v=p2JfMFoXSBY",
+          "id": "p2JfMFoXSBY",
+          "duration": 1582,
+          "durationStr": "26:22",
+          "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+          "views": 25149,
+          "likes": 426,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 3,
+          "label": "Phần 2",
+          "title": "Phần 2 | Xuyên Sách Thành Tên Thiếu Gia Phản Diện | Tập 31 - 60",
+          "url": "https://www.youtube.com/watch?v=Io9Rk0xi9X4",
+          "id": "Io9Rk0xi9X4",
+          "duration": 2247,
+          "durationStr": "37:27",
+          "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+          "views": 29355,
+          "likes": 539,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 4,
+          "label": "Phần 2",
+          "title": "Phần 2 | Xuyên Sách Thành Tên Thiếu Gia Phản Diện | Tập 1 - 30",
+          "url": "https://www.youtube.com/watch?v=wo48WM7sJ8w",
+          "id": "wo48WM7sJ8w",
+          "duration": 2479,
+          "durationStr": "41:19",
+          "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+          "views": 42592,
+          "likes": 856,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        }
+      ],
+      "channelIds": [
+        "eggvietsub"
+      ]
+    },
+    {
+      "id": "film_6572",
+      "title": "Cô Bạn Thanh Mai Của Tôi HƠI Chiếm Hữu Và Cuồng Yêu | Tập 17 - 30",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 4663,
+      "totalDurationStr": "1 giờ 17 phút",
+      "totalViews": 180299,
+      "totalLikes": 1355,
+      "review": "My Childhood Friend Is a Little Possessive and Obsessed | Episodes 1-16 Support me with some eggs 🥚🥚🥚 here: Bank Account (MB): 12464627664",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/UphthTjHM9I/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+      "updatedAt": "2026-10-26T20:15:47.671403+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1-16",
+          "title": "Cô Bạn Thanh Mai Của Tôi HƠI Chiếm Hữu Và Cuồng Yêu | Tập 1 - 16",
+          "url": "https://www.youtube.com/watch?v=BETanIMLr6A",
+          "id": "BETanIMLr6A",
+          "duration": 2577,
+          "durationStr": "42:57",
+          "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+          "views": 170135,
+          "likes": 1253,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 2,
+          "label": "Tập 17-30",
+          "title": "Cô Bạn Thanh Mai Của Tôi HƠI Chiếm Hữu Và Cuồng Yêu | Tập 17 - 30",
+          "url": "https://www.youtube.com/watch?v=UphthTjHM9I",
+          "id": "UphthTjHM9I",
+          "duration": 2086,
+          "durationStr": "34:46",
+          "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+          "views": 10164,
+          "likes": 102,
+          "isRedundant": false
+        }
+      ],
+      "channelIds": [
+        "eggvietsub"
+      ]
+    },
+    {
+      "id": "film_6573",
+      "title": "Kết Thúc Phần 2 | Xuyên Sách Thành Tên Thiếu Gia Phản Diện | Tập 81 - 103",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 1902,
+      "totalDurationStr": "31 phút 42 giây",
+      "totalViews": 38367,
+      "totalLikes": 569,
+      "review": "Part 2 Ending | Transmigrating into a Book as a Villainous Young Master | Episodes 81-103 Support me with some eggs 🥚🥚🥚 here: Bank Account (TPBank): 06209227101",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/aSMrfsMkYcs/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+      "updatedAt": "2026-10-26T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Kết Thúc Phần 2 | Xuyên Sách Thành Tên Thiếu Gia Phản Diện | Tập 81 - 103",
+          "url": "https://www.youtube.com/watch?v=aSMrfsMkYcs",
+          "id": "aSMrfsMkYcs",
+          "duration": 1902,
+          "durationStr": "31:42",
+          "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+          "views": 38367,
+          "likes": 569,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6575",
+      "title": "Món Quà Từ Biển Đảo | Bị Bắt Tới Địa Ngục Trần Gian, Tôi Lại Được Ông Trùm Vũ Khí Sủng Ái Tận Trời!",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 3591,
+      "totalDurationStr": "59 phút 51 giây",
+      "totalViews": 6057,
+      "totalLikes": 53,
+      "review": "Xia Zhi Dao accidentally falls into the hands of human traffickers and is taken to Myanmar—a place described as a living hell, full of danger and terrifying underworld forces. Just when she thought there was no way out, she meets one of the most powerful and dangerous men there—Shen Yu—a weapons kingpin who strikes fear into everyone's hearts. However,...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/oHtPsl10oTA/hqdefault.jpg",
+      "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+      "updatedAt": "2026-10-26T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Món Quà Từ Biển Đảo | Bị Bắt Tới Địa Ngục Trần Gian, Tôi Lại Được Ông Trùm Vũ Khí Sủng Ái Tận Trời!",
+          "url": "https://www.youtube.com/watch?v=oHtPsl10oTA",
+          "id": "oHtPsl10oTA",
+          "duration": 3591,
+          "durationStr": "59:51",
+          "publishedAt": "2026-10-26T20:15:47.671403+00:00",
+          "views": 6057,
+          "likes": 53,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6736",
+      "title": "[Full] Kết Hôn Chớp Nhoáng Nữ Chủ Tịch Xinh Đẹp Không Ngờ Lại Là Giáo Sư Của Tôi! | HiCherrySub",
+      "channelId": "mycherrysub3",
+      "channelName": "HiCherrySub",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub3",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5142,
+      "totalDurationStr": "1 giờ 25 phút",
+      "totalViews": 7613,
+      "totalLikes": 95,
+      "review": "📽Phim: [Full] Kết Hôn Chớp Nhoáng Nữ Chủ Tịch Xinh Đẹp Không Ngờ Lại Là Giáo Sư Của Tôi! | HiCherrySub Tóm tắt: Phương Vũ là một tân sinh viên vừa trúng tuyển đại học, sinh ra trong một gia đình hào môn nhưng bị bố mẹ giấu nhẹm sự thật để rèn luyện tính tự lập. Sau một đêm say sưa, cậu vô tình qua đêm với một người phụ nữ xinh đẹp, lạnh lùng và cả hai...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Xv1KiE1woAY/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.209807+00:00",
+      "updatedAt": "2026-09-26T20:15:48.209807+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Kết Hôn Chớp Nhoáng Nữ Chủ Tịch Xinh Đẹp Không Ngờ Lại Là Giáo Sư Của Tôi! | HiCherrySub",
+          "url": "https://www.youtube.com/watch?v=Xv1KiE1woAY",
+          "id": "Xv1KiE1woAY",
+          "duration": 5142,
+          "durationStr": "1:25:42",
+          "publishedAt": "2026-09-26T20:15:48.209807+00:00",
+          "views": 7613,
+          "likes": 95,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6598",
+      "title": "[Full] Làm Thợ Xăm Lạnh Lùng Suốt Bao Năm Tôi Bỗng Vô Tình Nhặt Được Cô Vợ Nhỏ 18 Tuổi | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10409,
+      "totalDurationStr": "2 giờ 53 phút",
+      "totalViews": 4902,
+      "totalLikes": 96,
+      "review": "📽Phim: [Full] Làm Thợ Xăm Lạnh Lùng Suốt Bao Năm Tôi Bỗng Vô Tình Nhặt Được Cô Vợ Nhỏ 18 Tuổi! | MyCherrySub Tóm tắt: Nam chính Châu Nhiên là một thợ xăm có tiếng ở khu Hạ Thành, khoác lên mình vỏ bọc của một gã đàn ông lạnh lùng, \"mỏ hỗn\" và luôn tỏ ra bất cần đời. Thế nhưng, thế giới nguyên tắc và khô khan của anh đã hoàn toàn bị đảo lộn từ ngày Hạ...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/rZtQ8jGUwNw/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Làm Thợ Xăm Lạnh Lùng Suốt Bao Năm Tôi Bỗng Vô Tình Nhặt Được Cô Vợ Nhỏ 18 Tuổi | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=rZtQ8jGUwNw",
+          "id": "rZtQ8jGUwNw",
+          "duration": 10409,
+          "durationStr": "2:53:29",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 4902,
+          "likes": 96,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6599",
+      "title": "[Full] Bị Chê Nghèo Tại Tiệc Tốt Nghiệp Thiếu Gia Là Tôi Lật Bài Ngửa Vả Mặt Bạn Gái Cũ| MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13480,
+      "totalDurationStr": "3 giờ 44 phút",
+      "totalViews": 7053,
+      "totalLikes": 138,
+      "review": "📽Phim: [Full] Bị Chê Nghèo Tại Tiệc Tốt Nghiệp Thiếu Gia Là Tôi Lật Bài Ngửa Vả Mặt Bạn Gái Cũ! | MyCherrySub Tóm tắt: Nam chính Lâm Tầm - một nam sinh vừa hoàn thành kỳ thi đại học (mục tiêu là Nam Đại). Bấy lâu nay, cậu luôn thương bố mẹ vất vả làm lụng (bố bốc vác, mẹ rửa bát). Tuy nhiên, ngay sau kỳ thi, bố mẹ cậu lái hẳn Rolls-Royce đến đón và tiết...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/-zg0WUfUQhE/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Chê Nghèo Tại Tiệc Tốt Nghiệp Thiếu Gia Là Tôi Lật Bài Ngửa Vả Mặt Bạn Gái Cũ| MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=-zg0WUfUQhE",
+          "id": "-zg0WUfUQhE",
+          "duration": 13480,
+          "durationStr": "3:44:40",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 7053,
+          "likes": 138,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6601",
+      "title": "[Full] Trọng Sinh Cự Tuyệt Bạn Gái Cũ Tôi Hoá Nhạc Sĩ Đỉnh Lưu Xưng Bá Giới Âm Nhạc! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12558,
+      "totalDurationStr": "3 giờ 29 phút",
+      "totalViews": 9039,
+      "totalLikes": 125,
+      "review": "📽Phim: [Full] Trọng Sinh Cự Tuyệt Bạn Gái Cũ Tôi Hoá Nhạc Sĩ Đỉnh Lưu Xưng Bá Giới Âm Nhạc! | MyCherrySub 🚀 Mọi người xem phim vui vẻ nhé ạ! 🚧 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện ❌Vui lòng không reup dưới mọi hình thức. ❗Thumbnails are for illustrative purposes only regarding the story content. ❓The...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/V9aLODrkaYA/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trọng Sinh Cự Tuyệt Bạn Gái Cũ Tôi Hoá Nhạc Sĩ Đỉnh Lưu Xưng Bá Giới Âm Nhạc! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=V9aLODrkaYA",
+          "id": "V9aLODrkaYA",
+          "duration": 12558,
+          "durationStr": "3:29:18",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 9039,
+          "likes": 125,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6602",
+      "title": "[Full 1+2] Xuyên Không Tiện Tay Cứu Được Vợ Hờ, Tôi Vô Tình Phá Đảo Cả Giới Giải Trí! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 22882,
+      "totalDurationStr": "6 giờ 21 phút",
+      "totalViews": 16889,
+      "totalLikes": 366,
+      "review": "📽Phim: [Full 1+2] Xuyên Không Tiện Tay Cứu Được Vợ Hờ, Tôi Vô Tình Phá Đảo Cả Giới Giải Trí! | MyCherrySub Tóm tắt: Lâm Phi – một thanh niên xuyên không mang tư tưởng \"cá muối\" (lười biếng, chỉ thích nằm ườn chơi game) vô tình bị nữ sao hạng A Lạc Tiểu Nhất kéo đi đăng ký kết hôn giả với mức lương 5 vạn tệ/tháng để đối phó với gia đình. Ai ngờ, gã chồng...",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/I4AP97nd2sY/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1+2",
+          "title": "[Full 1+2] Xuyên Không Tiện Tay Cứu Được Vợ Hờ, Tôi Vô Tình Phá Đảo Cả Giới Giải Trí! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=I4AP97nd2sY",
+          "id": "I4AP97nd2sY",
+          "duration": 22882,
+          "durationStr": "6:21:22",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 16889,
+          "likes": 366,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6603",
+      "title": "[Full] Xuyên Không Ở Rể, Cưới Nhầm Nữ Thần Tôi Bỗng Thành Đại Lão Giới Tiểu Thuyết! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9846,
+      "totalDurationStr": "2 giờ 44 phút",
+      "totalViews": 19607,
+      "totalLikes": 295,
+      "review": "📽Phim: [Full] Xuyên Không Ở Rể, Cưới Nhầm Nữ Thần Tôi Bỗng Thành Đại Lão Giới Tiểu Thuyết! | MyCherrySub Tóm tắt: Lý Thạc, một thanh niên mắc chứng chướng ngại giao tiếp xã hội, bất ngờ xuyên không đến một thế giới song song thiếu vắng các tác phẩm văn hóa giải trí đình đám của nhân loại. Để thoát khỏi sự hắt hủi, bóc lột của người mẹ kế và kiếm tiền đổi...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/23HEBECt_gk/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xuyên Không Ở Rể, Cưới Nhầm Nữ Thần Tôi Bỗng Thành Đại Lão Giới Tiểu Thuyết! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=23HEBECt_gk",
+          "id": "23HEBECt_gk",
+          "duration": 9846,
+          "durationStr": "2:44:06",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 19607,
+          "likes": 295,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6604",
+      "title": "[Full] Vì Quá Đẹp Trai Tôi Đeo Mặt Nạ Đi Học Nhưng Khí Chất Vương Giả Cũng Khó Giấu! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11651,
+      "totalDurationStr": "3 giờ 14 phút",
+      "totalViews": 21551,
+      "totalLikes": 331,
+      "review": "📽Phim: [Full] Vì Quá Đẹp Trai Tôi Đeo Mặt Nạ Đi Học Nhưng Khí Chất Vương Giả Cũng Khó Giấu! | MyCherrySub Tóm tắt: Nam chính Lâm Soái có số phận \"nghiệt ngã\" vì sở hữu nhan sắc quá mức hoàn hảo. Từ khi đi nhà trẻ đến tuổi đi học, nhan sắc của anh luôn là nguyên nhân khiến các nữ sinh tranh giành, đánh nhau sứt đầu mẻ trán. Để bảo vệ trật tự thế giới và...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/N3RBTpg2M_M/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Vì Quá Đẹp Trai Tôi Đeo Mặt Nạ Đi Học Nhưng Khí Chất Vương Giả Cũng Khó Giấu! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=N3RBTpg2M_M",
+          "id": "N3RBTpg2M_M",
+          "duration": 11651,
+          "durationStr": "3:14:11",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 21551,
+          "likes": 331,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6605",
+      "title": "[Full] Trú Mưa Cùng Hoa Khôi, Nữ Thần Băng Giá Lại Là Bạn Chơi Game Của Tôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 14922,
+      "totalDurationStr": "4 giờ 08 phút",
+      "totalViews": 14067,
+      "totalLikes": 252,
+      "review": "📽Phim: [Full] Trú Mưa Cùng Hoa Khôi, Nữ Thần Băng Giá Lại Là Bạn Chơi Game Của Tôi! | MyCherrySub Tóm tắt: Lạc Diệp, một tân sinh viên năm nhất tràn đầy năng lượng, tình cờ trú mưa cùng Tô Bạch Chúc – nữ thần \"băng giá\" nổi tiếng của khoa Máy tính đại học Giang. Ngay từ cái nhìn đầu tiên, Lạc Diệp đã trúng tiếng sét ái tình mà không hề hay biết thân phận...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/-ZKEhvLnsv0/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trú Mưa Cùng Hoa Khôi, Nữ Thần Băng Giá Lại Là Bạn Chơi Game Của Tôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=-ZKEhvLnsv0",
+          "id": "-ZKEhvLnsv0",
+          "duration": 14922,
+          "durationStr": "4:08:42",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 14067,
+          "likes": 252,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6606",
+      "title": "[Full] 3 Năm Đưa Tiền Cho Mẹ Giữ Tôi Bỗng Phát Hiện Vợ Chỉ Nhận Được 200 Tệ Mỗi Tháng! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6794,
+      "totalDurationStr": "1 giờ 53 phút",
+      "totalViews": 6730,
+      "totalLikes": 89,
+      "review": "📽Phim: [Full] 3 Năm Đưa Tiền Cho Mẹ Giữ Tôi Bỗng Phát Hiện Vợ Chỉ Nhận Được 200 Tệ Mỗi Tháng! | MyCherrySub 🚀 Mọi người xem phim vui vẻ nhé ạ! 🚧 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện ❌Vui lòng không reup dưới mọi hình thức. ❗Thumbnails are for illustrative purposes only regarding the story content. ❓The...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/HkeGevAcSxI/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 3",
+          "title": "[Full] 3 Năm Đưa Tiền Cho Mẹ Giữ Tôi Bỗng Phát Hiện Vợ Chỉ Nhận Được 200 Tệ Mỗi Tháng! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=HkeGevAcSxI",
+          "id": "HkeGevAcSxI",
+          "duration": 6794,
+          "durationStr": "1:53:14",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 6730,
+          "likes": 89,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6607",
+      "title": "[Full] Vừa Vào Đại Học, Tôi Liền Bị Hoa Khôi Phú Bà Ép Đi Lãnh Chứng! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10379,
+      "totalDurationStr": "2 giờ 52 phút",
+      "totalViews": 28090,
+      "totalLikes": 528,
+      "review": "📽Phim: [Full] Vừa Vào Đại Học, Tôi Liền Bị Hoa Khôi Phú Bà Ép Đi Lãnh Chứng! | MyCherrySub Tóm tắt: Lâm Hạ - một tân sinh viên nghèo quyết tâm quay xe với tình yêu sau ba năm theo đuổi crush thất bại - đang an ủi cậu bạn thân thất tình thì lại vô tình vướng vào một sự cố \"động trời\". Anh bất ngờ bị Lạc Tuyết Vi, hoa khôi kiêm phú bà lạnh lùng khét tiếng...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/HRCkviOOnKA/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Vừa Vào Đại Học, Tôi Liền Bị Hoa Khôi Phú Bà Ép Đi Lãnh Chứng! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=HRCkviOOnKA",
+          "id": "HRCkviOOnKA",
+          "duration": 10379,
+          "durationStr": "2:52:59",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 28090,
+          "likes": 528,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6608",
+      "title": "[Full] Khế Ước Bán Thân, Cô Nàng Hoa Khôi Bàn Bên Cạnh Tôi Lại Là Yandere Xúc Tu! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 4782,
+      "totalDurationStr": "1 giờ 19 phút",
+      "totalViews": 8148,
+      "totalLikes": 192,
+      "review": "📽Phim: [Full] Khế Ước Bán Thân, Cô Nàng Hoa Khôi Bàn Bên Cạnh Tôi Lại Là Yandere Xúc Tu! | MyCherrySub Tóm tắt: Nam chính vô tình phát hiện ra một bí mật động trời: cô hoa khôi kiêm bạn cùng bàn lạnh lùng Lý Uyển Tình thực chất lại sở hữu 6 chiếc xúc tu màu hồng, và đặc biệt là chỉ mình cậu nhìn thấy. Bị đe dọa \"ăn thịt\", cậu nam chính đáng thương buộc...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/n4B17Mnugzs/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Khế Ước Bán Thân, Cô Nàng Hoa Khôi Bàn Bên Cạnh Tôi Lại Là Yandere Xúc Tu! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=n4B17Mnugzs",
+          "id": "n4B17Mnugzs",
+          "duration": 4782,
+          "durationStr": "1:19:42",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 8148,
+          "likes": 192,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6610",
+      "title": "[Full] Bị Ông Nội Ép Phải Giả Nghèo Thái Tử Gia Trăm Tỷ Là Tôi Lại Phải Đi Nhặt Ve Chai| MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5797,
+      "totalDurationStr": "1 giờ 36 phút",
+      "totalViews": 45671,
+      "totalLikes": 365,
+      "review": "📽Phim: [Full] Bị Ông Nội Ép Phải Giả Nghèo Thái Tử Gia Trăm Tỷ Là Tôi Lại Phải Đi Nhặt Ve Chai! | MyCherrySub Tóm tắt: Cố Từ — người thừa kế gia tộc họ Cố sở hữu khối tài sản hàng trăm tỷ — bị ông nội cắt thẻ đen và ép phải giấu kín thân phận để sống như một sinh viên nghèo rớt mồng tơi tại Đại học Kinh Châu. Vì muốn giữ lại khoản tiền tiêu vặt khổng lồ,...",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/0ip-42gmS-8/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Ông Nội Ép Phải Giả Nghèo Thái Tử Gia Trăm Tỷ Là Tôi Lại Phải Đi Nhặt Ve Chai| MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=0ip-42gmS-8",
+          "id": "0ip-42gmS-8",
+          "duration": 5797,
+          "durationStr": "1:36:37",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 45671,
+          "likes": 365,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6611",
+      "title": "[Full] Ở Rể Bị Nhà Vợ Coi Thành Kẻ Ăn Bám Tôi Lật Bài Là Ông Trùm Giới Tài Phiệt! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9472,
+      "totalDurationStr": "2 giờ 37 phút",
+      "totalViews": 30880,
+      "totalLikes": 306,
+      "review": "📽Phim: [Full] Ở Rể Bị Nhà Vợ Coi Thành Kẻ Ăn Bám Tôi Lật Bài Là Ông Trùm Giới Tài Phiệt! | MyCherrySub Tóm tắt: Lục Thần cam chịu thân phận ở rể, nhẫn nhục cáng đáng mọi việc lớn nhỏ trong nhà họ Tô để trả ơn cố nhân. Tuy nhiên, vợ anh là Tô Niệm Vi và gia đình vợ không hề trân trọng, liên tục sỉ nhục và cuối cùng nhẫn tâm bỏ rơi anh ở nhà trong chuyến...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/jqPFBZOlJhc/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Ở Rể Bị Nhà Vợ Coi Thành Kẻ Ăn Bám Tôi Lật Bài Là Ông Trùm Giới Tài Phiệt! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=jqPFBZOlJhc",
+          "id": "jqPFBZOlJhc",
+          "duration": 9472,
+          "durationStr": "2:37:52",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 30880,
+          "likes": 306,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6612",
+      "title": "[Full] Vừa Bị Từ Hôn Tôi Bỗng Đào Được Rương Gỗ Thông Đến Thế Giới Nữ Nhi Quốc! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10479,
+      "totalDurationStr": "2 giờ 54 phút",
+      "totalViews": 6068,
+      "totalLikes": 124,
+      "review": "📽Phim: [Full] Vừa Bị Từ Hôn Tôi Bỗng Đào Được Rương Gỗ Thông Đến Thế Giới Nữ Nhi Quốc! | MyCherrySub Tóm tắt: Trần Sở lâm vào cảnh khốn cùng khi cha vừa qua đời đã bị họ hàng xâu xé, cướp sạch gia sản. Bị ép ra sống tại một khoảng sân rách nát và chịu nỗi nhục bị vị hôn thê nhẫn tâm từ hôn, anh tưởng chừng đã mất tất cả. Trong lúc tuyệt vọng, Trần Sở vô...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/HgHQpopSceQ/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Vừa Bị Từ Hôn Tôi Bỗng Đào Được Rương Gỗ Thông Đến Thế Giới Nữ Nhi Quốc! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=HgHQpopSceQ",
+          "id": "HgHQpopSceQ",
+          "duration": 10479,
+          "durationStr": "2:54:39",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 6068,
+          "likes": 124,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6613",
+      "title": "[Full] Gặp Tai Nạn Xe Mất Trí Nhớ, Tỉnh Dậy Tôi Bất Ngờ Phát Hiện Mình Đã Có Vợ Rồi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 3025,
+      "totalDurationStr": "50 phút 25 giây",
+      "totalViews": 14748,
+      "totalLikes": 309,
+      "review": "📽Phim: [Full] Gặp Tai Nạn Xe Mất Trí Nhớ, Tỉnh Dậy Tôi Bất Ngờ Phát Hiện Mình Đã Có Vợ Rồi! | MyCherrySub Tóm tắt: Triệu Minh Vũ – một tổng tài lạnh lùng 26 tuổi bất ngờ gặp tai nạn ngã cầu thang khiến não bị chấn động. Khi tỉnh lại, ký ức của anh hoàn toàn dừng lại ở năm 18 tuổi. Cậu thiếu niên ngây ngô vô cùng hoảng hốt khi biết mình đã kết hôn được 2...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/SMzKz9kX2Zk/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Gặp Tai Nạn Xe Mất Trí Nhớ, Tỉnh Dậy Tôi Bất Ngờ Phát Hiện Mình Đã Có Vợ Rồi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=SMzKz9kX2Zk",
+          "id": "SMzKz9kX2Zk",
+          "duration": 3025,
+          "durationStr": "50:25",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 14748,
+          "likes": 309,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6614",
+      "title": "[Full] Bị Ép Đi Xem Mắt, Tôi Ký Luôn Hợp Đồng Làm Bạn Trai Của Sếp Nữ Ma Đầu! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10263,
+      "totalDurationStr": "2 giờ 51 phút",
+      "totalViews": 51433,
+      "totalLikes": 906,
+      "review": "📽Phim: [Full] Bị Ép Đi Xem Mắt, Tôi Ký Luôn Hợp Đồng Làm Bạn Trai Của Sếp Nữ Ma Đầu! | MyCherrySub Tóm tắt: Trần Nhiên – người thừa kế của một tập đoàn nghìn tỷ nhưng đang che giấu thân phận, làm một nhân viên thiết kế với mức lương 5.000 tệ, và Thẩm Mạn – vị sếp nữ cuồng công việc, khó tính, luôn bị nhân viên lén gọi là \"nữ ma đầu\". Cả hai vô tình gặp...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/_qNz6CeEHrQ/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Ép Đi Xem Mắt, Tôi Ký Luôn Hợp Đồng Làm Bạn Trai Của Sếp Nữ Ma Đầu! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=_qNz6CeEHrQ",
+          "id": "_qNz6CeEHrQ",
+          "duration": 10263,
+          "durationStr": "2:51:03",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 51433,
+          "likes": 906,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6615",
+      "title": "[Full] Sau Khi Thất Tình, Tôi Bỗng Thức Tỉnh Hệ Thống Cổ Kim Xưng Bá Thương Trường! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9671,
+      "totalDurationStr": "2 giờ 41 phút",
+      "totalViews": 55159,
+      "totalLikes": 492,
+      "review": "📽Phim: [Full] Sau Khi Thất Tình, Tôi Bỗng Thức Tỉnh Hệ Thống Cổ Kim Xưng Bá Thương Trường! | MyCherrySub 🚀 Mọi người xem phim vui vẻ nhé ạ! 🚧 Hình thu nhỏ được tạo bởi AI chỉ mang tính chất MINH HỌA về NỘI DUNG có trong câu chuyện ❌Vui lòng không reup dưới mọi hình thức. ❗Thumbnails are for illustrative purposes only regarding the story content. ❓The...",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/KxNViWQwqlU/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Sau Khi Thất Tình, Tôi Bỗng Thức Tỉnh Hệ Thống Cổ Kim Xưng Bá Thương Trường! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=KxNViWQwqlU",
+          "id": "KxNViWQwqlU",
+          "duration": 9671,
+          "durationStr": "2:41:11",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 55159,
+          "likes": 492,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6616",
+      "title": "[Full] Sở Hữu Kỹ Năng Nấu Ăn Bá Đạo Tôi Tuỳ Hứng Mở Quán Ăn Khiến Mọi Người Thèm Khát! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10646,
+      "totalDurationStr": "2 giờ 57 phút",
+      "totalViews": 8984,
+      "totalLikes": 131,
+      "review": "📽Phim: [Full] Sở Hữu Kỹ Năng Nấu Ăn Bá Đạo Tôi Tuỳ Hứng Mở Quán Ăn Khiến Mọi Người Thèm Khát! | MyCherrySub Tóm tắt: Nam chính Phạm Lý là ông chủ của một quán ăn sáng sở hữu kỹ năng nấu nướng tuyệt đỉnh, nhưng lại có nguyên tắc làm việc cực kỳ \"tùy hứng\" với thời gian mở cửa vô cùng ngắn ngủi. Đồ ăn của anh ngon đến mức sếp lớn Hứa Phong sẵn sàng bỏ căn...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/nxrPTAXysxk/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Sở Hữu Kỹ Năng Nấu Ăn Bá Đạo Tôi Tuỳ Hứng Mở Quán Ăn Khiến Mọi Người Thèm Khát! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=nxrPTAXysxk",
+          "id": "nxrPTAXysxk",
+          "duration": 10646,
+          "durationStr": "2:57:26",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 8984,
+          "likes": 131,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6617",
+      "title": "[Full] Có Hệ Thống Nam Thần: Tôi Lột Xác Ngoạn Mục Kéo Gục Trái Tim Hoa Khôi Băng Giá! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9618,
+      "totalDurationStr": "2 giờ 40 phút",
+      "totalViews": 67431,
+      "totalLikes": 1103,
+      "review": "📽Phim: [Full] Có Hệ Thống Nam Thần: Tôi Lột Xác Ngoạn Mục Kéo Gục Trái Tim Hoa Khôi Băng Giá! | MyCherrySub Tóm tắt: Tô Bạch, một nam sinh lớp 11 bị hệ thống đánh giá nhan sắc ban đầu chỉ đạt vỏn vẹn 52 điểm – chuẩn một tấm \"phông nền\" không ai thèm để mắt. Mọi chuyện thay đổi khi cậu thức tỉnh Hệ thống Dưỡng thành Nam Thần. Tuy nhiên, hệ thống này vô...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Gk2_HkgHJas/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Có Hệ Thống Nam Thần: Tôi Lột Xác Ngoạn Mục Kéo Gục Trái Tim Hoa Khôi Băng Giá! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=Gk2_HkgHJas",
+          "id": "Gk2_HkgHJas",
+          "duration": 9618,
+          "durationStr": "2:40:18",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 67431,
+          "likes": 1103,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6618",
+      "title": "[Full] Sau Khi Trùng Sinh Tôi Cự Tuyệt Làm Liếm Cẩu Quay Xe Tỏ Tình Hoa Khôi Xinh Đẹp! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7952,
+      "totalDurationStr": "2 giờ 12 phút",
+      "totalViews": 28858,
+      "totalLikes": 454,
+      "review": "📽Phim: [Full] Sau Khi Trùng Sinh Tôi Cự Tuyệt Làm Liếm Cẩu Quay Xe Tỏ Tình Hoa Khôi Xinh Đẹp! | MyCherrySub Tóm tắt: Hứa Hoài Nghĩa, thiếu gia nhà họ Hứa, bất ngờ được trùng sinh quay trở lại thời đại học. Ở kiếp trước, anh mù quáng làm \"liếm cẩu\" theo đuổi và chu cấp tiền bạc cho Hàn Tiểu Vân, để rồi bị cô ta cùng gã tình nhân Cố Hạo lợi dụng đến mức...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/8Cu351fr5jg/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Sau Khi Trùng Sinh Tôi Cự Tuyệt Làm Liếm Cẩu Quay Xe Tỏ Tình Hoa Khôi Xinh Đẹp! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=8Cu351fr5jg",
+          "id": "8Cu351fr5jg",
+          "duration": 7952,
+          "durationStr": "2:12:32",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 28858,
+          "likes": 454,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6619",
+      "title": "[Full] Tưởng Nhà Nghèo Rớt Mồng Tơi Nào Ngờ Bố Tôi Lại Là Tỷ Phú Trong Giới Siêu Giàu! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10206,
+      "totalDurationStr": "2 giờ 50 phút",
+      "totalViews": 77556,
+      "totalLikes": 1041,
+      "review": "📽Phim: [Full] Tưởng Nhà Nghèo Rớt Mồng Tơi Nào Ngờ Bố Tôi Lại Là Tỷ Phú Trong Giới Siêu Giàu! | MyCherrySub Tóm tắt: Lâm Châu – một tác giả tiểu thuyết mạng luôn tự ti vì thu nhập 3.000 tệ/tháng và gia cảnh \"bình dân\" của mình. Bị ép đi xem mắt thay anh trai, cậu tình cờ đụng độ đàn chị nổi tiếng Giang Chi Nghiêu cũng đang đi xem mắt hộ bạn. Sau khi...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/BIzNi4oNs0c/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Tưởng Nhà Nghèo Rớt Mồng Tơi Nào Ngờ Bố Tôi Lại Là Tỷ Phú Trong Giới Siêu Giàu! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=BIzNi4oNs0c",
+          "id": "BIzNi4oNs0c",
+          "duration": 10206,
+          "durationStr": "2:50:06",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 77556,
+          "likes": 1041,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6620",
+      "title": "[Full] Kịch Bản Đổ Nát, Xuyên Thành Phản Diện Nữ Chính Lại Là Bạn Gái Cũ Của Tôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9885,
+      "totalDurationStr": "2 giờ 44 phút",
+      "totalViews": 34142,
+      "totalLikes": 479,
+      "review": "📽Phim: [Full] Kịch Bản Đổ Nát, Xuyên Thành Phản Diện Nữ Chính Lại Là Bạn Gái Cũ Của Tôi! | MyCherrySub Tóm tắt: Nam chính vừa cày ải xong 30 nhiệm vụ tình cảm thì hệ thống bị lỗi, khiến cậu vô tình xuyên không vào một cuốn tiểu thuyết motip \"Long Vương\" sảng văn. Xui xẻo thay, cậu lại phải nhập vai Chu Kỳ Lân – một thiếu gia phản diện cặn bã, sống sót...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/kOyVdfqf22w/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Kịch Bản Đổ Nát, Xuyên Thành Phản Diện Nữ Chính Lại Là Bạn Gái Cũ Của Tôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=kOyVdfqf22w",
+          "id": "kOyVdfqf22w",
+          "duration": 9885,
+          "durationStr": "2:44:45",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 34142,
+          "likes": 479,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6621",
+      "title": "[Full] Bị Lừa Đi Tham Gia Show Thực Tế Tôi Bất Đắc Dĩ Trở Thành Vệ Sĩ Của Nữ Chủ Tịch! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9672,
+      "totalDurationStr": "2 giờ 41 phút",
+      "totalViews": 64005,
+      "totalLikes": 1105,
+      "review": "📽Phim: [Full] Bị Lừa Đi Tham Gia Show Thực Tế Tôi Bất Đắc Dĩ Trở Thành Vệ Sĩ Của Nữ Chủ Tịch! | MyCherrySub Tóm tắt: Tô Diệp, một thanh niên ẩn giấu thực lực sau 13 năm học thấu \"cơ bản công của 360 nghề\", bị em gái lừa đăng ký tham gia show thực tế \"Thử thách 360 nghề\". Để không phải đền bù 3 triệu tệ, anh buộc phải tham gia trải nghiệm các nghề nghiệp...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/5vzPuJY7epk/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Lừa Đi Tham Gia Show Thực Tế Tôi Bất Đắc Dĩ Trở Thành Vệ Sĩ Của Nữ Chủ Tịch! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=5vzPuJY7epk",
+          "id": "5vzPuJY7epk",
+          "duration": 9672,
+          "durationStr": "2:41:12",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 64005,
+          "likes": 1105,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6622",
+      "title": "[Full] Xuyên Thành Đá Kê Chân Tôi Ôm Chặt Đùi Tiểu Thư Phản Diện Mù Lòa Để Sống Sót! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10522,
+      "totalDurationStr": "2 giờ 55 phút",
+      "totalViews": 21408,
+      "totalLikes": 470,
+      "review": "📽Phim: [Full] Xuyên Thành Đá Kê Chân Tôi Ôm Chặt Đùi Tiểu Thư Phản Diện Mù Lòa Để Sống Sót! | MyCherrySub Tóm tắt: Nam chính Cố Ngôn xuyên không vào một cuốn tiểu thuyết đô thị và bị ràng buộc bởi \"Hệ thống Thuần Ái\". Nhiệm vụ của anh là phải cứu rỗi Lãnh Thanh Thu – đệ nhất tài nữ Giang Hải nay đã bị mù và là đại phản diện độc ác nhất trong nguyên tác –...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/IRvnijYnENE/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xuyên Thành Đá Kê Chân Tôi Ôm Chặt Đùi Tiểu Thư Phản Diện Mù Lòa Để Sống Sót! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=IRvnijYnENE",
+          "id": "IRvnijYnENE",
+          "duration": 10522,
+          "durationStr": "2:55:22",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 21408,
+          "likes": 470,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6623",
+      "title": "[Full] Biết Mình Là Giả Thiếu Gia Tôi Vui Sướng Rời Đi Khiến Thiên Kim Thật Ngỡ Ngàng! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 3273,
+      "totalDurationStr": "54 phút 33 giây",
+      "totalViews": 174608,
+      "totalLikes": 2401,
+      "review": "📽Phim: [Full] Biết Mình Là Giả Thiếu Gia Tôi Vui Sướng Rời Đi Khiến Thiên Kim Thật Ngỡ Ngàng! | MyCherrySub Tóm tắt: Cố Ngôn - đại thiếu gia của tập đoàn Cố thị, người mang tiếng \"ngậm thìa vàng\" nhưng thực chất phải sống như một cỗ máy bị lập trình dưới sự quản lý nghiêm ngặt của bố và người chị gái tổng tài Cố Thanh Hàn. Khi sự thật về thân thế bị bại...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/IJwlRUQgY4M/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Biết Mình Là Giả Thiếu Gia Tôi Vui Sướng Rời Đi Khiến Thiên Kim Thật Ngỡ Ngàng! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=IJwlRUQgY4M",
+          "id": "IJwlRUQgY4M",
+          "duration": 3273,
+          "durationStr": "54:33",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 174608,
+          "likes": 2401,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6624",
+      "title": "[Full] Trùng Sinh Tuổi 18, Dứt Khoát Cự Tuyệt Trà Xanh Tôi Được Hoa Khôi Theo Đuổi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13035,
+      "totalDurationStr": "3 giờ 37 phút",
+      "totalViews": 58640,
+      "totalLikes": 763,
+      "review": "📽Phim: [Full] Trùng Sinh Tuổi 18, Dứt Khoát Cự Tuyệt Trà Xanh Tôi Được Hoa Khôi Theo Đuổi! | MyCherrySub Tóm tắt: Lâm Nhiên bất ngờ trùng sinh về lại năm 18 tuổi ngay trong lớp học. Trải qua một kiếp người bôn ba đến năm 34 tuổi, cậu nhận ra kiếp trước mình là một kẻ ngốc khi dốc cạn hầu bao và thanh xuân để theo đuổi \"trà xanh\" Thẩm Linh San, trong khi...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Pj1idSU2eLI/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trùng Sinh Tuổi 18, Dứt Khoát Cự Tuyệt Trà Xanh Tôi Được Hoa Khôi Theo Đuổi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=Pj1idSU2eLI",
+          "id": "Pj1idSU2eLI",
+          "duration": 13035,
+          "durationStr": "3:37:15",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 58640,
+          "likes": 763,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6625",
+      "title": "[Full] Bị Bạn Gái Giả Nghèo Để Thử Lòng Bỏ Rơi Tôi Quay Trở Về Làm Thiếu Gia Tài Phiệt | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9099,
+      "totalDurationStr": "2 giờ 31 phút",
+      "totalViews": 41056,
+      "totalLikes": 767,
+      "review": "📽Phim: [Full] Bị Bạn Gái Giả Nghèo Để Thử Lòng Bỏ Rơi Tôi Quay Trở Về Làm Thiếu Gia Tài Phiệt! | MyCherrySub Tóm tắt: Chàng trai nghèo Lệ Hành Uyên có một cô bạn gái thanh mai trúc mã tên Ôn Thanh Lê. Dù yêu nhau nhiều năm, Thanh Lê vẫn luôn e ngại Hành Uyên quen mình vì tiền nên đã cố tình giả nghèo để thử lòng. Đỉnh điểm của sự tàn nhẫn là khi cô ta...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/ou79G6Z-Lmo/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Bị Bạn Gái Giả Nghèo Để Thử Lòng Bỏ Rơi Tôi Quay Trở Về Làm Thiếu Gia Tài Phiệt | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=ou79G6Z-Lmo",
+          "id": "ou79G6Z-Lmo",
+          "duration": 9099,
+          "durationStr": "2:31:39",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 41056,
+          "likes": 767,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6626",
+      "title": "[Full] Trọng Sinh Thành Phú Nhị Đại, Tôi Được Hoa Khôi Băng Giá Đến Làm Gia Sư! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7657,
+      "totalDurationStr": "2 giờ 07 phút",
+      "totalViews": 146806,
+      "totalLikes": 1062,
+      "review": "📽Phim: [Full] Trọng Sinh Thành Phú Nhị Đại, Tôi Được Hoa Khôi Băng Giá Đến Làm Gia Sư! | MyCherrySub Tóm tắt: Giang Quân - một sinh viên ưu tú khoa Công nghệ thông tin ở Trái Đất bất ngờ bị sét đánh trúng và xuyên không vào thân xác của một \"phú nhị đại\" (thiếu gia nhà giàu) ăn chơi trác táng nổi tiếng toàn trường. Vừa mới tỉnh lại sau vụ tai nạn xe hơi...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/FGniuSJizkU/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trọng Sinh Thành Phú Nhị Đại, Tôi Được Hoa Khôi Băng Giá Đến Làm Gia Sư! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=FGniuSJizkU",
+          "id": "FGniuSJizkU",
+          "duration": 7657,
+          "durationStr": "2:07:37",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 146806,
+          "likes": 1062,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6627",
+      "title": "[Full] Xuyên Không Đến 7 Năm Sau Tôi Bỗng Phát Hiện Mình Là Tra Nam Phụ Tình Hoa Khôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7884,
+      "totalDurationStr": "2 giờ 11 phút",
+      "totalViews": 11967,
+      "totalLikes": 260,
+      "review": "📽Phim: [Full] Xuyên Không Đến 7 Năm Sau Tôi Bỗng Phát Hiện Mình Là Tra Nam Phụ Tình Hoa Khôi! | MyCherrySub Tóm tắt: Giang Triều – một chàng trai 20 tuổi – trong lúc mượn rượu để lấy can đảm tỏ tình với hoa khôi Hướng Tử Nguyệt thì bất ngờ xuyên không đến năm 2025 (7 năm sau). Tỉnh dậy, cậu bàng hoàng phát hiện mình không chỉ đã cưới được nữ thần trong...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/W1yLiuqodt0/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xuyên Không Đến 7 Năm Sau Tôi Bỗng Phát Hiện Mình Là Tra Nam Phụ Tình Hoa Khôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=W1yLiuqodt0",
+          "id": "W1yLiuqodt0",
+          "duration": 7884,
+          "durationStr": "2:11:24",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 11967,
+          "likes": 260,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6628",
+      "title": "[Full] Trùng Sinh Tuổi 18: Từ Phú Nhị Đại Rởm Bị Coi Thường Tôi Trở Thành Đại Lão Ngầm | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9977,
+      "totalDurationStr": "2 giờ 46 phút",
+      "totalViews": 13177,
+      "totalLikes": 114,
+      "review": "📽Phim: [Full] Trùng Sinh Tuổi 18: Từ Phú Nhị Đại Rởm Bị Coi Thường Tôi Trở Thành Đại Lão Ngầm | MyCherrySub Tóm tắt: Kiếp trước, Lục Xuyên ôm mộng bước chân vào giới thượng lưu nên đã dùng 10 triệu tệ tiền đền bù đất để ngụy trang thành một \"phú nhị đại\" rởm. Cuối cùng, lớp mặt nạ rơi xuống, anh mất trắng tất cả trong sự nhục nhã ê chề. Mở mắt ra lần...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/WX4Wle9nn0Q/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trùng Sinh Tuổi 18: Từ Phú Nhị Đại Rởm Bị Coi Thường Tôi Trở Thành Đại Lão Ngầm | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=WX4Wle9nn0Q",
+          "id": "WX4Wle9nn0Q",
+          "duration": 9977,
+          "durationStr": "2:46:17",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 13177,
+          "likes": 114,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6629",
+      "title": "[Full] Đi Tìm Bạn Gái Hờ Về Ra Mắt Tôi Không Ngờ Lại Trúng Ngay Nữ Sếp Tổng Lắm Chiêu! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10739,
+      "totalDurationStr": "2 giờ 58 phút",
+      "totalViews": 27182,
+      "totalLikes": 393,
+      "review": "📽Phim: [Full] Đi Tìm Bạn Gái Hờ Về Ra Mắt Tôi Không Ngờ Lại Trúng Ngay Nữ Sếp Tổng Lắm Chiêu! | MyCherrySub Tóm tắt: Để đối phó với những màn giục cưới gay gắt từ mẹ, anh chàng nhân viên kinh doanh Giang Phong quyết định bỏ tiền thuê một cô \"bạn gái tạm thời\". Tuy nhiên, do một sự cố hiểu lầm, anh đã nhận nhầm Tô Du Nhiên – một mỹ nữ khí chất ngời ngời...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/U9Raoc-92mg/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Đi Tìm Bạn Gái Hờ Về Ra Mắt Tôi Không Ngờ Lại Trúng Ngay Nữ Sếp Tổng Lắm Chiêu! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=U9Raoc-92mg",
+          "id": "U9Raoc-92mg",
+          "duration": 10739,
+          "durationStr": "2:58:59",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 27182,
+          "likes": 393,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6630",
+      "title": "[Full] Định Mệnh Cuộc Đời: Đàn Chị Hoa Khôi Lạnh Lùng Lại Là Bạn Chơi Game Của Tôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10725,
+      "totalDurationStr": "2 giờ 58 phút",
+      "totalViews": 39964,
+      "totalLikes": 408,
+      "review": "📽Phim: [Full] Định Mệnh Cuộc Đời: Đàn Chị Hoa Khôi Lạnh Lùng Lại Là Bạn Chơi Game Của Tôi! | MyCherrySub Tóm tắt: Lạc Diệp bước vào ngưỡng cửa Đại học Giang Thành với một khởi đầu không thể \"xu cà na\" hơn: bị tống vào đồn cảnh sát vì hiểu lầm là trộm khi bước vào căn hộ vừa thuê. Trớ trêu thay, chủ căn hộ đó lại là anh trai của Tô Bạch Châu - Hội trưởng...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/06RYdJOVWoo/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Định Mệnh Cuộc Đời: Đàn Chị Hoa Khôi Lạnh Lùng Lại Là Bạn Chơi Game Của Tôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=06RYdJOVWoo",
+          "id": "06RYdJOVWoo",
+          "duration": 10725,
+          "durationStr": "2:58:45",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 39964,
+          "likes": 408,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6631",
+      "title": "[Full] Cầu Hôn 100 Lần Bị Bạn Gái Phũ Phàng Từ Chối Tôi Quay Về Làm Thiên Tài Khoa Học | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5356,
+      "totalDurationStr": "1 giờ 29 phút",
+      "totalViews": 23581,
+      "totalLikes": 345,
+      "review": "📽Phim: [Full] Cầu Hôn 100 Lần Bị Bạn Gái Phũ Phàng Từ Chối Tôi Quay Về Làm Thiên Tài Khoa Học | MyCherrySub Tóm tắt: Vân Mặc từng là một nghiên cứu sinh xuất chúng, nhưng vì tình yêu, anh chấp nhận lùi về sau làm một người nội trợ nhẫn nhịn suốt 6 năm. Khi lần cầu hôn thứ 100 bị cự tuyệt và đem ra làm trò đùa, Vân Mặc triệt để tỉnh ngộ. Anh dứt khoát...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/kaHhGHVUVIU/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Cầu Hôn 100 Lần Bị Bạn Gái Phũ Phàng Từ Chối Tôi Quay Về Làm Thiên Tài Khoa Học | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=kaHhGHVUVIU",
+          "id": "kaHhGHVUVIU",
+          "duration": 5356,
+          "durationStr": "1:29:16",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 23581,
+          "likes": 345,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6632",
+      "title": "[Full] Xem Mắt Nhầm Người, Tôi Thức Tỉnh Hệ Thống Ăn Bám Cưới Luôn Bạn Thân Của Mẹ! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 4937,
+      "totalDurationStr": "1 giờ 22 phút",
+      "totalViews": 29576,
+      "totalLikes": 686,
+      "review": "📽Phim: [Full] Xem Mắt Nhầm Người, Tôi Thức Tỉnh Hệ Thống Ăn Bám Cưới Luôn Bạn Thân Của Mẹ! | MyCherrySub Tóm tắt: Chàng trai trẻ Tần Phong bị mẹ ép đi xem mắt nhưng lại nhầm đối tượng, vô tình đăng ký kết hôn với Thẩm Hựu Uy – cô bạn thân nhiều năm của mẹ mình. Không ngờ, \"dì Thẩm\" lại chính là nữ chủ tịch sở hữu tập đoàn Cận Niên trị giá hàng trăm tỷ....",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/tY2VsOgaJaY/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xem Mắt Nhầm Người, Tôi Thức Tỉnh Hệ Thống Ăn Bám Cưới Luôn Bạn Thân Của Mẹ! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=tY2VsOgaJaY",
+          "id": "tY2VsOgaJaY",
+          "duration": 4937,
+          "durationStr": "1:22:17",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 29576,
+          "likes": 686,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6633",
+      "title": "[Full] Xuyên Thành Pháo Hôi Tôi Phải Tự Cứu Lấy Mình Bằng Cách Bảo Vệ Nữ Chính! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5419,
+      "totalDurationStr": "1 giờ 30 phút",
+      "totalViews": 7259,
+      "totalLikes": 168,
+      "review": "📽Phim: [Full] Xuyên Thành Pháo Hôi Tôi Phải Tự Cứu Lấy Mình Bằng Cách Bảo Vệ Nữ Chính! | MyCherrySub Tóm tắt: Lâm Triệt, một biên tập viên chết vì làm việc quá sức, bất ngờ xuyên không vào cuốn tiểu thuyết đô thị ngược luyến. Oái oăm thay, cậu không mang hào quang nam chính, cũng chẳng phải phản diện khét tiếng, mà lại trở thành \"pháo hôi\" vô danh tuyến...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/gtT1zif6hBo/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xuyên Thành Pháo Hôi Tôi Phải Tự Cứu Lấy Mình Bằng Cách Bảo Vệ Nữ Chính! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=gtT1zif6hBo",
+          "id": "gtT1zif6hBo",
+          "duration": 5419,
+          "durationStr": "1:30:19",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 7259,
+          "likes": 168,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6634",
+      "title": "[Full] Oan Gia Ngõ Hẹp: Nữ Sếp Tổng Khó Tính Lại Là Mẹ Của Con Tôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9679,
+      "totalDurationStr": "2 giờ 41 phút",
+      "totalViews": 12394,
+      "totalLikes": 309,
+      "review": "📽Phim: [Full] Oan Gia Ngõ Hẹp: Nữ Sếp Tổng Khó Tính Lại Là Mẹ Của Con Tôi! | MyCherrySub Tóm tắt: Chung Du (21 tuổi), một cậu thực tập sinh nghèo, bất ngờ \"nhặt\" được cô con gái 5 tuổi tên Tuế Tuế từ đồn cảnh sát. Tuế Tuế nắm rõ mọi bí mật của cậu và khẳng định mình xuyên không từ năm 2034 về hiện tại (2026). Gây sốc hơn cả, người vợ tương lai của Chung...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/04W8GIqWcss/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Oan Gia Ngõ Hẹp: Nữ Sếp Tổng Khó Tính Lại Là Mẹ Của Con Tôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=04W8GIqWcss",
+          "id": "04W8GIqWcss",
+          "duration": 9679,
+          "durationStr": "2:41:19",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 12394,
+          "likes": 309,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6635",
+      "title": "[Full] Nửa Đêm Đi Trộm Chó Tôi Bị Bạn Gái Cũ Tóm Gọn Trên Sóng Livestream! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 2888,
+      "totalDurationStr": "48 phút 08 giây",
+      "totalViews": 4489,
+      "totalLikes": 97,
+      "review": "📽Phim: [Full] Nửa Đêm Đi Trộm Chó Tôi Bị Bạn Gái Cũ Tóm Gọn Trên Sóng Livestream! | MyCherrySub Tóm tắt: Sau khi chia tay, Cố Bạch và nữ minh tinh Tống Trúc Vận mỗi người nhận nuôi một chú chó. Vì thương cún cưng nhớ anh em, Cố Bạch nửa đêm lẻn vào nhà bạn gái cũ để \"trộm chó\" nhưng xui xẻo bị bắt quả tang ngay lúc cô đang livestream. Để giải vây dư...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/KDiu-eXE25o/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Nửa Đêm Đi Trộm Chó Tôi Bị Bạn Gái Cũ Tóm Gọn Trên Sóng Livestream! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=KDiu-eXE25o",
+          "id": "KDiu-eXE25o",
+          "duration": 2888,
+          "durationStr": "48:08",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 4489,
+          "likes": 97,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6636",
+      "title": "[Full] Nghe Được Tiếng Lòng, Cô Vợ Lạnh Lùng Của Tôi Hóa Ra Lại Cuồng Tôi Đến Mê Mẩn! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 2724,
+      "totalDurationStr": "45 phút 24 giây",
+      "totalViews": 4306,
+      "totalLikes": 81,
+      "review": "📽Phim: [Full] Nghe Được Tiếng Lòng, Cô Vợ Lạnh Lùng Của Tôi Hóa Ra Lại Cuồng Tôi Đến Mê Mẩn! | MyCherrySub Tóm tắt: Sau hai năm rưỡi chung sống lạnh nhạt như bạn cùng phòng, chàng bác sĩ ngoại khoa Diệp Phong và nữ luật sư kiêu ngạo Phó Tiêu Tiêu quyết định ra Cục Dân chính để ly hôn vì nghĩ rằng đối phương không hề có tình cảm với mình. Ngay tại lúc xếp...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/rwoOWZkmLwE/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Nghe Được Tiếng Lòng, Cô Vợ Lạnh Lùng Của Tôi Hóa Ra Lại Cuồng Tôi Đến Mê Mẩn! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=rwoOWZkmLwE",
+          "id": "rwoOWZkmLwE",
+          "duration": 2724,
+          "durationStr": "45:24",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 4306,
+          "likes": 81,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6637",
+      "title": "[Full] Cứ Tưởng Xuyên Không Làm Bá Tổng Ngầu Lòi Tôi Hóa Ra Lại Kết Hôn Rồi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 4857,
+      "totalDurationStr": "1 giờ 20 phút",
+      "totalViews": 15735,
+      "totalLikes": 313,
+      "review": "📽Phim: [Full] Cứ Tưởng Xuyên Không Làm Bá Tổng Ngầu Lòi Tôi Hóa Ra Lại Kết Hôn Rồi! | MyCherrySub Tóm tắt: Thẩm Nhiên - đại ca trùm trường ngông cuồng, kiêu ngạo tuổi 18 - sau một giấc ngủ đột nhiên xuyên không đến 10 năm sau, thức dậy trong cơ thể của chính mình năm 28 tuổi. Anh bàng hoàng phát hiện mình giờ đây đã là một Tổng giám đốc công nghệ sở hữu...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/v5G3Uiqsqys/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Cứ Tưởng Xuyên Không Làm Bá Tổng Ngầu Lòi Tôi Hóa Ra Lại Kết Hôn Rồi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=v5G3Uiqsqys",
+          "id": "v5G3Uiqsqys",
+          "duration": 4857,
+          "durationStr": "1:20:57",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 15735,
+          "likes": 313,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6638",
+      "title": "[Full] Trở Lại Tuổi 18: Đời Này Tôi Tuyệt Đối Sẽ Không Bỏ Lỡ Em Nữa! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 3433,
+      "totalDurationStr": "57 phút 13 giây",
+      "totalViews": 29590,
+      "totalLikes": 519,
+      "review": "📽Phim: [Full] Trở Lại Tuổi 18: Đời Này Tôi Tuyệt Đối Sẽ Không Bỏ Lỡ Em Nữa! | MyCherrySub Tóm tắt: Hạ Thiên là một tỷ phú tự thân nắm trong tay khối tài sản hàng chục tỷ, nhưng sâu thẳm trong lòng anh luôn là sự ân hận tột cùng. Anh phát hiện ra người giấu tên đã hiến tặng giác mạc giúp anh tìm lại ánh sáng, cứu vớt cuộc đời anh lúc dưới đáy vực sâu lại...",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/OLgqUuyan6I/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trở Lại Tuổi 18: Đời Này Tôi Tuyệt Đối Sẽ Không Bỏ Lỡ Em Nữa! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=OLgqUuyan6I",
+          "id": "OLgqUuyan6I",
+          "duration": 3433,
+          "durationStr": "57:13",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 29590,
+          "likes": 519,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6570",
+      "title": "Xuyên Không Đến Vũ Trụ The Boys Với Khả Năng Sao Chép Siêu Năng Lực | P1",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 3690,
+      "totalDurationStr": "1 giờ 01 phút",
+      "totalViews": 2738,
+      "totalLikes": 25,
+      "review": "Transmigrating to the Universe with The Boys and the Ability to Copy Superpowers | Part 1 Support me with some eggs 🥚🥚🥚 here: Bank Account (MB): 12464627664",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/H_YysmW-hNI/hqdefault.jpg",
+      "publishedAt": "2026-09-26T20:15:47.671403+00:00",
+      "updatedAt": "2026-09-26T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Đến Vũ Trụ The Boys Với Khả Năng Sao Chép Siêu Năng Lực | P1",
+          "url": "https://www.youtube.com/watch?v=H_YysmW-hNI",
+          "id": "H_YysmW-hNI",
+          "duration": 3690,
+          "durationStr": "1:01:30",
+          "publishedAt": "2026-09-26T20:15:47.671403+00:00",
+          "views": 2738,
+          "likes": 25,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6590",
+      "title": "[Full] Tháng Nhận 50 Vạn, Tôi Trở Thành Vị Hôn Phu Hợp Đồng Của Nữ Tổng Tài Băng Lãnh! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6045,
+      "totalDurationStr": "1 giờ 40 phút",
+      "totalViews": 1752,
+      "totalLikes": 45,
+      "review": "📽Phim: [Full] Tháng Nhận 50 Vạn, Tôi Trở Thành Vị Hôn Phu Hợp Đồng Của Nữ Tổng Tài Băng Lãnh! | MyCherrySub Tóm tắt: Chu Dã, một thanh niên xuất thân nghèo khó, ký hợp đồng làm vị hôn phu giả cho nữ tổng tài lạnh lùng Cố Thanh Đường với mức thù lao 50 vạn mỗi tháng. Nhiệm vụ chính của anh là làm \"tấm khiên\" chặn đứng những kẻ theo đuổi phiền phức của...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/CZ57weyvU2M/hqdefault.jpg",
+      "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+      "updatedAt": "2026-08-27T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Tháng Nhận 50 Vạn, Tôi Trở Thành Vị Hôn Phu Hợp Đồng Của Nữ Tổng Tài Băng Lãnh! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=CZ57weyvU2M",
+          "id": "CZ57weyvU2M",
+          "duration": 6045,
+          "durationStr": "1:40:45",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 1752,
+          "likes": 45,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6591",
+      "title": "[Full] Tái Sinh Báo Thù Tôi Lật Tẩy Bộ Mặt Thật Của Người Vợ Giả Tạo! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5070,
+      "totalDurationStr": "1 giờ 24 phút",
+      "totalViews": 974,
+      "totalLikes": 27,
+      "review": "📽Phim: [Full] Tái Sinh Báo Thù Tôi Lật Tẩy Bộ Mặt Thật Của Người Vợ Giả Tạo! | MyCherrySub Tóm tắt: Một \"kẻ dọn dẹp\" bí ẩn mang linh hồn nhập vào thể xác của Trần Nhất Bằng – một người chồng hiền lành, nhu nhược đang bị vợ mình là Tiêu Hồng Ly cắm sừng. Ngay đêm đầu tiên trong cơ thể mới, anh đã nhận được tin nhắn nặc danh tố cáo vợ đi quán bar cùng...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/bWtX34AVUzQ/hqdefault.jpg",
+      "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+      "updatedAt": "2026-08-27T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Tái Sinh Báo Thù Tôi Lật Tẩy Bộ Mặt Thật Của Người Vợ Giả Tạo! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=bWtX34AVUzQ",
+          "id": "bWtX34AVUzQ",
+          "duration": 5070,
+          "durationStr": "1:24:30",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 974,
+          "likes": 27,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6592",
+      "title": "Full Version | 10 Năm Nằm Vùng, Ta Cưới Luôn Nữ Đế Ma Tông Làm Vợ! | Bản Tin Cherry",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5348,
+      "totalDurationStr": "1 giờ 29 phút",
+      "totalViews": 2222,
+      "totalLikes": 66,
+      "review": "Suốt 10 năm ròng rã làm nội gián cho Thanh Vân Môn tại Thiên Ma Tông, Diệp Phàm từng bước cày cuốc từ một tên tạp dịch thấp kém lên đến vị trí Thánh Tử. Thế nhưng, đổi lại sự hy sinh của hắn chỉ là những lời hứa hẹn suông và sự lợi dụng tàn nhẫn của những kẻ tự xưng là \"danh môn chính phái\". Nhìn thấu bộ mặt đạo đức giả của đám người Từ Trường Khanh,...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/k-z18cVU0Fk/hqdefault.jpg",
+      "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+      "updatedAt": "2026-08-27T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Version | 10 Năm Nằm Vùng, Ta Cưới Luôn Nữ Đế Ma Tông Làm Vợ! | Bản Tin Cherry",
+          "url": "https://www.youtube.com/watch?v=k-z18cVU0Fk",
+          "id": "k-z18cVU0Fk",
+          "duration": 5348,
+          "durationStr": "1:29:08",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 2222,
+          "likes": 66,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6593",
+      "title": "Trọn Bộ | Xuyên Thành Hôn Quân Phản Phái Bị Ái Phi Bức Cung, Ta Đành Bại Lộ Thực Lực Bán Bộ Chúa Tể",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 25115,
+      "totalDurationStr": "6 giờ 58 phút",
+      "totalViews": 2210,
+      "totalLikes": 58,
+      "review": "Nam chính Vân Giang Tiên – một hoàng đế mang trong mình \"Hệ thống sinh tồn\" (nhận phần thưởng qua các thử thách mỗi ngày). Dù sở hữu thực lực thâm hậu, hắn luôn giả vờ là một kẻ phế vật bị liệt tứ chi để che giấu tai mắt và chờ thời cơ. Trong một thử thách sinh tồn cấp SS, Vân Giang Tiên bị Yến phi cùng các cao thủ từ Ma Tông và Quan Lâu vây khốn hòng...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/PI9tqIsrCjM/hqdefault.jpg",
+      "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+      "updatedAt": "2026-08-27T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trọn Bộ | Xuyên Thành Hôn Quân Phản Phái Bị Ái Phi Bức Cung, Ta Đành Bại Lộ Thực Lực Bán Bộ Chúa Tể",
+          "url": "https://www.youtube.com/watch?v=PI9tqIsrCjM",
+          "id": "PI9tqIsrCjM",
+          "duration": 25115,
+          "durationStr": "6:58:35",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 2210,
+          "likes": 58,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6594",
+      "title": "[Full] Thức Tỉnh Phàm Long Bị Cả Tộc Chê Cười, Ta Lặng Lẽ Thôn Phệ Vạn Vật Nghịch Thiên Cải Mệnh!",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9388,
+      "totalDurationStr": "2 giờ 36 phút",
+      "totalViews": 643,
+      "totalLikes": 20,
+      "review": "Tại Long Vũ đại lục, nơi thực lực được định đoạt bằng phẩm cấp huyết mạch rồng, Thiếu tộc trưởng Tông Vương phủ - Giang Thần Vũ - rơi vào cảnh khốn cùng. Trong buổi lễ tế, cậu bị cả gia tộc chế giễu là \"phế vật\" khi chỉ thức tỉnh được huyết mạch Phàm Long tám trượng thấp kém nhất. Cha mất tích, họ hàng hắt hủi, người của Bắc phủ thì lăm le phế truất ngai...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/C7l_RUtHNR8/hqdefault.jpg",
+      "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+      "updatedAt": "2026-08-27T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Thức Tỉnh Phàm Long Bị Cả Tộc Chê Cười, Ta Lặng Lẽ Thôn Phệ Vạn Vật Nghịch Thiên Cải Mệnh!",
+          "url": "https://www.youtube.com/watch?v=C7l_RUtHNR8",
+          "id": "C7l_RUtHNR8",
+          "duration": 9388,
+          "durationStr": "2:36:28",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 643,
+          "likes": 20,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6595",
+      "title": "[Full] Chàng Ngốc Bị Bỏ Rơi Lại Cưới Được Tiên Hồ Xinh Đẹp | Bản Tin Cherry",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5054,
+      "totalDurationStr": "1 giờ 24 phút",
+      "totalViews": 88070,
+      "totalLikes": 1501,
+      "review": "Chàng ngốc Liễu Bình An đã dành 5 năm ròng rã dốc lòng chăm sóc Lâm Mặc Hân – một thánh nữ Tiên giới bị rớt xuống phàm trần – với ước mong giản dị là nàng sẽ nán lại làm vợ mình. Thế nhưng, tiên tử vốn vô tình, nàng mượn Bình An để thuận lợi vượt qua tình kiếp rồi lập tức dứt áo quay về Thánh Cảnh Côn Lôn, bỏ mặc chàng bơ vơ. Cứ ngỡ cuộc đời chàng phàm...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/SJZxphOiPus/hqdefault.jpg",
+      "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+      "updatedAt": "2026-08-27T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Chàng Ngốc Bị Bỏ Rơi Lại Cưới Được Tiên Hồ Xinh Đẹp | Bản Tin Cherry",
+          "url": "https://www.youtube.com/watch?v=SJZxphOiPus",
+          "id": "SJZxphOiPus",
+          "duration": 5054,
+          "durationStr": "1:24:14",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 88070,
+          "likes": 1501,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6596",
+      "title": "[Full] Kế Hoạch Cưng Chiều Vợ: Cưới Trước Yêu Sau, Đại Tiểu Thư Em Là Của Tôi! | Bản Tin Cherry",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6708,
+      "totalDurationStr": "1 giờ 51 phút",
+      "totalViews": 804,
+      "totalLikes": 19,
+      "review": "📽Phim: [Full] Kế Hoạch Cưng Chiều Vợ: Cưới Trước Yêu Sau, Đại Tiểu Thư Em Là Của Tôi! | Bản Tin Cherry Tóm tắt: Phong Uyển Ngưng – đệ nhất đại tiểu thư nhà họ Phong, vốn quen thói ăn chơi lêu lổng, vô lo vô nghĩ, bỗng một ngày \"trời giáng\" thánh chỉ từ ông nội: Phải liên hôn thương mại với Giang Thần – một người đàn ông trưởng thành, trầm ổn và lớn hơn...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/3jn-lWNJdSc/hqdefault.jpg",
+      "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+      "updatedAt": "2026-08-27T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Kế Hoạch Cưng Chiều Vợ: Cưới Trước Yêu Sau, Đại Tiểu Thư Em Là Của Tôi! | Bản Tin Cherry",
+          "url": "https://www.youtube.com/watch?v=3jn-lWNJdSc",
+          "id": "3jn-lWNJdSc",
+          "duration": 6708,
+          "durationStr": "1:51:48",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 804,
+          "likes": 19,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6597",
+      "title": "[P1] Xuyên Không Đấu La Thức Tỉnh Yêu Nghiệt Song Sinh Võ Hồn Cực Trí! | Bản Tin Cherry",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 1584,
+      "totalDurationStr": "26 phút 24 giây",
+      "totalViews": 424,
+      "totalLikes": 9,
+      "review": "📽Phim: [P1] Xuyên Không Đấu La Thức Tỉnh Yêu Nghiệt Song Sinh Võ Hồn Cực Trí! | Bản Tin Cherry Tóm tắt: Từ Nguyên Nhất – một nam chính mang tư chất phá vỡ mọi định luật tu luyện. Thức tỉnh song sinh võ hồn đỉnh cấp (Cực Dương và Song Nguyệt), cậu từng phải đối mặt với nguy cơ cắn trả sinh mệnh do sự mất cân bằng giữa hai luồng sức mạnh. Tuy nhiên, nhờ cơ...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/FJJE7KvWBG8/hqdefault.jpg",
+      "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+      "updatedAt": "2026-08-27T20:15:48.196532+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[P1] Xuyên Không Đấu La Thức Tỉnh Yêu Nghiệt Song Sinh Võ Hồn Cực Trí! | Bản Tin Cherry",
+          "url": "https://www.youtube.com/watch?v=FJJE7KvWBG8",
+          "id": "FJJE7KvWBG8",
+          "duration": 1584,
+          "durationStr": "26:24",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 424,
+          "likes": 9,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6563",
+      "title": "Khải Giáp Dũng Sĩ Trận Chiến Ánh Sáng Và Bóng Tối | Tập 9 - 13 | Bạo Viêm Long Hoàng Khải Giáp",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 9141,
+      "totalDurationStr": "2 giờ 32 phút",
+      "totalViews": 18250,
+      "totalLikes": 390,
+      "review": "Armored Hero: The Battle Between Light and Darkness | Episodes 9-13 | Blazing Dragon Emperor Armored Hero Support me with some eggs 🥚🥚🥚 here: Bank Account (MB): 12464627664",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/JnxwAk0mcY0/hqdefault.jpg",
+      "publishedAt": "2026-07-28T20:15:47.671403+00:00",
+      "updatedAt": "2026-08-27T20:15:47.671403+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1-8",
+          "title": "Khải Giáp Dũng Sĩ Trận Chiến Ánh Sáng Và Bóng Tối | Tập 1- 8 | Hắc Ám Hoàng Đế",
+          "url": "https://www.youtube.com/watch?v=nKn_b2JN7Wk",
+          "id": "nKn_b2JN7Wk",
+          "duration": 2888,
+          "durationStr": "48:08",
+          "publishedAt": "2026-07-28T20:15:47.671403+00:00",
+          "views": 10102,
+          "likes": 214,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 2,
+          "label": "Tập 9-13",
+          "title": "Khải Giáp Dũng Sĩ Trận Chiến Ánh Sáng Và Bóng Tối | Tập 9 - 13 | Bạo Viêm Long Hoàng Khải Giáp",
+          "url": "https://www.youtube.com/watch?v=JnxwAk0mcY0",
+          "id": "JnxwAk0mcY0",
+          "duration": 1769,
+          "durationStr": "29:29",
+          "publishedAt": "2026-07-28T20:15:47.671403+00:00",
+          "views": 3003,
+          "likes": 74,
+          "isRedundant": false
+        },
+        {
+          "index": 3,
+          "label": "Tập 14-20",
+          "title": "Khải Giáp Dũng Sĩ Trận Chiến Ánh Sáng Và Bóng Tối | Tập 14 - 20",
+          "url": "https://www.youtube.com/watch?v=nWKCglDAKQw",
+          "id": "nWKCglDAKQw",
+          "duration": 2087,
+          "durationStr": "34:47",
+          "publishedAt": "2026-08-27T20:15:47.671403+00:00",
+          "views": 2431,
+          "likes": 51,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 4,
+          "label": "Tập 21-28",
+          "title": "Khải Giáp Dũng Sĩ Trận Chiến Ánh Sáng Và Bóng Tối | Tập 21 - 28",
+          "url": "https://www.youtube.com/watch?v=0y63QhY0vkk",
+          "id": "0y63QhY0vkk",
+          "duration": 2397,
+          "durationStr": "39:57",
+          "publishedAt": "2026-08-27T20:15:47.671403+00:00",
+          "views": 2714,
+          "likes": 51,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        }
+      ],
+      "channelIds": [
+        "eggvietsub"
+      ]
+    },
+    {
+      "id": "film_6568",
+      "title": "Xuyên Sách Thành Tên Thiếu Gia Phản Diện, Tôi Cố Gắng Làm Lành Với Nữ Chính Để Sống Sót | Tập 91-105",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 6,
+      "partsStr": "6 phần",
+      "totalDurationSec": 22502,
+      "totalDurationStr": "6 giờ 15 phút",
+      "totalViews": 1209779,
+      "totalLikes": 15131,
+      "review": "Xuyên Sách Thành Tên Thiếu Gia Phản Diện, Tôi Cố Gắng Làm Lành Với Nữ Chính Để Sống Sót | Tập 91-105 Đăng ký ủng hộ Egg Vietsub nhé !!! Ủng hộ tớ vài quả trứng 🥚🥚🥚 tại đây :",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/9gGZHoBLne0/hqdefault.jpg",
+      "publishedAt": "2026-08-27T20:15:47.671403+00:00",
+      "updatedAt": "2026-08-27T20:15:47.671403+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1-40",
+          "title": "Xuyên Sách Thành Tên Thiếu Gia Phản Diện, Tôi Cố Gắng Làm Lành Với Nữ Chính Để Sống Sót | Tập 1- 40",
+          "url": "https://www.youtube.com/watch?v=w8uUj7WbQ9c",
+          "id": "w8uUj7WbQ9c",
+          "duration": 8586,
+          "durationStr": "2:23:06",
+          "publishedAt": "2026-08-27T20:15:47.671403+00:00",
+          "views": 648209,
+          "likes": 6292,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 2,
+          "label": "Tập 41-50",
+          "title": "Xuyên Sách Thành Tên Thiếu Gia Phản Diện, Tôi Cố Gắng Làm Lành Với Nữ Chính Để Sống Sót | Tập 41-50",
+          "url": "https://www.youtube.com/watch?v=95XPBBvlazY",
+          "id": "95XPBBvlazY",
+          "duration": 1904,
+          "durationStr": "31:44",
+          "publishedAt": "2026-08-27T20:15:47.671403+00:00",
+          "views": 110185,
+          "likes": 1870,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 3,
+          "label": "Tập 51-65",
+          "title": "Xuyên Sách Thành Tên Thiếu Gia Phản Diện, Tôi Cố Gắng Làm Lành Với Nữ Chính Để Sống Sót | Tập 51-65",
+          "url": "https://www.youtube.com/watch?v=5FNCny8C5Y4",
+          "id": "5FNCny8C5Y4",
+          "duration": 3203,
+          "durationStr": "53:23",
+          "publishedAt": "2026-08-27T20:15:47.671403+00:00",
+          "views": 100703,
+          "likes": 1608,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 4,
+          "label": "Tập 66-75",
+          "title": "Xuyên Sách Thành Tên Thiếu Gia Phản Diện, Tôi Cố Gắng Làm Lành Với Nữ Chính Để Sống Sót | Tập 66-75",
+          "url": "https://www.youtube.com/watch?v=1ffTyh85fuY",
+          "id": "1ffTyh85fuY",
+          "duration": 2172,
+          "durationStr": "36:12",
+          "publishedAt": "2026-08-27T20:15:47.671403+00:00",
+          "views": 112122,
+          "likes": 1660,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 5,
+          "label": "Tập 76-90",
+          "title": "Xuyên Sách Thành Tên Thiếu Gia Phản Diện, Tôi Cố Gắng Làm Lành Với Nữ Chính Để Sống Sót | Tập 76-90",
+          "url": "https://www.youtube.com/watch?v=E642BmRWwPo",
+          "id": "E642BmRWwPo",
+          "duration": 3568,
+          "durationStr": "59:28",
+          "publishedAt": "2026-08-27T20:15:47.671403+00:00",
+          "views": 130628,
+          "likes": 2034,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 6,
+          "label": "Tập 91-105",
+          "title": "Xuyên Sách Thành Tên Thiếu Gia Phản Diện, Tôi Cố Gắng Làm Lành Với Nữ Chính Để Sống Sót | Tập 91-105",
+          "url": "https://www.youtube.com/watch?v=9gGZHoBLne0",
+          "id": "9gGZHoBLne0",
+          "duration": 3069,
+          "durationStr": "51:09",
+          "publishedAt": "2026-08-27T20:15:47.671403+00:00",
+          "views": 107932,
+          "likes": 1667,
+          "isRedundant": false
+        }
+      ],
+      "channelIds": [
+        "eggvietsub"
+      ]
+    },
+    {
+      "id": "film_6569",
+      "title": "Tận Thế Zombie, Tôi Sở Hữu Hệ Thống Nâng Cấp Pháo Đài, Đứng Đầu Mạt Thế | Full Vietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 4148,
+      "totalDurationStr": "1 giờ 09 phút",
+      "totalViews": 1482,
+      "totalLikes": 26,
+      "review": "Zombie Apocalypse, I Own a Fortress Upgrade System, I'm the Top of the Apocalypse | Full Vietnamese Subtitles Support me with some eggs 🥚🥚🥚 here: Bank Account (MB): 12464627664",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/DGrMx5Jw3Ek/hqdefault.jpg",
+      "publishedAt": "2026-08-27T20:15:47.671403+00:00",
+      "updatedAt": "2026-08-27T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Tận Thế Zombie, Tôi Sở Hữu Hệ Thống Nâng Cấp Pháo Đài, Đứng Đầu Mạt Thế | Full Vietsub",
+          "url": "https://www.youtube.com/watch?v=DGrMx5Jw3Ek",
+          "id": "DGrMx5Jw3Ek",
+          "duration": 4148,
+          "durationStr": "1:09:08",
+          "publishedAt": "2026-08-27T20:15:47.671403+00:00",
+          "views": 1482,
+          "likes": 26,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6555",
+      "title": "Các Nữ Đế Yandere Đều Muốn Độc Chiếm Tôi  | Tập 34 - 42 | Egg Vietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 5,
+      "partsStr": "5 phần",
+      "totalDurationSec": 15935,
+      "totalDurationStr": "4 giờ 25 phút",
+      "totalViews": 143183,
+      "totalLikes": 2297,
+      "review": "The Yandere Empresses All Want to Possess Me | Episodes 34-42 | Egg Vietsub Support me with some eggs 🥚🥚🥚 here: Bank Account (MB): 12464627664",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/5NoFoTzJU_s/hqdefault.jpg",
+      "publishedAt": "2026-05-29T20:15:47.671403+00:00",
+      "updatedAt": "2026-07-28T20:15:47.671403+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1-33",
+          "title": "Các Nữ Đế Yandere Đều Muốn Độc Chiếm Tôi | Tập 1 - 33 | Egg Vietsub",
+          "url": "https://www.youtube.com/watch?v=LCWfWmj7nSk",
+          "id": "LCWfWmj7nSk",
+          "duration": 4706,
+          "durationStr": "1:18:26",
+          "publishedAt": "2026-05-29T20:15:47.671403+00:00",
+          "views": 29125,
+          "likes": 500,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 2,
+          "label": "Tập 34-42",
+          "title": "Các Nữ Đế Yandere Đều Muốn Độc Chiếm Tôi  | Tập 34 - 42 | Egg Vietsub",
+          "url": "https://www.youtube.com/watch?v=5NoFoTzJU_s",
+          "id": "5NoFoTzJU_s",
+          "duration": 1307,
+          "durationStr": "21:47",
+          "publishedAt": "2026-05-29T20:15:47.671403+00:00",
+          "views": 7608,
+          "likes": 135,
+          "isRedundant": false
+        },
+        {
+          "index": 3,
+          "label": "Tập 43-68",
+          "title": "Các Nữ Đế Yandere Đều Muốn Độc Chiếm Tôi  | Tập 43 - 68 | Egg Vietsub",
+          "url": "https://www.youtube.com/watch?v=A6bLegKl5W8",
+          "id": "A6bLegKl5W8",
+          "duration": 4402,
+          "durationStr": "1:13:22",
+          "publishedAt": "2026-06-28T20:15:47.671403+00:00",
+          "views": 64416,
+          "likes": 900,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 4,
+          "label": "Tập 69-83",
+          "title": "Các Nữ Đế Yandere Đều Muốn Độc Chiếm Tôi  | Tập 69 - 83 | Egg Vietsub",
+          "url": "https://www.youtube.com/watch?v=dTsxmVVLmnA",
+          "id": "dTsxmVVLmnA",
+          "duration": 3180,
+          "durationStr": "53:00",
+          "publishedAt": "2026-07-28T20:15:47.671403+00:00",
+          "views": 29983,
+          "likes": 450,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 5,
+          "label": "Tập 84-95",
+          "title": "Các Nữ Đế Yandere Đều Muốn Độc Chiếm Tôi  | Tập 84 - 95 | Egg Vietsub",
+          "url": "https://www.youtube.com/watch?v=_OtZLCVOfQE",
+          "id": "_OtZLCVOfQE",
+          "duration": 2340,
+          "durationStr": "39:00",
+          "publishedAt": "2026-07-28T20:15:47.671403+00:00",
+          "views": 12051,
+          "likes": 312,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        }
+      ],
+      "channelIds": [
+        "eggvietsub"
+      ]
+    },
+    {
+      "id": "film_6564",
+      "title": "Câu Chuyện Ma Của Cô Bé Quàng Khăn Đỏ | Full Kinh Dị Vietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 2397,
+      "totalDurationStr": "39 phút 57 giây",
+      "totalViews": 300,
+      "totalLikes": 5,
+      "review": "Câu Chuyện Ma Của Cô Bé Quàng Khăn Đỏ | Full Kinh Dị Vietsub Đăng ký ủng hộ Egg Vietsub nhé !!! Ủng hộ tớ vài quả trứng 🥚🥚🥚 tại đây :",
+      "genres": [
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/spzeVV39bxs/hqdefault.jpg",
+      "publishedAt": "2026-07-28T20:15:47.671403+00:00",
+      "updatedAt": "2026-07-28T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Câu Chuyện Ma Của Cô Bé Quàng Khăn Đỏ | Full Kinh Dị Vietsub",
+          "url": "https://www.youtube.com/watch?v=spzeVV39bxs",
+          "id": "spzeVV39bxs",
+          "duration": 2397,
+          "durationStr": "39:57",
+          "publishedAt": "2026-07-28T20:15:47.671403+00:00",
+          "views": 300,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6565",
+      "title": "Thức Tỉnh Chiến Giáp Cấp Sát Vụn, Ta Nhặt Được Chiến Giáp Cấp Thần | Full Vietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5365,
+      "totalDurationStr": "1 giờ 29 phút",
+      "totalViews": 511630,
+      "totalLikes": 2685,
+      "review": "Awakening the Shattered Armor, I Picked Up a God-Level Armor | Full Vietnamese Subtitles Support me with some eggs 🥚🥚🥚 here: Bank Account (MB): 12464627664",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/rfijQVhMpOQ/hqdefault.jpg",
+      "publishedAt": "2026-07-28T20:15:47.671403+00:00",
+      "updatedAt": "2026-07-28T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Thức Tỉnh Chiến Giáp Cấp Sát Vụn, Ta Nhặt Được Chiến Giáp Cấp Thần | Full Vietsub",
+          "url": "https://www.youtube.com/watch?v=rfijQVhMpOQ",
+          "id": "rfijQVhMpOQ",
+          "duration": 5365,
+          "durationStr": "1:29:25",
+          "publishedAt": "2026-07-28T20:15:47.671403+00:00",
+          "views": 511630,
+          "likes": 2685,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6566",
+      "title": "Full | Khải Giáp Dũng Sĩ - Ngũ Nguyên Tố Thức Tỉnh  - Anh Hùng Trái Đất Armor Hero | Egg Vietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 4923,
+      "totalDurationStr": "1 giờ 22 phút",
+      "totalViews": 82342,
+      "totalLikes": 1116,
+      "review": "Full | Khải Giáp Dũng Sĩ - Ngũ Nguyên Tố Thức Tỉnh - Anh Hùng Trái Đất Armor Hero | Egg Vietsub Đăng ký ủng hộ Egg Vietsub nhé !!! Ủng hộ tớ vài quả trứng 🥚🥚🥚 tại đây :",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/JkafZVSZg_w/hqdefault.jpg",
+      "publishedAt": "2026-07-28T20:15:47.671403+00:00",
+      "updatedAt": "2026-07-28T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full | Khải Giáp Dũng Sĩ - Ngũ Nguyên Tố Thức Tỉnh  - Anh Hùng Trái Đất Armor Hero | Egg Vietsub",
+          "url": "https://www.youtube.com/watch?v=JkafZVSZg_w",
+          "id": "JkafZVSZg_w",
+          "duration": 4923,
+          "durationStr": "1:22:03",
+          "publishedAt": "2026-07-28T20:15:47.671403+00:00",
+          "views": 82342,
+          "likes": 1116,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6559",
+      "title": "Xuyên không cùng hệ thống, tôi chén chị dâu và lập hậu cung toàn mỹ nữ! | EggVietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7233,
+      "totalDurationStr": "2 giờ 00 phút",
+      "totalViews": 328,
+      "totalLikes": 7,
+      "review": "Xuyên không cùng hệ thống, tôi chén chị dâu và lập hậu cung toàn mỹ nữ! | EggVietsub Đăng ký ủng hộ Egg Vietsub nhé !!!",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/cpfuCLMNhBg/hqdefault.jpg",
+      "publishedAt": "2026-06-28T20:15:47.671403+00:00",
+      "updatedAt": "2026-06-28T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên không cùng hệ thống, tôi chén chị dâu và lập hậu cung toàn mỹ nữ! | EggVietsub",
+          "url": "https://www.youtube.com/watch?v=cpfuCLMNhBg",
+          "id": "cpfuCLMNhBg",
+          "duration": 7233,
+          "durationStr": "2:00:33",
+          "publishedAt": "2026-06-28T20:15:47.671403+00:00",
+          "views": 328,
+          "likes": 7,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6560",
+      "title": "Cổng Máu: Bí Ẩn Chung Cư Ngọc Điền | Full Kinh Dị Vietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5522,
+      "totalDurationStr": "1 giờ 32 phút",
+      "totalViews": 213,
+      "totalLikes": 4,
+      "review": "Full | Cổng Máu : Bí Ẩn Chung Cư Ngọc Điền | Egg Vietsub Đăng ký ủng hộ Egg Vietsub nhé !!! Ủng hộ tớ vài quả trứng 🥚🥚🥚 tại đây :",
+      "genres": [
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/4l7PKb4uiMo/hqdefault.jpg",
+      "publishedAt": "2026-06-28T20:15:47.671403+00:00",
+      "updatedAt": "2026-06-28T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Cổng Máu: Bí Ẩn Chung Cư Ngọc Điền | Full Kinh Dị Vietsub",
+          "url": "https://www.youtube.com/watch?v=4l7PKb4uiMo",
+          "id": "4l7PKb4uiMo",
+          "duration": 5522,
+          "durationStr": "1:32:02",
+          "publishedAt": "2026-06-28T20:15:47.671403+00:00",
+          "views": 213,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6561",
+      "title": "Bị Vu Oan Phản Quốc, Ta Thức Tỉnh Hệ Thống Sát Sinh Đi Trả Thù | Full Vietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8534,
+      "totalDurationStr": "2 giờ 22 phút",
+      "totalViews": 347,
+      "totalLikes": 7,
+      "review": "Full | Bị Vu Oan Phản Quốc, Ta Thức Tỉnh Hệ Thống Sát Sinh Đi Trả Thù | Egg Vietsub Đăng ký ủng hộ Egg Vietsub nhé !!! Ủng hộ tớ vài quả trứng 🥚🥚🥚 tại đây :",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/wtpYV-AZX_Q/hqdefault.jpg",
+      "publishedAt": "2026-06-28T20:15:47.671403+00:00",
+      "updatedAt": "2026-06-28T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Bị Vu Oan Phản Quốc, Ta Thức Tỉnh Hệ Thống Sát Sinh Đi Trả Thù | Full Vietsub",
+          "url": "https://www.youtube.com/watch?v=wtpYV-AZX_Q",
+          "id": "wtpYV-AZX_Q",
+          "duration": 8534,
+          "durationStr": "2:22:14",
+          "publishedAt": "2026-06-28T20:15:47.671403+00:00",
+          "views": 347,
+          "likes": 7,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6562",
+      "title": "Cổ Chân Nhân hoạt hình AI phần 1 | Có Xuân Thu Thiền tôi bước lên con đường Vĩnh Sinh | EggVietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 4154,
+      "totalDurationStr": "1 giờ 09 phút",
+      "totalViews": 560,
+      "totalLikes": 14,
+      "review": "Đăng ký ủng hộ Egg Vietsub nhé !!!",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/2O5WKeIYkds/hqdefault.jpg",
+      "publishedAt": "2026-06-28T20:15:47.671403+00:00",
+      "updatedAt": "2026-06-28T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Cổ Chân Nhân hoạt hình AI phần 1 | Có Xuân Thu Thiền tôi bước lên con đường Vĩnh Sinh | EggVietsub",
+          "url": "https://www.youtube.com/watch?v=2O5WKeIYkds",
+          "id": "2O5WKeIYkds",
+          "duration": 4154,
+          "durationStr": "1:09:14",
+          "publishedAt": "2026-06-28T20:15:47.671403+00:00",
+          "views": 560,
+          "likes": 14,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6554",
+      "title": "Vong Hồn Người Hàng Xóm Báo Thù | Full Kinh Dị Vietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 1422,
+      "totalDurationStr": "23 phút 42 giây",
+      "totalViews": 97,
+      "totalLikes": 2,
+      "review": "Full | Người Hàng Xóm Báo Thù | Egg Vietsub Đăng ký ủng hộ Egg Vietsub nhé !!! Ủng hộ tớ vài quả trứng 🥚🥚🥚 tại đây :",
+      "genres": [
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/riSU8yKHBBU/hqdefault.jpg",
+      "publishedAt": "2026-05-29T20:15:47.671403+00:00",
+      "updatedAt": "2026-05-29T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Vong Hồn Người Hàng Xóm Báo Thù | Full Kinh Dị Vietsub",
+          "url": "https://www.youtube.com/watch?v=riSU8yKHBBU",
+          "id": "riSU8yKHBBU",
+          "duration": 1422,
+          "durationStr": "23:42",
+          "publishedAt": "2026-05-29T20:15:47.671403+00:00",
+          "views": 97,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6556",
+      "title": "Full | Khải Giáp Dũng Sĩ Thời Cổ Đại - Anh Hùng Trái Đất Armor Hero | Egg Vietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 3079,
+      "totalDurationStr": "51 phút 19 giây",
+      "totalViews": 177053,
+      "totalLikes": 1827,
+      "review": "Full | Khải Giáp Dũng Sĩ Thời Cổ Đại | Egg Vietsub Đăng ký ủng hộ Egg Vietsub nhé !!! Ủng hộ tớ vài quả trứng 🥚🥚🥚 tại đây :",
+      "genres": [
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/hGoegeWu-Zk/hqdefault.jpg",
+      "publishedAt": "2026-05-29T20:15:47.671403+00:00",
+      "updatedAt": "2026-05-29T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full | Khải Giáp Dũng Sĩ Thời Cổ Đại - Anh Hùng Trái Đất Armor Hero | Egg Vietsub",
+          "url": "https://www.youtube.com/watch?v=hGoegeWu-Zk",
+          "id": "hGoegeWu-Zk",
+          "duration": 3079,
+          "durationStr": "51:19",
+          "publishedAt": "2026-05-29T20:15:47.671403+00:00",
+          "views": 177053,
+          "likes": 1827,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6557",
+      "title": "Tập 5 - 15 | Trò Chơi Ác Quỷ - Devil Game | Egg Vietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 6901,
+      "totalDurationStr": "1 giờ 55 phút",
+      "totalViews": 456,
+      "totalLikes": 6,
+      "review": "Tập 5 - 15 | Trò Chơi Ác Quỷ - Devil Game | Egg Vietsub Đăng ký ủng hộ Egg Vietsub nhé !!! Ủng hộ tớ vài quả trứng 🥚🥚🥚 tại đây :",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/ZqhztNCa8G4/hqdefault.jpg",
+      "publishedAt": "2026-05-29T20:15:47.671403+00:00",
+      "updatedAt": "2026-05-29T20:15:47.671403+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1-5",
+          "title": "Tập 1 - 5 | Trò Chơi Ác Quỷ - Devil Game | Egg Vietsub",
+          "url": "https://www.youtube.com/watch?v=XHzsIvFqbJU",
+          "id": "XHzsIvFqbJU",
+          "duration": 2232,
+          "durationStr": "37:12",
+          "publishedAt": "2026-05-29T20:15:47.671403+00:00",
+          "views": 121,
+          "likes": 4,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 2,
+          "label": "Tập 5-15",
+          "title": "Tập 5 - 15 | Trò Chơi Ác Quỷ - Devil Game | Egg Vietsub",
+          "url": "https://www.youtube.com/watch?v=ZqhztNCa8G4",
+          "id": "ZqhztNCa8G4",
+          "duration": 4669,
+          "durationStr": "1:17:49",
+          "publishedAt": "2026-05-29T20:15:47.671403+00:00",
+          "views": 335,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ],
+      "channelIds": [
+        "eggvietsub"
+      ]
+    },
+    {
+      "id": "film_6558",
+      "title": "Khám Phá Căn Phòng U Tối | Full Kinh Dị Vietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6072,
+      "totalDurationStr": "1 giờ 41 phút",
+      "totalViews": 131,
+      "totalLikes": 7,
+      "review": "Full | Căn Phòng U Tối | Egg Vietsub Đăng ký ủng hộ Egg Vietsub nhé !!! Ủng hộ tớ vài quả trứng 🥚🥚🥚 tại đây : Cái bẫy đã sập xuống! 7 người diễn viên bị kéo vào một tòa công quán đầy oán khí, nơi họ phải hóa thân vào các nhân vật trong một Kịch bản gốc đầy chết chóc. Quy tắc duy nhất: Phải diễn đúng vai, nếu không cái chết sẽ đến ngay lập tức. Trong tập...",
+      "genres": [
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/b6S4R17dYtM/hqdefault.jpg",
+      "publishedAt": "2026-05-29T20:15:47.671403+00:00",
+      "updatedAt": "2026-05-29T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Khám Phá Căn Phòng U Tối | Full Kinh Dị Vietsub",
+          "url": "https://www.youtube.com/watch?v=b6S4R17dYtM",
+          "id": "b6S4R17dYtM",
+          "duration": 6072,
+          "durationStr": "1:41:12",
+          "publishedAt": "2026-05-29T20:15:47.671403+00:00",
+          "views": 131,
+          "likes": 7,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6550",
+      "title": "P4 | Sinh Tồn Tận Thế Nhờ Năng Lực Hấp Thu Sức Mạnh Côn Trùng | Egg Vietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 5057,
+      "totalDurationStr": "1 giờ 24 phút",
+      "totalViews": 3718,
+      "totalLikes": 48,
+      "review": "P4 | Sinh Tồn Tận Thế Nhờ Năng Lực Hấp Thu Sức Mạnh Côn Trùng | Egg Vietsub Đăng ký ủng hộ Egg Vietsub nhé !!!",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/S2a1xE7k_2w/hqdefault.jpg",
+      "publishedAt": "2026-04-29T20:15:47.671403+00:00",
+      "updatedAt": "2026-04-29T20:15:47.671403+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1 | Sinh Tồn Tận Thế Nhờ Năng Lực Hấp Thu Sức Mạnh Côn Trùng | Egg Vietsub",
+          "url": "https://www.youtube.com/watch?v=P6k-Vq2oEjU",
+          "id": "P6k-Vq2oEjU",
+          "duration": 2115,
+          "durationStr": "35:15",
+          "publishedAt": "2026-04-29T20:15:47.671403+00:00",
+          "views": 1744,
+          "likes": 22,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "P2 | Sinh Tồn Tận Thế Nhờ Năng Lực Hấp Thu Sức Mạnh Côn Trùng | Egg Vietsub",
+          "url": "https://www.youtube.com/watch?v=2vihhZ0418E",
+          "id": "2vihhZ0418E",
+          "duration": 1693,
+          "durationStr": "28:13",
+          "publishedAt": "2026-04-29T20:15:47.671403+00:00",
+          "views": 824,
+          "likes": 14,
+          "isRedundant": false,
+          "channelId": "eggvietsub",
+          "channelName": "Egg Vietsub"
+        },
+        {
+          "index": 3,
+          "label": "Phần 4",
+          "title": "P4 | Sinh Tồn Tận Thế Nhờ Năng Lực Hấp Thu Sức Mạnh Côn Trùng | Egg Vietsub",
+          "url": "https://www.youtube.com/watch?v=S2a1xE7k_2w",
+          "id": "S2a1xE7k_2w",
+          "duration": 1249,
+          "durationStr": "20:49",
+          "publishedAt": "2026-04-29T20:15:47.671403+00:00",
+          "views": 1150,
+          "likes": 12,
+          "isRedundant": false
+        }
+      ],
+      "channelIds": [
+        "eggvietsub"
+      ]
+    },
+    {
+      "id": "film_6551",
+      "title": "Full | Học Viện Kinh Dị | Egg Vietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7206,
+      "totalDurationStr": "2 giờ 00 phút",
+      "totalViews": 25874,
+      "totalLikes": 251,
+      "review": "Đăng ký ủng hộ Egg Vietsub nhé !!! Ủng hộ tớ vài quả trứng 🥚🥚🥚 tại đây :",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/mMAwyQGv7Y8/hqdefault.jpg",
+      "publishedAt": "2026-04-29T20:15:47.671403+00:00",
+      "updatedAt": "2026-04-29T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full | Học Viện Kinh Dị | Egg Vietsub",
+          "url": "https://www.youtube.com/watch?v=mMAwyQGv7Y8",
+          "id": "mMAwyQGv7Y8",
+          "duration": 7206,
+          "durationStr": "2:00:06",
+          "publishedAt": "2026-04-29T20:15:47.671403+00:00",
+          "views": 25874,
+          "likes": 251,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6552",
+      "title": "[Full] TÔI GIẢ NGHÈO ĐỂ YÊU ĐƯƠNG VỚI NỮ CEO | Egg Vietsub",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 3428,
+      "totalDurationStr": "57 phút 08 giây",
+      "totalViews": 1431,
+      "totalLikes": 22,
+      "review": "Tôi giấu kín thân phận để có một mối tình trong sáng với nữ CEO, nhưng cô ấy lại muốn bỏ rơi tôi để kết hôn vì mục đích chính trị!! Đăng ký ủng hộ Egg Vietsub nhé !!!",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/-Ux7r0IOCpI/hqdefault.jpg",
+      "publishedAt": "2026-04-29T20:15:47.671403+00:00",
+      "updatedAt": "2026-04-29T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] TÔI GIẢ NGHÈO ĐỂ YÊU ĐƯƠNG VỚI NỮ CEO | Egg Vietsub",
+          "url": "https://www.youtube.com/watch?v=-Ux7r0IOCpI",
+          "id": "-Ux7r0IOCpI",
+          "duration": 3428,
+          "durationStr": "57:08",
+          "publishedAt": "2026-04-29T20:15:47.671403+00:00",
+          "views": 1431,
+          "likes": 22,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6553",
+      "title": "[Full] ĐÊM TÂN HÔN TÔI BỊ VỢ ĐƯA VÀO VIỆN TÂM THẦN, NHƯNG NGƯỜI PHÁT ĐIÊN LẠI LÀ CÔ ẤY",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 2581,
+      "totalDurationStr": "43 phút 01 giây",
+      "totalViews": 4646,
+      "totalLikes": 65,
+      "review": "Vào đêm tân hôn, cô ấy đã đưa tôi vào bệnh viện tâm thần. Hai năm sau khi tôi giả ch*t, cô ấy đuổi theo tôi ra nước ngoài và hoàn toàn phát điên! Đăng ký ủng hộ Egg Vietsub nhé !!!",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/4ZEgtgkFclU/hqdefault.jpg",
+      "publishedAt": "2026-04-29T20:15:47.671403+00:00",
+      "updatedAt": "2026-04-29T20:15:47.671403+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] ĐÊM TÂN HÔN TÔI BỊ VỢ ĐƯA VÀO VIỆN TÂM THẦN, NHƯNG NGƯỜI PHÁT ĐIÊN LẠI LÀ CÔ ẤY",
+          "url": "https://www.youtube.com/watch?v=4ZEgtgkFclU",
+          "id": "4ZEgtgkFclU",
+          "duration": 2581,
+          "durationStr": "43:01",
+          "publishedAt": "2026-04-29T20:15:47.671403+00:00",
+          "views": 4646,
+          "likes": 65,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6545",
       "title": "Mùa 1 |  Hồng Trang Kiếm Cốt, Thử Múa Thanh Phong",
@@ -41385,10 +49199,10 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLK13eJAAPcmo",
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 65905,
-      "totalDurationStr": "18 giờ 18 phút",
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 85620,
+      "totalDurationStr": "23 giờ 47 phút",
       "review": "Khí Tử Vấn Thiên",
       "genres": [
         "Hoạt hình 3D Chọn Lọc"
@@ -41439,13 +49253,28 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "melacreview",
           "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 4,
+          "label": "Mùa 4",
+          "title": "Mùa 4 | Ma Thần Nhân Sinh: Khí Tử Vấn Thiên",
+          "url": "https://www.youtube.com/watch?v=NHVnkZ8l6e8",
+          "id": "NHVnkZ8l6e8",
+          "duration": 19715,
+          "durationStr": "5:28:35",
+          "publishedAt": "2026-11-25T18:33:55+00:00",
+          "views": 335,
+          "likes": 28,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
         }
       ],
-      "totalViews": 88953,
-      "totalLikes": 923,
+      "totalViews": 89288,
+      "totalLikes": 951,
       "publishedAt": "2026-10-12T00:00:00+00:00",
-      "updatedAt": "2026-11-17T18:39:56+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-25T18:33:55+00:00",
+      "isRecent24h": true,
       "channelIds": [
         "melacreview"
       ]
@@ -41958,25 +49787,26 @@ window.FILMS_DATA = {
       "title": "Oan Gia Ngõ Hẹp: Bạn Gái Qua Mạng 4 Năm Hóa Ra Là Hoa Khôi Mà Tôi Ghét Nhất!",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 4,
-      "partsStr": "4 phần",
-      "totalDurationSec": 53289,
-      "totalDurationStr": "14 giờ 48 phút",
-      "totalViews": 499900,
-      "totalLikes": 0,
+      "totalParts": 7,
+      "partsStr": "7 phần",
+      "totalDurationSec": 83445,
+      "totalDurationStr": "23 giờ 10 phút",
+      "totalViews": 675893,
+      "totalLikes": 1177,
       "review": "📽Phim: [Full 1] Oan Gia Ngõ Hẹp: Bạn Gái Qua Mạng 4 Năm Hóa Ra Là Hoa Khôi Mà Tôi Ghét Nhất! | MyCherrySub Tóm tắt: Mối tình \"oan gia ngõ hẹp\" đầy bi hài giữa Lâm Quan Kỳ – một thiếu gia nhà giàu cố tình giấu giếm thân phận dưới vỏ bọc sinh viên nghèo, và Giang Miên Cầm – nàng hoa khôi đại học xinh đẹp, xuất thân trâm anh thế phiệt nhưng nổi tiếng lạnh...",
       "genres": [
         "Đô thị / Ngôn tình"
       ],
       "thumbnail": "https://i.ytimg.com/vi/lvDgvYx24vI/hqdefault.jpg",
       "publishedAt": "2026-09-24T11:50:17.263963+00:00",
-      "updatedAt": "2026-11-17T12:13:08.816345+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-25T08:15:48.196532+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -41995,6 +49825,21 @@ window.FILMS_DATA = {
         },
         {
           "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Oan Gia Ngõ Hẹp: Bạn Gái Qua Mạng 4 Năm Hóa Ra Là Hoa Khôi Mà Tôi Ghét Nhất! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=00sh1haXtBQ",
+          "id": "00sh1haXtBQ",
+          "duration": 4903,
+          "durationStr": "1:21:43",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 115083,
+          "likes": 1085,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
+        },
+        {
+          "index": 3,
           "label": "Phần 3",
           "title": "[Full 3] Oan Gia Ngõ Hẹp: Bạn Gái Qua Mạng 4 Năm Hóa Ra Là Hoa Khôi Mà Tôi Ghét Nhất! | MyCherrySub",
           "url": "https://www.youtube.com/watch?v=lvDgvYx24vI",
@@ -42009,7 +49854,22 @@ window.FILMS_DATA = {
           "channelName": "MyCherrySub"
         },
         {
-          "index": 3,
+          "index": 4,
+          "label": "Phần 3",
+          "title": "[Full 3.1] Oan Gia Ngõ Hẹp: Bạn Gái Qua Mạng 4 Năm Hóa Ra Là Hoa Khôi Mà Tôi Ghét Nhất | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=Y7tV7-7kRnQ",
+          "id": "Y7tV7-7kRnQ",
+          "duration": 4571,
+          "durationStr": "1:16:11",
+          "publishedAt": "2026-09-24T11:50:17.263963+00:00",
+          "views": 58000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "mycherrysub",
+          "channelName": "MyCherrySub"
+        },
+        {
+          "index": 5,
           "label": "Phần 4",
           "title": "[Full 4] Oan Gia Ngõ Hẹp: Bạn Gái Qua Mạng 4 Năm Hóa Ra Là Hoa Khôi Mà Tôi Ghét Nhất! | MyCherrySub",
           "url": "https://www.youtube.com/watch?v=MtzynyYeqJg",
@@ -42024,7 +49884,7 @@ window.FILMS_DATA = {
           "channelName": "MyCherrySub"
         },
         {
-          "index": 4,
+          "index": 6,
           "label": "Phần 5",
           "title": "[Full 5] Oan Gia Ngõ Hẹp: Bạn Gái Qua Mạng 4 Năm Hóa Ra Là Hoa Khôi Mà Tôi Ghét Nhất! | MyCherrySub",
           "url": "https://www.youtube.com/watch?v=0hBlflJZG-M",
@@ -42037,6 +49897,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 7,
+          "label": "Phần 6",
+          "title": "[Full 6] Oan Gia Ngõ Hẹp: Bạn Gái Qua Mạng 4 Năm Hóa Ra Là Hoa Khôi Mà Tôi Ghét Nhất! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=yx1iu9umEiQ",
+          "id": "yx1iu9umEiQ",
+          "duration": 20682,
+          "durationStr": "5:44:42",
+          "publishedAt": "2026-11-25T08:15:48.196532+00:00",
+          "views": 2910,
+          "likes": 92,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -45611,19 +53486,19 @@ window.FILMS_DATA = {
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 29554,
-      "totalDurationStr": "8 giờ 12 phút",
-      "totalViews": 349000,
-      "totalLikes": 0,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 43712,
+      "totalDurationStr": "12 giờ 08 phút",
+      "totalViews": 361792,
+      "totalLikes": 382,
       "review": "",
       "genres": [
         "Đô thị / Ngôn tình"
       ],
       "thumbnail": "https://i.ytimg.com/vi/RkTk78mMaJo/hqdefault.jpg",
       "publishedAt": "2026-11-06T12:13:08.816345+00:00",
-      "updatedAt": "2026-11-16T12:13:08.816345+00:00",
+      "updatedAt": "2026-11-23T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
@@ -45655,10 +53530,26 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "[Full 3] Xuyên Thành Thiếu Gia Phản Diện Tóc Vàng Tôi Cố Gắng Tẩy Trắng Chỉ Để Sống Sót| MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=6G6zICmTBI0",
+          "id": "6G6zICmTBI0",
+          "duration": 14158,
+          "durationStr": "3:55:58",
+          "publishedAt": "2026-11-23T20:15:48.196532+00:00",
+          "views": 12792,
+          "likes": 382,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ],
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ]
     },
     {
@@ -83239,17 +91130,18 @@ window.FILMS_DATA = {
       "title": "Xuyên Không Nhầm Chỗ Tôi Lỡ Kết Hôn Chớp Nhoáng Luôn Với Nữ Thần Quốc Dân!",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 23244,
-      "totalDurationStr": "6 giờ 27 phút",
-      "totalViews": 143000,
-      "totalLikes": 0,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 35286,
+      "totalDurationStr": "9 giờ 48 phút",
+      "totalViews": 150453,
+      "totalLikes": 188,
       "review": "",
       "genres": [
         "Đô thị / Ngôn tình",
@@ -83257,7 +91149,7 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i.ytimg.com/vi/fDcoWDVQNGs/hqdefault.jpg",
       "publishedAt": "2026-10-24T11:50:17.263963+00:00",
-      "updatedAt": "2026-11-07T12:13:08.816345+00:00",
+      "updatedAt": "2026-11-21T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
@@ -83289,6 +91181,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 3,
+          "label": "Phần 4",
+          "title": "[Full 4] Xuyên Không Nhầm Chỗ Tôi Lỡ Kết Hôn Chớp Nhoáng Luôn Với Nữ Thần Quốc Dân! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=NN0CdBBRS38",
+          "id": "NN0CdBBRS38",
+          "duration": 12042,
+          "durationStr": "3:20:42",
+          "publishedAt": "2026-11-21T20:15:48.196532+00:00",
+          "views": 7453,
+          "likes": 188,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -109809,17 +117716,18 @@ window.FILMS_DATA = {
       "title": "Xuyên Không Tôi Bỗng Thức Tỉnh Hệ Thống Trở Thành Ảnh Đế Vạn Người Mê!",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 12787,
-      "totalDurationStr": "3 giờ 33 phút",
-      "totalViews": 34000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 24403,
+      "totalDurationStr": "6 giờ 46 phút",
+      "totalViews": 55823,
+      "totalLikes": 478,
       "review": "",
       "genres": [
         "Đô thị / Ngôn tình",
@@ -109827,11 +117735,26 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i.ytimg.com/vi/bokwGK4XgK0/hqdefault.jpg",
       "publishedAt": "2026-10-26T11:50:17.263963+00:00",
-      "updatedAt": "2026-10-26T11:50:17.263963+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
           "index": 1,
+          "label": "Phần 1",
+          "title": "[Full 1] Xuyên Không Tôi Bỗng Thức Tỉnh Hệ Thống Trở Thành Ảnh Đế Vạn Người Mê! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=qdU9H6CjGo4",
+          "id": "qdU9H6CjGo4",
+          "duration": 11616,
+          "durationStr": "3:13:36",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 21823,
+          "likes": 478,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
+        },
+        {
+          "index": 2,
           "label": "Phần 2",
           "title": "[Full 2] Xuyên Không Tôi Bỗng Thức Tỉnh Hệ Thống Trở Thành Ảnh Đế Vạn Người Mê! | MyCherrySub",
           "url": "https://www.youtube.com/watch?v=bokwGK4XgK0",
@@ -109980,17 +117903,18 @@ window.FILMS_DATA = {
       "title": "Xuyên Không Thành Ác Thiếu Tôi Bắt Cốc Em Gái Nam Chính Về Để Chữa Bệnh!?",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 11219,
-      "totalDurationStr": "3 giờ 06 phút",
-      "totalViews": 115000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 19827,
+      "totalDurationStr": "5 giờ 30 phút",
+      "totalViews": 120562,
+      "totalLikes": 144,
       "review": "",
       "genres": [
         "Đô thị / Ngôn tình",
@@ -109998,7 +117922,7 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i.ytimg.com/vi/vY9Fv3QrWsM/hqdefault.jpg",
       "publishedAt": "2026-10-26T11:50:17.263963+00:00",
-      "updatedAt": "2026-10-26T11:50:17.263963+00:00",
+      "updatedAt": "2026-11-21T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
@@ -110015,6 +117939,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 3",
+          "title": "[Full 3] Xuyên Không Thành Ác Thiếu Tôi Bắt Cốc Em Gái Nam Chính Về Để Chữa Bệnh!? | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=mqikLBomZSo",
+          "id": "mqikLBomZSo",
+          "duration": 8608,
+          "durationStr": "2:23:28",
+          "publishedAt": "2026-11-21T20:15:48.196532+00:00",
+          "views": 5562,
+          "likes": 144,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -110023,24 +117962,25 @@ window.FILMS_DATA = {
       "title": "Trọng Sinh Thành Thái Công 22 Tuổi Tôi Dựa Vào Nằm Thẳng Để Chấn Hưng Gia Tộc",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 10337,
-      "totalDurationStr": "2 giờ 52 phút",
-      "totalViews": 74000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 20234,
+      "totalDurationStr": "5 giờ 37 phút",
+      "totalViews": 76358,
+      "totalLikes": 23,
       "review": "",
       "genres": [
         "Xuyên không / Trọng sinh"
       ],
       "thumbnail": "https://i.ytimg.com/vi/RaBPfBzYTq8/hqdefault.jpg",
       "publishedAt": "2026-10-26T11:50:17.263963+00:00",
-      "updatedAt": "2026-10-26T11:50:17.263963+00:00",
+      "updatedAt": "2026-11-19T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
@@ -110057,6 +117997,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Trọng Sinh Thành Thái Công 22 Tuổi Tôi Dựa Vào Nằm Thẳng Để Chấn Hưng Gia Tộc | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=n9mAJrD-w4s",
+          "id": "n9mAJrD-w4s",
+          "duration": 9897,
+          "durationStr": "2:44:57",
+          "publishedAt": "2026-11-19T20:15:48.196532+00:00",
+          "views": 2358,
+          "likes": 23,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -121773,17 +129728,18 @@ window.FILMS_DATA = {
       "title": "Trùng Sinh Tôi Thức Tỉnh Hệ Thống Ly Hôn Nhưng Vợ Tương Lai Còn Đang Bú Sữa",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 22129,
-      "totalDurationStr": "6 giờ 08 phút",
-      "totalViews": 40000,
-      "totalLikes": 0,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 38608,
+      "totalDurationStr": "10 giờ 43 phút",
+      "totalViews": 73338,
+      "totalLikes": 76,
       "review": "",
       "genres": [
         "Đô thị / Ngôn tình",
@@ -121791,11 +129747,26 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i.ytimg.com/vi/D3sW5S1C9I8/hqdefault.jpg",
       "publishedAt": "2026-10-24T11:50:17.263963+00:00",
-      "updatedAt": "2026-10-24T11:50:17.263963+00:00",
+      "updatedAt": "2026-11-20T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
           "index": 1,
+          "label": "Phần 1",
+          "title": "[Full 1] Trùng Sinh Tôi Thức Tỉnh Hệ Thống Ly Hôn Nhưng Vợ Tương Lai Còn Đang Bú Sữa! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=PsNbp_LsJ48",
+          "id": "PsNbp_LsJ48",
+          "duration": 9653,
+          "durationStr": "2:40:53",
+          "publishedAt": "2026-09-24T11:50:17.263963+00:00",
+          "views": 29000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "mycherrysub",
+          "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
           "label": "Phần 2+3",
           "title": "[Full 2+3] Trùng Sinh Tôi Thức Tỉnh Hệ Thống Ly Hôn Nhưng Vợ Tương Lai Còn Đang Bú Sữa | MyCherrySub",
           "url": "https://www.youtube.com/watch?v=D3sW5S1C9I8",
@@ -121808,6 +129779,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 3,
+          "label": "Phần 4",
+          "title": "[Full 4] Trùng Sinh Tôi Thức Tỉnh Hệ Thống Ly Hôn Nhưng Vợ Tương Lai Còn Đang Bú Sữa! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=RV0uzJ9rPr8",
+          "id": "RV0uzJ9rPr8",
+          "duration": 6826,
+          "durationStr": "1:53:46",
+          "publishedAt": "2026-11-20T20:15:48.196532+00:00",
+          "views": 4338,
+          "likes": 76,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -155901,48 +163887,6 @@ window.FILMS_DATA = {
       ]
     },
     {
-      "id": "film_2779",
-      "title": "Oan Gia Ngõ Hẹp: Bạn Gái Qua Mạng 4 Năm Hóa Ra Là Hoa Khôi Mà Tôi Ghét Nhất",
-      "channelId": "mycherrysub",
-      "channelIds": [
-        "mycherrysub"
-      ],
-      "channelName": "MyCherrySub",
-      "channelUrl": "https://www.youtube.com/@MyCherrySub",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 4571,
-      "totalDurationStr": "1 giờ 16 phút",
-      "totalViews": 58000,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Đô thị / Ngôn tình"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/Y7tV7-7kRnQ/hqdefault.jpg",
-      "publishedAt": "2026-09-24T11:50:17.263963+00:00",
-      "updatedAt": "2026-09-24T11:50:17.263963+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 3",
-          "title": "[Full 3.1] Oan Gia Ngõ Hẹp: Bạn Gái Qua Mạng 4 Năm Hóa Ra Là Hoa Khôi Mà Tôi Ghét Nhất | MyCherrySub",
-          "url": "https://www.youtube.com/watch?v=Y7tV7-7kRnQ",
-          "id": "Y7tV7-7kRnQ",
-          "duration": 4571,
-          "durationStr": "1:16:11",
-          "publishedAt": "2026-09-24T11:50:17.263963+00:00",
-          "views": 58000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "mycherrysub",
-          "channelName": "MyCherrySub"
-        }
-      ]
-    },
-    {
       "id": "film_2780",
       "title": "Xuyên Không Đến Thế Giới Song Song Tôi Thức Tỉnh Năng Lực Thấu Thị Cảm Xúc!",
       "channelId": "mycherrysub",
@@ -156583,49 +164527,6 @@ window.FILMS_DATA = {
           "durationStr": "2:44:34",
           "publishedAt": "2026-09-24T11:50:17.263963+00:00",
           "views": 8200,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "mycherrysub",
-          "channelName": "MyCherrySub"
-        }
-      ]
-    },
-    {
-      "id": "film_2795",
-      "title": "Trùng Sinh Tôi Thức Tỉnh Hệ Thống Ly Hôn Nhưng Vợ Tương Lai Còn Đang Bú Sữa!",
-      "channelId": "mycherrysub",
-      "channelIds": [
-        "mycherrysub"
-      ],
-      "channelName": "MyCherrySub",
-      "channelUrl": "https://www.youtube.com/@MyCherrySub",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 9653,
-      "totalDurationStr": "2 giờ 40 phút",
-      "totalViews": 29000,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Đô thị / Ngôn tình",
-        "Hệ thống / Thức tỉnh"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/PsNbp_LsJ48/hqdefault.jpg",
-      "publishedAt": "2026-09-24T11:50:17.263963+00:00",
-      "updatedAt": "2026-09-24T11:50:17.263963+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "[Full 1] Trùng Sinh Tôi Thức Tỉnh Hệ Thống Ly Hôn Nhưng Vợ Tương Lai Còn Đang Bú Sữa! | MyCherrySub",
-          "url": "https://www.youtube.com/watch?v=PsNbp_LsJ48",
-          "id": "PsNbp_LsJ48",
-          "duration": 9653,
-          "durationStr": "2:40:53",
-          "publishedAt": "2026-09-24T11:50:17.263963+00:00",
-          "views": 29000,
           "likes": 0,
           "isRedundant": false,
           "channelId": "mycherrysub",
@@ -157358,24 +165259,25 @@ window.FILMS_DATA = {
       "title": "Trọng Sinh Vứt Bỏ Người Vợ Phản Bội, Tôi Trở Thành Ông Trùm Giới Livestream!",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7175,
-      "totalDurationStr": "1 giờ 59 phút",
-      "totalViews": 23000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 10784,
+      "totalDurationStr": "2 giờ 59 phút",
+      "totalViews": 26634,
+      "totalLikes": 65,
       "review": "",
       "genres": [
         "Xuyên không / Trọng sinh"
       ],
       "thumbnail": "https://i.ytimg.com/vi/5MnqF1EI9os/hqdefault.jpg",
       "publishedAt": "2026-09-24T11:50:17.263963+00:00",
-      "updatedAt": "2026-09-24T11:50:17.263963+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
@@ -157392,6 +165294,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Trọng Sinh Vứt Bỏ Người Vợ Phản Bội, Tôi Trở Thành Ông Trùm Giới Livestream! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=rJ3LQbWD6EM",
+          "id": "rJ3LQbWD6EM",
+          "duration": 3609,
+          "durationStr": "1:00:09",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 3634,
+          "likes": 65,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -157485,24 +165402,25 @@ window.FILMS_DATA = {
       "title": "Quay Lại Tuổi 18: Tôi Bỏ Qua Hoa Khôi Chọn Ngay Cô Nàng Mọt Sách!",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 8982,
-      "totalDurationStr": "2 giờ 29 phút",
-      "totalViews": 29000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 12950,
+      "totalDurationStr": "3 giờ 35 phút",
+      "totalViews": 36114,
+      "totalLikes": 107,
       "review": "",
       "genres": [
         "Đô thị / Ngôn tình"
       ],
       "thumbnail": "https://i.ytimg.com/vi/NGSOO5KT1N4/hqdefault.jpg",
       "publishedAt": "2026-09-24T11:50:17.263963+00:00",
-      "updatedAt": "2026-09-24T11:50:17.263963+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
@@ -157519,6 +165437,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Quay Lại Tuổi 18: Tôi Bỏ Qua Hoa Khôi Chọn Ngay Cô Nàng Mọt Sách! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=rovpB5ufCB8",
+          "id": "rovpB5ufCB8",
+          "duration": 3968,
+          "durationStr": "1:06:08",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 7114,
+          "likes": 107,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -157613,17 +165546,18 @@ window.FILMS_DATA = {
       "title": "Trùng Sinh Tôi Xé Đơn Ly Hôn Quyết Ôm Đùi Cô Vợ Tổng Tài Ẩn Danh!",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 6886,
-      "totalDurationStr": "1 giờ 54 phút",
-      "totalViews": 32000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 10655,
+      "totalDurationStr": "2 giờ 57 phút",
+      "totalViews": 36978,
+      "totalLikes": 92,
       "review": "",
       "genres": [
         "Đô thị / Ngôn tình",
@@ -157631,7 +165565,7 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i.ytimg.com/vi/P8drMe3VGns/hqdefault.jpg",
       "publishedAt": "2026-09-24T11:50:17.263963+00:00",
-      "updatedAt": "2026-09-24T11:50:17.263963+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
@@ -157648,6 +165582,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Trùng Sinh Tôi Xé Đơn Ly Hôn Quyết Ôm Đùi Cô Vợ Tổng Tài Ẩn Danh! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=iiHiMjibTCo",
+          "id": "iiHiMjibTCo",
+          "duration": 3769,
+          "durationStr": "1:02:49",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 4978,
+          "likes": 92,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -157699,24 +165648,25 @@ window.FILMS_DATA = {
       "title": "Tỉnh Ngộ Tôi Không Làm Liếm Cẩu Nữa Mà Quay Xe Ôm Trọn Thiên Kim Hào Môn!",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 10814,
-      "totalDurationStr": "3 giờ 00 phút",
-      "totalViews": 137000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 17034,
+      "totalDurationStr": "4 giờ 43 phút",
+      "totalViews": 152253,
+      "totalLikes": 276,
       "review": "",
       "genres": [
         "Đô thị / Ngôn tình"
       ],
       "thumbnail": "https://i.ytimg.com/vi/yO9wBCOHZc8/hqdefault.jpg",
       "publishedAt": "2026-09-24T11:50:17.263963+00:00",
-      "updatedAt": "2026-09-24T11:50:17.263963+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
@@ -157733,6 +165683,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Tỉnh Ngộ Tôi Không Làm Liếm Cẩu Nữa Mà Quay Xe Ôm Trọn Thiên Kim Hào Môn! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=P2-oNEfHth8",
+          "id": "P2-oNEfHth8",
+          "duration": 6220,
+          "durationStr": "1:43:40",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 15253,
+          "likes": 276,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -157783,24 +165748,25 @@ window.FILMS_DATA = {
       "title": "Nhận Nhầm Người Đóng Giả Bạn Gái Ngờ Đâu Tôi Vớ Ngay Nữ Tổng Tài Trăm Tỷ!",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 5998,
-      "totalDurationStr": "1 giờ 39 phút",
-      "totalViews": 5400,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 9824,
+      "totalDurationStr": "2 giờ 43 phút",
+      "totalViews": 7826,
+      "totalLikes": 62,
       "review": "",
       "genres": [
         "Đô thị / Ngôn tình"
       ],
       "thumbnail": "https://i.ytimg.com/vi/FdlkTEQBZeo/hqdefault.jpg",
       "publishedAt": "2026-09-24T11:50:17.263963+00:00",
-      "updatedAt": "2026-09-24T11:50:17.263963+00:00",
+      "updatedAt": "2026-09-26T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
@@ -157817,6 +165783,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Nhận Nhầm Người Đóng Giả Bạn Gái Ngờ Đâu Tôi Vớ Ngay Nữ Tổng Tài Trăm Tỷ! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=Ub6ki9edTlk",
+          "id": "Ub6ki9edTlk",
+          "duration": 3826,
+          "durationStr": "1:03:46",
+          "publishedAt": "2026-09-26T20:15:48.196532+00:00",
+          "views": 2426,
+          "likes": 62,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -157994,17 +165975,18 @@ window.FILMS_DATA = {
       "title": "Sau Khi Phá Sản, Tôi Được Bạn Gái Cũ Nữ Tổng Tài Bao Nuôi!",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 6141,
-      "totalDurationStr": "1 giờ 42 phút",
-      "totalViews": 99000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 10143,
+      "totalDurationStr": "2 giờ 49 phút",
+      "totalViews": 119167,
+      "totalLikes": 434,
       "review": "",
       "genres": [
         "Đô thị / Ngôn tình"
@@ -158028,6 +166010,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Sau Khi Phá Sản, Tôi Được Bạn Gái Cũ Nữ Tổng Tài Bao Nuôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=I92fLraj9Zk",
+          "id": "I92fLraj9Zk",
+          "duration": 4002,
+          "durationStr": "1:06:42",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 20167,
+          "likes": 434,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -158036,17 +166033,18 @@ window.FILMS_DATA = {
       "title": "Giả Nghèo Vi Hành, Đại Thiếu Gia Là Tôi Trở Thành Chồng Nhỏ Của Nữ Bá Tổng!",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7776,
-      "totalDurationStr": "2 giờ 09 phút",
-      "totalViews": 47000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 12809,
+      "totalDurationStr": "3 giờ 33 phút",
+      "totalViews": 60032,
+      "totalLikes": 389,
       "review": "",
       "genres": [
         "Đô thị / Ngôn tình"
@@ -158070,6 +166068,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Giả Nghèo Vi Hành, Đại Thiếu Gia Là Tôi Trở Thành Chồng Nhỏ Của Nữ Bá Tổng! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=8j7Jkf1oPMo",
+          "id": "8j7Jkf1oPMo",
+          "duration": 5033,
+          "durationStr": "1:23:53",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 13032,
+          "likes": 389,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -158078,17 +166091,18 @@ window.FILMS_DATA = {
       "title": "Tình Cờ Nhặt Được Cô Nàng Hồ Ly Tinh, Tôi Trở Thành \"Con Sen\" Bất Đắc Dĩ!",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 4148,
-      "totalDurationStr": "1 giờ 09 phút",
-      "totalViews": 2100,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 8239,
+      "totalDurationStr": "2 giờ 17 phút",
+      "totalViews": 4079,
+      "totalLikes": 58,
       "review": "",
       "genres": [
         "Hoạt hình 3D Chọn Lọc"
@@ -158100,6 +166114,21 @@ window.FILMS_DATA = {
       "parts": [
         {
           "index": 1,
+          "label": "Phần 1",
+          "title": "[Full 1] Tình Cờ Nhặt Được Cô Nàng Hồ Ly Tinh, Tôi Trở Thành \"Con Sen\" Bất Đắc Dĩ! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=ggCi7m4h0yI",
+          "id": "ggCi7m4h0yI",
+          "duration": 4091,
+          "durationStr": "1:08:11",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 1979,
+          "likes": 58,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
+        },
+        {
+          "index": 2,
           "label": "Phần 2",
           "title": "[Full 2] Tình Cờ Nhặt Được Cô Nàng Hồ Ly Tinh, Tôi Trở Thành \"Con Sen\" Bất Đắc Dĩ! | MyCherrySub",
           "url": "https://www.youtube.com/watch?v=IlUlIYGETSM",
@@ -158162,17 +166191,18 @@ window.FILMS_DATA = {
       "title": "Xuyên Không Trở Về Trái Đất Tôi Bị Tiên Tử Đuổi Theo Tới Tận Nhà!",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 11278,
-      "totalDurationStr": "3 giờ 07 phút",
-      "totalViews": 76000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 18979,
+      "totalDurationStr": "5 giờ 16 phút",
+      "totalViews": 78855,
+      "totalLikes": 89,
       "review": "",
       "genres": [
         "Xuyên không / Trọng sinh"
@@ -158196,6 +166226,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Xuyên Không Trở Về Trái Đất Tôi Bị Tiên Tử Đuổi Theo Tới Tận Nhà! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=H8jniAI0lOk",
+          "id": "H8jniAI0lOk",
+          "duration": 7701,
+          "durationStr": "2:08:21",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 2855,
+          "likes": 89,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -180093,24 +188138,25 @@ window.FILMS_DATA = {
       "title": "Trọng Sinh Về Tuổi 18 Tôi Cố Tình Giả Ngốc Để Cô Bạn Cùng Bàn Theo Đuổi Mình!",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 4966,
-      "totalDurationStr": "1 giờ 22 phút",
-      "totalViews": 14000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 9774,
+      "totalDurationStr": "2 giờ 42 phút",
+      "totalViews": 16413,
+      "totalLikes": 63,
       "review": "",
       "genres": [
         "Xuyên không / Trọng sinh"
       ],
       "thumbnail": "https://i.ytimg.com/vi/Pq9Jii47Fmo/hqdefault.jpg",
       "publishedAt": "2026-08-25T11:50:17.263963+00:00",
-      "updatedAt": "2026-08-25T11:50:17.263963+00:00",
+      "updatedAt": "2026-08-27T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
@@ -180127,6 +188173,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Trọng Sinh Về Tuổi 18 Tôi Cố Tình Giả Ngốc Để Cô Bạn Cùng Bàn Theo Đuổi Mình! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=Q0FiOmfa-sA",
+          "id": "Q0FiOmfa-sA",
+          "duration": 4808,
+          "durationStr": "1:20:08",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 2413,
+          "likes": 63,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -180135,24 +188196,25 @@ window.FILMS_DATA = {
       "title": "Từ Bỏ Hoa Khôi Theo Đuổi 7 Năm Tôi Tìm Thấy Chân Ái Đích Thực Của Đời Mình",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7730,
-      "totalDurationStr": "2 giờ 08 phút",
-      "totalViews": 39000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 15343,
+      "totalDurationStr": "4 giờ 15 phút",
+      "totalViews": 42782,
+      "totalLikes": 94,
       "review": "",
       "genres": [
         "Đô thị / Ngôn tình"
       ],
       "thumbnail": "https://i.ytimg.com/vi/2iiTvHK-N8M/hqdefault.jpg",
       "publishedAt": "2026-08-25T11:50:17.263963+00:00",
-      "updatedAt": "2026-08-25T11:50:17.263963+00:00",
+      "updatedAt": "2026-08-27T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
@@ -180169,6 +188231,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Từ Bỏ Hoa Khôi Theo Đuổi 7 Năm Tôi Tìm Thấy Chân Ái Đích Thực Của Đời Mình | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=ViPRCKL9dcM",
+          "id": "ViPRCKL9dcM",
+          "duration": 7613,
+          "durationStr": "2:06:53",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 3782,
+          "likes": 94,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -180177,17 +188254,18 @@ window.FILMS_DATA = {
       "title": "Xuyên Không Chuyển Nghề Làm Cá Mặn Cớ Sao Dàn Nữ Chính Cứ Bám Lấy Tôi?",
       "channelId": "mycherrysub",
       "channelIds": [
-        "mycherrysub"
+        "mycherrysub",
+        "mycherrysub2"
       ],
       "channelName": "MyCherrySub",
       "channelUrl": "https://www.youtube.com/@MyCherrySub",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 3700,
-      "totalDurationStr": "1 giờ 01 phút",
-      "totalViews": 59000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 7236,
+      "totalDurationStr": "2 giờ 00 phút",
+      "totalViews": 67489,
+      "totalLikes": 268,
       "review": "",
       "genres": [
         "Đô thị / Ngôn tình",
@@ -180195,7 +188273,7 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i.ytimg.com/vi/AmtQjjGvdcg/hqdefault.jpg",
       "publishedAt": "2026-08-25T11:50:17.263963+00:00",
-      "updatedAt": "2026-08-25T11:50:17.263963+00:00",
+      "updatedAt": "2026-08-27T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
@@ -180212,6 +188290,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "mycherrysub",
           "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Xuyên Không Chuyển Nghề Làm Cá Mặn Cớ Sao Dàn Nữ Chính Cứ Bám Lấy Tôi? | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=Jzn2Q2MWsFg",
+          "id": "Jzn2Q2MWsFg",
+          "duration": 3536,
+          "durationStr": "58:56",
+          "publishedAt": "2026-08-27T20:15:48.196532+00:00",
+          "views": 8489,
+          "likes": 268,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -225344,17 +233437,18 @@ window.FILMS_DATA = {
       "title": "Tụ Bảo Tiên Bồn - Ngũ Linh Căn Mới Là BOSS Đích Thực",
       "channelId": "zzzphim",
       "channelIds": [
-        "zzzphim"
+        "zzzphim",
+        "mycherrysub2"
       ],
       "channelName": "Zzzphim",
       "channelUrl": "https://www.youtube.com/@Zzzphim",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 16755,
-      "totalDurationStr": "4 giờ 39 phút",
-      "totalViews": 125000,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 43689,
+      "totalDurationStr": "12 giờ 08 phút",
+      "totalViews": 180713,
+      "totalLikes": 566,
       "review": "",
       "genres": [
         "Tu tiên / Huyền huyễn",
@@ -225362,7 +233456,7 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i.ytimg.com/vi/pSgu_D39Fco/hqdefault.jpg",
       "publishedAt": "2026-06-26T11:50:17.241454+00:00",
-      "updatedAt": "2026-06-26T11:50:17.241454+00:00",
+      "updatedAt": "2026-10-26T20:15:48.196532+00:00",
       "isRecent24h": false,
       "parts": [
         {
@@ -225379,6 +233473,21 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "zzzphim",
           "channelName": "Zzzphim"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 12",
+          "title": "Trọn Bộ Mùa 12 | Tụ Bảo Tiên Bồn - Ngũ Linh Căn Mới Là BOSS Đích Thực | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=fS4mHf9mVH0",
+          "id": "fS4mHf9mVH0",
+          "duration": 26934,
+          "durationStr": "7:28:54",
+          "publishedAt": "2026-10-26T20:15:48.196532+00:00",
+          "views": 55713,
+          "likes": 566,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
         }
       ]
     },
@@ -297032,6 +305141,22 @@ window.FILMS_DATA = {
       "countLabel": "6 kênh"
     },
     {
+      "id": "group_mycherrysub",
+      "name": "Hệ Thống MyCherrySub",
+      "primaryId": "mycherrysub",
+      "memberIds": [
+        "mycherrysub",
+        "mycherrysub2",
+        "mycherrysub3"
+      ],
+      "memberNames": [
+        "MyCherrySub",
+        "Bản Tin Cherry",
+        "HiCherrySub"
+      ],
+      "countLabel": "3 kênh"
+    },
+    {
       "id": "group_trumphimsinhton",
       "name": "Hệ Thống Trùm Phim Sinh Tồn New",
       "primaryId": "trumphimsinhton",
@@ -297111,7 +305236,9 @@ window.FILMS_DATA = {
       "sig:cdd839118a7a"
     ],
     "mycherrysub": [
-      "sig:35657ba2e9f5"
+      "sig:30a2db1e5766",
+      "sig:35657ba2e9f5",
+      "sig:47fac1ff7372"
     ],
     "soradub": [],
     "tieumuoingontinh": [],
@@ -297138,6 +305265,18 @@ window.FILMS_DATA = {
     ],
     "sinhtontanthe": [
       "sig:4bb060930ea3"
+    ],
+    "eggvietsub": [
+      "sig:56ec3ee820ac",
+      "sig:d2a6fb59af5a"
+    ],
+    "mycherrysub2": [
+      "sig:47fac1ff7372",
+      "sig:965da771d495"
+    ],
+    "mycherrysub3": [
+      "sig:30a2db1e5766",
+      "sig:965da771d495"
     ]
   }
 };

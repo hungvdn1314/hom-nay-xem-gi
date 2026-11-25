@@ -88,7 +88,11 @@ CHANNELS = [
     {"id": "akatsukireview", "name": "Akatsuki Review", "url": "https://www.youtube.com/@Akatsuki-KT", "channel_id": "UCRkGgoKdH3K05UdgRamBb3Q"},
     {"id": "mianhstudio", "name": "Mị Ảnh Studio", "url": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio", "channel_id": "UCf6RjHLIxO2DYaH7PR2OvuQ"},
     {"id": "trumphimsinhton", "name": "Trùm Phim Sinh Tồn New", "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1", "channel_id": "UCAJdyl3HED639LTM76i7FcQ"},
-    {"id": "sinhtontanthe", "name": "Sinh Tồn Tận Thế", "url": "https://www.youtube.com/@SinhT%E1%BB%93nT%E1%BA%ADnTh%E1%BA%BFNew", "channel_id": "UCHDAV_skG6U-BClpm3ik10Q"}
+    {"id": "sinhtontanthe", "name": "Sinh Tồn Tận Thế", "url": "https://www.youtube.com/@SinhT%E1%BB%93nT%E1%BA%ADnTh%E1%BA%BFNew", "channel_id": "UCHDAV_skG6U-BClpm3ik10Q"},
+    {"id": "eggvietsub", "name": "Egg Vietsub", "url": "https://www.youtube.com/@EggVietsub", "channel_id": "UCXeIf2LpGOlWpBPkREGqfVg"},
+    {"id": "larasub22", "name": "Lara Sub", "url": "https://www.youtube.com/@larasub22", "channel_id": "UC_bkg5xRmFQJz7g6sodwJFQ"},
+    {"id": "mycherrysub2", "name": "Bản Tin Cherry", "url": "https://www.youtube.com/@MyCherrySub2", "channel_id": "UCcmWQRyhWaWCagWSKcTPKtw"},
+    {"id": "mycherrysub3", "name": "HiCherrySub", "url": "https://www.youtube.com/@MyCherrySub3", "channel_id": "UCorfR4slA9HETbelKTIJZwg"}
 ]
 
 DISCOVERY_QUERIES = [
@@ -365,6 +369,7 @@ CHANNEL_SUFFIX_RE = re.compile(
     r'Thiên\s*Ảnh\s*Studio|Mộng\s*Ảnh\s*Studio|Vân\s*Mộng\s*Studio|Nhật\s*Ảnh\s*Studio|Vạn\s*Ảnh\s*Studio|Mị\s*Ảnh\s*Studio|'
     r'Gia\s*Nhi\s*Review|Phim\s*Zoo\s*AI|Zoo\s*AI\s*phim|Phim\s*Zombie|Akatsuki\s*Review|'
     r'Trùm\s*Phim\s*Sinh\s*Tồn(?:\s*New)?|Sinh\s*Tồn\s*Tận\s*Thế|'
+    r'Egg\s*Vietsub|Lara\s*Sub|Bản\s*Tin\s*Cherry|HiCherrySub|'
     r'Hoạt\s*Hình\s*(?:Kinh\s*Dị|Tận\s*Thế|3D[^|]*)|Phim\s*Hoạt\s*Hình[^|]*'
     r')|#\w+)\s*["\'.]*\s*$',
     re.IGNORECASE
@@ -1520,7 +1525,7 @@ def _sig_hash(raw_key):
     return "sig:" + hashlib.sha256(raw_key.encode("utf-8")).hexdigest()[:12]
 
 
-def _extract_ownership_signatures(text, ch_obj, all_channels):
+def _extract_ownership_signatures(text, ch_obj, all_channels, paired_targets=None):
     """Extract deterministic hashed ownership signatures (bank/email/social/cross-channel links) from text."""
     sigs = set()
     if not text:
@@ -1545,7 +1550,7 @@ def _extract_ownership_signatures(text, ch_obj, all_channels):
         if soc:
             sigs.add(_sig_hash("social:" + soc))
 
-    # Cross-channel YouTube links / explicit mentions of another tracked channel's UC ID or @handle
+    # Cross-channel YouTube links / explicit parent-child mentions of another tracked channel
     own_id = ch_obj["id"]
     decoded_text = urllib.request.unquote(low)
     for other in all_channels:
@@ -1553,9 +1558,20 @@ def _extract_ownership_signatures(text, ch_obj, all_channels):
             continue
         other_cid = other["channel_id"].lower()
         other_handle = urllib.request.unquote(other["url"]).split("/")[-1].lower()
-        if other_cid in low or (other_handle.startswith("@") and len(other_handle) >= 5 and other_handle in decoded_text):
+        other_name = other["name"].lower().strip()
+        is_sister_mention = (
+            len(other_name) >= 6
+            and bool(re.search(
+                rf'(?:kênh\s*(?:phụ|chính|dự\s*phòng|thứ\s*\d+|số\s*\d+)|hệ\s*thống\s*kênh)[^\n]{{0,48}}{re.escape(other_name)}',
+                decoded_text
+            ))
+        )
+        if other_cid in low or (other_handle.startswith("@") and len(other_handle) >= 5 and other_handle in decoded_text) or is_sister_mention:
             pair = tuple(sorted((own_id, other["id"])))
-            sigs.add(_sig_hash(f"ytlink:{pair[0]}:{pair[1]}"))
+            link_sig = _sig_hash(f"ytlink:{pair[0]}:{pair[1]}")
+            sigs.add(link_sig)
+            if paired_targets is not None:
+                paired_targets.append((other["id"], link_sig))
 
     return sigs
 
@@ -1615,9 +1631,12 @@ def scan_channel_ownership_signatures(channels, films, prev_sigs=None, extra_sta
             cid = vid_to_ch.get(vid)
             desc = (st or {}).get("description") or ""
             if cid and cid in ch_by_id and desc:
-                found = _extract_ownership_signatures(desc, ch_by_id[cid], channels)
+                paired = []
+                found = _extract_ownership_signatures(desc, ch_by_id[cid], channels, paired)
                 if found:
                     sigs_by_ch[cid] = sorted(set(sigs_by_ch.get(cid, [])) | found)
+                for target_id, link_sig in paired:
+                    sigs_by_ch[target_id] = sorted(set(sigs_by_ch.get(target_id, [])) | {link_sig})
 
     to_scan = [c for c in channels if force_scan or not sigs_by_ch.get(c["id"])]
     if not to_scan:
@@ -1652,9 +1671,12 @@ def scan_channel_ownership_signatures(channels, films, prev_sigs=None, extra_sta
         combined = home_desc + "\n" + "\n".join(
             (sample_stats.get(vid, {}).get("description") or "") for vid in sample_vids_by_ch[cid]
         )
-        found = _extract_ownership_signatures(combined, c, channels)
+        paired = []
+        found = _extract_ownership_signatures(combined, c, channels, paired)
         if found:
             sigs_by_ch[cid] = sorted(set(sigs_by_ch.get(cid, [])) | found)
+        for target_id, link_sig in paired:
+            sigs_by_ch[target_id] = sorted(set(sigs_by_ch.get(target_id, [])) | {link_sig})
 
         # Official YouTube Collaborator / Featured Channels links between tracked channels
         for target_uc in home_linked_cids:

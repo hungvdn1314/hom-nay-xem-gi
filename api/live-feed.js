@@ -37,7 +37,11 @@ const CHANNELS = [
   { id: 'akatsukireview', name: 'Akatsuki Review', url: 'https://www.youtube.com/@Akatsuki-KT', channelId: 'UCRkGgoKdH3K05UdgRamBb3Q' },
   { id: 'mianhstudio', name: 'Mị Ảnh Studio', url: 'https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio', channelId: 'UCf6RjHLIxO2DYaH7PR2OvuQ' },
   { id: 'trumphimsinhton', name: 'Trùm Phim Sinh Tồn New', url: 'https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1', channelId: 'UCAJdyl3HED639LTM76i7FcQ' },
-  { id: 'sinhtontanthe', name: 'Sinh Tồn Tận Thế', url: 'https://www.youtube.com/@SinhT%E1%BB%93nT%E1%BA%ADnTh%E1%BA%BFNew', channelId: 'UCHDAV_skG6U-BClpm3ik10Q' }
+  { id: 'sinhtontanthe', name: 'Sinh Tồn Tận Thế', url: 'https://www.youtube.com/@SinhT%E1%BB%93nT%E1%BA%ADnTh%E1%BA%BFNew', channelId: 'UCHDAV_skG6U-BClpm3ik10Q' },
+  { id: 'eggvietsub', name: 'Egg Vietsub', url: 'https://www.youtube.com/@EggVietsub', channelId: 'UCXeIf2LpGOlWpBPkREGqfVg' },
+  { id: 'larasub22', name: 'Lara Sub', url: 'https://www.youtube.com/@larasub22', channelId: 'UC_bkg5xRmFQJz7g6sodwJFQ' },
+  { id: 'mycherrysub2', name: 'Bản Tin Cherry', url: 'https://www.youtube.com/@MyCherrySub2', channelId: 'UCcmWQRyhWaWCagWSKcTPKtw' },
+  { id: 'mycherrysub3', name: 'HiCherrySub', url: 'https://www.youtube.com/@MyCherrySub3', channelId: 'UCorfR4slA9HETbelKTIJZwg' }
 ];
 
 const GENRE_RULES = [

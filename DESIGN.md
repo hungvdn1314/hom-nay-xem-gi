@@ -7,7 +7,7 @@
 ---
 
 ## 1. Executive Summary & Design Read
-- **Product Kind**: Curated 3D donghua, anime, and animated series cinema archive (`6,549` pure 3D films across `31` vetted YouTube channels / `25` unified studio entries).
+- **Product Kind**: Curated 3D donghua, anime, and animated series cinema archive (`6,737` pure 3D films across `35` vetted YouTube channels / `27` unified studio entries).
 - **Design Read**: `Reading this as: High-contrast dark-room cinema library ("Hôm Nay Xem Gì") for Vietnamese 3D donghua enthusiasts, pairing full-bleed Ambilight editorial spotlighting with a frictionless dual-axis Command Dock + Sticky Sidebar catalog.`
 - **Logo Identity (`logo.svg` & `icons/`)**:
   - Audited `100/100` (`svg_audit.py`) flat architectural 256×256 vector mark (`fill-rule="evenodd"`, zero gradients, `#FFFFFF` primary on dark / `#09090B` primary on light + `#F43F5E` Brand Crimson accent).
