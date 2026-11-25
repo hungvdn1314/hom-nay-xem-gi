@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6042,
+    "totalFilms": 6043,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T07:30:42.930410+00:00"
+    "lastUpdated": "2026-11-25T08:00:36.130105+00:00"
   },
   "channels": [
     {
@@ -67,7 +67,7 @@ window.FILMS_DATA = {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 326
+      "filmCount": 327
     },
     {
       "id": "gianhireview",
@@ -185,6 +185,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6043",
+      "title": "Trọng Sinh Thành Thế Tử Phi, Nàng Dứt Tình Không Còn Đeo Bám, Nào Ngờ Thế Tử Lại Hoảng Loạn",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6178,
+      "totalDurationStr": "1 giờ 42 phút",
+      "totalViews": 6,
+      "totalLikes": 1,
+      "review": "Trọng Sinh Thành Thế Tử Phi, Nàng Dứt Tình Không Còn Đeo Bám, Nào Ngờ Thế Tử Lại Hoảng Loạn",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/gM1Jb9P-OQw/hqdefault.jpg",
+      "publishedAt": "2026-11-25T07:55:38+00:00",
+      "updatedAt": "2026-11-25T07:55:38+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trọng Sinh Thành Thế Tử Phi, Nàng Dứt Tình Không Còn Đeo Bám, Nào Ngờ Thế Tử Lại Hoảng Loạn",
+          "url": "https://www.youtube.com/watch?v=gM1Jb9P-OQw",
+          "id": "gM1Jb9P-OQw",
+          "duration": 6178,
+          "durationStr": "1:42:58",
+          "publishedAt": "2026-11-25T07:55:38+00:00",
+          "views": 6,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6042",
       "title": "Full Tập 01~147 |  Nữ Thiên Sư Xuống Núi Trà Tà Kiếm Cơm, Độn Thổ Cứu Tổng Tài Nghìn Tỷ",
