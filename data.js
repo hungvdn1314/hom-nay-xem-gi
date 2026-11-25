@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6035,
+    "totalFilms": 6036,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T03:45:31.128074+00:00"
+    "lastUpdated": "2026-11-25T04:00:46.351591+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 619
+      "filmCount": 620
     },
     {
       "id": "naophangtutien",
@@ -185,6 +185,43 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6036",
+      "title": "10 GIỜ 40 THỎA MÃN | Xuyên Không Nguyên Thủy, Ta Thuần Hóa Rồng Và Cự Thú Xây Dựng Bộ Lạc!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **XUYÊN KHÔNG NGUYÊN THỦY – THUẦN HÓA CỰ THÚ, NUÔI RỒNG XÂY DỰNG BỘ LẠC! | 10H42** 🏹 **Dương**, chàng trai 25 tuổi bất ngờ xuyên không đến thế giới nguyên thủy, nơi con người phải sống trong hang đá, thiếu lương thực và liên tục đối mặt với mãnh thú khổng lồ. 🔥 Nhờ kiến thức hiện...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/b6AG5EvfB1g/hqdefault.jpg",
+      "publishedAt": "2026-11-25T04:00:26+00:00",
+      "updatedAt": "2026-11-25T04:00:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "10 GIỜ 40 THỎA MÃN | Xuyên Không Nguyên Thủy, Ta Thuần Hóa Rồng Và Cự Thú Xây Dựng Bộ Lạc!",
+          "url": "https://www.youtube.com/watch?v=b6AG5EvfB1g",
+          "id": "b6AG5EvfB1g",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-25T04:00:26+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6035",
       "title": "Trọng Sinh Bị Chị Họ Ép Đổi Hôn, Mang Không Gian Linh Tuyền Gả Thợ Săn, Nghịch Thiên Đổi Mệnh",
