@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6737,
+    "totalFilms": 6738,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-25T22:45:36.411737+00:00",
+    "lastUpdated": "2026-11-25T23:00:52.951631+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -202,7 +202,7 @@ window.FILMS_DATA = {
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 304,
+      "filmCount": 305,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6740",
+      "title": "Vì Tôi Trông Quá Hung Dữ, Lệ Quỷ Báo Cảnh Sát Ngay Trong Đêm, Tố Tôi Tống Tiền | Trùm Phim Sinh Tồn",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 26289,
+      "totalDurationStr": "7 giờ 18 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "S1 | Vì Tôi Trông Quá Hung Dữ, Lệ Quỷ Báo Cảnh Sát Ngay Trong Đêm, Tố Tôi Tống Tiền | Trùm Phim Sinh Tồn New Sau khi kinh doanh thất bại, Giang Hận chuyển đến sống trong một tòa nhà cũ và vô tình bị cuốn vào những sự kiện kỳ lạ, đồng thời phát hiện bản thân sở hữu khả năng khắc chế các linh thể đặc biệt. Với vẻ ngoài hung dữ, tính cách thẳng thắn và...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/NnHt5VSzouM/hqdefault.jpg",
+      "publishedAt": "2026-11-25T23:00:17+00:00",
+      "updatedAt": "2026-11-25T23:00:17+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Vì Tôi Trông Quá Hung Dữ, Lệ Quỷ Báo Cảnh Sát Ngay Trong Đêm, Tố Tôi Tống Tiền | Trùm Phim Sinh Tồn",
+          "url": "https://www.youtube.com/watch?v=NnHt5VSzouM",
+          "id": "NnHt5VSzouM",
+          "duration": 26289,
+          "durationStr": "7:18:09",
+          "publishedAt": "2026-11-25T23:00:17+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_367",
       "title": "Ma Thần Nhân Sinh: Khí Tử Vấn Thiên",
@@ -3441,7 +3479,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i.ytimg.com/vi/JaXEZlxa4Iw/hqdefault.jpg",
       "publishedAt": "2026-10-26T00:00:00+00:00",
       "updatedAt": "2026-11-24T23:00:18+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
