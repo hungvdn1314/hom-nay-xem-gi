@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T08:30:38.561144+00:00"
+    "lastUpdated": "2026-11-25T09:00:46.005284+00:00"
   },
   "channels": [
     {
@@ -14231,8 +14231,8 @@ window.FILMS_DATA = {
       "channelName": "2K Sub",
       "channelUrl": "https://www.youtube.com/@2KSUB2000",
       "playlistUrl": null,
-      "totalParts": 5,
-      "partsStr": "5 phần",
+      "totalParts": 6,
+      "partsStr": "6 phần",
       "totalDurationSec": 132849,
       "totalDurationStr": "36 giờ 54 phút",
       "totalViews": 208000,
@@ -14243,8 +14243,8 @@ window.FILMS_DATA = {
       ],
       "thumbnail": "https://i.ytimg.com/vi/YR0I5cQjWpk/hqdefault.jpg",
       "publishedAt": "2026-11-02T11:50:19.700996+00:00",
-      "updatedAt": "2026-11-20T10:49:42.583751+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-25T09:00:30+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -14316,6 +14316,21 @@ window.FILMS_DATA = {
           "durationStr": "2:42:42",
           "publishedAt": "2026-11-20T10:49:42.583751+00:00",
           "views": 12000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 6,
+          "label": "Mùa 9",
+          "title": "SS9 | Võng Du Thần Vực: Thức Tỉnh Thiên Phú Độc SSS+, Càng Giết Quái Độc Càng Mạnh!",
+          "url": "https://www.youtube.com/watch?v=KukMq0GJkvc",
+          "id": "KukMq0GJkvc",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-25T09:00:30+00:00",
+          "views": 0,
           "likes": 0,
           "isRedundant": false,
           "channelId": "2ksub",
