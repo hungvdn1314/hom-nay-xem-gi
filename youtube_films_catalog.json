@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6030,
+    "totalFilms": 6031,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T01:45:29.829137+00:00"
+    "lastUpdated": "2026-11-25T02:00:47.805652+00:00"
   },
   "channels": [
     {
@@ -145,7 +145,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 317
+      "filmCount": 318
     },
     {
       "id": "godsub",
@@ -185,6 +185,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6031",
+      "title": "Full | Toàn Server Sinh Tồn: Tôi Rút Trúng Khinh Khí Cầu Cũ Nát Nhưng Lại Mở Khóa Hệ Thống Thần Cấp",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10851,
+      "totalDurationStr": "3 giờ 00 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Full | Toàn Server Sinh Tồn: Tôi Rút Trúng Khinh Khí Cầu Cũ Nát Nhưng Lại Mở Khóa Hệ Thống Thần Cấp Tóm Tắt : Bị kéo vào trò chơi sinh tồn vực thẳm, Trần Độ khởi đầu khó khăn với khinh khí cầu rách nhưng mở khóa hệ thống rút thưởng thần cấp và thương thành. Nhờ đa nghề, chiến hạm và đồng minh, anh hạ gục Ma Thần Vương Azathoth, tái tạo Lam Tinh, đưa nhân...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/YDjoVHZe-2I/hqdefault.jpg",
+      "publishedAt": "2026-11-25T02:00:00+00:00",
+      "updatedAt": "2026-11-25T02:00:00+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full | Toàn Server Sinh Tồn: Tôi Rút Trúng Khinh Khí Cầu Cũ Nát Nhưng Lại Mở Khóa Hệ Thống Thần Cấp",
+          "url": "https://www.youtube.com/watch?v=YDjoVHZe-2I",
+          "id": "YDjoVHZe-2I",
+          "duration": 10851,
+          "durationStr": "3:00:51",
+          "publishedAt": "2026-11-25T02:00:00+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6030",
       "title": "Full P2 01~247 | Xuyên Không Đến Thế Giới Cửu Nhật, Thức Tỉnh Thần Thoại Lật Kèo Xưng Vương",
