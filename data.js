@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T09:15:36.193140+00:00"
+    "lastUpdated": "2026-11-25T09:30:38.920619+00:00"
   },
   "channels": [
     {
@@ -46152,20 +46152,20 @@ window.FILMS_DATA = {
       "channelName": "Não Phẳng Tu Tiên",
       "channelUrl": "https://www.youtube.com/@nao-phang",
       "playlistUrl": null,
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 23438,
-      "totalDurationStr": "6 giờ 30 phút",
-      "totalViews": 35600,
-      "totalLikes": 0,
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 30698,
+      "totalDurationStr": "8 giờ 31 phút",
+      "totalViews": 35660,
+      "totalLikes": 8,
       "review": "",
       "genres": [
         "Tu tiên / Huyền huyễn"
       ],
       "thumbnail": "https://i.ytimg.com/vi/8tG8ETAwgBk/hqdefault.jpg",
       "publishedAt": "2026-11-09T10:49:42.537089+00:00",
-      "updatedAt": "2026-11-11T10:49:42.537089+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-25T09:19:59+00:00",
+      "isRecent24h": true,
       "parts": [
         {
           "index": 1,
@@ -46208,6 +46208,21 @@ window.FILMS_DATA = {
           "publishedAt": "2026-11-11T10:49:42.537089+00:00",
           "views": 13000,
           "likes": 0,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 4,
+          "label": "Phần 49",
+          "title": "Phần 49: Phàm Nhân Tu Tiên: Không Có Linh Căn Vẫn Có Thể Tu Tiên",
+          "url": "https://www.youtube.com/watch?v=gK6QtnlZJZI",
+          "id": "gK6QtnlZJZI",
+          "duration": 7260,
+          "durationStr": "2:01:00",
+          "publishedAt": "2026-11-25T09:19:59+00:00",
+          "views": 60,
+          "likes": 8,
           "isRedundant": false,
           "channelId": "naophangtutien",
           "channelName": "Não Phẳng Tu Tiên"
