@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6036,
+    "totalFilms": 6037,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T04:00:46.351591+00:00"
+    "lastUpdated": "2026-11-25T04:15:38.824430+00:00"
   },
   "channels": [
     {
@@ -163,7 +163,7 @@
       "id": "nhatanhstudio",
       "name": "Nhật Ảnh Studio",
       "url": "https://www.youtube.com/@StudioCitraMentari",
-      "filmCount": 35
+      "filmCount": 36
     },
     {
       "id": "vananhstudio",
@@ -186,6 +186,44 @@
   ],
   "films": [
     {
+      "id": "film_6037",
+      "title": "Trò Chơi Xâm Lấn Hiện Thực: Ta Thức Tỉnh Pháp Tướng Thần Tài, Điều Khiển Cự Long Quét Ngang Chư Thần",
+      "channelId": "nhatanhstudio",
+      "channelName": "Nhật Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@StudioCitraMentari",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8763,
+      "totalDurationStr": "2 giờ 26 phút",
+      "totalViews": 5,
+      "totalLikes": 0,
+      "review": "🎬 【Trò Chơi Xâm Lấn Hiện Thực: Ta Thức Tỉnh Pháp Tướng Thần Tài, Điều Khiển Cự Long Quét Ngang Chư Thần!】 🐉💰 Khi trò chơi bất ngờ xâm lấn hiện thực, thế giới lập tức rơi vào hỗn loạn! Quái vật xuất hiện, những sức mạnh thần bí thức tỉnh và con người buộc phải bước vào cuộc chiến sinh tồn khốc liệt. Giữa thời đại cường giả tranh bá, nhân vật chính lại...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/2AjwD-1E1Gk/hqdefault.jpg",
+      "publishedAt": "2026-11-25T04:03:29+00:00",
+      "updatedAt": "2026-11-25T04:03:29+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trò Chơi Xâm Lấn Hiện Thực: Ta Thức Tỉnh Pháp Tướng Thần Tài, Điều Khiển Cự Long Quét Ngang Chư Thần",
+          "url": "https://www.youtube.com/watch?v=2AjwD-1E1Gk",
+          "id": "2AjwD-1E1Gk",
+          "duration": 8763,
+          "durationStr": "2:26:03",
+          "publishedAt": "2026-11-25T04:03:29+00:00",
+          "views": 5,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_6036",
       "title": "10 GIỜ 40 THỎA MÃN | Xuyên Không Nguyên Thủy, Ta Thuần Hóa Rồng Và Cự Thú Xây Dựng Bộ Lạc!",
       "channelId": "2ksub",
@@ -194,8 +232,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 38516,
+      "totalDurationStr": "10 giờ 41 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **XUYÊN KHÔNG NGUYÊN THỦY – THUẦN HÓA CỰ THÚ, NUÔI RỒNG XÂY DỰNG BỘ LẠC! | 10H42** 🏹 **Dương**, chàng trai 25 tuổi bất ngờ xuyên không đến thế giới nguyên thủy, nơi con người phải sống trong hang đá, thiếu lương thực và liên tục đối mặt với mãnh thú khổng lồ. 🔥 Nhờ kiến thức hiện...",
@@ -213,8 +251,8 @@
           "title": "10 GIỜ 40 THỎA MÃN | Xuyên Không Nguyên Thủy, Ta Thuần Hóa Rồng Và Cự Thú Xây Dựng Bộ Lạc!",
           "url": "https://www.youtube.com/watch?v=b6AG5EvfB1g",
           "id": "b6AG5EvfB1g",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 38516,
+          "durationStr": "10:41:56",
           "publishedAt": "2026-11-25T04:00:26+00:00",
           "views": 0,
           "likes": 0,
@@ -343,12 +381,12 @@
       "channelName": "Vạn Ảnh Studio",
       "channelUrl": "https://www.youtube.com/@vananhanhstudio",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 22060,
-      "totalDurationStr": "6 giờ 07 phút",
-      "totalViews": 0,
-      "totalLikes": 0,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 44121,
+      "totalDurationStr": "12 giờ 15 phút",
+      "totalViews": 3,
+      "totalLikes": 1,
       "review": "🎬 【Thư Kiếm Thịnh Đường: Được Tiên Nhân Xoa Đầu Truyền Đạo, Ta Một Đường Quét Ngang Đại Đường!】 ⚔️📜 Giữa thời kỳ Đại Đường thịnh thế, nơi văn đạo và võ đạo cùng tỏa sáng, nhân vật chính bất ngờ gặp được cơ duyên nghịch thiên khi được tiên nhân xoa đầu truyền đạo! Chỉ một lần điểm hóa đã mở ra con đường tu luyện phi thường, giúp anh bước vào thế giới...",
       "genres": [
         "Tu tiên / Huyền huyễn",
@@ -356,7 +394,7 @@
       ],
       "thumbnail": "https://i2.ytimg.com/vi/mI5ywIToROk/hqdefault.jpg",
       "publishedAt": "2026-11-25T02:12:06+00:00",
-      "updatedAt": "2026-11-25T02:12:06+00:00",
+      "updatedAt": "2026-11-25T04:01:11+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -371,7 +409,25 @@
           "views": 0,
           "likes": 0,
           "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "P2 |【Thư Kiếm Thịnh Đường: Được Tiên Nhân Xoa Đầu Truyền Đạo, Ta Một Đường Quét Ngang Đại Đường!】",
+          "url": "https://www.youtube.com/watch?v=KsiC6DQTlHU",
+          "id": "KsiC6DQTlHU",
+          "duration": 22061,
+          "durationStr": "6:07:41",
+          "publishedAt": "2026-11-25T04:01:11+00:00",
+          "views": 3,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "vananhstudio",
+          "channelName": "Vạn Ảnh Studio"
         }
+      ],
+      "channelIds": [
+        "vananhstudio"
       ]
     },
     {
