@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T18:00:50.606945+00:00"
+    "lastUpdated": "2026-11-25T18:46:02.468406+00:00"
   },
   "channels": [
     {
@@ -23082,10 +23082,10 @@ window.FILMS_DATA = {
       "channelName": "Mễ Lạc Review",
       "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLK13eJAAPcmo",
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 65905,
-      "totalDurationStr": "18 giờ 18 phút",
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 85620,
+      "totalDurationStr": "23 giờ 47 phút",
       "review": "Khí Tử Vấn Thiên",
       "genres": [
         "Hoạt hình 3D Chọn Lọc"
@@ -23136,13 +23136,28 @@ window.FILMS_DATA = {
           "isRedundant": false,
           "channelId": "melacreview",
           "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 4,
+          "label": "Mùa 4",
+          "title": "Mùa 4 | Ma Thần Nhân Sinh: Khí Tử Vấn Thiên",
+          "url": "https://www.youtube.com/watch?v=NHVnkZ8l6e8",
+          "id": "NHVnkZ8l6e8",
+          "duration": 19715,
+          "durationStr": "5:28:35",
+          "publishedAt": "2026-11-25T18:33:55+00:00",
+          "views": 74,
+          "likes": 7,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
         }
       ],
-      "totalViews": 88953,
-      "totalLikes": 923,
+      "totalViews": 89027,
+      "totalLikes": 930,
       "publishedAt": "2026-10-12T00:00:00+00:00",
-      "updatedAt": "2026-11-17T18:39:56+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-25T18:33:55+00:00",
+      "isRecent24h": true,
       "channelIds": [
         "melacreview"
       ]
