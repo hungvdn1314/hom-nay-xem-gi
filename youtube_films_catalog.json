@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6026,
+    "totalFilms": 6028,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T00:00:45.209973+00:00"
+    "lastUpdated": "2026-11-25T01:15:34.534983+00:00"
   },
   "channels": [
     {
@@ -163,7 +163,7 @@
       "id": "nhatanhstudio",
       "name": "Nhật Ảnh Studio",
       "url": "https://www.youtube.com/@StudioCitraMentari",
-      "filmCount": 34
+      "filmCount": 35
     },
     {
       "id": "vananhstudio",
@@ -175,7 +175,7 @@
       "id": "akatsukireview",
       "name": "Akatsuki Review",
       "url": "https://www.youtube.com/@Akatsuki-KT",
-      "filmCount": 120
+      "filmCount": 121
     },
     {
       "id": "mianhstudio",
@@ -185,6 +185,81 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6027",
+      "title": "P1 | Tiểu Thần Bếp Giữa Ngân Hà: Xuyên Đến Thế Giới Tinh Tế, Tôi Dùng Mỹ Thực Chinh Phục Mọi Người",
+      "channelId": "nhatanhstudio",
+      "channelName": "Nhật Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@StudioCitraMentari",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9351,
+      "totalDurationStr": "2 giờ 35 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Tiểu Thần Bếp Giữa Ngân Hà: Xuyên Đến Thế Giới Tinh Tế, Tôi Dùng Mỹ Thực Chinh Phục Mọi Người!】 🍜🌌 Bất ngờ xuyên không đến thế giới tinh tế rộng lớn, nơi công nghệ phát triển vượt bậc và vô số chủng tộc cùng tồn tại, nhân vật chính bắt đầu cuộc sống mới với một tài năng đặc biệt: khả năng nấu nướng những món ăn ngon tuyệt đỉnh! Giữa thời đại ngân hà...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/OTyvJr2Ct7o/hqdefault.jpg",
+      "publishedAt": "2026-11-25T01:15:08+00:00",
+      "updatedAt": "2026-11-25T01:15:08+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1 | Tiểu Thần Bếp Giữa Ngân Hà: Xuyên Đến Thế Giới Tinh Tế, Tôi Dùng Mỹ Thực Chinh Phục Mọi Người",
+          "url": "https://www.youtube.com/watch?v=OTyvJr2Ct7o",
+          "id": "OTyvJr2Ct7o",
+          "duration": 9351,
+          "durationStr": "2:35:51",
+          "publishedAt": "2026-11-25T01:15:08+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6028",
+      "title": "Full SS1 | Hoa Khôi, Đừng Giả Vờ Nữa, Tai Em Đỏ Bừng Cả Rồi! | Akatsuki Review",
+      "channelId": "akatsukireview",
+      "channelName": "Akatsuki Review",
+      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8368,
+      "totalDurationStr": "2 giờ 19 phút",
+      "totalViews": 36,
+      "totalLikes": 4,
+      "review": "Chúc mọi người có những phút giây xem phim vui vẻ, nhớ để lại bình luận và cho mình một like + subcribe nhé Mọi Người Ủng Hộ Mình 1 Ly Cafe☕ Để Mình Có Động Lực Làm Video Với Nha🥰🥰🥰 VCB:1026377599",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/2m9TPl311q8/hqdefault.jpg",
+      "publishedAt": "2026-11-25T00:59:33+00:00",
+      "updatedAt": "2026-11-25T00:59:33+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "Full SS1 | Hoa Khôi, Đừng Giả Vờ Nữa, Tai Em Đỏ Bừng Cả Rồi! | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=2m9TPl311q8",
+          "id": "2m9TPl311q8",
+          "duration": 8368,
+          "durationStr": "2:19:28",
+          "publishedAt": "2026-11-25T00:59:33+00:00",
+          "views": 36,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6026",
       "title": "Full Phần 1 | 【Livestream Bán Hàng: Chỉ Một Bài Hát, Tôi Bỗng Chốc Thành Thần!】",
