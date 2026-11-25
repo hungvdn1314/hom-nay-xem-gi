@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6045,
+    "totalFilms": 6046,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T08:15:31.820216+00:00"
+    "lastUpdated": "2026-11-25T08:30:38.561144+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 622
+      "filmCount": 623
     },
     {
       "id": "naophangtutien",
@@ -185,6 +185,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6046",
+      "title": "8 GIỜ 30 | Tu Tiên Hệ Thống: Điểm Danh Triệu Hoán Đại Đế, Ta Lập Vạn Cổ Tông Xưng Bá Thiên Hạ!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 30698,
+      "totalDurationStr": "8 giờ 31 phút",
+      "totalViews": 357,
+      "totalLikes": 19,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : ⚔️ **CẢNH GIỚI TU TIÊN:** 🔸 **Cảnh giới ban đầu:** Thối Thể → Luyện Khí → Quy Chân → Xuất Khiếu → Quy Nguyên → Thiên Nhân → Bán Thánh → Thánh Nhân → Thánh Vương. 🔸 **Cảnh giới cao cấp được nhắc đến:** Đại Thánh → Chí Tôn → Chuẩn Đế → Đại Đế → Bán Tiên → Chân Tiên. 📌 Tóm Tắt Phim: **HỆ THỐNG TRIỆU...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/ZTb7ZcO9EL0/hqdefault.jpg",
+      "publishedAt": "2026-11-25T08:00:01+00:00",
+      "updatedAt": "2026-11-25T08:00:01+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "8 GIỜ 30 | Tu Tiên Hệ Thống: Điểm Danh Triệu Hoán Đại Đế, Ta Lập Vạn Cổ Tông Xưng Bá Thiên Hạ!",
+          "url": "https://www.youtube.com/watch?v=ZTb7ZcO9EL0",
+          "id": "ZTb7ZcO9EL0",
+          "duration": 30698,
+          "durationStr": "8:31:38",
+          "publishedAt": "2026-11-25T08:00:01+00:00",
+          "views": 357,
+          "likes": 19,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6045",
       "title": "Full Bộ 01~80 | Thức Tỉnh sách cấm Trấn Hồn Thư, Một Mình Mang Sức Mạnh Cả Thành Phố",
