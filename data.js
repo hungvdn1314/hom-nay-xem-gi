@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6024,
+    "totalFilms": 6026,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-24T22:15:31.918162+00:00"
+    "lastUpdated": "2026-11-25T00:00:45.209973+00:00"
   },
   "channels": [
     {
@@ -169,7 +169,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 22
+      "filmCount": 23
     },
     {
       "id": "akatsukireview",
@@ -181,10 +181,85 @@ window.FILMS_DATA = {
       "id": "mianhstudio",
       "name": "Mị Ảnh Studio",
       "url": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
-      "filmCount": 31
+      "filmCount": 32
     }
   ],
   "films": [
+    {
+      "id": "film_6026",
+      "title": "Full Phần 1 | 【Livestream Bán Hàng: Chỉ Một Bài Hát, Tôi Bỗng Chốc Thành Thần!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8244,
+      "totalDurationStr": "2 giờ 17 phút",
+      "totalViews": 2,
+      "totalLikes": 0,
+      "review": "🎬 【Livestream Bán Hàng: Chỉ Một Bài Hát, Tôi Bỗng Chốc Thành Thần!】 🎤🔥 Tưởng chừng chỉ là một buổi livestream bán hàng bình thường, nào ngờ nhân vật chính lại bất ngờ khiến cả cộng đồng mạng chấn động chỉ bằng một bài hát! Giữa thế giới livestream cạnh tranh khốc liệt, nơi vô số streamer tìm mọi cách thu hút người xem, anh lại dựa vào tài năng âm nhạc để...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/AApccfvX8hc/hqdefault.jpg",
+      "publishedAt": "2026-11-24T23:52:42+00:00",
+      "updatedAt": "2026-11-24T23:52:42+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | 【Livestream Bán Hàng: Chỉ Một Bài Hát, Tôi Bỗng Chốc Thành Thần!】",
+          "url": "https://www.youtube.com/watch?v=AApccfvX8hc",
+          "id": "AApccfvX8hc",
+          "duration": 8244,
+          "durationStr": "2:17:24",
+          "publishedAt": "2026-11-24T23:52:42+00:00",
+          "views": 2,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6025",
+      "title": "Full Phần 1 |【Sinh Tồn Quỷ Dị Toàn Cầu: Một Tà Tu Như Ta Lại Bị Đưa Vào Phó Bản Quái Đàm!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10278,
+      "totalDurationStr": "2 giờ 51 phút",
+      "totalViews": 2,
+      "totalLikes": 1,
+      "review": "🎬 【Sinh Tồn Quỷ Dị Toàn Cầu: Một Tà Tu Như Ta Lại Bị Đưa Vào Phó Bản Quái Đàm!】 👻🔥 Khi Sinh Tồn Quỷ Dị Toàn Cầu giáng lâm, vô số người bị cuốn vào những phó bản quái đàm kinh hoàng, nơi chỉ cần vi phạm một quy tắc cũng có thể mất mạng! Thế nhưng, giữa những người chơi đang run rẩy tìm cách sống sót, lại xuất hiện một nhân vật vô cùng đặc biệt: một tà tu...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/mA7btUb4kXo/hqdefault.jpg",
+      "publishedAt": "2026-11-24T23:50:26+00:00",
+      "updatedAt": "2026-11-24T23:50:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Sinh Tồn Quỷ Dị Toàn Cầu: Một Tà Tu Như Ta Lại Bị Đưa Vào Phó Bản Quái Đàm!】",
+          "url": "https://www.youtube.com/watch?v=mA7btUb4kXo",
+          "id": "mA7btUb4kXo",
+          "duration": 10278,
+          "durationStr": "2:51:18",
+          "publishedAt": "2026-11-24T23:50:26+00:00",
+          "views": 2,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6024",
       "title": "Full Phần 1 |【Không Giả Vờ Nữa, Ta Mới Chính Là Đại Phản Diện Số Một Cửu Châu!】",
