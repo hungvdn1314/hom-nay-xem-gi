@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6064,
+    "totalFilms": 6065,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T14:00:50.695938+00:00"
+    "lastUpdated": "2026-11-25T16:30:40.609053+00:00"
   },
   "channels": [
     {
@@ -31,7 +31,7 @@
       "id": "melacreview",
       "name": "Mễ Lạc Review",
       "url": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "filmCount": 157
+      "filmCount": 158
     },
     {
       "id": "thienanhstudio9",
@@ -185,6 +185,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6065",
+      "title": "Mùa 1 |  Hồng Trang Kiếm Cốt, Thử Múa Thanh Phong",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9331,
+      "totalDurationStr": "2 giờ 35 phút",
+      "totalViews": 184,
+      "totalLikes": 12,
+      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Mùa 1 | Hồng Trang Kiếm Cốt, Thử Múa Thanh Phong Ngày đầu tiên xuyên sách, Đường Tam Đường liền hay tin mình đã trở thành tên công tử ăn chơi khét tiếng của giới tu tiên, tương lai còn sa chân vào ma đạo! Khoan đã, rõ ràng nàng là con gái mà?! Để nghịch thiên cải mệnh, nàng cải trang thành...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/TSGTCKdb-BQ/hqdefault.jpg",
+      "publishedAt": "2026-11-25T15:55:40+00:00",
+      "updatedAt": "2026-11-25T15:55:40+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "Mùa 1 |  Hồng Trang Kiếm Cốt, Thử Múa Thanh Phong",
+          "url": "https://www.youtube.com/watch?v=TSGTCKdb-BQ",
+          "id": "TSGTCKdb-BQ",
+          "duration": 9331,
+          "durationStr": "2:35:31",
+          "publishedAt": "2026-11-25T15:55:40+00:00",
+          "views": 184,
+          "likes": 12,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6062",
       "title": "9 GIỜ THỎA MÃN | Toàn Dân Sinh Tồn Phế Thổ: Nhận Thẻ Bài Vận Mệnh, Dùng Tình Báo Xây Căn Cứ Bá Đạo!",
