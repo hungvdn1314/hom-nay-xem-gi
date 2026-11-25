@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T12:00:46.816678+00:00"
+    "lastUpdated": "2026-11-25T12:15:34.821317+00:00"
   },
   "channels": [
     {
@@ -41983,10 +41983,10 @@ window.FILMS_DATA = {
       "channelName": "Thiên Phạt Review",
       "channelUrl": "https://www.youtube.com/@thienphatreview",
       "playlistUrl": "https://www.youtube.com/playlist?list=PLOtOAyv139A4",
-      "totalParts": 5,
-      "partsStr": "5 phần",
-      "totalDurationSec": 50236,
-      "totalDurationStr": "13 giờ 57 phút",
+      "totalParts": 6,
+      "partsStr": "6 phần",
+      "totalDurationSec": 57768,
+      "totalDurationStr": "16 giờ 02 phút",
       "review": "Thanh Niên Xuyên Không Mang Công Nghệ Đối Đầu Ma Tộc, Cứu Cả Nhân Loại",
       "genres": [
         "Sinh tồn / Mạt thế",
@@ -42068,12 +42068,27 @@ window.FILMS_DATA = {
           "likes": 21,
           "channelId": "thienphatreview",
           "channelName": "Thiên Phạt Review"
+        },
+        {
+          "index": 6,
+          "label": "Phần 8",
+          "title": "Phần 8 | SINH TỒN DỊ GIỚI: Thanh Niên Xuyên Không Mang Công Nghệ Đối Đầu Ma Tộc, Cứu Cả Nhân Loại",
+          "url": "https://www.youtube.com/watch?v=ROzxuGRD54w",
+          "id": "ROzxuGRD54w",
+          "duration": 7532,
+          "durationStr": "2:05:32",
+          "publishedAt": "2026-11-25T12:00:37+00:00",
+          "views": 4,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "thienphatreview",
+          "channelName": "Thiên Phạt Review"
         }
       ],
-      "updatedAt": "2026-11-13T00:00:12+00:00",
-      "isRecent24h": false,
+      "updatedAt": "2026-11-25T12:00:37+00:00",
+      "isRecent24h": true,
       "publishedAt": "2026-11-13T00:00:12+00:00",
-      "totalViews": 48231,
+      "totalViews": 48235,
       "totalLikes": 483,
       "channelIds": [
         "thienphatreview"
