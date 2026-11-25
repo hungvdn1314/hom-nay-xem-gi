@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6043,
+    "totalFilms": 6045,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T08:00:36.130105+00:00"
+    "lastUpdated": "2026-11-25T08:15:31.820216+00:00"
   },
   "channels": [
     {
@@ -61,7 +61,7 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 349
+      "filmCount": 350
     },
     {
       "id": "zzzphim",
@@ -115,7 +115,7 @@ window.FILMS_DATA = {
       "id": "huyensutieumuoi",
       "name": "Huyền Sư Tiểu Muội",
       "url": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
-      "filmCount": 47
+      "filmCount": 48
     },
     {
       "id": "2ksub",
@@ -185,6 +185,82 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6045",
+      "title": "Full Bộ 01~80 | Thức Tỉnh sách cấm Trấn Hồn Thư, Một Mình Mang Sức Mạnh Cả Thành Phố",
+      "channelId": "huyensutieumuoi",
+      "channelName": "Huyền Sư Tiểu Muội",
+      "channelUrl": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9911,
+      "totalDurationStr": "2 giờ 45 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Tài xế đêm Tần Liệt vô tình thức tỉnh cấm thư Trấn Hồn Danh Sách khi mẹ ruột bị quái vật xóa mất ký ức. Gia nhập Cục Dị Thường cùng đội trưởng Tô Vãn Đường, anh lật mở bí mật vật chứa năm xưa và đốt mệnh đánh sập âm mưu Phó cục trưởng, giải cứu thành phố. 🔔 Nhấn chuông thông báo để không bỏ lỡ các tập phim kỳ ảo, tu chân và đô thị dị năng mới nhất mỗi...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/e6VR0mMFkEA/hqdefault.jpg",
+      "publishedAt": "2026-11-25T08:15:15+00:00",
+      "updatedAt": "2026-11-25T08:15:15+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Bộ 01~80 | Thức Tỉnh sách cấm Trấn Hồn Thư, Một Mình Mang Sức Mạnh Cả Thành Phố",
+          "url": "https://www.youtube.com/watch?v=e6VR0mMFkEA",
+          "id": "e6VR0mMFkEA",
+          "duration": 9911,
+          "durationStr": "2:45:11",
+          "publishedAt": "2026-11-25T08:15:15+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6044",
+      "title": "P1, Ngự Thú Sư Thức Tỉnh Thiên Phú Cấm Kỵ, Nghịch Thiên Tiến Hoá Dị Thú Bóng Tối Thành Thần Thú",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7711,
+      "totalDurationStr": "2 giờ 08 phút",
+      "totalViews": 16,
+      "totalLikes": 0,
+      "review": "[ Full ] P1, Ngự Thú Sư Thức Tỉnh Thiên Phú Cấm Kỵ, Nghịch Thiên Tiến Hoá Dị Thú Bóng Tối Thành Thần Thú Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/6FMkXKmbxKI/hqdefault.jpg",
+      "publishedAt": "2026-11-25T08:12:02+00:00",
+      "updatedAt": "2026-11-25T08:12:02+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Ngự Thú Sư Thức Tỉnh Thiên Phú Cấm Kỵ, Nghịch Thiên Tiến Hoá Dị Thú Bóng Tối Thành Thần Thú",
+          "url": "https://www.youtube.com/watch?v=6FMkXKmbxKI",
+          "id": "6FMkXKmbxKI",
+          "duration": 7711,
+          "durationStr": "2:08:31",
+          "publishedAt": "2026-11-25T08:12:02+00:00",
+          "views": 16,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6043",
       "title": "Trọng Sinh Thành Thế Tử Phi, Nàng Dứt Tình Không Còn Đeo Bám, Nào Ngờ Thế Tử Lại Hoảng Loạn",
