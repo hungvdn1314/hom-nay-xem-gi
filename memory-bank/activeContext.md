@@ -220,3 +220,13 @@
   - `mycherrysub3` (**HiCherrySub**, `@MyCherrySub3`, `UCorfR4slA9HETbelKTIJZwg`): `4` pure 3D films.
 - **Symmetric Sister/Bio Auto-Grouping**: Upgraded `_extract_ownership_signatures` + `scan_channel_ownership_signatures` to match parent/sister bio phrases (`kênh phụ ... <name>`) and emit `ytlink:` signatures symmetrically to both channels. Automatically detected **3 studio clusters (`27` unified studio entries across `35` channels)**: `Hệ Thống Mộng Ảnh Studio` (`6 kênh`), `Hệ Thống MyCherrySub` (`3 kênh`: `MyCherrySub` + `Bản Tin Cherry` + `HiCherrySub`, `660` merged series, `6,737` unique films total), and `Hệ Thống Trùm Phim Sinh Tồn New` (`2 kênh`).
 - **Verification**: `py_compile`, `node --check app.js`, `node --check api/live-feed.js` exited `0`; Puppeteer live check verified `35 Kênh`, `27` studio entries, and multi-select filtering (`eggvietsub` + `group_mycherrysub` = `689 BỘ PHIM`, `overflowX: false`).
+
+## New-Channel Backfill Sorting & Accurate `MỚI` Badge Fix (2026-11-26)
+- **Bug Fixed**: Adding a new channel placed all of its historical backfilled uploads at indices `0..N` above newer uploads from existing channels and marked old videos with `MỚI`.
+- **Root Causes & Fixes**:
+  1. **Backend (`scripts/update_youtube_feed.py`)**: Removed `now_utc.isoformat()` fabrication in `fetch_channel_browse_data` (marking relative browse dates `publishedIsApprox=True`), overlaid exact RSS timestamps when backfilling new channels, added `--repair-dates` + `resolve_best_publish_iso` + `_recompute_film_dates_from_parts`, computed `isRecent24h` strictly (`<= 24h`), and globally sorted all `data["films"]` descending by `updatedAt`/`publishedAt` (replacing `head_new + tail_existing`).
+  2. **Frontend (`app.js`)**: Computed `film.isRecent24h` in `rebuildRecentFeedAndGenres()` strictly when `0 <= age <= 24h`, required `film.isRecent24h` for `.ep-new-badge` in `openPlayer()`, removed `isRecent24h: true` hardcoding in `syncLiveYouTubeFeed()`, and ensured `applyFiltersAndRender()` always sorts descending by `updatedTs` under default `sortBy === 'recent'` even when `timeRange === 'all'`.
+- **Verification**:
+  - `python scripts/update_youtube_feed.py --repair-dates` upgraded `4,927` film timestamps across `6,737` films (`0` order inversions across `6,702` dated films; `isRecent24h == True` reduced from `800` to `61`).
+  - `py_compile` & `node --check app.js` exited `0`.
+  - Puppeteer live verification (`1440×900` & `375×812`): Page 1 displays newest multi-channel uploads (`1–6 giờ trước`), Page 5 has `0` `MỚI` pills, `eggvietsub` filter & player modal have `0` `MỚI` badges, `overflowX: false`, and zero console errors.

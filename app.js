@@ -961,6 +961,10 @@
 
     // Build timeline strictly from real YouTube timestamps
     const now = Date.now();
+    state.allFilms.forEach(film => {
+      film.isRecent24h = false;
+      film.recentUpdate = null;
+    });
     const filmsWithRealDate = state.allFilms.filter(f => f.updatedAt || f.publishedAt);
 
     filmsWithRealDate.sort((a, b) => {
@@ -986,13 +990,15 @@
       const partLabel = film.partsCount > 1
         ? (latestPart && latestPart.label ? latestPart.label : `Phần ${partIdx}`)
         : 'Bản Full';
-      film.isRecent24h = true;
+      const ts = new Date(pubIso).getTime();
+      const ageMs = now - ts;
+      film.isRecent24h = !Number.isNaN(ts) && ageMs >= -3600000 && ageMs <= 86400000;
       film.recentUpdate = {
         partIndex: partIdx,
         partLabel: partLabel,
         videoId: latestPart ? latestPart.videoId : null,
         timeAgo: formatRealTimeAgo(pubIso),
-        timestamp: new Date(pubIso).getTime()
+        timestamp: ts
       };
     });
 
@@ -1168,7 +1174,7 @@
             synopsis: v.review || `Phim hoạt hình mới tuyển chọn từ kênh ${v.channelName}.`,
             publishedAt: v.publishedAt,
             updatedAt: v.publishedAt,
-            isRecent24h: true,
+            isRecent24h: false,
             recentUpdate: null
           };
           newFilmsBatch.unshift(newFilm);
@@ -1667,9 +1673,7 @@
     } else if (state.activeTab === 'recent24h') {
       scored.sort((a, b) => (b.film.recentUpdate?.timestamp || 0) - (a.film.recentUpdate?.timestamp || 0));
     } else {
-      if (state.timeRange !== 'all') {
-        scored.sort((a, b) => (b.updatedTs - a.updatedTs) || (b.periodViews - a.periodViews));
-      }
+      scored.sort((a, b) => (b.updatedTs - a.updatedTs) || (state.timeRange !== 'all' ? (b.periodViews - a.periodViews) : 0));
     }
 
     const showRanks = isLeaderboard || effectiveSort === 'views' || effectiveSort === 'likes';
@@ -2031,7 +2035,7 @@
         const epNum = p.partNumber || (idx + 1);
         const isActive = idx === resolvedPos;
         const isNewEp = Boolean(
-          film.recentUpdate && (
+          film.isRecent24h && film.recentUpdate && (
             film.recentUpdate.videoId
               ? p.videoId === film.recentUpdate.videoId
               : epNum === film.recentUpdate.partIndex

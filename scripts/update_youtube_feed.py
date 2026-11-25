@@ -753,7 +753,8 @@ def fetch_channel_browse_data(channel_id, fetch_all_pages=True):
                 videos_list.append({
                     "videoId": vid,
                     "title": title,
-                    "published": pub_iso or now_utc.isoformat(),
+                    "published": pub_iso,
+                    "publishedIsApprox": bool(pub_iso),
                     "description": "",
                     "thumbnail": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg",
                     "durationSec": dur_map.get(vid, 0),
@@ -1853,6 +1854,50 @@ def sync_channel_meta(data, films, channel_groups=None, channel_sigs=None):
     stats["totalChannelGroups"] = len(CHANNELS) - merged_reduction
 
 
+def _is_approx_iso(ts):
+    """Browse-derived relative timestamps carry sub-second microseconds from now_utc."""
+    return bool(ts and re.search(r'\.\d+', str(ts)))
+
+
+def _choose_accurate_publish_iso(approx_pub, exact_pub, now_utc):
+    """Prefer exact timestamp unless approx is within 24h and exact is midnight-only dateText."""
+    if not exact_pub:
+        return approx_pub
+    if approx_pub:
+        dt_approx = parse_iso_utc(approx_pub)
+        dt_exact = parse_iso_utc(exact_pub)
+        if (
+            dt_approx and dt_exact
+            and -3600 <= (now_utc - dt_approx).total_seconds() <= 86400
+            and str(exact_pub).endswith("T00:00:00+00:00")
+            and abs((dt_approx - dt_exact).total_seconds()) <= 129600
+        ):
+            return approx_pub
+    return exact_pub
+
+
+def resolve_best_publish_iso(v, info, st, now_utc):
+    """Pick second-accurate RSS / API / /next publish timestamp for a fresh video."""
+    if v.get("published") and not v.get("publishedIsApprox"):
+        return v["published"]
+    exact_pub = (info or {}).get("publishDate") or (st or {}).get("publishDate")
+    return _choose_accurate_publish_iso(v.get("published"), exact_pub, now_utc)
+
+
+def _recompute_film_dates_from_parts(film):
+    """Recompute film publishedAt (earliest) and updatedAt (latest) directly from parts."""
+    valid_dates = []
+    for p in film.get("parts", []):
+        raw = p.get("publishedAt")
+        dt = parse_iso_utc(raw) if raw else None
+        if dt is not None:
+            valid_dates.append((dt, raw))
+    if valid_dates:
+        valid_dates.sort(key=lambda x: x[0])
+        film["publishedAt"] = valid_dates[0][1]
+        film["updatedAt"] = valid_dates[-1][1]
+
+
 def main():
     if "--discover-channels" in sys.argv:
         discover_channels()
@@ -1862,12 +1907,13 @@ def main():
     do_backfill_stats = "--backfill-stats" in sys.argv
     do_clean_3d = "--clean-3d" in sys.argv
     do_sync_groups = "--sync-groups" in sys.argv
+    do_repair_dates = "--repair-dates" in sys.argv
     do_repair_parts = "--repair-parts" in sys.argv or do_backfill or do_backfill_stats or do_clean_3d
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_js_path = os.path.join(base_dir, "data.js")
     catalog_json_path = os.path.join(base_dir, "youtube_films_catalog.json")
 
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting YouTube Auto-Update (backfill={do_backfill}, backfill_stats={do_backfill_stats}, clean_3d={do_clean_3d}, sync_groups={do_sync_groups}, repair_parts={do_repair_parts})...")
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting YouTube Auto-Update (backfill={do_backfill}, backfill_stats={do_backfill_stats}, clean_3d={do_clean_3d}, sync_groups={do_sync_groups}, repair_dates={do_repair_dates}, repair_parts={do_repair_parts})...")
 
     if not os.path.exists(data_js_path):
         print(f"[Error] data.js not found at {data_js_path}")
@@ -1916,23 +1962,92 @@ def main():
 
     print(f"Loaded {len(films)} films with {len(existing_video_ids)} known video IDs. Max ID: film_{max_film_num}")
 
-    # Step 1: Collect new videos across all 8 channels (RSS first, Innertube browse fallback)
+    # Step 1: Collect new videos across all channels (RSS first, Innertube browse fallback)
     pending_by_channel = []
     new_vids_to_fetch = []
+    rss_exact_pub_by_vid = {}
     for ch in CHANNELS:
         ch_vids = browse_videos_map.get(ch["channel_id"])
         if not any(f.get("channelId") == ch["id"] for f in films) and ch_vids:
-            # Brand-new channel: full historical backfill across all paginated uploads
+            # Brand-new channel: full historical backfill overlaid with exact second-precision RSS timestamps
             print(f"  [New Channel] Backfilling '{ch['name']}' with {len(ch_vids)} uploads.")
-            videos = list(ch_vids)
+            videos = [dict(v) for v in ch_vids]
+            rss_vids = fetch_channel_videos(ch["channel_id"], browse_fallback_videos=None)
+            rss_by_id = {rv["videoId"]: rv for rv in rss_vids}
+            seen_ch_vids = set()
+            for v in videos:
+                vid = v["videoId"]
+                seen_ch_vids.add(vid)
+                rv = rss_by_id.get(vid)
+                if rv:
+                    if rv.get("published"):
+                        v["published"] = rv["published"]
+                        v["publishedIsApprox"] = False
+                        rss_exact_pub_by_vid[vid] = rv["published"]
+                    if not v.get("description") and rv.get("description"):
+                        v["description"] = rv["description"]
+                    if rv.get("thumbnail"):
+                        v["thumbnail"] = rv["thumbnail"]
+            for rv in rss_vids:
+                if rv.get("published"):
+                    rss_exact_pub_by_vid[rv["videoId"]] = rv["published"]
+                if rv["videoId"] not in seen_ch_vids:
+                    rv_copy = dict(rv)
+                    rv_copy["publishedIsApprox"] = False
+                    videos.append(rv_copy)
             videos.sort(key=lambda v: parse_iso_utc(v.get("published")) or datetime.min.replace(tzinfo=timezone.utc))
         else:
             videos = fetch_channel_videos(ch["channel_id"], browse_fallback_videos=ch_vids)
+            for v in videos:
+                if v.get("published") and not v.get("publishedIsApprox"):
+                    rss_exact_pub_by_vid[v["videoId"]] = v["published"]
         print(f"Channel '{ch['name']}': {len(videos)} entries.")
         fresh = [v for v in videos if v["videoId"] not in existing_video_ids]
         if fresh:
             pending_by_channel.append((ch, fresh))
             new_vids_to_fetch.extend(v["videoId"] for v in fresh)
+
+    # Step 1b: Upgrade any existing missing or browse-approximate timestamps using RSS (always) and /next (--repair-dates)
+    now_utc = datetime.now(timezone.utc)
+    date_repaired_count = 0
+    remaining_approx_vids = []
+    for f in films:
+        for p in f.get("parts", []):
+            vid = p.get("id") or p.get("videoId")
+            cur_pub = p.get("publishedAt")
+            if vid and (not cur_pub or _is_approx_iso(cur_pub)) and vid not in rss_exact_pub_by_vid:
+                remaining_approx_vids.append(vid)
+
+    repair_stats_map = {}
+    if do_repair_dates and remaining_approx_vids:
+        print(f"[Date-Repair] Fetching exact publishDate for {len(set(remaining_approx_vids))} approximate videos...")
+        repair_stats_map = batch_fetch_stats(list(dict.fromkeys(remaining_approx_vids)), max_workers=20)
+
+    for f in films:
+        film_date_changed = False
+        for p in f.get("parts", []):
+            vid = p.get("id") or p.get("videoId")
+            cur_pub = p.get("publishedAt")
+            if not vid or (cur_pub and not _is_approx_iso(cur_pub)):
+                continue
+            new_pub = None
+            if vid in rss_exact_pub_by_vid:
+                new_pub = rss_exact_pub_by_vid[vid]
+            elif do_repair_dates and vid in repair_stats_map:
+                exact_pub = repair_stats_map[vid].get("publishDate")
+                if exact_pub:
+                    new_pub = _choose_accurate_publish_iso(cur_pub, exact_pub, now_utc)
+            if new_pub and new_pub != cur_pub:
+                p["publishedAt"] = new_pub
+                film_date_changed = True
+        if film_date_changed or _is_approx_iso(f.get("updatedAt")) or _is_approx_iso(f.get("publishedAt")):
+            before_dates = (f.get("publishedAt"), f.get("updatedAt"))
+            _recompute_film_dates_from_parts(f)
+            if film_date_changed or (f.get("publishedAt"), f.get("updatedAt")) != before_dates:
+                recalculate_film_summary(f)
+                date_repaired_count += 1
+    if date_repaired_count > 0:
+        print(f"[Date-Repair] Upgraded timestamps on {date_repaired_count} films.")
 
     # Step 2: Resolve durations and views/likes for fresh videos
     meta_map = batch_fetch_metadata(new_vids_to_fetch, known_durations=browse_durations, max_workers=10) if new_vids_to_fetch else {}
@@ -1954,8 +2069,8 @@ def main():
             info = meta_map.get(vid, {})
             st = new_stats_map.get(vid, {})
             real_sec = info.get("durationSec") or st.get("durationSec") or v.get("durationSec") or 0
-            # Prefer RSS/API published UTC, then /next dateText, then watch publishDate
-            v_pub = v["published"] or st.get("publishDate") or info.get("publishDate")
+            # Prefer RSS/API published UTC, then accurate /next or watch publishDate, then relative browse approx
+            v_pub = resolve_best_publish_iso(v, info, st, now_utc)
             v_views = st.get("views") if st.get("views") is not None else (v.get("views") or 0)
             v_likes = st.get("likes") if st.get("likes") is not None else 0
             v_title = v["title"]
@@ -2023,6 +2138,7 @@ def main():
                 film_id = f"film_{max_film_num}"
                 genres = infer_genres(v_title, v_desc or raw_desc)
                 total_dur_str = format_total_duration_vi(real_sec)
+                dt_pub = parse_iso_utc(v_pub) if v_pub else None
                 new_film = {
                     "id": film_id,
                     "title": v_title,
@@ -2041,7 +2157,7 @@ def main():
                     "thumbnail": v_thumb,
                     "publishedAt": v_pub,
                     "updatedAt": v_pub,
-                    "isRecent24h": True,
+                    "isRecent24h": bool(dt_pub and -3600 <= (now_utc - dt_pub).total_seconds() <= 86400),
                     "parts": [
                         {
                             "index": 1,
@@ -2075,18 +2191,34 @@ def main():
     )
     channel_groups = detect_linked_channel_groups(CHANNELS, all_films, sigs_by_ch)
     all_films, merged_group_films = merge_linked_group_films(all_films, channel_groups)
-    total_changes = new_films_count + new_parts_count + repaired_count + stats_updated_count + cleaned_changes + merged_group_films
+    total_changes = (
+        new_films_count
+        + new_parts_count
+        + repaired_count
+        + date_repaired_count
+        + stats_updated_count
+        + cleaned_changes
+        + merged_group_films
+    )
 
-    if total_changes == 0 and not need_group_scan:
+    # Sort the entire catalog newest-first by real update/publish timestamp so historical backfills land in place
+    sorted_films = sorted(
+        all_films,
+        key=lambda f: parse_iso_utc(f.get("updatedAt") or f.get("publishedAt")) or datetime.min.replace(tzinfo=timezone.utc),
+        reverse=True,
+    )
+    order_changed = [f.get("id") for f in sorted_films] != [f.get("id") for f in films]
+
+    if total_changes == 0 and not need_group_scan and not order_changed and not do_repair_dates:
         print("[Auto-Update] Everything is up to date! No new videos or repairs needed.")
         return
 
-    # Sort newly created films newest-first before keeping existing tail order
-    new_ids_set = {f["id"] for f in new_films_list}
-    head_new = [f for f in all_films if f["id"] in new_ids_set]
-    tail_existing = [f for f in all_films if f["id"] not in new_ids_set]
-    head_new.sort(key=lambda f: parse_iso_utc(f.get("updatedAt")) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
-    data["films"] = head_new + tail_existing
+    for f in sorted_films:
+        ref_ts = f.get("updatedAt") or f.get("publishedAt")
+        dt_ref = parse_iso_utc(ref_ts) if ref_ts else None
+        f["isRecent24h"] = bool(dt_ref and -3600 <= (now_utc - dt_ref).total_seconds() <= 86400)
+
+    data["films"] = sorted_films
     sync_channel_meta(data, data["films"], channel_groups=channel_groups, channel_sigs=sigs_by_ch)
     stats["totalFilms"] = len(data["films"])
     stats["lastUpdated"] = datetime.now(timezone.utc).isoformat()
@@ -2102,7 +2234,7 @@ def main():
         print(f"[Auto-Update] Saved '{catalog_json_path}'.")
 
     bump_html_cache_version(base_dir)
-    print(f"\n[Summary] Added {new_films_count} films, {new_parts_count} parts, repaired {repaired_count} films, merged {merged_group_films} cross-group films, groups={len(channel_groups)}.")
+    print(f"\n[Summary] Added {new_films_count} films, {new_parts_count} parts, repaired {repaired_count} films ({date_repaired_count} dates), merged {merged_group_films} cross-group films, groups={len(channel_groups)}.")
 
 
 if __name__ == "__main__":
