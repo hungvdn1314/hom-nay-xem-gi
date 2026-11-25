@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6046,
+    "totalFilms": 6048,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T09:30:38.920619+00:00"
+    "lastUpdated": "2026-11-25T10:00:42.632492+00:00"
   },
   "channels": [
     {
@@ -97,7 +97,7 @@
       "id": "tieumuoingontinh",
       "name": "Tiểu Muội Ngôn Tình",
       "url": "https://www.youtube.com/@TieuMuoiNgonTinh",
-      "filmCount": 75
+      "filmCount": 76
     },
     {
       "id": "cibiisub",
@@ -169,7 +169,7 @@
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 25
+      "filmCount": 26
     },
     {
       "id": "akatsukireview",
@@ -185,6 +185,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6047",
+      "title": "Full Tập 01~181 | Xuyên Ko Hệ Thống Cho Trăm Tỷ, Ép Đóng Vai Phản Diện Khiến 4 Thiếu Gia Theo Đuổi",
+      "channelId": "tieumuoingontinh",
+      "channelName": "Tiểu Muội Ngôn Tình",
+      "channelUrl": "https://www.youtube.com/@TieuMuoiNgonTinh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7662,
+      "totalDurationStr": "2 giờ 07 phút",
+      "totalViews": 31,
+      "totalLikes": 5,
+      "review": "Nhận thưởng một trăm tỷ từ hệ thống, Tô Mạn Thù xuyên thành nữ phụ thế thân bị tổng tài Phó Cảnh Nghiêu ruồng bỏ, mẹ kế chiếm đoạt tài sản. Cô tỉnh táo đòi tiền bồi thường, đuổi cổ tiểu tam, tỏa sáng trên sân khấu múa khiến bốn đại thiếu gia điên cuồng theo đuổi. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/0r-tVCrm3cg/hqdefault.jpg",
+      "publishedAt": "2026-11-25T09:48:12+00:00",
+      "updatedAt": "2026-11-25T09:48:12+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1",
+          "title": "Full Tập 01~181 | Xuyên Ko Hệ Thống Cho Trăm Tỷ, Ép Đóng Vai Phản Diện Khiến 4 Thiếu Gia Theo Đuổi",
+          "url": "https://www.youtube.com/watch?v=0r-tVCrm3cg",
+          "id": "0r-tVCrm3cg",
+          "duration": 7662,
+          "durationStr": "2:07:42",
+          "publishedAt": "2026-11-25T09:48:12+00:00",
+          "views": 31,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6048",
+      "title": "【Mùa 1 | Tiên Đế Trở Về Địa Cầu: Tu Luyện Vạn Năm, Trở Lại Phát Hiện Cả Gia Tộc Đã Bị Diệt Môn!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9769,
+      "totalDurationStr": "2 giờ 42 phút",
+      "totalViews": 6,
+      "totalLikes": 0,
+      "review": "🎬 【Mùa 1 | Tiên Đế Trở Về Địa Cầu: Tu Luyện Vạn Năm, Trở Lại Phát Hiện Cả Gia Tộc Đã Bị Diệt Môn!】 ⚔️🔥 Trải qua vạn năm tu luyện, vượt qua vô số kiếp nạn để bước lên cảnh giới Tiên Đế, nhân vật chính cuối cùng cũng trở về Địa Cầu. Tưởng rằng có thể đoàn tụ với người thân, nào ngờ thứ chờ đợi anh lại là tin dữ: cả gia tộc đã bị diệt môn! Niềm vui ngày trở...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/zvaBFM9PkZQ/hqdefault.jpg",
+      "publishedAt": "2026-11-25T09:46:33+00:00",
+      "updatedAt": "2026-11-25T09:46:33+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "【Mùa 1 | Tiên Đế Trở Về Địa Cầu: Tu Luyện Vạn Năm, Trở Lại Phát Hiện Cả Gia Tộc Đã Bị Diệt Môn!】",
+          "url": "https://www.youtube.com/watch?v=zvaBFM9PkZQ",
+          "id": "zvaBFM9PkZQ",
+          "duration": 9769,
+          "durationStr": "2:42:49",
+          "publishedAt": "2026-11-25T09:46:33+00:00",
+          "views": 6,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6046",
       "title": "8 GIỜ 30 | Tu Tiên Hệ Thống: Điểm Danh Triệu Hoán Đại Đế, Ta Lập Vạn Cổ Tông Xưng Bá Thiên Hạ!",
