@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6050,
+    "totalFilms": 6051,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T10:15:32.301827+00:00"
+    "lastUpdated": "2026-11-25T10:46:17.605804+00:00"
   },
   "channels": [
     {
@@ -67,7 +67,7 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 327
+      "filmCount": 328
     },
     {
       "id": "gianhireview",
@@ -185,6 +185,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6051",
+      "title": "Xuyên Không Gả Thay Vương Gia Bại Liệt, Nào Ngờ Nàng Dùng Thần Y Thuật Hồi Sinh Chiến Thần!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 35074,
+      "totalDurationStr": "9 giờ 44 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Xuyên Không Gả Thay Vương Gia Bại Liệt, Nào Ngờ Nàng Dùng Thần Y Thuật Hồi Sinh Chiến Thần!",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/W0itsSTbXm0/hqdefault.jpg",
+      "publishedAt": "2026-11-25T10:42:08+00:00",
+      "updatedAt": "2026-11-25T10:42:08+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Gả Thay Vương Gia Bại Liệt, Nào Ngờ Nàng Dùng Thần Y Thuật Hồi Sinh Chiến Thần!",
+          "url": "https://www.youtube.com/watch?v=W0itsSTbXm0",
+          "id": "W0itsSTbXm0",
+          "duration": 35074,
+          "durationStr": "9:44:34",
+          "publishedAt": "2026-11-25T10:42:08+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6049",
       "title": "13 GIỜ THỎA MÃN | Mạt Thế Tiến Hóa: Thức Tỉnh Không Gian Sinh Mệnh, Săn Dị Thú Đột Phá Gen",
