@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6055,
+    "totalFilms": 6057,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T11:00:54.631651+00:00"
+    "lastUpdated": "2026-11-25T12:00:46.816678+00:00"
   },
   "channels": [
     {
@@ -127,7 +127,7 @@
       "id": "naophangtutien",
       "name": "Não Phẳng Tu Tiên",
       "url": "https://www.youtube.com/@nao-phang",
-      "filmCount": 90
+      "filmCount": 91
     },
     {
       "id": "hoatrenmay3d",
@@ -145,7 +145,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 321
+      "filmCount": 322
     },
     {
       "id": "godsub",
@@ -185,6 +185,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6057",
+      "title": "Kích Hoạt Hệ Thống Nhặt Xác: Một Đao Phá Vạn Quân Lật Đổ Quyền Gia | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6486,
+      "totalDurationStr": "1 giờ 48 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Kích Hoạt Hệ Thống Nhặt Xác: Một Đao Phá Vạn Quân Lật Đổ Quyền Gia | Đậu Đậu Vietsub 📋 Tóm Tắt : Lính đào ngũ xuyên không Chu Hà Mễ kích hoạt hệ thống nhặt xác, tích lũy sức mạnh, lập đại công biên cương, lật đổ nhà họ Thẩm thông địch và mở lối phi thăng 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/1r6aJpOLmyU/hqdefault.jpg",
+      "publishedAt": "2026-11-25T12:00:12+00:00",
+      "updatedAt": "2026-11-25T12:00:12+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Kích Hoạt Hệ Thống Nhặt Xác: Một Đao Phá Vạn Quân Lật Đổ Quyền Gia | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=1r6aJpOLmyU",
+          "id": "1r6aJpOLmyU",
+          "duration": 6486,
+          "durationStr": "1:48:06",
+          "publishedAt": "2026-11-25T12:00:12+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6056",
+      "title": "Phần 2(1-450): Truyền Thuyết Tà Đỉnh Vô Sỉ-Bị Coi Là Phế Vật, Ta Dựa Vào Ma Đỉnh Để Nghịch Thiên",
+      "channelId": "naophangtutien",
+      "channelName": "Não Phẳng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@nao-phang",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 23027,
+      "totalDurationStr": "6 giờ 23 phút",
+      "totalViews": 44,
+      "totalLikes": 1,
+      "review": "Tên Phim:Truyền Thuyết Tà Đỉnh Vô Sỉ Tên Khác: Bị Coi Là Phế Vật, Ta Dựa Vào Ma Đỉnh Để Nghịch Thiên 👉 “Video này chạy bằng cơm với niềm đam mê 🥲 Ai thương thì donate cho ad có động lực tiếp tục nha! Không có gì ngoài lòng biết ơn 🚀” Từ khoá: ✔ Phàm Nhân Bách Thế Thư ✔ Phim Hoạt Hình Trung Quốc ✔ Hoạt Hình 3D ✔ Hoạt Hình Xuyên Không ✔ Hoạt Hình Cổ Trang...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/iJYAkozObhs/hqdefault.jpg",
+      "publishedAt": "2026-11-25T11:46:11+00:00",
+      "updatedAt": "2026-11-25T11:46:11+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Phần 2(1-450): Truyền Thuyết Tà Đỉnh Vô Sỉ-Bị Coi Là Phế Vật, Ta Dựa Vào Ma Đỉnh Để Nghịch Thiên",
+          "url": "https://www.youtube.com/watch?v=iJYAkozObhs",
+          "id": "iJYAkozObhs",
+          "duration": 23027,
+          "durationStr": "6:23:47",
+          "publishedAt": "2026-11-25T11:46:11+00:00",
+          "views": 44,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6052",
       "title": "6 GIỜ 30 | Võ Đạo Hệ Thống: Làm Nội Gián 10 Năm, Thức Tỉnh Thần Công Max Cấp Xưng Bá Giang Hồ!",
