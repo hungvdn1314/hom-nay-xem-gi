@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6041,
+    "totalFilms": 6042,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T06:30:33.807826+00:00"
+    "lastUpdated": "2026-11-25T07:30:42.930410+00:00"
   },
   "channels": [
     {
@@ -97,7 +97,7 @@
       "id": "tieumuoingontinh",
       "name": "Tiểu Muội Ngôn Tình",
       "url": "https://www.youtube.com/@TieuMuoiNgonTinh",
-      "filmCount": 74
+      "filmCount": 75
     },
     {
       "id": "cibiisub",
@@ -185,6 +185,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6042",
+      "title": "Full Tập 01~147 |  Nữ Thiên Sư Xuống Núi Trà Tà Kiếm Cơm, Độn Thổ Cứu Tổng Tài Nghìn Tỷ",
+      "channelId": "tieumuoingontinh",
+      "channelName": "Tiểu Muội Ngôn Tình",
+      "channelUrl": "https://www.youtube.com/@TieuMuoiNgonTinh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7968,
+      "totalDurationStr": "2 giờ 12 phút",
+      "totalViews": 37,
+      "totalLikes": 5,
+      "review": "Xuống núi vào đô thị tay trắng, nữ thiên sư Vu Âm mở livestream bói toán trừ tà, vô tình cứu mạng tổng tài Đàm Từ. Bị ngôi sao hãm hại phong sát, cô lội ngược dòng phá tan tà trận đoạt xá, giải cứu hàng chục đại nhân vật và đổi đời rực rỡ. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt Nhật, Phim Ngôn Tình...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/k2HTaK3ldhQ/hqdefault.jpg",
+      "publishedAt": "2026-11-25T07:15:35+00:00",
+      "updatedAt": "2026-11-25T07:15:35+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1",
+          "title": "Full Tập 01~147 |  Nữ Thiên Sư Xuống Núi Trà Tà Kiếm Cơm, Độn Thổ Cứu Tổng Tài Nghìn Tỷ",
+          "url": "https://www.youtube.com/watch?v=k2HTaK3ldhQ",
+          "id": "k2HTaK3ldhQ",
+          "duration": 7968,
+          "durationStr": "2:12:48",
+          "publishedAt": "2026-11-25T07:15:35+00:00",
+          "views": 37,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6041",
       "title": "P1, Xuyên Không Thức Tỉnh Hệ Thống Sao Chép Thiên Phú, Càng Chiến Đấu Càng Mạnh, Trở Thành Vô Địch",
@@ -4272,12 +4310,12 @@
       "channelName": "Não Phẳng Tu Tiên",
       "channelUrl": "https://www.youtube.com/@nao-phang",
       "playlistUrl": null,
-      "totalParts": 15,
-      "partsStr": "15 phần",
-      "totalDurationSec": 160346,
-      "totalDurationStr": "44 giờ 32 phút",
-      "totalViews": 110407,
-      "totalLikes": 1,
+      "totalParts": 16,
+      "partsStr": "16 phần",
+      "totalDurationSec": 183775,
+      "totalDurationStr": "51 giờ 02 phút",
+      "totalViews": 110451,
+      "totalLikes": 2,
       "review": "Tên Phim: Sinh Ra Mang Lời Nguyền Chết Yểu, Ta Tu Luyện Để Đoạt Lại Trường Sinh 👉 “Video này chạy bằng cơm với niềm đam mê 🥲 Ai thương thì donate cho ad có động lực tiếp tục nha! Không có gì ngoài lòng biết ơn 🚀” Từ khoá: ✔ Phàm Nhân Bách Thế Thư ✔ Phim Hoạt Hình Trung Quốc ✔ Hoạt Hình 3D ✔ Hoạt Hình Xuyên Không ✔ Hoạt Hình Cổ Trang ✔ Hoạt Hình TQ ✔ HHTQ...",
       "genres": [
         "Tu tiên / Huyền huyễn",
@@ -4285,7 +4323,7 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/eDImQoQAYPU/hqdefault.jpg",
       "publishedAt": "2026-11-09T10:49:42.537089+00:00",
-      "updatedAt": "2026-11-23T18:27:00+00:00",
+      "updatedAt": "2026-11-25T07:19:35+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -4470,6 +4508,21 @@
         },
         {
           "index": 13,
+          "label": "Phần 5.4",
+          "title": "Phần 5-P4(601-1000): Sinh Ra Mang Lời Nguyền Chết Yểu, Ta Tu Luyện Để Đoạt Lại Trường Sinh",
+          "url": "https://www.youtube.com/watch?v=PnYeIonrWls",
+          "id": "PnYeIonrWls",
+          "duration": 23429,
+          "durationStr": "6:30:29",
+          "publishedAt": "2026-11-25T07:19:35+00:00",
+          "views": 44,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 14,
           "label": "Phần 4-5",
           "title": "Phần 4-  P5(400): Sinh Ra Mang Lời Nguyền Chết Yểu, Ta Tu Luyện Để Đoạt Lại Trường Sinh",
           "url": "https://www.youtube.com/watch?v=PDbVj0DPJgc",
@@ -4484,7 +4537,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 14,
+          "index": 15,
           "label": "Phần 4-6",
           "title": "Phần 4-P6(450): Sinh Ra Mang Lời Nguyền Chết Yểu, Ta Tu Luyện Để Đoạt Lại Trường Sinh",
           "url": "https://www.youtube.com/watch?v=f3Ia8Iv5UjQ",
@@ -4499,7 +4552,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 15,
+          "index": 16,
           "label": "Phần 4-7",
           "title": "Phần 4 -P7(500): Sinh Ra Mang Lời Nguyền Chết Yểu, Ta Tu Luyện Để Đoạt Lại Trường Sinh",
           "url": "https://www.youtube.com/watch?v=sF7QqMHBf3c",
