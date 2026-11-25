@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6061,
+    "totalFilms": 6064,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T13:45:38.934525+00:00"
+    "lastUpdated": "2026-11-25T14:00:50.695938+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 626
+      "filmCount": 627
     },
     {
       "id": "naophangtutien",
@@ -169,13 +169,13 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 26
+      "filmCount": 27
     },
     {
       "id": "akatsukireview",
       "name": "Akatsuki Review",
       "url": "https://www.youtube.com/@Akatsuki-KT",
-      "filmCount": 121
+      "filmCount": 122
     },
     {
       "id": "mianhstudio",
@@ -185,6 +185,120 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6062",
+      "title": "9 GIỜ THỎA MÃN | Toàn Dân Sinh Tồn Phế Thổ: Nhận Thẻ Bài Vận Mệnh, Dùng Tình Báo Xây Căn Cứ Bá Đạo!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 32175,
+      "totalDurationStr": "8 giờ 56 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TOÀN DÂN SINH TỒN PHẾ THỔ – DÙNG TÌNH BÁO XÂY CĂN CỨ, CHẾ TẠO VŨ KHÍ BÁ ĐẠO! | 8H56** ⚔️ **Dư Uyên** bị đưa vào trò chơi sinh tồn phế thổ, bắt đầu tại **Khu Bạo Loạn**, nơi đầy rẫy bạo đồ, cướp bóc và nguy hiểm. Giữa lúc khó khăn, hắn bất ngờ nhận được **Thẻ Bài Vận Mệnh** với...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/1Wa17sE2xz4/hqdefault.jpg",
+      "publishedAt": "2026-11-25T14:00:13+00:00",
+      "updatedAt": "2026-11-25T14:00:13+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "9 GIỜ THỎA MÃN | Toàn Dân Sinh Tồn Phế Thổ: Nhận Thẻ Bài Vận Mệnh, Dùng Tình Báo Xây Căn Cứ Bá Đạo!",
+          "url": "https://www.youtube.com/watch?v=1Wa17sE2xz4",
+          "id": "1Wa17sE2xz4",
+          "duration": 32175,
+          "durationStr": "8:56:15",
+          "publishedAt": "2026-11-25T14:00:13+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6063",
+      "title": "Full Phần 1 | Toàn Dân Thức Tỉnh Dị Năng: Tôi Mỗi Ngày Có Thêm Một Phân Thân!",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10727,
+      "totalDurationStr": "2 giờ 58 phút",
+      "totalViews": 4,
+      "totalLikes": 0,
+      "review": "🎬 【Toàn Dân Thức Tỉnh Dị Năng: Tôi Mỗi Ngày Có Thêm Một Phân Thân!】 ⚡🌍 Trong thời đại toàn dân thức tỉnh dị năng, nơi thiên phú và thực lực quyết định vận mệnh, nhân vật chính lại sở hữu một năng lực vô cùng đặc biệt: mỗi ngày có thêm một phân thân! Trong khi người khác phải vất vả tu luyện để nâng cao sức mạnh, anh lại có thể không ngừng gia tăng số...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/l0kCCizGIwg/hqdefault.jpg",
+      "publishedAt": "2026-11-25T13:58:38+00:00",
+      "updatedAt": "2026-11-25T13:58:38+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Toàn Dân Thức Tỉnh Dị Năng: Tôi Mỗi Ngày Có Thêm Một Phân Thân!",
+          "url": "https://www.youtube.com/watch?v=l0kCCizGIwg",
+          "id": "l0kCCizGIwg",
+          "duration": 10727,
+          "durationStr": "2:58:47",
+          "publishedAt": "2026-11-25T13:58:38+00:00",
+          "views": 4,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6064",
+      "title": "FullSS1-4END |Xuyên Không Thành Thiếu Gia Phản Diện, Tôi Muốn Làm Lành Với Nữ Chính |Akatsuki Review",
+      "channelId": "akatsukireview",
+      "channelName": "Akatsuki Review",
+      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 84730,
+      "totalDurationStr": "23 giờ 32 phút",
+      "totalViews": 139,
+      "totalLikes": 14,
+      "review": "Chúc mọi người có những phút giây xem phim vui vẻ, nhớ để lại bình luận và cho mình một like + subcribe nhé Mọi Người Ủng Hộ Mình 1 Ly Cafe☕ Để Mình Có Động Lực Làm Video Với Nha🥰🥰🥰 VCB:1026377599",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/kKOHqpDker4/hqdefault.jpg",
+      "publishedAt": "2026-11-25T13:48:29+00:00",
+      "updatedAt": "2026-11-25T13:48:29+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-4",
+          "title": "FullSS1-4END |Xuyên Không Thành Thiếu Gia Phản Diện, Tôi Muốn Làm Lành Với Nữ Chính |Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=kKOHqpDker4",
+          "id": "kKOHqpDker4",
+          "duration": 84730,
+          "durationStr": "23:32:10",
+          "publishedAt": "2026-11-25T13:48:29+00:00",
+          "views": 139,
+          "likes": 14,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6061",
       "title": "【Mùa 1–2】Thiên Kim Yếu Đuối Khiến Bách Quỷ Phải Nhường Đường!",
