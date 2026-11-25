@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6038,
+    "totalFilms": 6040,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T05:15:41.593264+00:00"
+    "lastUpdated": "2026-11-25T06:01:21.993667+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 621
+      "filmCount": 622
     },
     {
       "id": "naophangtutien",
@@ -169,7 +169,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 24
+      "filmCount": 25
     },
     {
       "id": "akatsukireview",
@@ -185,6 +185,82 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6039",
+      "title": "16 GIỜ  THỎA MÃN | Nữ Tiên Nhân Tu Luyện 2 Vạn Năm, Trở Về Đô Thị Bảo Vệ Mẹ Và Chị Gái!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 59620,
+      "totalDurationStr": "16 giờ 33 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **NỮ TIÊN NHÂN TRỞ VỀ ĐÔ THỊ – MẤT TÍCH 20 NĂM, TU LUYỆN 2 VẠN NĂM THÀNH CƯỜNG GIẢ! | 16H34** ⚔️ **Lăng Tiêu** bất ngờ mất mạng rồi bước vào Tu Tiên Giới, trải qua **20.000 năm tu luyện** từ một tạp dịch đến cảnh giới Độ Kiếp. Khi trở về Lam Tinh, cô kinh ngạc phát hiện thế giới...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/N-cwjni95xQ/hqdefault.jpg",
+      "publishedAt": "2026-11-25T06:00:18+00:00",
+      "updatedAt": "2026-11-25T06:00:18+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "16 GIỜ  THỎA MÃN | Nữ Tiên Nhân Tu Luyện 2 Vạn Năm, Trở Về Đô Thị Bảo Vệ Mẹ Và Chị Gái!",
+          "url": "https://www.youtube.com/watch?v=N-cwjni95xQ",
+          "id": "N-cwjni95xQ",
+          "duration": 59620,
+          "durationStr": "16:33:40",
+          "publishedAt": "2026-11-25T06:00:18+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6040",
+      "title": "P1 |Thức Tỉnh Chú Thuật Sư Cấp SSS: Ai Cũng Chê Phế Vật Đoản Mệnh, Nào Ngờ Ta Sở Hữu Thân Thể Bất Tử",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10944,
+      "totalDurationStr": "3 giờ 02 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Mở Đầu Thức Tỉnh Chú Thuật Sư Cấp SSS: Ai Cũng Chê Ta Là Phế Vật Đoản Mệnh, Nào Ngờ Ta Sở Hữu Thân Thể Bất Tử!】 💀⚡ Trong một thế giới nơi sức mạnh thức tỉnh quyết định vận mệnh, nhân vật chính bất ngờ thức tỉnh nghề nghiệp Chú Thuật Sư Cấp SSS! Tưởng chừng đây là thiên phú nghịch thiên khiến vạn người ngưỡng mộ, nào ngờ mọi người lại xem anh như phế...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/0vY8uJBV9wo/hqdefault.jpg",
+      "publishedAt": "2026-11-25T05:58:44+00:00",
+      "updatedAt": "2026-11-25T05:58:44+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1 |Thức Tỉnh Chú Thuật Sư Cấp SSS: Ai Cũng Chê Phế Vật Đoản Mệnh, Nào Ngờ Ta Sở Hữu Thân Thể Bất Tử",
+          "url": "https://www.youtube.com/watch?v=0vY8uJBV9wo",
+          "id": "0vY8uJBV9wo",
+          "duration": 10944,
+          "durationStr": "3:02:24",
+          "publishedAt": "2026-11-25T05:58:44+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6038",
       "title": "5 GIỜ | Tu Tiên Thương Đạo: 16 Tuổi Bị Coi Là Phế Vật, Ta Được Trấn Tộc Thần Thương Nhận Chủ!",
