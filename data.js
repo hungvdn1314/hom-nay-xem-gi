@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T05:00:43.934545+00:00"
+    "lastUpdated": "2026-11-25T05:15:41.593264+00:00"
   },
   "channels": [
     {
@@ -194,8 +194,8 @@ window.FILMS_DATA = {
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 18973,
+      "totalDurationStr": "5 giờ 16 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TU TIÊN THƯƠNG ĐẠO – TRẤN TỘC THẦN THƯƠNG NHẬN CHỦ, THỨC TỈNH SÁT PHẠT CHI KHÍ! | SS1–SS2 | 5H16** ⚔️ **Lâm Hạo**, thiếu gia Lâm gia, đã 16 tuổi nhưng vẫn không thể ngưng tụ thương ý, đứng trước nguy cơ bị đuổi khỏi gia tộc nếu thất bại trong Trì Thương Thí. 🔥 Không ngờ **Trấn...",
@@ -214,8 +214,8 @@ window.FILMS_DATA = {
           "title": "5 GIỜ | Tu Tiên Thương Đạo: 16 Tuổi Bị Coi Là Phế Vật, Ta Được Trấn Tộc Thần Thương Nhận Chủ!",
           "url": "https://www.youtube.com/watch?v=NJiLbbVGvjo",
           "id": "NJiLbbVGvjo",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 18973,
+          "durationStr": "5:16:13",
           "publishedAt": "2026-11-25T05:00:26+00:00",
           "views": 0,
           "likes": 0,
