@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6059,
+    "totalFilms": 6061,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T13:00:46.889781+00:00"
+    "lastUpdated": "2026-11-25T13:45:38.934525+00:00"
   },
   "channels": [
     {
@@ -97,7 +97,7 @@
       "id": "tieumuoingontinh",
       "name": "Tiểu Muội Ngôn Tình",
       "url": "https://www.youtube.com/@TieuMuoiNgonTinh",
-      "filmCount": 76
+      "filmCount": 77
     },
     {
       "id": "cibiisub",
@@ -163,7 +163,7 @@
       "id": "nhatanhstudio",
       "name": "Nhật Ảnh Studio",
       "url": "https://www.youtube.com/@StudioCitraMentari",
-      "filmCount": 36
+      "filmCount": 37
     },
     {
       "id": "vananhstudio",
@@ -185,6 +185,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6061",
+      "title": "【Mùa 1–2】Thiên Kim Yếu Đuối Khiến Bách Quỷ Phải Nhường Đường!",
+      "channelId": "nhatanhstudio",
+      "channelName": "Nhật Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@StudioCitraMentari",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 22779,
+      "totalDurationStr": "6 giờ 19 phút",
+      "totalViews": 3,
+      "totalLikes": 1,
+      "review": "🎬 【Mùa 1–2】Thiên Kim Yếu Đuối Khiến Bách Quỷ Phải Nhường Đường! 👻💎 Tưởng chừng chỉ là một vị thiên kim tiểu thư yếu đuối, mong manh đến mức khiến ai cũng muốn bảo vệ, nào ngờ nữ chính lại sở hữu thân phận và năng lực bí ẩn khiến cả thế giới quỷ dị phải kiêng dè! Đằng sau vẻ ngoài dịu dàng, yếu ớt ấy là sức mạnh phi thường, đến mức những lệ quỷ hung ác...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/cN_Y7TW3PSo/hqdefault.jpg",
+      "publishedAt": "2026-11-25T13:33:59+00:00",
+      "updatedAt": "2026-11-25T13:33:59+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Thiên Kim Yếu Đuối Khiến Bách Quỷ Phải Nhường Đường!",
+          "url": "https://www.youtube.com/watch?v=cN_Y7TW3PSo",
+          "id": "cN_Y7TW3PSo",
+          "duration": 22779,
+          "durationStr": "6:19:39",
+          "publishedAt": "2026-11-25T13:33:59+00:00",
+          "views": 3,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6060",
+      "title": "Full Tập 01~367 | Tà Quân Độ Kiếp Xuyên Ko Vào Thiên Kim, Dùng Tiên Thuật Giúp Gia Tộc Phất Lên",
+      "channelId": "tieumuoingontinh",
+      "channelName": "Tiểu Muội Ngôn Tình",
+      "channelUrl": "https://www.youtube.com/@TieuMuoiNgonTinh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19572,
+      "totalDurationStr": "5 giờ 26 phút",
+      "totalViews": 87,
+      "totalLikes": 4,
+      "review": "Luyện Thiên Tà Quân Văn Thiển độ kiếp thất bại, trọng sinh vào thân xác thiên kim hào môn bị ruồng bỏ. Bằng tu vi tiên giới, y thuật thần kỳ và cầm nghệ thất truyền, cô giải độc cứu thiếu gia Chu Văn Lan, vạch trần con nuôi độc ác và giúp gia tộc phất lên. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt Nhật,...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/bd6z8XtBQkU/hqdefault.jpg",
+      "publishedAt": "2026-11-25T13:31:34+00:00",
+      "updatedAt": "2026-11-25T13:31:34+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1",
+          "title": "Full Tập 01~367 | Tà Quân Độ Kiếp Xuyên Ko Vào Thiên Kim, Dùng Tiên Thuật Giúp Gia Tộc Phất Lên",
+          "url": "https://www.youtube.com/watch?v=bd6z8XtBQkU",
+          "id": "bd6z8XtBQkU",
+          "duration": 19572,
+          "durationStr": "5:26:12",
+          "publishedAt": "2026-11-25T13:31:34+00:00",
+          "views": 87,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6059",
       "title": "Tôi Cùng Nữ Hoàng Zombie Sinh Tồn Thời Tận Thế | Đậu Đậu Vietsub",
