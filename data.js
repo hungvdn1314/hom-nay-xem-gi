@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6051,
+    "totalFilms": 6055,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 29,
-    "lastUpdated": "2026-11-25T10:46:17.605804+00:00"
+    "lastUpdated": "2026-11-25T11:00:54.631651+00:00"
   },
   "channels": [
     {
@@ -121,7 +121,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 624
+      "filmCount": 625
     },
     {
       "id": "naophangtutien",
@@ -133,7 +133,7 @@ window.FILMS_DATA = {
       "id": "hoatrenmay3d",
       "name": "Hoa Trên Mây",
       "url": "https://www.youtube.com/@hoatrenmay3D",
-      "filmCount": 23
+      "filmCount": 24
     },
     {
       "id": "hhanime",
@@ -145,7 +145,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 320
+      "filmCount": 321
     },
     {
       "id": "godsub",
@@ -181,10 +181,161 @@ window.FILMS_DATA = {
       "id": "mianhstudio",
       "name": "Mị Ảnh Studio",
       "url": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
-      "filmCount": 32
+      "filmCount": 33
     }
   ],
   "films": [
+    {
+      "id": "film_6052",
+      "title": "6 GIỜ 30 | Võ Đạo Hệ Thống: Làm Nội Gián 10 Năm, Thức Tỉnh Thần Công Max Cấp Xưng Bá Giang Hồ!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 23267,
+      "totalDurationStr": "6 giờ 27 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **HỆ THỐNG ĐẠI KIÊU HÙNG – NHẬN VÕ CÔNG LÀ MAX CẤP, TỪ NỘI GIÁN THÀNH CAO THỦ GIANG HỒ! | 6H27** ⚔️ **Lý Tùy Phong** xuyên không đến thế giới võ đạo, làm nội gián trong Tào Bang suốt 10 năm nhưng liên tục bị cấp trên Cẩm Y Vệ lợi dụng. Không muốn tiếp tục làm quân cờ, hắn quyết...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/G9d2Iwh4mbk/hqdefault.jpg",
+      "publishedAt": "2026-11-25T11:00:14+00:00",
+      "updatedAt": "2026-11-25T11:00:14+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "6 GIỜ 30 | Võ Đạo Hệ Thống: Làm Nội Gián 10 Năm, Thức Tỉnh Thần Công Max Cấp Xưng Bá Giang Hồ!",
+          "url": "https://www.youtube.com/watch?v=G9d2Iwh4mbk",
+          "id": "G9d2Iwh4mbk",
+          "duration": 23267,
+          "durationStr": "6:27:47",
+          "publishedAt": "2026-11-25T11:00:14+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6054",
+      "title": "Âm Sinh Tử Xuất Thế: Trận Chiến Cổ Mộ Và Ác Ma Bất Tử | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9825,
+      "totalDurationStr": "2 giờ 43 phút",
+      "totalViews": 0,
+      "totalLikes": 1,
+      "review": "Âm Sinh Tử Xuất Thế: Trận Chiến Cổ Mộ Và Ác Ma Bất Tử | Đậu Đậu Vietsub 📋 Tóm Tắt : Thẩm Lãng mang mệnh Âm Sinh Tử, cầm Âm Quả kiếm cùng Cục Điều tra Dân gian phá trận cổ mộ mười hai con giáp, diệt tà bệnh viện hoang 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính bạn định nghĩa. Giữ vững...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/UcSJRVuLGAg/hqdefault.jpg",
+      "publishedAt": "2026-11-25T11:00:07+00:00",
+      "updatedAt": "2026-11-25T11:00:07+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Âm Sinh Tử Xuất Thế: Trận Chiến Cổ Mộ Và Ác Ma Bất Tử | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=UcSJRVuLGAg",
+          "id": "UcSJRVuLGAg",
+          "duration": 9825,
+          "durationStr": "2:43:45",
+          "publishedAt": "2026-11-25T11:00:07+00:00",
+          "views": 0,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6053",
+      "title": "Review Phim Vũ Động Càn Khôn P1-P6 | Thiếu Niên Bị Gia Tộc Khinh Thường Nhặt Được Bảo Vật Và Cái Kết",
+      "channelId": "hoatrenmay3d",
+      "channelName": "Hoa Trên Mây",
+      "channelUrl": "https://www.youtube.com/@hoatrenmay3D",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 14130,
+      "totalDurationStr": "3 giờ 55 phút",
+      "totalViews": 1,
+      "totalLikes": 0,
+      "review": "⚔️ VŨ ĐỘNG CÀN KHÔN - MỘT THIẾU NIÊN VÔ DANH TÌNH CỜ NHẶT ĐƯỢC THẠCH PHÙ THẦN BÍ, BƯỚC LÊN CON ĐƯỜNG NGHỊCH THIÊN TRỞ THÀNH CƯỜNG GIẢ BẢO VỆ ĐẠI LỤC! ⚔️ Từ nguyên tác đình đám của THIÊN TÀM THỔ ĐẬU - cha đẻ của \"Đấu Phá Thương Khung\" và \"Đại Chúa Tể\" - Vũ Động Càn Khôn mang đến một hành trình nghịch tập hoành tráng bậc nhất, bám sát nguyên tác truyện...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/eoY4lUg8rzI/hqdefault.jpg",
+      "publishedAt": "2026-11-25T10:59:22+00:00",
+      "updatedAt": "2026-11-25T10:59:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-6",
+          "title": "Review Phim Vũ Động Càn Khôn P1-P6 | Thiếu Niên Bị Gia Tộc Khinh Thường Nhặt Được Bảo Vật Và Cái Kết",
+          "url": "https://www.youtube.com/watch?v=eoY4lUg8rzI",
+          "id": "eoY4lUg8rzI",
+          "duration": 14130,
+          "durationStr": "3:55:30",
+          "publishedAt": "2026-11-25T10:59:22+00:00",
+          "views": 1,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6055",
+      "title": "Full P1 |【Trọng Sinh Thành Con Lừa: Người Ta Xuyên Không Làm Thiên Kim, Còn Tôi Lại Biến Thành Lừa!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19290,
+      "totalDurationStr": "5 giờ 21 phút",
+      "totalViews": 2,
+      "totalLikes": 0,
+      "review": "🎬 【Trọng Sinh Thành Con Lừa: Người Ta Xuyên Không Làm Thiên Kim, Còn Tôi Lại Biến Thành Lừa!】 🫏😂 Người khác xuyên không thì trở thành thiên kim tiểu thư, hưởng thụ cuộc sống giàu sang phú quý, còn nhân vật chính lại gặp phải một tình huống éo le đến khó tin: trọng sinh thành một con lừa! Không có thân phận cao quý, chẳng được sống trong nhung lụa, cuộc...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/cyr_DMUIbm8/hqdefault.jpg",
+      "publishedAt": "2026-11-25T10:50:55+00:00",
+      "updatedAt": "2026-11-25T10:50:55+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full P1 |【Trọng Sinh Thành Con Lừa: Người Ta Xuyên Không Làm Thiên Kim, Còn Tôi Lại Biến Thành Lừa!】",
+          "url": "https://www.youtube.com/watch?v=cyr_DMUIbm8",
+          "id": "cyr_DMUIbm8",
+          "duration": 19290,
+          "durationStr": "5:21:30",
+          "publishedAt": "2026-11-25T10:50:55+00:00",
+          "views": 2,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6051",
       "title": "Xuyên Không Gả Thay Vương Gia Bại Liệt, Nào Ngờ Nàng Dùng Thần Y Thuật Hồi Sinh Chiến Thần!",
