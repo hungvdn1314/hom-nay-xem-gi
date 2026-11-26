@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T08:30:37.542776+00:00",
+    "lastUpdated": "2026-11-26T08:45:44.771722+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -244,6 +244,62 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6711",
+      "title": "[Full] Ly Hôn Mơ Ôm 30 Triệu Ai Ngờ Vợ Tổng Băng Giá Lại Nghe Được Tiếng Lòng Của Tôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 10766,
+      "totalDurationStr": "2 giờ 59 phút",
+      "totalViews": 11634,
+      "totalLikes": 320,
+      "review": "📽Phim: [Full] Ly Hôn Mơ Ôm 30 Triệu Ai Ngờ Vợ Tổng Băng Giá Lại Nghe Được Tiếng Lòng Của Tôi! | MyCherrySub Tóm tắt: Nam chính Lục Hành Chu xuyên không vào một cuốn tiểu thuyết đô thị, trở thành chàng rể \"phế vật\" ăn bám của nữ tổng tài băng giá Tô Thanh Nhã. Mục tiêu duy nhất của anh là ngoan ngoãn diễn trọn vai: chờ vợ vứt tờ đơn ly hôn vào mặt cùng 30...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/1TOGW-JN75w/hqdefault.jpg",
+      "publishedAt": "2026-11-17T00:00:00+00:00",
+      "updatedAt": "2026-11-26T08:31:24+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Ly Hôn Mơ Ôm 30 Triệu Ai Ngờ Vợ Tổng Băng Giá Lại Nghe Được Tiếng Lòng Của Tôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=1TOGW-JN75w",
+          "id": "1TOGW-JN75w",
+          "duration": 5284,
+          "durationStr": "1:28:04",
+          "publishedAt": "2026-11-17T00:00:00+00:00",
+          "views": 11520,
+          "likes": 306,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Ly Hôn Mơ Ôm 30 Triệu Ai Ngờ Vợ Tổng Băng Giá Lại Nghe Được Tiếng Lòng Của Tôi| MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=zAEMGV43H0k",
+          "id": "zAEMGV43H0k",
+          "duration": 5482,
+          "durationStr": "1:31:22",
+          "publishedAt": "2026-11-26T08:31:24+00:00",
+          "views": 114,
+          "likes": 14,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
+        }
+      ],
+      "channelIds": [
+        "mycherrysub2"
+      ]
+    },
     {
       "id": "film_6764",
       "title": "11 GIỜ 20 THỎA MÃN | Tu Tiên: Hệ Thống Bắt Làm Ruộng, Ta Trồng Linh Dược Thành Cường Giả!",
@@ -29079,44 +29135,6 @@ window.FILMS_DATA = {
       ],
       "channelIds": [
         "thienphatreview"
-      ]
-    },
-    {
-      "id": "film_6711",
-      "title": "[Full] Ly Hôn Mơ Ôm 30 Triệu Ai Ngờ Vợ Tổng Băng Giá Lại Nghe Được Tiếng Lòng Của Tôi! | MyCherrySub",
-      "channelId": "mycherrysub2",
-      "channelName": "Bản Tin Cherry",
-      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 5284,
-      "totalDurationStr": "1 giờ 28 phút",
-      "totalViews": 11520,
-      "totalLikes": 306,
-      "review": "📽Phim: [Full] Ly Hôn Mơ Ôm 30 Triệu Ai Ngờ Vợ Tổng Băng Giá Lại Nghe Được Tiếng Lòng Của Tôi! | MyCherrySub Tóm tắt: Nam chính Lục Hành Chu xuyên không vào một cuốn tiểu thuyết đô thị, trở thành chàng rể \"phế vật\" ăn bám của nữ tổng tài băng giá Tô Thanh Nhã. Mục tiêu duy nhất của anh là ngoan ngoãn diễn trọn vai: chờ vợ vứt tờ đơn ly hôn vào mặt cùng 30...",
-      "genres": [
-        "Đô thị / Ngôn tình",
-        "Xuyên không / Trọng sinh"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/1TOGW-JN75w/hqdefault.jpg",
-      "publishedAt": "2026-11-17T00:00:00+00:00",
-      "updatedAt": "2026-11-17T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "[Full] Ly Hôn Mơ Ôm 30 Triệu Ai Ngờ Vợ Tổng Băng Giá Lại Nghe Được Tiếng Lòng Của Tôi! | MyCherrySub",
-          "url": "https://www.youtube.com/watch?v=1TOGW-JN75w",
-          "id": "1TOGW-JN75w",
-          "duration": 5284,
-          "durationStr": "1:28:04",
-          "publishedAt": "2026-11-17T00:00:00+00:00",
-          "views": 11520,
-          "likes": 306,
-          "isRedundant": false
-        }
       ]
     },
     {
