@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6750,
+    "totalFilms": 6751,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T03:15:36.465472+00:00",
+    "lastUpdated": "2026-11-26T03:30:38.851455+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 30,
+      "filmCount": 31,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,43 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6753",
+      "title": "Full P1 |Thức Tỉnh Hệ Thống Mỹ Thực Cấp Thần: Tôi Bán Hàng Rong Khiến Cả Cõi Mạng Thèm Đến Phát Khóc",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9107,
+      "totalDurationStr": "2 giờ 31 phút",
+      "totalViews": 5,
+      "totalLikes": 1,
+      "review": "🎬 【Thức Tỉnh Hệ Thống Mỹ Thực Cấp Thần: Tôi Bán Hàng Rong Khiến Cả Cõi Mạng Thèm Đến Phát Khóc!】 🍜🔥 Bất ngờ thức tỉnh Hệ Thống Mỹ Thực Cấp Thần, nhân vật chính bắt đầu hành trình kinh doanh ẩm thực bằng một quầy hàng rong giản dị! Những món ăn tưởng chừng bình thường, dưới bàn tay chế biến tài tình, lại trở thành mỹ vị khiến thực khách mê mẩn. Không cần...",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/5rLlEfq-x_8/hqdefault.jpg",
+      "publishedAt": "2026-11-26T03:19:27+00:00",
+      "updatedAt": "2026-11-26T03:19:27+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full P1 |Thức Tỉnh Hệ Thống Mỹ Thực Cấp Thần: Tôi Bán Hàng Rong Khiến Cả Cõi Mạng Thèm Đến Phát Khóc",
+          "url": "https://www.youtube.com/watch?v=5rLlEfq-x_8",
+          "id": "5rLlEfq-x_8",
+          "duration": 9107,
+          "durationStr": "2:31:47",
+          "publishedAt": "2026-11-26T03:19:27+00:00",
+          "views": 5,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6751",
       "title": "[Full] Xuống Núi Lỡ Hắt Coca Lên Đùi Nữ Tổng Tài Tôi Liền Bị Bắt Làm Bảo Vệ Để Trả Nợ! | MyCherrySub",
