@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6773,
+    "totalFilms": 6776,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T10:45:31.503674+00:00",
+    "lastUpdated": "2026-11-26T11:00:47.035591+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 635
+      "filmCount": 636
     },
     {
       "id": "naophangtutien",
@@ -154,7 +154,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 328
+      "filmCount": 329
     },
     {
       "id": "godsub",
@@ -202,7 +202,7 @@ window.FILMS_DATA = {
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 310,
+      "filmCount": 311,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,119 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6778",
+      "title": "S1 | Làm Gì Có Phó Bản Như Thế Này - Trò Chơi Kinh Dị Quyết Định Quốc Vận | Trùm Phim Sinh Tồn New",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12525,
+      "totalDurationStr": "3 giờ 28 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "S1 | Làm Gì Có Phó Bản Như Thế Này - Trò Chơi Kinh Dị Quyết Định Quốc Vận | Trùm Phim Sinh Tồn New Sau 10 trận thua liên tiếp trong trò chơi kinh dị quốc vận, Đại Hạ liên tục thất thủ, tính mạng của hàng trăm triệu người rơi vào tình thế nguy cấp. Những hình thức kinh dị truyền thống và cương thi đều đã bị các thế lực đối địch nghiên cứu kỹ lưỡng, khiến...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/RmbuV4WPJqk/hqdefault.jpg",
+      "publishedAt": "2026-11-26T11:00:13+00:00",
+      "updatedAt": "2026-11-26T11:00:13+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S1 | Làm Gì Có Phó Bản Như Thế Này - Trò Chơi Kinh Dị Quyết Định Quốc Vận | Trùm Phim Sinh Tồn New",
+          "url": "https://www.youtube.com/watch?v=RmbuV4WPJqk",
+          "id": "RmbuV4WPJqk",
+          "duration": 12525,
+          "durationStr": "3:28:45",
+          "publishedAt": "2026-11-26T11:00:13+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6777",
+      "title": "Sinh Tồn Giữa Sương Xám Tôi Xây Căn Cứ Săn Dị Vật Và Đối Đầu Kẻ Mạo Danh | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11145,
+      "totalDurationStr": "3 giờ 05 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Sinh Tồn Giữa Sương Xám Tôi Xây Căn Cứ Săn Dị Vật Và Đối Đầu Kẻ Mạo Danh | Đậu Đậu Vietsub 📋 TÓM TẮT : Hậu tận thế sương xám, nhân vật chính dùng điện thoại kết nối 3 năm trước để cảnh báo, lập căn cứ, khám phá quy tắc dị vật và đối đầu thế lực ác nhân. 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/jXvLsw32LWU/hqdefault.jpg",
+      "publishedAt": "2026-11-26T11:00:07+00:00",
+      "updatedAt": "2026-11-26T11:00:07+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Sinh Tồn Giữa Sương Xám Tôi Xây Căn Cứ Săn Dị Vật Và Đối Đầu Kẻ Mạo Danh | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=jXvLsw32LWU",
+          "id": "jXvLsw32LWU",
+          "duration": 11145,
+          "durationStr": "3:05:45",
+          "publishedAt": "2026-11-26T11:00:07+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6776",
+      "title": "19 GIỜ THỎA MÃN | Cổ Đại Cung Đấu: Nữ Tướng Và Hoàng Đế Bị Trói Chung Một Thân Xác!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 68722,
+      "totalDurationStr": "19 giờ 05 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **CỔ ĐẠI CUNG ĐẤU – HOÀNG ĐẾ VÀ HOÀNG HẬU, HAI LINH HỒN CHUNG MỘT THÂN XÁC! | 19H05** ⚔️ **Phùng Hạnh**, nữ tướng quân Tây Bắc mạnh mẽ, quen chinh chiến sa trường, bất ngờ bị Hoàng đế Đại Ung ép vào cung làm Hoàng hậu nhằm kiểm soát binh quyền Phùng gia. 🔥 Không ngờ Phùng Hạnh...",
+      "genres": [
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/OOFqAxrZia4/hqdefault.jpg",
+      "publishedAt": "2026-11-26T11:00:00+00:00",
+      "updatedAt": "2026-11-26T11:00:00+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "19 GIỜ THỎA MÃN | Cổ Đại Cung Đấu: Nữ Tướng Và Hoàng Đế Bị Trói Chung Một Thân Xác!",
+          "url": "https://www.youtube.com/watch?v=OOFqAxrZia4",
+          "id": "OOFqAxrZia4",
+          "duration": 68722,
+          "durationStr": "19:05:22",
+          "publishedAt": "2026-11-26T11:00:00+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6773",
       "title": "30 GIỜ THỎA MÃN | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
@@ -2911,7 +3024,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/G9d2Iwh4mbk/hqdefault.jpg",
       "publishedAt": "2026-11-25T11:00:14+00:00",
       "updatedAt": "2026-11-25T11:00:14+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -2948,7 +3061,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i2.ytimg.com/vi/UcSJRVuLGAg/hqdefault.jpg",
       "publishedAt": "2026-11-25T11:00:07+00:00",
       "updatedAt": "2026-11-25T11:00:07+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -2986,7 +3099,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i.ytimg.com/vi/aiwQNjmqpLg/hqdefault.jpg",
       "publishedAt": "2026-11-25T11:00:02+00:00",
       "updatedAt": "2026-11-25T11:00:02+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3024,7 +3137,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i2.ytimg.com/vi/eoY4lUg8rzI/hqdefault.jpg",
       "publishedAt": "2026-11-25T10:59:22+00:00",
       "updatedAt": "2026-11-25T10:59:22+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3062,7 +3175,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/cyr_DMUIbm8/hqdefault.jpg",
       "publishedAt": "2026-11-25T10:50:55+00:00",
       "updatedAt": "2026-11-25T10:50:55+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
