@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6790,
+    "totalFilms": 6791,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T15:30:47.395627+00:00",
+    "lastUpdated": "2026-11-26T15:45:33.063588+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -230,7 +230,7 @@ window.FILMS_DATA = {
       "id": "mycherrysub2",
       "name": "Bản Tin Cherry",
       "url": "https://www.youtube.com/@MyCherrySub2",
-      "filmCount": 169,
+      "filmCount": 170,
       "groupId": "group_mycherrysub",
       "groupName": "Hệ Thống MyCherrySub"
     },
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6793",
+      "title": "[Full] Sinh Ra Giống Phản Diện Tôi Thức Tỉnh Hệ Thống Mãnh Nam Đốn Tim Đại Hoa Khôi! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10070,
+      "totalDurationStr": "2 giờ 47 phút",
+      "totalViews": 80,
+      "totalLikes": 6,
+      "review": "📽Phim: [Full] Sinh Ra Giống Phản Diện Tôi Thức Tỉnh Hệ Thống Mãnh Nam Đốn Tim Đại Hoa Khôi! | MyCherrySub Tóm tắt: Bố mẹ thời đại học đều là nam thần và hoa khôi nổi tiếng, nhưng Lăng Thần lại kích hoạt Hệ Thống Mãnh Nam từ nhỏ. Sau 5 năm liên tục nhận thưởng tăng cường cơ bắp, cậu sở hữu chiều cao tận 2 mét cùng ngoại hình hung thần ác sát khiến ai nhìn...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/-7SC5q2lqSc/hqdefault.jpg",
+      "publishedAt": "2026-11-26T15:32:48+00:00",
+      "updatedAt": "2026-11-26T15:32:48+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Sinh Ra Giống Phản Diện Tôi Thức Tỉnh Hệ Thống Mãnh Nam Đốn Tim Đại Hoa Khôi! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=-7SC5q2lqSc",
+          "id": "-7SC5q2lqSc",
+          "duration": 10070,
+          "durationStr": "2:47:50",
+          "publishedAt": "2026-11-26T15:32:48+00:00",
+          "views": 80,
+          "likes": 6,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6792",
       "title": "[Full] Xuyên Thành Pháo Hôi Tôi Quay Xe Đá Bay Trà Xanh Cưng Chiều Nữ Chính Để Giữ Mạng| MyCherrySub",
