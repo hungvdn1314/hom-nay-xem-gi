@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6753,
+    "totalFilms": 6757,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T04:45:38.606109+00:00",
+    "lastUpdated": "2026-11-26T05:00:48.416633+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -68,7 +68,7 @@ window.FILMS_DATA = {
       "id": "hh3dtrungquoc",
       "name": "Anime 3D Trung Quốc",
       "url": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "filmCount": 350
+      "filmCount": 351
     },
     {
       "id": "zzzphim",
@@ -130,7 +130,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 629
+      "filmCount": 630
     },
     {
       "id": "naophangtutien",
@@ -154,7 +154,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 326
+      "filmCount": 327
     },
     {
       "id": "godsub",
@@ -202,7 +202,7 @@ window.FILMS_DATA = {
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 307,
+      "filmCount": 308,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,156 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6758",
+      "title": "Mạt Thế Đóng Băng Tôi Thức Tỉnh Sức Mạnh Dị Năng Không Gian Cấp S | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Mạt Thế Đóng Băng Tôi Thức Tỉnh Sức Mạnh Dị Năng Không Gian Cấp S 📋 TÓM TẮT :Trọng sinh 30 ngày trước tận thế băng giá, Giang Hàn dùng dị năng không gian tích trữ vật tư, xây pháo đài, diệt kẻ thù, thu phục đồng minh và dựng căn cứ ngầm. 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính bạn...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/mtri0Rodjag/hqdefault.jpg",
+      "publishedAt": "2026-11-26T05:00:32+00:00",
+      "updatedAt": "2026-11-26T05:00:32+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Mạt Thế Đóng Băng Tôi Thức Tỉnh Sức Mạnh Dị Năng Không Gian Cấp S | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=mtri0Rodjag",
+          "id": "mtri0Rodjag",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-26T05:00:32+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6757",
+      "title": "13 GIỜ THỎA MÃN | Mạt Thế Huyết Nguyệt: Dùng Điểm Sát Lục Nâng Cấp Vạn Vật, Chống Quỷ Dị!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **MẠT THẾ HUYẾT NGUYỆT – HỆ THỐNG THĂNG CẤP VẠN VẬT, DÙNG ĐIỂM SÁT LỤC ĐỂ SINH TỒN! | SS1–SS3 | 13 GIỜ** 🌕 Khi **Huyết Nguyệt** xuất hiện, hàng loạt quỷ dị trỗi dậy khiến thế giới rơi vào hỗn loạn. Giữa lúc nguy hiểm, **Trần Dã** bất ngờ kích hoạt **Hệ Thống Thăng Cấp**, có thể...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/2f8tcGpOF5Q/hqdefault.jpg",
+      "publishedAt": "2026-11-26T05:00:25+00:00",
+      "updatedAt": "2026-11-26T05:00:25+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "13 GIỜ THỎA MÃN | Mạt Thế Huyết Nguyệt: Dùng Điểm Sát Lục Nâng Cấp Vạn Vật, Chống Quỷ Dị!",
+          "url": "https://www.youtube.com/watch?v=2f8tcGpOF5Q",
+          "id": "2f8tcGpOF5Q",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-26T05:00:25+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6759",
+      "title": "S1 | Hàng Tỷ Người Bị Đưa Đến Tận Thế, Tôi Nhìn Thấy Chỉ Dẫn Ẩn Về Vật Tư Và Nơi Trú Ẩn An Toàn",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 49333,
+      "totalDurationStr": "13 giờ 42 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "S1 | Hàng Tỷ Người Bị Đưa Đến Tận Thế, Tôi Nhìn Thấy Chỉ Dẫn Ẩn Về Vật Tư Và Nơi Trú Ẩn An Toàn | Trùm Phim Sinh Tồn New Phim: Sinh Tồn Nơi Tận Thế, Chỉ Dẫn Ẩn Giúp Tôi Bứt Phá Sau một giấc ngủ, hàng tỷ người bất ngờ bị dịch chuyển đến một thế giới tận thế xa lạ, nơi sinh tồn trở thành thử thách chung của tất cả mọi người. Tuy nhiên, Trương Thần sở hữu...",
+      "genres": [
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/R_wDWm_k-IM/hqdefault.jpg",
+      "publishedAt": "2026-11-26T05:00:18+00:00",
+      "updatedAt": "2026-11-26T05:00:18+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S1 | Hàng Tỷ Người Bị Đưa Đến Tận Thế, Tôi Nhìn Thấy Chỉ Dẫn Ẩn Về Vật Tư Và Nơi Trú Ẩn An Toàn",
+          "url": "https://www.youtube.com/watch?v=R_wDWm_k-IM",
+          "id": "R_wDWm_k-IM",
+          "duration": 49333,
+          "durationStr": "13:42:13",
+          "publishedAt": "2026-11-26T05:00:18+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6756",
+      "title": "P1, Thiếu Niên Xuyên Ko Đến Quỷ Vực Thức Tỉnh Hệ Thống Săn Lùng, Nâng Cấp Chiến Xa Càn Quét Quái Vật",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7440,
+      "totalDurationStr": "2 giờ 04 phút",
+      "totalViews": 3,
+      "totalLikes": 0,
+      "review": "[ Full ] P1, Thiếu Niên Xuyên Ko Đến Quỷ Vực Thức Tỉnh Hệ Thống Săn Lùng, Nâng Cấp Chiến Xa Càn Quét Quái Vật Cập nhật Anime, Hoạt Hình Trung Quốc Hay Và Hấp Dẫn Hằng Ngày ! Video được dịch và thuyết minh bởi Anime 3D Trung Quốc",
+      "genres": [
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/BwwqJA8zjzw/hqdefault.jpg",
+      "publishedAt": "2026-11-26T04:59:04+00:00",
+      "updatedAt": "2026-11-26T04:59:04+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Thiếu Niên Xuyên Ko Đến Quỷ Vực Thức Tỉnh Hệ Thống Săn Lùng, Nâng Cấp Chiến Xa Càn Quét Quái Vật",
+          "url": "https://www.youtube.com/watch?v=BwwqJA8zjzw",
+          "id": "BwwqJA8zjzw",
+          "duration": 7440,
+          "durationStr": "2:04:00",
+          "publishedAt": "2026-11-26T04:59:04+00:00",
+          "views": 3,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6755",
       "title": "6 GIỜ |Mạt Thế Quỷ Dị: Thức Tỉnh Hệ Thống Thần Đồ, Khế Ước Đồng Đội Nhận Sức Mạnh Vô Hạn!",
@@ -3487,7 +3637,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i3.ytimg.com/vi/NJiLbbVGvjo/hqdefault.jpg",
       "publishedAt": "2026-11-25T05:00:26+00:00",
       "updatedAt": "2026-11-25T05:00:26+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3525,7 +3675,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i.ytimg.com/vi/9PtAS0IxBuU/hqdefault.jpg",
       "publishedAt": "2026-11-25T05:00:06+00:00",
       "updatedAt": "2026-11-25T05:00:06+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
