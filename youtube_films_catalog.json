@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6785,
+    "totalFilms": 6786,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T13:00:53.881527+00:00",
+    "lastUpdated": "2026-11-26T13:15:43.360211+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 637
+      "filmCount": 638
     },
     {
       "id": "naophangtutien",
@@ -245,25 +245,63 @@
   ],
   "films": [
     {
+      "id": "film_6788",
+      "title": "9 GIỜ | Xuyên Không Cổ Đại: Bị Coi Là Tai Tinh, Ta Đỗ Khoa Cử Trở Thành Thiên Tài Quan Trường!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 31867,
+      "totalDurationStr": "8 giờ 51 phút",
+      "totalViews": 120,
+      "totalLikes": 13,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **XUYÊN KHÔNG CỔ ĐẠI – BỊ COI LÀ TAI TINH, TA DÙNG KHOA CỬ ĐỔI CẢ VẬN MỆNH! | 8H51** 📜 **Ngụy Nghịch Sinh**, một tiến sĩ nghiên cứu Hán ngữ ở hiện đại, bất ngờ xuyên không về Đại Chu, trở thành nhị công tử của gia tộc quyền quý. Vừa chào đời, hắn đã bị coi là **tai tinh khắc chết...",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/Wv99x0WJR3M/hqdefault.jpg",
+      "publishedAt": "2026-11-26T13:00:20+00:00",
+      "updatedAt": "2026-11-26T13:00:20+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "9 GIỜ | Xuyên Không Cổ Đại: Bị Coi Là Tai Tinh, Ta Đỗ Khoa Cử Trở Thành Thiên Tài Quan Trường!",
+          "url": "https://www.youtube.com/watch?v=Wv99x0WJR3M",
+          "id": "Wv99x0WJR3M",
+          "duration": 31867,
+          "durationStr": "8:51:07",
+          "publishedAt": "2026-11-26T13:00:20+00:00",
+          "views": 120,
+          "likes": 13,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_108",
       "title": "Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
       "channelId": "naophangtutien",
       "channelName": "Não Phẳng Tu Tiên",
       "channelUrl": "https://www.youtube.com/@nao-phang",
       "playlistUrl": null,
-      "totalParts": 16,
-      "partsStr": "16 phần",
-      "totalDurationSec": 102930,
-      "totalDurationStr": "28 giờ 35 phút",
-      "totalViews": 128693,
-      "totalLikes": 71,
+      "totalParts": 17,
+      "partsStr": "17 phần",
+      "totalDurationSec": 105638,
+      "totalDurationStr": "29 giờ 20 phút",
+      "totalViews": 128952,
+      "totalLikes": 100,
       "review": "",
       "genres": [
         "Tu tiên / Huyền huyễn"
       ],
       "thumbnail": "https://i.ytimg.com/vi/c5iiDKLQcZg/hqdefault.jpg",
       "publishedAt": "2026-11-04T00:00:00+00:00",
-      "updatedAt": "2026-11-26T12:23:24+00:00",
+      "updatedAt": "2026-11-26T12:46:07+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -418,6 +456,21 @@
         },
         {
           "index": 11,
+          "label": "Phần 6.5",
+          "title": "Phần 6-P5: Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
+          "url": "https://www.youtube.com/watch?v=xh9Gr-wsjfg",
+          "id": "xh9Gr-wsjfg",
+          "duration": 2708,
+          "durationStr": "45:08",
+          "publishedAt": "2026-11-26T12:46:07+00:00",
+          "views": 259,
+          "likes": 29,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 12,
           "label": "Phần 5-6",
           "title": "Phần 5 -P6(685): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=LNrDktAS8Uo",
@@ -432,7 +485,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 12,
+          "index": 13,
           "label": "Phần 5-7",
           "title": "Phần 5 -P7(740): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=AFVS8jA5Neg",
@@ -447,7 +500,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 13,
+          "index": 14,
           "label": "Phần 5-8",
           "title": "Phần 5- P8(795): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=jJ-L7l4oOwU",
@@ -462,7 +515,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 14,
+          "index": 15,
           "label": "Phần 5-9",
           "title": "Phần 5-P9(850): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=lq0u7MMBreA",
@@ -477,7 +530,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 15,
+          "index": 16,
           "label": "Phần 5-10",
           "title": "Phần 5-P10(950): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=KuAkH_EUmE4",
@@ -492,7 +545,7 @@
           "channelName": "Não Phẳng Tu Tiên"
         },
         {
-          "index": 16,
+          "index": 17,
           "label": "Phần 5-11",
           "title": "Phần 5-P11(1000): Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
           "url": "https://www.youtube.com/watch?v=hQrxQ--Ac5s",
