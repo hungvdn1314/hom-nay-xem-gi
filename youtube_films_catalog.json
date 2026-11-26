@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6746,
+    "totalFilms": 6749,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T02:45:34.342807+00:00",
+    "lastUpdated": "2026-11-26T03:00:50.553808+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -154,7 +154,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 324
+      "filmCount": 325
     },
     {
       "id": "godsub",
@@ -202,7 +202,7 @@
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 306,
+      "filmCount": 307,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -230,7 +230,7 @@
       "id": "mycherrysub2",
       "name": "Bản Tin Cherry",
       "url": "https://www.youtube.com/@MyCherrySub2",
-      "filmCount": 166,
+      "filmCount": 167,
       "groupId": "group_mycherrysub",
       "groupName": "Hệ Thống MyCherrySub"
     },
@@ -244,6 +244,120 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6751",
+      "title": "[Full] Xuống Núi Lỡ Hắt Coca Lên Đùi Nữ Tổng Tài Tôi Liền Bị Bắt Làm Bảo Vệ Để Trả Nợ! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 1,
+      "totalLikes": 0,
+      "review": "📽Phim: [Full] Xuống Núi Lỡ Hắt Coca Lên Đùi Nữ Tổng Tài Tôi Liền Bị Bắt Làm Bảo Vệ Để Trả Nợ! | MyCherrySub Tóm tắt: Nam chính Bàng Thiên Xung là thiên tài võ học hiếm có suốt ba trăm năm, sau mười chín năm khổ luyện trên núi Côn Lôn và bốn năm chinh chiến tại thế giới phương Tây, cảnh giới của anh lại bị chững lại suốt ba năm không thể đột phá. Nghe...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/HijEM-fKYIw/hqdefault.jpg",
+      "publishedAt": "2026-11-26T03:00:32+00:00",
+      "updatedAt": "2026-11-26T03:00:32+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xuống Núi Lỡ Hắt Coca Lên Đùi Nữ Tổng Tài Tôi Liền Bị Bắt Làm Bảo Vệ Để Trả Nợ! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=HijEM-fKYIw",
+          "id": "HijEM-fKYIw",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-26T03:00:32+00:00",
+          "views": 1,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6750",
+      "title": "S1 | Trọng Sinh Trước Tận Thế 8 Giờ, Tôi Có Hệ Thống Cướp Đoạt Vô Hạn | Trùm Phim Sinh Tồn New",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13399,
+      "totalDurationStr": "3 giờ 43 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "S1 | Trọng Sinh Trước Tận Thế 8 Giờ, Tôi Có Hệ Thống Cướp Đoạt Vô Hạn | Trùm Phim Sinh Tồn New Kiếp trước, Vương Thiên Duyên bị Chu Liệt hãm hại giữa thời tận thế và đau đớn mất đi em gái Vương Thanh Hòa. Sau khi trọng sinh trở về thời điểm 8 giờ trước khi tận thế giáng xuống, anh liên kết với Hệ Thống Cướp Đoạt Võ Đạo, giành trước cơ duyên là linh dịch...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/WhKUf32HUHQ/hqdefault.jpg",
+      "publishedAt": "2026-11-26T03:00:23+00:00",
+      "updatedAt": "2026-11-26T03:00:23+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S1 | Trọng Sinh Trước Tận Thế 8 Giờ, Tôi Có Hệ Thống Cướp Đoạt Vô Hạn | Trùm Phim Sinh Tồn New",
+          "url": "https://www.youtube.com/watch?v=WhKUf32HUHQ",
+          "id": "WhKUf32HUHQ",
+          "duration": 13399,
+          "durationStr": "3:43:19",
+          "publishedAt": "2026-11-26T03:00:23+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6749",
+      "title": "Siêu Cấp Hệ Thống Hải Vương: Từ Streamer Câu Cá Thành Lãnh Chúa Đảo Hoa Đào | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11826,
+      "totalDurationStr": "3 giờ 17 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Siêu Cấp Hệ Thống Hải Vương: Từ Streamer Câu Cá Thành Lãnh Chúa Đảo Hoa Đào | Đậu Đậu Vietsub 📋 TÓM TẮT :Cố Bắc thức tỉnh Hệ thống Hải Vương, bỏ phố về làng livestream bắt hải sản kiếm tiền tỷ, thuần phục thú dữ, biến đảo hoang thành khu nghỉ dưỡng đẳng cấp và mở tiệc đãi khách. 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/w7A9QS5joqU/hqdefault.jpg",
+      "publishedAt": "2026-11-26T03:00:20+00:00",
+      "updatedAt": "2026-11-26T03:00:20+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Siêu Cấp Hệ Thống Hải Vương: Từ Streamer Câu Cá Thành Lãnh Chúa Đảo Hoa Đào | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=w7A9QS5joqU",
+          "id": "w7A9QS5joqU",
+          "duration": 11826,
+          "durationStr": "3:17:06",
+          "publishedAt": "2026-11-26T03:00:20+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6748",
       "title": "Bị Coi Là Tên Con Rể Vô Dụng, Nào Ngờ Thân Phận Rồng Thiêng Khiến Cả Nhà Chấn Động!",
@@ -3504,7 +3618,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/bl0-gso7FOw/hqdefault.jpg",
       "publishedAt": "2026-11-25T03:00:25+00:00",
       "updatedAt": "2026-11-25T03:00:25+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3542,7 +3656,7 @@
       "thumbnail": "https://i4.ytimg.com/vi/CjRHvGcMsMA/hqdefault.jpg",
       "publishedAt": "2026-11-25T03:00:18+00:00",
       "updatedAt": "2026-11-25T03:00:18+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
