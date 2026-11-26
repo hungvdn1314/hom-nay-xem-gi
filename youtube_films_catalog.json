@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6761,
+    "totalFilms": 6762,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T07:45:31.319309+00:00",
+    "lastUpdated": "2026-11-26T08:00:42.714949+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 632
+      "filmCount": 633
     },
     {
       "id": "naophangtutien",
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6764",
+      "title": "11 GIỜ 20 THỎA MÃN | Tu Tiên: Hệ Thống Bắt Làm Ruộng, Ta Trồng Linh Dược Thành Cường Giả!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 41189,
+      "totalDurationStr": "11 giờ 26 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: Trong khi người khác khổ luyện thần công để tranh bá tiên giới, nam chính lại bị một Hệ Thống Trồng Trọt Vạn Giới kỳ lạ ép đi làm ruộng giữa vùng Mãng Hoang rộng lớn. Từ những mảnh ruộng linh dược, hồ linh tuyền cho đến các loại tiên thảo quý hiếm và linh chi khổng lồ, mỗi lần...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/7fzk8kmZM-A/hqdefault.jpg",
+      "publishedAt": "2026-11-26T08:00:03+00:00",
+      "updatedAt": "2026-11-26T08:00:03+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "11 GIỜ 20 THỎA MÃN | Tu Tiên: Hệ Thống Bắt Làm Ruộng, Ta Trồng Linh Dược Thành Cường Giả!",
+          "url": "https://www.youtube.com/watch?v=7fzk8kmZM-A",
+          "id": "7fzk8kmZM-A",
+          "duration": 41189,
+          "durationStr": "11:26:29",
+          "publishedAt": "2026-11-26T08:00:03+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6762",
       "title": "7 GIỜ 40 | Xuyên Không Cổ Đại: Chỉ Còn 3 Tháng Sống, Ta Nhìn Thấu Nhân Quả Để Đổi Mệnh!",
@@ -3194,7 +3232,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-gWH9pXXPXA/hqdefault.jpg",
       "publishedAt": "2026-11-25T08:00:38+00:00",
       "updatedAt": "2026-11-25T08:00:38+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3232,7 +3270,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/ZTb7ZcO9EL0/hqdefault.jpg",
       "publishedAt": "2026-11-25T08:00:01+00:00",
       "updatedAt": "2026-11-25T08:00:01+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3270,7 +3308,7 @@
       "thumbnail": "https://i4.ytimg.com/vi/gM1Jb9P-OQw/hqdefault.jpg",
       "publishedAt": "2026-11-25T07:55:38+00:00",
       "updatedAt": "2026-11-25T07:55:38+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
