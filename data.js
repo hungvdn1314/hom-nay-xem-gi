@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6791,
+    "totalFilms": 6792,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T22:30:38.960942+00:00",
+    "lastUpdated": "2026-11-26T22:45:34.266518+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -136,7 +136,7 @@ window.FILMS_DATA = {
       "id": "naophangtutien",
       "name": "Não Phẳng Tu Tiên",
       "url": "https://www.youtube.com/@nao-phang",
-      "filmCount": 92
+      "filmCount": 93
     },
     {
       "id": "hoatrenmay3d",
@@ -244,6 +244,191 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_959",
+      "title": "Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLPjxYvLvBvbw",
+      "totalParts": 8,
+      "partsStr": "8 phần",
+      "totalDurationSec": 84195,
+      "totalDurationStr": "23 giờ 23 phút",
+      "review": "Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần.",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/e6iFNrNVUY4/hqdefault.jpg",
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1+2",
+          "title": "Mùa 1 + Mùa 2 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần.",
+          "url": "https://www.youtube.com/watch?v=e6iFNrNVUY4",
+          "id": "e6iFNrNVUY4",
+          "duration": 19843,
+          "durationStr": "5:30:43",
+          "isRedundant": false,
+          "views": 40653,
+          "likes": 266,
+          "publishedAt": "2026-07-03T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 3",
+          "title": "Mùa 3 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần.",
+          "url": "https://www.youtube.com/watch?v=5X9qZT5JlPs",
+          "id": "5X9qZT5JlPs",
+          "duration": 10041,
+          "durationStr": "2:47:21",
+          "isRedundant": false,
+          "views": 13006,
+          "likes": 76,
+          "publishedAt": "2026-07-08T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 4",
+          "title": "Mùa 4 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần.",
+          "url": "https://www.youtube.com/watch?v=9k9ziLKj_34",
+          "id": "9k9ziLKj_34",
+          "duration": 6644,
+          "durationStr": "1:50:44",
+          "isRedundant": false,
+          "views": 16976,
+          "likes": 209,
+          "publishedAt": "2026-07-19T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 4,
+          "label": "Mùa 5",
+          "title": "Mùa 5 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần.",
+          "url": "https://www.youtube.com/watch?v=E4K8qJFnkFQ",
+          "id": "E4K8qJFnkFQ",
+          "duration": 9135,
+          "durationStr": "2:32:15",
+          "isRedundant": false,
+          "views": 16218,
+          "likes": 91,
+          "publishedAt": "2026-08-13T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 5,
+          "label": "Mùa 7",
+          "title": "Mùa 7 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần",
+          "url": "https://www.youtube.com/watch?v=Tp5XyMxJBqE",
+          "id": "Tp5XyMxJBqE",
+          "duration": 10734,
+          "durationStr": "2:58:54",
+          "isRedundant": false,
+          "views": 36575,
+          "likes": 283,
+          "publishedAt": "2026-10-02T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 6,
+          "label": "Mùa 8",
+          "title": "Mùa 8 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần.",
+          "url": "https://www.youtube.com/watch?v=QihzLonwjL8",
+          "id": "QihzLonwjL8",
+          "duration": 11037,
+          "durationStr": "3:03:57",
+          "isRedundant": false,
+          "views": 28941,
+          "likes": 268,
+          "publishedAt": "2026-10-20T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 7,
+          "label": "Mùa 9",
+          "title": "Mùa 9 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần",
+          "url": "https://www.youtube.com/watch?v=NEibLQJ2VrM",
+          "id": "NEibLQJ2VrM",
+          "duration": 7899,
+          "durationStr": "2:11:39",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T05:49:36+00:00",
+          "views": 17841,
+          "likes": 217,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 8,
+          "label": "Mùa 10",
+          "title": "Mùa 10 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần",
+          "url": "https://www.youtube.com/watch?v=FGRM8PM52gc",
+          "id": "FGRM8PM52gc",
+          "duration": 8862,
+          "durationStr": "2:27:42",
+          "publishedAt": "2026-11-26T22:40:41+00:00",
+          "views": 4,
+          "likes": 2,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        }
+      ],
+      "totalViews": 170214,
+      "totalLikes": 1412,
+      "publishedAt": "2026-07-03T00:00:00+00:00",
+      "updatedAt": "2026-11-26T22:40:41+00:00",
+      "isRecent24h": true,
+      "channelIds": [
+        "melacreview"
+      ]
+    },
+    {
+      "id": "film_6794",
+      "title": "Phần 1-4(P3): Sổ Sinh Tử Ngự Quỷ",
+      "channelId": "naophangtutien",
+      "channelName": "Não Phẳng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@nao-phang",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Tên Phim: Tên Khác: 👉 “Video này chạy bằng cơm với niềm đam mê 🥲 Ai thương thì donate cho ad có động lực tiếp tục nha! Không có gì ngoài lòng biết ơn 🚀” Từ khoá: ✔ Phàm Nhân Bách Thế Thư ✔ Phim Hoạt Hình Trung Quốc ✔ Hoạt Hình 3D ✔ Hoạt Hình Xuyên Không ✔ Hoạt Hình Cổ Trang ✔ Hoạt Hình TQ ✔ HHTQ ✔ HH3D ✔ Hoạt Hình Hay Nhất ✔ Hoạt Hình Tu Tiên ✔ ALL IN ONE",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/tb8waU9I770/hqdefault.jpg",
+      "publishedAt": "2026-11-26T22:29:07+00:00",
+      "updatedAt": "2026-11-26T22:29:07+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-4",
+          "title": "Phần 1-4(P3): Sổ Sinh Tử Ngự Quỷ",
+          "url": "https://www.youtube.com/watch?v=tb8waU9I770",
+          "id": "tb8waU9I770",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-26T22:29:07+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_80",
       "title": "Thái Huyền Thai Châu Truyện",
@@ -56614,138 +56799,6 @@ window.FILMS_DATA = {
       "totalLikes": 48,
       "channelIds": [
         "thienanhstudio9"
-      ]
-    },
-    {
-      "id": "film_959",
-      "title": "Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần",
-      "channelId": "melacreview",
-      "channelName": "Mễ Lạc Review",
-      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "playlistUrl": "https://www.youtube.com/playlist?list=PLPjxYvLvBvbw",
-      "totalParts": 7,
-      "partsStr": "7 phần",
-      "totalDurationSec": 75333,
-      "totalDurationStr": "20 giờ 55 phút",
-      "review": "Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần.",
-      "genres": [
-        "Hoạt hình 3D Chọn Lọc"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/e6iFNrNVUY4/hqdefault.jpg",
-      "parts": [
-        {
-          "index": 1,
-          "label": "Mùa 1+2",
-          "title": "Mùa 1 + Mùa 2 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần.",
-          "url": "https://www.youtube.com/watch?v=e6iFNrNVUY4",
-          "id": "e6iFNrNVUY4",
-          "duration": 19843,
-          "durationStr": "5:30:43",
-          "isRedundant": false,
-          "views": 40653,
-          "likes": 266,
-          "publishedAt": "2026-07-03T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 2,
-          "label": "Mùa 3",
-          "title": "Mùa 3 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần.",
-          "url": "https://www.youtube.com/watch?v=5X9qZT5JlPs",
-          "id": "5X9qZT5JlPs",
-          "duration": 10041,
-          "durationStr": "2:47:21",
-          "isRedundant": false,
-          "views": 13006,
-          "likes": 76,
-          "publishedAt": "2026-07-08T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 3,
-          "label": "Mùa 4",
-          "title": "Mùa 4 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần.",
-          "url": "https://www.youtube.com/watch?v=9k9ziLKj_34",
-          "id": "9k9ziLKj_34",
-          "duration": 6644,
-          "durationStr": "1:50:44",
-          "isRedundant": false,
-          "views": 16976,
-          "likes": 209,
-          "publishedAt": "2026-07-19T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 4,
-          "label": "Mùa 5",
-          "title": "Mùa 5 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần.",
-          "url": "https://www.youtube.com/watch?v=E4K8qJFnkFQ",
-          "id": "E4K8qJFnkFQ",
-          "duration": 9135,
-          "durationStr": "2:32:15",
-          "isRedundant": false,
-          "views": 16218,
-          "likes": 91,
-          "publishedAt": "2026-08-13T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 5,
-          "label": "Mùa 7",
-          "title": "Mùa 7 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần",
-          "url": "https://www.youtube.com/watch?v=Tp5XyMxJBqE",
-          "id": "Tp5XyMxJBqE",
-          "duration": 10734,
-          "durationStr": "2:58:54",
-          "isRedundant": false,
-          "views": 36575,
-          "likes": 283,
-          "publishedAt": "2026-10-02T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 6,
-          "label": "Mùa 8",
-          "title": "Mùa 8 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần.",
-          "url": "https://www.youtube.com/watch?v=QihzLonwjL8",
-          "id": "QihzLonwjL8",
-          "duration": 11037,
-          "durationStr": "3:03:57",
-          "isRedundant": false,
-          "views": 28941,
-          "likes": 268,
-          "publishedAt": "2026-10-20T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 7,
-          "label": "Mùa 9",
-          "title": "Mùa 9 | Ta nhặt được một kẻ mù, hắn vác quan tài trảm chư thần",
-          "url": "https://www.youtube.com/watch?v=NEibLQJ2VrM",
-          "id": "NEibLQJ2VrM",
-          "duration": 7899,
-          "durationStr": "2:11:39",
-          "isRedundant": false,
-          "publishedAt": "2026-11-10T05:49:36+00:00",
-          "views": 17841,
-          "likes": 217,
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        }
-      ],
-      "totalViews": 170210,
-      "totalLikes": 1410,
-      "publishedAt": "2026-07-03T00:00:00+00:00",
-      "updatedAt": "2026-11-10T05:49:36+00:00",
-      "isRecent24h": false,
-      "channelIds": [
-        "melacreview"
       ]
     },
     {
