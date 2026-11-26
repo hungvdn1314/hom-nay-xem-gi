@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6789,
+    "totalFilms": 6790,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T14:15:47.506100+00:00",
+    "lastUpdated": "2026-11-26T14:30:49.614686+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -230,7 +230,7 @@
       "id": "mycherrysub2",
       "name": "Bản Tin Cherry",
       "url": "https://www.youtube.com/@MyCherrySub2",
-      "filmCount": 168,
+      "filmCount": 169,
       "groupId": "group_mycherrysub",
       "groupName": "Hệ Thống MyCherrySub"
     },
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6792",
+      "title": "[Full] Xuyên Thành Pháo Hôi Tôi Quay Xe Đá Bay Trà Xanh Cưng Chiều Nữ Chính Để Giữ Mạng| MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9809,
+      "totalDurationStr": "2 giờ 43 phút",
+      "totalViews": 119,
+      "totalLikes": 13,
+      "review": "📽Phim: [Full] Xuyên Thành Pháo Hôi Tôi Quay Xe Đá Bay Trà Xanh Cưng Chiều Nữ Chính Để Giữ Mạng! | MyCherrySub Tóm tắt: Xuyên không vào tiểu thuyết Hào Môn Minh Châu, một chàng trai mồ côi bất ngờ nhập vào thân xác của Thẩm Vũ An – vị thiếu gia pháo hôi nổi tiếng ngu muội, chuyên làm \"chó liếm\" cho trà xanh Bạch Tư Tư và năm lần bảy lượt bắt nạt nữ chính...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/iQmKA7Uxb0s/hqdefault.jpg",
+      "publishedAt": "2026-11-26T14:18:21+00:00",
+      "updatedAt": "2026-11-26T14:18:21+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xuyên Thành Pháo Hôi Tôi Quay Xe Đá Bay Trà Xanh Cưng Chiều Nữ Chính Để Giữ Mạng| MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=iQmKA7Uxb0s",
+          "id": "iQmKA7Uxb0s",
+          "duration": 9809,
+          "durationStr": "2:43:29",
+          "publishedAt": "2026-11-26T14:18:21+00:00",
+          "views": 119,
+          "likes": 13,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6791",
       "title": "Full Phần 1 |【Sinh Tồn Trong Ký Túc Xá Quỷ Dị: Tôi Thức Tỉnh Hệ Thống Điểm Danh Mỗi Ngày!】",
