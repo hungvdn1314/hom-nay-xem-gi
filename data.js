@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6770,
+    "totalFilms": 6773,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T09:45:35.397687+00:00",
+    "lastUpdated": "2026-11-26T10:00:59.585048+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,13 +130,13 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 634
+      "filmCount": 635
     },
     {
       "id": "naophangtutien",
       "name": "Não Phẳng Tu Tiên",
       "url": "https://www.youtube.com/@nao-phang",
-      "filmCount": 91
+      "filmCount": 92
     },
     {
       "id": "hoatrenmay3d",
@@ -154,7 +154,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 327
+      "filmCount": 328
     },
     {
       "id": "godsub",
@@ -244,6 +244,119 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6773",
+      "title": "30 GIỜ THỎA MÃN | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **ĐÊM VĨNH HẰNG – THỨC TỈNH CHUỖI THÔN PHỆ, NUỐT TITAN ĐỂ TRỞ THÀNH CƯỜNG GIẢ! | 30 GIỜ ⚔️ Năm 2000, một con **hắc điểu khổng lồ nuốt chửng Mặt Trời**, khiến Lam Tinh chìm vào Đêm Vĩnh Hằng. Cự thú Titan xuất hiện, tàn phá các thành phố, buộc nhân loại phải ẩn náu trong những khu...",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/rF5LMZpCgIQ/hqdefault.jpg",
+      "publishedAt": "2026-11-26T10:00:28+00:00",
+      "updatedAt": "2026-11-26T10:00:28+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "30 GIỜ THỎA MÃN | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
+          "url": "https://www.youtube.com/watch?v=rF5LMZpCgIQ",
+          "id": "rF5LMZpCgIQ",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-26T10:00:28+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6775",
+      "title": "Sinh Tồn Trên Đảo Hoang Quái Vật Biến Dị | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9656,
+      "totalDurationStr": "2 giờ 40 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Sinh Tồn Trên Đảo Hoang Quái Vật Biến Dị | Đậu Đậu Vietsub 📋 TÓM TẮT : Sau tai nạn máy bay, Tần Thiên cùng nhóm bạn lập trại sinh tồn, thuần phục quái vật biến dị trên đảo hoang, đối mặt với sự vô ơn và mưu đồ tấn công từ nhóm người sống sót khác 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do...",
+      "genres": [
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/DpNx1LO31-s/hqdefault.jpg",
+      "publishedAt": "2026-11-26T10:00:14+00:00",
+      "updatedAt": "2026-11-26T10:00:14+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Sinh Tồn Trên Đảo Hoang Quái Vật Biến Dị | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=DpNx1LO31-s",
+          "id": "DpNx1LO31-s",
+          "duration": 9656,
+          "durationStr": "2:40:56",
+          "publishedAt": "2026-11-26T10:00:14+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6774",
+      "title": "Phần 1:  Xuyên Không Thành Ngục Chủ, Ta Được Vạn Cổ Cường Giả Truyền Công",
+      "channelId": "naophangtutien",
+      "channelName": "Não Phẳng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@nao-phang",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 32436,
+      "totalDurationStr": "9 giờ 00 phút",
+      "totalViews": 12,
+      "totalLikes": 0,
+      "review": "Tên Phim: Ta Nắm Giữ Một Tòa Ngục Giam Hỗn Độn! Tên Khác: Xuyên Không Thành Ngục Chủ, Ta Được Vạn Cổ Cường Giả Truyền Công 👉 “Video này chạy bằng cơm với niềm đam mê 🥲 Ai thương thì donate cho ad có động lực tiếp tục nha! Không có gì ngoài lòng biết ơn 🚀” Từ khoá: ✔ Phàm Nhân Bách Thế Thư ✔ Phim Hoạt Hình Trung Quốc ✔ Hoạt Hình 3D ✔ Hoạt Hình Xuyên Không...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/e17SmHrrJ6U/hqdefault.jpg",
+      "publishedAt": "2026-11-26T09:56:49+00:00",
+      "updatedAt": "2026-11-26T09:56:49+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1:  Xuyên Không Thành Ngục Chủ, Ta Được Vạn Cổ Cường Giả Truyền Công",
+          "url": "https://www.youtube.com/watch?v=e17SmHrrJ6U",
+          "id": "e17SmHrrJ6U",
+          "duration": 32436,
+          "durationStr": "9:00:36",
+          "publishedAt": "2026-11-26T09:56:49+00:00",
+          "views": 12,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6772",
       "title": "Full Phần 1 |【Sinh Tồn Quốc Vận: Bé Gái 3 Tuổi Đứng Đầu Bảng Xếp Hạng Thì Đã Sao?!】",
@@ -3025,7 +3138,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i3.ytimg.com/vi/Byi1zs_34RY/hqdefault.jpg",
       "publishedAt": "2026-11-25T10:00:12+00:00",
       "updatedAt": "2026-11-25T10:00:12+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3063,7 +3176,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/sp3sTZrx55o/hqdefault.jpg",
       "publishedAt": "2026-11-25T10:00:06+00:00",
       "updatedAt": "2026-11-25T10:00:06+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3101,7 +3214,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i1.ytimg.com/vi/0r-tVCrm3cg/hqdefault.jpg",
       "publishedAt": "2026-11-25T09:48:12+00:00",
       "updatedAt": "2026-11-25T09:48:12+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3139,7 +3252,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i3.ytimg.com/vi/zvaBFM9PkZQ/hqdefault.jpg",
       "publishedAt": "2026-11-25T09:46:33+00:00",
       "updatedAt": "2026-11-25T09:46:33+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
