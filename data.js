@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6782,
+    "totalFilms": 6784,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T12:00:49.937116+00:00",
+    "lastUpdated": "2026-11-26T12:15:38.538494+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 636
+      "filmCount": 637
     },
     {
       "id": "naophangtutien",
@@ -188,7 +188,7 @@ window.FILMS_DATA = {
       "id": "akatsukireview",
       "name": "Akatsuki Review",
       "url": "https://www.youtube.com/@Akatsuki-KT",
-      "filmCount": 122
+      "filmCount": 123
     },
     {
       "id": "mianhstudio",
@@ -245,6 +245,43 @@ window.FILMS_DATA = {
   ],
   "films": [
     {
+      "id": "film_6786",
+      "title": "Full SS1 | Hoa Khôi Chân Dài Lại Chủ Động Thích Một Kẻ Nhạt Nhẽo Như Tôi | Akatsuki Review",
+      "channelId": "akatsukireview",
+      "channelName": "Akatsuki Review",
+      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7642,
+      "totalDurationStr": "2 giờ 07 phút",
+      "totalViews": 8,
+      "totalLikes": 2,
+      "review": "Chúc mọi người có những phút giây xem phim vui vẻ, nhớ để lại bình luận và cho mình một like + subcribe nhé Mọi Người Ủng Hộ Mình 1 Ly Cafe☕ Để Mình Có Động Lực Làm Video Với Nha🥰🥰🥰 VCB:1026377599",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/bHem-yEWwhI/hqdefault.jpg",
+      "publishedAt": "2026-11-26T12:11:36+00:00",
+      "updatedAt": "2026-11-26T12:11:36+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "Full SS1 | Hoa Khôi Chân Dài Lại Chủ Động Thích Một Kẻ Nhạt Nhẽo Như Tôi | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=bHem-yEWwhI",
+          "id": "bHem-yEWwhI",
+          "duration": 7642,
+          "durationStr": "2:07:22",
+          "publishedAt": "2026-11-26T12:11:36+00:00",
+          "views": 8,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_6784",
       "title": "Mạt Thế Thức Tỉnh Hệ Thống Nấu Ăn Cấp C Tôi Biến Zombie Vương SSS Thành Nhân Viên | Đậu Đậu Vietsub",
       "channelId": "daudauvietsub",
@@ -253,8 +290,8 @@ window.FILMS_DATA = {
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 4166,
+      "totalDurationStr": "1 giờ 09 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Mạt Thế Thức Tỉnh Hệ Thống Nấu Ăn Cấp C Tôi Biến Zombie Vương SSS Thành Nhân Viên | Đậu Đậu Vietsub 📋 TÓM TẮT : Trần Vũ thức tỉnh hệ thống nấu ăn cấp C, mở nhà hàng giữa mạt thế, thu phục Zombie Vương SSS và dùng mỹ thực thanh lọc virus tận thế. 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do...",
@@ -273,8 +310,8 @@ window.FILMS_DATA = {
           "title": "Mạt Thế Thức Tỉnh Hệ Thống Nấu Ăn Cấp C Tôi Biến Zombie Vương SSS Thành Nhân Viên | Đậu Đậu Vietsub",
           "url": "https://www.youtube.com/watch?v=4KdB5V8WFgs",
           "id": "4KdB5V8WFgs",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 4166,
+          "durationStr": "1:09:26",
           "publishedAt": "2026-11-26T12:00:32+00:00",
           "views": 0,
           "likes": 0,
@@ -353,6 +390,44 @@ window.FILMS_DATA = {
       "isRecent24h": true,
       "channelIds": [
         "thienphatreview"
+      ]
+    },
+    {
+      "id": "film_6785",
+      "title": "6 GIỜ 30 THỎA MÃN | Toàn Dân Leo Tháp: Thức Tỉnh Thiên Phú Cấp X, Phú Năng Vạn Vật Thành Thần Khí!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 23804,
+      "totalDurationStr": "6 giờ 36 phút",
+      "totalViews": 257,
+      "totalLikes": 14,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: Trong thế giới phế thổ nơi toàn dân bị ép leo tháp sinh tồn, mỗi tầng đều đầy rẫy tang thi, quái vật và những thử thách chết người. Khi người khác phải chật vật giành giật từng cơ hội sống sót, nam chính lại thức tỉnh thiên phú cấp X – Biến Phế Thành Bảo, có thể phú năng vạn vật,...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/QJybmzHAywI/hqdefault.jpg",
+      "publishedAt": "2026-11-26T12:00:11+00:00",
+      "updatedAt": "2026-11-26T12:00:11+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "6 GIỜ 30 THỎA MÃN | Toàn Dân Leo Tháp: Thức Tỉnh Thiên Phú Cấp X, Phú Năng Vạn Vật Thành Thần Khí!",
+          "url": "https://www.youtube.com/watch?v=QJybmzHAywI",
+          "id": "QJybmzHAywI",
+          "duration": 23804,
+          "durationStr": "6:36:44",
+          "publishedAt": "2026-11-26T12:00:11+00:00",
+          "views": 257,
+          "likes": 14,
+          "isRedundant": false
+        }
       ]
     },
     {
