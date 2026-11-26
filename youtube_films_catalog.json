@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6787,
+    "totalFilms": 6788,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T13:30:36.640110+00:00",
+    "lastUpdated": "2026-11-26T13:45:31.880100+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -74,7 +74,7 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 330
+      "filmCount": 331
     },
     {
       "id": "gianhireview",
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6790",
+      "title": "Trọng Sinh Về Thập Niên 80, Bà Lão 90 Tuổi Nhờ Thùng Rác Thần Kỳ Giúp Cả Nhà Nghịch Thiên Đổi Mệnh!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 14707,
+      "totalDurationStr": "4 giờ 05 phút",
+      "totalViews": 4,
+      "totalLikes": 0,
+      "review": "Trọng Sinh Về Thập Niên 80, Bà Lão 90 Tuổi Nhờ Thùng Rác Thần Kỳ Giúp Cả Nhà Nghịch Thiên Đổi Mệnh!",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/TTmg0rHMMYo/hqdefault.jpg",
+      "publishedAt": "2026-11-26T13:39:00+00:00",
+      "updatedAt": "2026-11-26T13:39:00+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trọng Sinh Về Thập Niên 80, Bà Lão 90 Tuổi Nhờ Thùng Rác Thần Kỳ Giúp Cả Nhà Nghịch Thiên Đổi Mệnh!",
+          "url": "https://www.youtube.com/watch?v=TTmg0rHMMYo",
+          "id": "TTmg0rHMMYo",
+          "duration": 14707,
+          "durationStr": "4:05:07",
+          "publishedAt": "2026-11-26T13:39:00+00:00",
+          "views": 4,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6789",
       "title": "15 GIỜ  30 THỎA MÃN | Trọng Sinh Thành Gã Béo 150KG, Ta Thức Tỉnh Hệ Thống Nam Thần Lột Xác!",
@@ -3159,7 +3197,7 @@
       "thumbnail": "https://i4.ytimg.com/vi/cN_Y7TW3PSo/hqdefault.jpg",
       "publishedAt": "2026-11-25T13:33:59+00:00",
       "updatedAt": "2026-11-25T13:33:59+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3197,7 +3235,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/bd6z8XtBQkU/hqdefault.jpg",
       "publishedAt": "2026-11-25T13:31:34+00:00",
       "updatedAt": "2026-11-25T13:31:34+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
