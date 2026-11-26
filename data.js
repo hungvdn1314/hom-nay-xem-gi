@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T17:30:52.016332+00:00",
+    "lastUpdated": "2026-11-26T17:45:34.821196+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
