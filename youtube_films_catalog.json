@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6745,
+    "totalFilms": 6746,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T02:40:14.901163+00:00",
+    "lastUpdated": "2026-11-26T02:45:34.342807+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -74,7 +74,7 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 328
+      "filmCount": 329
     },
     {
       "id": "gianhireview",
@@ -244,6 +244,43 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6748",
+      "title": "Bị Coi Là Tên Con Rể Vô Dụng, Nào Ngờ Thân Phận Rồng Thiêng Khiến Cả Nhà Chấn Động!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 30764,
+      "totalDurationStr": "8 giờ 32 phút",
+      "totalViews": 19,
+      "totalLikes": 1,
+      "review": "Bị Coi Là Tên Con Rể Vô Dụng, Nào Ngờ Thân Phận Rồng Thiêng Khiến Cả Nhà Chấn Động!",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/9THSMjTHhvU/hqdefault.jpg",
+      "publishedAt": "2026-11-26T02:33:18+00:00",
+      "updatedAt": "2026-11-26T02:33:18+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Bị Coi Là Tên Con Rể Vô Dụng, Nào Ngờ Thân Phận Rồng Thiêng Khiến Cả Nhà Chấn Động!",
+          "url": "https://www.youtube.com/watch?v=9THSMjTHhvU",
+          "id": "9THSMjTHhvU",
+          "duration": 30764,
+          "durationStr": "8:32:44",
+          "publishedAt": "2026-11-26T02:33:18+00:00",
+          "views": 19,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6747",
       "title": "【Mùa 1 | Lãnh Chúa: Chỉ Mình Ta Có Thể Nâng Cấp Thiên Phú Nghề Nghiệp!】",
