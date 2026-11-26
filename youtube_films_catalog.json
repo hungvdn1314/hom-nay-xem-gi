@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6765,
+    "totalFilms": 6768,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T08:45:44.771722+00:00",
+    "lastUpdated": "2026-11-26T09:00:43.622832+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -124,13 +124,13 @@
       "id": "huyensutieumuoi",
       "name": "Huyền Sư Tiểu Muội",
       "url": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
-      "filmCount": 48
+      "filmCount": 49
     },
     {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 633
+      "filmCount": 634
     },
     {
       "id": "naophangtutien",
@@ -202,7 +202,7 @@
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 309,
+      "filmCount": 310,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,119 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6770",
+      "title": "S1 | Tích Trữ Vật Tư Ngày Tận Thế: Tôi Trở Thành Phú Bà Nhờ Tích Trữ Trong Trò Chơi Thiên Tai",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11800,
+      "totalDurationStr": "3 giờ 16 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "S1 | Tích Trữ Vật Tư Ngày Tận Thế: Tôi Trở Thành Phú Bà Nhờ Tích Trữ Trong Trò Chơi Thiên Tai | Trùm Phim Sinh Tồn New Nữ sinh viên Tô Vân được chọn tham gia đợt thử nghiệm nội bộ của trò chơi thiên tai và bốc trúng một không gian lưu trữ có sức chứa tương đương cả một nhà kho. Thay vì vội vàng tìm cách chạy trốn, cô thu 200 tấn rau củ vào không gian,...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/sEX7-aw43Xk/hqdefault.jpg",
+      "publishedAt": "2026-11-26T09:00:19+00:00",
+      "updatedAt": "2026-11-26T09:00:19+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S1 | Tích Trữ Vật Tư Ngày Tận Thế: Tôi Trở Thành Phú Bà Nhờ Tích Trữ Trong Trò Chơi Thiên Tai",
+          "url": "https://www.youtube.com/watch?v=sEX7-aw43Xk",
+          "id": "sEX7-aw43Xk",
+          "duration": 11800,
+          "durationStr": "3:16:40",
+          "publishedAt": "2026-11-26T09:00:19+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6769",
+      "title": "16 GIỜ 20 THỎA MÃN | Phàm Nhân Tu Tiên: Nhặt Hồ Lô Thần Bí, Trồng Linh Dược Đột Phá Trúc Cơ!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 58927,
+      "totalDurationStr": "16 giờ 22 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **PHÀM NHÂN TU TIÊN – NHẶT ĐƯỢC HỒ LÔ THẦN BÍ, TRỒNG CẢ NÚI LINH DƯỢC ĐỂ TU TIÊN! | 16H22** ⚔️ **Trương Nhị Cẩu** là một thiếu niên mồ côi nghèo khổ, bị thím bóc lột, thậm chí phải ăn cám lợn để sống qua ngày. Một lần tình cờ, hắn nhặt được chiếc **hồ lô vàng thần bí** dưới sông,...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/6l-sTqUKQzY/hqdefault.jpg",
+      "publishedAt": "2026-11-26T09:00:10+00:00",
+      "updatedAt": "2026-11-26T09:00:10+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "16 GIỜ 20 THỎA MÃN | Phàm Nhân Tu Tiên: Nhặt Hồ Lô Thần Bí, Trồng Linh Dược Đột Phá Trúc Cơ!",
+          "url": "https://www.youtube.com/watch?v=6l-sTqUKQzY",
+          "id": "6l-sTqUKQzY",
+          "duration": 58927,
+          "durationStr": "16:22:07",
+          "publishedAt": "2026-11-26T09:00:10+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6768",
+      "title": "Full P2 01~175 |  Vô Tình Dung Hợp Trái Tim Tà Thần, Nữ Giảng Viên Quèn Khiến Cả Thành Quỳ Lạy",
+      "channelId": "huyensutieumuoi",
+      "channelName": "Huyền Sư Tiểu Muội",
+      "channelUrl": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9060,
+      "totalDurationStr": "2 giờ 31 phút",
+      "totalViews": 5,
+      "totalLikes": 1,
+      "review": "Bị khinh là cô gái mồ côi ngoại thành hạ đẳng, Bạch Phi Phi dung hợp Trái Tim Tà Thần và được cao thủ Từ Mặc điều khiển từ xa. Mượn danh thế lực bí ẩn, cô tiến vào nội thành, vả mặt đại gia tộc, vạch trần thuốc dị biến và chấn động thành Thự Quang. 🔔 Nhấn chuông thông báo để không bỏ lỡ các tập phim kỳ ảo, tu chân và đô thị dị năng mới nhất mỗi ngày. ❖...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/BUVceUPtFlA/hqdefault.jpg",
+      "publishedAt": "2026-11-26T08:52:27+00:00",
+      "updatedAt": "2026-11-26T08:52:27+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Full P2 01~175 |  Vô Tình Dung Hợp Trái Tim Tà Thần, Nữ Giảng Viên Quèn Khiến Cả Thành Quỳ Lạy",
+          "url": "https://www.youtube.com/watch?v=BUVceUPtFlA",
+          "id": "BUVceUPtFlA",
+          "duration": 9060,
+          "durationStr": "2:31:00",
+          "publishedAt": "2026-11-26T08:52:27+00:00",
+          "views": 5,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6711",
       "title": "[Full] Ly Hôn Mơ Ôm 30 Triệu Ai Ngờ Vợ Tổng Băng Giá Lại Nghe Được Tiếng Lòng Của Tôi! | MyCherrySub",
@@ -3115,7 +3228,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YR0I5cQjWpk/hqdefault.jpg",
       "publishedAt": "2026-11-02T00:00:00+00:00",
       "updatedAt": "2026-11-25T09:00:30+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
