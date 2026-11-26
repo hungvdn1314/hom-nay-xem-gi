@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6776,
+    "totalFilms": 6777,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T11:00:47.035591+00:00",
+    "lastUpdated": "2026-11-26T11:15:43.199351+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -106,7 +106,7 @@
       "id": "tieumuoingontinh",
       "name": "Tiểu Muội Ngôn Tình",
       "url": "https://www.youtube.com/@TieuMuoiNgonTinh",
-      "filmCount": 78
+      "filmCount": 79
     },
     {
       "id": "cibiisub",
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6779",
+      "title": "Full Tập 01~149 | Cùng Bố Già Thức Tỉnh Hệ Thống Mà Bị Cài Ngược, Con Nhận 1 Tệ Bố Nhận Vạn Người Mê",
+      "channelId": "tieumuoingontinh",
+      "channelName": "Tiểu Muội Ngôn Tình",
+      "channelUrl": "https://www.youtube.com/@TieuMuoiNgonTinh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Gia tộc phá sản, nữ phụ Tô Vãn Vãn và bố già 60 tuổi Tô Kiến Quốc thức tỉnh hệ thống nhưng bị cài ngược. Vãn Vãn dùng 1 tệ gây dựng đế chế giải trí, còn ông bố mít ướt đóng vai cao nhân, khiến tổng tài lạnh lùng Cố Ngạn Thần mê mẩn xin làm rể. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt Nhật, Phim Ngôn Tình...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/lw4qMP_NJYw/hqdefault.jpg",
+      "publishedAt": "2026-11-26T11:15:28+00:00",
+      "updatedAt": "2026-11-26T11:15:28+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1",
+          "title": "Full Tập 01~149 | Cùng Bố Già Thức Tỉnh Hệ Thống Mà Bị Cài Ngược, Con Nhận 1 Tệ Bố Nhận Vạn Người Mê",
+          "url": "https://www.youtube.com/watch?v=lw4qMP_NJYw",
+          "id": "lw4qMP_NJYw",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-26T11:15:28+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6778",
       "title": "S1 | Làm Gì Có Phó Bản Như Thế Này - Trò Chơi Kinh Dị Quyết Định Quốc Vận | Trùm Phim Sinh Tồn New",
