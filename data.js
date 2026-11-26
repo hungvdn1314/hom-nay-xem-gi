@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6788,
+    "totalFilms": 6789,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T14:00:49.318323+00:00",
+    "lastUpdated": "2026-11-26T14:15:47.506100+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 35,
+      "filmCount": 36,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6791",
+      "title": "Full Phần 1 |【Sinh Tồn Trong Ký Túc Xá Quỷ Dị: Tôi Thức Tỉnh Hệ Thống Điểm Danh Mỗi Ngày!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11884,
+      "totalDurationStr": "3 giờ 18 phút",
+      "totalViews": 4,
+      "totalLikes": 0,
+      "review": "🎬 【Sinh Tồn Trong Ký Túc Xá Quỷ Dị: Tôi Thức Tỉnh Hệ Thống Điểm Danh Mỗi Ngày!】 👻🏚️ Khi ký túc xá quen thuộc bất ngờ trở thành nơi sinh tồn đầy rẫy hiện tượng quỷ dị, nhân vật chính buộc phải đối mặt với những hiểm nguy khó lường! Trong khi mọi người đang tìm cách bảo vệ bản thân và kiếm vật tư sinh tồn, anh lại may mắn thức tỉnh Hệ Thống Điểm Danh Mỗi...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/abE_IUf57u0/hqdefault.jpg",
+      "publishedAt": "2026-11-26T14:09:33+00:00",
+      "updatedAt": "2026-11-26T14:09:33+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Sinh Tồn Trong Ký Túc Xá Quỷ Dị: Tôi Thức Tỉnh Hệ Thống Điểm Danh Mỗi Ngày!】",
+          "url": "https://www.youtube.com/watch?v=abE_IUf57u0",
+          "id": "abE_IUf57u0",
+          "duration": 11884,
+          "durationStr": "3:18:04",
+          "publishedAt": "2026-11-26T14:09:33+00:00",
+          "views": 4,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6790",
       "title": "Trọng Sinh Về Thập Niên 80, Bà Lão 90 Tuổi Nhờ Thùng Rác Thần Kỳ Giúp Cả Nhà Nghịch Thiên Đổi Mệnh!",
