@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6739,
+    "totalFilms": 6742,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T00:45:30.208609+00:00",
+    "lastUpdated": "2026-11-26T01:00:55.039540+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -106,7 +106,7 @@
       "id": "tieumuoingontinh",
       "name": "Tiểu Muội Ngôn Tình",
       "url": "https://www.youtube.com/@TieuMuoiNgonTinh",
-      "filmCount": 77
+      "filmCount": 78
     },
     {
       "id": "cibiisub",
@@ -194,7 +194,7 @@
       "id": "mianhstudio",
       "name": "Mị Ảnh Studio",
       "url": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
-      "filmCount": 33,
+      "filmCount": 34,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -202,7 +202,7 @@
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 305,
+      "filmCount": 306,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,119 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6744",
+      "title": "S1 | Xe Buýt Sinh Tồn: Kế Hoạch Bồi Dưỡng Toàn Bộ Thành Viên Lên Cấp S | Trùm Phim Sinh Tồn New",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10154,
+      "totalDurationStr": "2 giờ 49 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "S1 | Xe Buýt Sinh Tồn: Kế Hoạch Bồi Dưỡng Toàn Bộ Thành Viên Lên Cấp S | Trùm Phim Sinh Tồn New Lâm Uyên cùng 30 nữ bạn học bị cuốn vào trò chơi sinh tồn trên xe buýt dành cho toàn dân. Anh thức tỉnh thiên phú thần cấp Hồng Nhan Tri Kỷ, cho phép nâng cao thiên phú của đồng đội khác giới vô điều kiện và rút thưởng. Từ dị năng hệ bóng tối, trợ lý trí tuệ...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/hhdmJtQcgXk/hqdefault.jpg",
+      "publishedAt": "2026-11-26T01:00:20+00:00",
+      "updatedAt": "2026-11-26T01:00:20+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S1 | Xe Buýt Sinh Tồn: Kế Hoạch Bồi Dưỡng Toàn Bộ Thành Viên Lên Cấp S | Trùm Phim Sinh Tồn New",
+          "url": "https://www.youtube.com/watch?v=hhdmJtQcgXk",
+          "id": "hhdmJtQcgXk",
+          "duration": 10154,
+          "durationStr": "2:49:14",
+          "publishedAt": "2026-11-26T01:00:20+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6742",
+      "title": "Full Tập 01~218 | Chiến Binh Mạt Thế Xuyên Ko Vào Truyện, Nặn Phân Thân Thao Túng Chính Tà",
+      "channelId": "tieumuoingontinh",
+      "channelName": "Tiểu Muội Ngôn Tình",
+      "channelUrl": "https://www.youtube.com/@TieuMuoiNgonTinh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11868,
+      "totalDurationStr": "3 giờ 17 phút",
+      "totalViews": 19,
+      "totalLikes": 1,
+      "review": "Sống sót mười năm ở mạt thế, Đào Diệp xuyên vào thế giới truyện tranh ngay lúc bị kẻ thù vùi dập. Thay vì làm đồng đội chính nghĩa, cô gia nhập phản diện, dùng điểm nhân khí nặn nhiều phân thân thâm nhập cả hắc bạch đạo, thao túng nam chính lẫn toàn cục. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt Nhật,...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/HTE5Jwb0ego/hqdefault.jpg",
+      "publishedAt": "2026-11-26T00:52:38+00:00",
+      "updatedAt": "2026-11-26T00:52:38+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1",
+          "title": "Full Tập 01~218 | Chiến Binh Mạt Thế Xuyên Ko Vào Truyện, Nặn Phân Thân Thao Túng Chính Tà",
+          "url": "https://www.youtube.com/watch?v=HTE5Jwb0ego",
+          "id": "HTE5Jwb0ego",
+          "duration": 11868,
+          "durationStr": "3:17:48",
+          "publishedAt": "2026-11-26T00:52:38+00:00",
+          "views": 19,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6743",
+      "title": "Full Phần 1 |【Thiên Mạc Phơi Bày Lịch Sử Đen Tối: Cổ Nhân Ngày Nào Cũng Suy Sụp Vì Bị Bóc Phốt!】",
+      "channelId": "mianhstudio",
+      "channelName": "Mị Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%8B%E1%BA%A2nhStudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 32585,
+      "totalDurationStr": "9 giờ 03 phút",
+      "totalViews": 2,
+      "totalLikes": 1,
+      "review": "🎬 【Thiên Mạc Phơi Bày Lịch Sử Đen Tối: Cổ Nhân Ngày Nào Cũng Suy Sụp Vì Bị Bóc Phốt!】 📜⚡ Một Thiên Mạc thần bí bất ngờ xuất hiện, liên tục trình chiếu những góc khuất lịch sử, bí mật cung đình và những chuyện đen tối của các triều đại! Từ đế vương, danh tướng đến văn thần, những nhân vật nổi tiếng trong lịch sử lần lượt trở thành tâm điểm bị bóc phốt....",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/4Es8Ki1HduA/hqdefault.jpg",
+      "publishedAt": "2026-11-26T00:52:34+00:00",
+      "updatedAt": "2026-11-26T00:52:34+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Thiên Mạc Phơi Bày Lịch Sử Đen Tối: Cổ Nhân Ngày Nào Cũng Suy Sụp Vì Bị Bóc Phốt!】",
+          "url": "https://www.youtube.com/watch?v=4Es8Ki1HduA",
+          "id": "4Es8Ki1HduA",
+          "duration": 32585,
+          "durationStr": "9:03:05",
+          "publishedAt": "2026-11-26T00:52:34+00:00",
+          "views": 2,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_858",
       "title": "Thức Tỉnh Hệ Thống Nâng Cấp Siêu Phàm, Biến Chiếc Xe Tàn Thành Chiến Xe Bất Bại",
@@ -3565,7 +3678,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/2m9TPl311q8/hqdefault.jpg",
       "publishedAt": "2026-11-25T00:59:33+00:00",
       "updatedAt": "2026-11-25T00:59:33+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
