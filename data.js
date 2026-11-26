@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6749,
+    "totalFilms": 6750,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T03:00:50.553808+00:00",
+    "lastUpdated": "2026-11-26T03:15:36.465472+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 627
+      "filmCount": 628
     },
     {
       "id": "naophangtutien",
@@ -253,8 +253,8 @@ window.FILMS_DATA = {
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 33990,
+      "totalDurationStr": "9 giờ 26 phút",
       "totalViews": 1,
       "totalLikes": 0,
       "review": "📽Phim: [Full] Xuống Núi Lỡ Hắt Coca Lên Đùi Nữ Tổng Tài Tôi Liền Bị Bắt Làm Bảo Vệ Để Trả Nợ! | MyCherrySub Tóm tắt: Nam chính Bàng Thiên Xung là thiên tài võ học hiếm có suốt ba trăm năm, sau mười chín năm khổ luyện trên núi Côn Lôn và bốn năm chinh chiến tại thế giới phương Tây, cảnh giới của anh lại bị chững lại suốt ba năm không thể đột phá. Nghe...",
@@ -273,8 +273,8 @@ window.FILMS_DATA = {
           "title": "[Full] Xuống Núi Lỡ Hắt Coca Lên Đùi Nữ Tổng Tài Tôi Liền Bị Bắt Làm Bảo Vệ Để Trả Nợ! | MyCherrySub",
           "url": "https://www.youtube.com/watch?v=HijEM-fKYIw",
           "id": "HijEM-fKYIw",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 33990,
+          "durationStr": "9:26:30",
           "publishedAt": "2026-11-26T03:00:32+00:00",
           "views": 1,
           "likes": 0,
@@ -316,6 +316,44 @@ window.FILMS_DATA = {
           "publishedAt": "2026-11-26T03:00:23+00:00",
           "views": 0,
           "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6752",
+      "title": "8 GIỜ | Đạo Mộ Xuyên Không: Chạm 3 Giây Sao Chép Huyết Mạch Kỳ Lân, Khám Phá Bí Mật Trường Sinh!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 28616,
+      "totalDurationStr": "7 giờ 56 phút",
+      "totalViews": 151,
+      "totalLikes": 7,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **XUYÊN KHÔNG ĐẠO MỘ – SAO CHÉP HUYẾT MẠCH KỲ LÂN, NGỘ TÍNH CẤP THẦN! | SS1–SS3 | 7H57** ⚔️ **Trương Thiên** bất ngờ xuyên không vào thế giới **Đạo Mộ Bút Ký** năm 1913, trở thành người nhà họ Trương và phải tham gia khảo nghiệm xuống cổ mộ. May mắn thay, hắn được ban ba năng lực...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/nsxpJ5yudMw/hqdefault.jpg",
+      "publishedAt": "2026-11-26T03:00:22+00:00",
+      "updatedAt": "2026-11-26T03:00:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "8 GIỜ | Đạo Mộ Xuyên Không: Chạm 3 Giây Sao Chép Huyết Mạch Kỳ Lân, Khám Phá Bí Mật Trường Sinh!",
+          "url": "https://www.youtube.com/watch?v=nsxpJ5yudMw",
+          "id": "nsxpJ5yudMw",
+          "duration": 28616,
+          "durationStr": "7:56:56",
+          "publishedAt": "2026-11-26T03:00:22+00:00",
+          "views": 151,
+          "likes": 7,
           "isRedundant": false
         }
       ]
