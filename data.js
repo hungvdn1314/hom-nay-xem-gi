@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6759,
+    "totalFilms": 6761,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T06:45:41.341205+00:00",
+    "lastUpdated": "2026-11-26T07:00:41.774042+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 631
+      "filmCount": 632
     },
     {
       "id": "naophangtutien",
@@ -202,7 +202,7 @@ window.FILMS_DATA = {
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 308,
+      "filmCount": 309,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,82 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6762",
+      "title": "7 GIỜ 40 | Xuyên Không Cổ Đại: Chỉ Còn 3 Tháng Sống, Ta Nhìn Thấu Nhân Quả Để Đổi Mệnh!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 27671,
+      "totalDurationStr": "7 giờ 41 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **XUYÊN KHÔNG CỔ ĐẠI – THỨC TỈNH KHẢ NĂNG NHÌN NHÂN QUẢ, BIẾT TRƯỚC TAI HỌA ĐỂ ĐỔI ĐỜI! | 7H41** ⚔️ **La Văn Kiệt** bất ngờ xuyên không về thời cổ đại, nhập vào thân xác một nha dịch bệnh nặng chỉ còn sống được ba tháng. Trớ trêu thay, hắn vừa tỉnh dậy đã được sắp xếp cưới hai...",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/3z4ggXFcwlM/hqdefault.jpg",
+      "publishedAt": "2026-11-26T07:00:12+00:00",
+      "updatedAt": "2026-11-26T07:00:12+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "7 GIỜ 40 | Xuyên Không Cổ Đại: Chỉ Còn 3 Tháng Sống, Ta Nhìn Thấu Nhân Quả Để Đổi Mệnh!",
+          "url": "https://www.youtube.com/watch?v=3z4ggXFcwlM",
+          "id": "3z4ggXFcwlM",
+          "duration": 27671,
+          "durationStr": "7:41:11",
+          "publishedAt": "2026-11-26T07:00:12+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6763",
+      "title": "S1 | Sinh Tồn Giữa Rừng Đột Biến, Thảm Họa Băng Giá Và Dị Thú Hoành Hành | Trùm Phim Sinh Tồn New",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9354,
+      "totalDurationStr": "2 giờ 35 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "S1 | Sinh Tồn Giữa Rừng Đột Biến, Thảm Họa Băng Giá Và Dị Thú Hoành Hành | Trùm Phim Sinh Tồn New Phim: Cô Gái Vị Kỷ Nơi Đất Hoang Tận Thế, Rung Động Giữa Tuyệt Cảnh Sau một giấc ngủ, Phó Uẩn bất ngờ xuyên không đến vùng đất hoang thời tận thế, nơi không gian tùy thân trở thành lợi thế sinh tồn lớn nhất của cô. Giữa những cánh rừng đột biến, thảm họa...",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/mztZeTytN_g/hqdefault.jpg",
+      "publishedAt": "2026-11-26T07:00:01+00:00",
+      "updatedAt": "2026-11-26T07:00:01+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S1 | Sinh Tồn Giữa Rừng Đột Biến, Thảm Họa Băng Giá Và Dị Thú Hoành Hành | Trùm Phim Sinh Tồn New",
+          "url": "https://www.youtube.com/watch?v=mztZeTytN_g",
+          "id": "mztZeTytN_g",
+          "duration": 9354,
+          "durationStr": "2:35:54",
+          "publishedAt": "2026-11-26T07:00:01+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_1232",
       "title": "Toàn Cầu Tử Khảo: Vừa rời pháp trường đã bắt tôi đi thi?",
