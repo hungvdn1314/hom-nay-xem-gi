@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6762,
+    "totalFilms": 6765,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T08:00:42.714949+00:00",
+    "lastUpdated": "2026-11-26T08:17:10.118929+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -80,7 +80,7 @@
       "id": "gianhireview",
       "name": "Gia Nhi Review",
       "url": "https://www.youtube.com/@GiaNhiReview",
-      "filmCount": 794
+      "filmCount": 795
     },
     {
       "id": "kasvietsub",
@@ -118,7 +118,7 @@
       "id": "nguyentuongvietsub",
       "name": "Nguyễn Tường Vietsub",
       "url": "https://www.youtube.com/@Nguyentuongvietsub",
-      "filmCount": 91
+      "filmCount": 92
     },
     {
       "id": "huyensutieumuoi",
@@ -218,7 +218,7 @@
       "id": "eggvietsub",
       "name": "Egg Vietsub",
       "url": "https://www.youtube.com/@EggVietsub",
-      "filmCount": 29
+      "filmCount": 30
     },
     {
       "id": "larasub22",
@@ -1848,8 +1848,8 @@
       "channelName": "Akatsuki Review",
       "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
       "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
+      "totalParts": 2,
+      "partsStr": "2 phần",
       "totalDurationSec": 84730,
       "totalDurationStr": "23 giờ 32 phút",
       "totalViews": 3004,
@@ -1866,6 +1866,21 @@
       "parts": [
         {
           "index": 1,
+          "label": "Mùa 4",
+          "title": "trailer SS4 | Xuyên Không Thành Thiếu Gia Phản Diện, Tôi Muốn Làm Lành Với Nữ Chính |Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=5Ib3AmMCiHE",
+          "id": "5Ib3AmMCiHE",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-24T06:26:54+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 2,
           "label": "Mùa 1-4",
           "title": "FullSS1-4END |Xuyên Không Thành Thiếu Gia Phản Diện, Tôi Muốn Làm Lành Với Nữ Chính |Akatsuki Review",
           "url": "https://www.youtube.com/watch?v=kKOHqpDker4",
@@ -1877,6 +1892,9 @@
           "likes": 200,
           "isRedundant": false
         }
+      ],
+      "channelIds": [
+        "akatsukireview"
       ]
     },
     {
@@ -3156,7 +3174,7 @@
       "thumbnail": "https://i2.ytimg.com/vi/e6VR0mMFkEA/hqdefault.jpg",
       "publishedAt": "2026-11-25T08:15:15+00:00",
       "updatedAt": "2026-11-25T08:15:15+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3194,7 +3212,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/6FMkXKmbxKI/hqdefault.jpg",
       "publishedAt": "2026-11-25T08:12:02+00:00",
       "updatedAt": "2026-11-25T08:12:02+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -10303,6 +10321,94 @@
       ],
       "channelIds": [
         "vanmonggiao"
+      ]
+    },
+    {
+      "id": "film_943",
+      "title": "Tiểu Diêm Vương Thiếu 1 Mảnh Đế Hồn Trọng Sinh Lịch Kiếp",
+      "channelId": "akatsukireview",
+      "channelIds": [
+        "akatsukireview"
+      ],
+      "channelName": "Akatsuki Review",
+      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
+      "playlistUrl": null,
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 11880,
+      "totalDurationStr": "3 giờ 18 phút",
+      "totalViews": 76500,
+      "totalLikes": 0,
+      "review": "",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/X1D5bw8_mZ4/hqdefault.jpg",
+      "publishedAt": "2026-09-29T00:00:00+00:00",
+      "updatedAt": "2026-11-23T00:37:10+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1-10",
+          "title": "Tập 1-10 | Tiểu Diêm Vương Thiếu 1 Mảnh Đế Hồn Trọng Sinh Lịch Kiếp | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=X1D5bw8_mZ4",
+          "id": "X1D5bw8_mZ4",
+          "duration": 2459,
+          "durationStr": "40:59",
+          "publishedAt": "2026-09-29T00:00:00+00:00",
+          "views": 44000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 2,
+          "label": "Tập 23-27",
+          "title": "Tập 23-27 | Tiểu Diêm Vương Thiếu 1 Mảnh Đế Hồn Trọng Sinh Lịch Kiếp | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=llQnVcUQ_Qk",
+          "id": "llQnVcUQ_Qk",
+          "duration": 1313,
+          "durationStr": "21:53",
+          "publishedAt": "2026-11-06T00:00:00+00:00",
+          "views": 9500,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 3,
+          "label": "Tập 1-32",
+          "title": "Tập 1-32 | Tiểu Diêm Vương Thiếu 1 Mảnh Đế Hồn Trọng Sinh Lịch Kiếp | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=N5CMjUqjlN4",
+          "id": "N5CMjUqjlN4",
+          "duration": 8108,
+          "durationStr": "2:15:08",
+          "publishedAt": "2026-11-08T00:00:00+00:00",
+          "views": 23000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 4,
+          "label": "Tập 38-40",
+          "title": "Tập 38-40 | Tiểu Diêm Vương Thiếu 1 Mảnh Đế Hồn Trọng Sinh Lịch Kiếp | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=aG6zZDts_ZU",
+          "id": "aG6zZDts_ZU",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-23T00:37:10+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        }
       ]
     },
     {
@@ -28706,6 +28812,93 @@
       ]
     },
     {
+      "id": "film_697",
+      "title": "Chiến Tàu Sinh Tồn, Một Mình Tôi Dẫn Dắt Dàn Mỹ Nữ Vượt Qua Ngày Tận Thế",
+      "channelId": "kasvietsub",
+      "channelName": "Kas Vietsub",
+      "channelUrl": "https://www.youtube.com/@KasVietsub",
+      "playlistUrl": null,
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 9654,
+      "totalDurationStr": "2 giờ 40 phút",
+      "totalViews": 245000,
+      "totalLikes": 0,
+      "review": "",
+      "genres": [
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/21jKvgCKRng/hqdefault.jpg",
+      "publishedAt": "2026-10-30T00:00:00+00:00",
+      "updatedAt": "2026-11-17T01:49:15+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1-14",
+          "title": "Tập 1 - 14 | Chiến Tàu Sinh Tồn, Một Mình Tôi Dẫn Dắt Dàn Mỹ Nữ Vượt Qua Ngày Tận Thế | Kas Vietsub",
+          "url": "https://www.youtube.com/watch?v=3mI8GjSnzOw",
+          "id": "3mI8GjSnzOw",
+          "duration": 1821,
+          "durationStr": "30:21",
+          "publishedAt": "2026-10-30T00:00:00+00:00",
+          "views": 97000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "kasvietsub",
+          "channelName": "Kas Vietsub"
+        },
+        {
+          "index": 2,
+          "label": "Tập 15-29",
+          "title": "Tập 15 - 29 | Chiến Tàu Sinh Tồn, Một Mình Tôi Dẫn Dắt Dàn Mỹ Nữ Vượt Qua Ngày Tận Thế | Kas Vietsub",
+          "url": "https://www.youtube.com/watch?v=21jKvgCKRng",
+          "id": "21jKvgCKRng",
+          "duration": 2141,
+          "durationStr": "35:41",
+          "publishedAt": "2026-11-05T00:00:00+00:00",
+          "views": 25000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "kasvietsub",
+          "channelName": "Kas Vietsub"
+        },
+        {
+          "index": 3,
+          "label": "Tập 1-45",
+          "title": "Tập 1 - 45 | Chiến Tàu Sinh Tồn, Một Mình Tôi Dẫn Dắt Dàn Mỹ Nữ Vượt Qua Ngày Tận Thế | Kas Vietsub",
+          "url": "https://www.youtube.com/watch?v=xyjTSQgCSwA",
+          "id": "xyjTSQgCSwA",
+          "duration": 5692,
+          "durationStr": "1:34:52",
+          "publishedAt": "2026-11-13T00:00:00+00:00",
+          "views": 123000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "kasvietsub",
+          "channelName": "Kas Vietsub"
+        },
+        {
+          "index": 4,
+          "label": "Tập 46-50",
+          "title": "Tập 46 - 50 | Chiến Tàu Sinh Tồn, Một Mình Tôi Dẫn Dắt Dàn Mỹ Nữ Vượt Qua Ngày Tận Thế | Kas Vietsub",
+          "url": "https://www.youtube.com/watch?v=YmoRvCV1orY",
+          "id": "YmoRvCV1orY",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-17T01:49:15+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "kasvietsub",
+          "channelName": "Kas Vietsub"
+        }
+      ],
+      "channelIds": [
+        "kasvietsub"
+      ]
+    },
+    {
       "id": "film_380",
       "title": "Xuyên Không Tới Thế Giới Pokemon, Ta Dùng Hệ Độc Xưng Bá Thế Giới",
       "channelId": "kasvietsub",
@@ -31451,6 +31644,44 @@
       ],
       "channelIds": [
         "zzzphim"
+      ]
+    },
+    {
+      "id": "film_6766",
+      "title": "[PHẦN 1] THỤC SƠN KIẾM THẦN  | NGƯỜI KHÁC KHỔ TU TRĂM NĂM – TA CHỈ CẦN CHÉM YÊU LÀ THÀNH KIẾM TIÊN!",
+      "channelId": "nguyentuongvietsub",
+      "channelName": "Nguyễn Tường Vietsub",
+      "channelUrl": "https://www.youtube.com/@Nguyentuongvietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "⚔️ THỤC SƠN KIẾM THẦN PHẦN 1 | NGƯỜI KHÁC KHỔ TU TRĂM NĂM – TA CHỈ CẦN CHÉM YÊU LÀ THÀNH KIẾM TIÊN! 🔥 Xuyên Không – Hệ Thống – Kiếm Tiên – Tu Tiên – Trảm Yêu Diệt Ma – Thăng Cấp Nghịch Thiên! 🌑 Ba tháng trước, Lục Thần bất ngờ xuyên không đến thế giới tu tiên, trở thành một đệ tử của Thục Sơn và thức tỉnh Hệ Thống Kiếm Tiên Trò Chơi. Trong khi người khác...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/MTgjpwCXcP4/hqdefault.jpg",
+      "publishedAt": "2026-11-16T12:30:37+00:00",
+      "updatedAt": "2026-11-16T12:30:37+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[PHẦN 1] THỤC SƠN KIẾM THẦN  | NGƯỜI KHÁC KHỔ TU TRĂM NĂM – TA CHỈ CẦN CHÉM YÊU LÀ THÀNH KIẾM TIÊN!",
+          "url": "https://www.youtube.com/watch?v=MTgjpwCXcP4",
+          "id": "MTgjpwCXcP4",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-16T12:30:37+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
       ]
     },
     {
@@ -46722,78 +46953,6 @@
       ]
     },
     {
-      "id": "film_697",
-      "title": "Chiến Tàu Sinh Tồn, Một Mình Tôi Dẫn Dắt Dàn Mỹ Nữ Vượt Qua Ngày Tận Thế",
-      "channelId": "kasvietsub",
-      "channelName": "Kas Vietsub",
-      "channelUrl": "https://www.youtube.com/@KasVietsub",
-      "playlistUrl": null,
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 9654,
-      "totalDurationStr": "2 giờ 40 phút",
-      "totalViews": 245000,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Sinh tồn / Mạt thế"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/21jKvgCKRng/hqdefault.jpg",
-      "publishedAt": "2026-10-30T00:00:00+00:00",
-      "updatedAt": "2026-11-13T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Tập 1-14",
-          "title": "Tập 1 - 14 | Chiến Tàu Sinh Tồn, Một Mình Tôi Dẫn Dắt Dàn Mỹ Nữ Vượt Qua Ngày Tận Thế | Kas Vietsub",
-          "url": "https://www.youtube.com/watch?v=3mI8GjSnzOw",
-          "id": "3mI8GjSnzOw",
-          "duration": 1821,
-          "durationStr": "30:21",
-          "publishedAt": "2026-10-30T00:00:00+00:00",
-          "views": 97000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "kasvietsub",
-          "channelName": "Kas Vietsub"
-        },
-        {
-          "index": 2,
-          "label": "Tập 15-29",
-          "title": "Tập 15 - 29 | Chiến Tàu Sinh Tồn, Một Mình Tôi Dẫn Dắt Dàn Mỹ Nữ Vượt Qua Ngày Tận Thế | Kas Vietsub",
-          "url": "https://www.youtube.com/watch?v=21jKvgCKRng",
-          "id": "21jKvgCKRng",
-          "duration": 2141,
-          "durationStr": "35:41",
-          "publishedAt": "2026-11-05T00:00:00+00:00",
-          "views": 25000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "kasvietsub",
-          "channelName": "Kas Vietsub"
-        },
-        {
-          "index": 3,
-          "label": "Tập 1-45",
-          "title": "Tập 1 - 45 | Chiến Tàu Sinh Tồn, Một Mình Tôi Dẫn Dắt Dàn Mỹ Nữ Vượt Qua Ngày Tận Thế | Kas Vietsub",
-          "url": "https://www.youtube.com/watch?v=xyjTSQgCSwA",
-          "id": "xyjTSQgCSwA",
-          "duration": 5692,
-          "durationStr": "1:34:52",
-          "publishedAt": "2026-11-13T00:00:00+00:00",
-          "views": 123000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "kasvietsub",
-          "channelName": "Kas Vietsub"
-        }
-      ],
-      "channelIds": [
-        "kasvietsub"
-      ]
-    },
-    {
       "id": "film_700",
       "title": "Đoàn Tàu Tận Thế, Ta Là Chủ Tàu, Hành Khách Càng Đông Ta Càng Mạnh",
       "channelId": "kasvietsub",
@@ -61428,79 +61587,6 @@
       ]
     },
     {
-      "id": "film_943",
-      "title": "Tiểu Diêm Vương Thiếu 1 Mảnh Đế Hồn Trọng Sinh Lịch Kiếp",
-      "channelId": "akatsukireview",
-      "channelIds": [
-        "akatsukireview"
-      ],
-      "channelName": "Akatsuki Review",
-      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
-      "playlistUrl": null,
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 11880,
-      "totalDurationStr": "3 giờ 18 phút",
-      "totalViews": 76500,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Đô thị / Ngôn tình",
-        "Xuyên không / Trọng sinh"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/X1D5bw8_mZ4/hqdefault.jpg",
-      "publishedAt": "2026-09-29T00:00:00+00:00",
-      "updatedAt": "2026-11-08T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Tập 1-10",
-          "title": "Tập 1-10 | Tiểu Diêm Vương Thiếu 1 Mảnh Đế Hồn Trọng Sinh Lịch Kiếp | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=X1D5bw8_mZ4",
-          "id": "X1D5bw8_mZ4",
-          "duration": 2459,
-          "durationStr": "40:59",
-          "publishedAt": "2026-09-29T00:00:00+00:00",
-          "views": 44000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        },
-        {
-          "index": 2,
-          "label": "Tập 23-27",
-          "title": "Tập 23-27 | Tiểu Diêm Vương Thiếu 1 Mảnh Đế Hồn Trọng Sinh Lịch Kiếp | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=llQnVcUQ_Qk",
-          "id": "llQnVcUQ_Qk",
-          "duration": 1313,
-          "durationStr": "21:53",
-          "publishedAt": "2026-11-06T00:00:00+00:00",
-          "views": 9500,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        },
-        {
-          "index": 3,
-          "label": "Tập 1-32",
-          "title": "Tập 1-32 | Tiểu Diêm Vương Thiếu 1 Mảnh Đế Hồn Trọng Sinh Lịch Kiếp | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=N5CMjUqjlN4",
-          "id": "N5CMjUqjlN4",
-          "duration": 8108,
-          "durationStr": "2:15:08",
-          "publishedAt": "2026-11-08T00:00:00+00:00",
-          "views": 23000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        }
-      ]
-    },
-    {
       "id": "film_945",
       "title": "Sau Khi Nghe Được Tiếng Lòng Thanh Mai, Hình Tượng Cô Ấy Sụp Đổ",
       "channelId": "akatsukireview",
@@ -75003,6 +75089,44 @@
       "isRecent24h": false,
       "channelIds": [
         "tieusumuoi"
+      ]
+    },
+    {
+      "id": "film_6767",
+      "title": "Trailer Xuyên Sách Thành Tên Thiếu Gia Phản Diện Phần 3",
+      "channelId": "eggvietsub",
+      "channelName": "Egg Vietsub",
+      "channelUrl": "https://www.youtube.com/@EggVietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Đăng ký ủng hộ Egg Vietsub nhé !!!",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/A9ko3We0hHI/hqdefault.jpg",
+      "publishedAt": "2026-11-04T17:00:12+00:00",
+      "updatedAt": "2026-11-04T17:00:12+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 3",
+          "title": "Trailer Xuyên Sách Thành Tên Thiếu Gia Phản Diện Phần 3",
+          "url": "https://www.youtube.com/watch?v=A9ko3We0hHI",
+          "id": "A9ko3We0hHI",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-04T17:00:12+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
       ]
     },
     {
@@ -216916,8 +217040,8 @@
       "channelName": "Phim Zoo AI",
       "channelUrl": "https://www.youtube.com/@PhimZooAI",
       "playlistUrl": null,
-      "totalParts": 3,
-      "partsStr": "3 phần",
+      "totalParts": 5,
+      "partsStr": "5 phần",
       "totalDurationSec": 20084,
       "totalDurationStr": "5 giờ 34 phút",
       "totalViews": 1084000,
@@ -216948,6 +217072,36 @@
         },
         {
           "index": 2,
+          "label": "Tập 38-42",
+          "title": "Mạt thế Kỷ Băng Hà tập 38-42 | Phim kinh dị | Zoo AI phim",
+          "url": "https://www.youtube.com/watch?v=WMflJ636ec0",
+          "id": "WMflJ636ec0",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-06-21T13:00:25+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "phimzooai",
+          "channelName": "Phim Zoo AI"
+        },
+        {
+          "index": 3,
+          "label": "Tập 43-47",
+          "title": "Mạt thế Kỷ Băng Hà tập 43-47 | Phim kinh dị | Zoo AI phim",
+          "url": "https://www.youtube.com/watch?v=zkwJoyWDiis",
+          "id": "zkwJoyWDiis",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-06-27T13:00:38+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "phimzooai",
+          "channelName": "Phim Zoo AI"
+        },
+        {
+          "index": 4,
           "label": "Tập 1-56",
           "title": "Mạt thế Kỷ Băng Hà tập 1-56 (FULL Phần 1) | Phim kinh dị | Zoo AI phim",
           "url": "https://www.youtube.com/watch?v=MsdneL68kU0",
@@ -216962,7 +217116,7 @@
           "channelName": "Phim Zoo AI"
         },
         {
-          "index": 3,
+          "index": 5,
           "label": "Tập 48-56",
           "title": "Mạt thế Kỷ Băng Hà tập 48-56 | Phim kinh dị | Zoo AI phim",
           "url": "https://www.youtube.com/watch?v=oj3nL2jJrd4",
@@ -238071,6 +238225,43 @@
       "isRecent24h": false,
       "channelIds": [
         "melacreview"
+      ]
+    },
+    {
+      "id": "film_6765",
+      "title": "Có Lẽ đây là cảnh hài nhất trong Kungfu pan da #phimhay #hoathinh3d #shorts",
+      "channelId": "gianhireview",
+      "channelName": "Gia Nhi Review",
+      "channelUrl": "https://www.youtube.com/@GiaNhiReview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Review chi tiết các bộ phim hot nhất, thuyết minh phim 3D full, recap phim hoạt hình Thuyết minh phim 3D Trung Quốc hay nhất, review nhanh, thuyết minh hấp dẫn Phân tích nhân vật, tình tiết và ý nghĩa sâu sắc của phim phim hot mỗi ngày Kênh tập trung vào các thể loại: Hoạt hình 3D hành động, phiêu lưu Phim hoạt hình viễn tưởng, giả tưởng Anime 3D và phim...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/uuQ_d-QOYF4/hqdefault.jpg",
+      "publishedAt": "2026-05-14T08:53:31+00:00",
+      "updatedAt": "2026-05-14T08:53:31+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Có Lẽ đây là cảnh hài nhất trong Kungfu pan da #phimhay #hoathinh3d #shorts",
+          "url": "https://www.youtube.com/watch?v=uuQ_d-QOYF4",
+          "id": "uuQ_d-QOYF4",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-05-14T08:53:31+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
       ]
     },
     {
