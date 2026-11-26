@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6777,
+    "totalFilms": 6779,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T11:15:43.199351+00:00",
+    "lastUpdated": "2026-11-26T11:30:54.575703+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -124,7 +124,7 @@ window.FILMS_DATA = {
       "id": "huyensutieumuoi",
       "name": "Huyền Sư Tiểu Muội",
       "url": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
-      "filmCount": 49
+      "filmCount": 50
     },
     {
       "id": "2ksub",
@@ -230,7 +230,7 @@ window.FILMS_DATA = {
       "id": "mycherrysub2",
       "name": "Bản Tin Cherry",
       "url": "https://www.youtube.com/@MyCherrySub2",
-      "filmCount": 167,
+      "filmCount": 168,
       "groupId": "group_mycherrysub",
       "groupName": "Hệ Thống MyCherrySub"
     },
@@ -245,6 +245,82 @@ window.FILMS_DATA = {
   ],
   "films": [
     {
+      "id": "film_6780",
+      "title": "Full Bộ 01~100 | Xuyên Không Thức Tỉnh Hợp Thể, Mang Quyền Năng Về Thanh Trừng Thế Giới Thực",
+      "channelId": "huyensutieumuoi",
+      "channelName": "Huyền Sư Tiểu Muội",
+      "channelUrl": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Xuyên không thành nghi phạm bị truy nã, luật sư Tống Uyên bước qua cánh cửa đen vào các phó bản quy tắc quái đàm sinh tử. Anh hợp thể cùng nhân cách thứ hai tà mị, lật tẩy oan khuất đẫm máu và mang quyền năng quỷ dị trở về thanh trừng thế giới thực. 🔔 Nhấn chuông thông báo để không bỏ lỡ các tập phim kỳ ảo, tu chân và đô thị dị năng mới nhất mỗi ngày. ❖...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/or8EJ21RQyQ/hqdefault.jpg",
+      "publishedAt": "2026-11-26T11:30:39+00:00",
+      "updatedAt": "2026-11-26T11:30:39+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Bộ 01~100 | Xuyên Không Thức Tỉnh Hợp Thể, Mang Quyền Năng Về Thanh Trừng Thế Giới Thực",
+          "url": "https://www.youtube.com/watch?v=or8EJ21RQyQ",
+          "id": "or8EJ21RQyQ",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-26T11:30:39+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6781",
+      "title": "[Full] Trở Về Hào Môn Bị Cả Nhà Khinh Thường Quê Mùa Nhưng Tôi Chỉ Muốn Yên Tĩnh Để Học| MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6268,
+      "totalDurationStr": "1 giờ 44 phút",
+      "totalViews": 44,
+      "totalLikes": 3,
+      "review": "📽Phim: [Full] Trở Về Hào Môn Bị Cả Nhà Khinh Thường Quê Mùa Nhưng Tôi Chỉ Muốn Yên Tĩnh Để Học! | MyCherrySub Tóm tắt: Nam chính Lâm Chu bị bọn bun người bắt cốc suốt 17 năm bất ngờ được đón về hào môn trăm tỷ nhà họ Lâm nhờ một tờ giấy giám định huyết thống. Đón chờ cậu ở căn biệt thự xa hoa không phải là tình thân ấm áp, mà là ánh mắt xa lạ của bố mẹ...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/gQWvISN18E4/hqdefault.jpg",
+      "publishedAt": "2026-11-26T11:21:03+00:00",
+      "updatedAt": "2026-11-26T11:21:03+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trở Về Hào Môn Bị Cả Nhà Khinh Thường Quê Mùa Nhưng Tôi Chỉ Muốn Yên Tĩnh Để Học| MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=gQWvISN18E4",
+          "id": "gQWvISN18E4",
+          "duration": 6268,
+          "durationStr": "1:44:28",
+          "publishedAt": "2026-11-26T11:21:03+00:00",
+          "views": 44,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_6779",
       "title": "Full Tập 01~149 | Cùng Bố Già Thức Tỉnh Hệ Thống Mà Bị Cài Ngược, Con Nhận 1 Tệ Bố Nhận Vạn Người Mê",
       "channelId": "tieumuoingontinh",
@@ -253,8 +329,8 @@ window.FILMS_DATA = {
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 8979,
+      "totalDurationStr": "2 giờ 29 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Gia tộc phá sản, nữ phụ Tô Vãn Vãn và bố già 60 tuổi Tô Kiến Quốc thức tỉnh hệ thống nhưng bị cài ngược. Vãn Vãn dùng 1 tệ gây dựng đế chế giải trí, còn ông bố mít ướt đóng vai cao nhân, khiến tổng tài lạnh lùng Cố Ngạn Thần mê mẩn xin làm rể. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt Nhật, Phim Ngôn Tình...",
@@ -273,8 +349,8 @@ window.FILMS_DATA = {
           "title": "Full Tập 01~149 | Cùng Bố Già Thức Tỉnh Hệ Thống Mà Bị Cài Ngược, Con Nhận 1 Tệ Bố Nhận Vạn Người Mê",
           "url": "https://www.youtube.com/watch?v=lw4qMP_NJYw",
           "id": "lw4qMP_NJYw",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 8979,
+          "durationStr": "2:29:39",
           "publishedAt": "2026-11-26T11:15:28+00:00",
           "views": 0,
           "likes": 0,
