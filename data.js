@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6768,
+    "totalFilms": 6770,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T09:30:40.899788+00:00",
+    "lastUpdated": "2026-11-26T09:45:35.397687+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -74,7 +74,7 @@ window.FILMS_DATA = {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 329
+      "filmCount": 330
     },
     {
       "id": "gianhireview",
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 32,
+      "filmCount": 33,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,82 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6772",
+      "title": "Full Phần 1 |【Sinh Tồn Quốc Vận: Bé Gái 3 Tuổi Đứng Đầu Bảng Xếp Hạng Thì Đã Sao?!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10839,
+      "totalDurationStr": "3 giờ 00 phút",
+      "totalViews": 1,
+      "totalLikes": 0,
+      "review": "🎬 【Sinh Tồn Quốc Vận: Bé Gái 3 Tuổi Đứng Đầu Bảng Xếp Hạng Thì Đã Sao?!】 🌍👧 Khi trò chơi Sinh Tồn Quốc Vận giáng xuống Lam Tinh, các quốc gia lần lượt lựa chọn tuyển thủ tiến vào Hoang Giới, gánh vác vận mệnh của cả đất nước! Điều khiến tất cả kinh ngạc là Long Quốc lại chọn trúng Vân Tuế Tuế, một cô bé mới 3 tuổi 2 tháng làm tuyển thủ dự bị. Trong khi...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/2iCjuPAzjFs/hqdefault.jpg",
+      "publishedAt": "2026-11-26T09:42:01+00:00",
+      "updatedAt": "2026-11-26T09:42:01+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Sinh Tồn Quốc Vận: Bé Gái 3 Tuổi Đứng Đầu Bảng Xếp Hạng Thì Đã Sao?!】",
+          "url": "https://www.youtube.com/watch?v=2iCjuPAzjFs",
+          "id": "2iCjuPAzjFs",
+          "duration": 10839,
+          "durationStr": "3:00:39",
+          "publishedAt": "2026-11-26T09:42:01+00:00",
+          "views": 1,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6771",
+      "title": "Xuyên Không Thập Niên 70, Cả Nhà Chờ Nàng Chịu Khổ, Nào Ngờ Kích Hoạt Hệ Thống Thành Vạn Phú Hộ!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 27466,
+      "totalDurationStr": "7 giờ 37 phút",
+      "totalViews": 24,
+      "totalLikes": 2,
+      "review": "Xuyên Không Thập Niên 70, Cả Nhà Chờ Nàng Chịu Khổ, Nào Ngờ Kích Hoạt Hệ Thống Thành Vạn Phú Hộ!",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/B8R5PSO6yUs/hqdefault.jpg",
+      "publishedAt": "2026-11-26T09:37:44+00:00",
+      "updatedAt": "2026-11-26T09:37:44+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Thập Niên 70, Cả Nhà Chờ Nàng Chịu Khổ, Nào Ngờ Kích Hoạt Hệ Thống Thành Vạn Phú Hộ!",
+          "url": "https://www.youtube.com/watch?v=B8R5PSO6yUs",
+          "id": "B8R5PSO6yUs",
+          "duration": 27466,
+          "durationStr": "7:37:46",
+          "publishedAt": "2026-11-26T09:37:44+00:00",
+          "views": 24,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6770",
       "title": "S1 | Tích Trữ Vật Tư Ngày Tận Thế: Tôi Trở Thành Phú Bà Nhờ Tích Trữ Trong Trò Chơi Thiên Tai",
@@ -3101,7 +3177,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i.ytimg.com/vi/EaWLWex020Y/hqdefault.jpg",
       "publishedAt": "2026-11-25T09:34:09+00:00",
       "updatedAt": "2026-11-25T09:34:09+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
