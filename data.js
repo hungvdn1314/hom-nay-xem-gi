@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6781,
+    "totalFilms": 6782,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T11:45:30.924788+00:00",
+    "lastUpdated": "2026-11-26T12:00:49.937116+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -154,7 +154,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 329
+      "filmCount": 330
     },
     {
       "id": "godsub",
@@ -244,6 +244,117 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6784",
+      "title": "Mạt Thế Thức Tỉnh Hệ Thống Nấu Ăn Cấp C Tôi Biến Zombie Vương SSS Thành Nhân Viên | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Mạt Thế Thức Tỉnh Hệ Thống Nấu Ăn Cấp C Tôi Biến Zombie Vương SSS Thành Nhân Viên | Đậu Đậu Vietsub 📋 TÓM TẮT : Trần Vũ thức tỉnh hệ thống nấu ăn cấp C, mở nhà hàng giữa mạt thế, thu phục Zombie Vương SSS và dùng mỹ thực thanh lọc virus tận thế. 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/4KdB5V8WFgs/hqdefault.jpg",
+      "publishedAt": "2026-11-26T12:00:32+00:00",
+      "updatedAt": "2026-11-26T12:00:32+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Mạt Thế Thức Tỉnh Hệ Thống Nấu Ăn Cấp C Tôi Biến Zombie Vương SSS Thành Nhân Viên | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=4KdB5V8WFgs",
+          "id": "4KdB5V8WFgs",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-26T12:00:32+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2685",
+      "title": "Sinh Tồn Mạt Thế: Xuyên Sách Thành Nữ Phụ, Thức Tỉnh Hệ Thống Giao Dịch Vạn Giới, Gom Vô Hạn Vật Tư",
+      "channelId": "thienphatreview",
+      "channelName": "Thiên Phạt Review",
+      "channelUrl": "https://www.youtube.com/@thienphatreview",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLfo5b-uPNFHE",
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 25998,
+      "totalDurationStr": "7 giờ 13 phút",
+      "review": "Xuyên Sách Thành Nữ Phụ,Thức Tỉnh Hệ Thống Giao Dịch Vạn Giới,Gom Vô Hạn Vật Tư",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/D_7l1o_8pms/hqdefault.jpg",
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Sinh Tồn Mạt Thế: Xuyên Sách Thành Nữ Phụ, Thức Tỉnh Hệ Thống Giao Dịch Vạn Giới, Gom Vô Hạn Vật Tư",
+          "url": "https://www.youtube.com/watch?v=D_7l1o_8pms",
+          "id": "D_7l1o_8pms",
+          "duration": 7741,
+          "durationStr": "2:09:01",
+          "isRedundant": false,
+          "views": 26676,
+          "likes": 515,
+          "publishedAt": "2026-09-28T00:00:00+00:00",
+          "channelId": "thienphatreview",
+          "channelName": "Thiên Phạt Review"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "P2 |Sinh Tồn Mạt Thế:Xuyên Sách Thành Nữ Phụ,Thức Tỉnh Hệ Thống Giao Dịch Vạn Giới,Gom Vô Hạn Vật Tư",
+          "url": "https://www.youtube.com/watch?v=DIPpOJeTL8c",
+          "id": "DIPpOJeTL8c",
+          "duration": 8369,
+          "durationStr": "2:19:29",
+          "isRedundant": false,
+          "views": 38709,
+          "likes": 752,
+          "publishedAt": "2026-09-29T00:00:00+00:00",
+          "channelId": "thienphatreview",
+          "channelName": "Thiên Phạt Review"
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "P3 |Sinh Tồn Mạt Thế:Xuyên Sách Thành Nữ Phụ,Thức Tỉnh Hệ Thống Giao Dịch Vạn Giới,Gom Vô Hạn Vật Tư",
+          "url": "https://www.youtube.com/watch?v=D5OOR3iNnB0",
+          "id": "D5OOR3iNnB0",
+          "duration": 9888,
+          "durationStr": "2:44:48",
+          "publishedAt": "2026-11-26T12:00:15+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "thienphatreview",
+          "channelName": "Thiên Phạt Review"
+        }
+      ],
+      "totalViews": 65385,
+      "totalLikes": 1267,
+      "publishedAt": "2026-09-28T00:00:00+00:00",
+      "updatedAt": "2026-11-26T12:00:15+00:00",
+      "isRecent24h": true,
+      "channelIds": [
+        "thienphatreview"
+      ]
+    },
     {
       "id": "film_6782",
       "title": "Review Phim Sư Huynh À Sư Huynh Tập 1-161 | Xuyên Không Cổ Đại Ta Thận Trọng Sợ Chết Tu Luyện Đại Đế",
@@ -3108,7 +3219,7 @@ window.FILMS_DATA = {
         }
       ],
       "updatedAt": "2026-11-25T12:00:37+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "publishedAt": "2026-11-13T00:00:12+00:00",
       "totalViews": 48332,
       "totalLikes": 492,
@@ -3137,7 +3248,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i2.ytimg.com/vi/1r6aJpOLmyU/hqdefault.jpg",
       "publishedAt": "2026-11-25T12:00:12+00:00",
       "updatedAt": "2026-11-25T12:00:12+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3175,7 +3286,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i2.ytimg.com/vi/iJYAkozObhs/hqdefault.jpg",
       "publishedAt": "2026-11-25T11:46:11+00:00",
       "updatedAt": "2026-11-25T11:46:11+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -145561,64 +145672,6 @@ window.FILMS_DATA = {
       "totalViews": 24943,
       "totalLikes": 262,
       "publishedAt": "2026-09-27T00:00:00+00:00",
-      "updatedAt": "2026-09-29T00:00:00+00:00",
-      "isRecent24h": false,
-      "channelIds": [
-        "thienphatreview"
-      ]
-    },
-    {
-      "id": "film_2685",
-      "title": "Sinh Tồn Mạt Thế: Xuyên Sách Thành Nữ Phụ, Thức Tỉnh Hệ Thống Giao Dịch Vạn Giới, Gom Vô Hạn Vật Tư",
-      "channelId": "thienphatreview",
-      "channelName": "Thiên Phạt Review",
-      "channelUrl": "https://www.youtube.com/@thienphatreview",
-      "playlistUrl": "https://www.youtube.com/playlist?list=PLfo5b-uPNFHE",
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 16110,
-      "totalDurationStr": "4 giờ 28 phút",
-      "review": "Xuyên Sách Thành Nữ Phụ,Thức Tỉnh Hệ Thống Giao Dịch Vạn Giới,Gom Vô Hạn Vật Tư",
-      "genres": [
-        "Sinh tồn / Mạt thế",
-        "Tu tiên / Huyền huyễn"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/D_7l1o_8pms/hqdefault.jpg",
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "Sinh Tồn Mạt Thế: Xuyên Sách Thành Nữ Phụ, Thức Tỉnh Hệ Thống Giao Dịch Vạn Giới, Gom Vô Hạn Vật Tư",
-          "url": "https://www.youtube.com/watch?v=D_7l1o_8pms",
-          "id": "D_7l1o_8pms",
-          "duration": 7741,
-          "durationStr": "2:09:01",
-          "isRedundant": false,
-          "views": 26676,
-          "likes": 515,
-          "publishedAt": "2026-09-28T00:00:00+00:00",
-          "channelId": "thienphatreview",
-          "channelName": "Thiên Phạt Review"
-        },
-        {
-          "index": 2,
-          "label": "Phần 2",
-          "title": "P2 |Sinh Tồn Mạt Thế:Xuyên Sách Thành Nữ Phụ,Thức Tỉnh Hệ Thống Giao Dịch Vạn Giới,Gom Vô Hạn Vật Tư",
-          "url": "https://www.youtube.com/watch?v=DIPpOJeTL8c",
-          "id": "DIPpOJeTL8c",
-          "duration": 8369,
-          "durationStr": "2:19:29",
-          "isRedundant": false,
-          "views": 38709,
-          "likes": 752,
-          "publishedAt": "2026-09-29T00:00:00+00:00",
-          "channelId": "thienphatreview",
-          "channelName": "Thiên Phạt Review"
-        }
-      ],
-      "totalViews": 65385,
-      "totalLikes": 1267,
-      "publishedAt": "2026-09-28T00:00:00+00:00",
       "updatedAt": "2026-09-29T00:00:00+00:00",
       "isRecent24h": false,
       "channelIds": [
