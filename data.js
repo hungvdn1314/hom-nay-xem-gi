@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6779,
+    "totalFilms": 6781,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T11:30:54.575703+00:00",
+    "lastUpdated": "2026-11-26T11:44:51.240714+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -142,7 +142,7 @@ window.FILMS_DATA = {
       "id": "hoatrenmay3d",
       "name": "Hoa Trên Mây",
       "url": "https://www.youtube.com/@hoatrenmay3D",
-      "filmCount": 24
+      "filmCount": 25
     },
     {
       "id": "hhanime",
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 33,
+      "filmCount": 34,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -245,6 +245,81 @@ window.FILMS_DATA = {
   ],
   "films": [
     {
+      "id": "film_6782",
+      "title": "Review Phim Sư Huynh À Sư Huynh Tập 1-161 | Xuyên Không Cổ Đại Ta Thận Trọng Sợ Chết Tu Luyện Đại Đế",
+      "channelId": "hoatrenmay3d",
+      "channelName": "Hoa Trên Mây",
+      "channelUrl": "https://www.youtube.com/@hoatrenmay3D",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 26527,
+      "totalDurationStr": "7 giờ 22 phút",
+      "totalViews": 18,
+      "totalLikes": 5,
+      "review": "😂 SƯ HUYNH À SƯ HUYNH (TẬP 1-161) - XUYÊN KHÔNG VÀO THẾ GIỚI TU TIÊN, TA CHỈ MUỐN THẬN TRỌNG SỢ CHẾT SỐNG LÂU... NHƯNG VÔ TÌNH THÀNH CƯỜNG GIẢ MẠNH NHẤT! 😂 Khác với những bộ tu tiên máu lửa thông thường, Sư Huynh À Sư Huynh mang đến một màu sắc hoàn toàn mới: HÀI HƯỚC, dí dỏm nhưng vẫn cực kỳ cuốn hút! 🔥 TẦN NAM - nhân vật của chúng ta - vốn là một người...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/oRXKEyoH-fA/hqdefault.jpg",
+      "publishedAt": "2026-11-26T11:32:21+00:00",
+      "updatedAt": "2026-11-26T11:32:21+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1-161",
+          "title": "Review Phim Sư Huynh À Sư Huynh Tập 1-161 | Xuyên Không Cổ Đại Ta Thận Trọng Sợ Chết Tu Luyện Đại Đế",
+          "url": "https://www.youtube.com/watch?v=oRXKEyoH-fA",
+          "id": "oRXKEyoH-fA",
+          "duration": 26527,
+          "durationStr": "7:22:07",
+          "publishedAt": "2026-11-26T11:32:21+00:00",
+          "views": 18,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6783",
+      "title": "Full Phần 1 |【Nữ Phụ Thế Thân Nghịch Tập: Từ Kẻ Bị Coi Thường Trở Thành Mỹ Nhân Vạn Người Mê!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8305,
+      "totalDurationStr": "2 giờ 18 phút",
+      "totalViews": 4,
+      "totalLikes": 0,
+      "review": "🎬 【Nữ Phụ Thế Thân Nghịch Tập: Từ Kẻ Bị Coi Thường Trở Thành Mỹ Nhân Vạn Người Mê!】 🌸💎 Mang thân phận nữ phụ thế thân, cô từng bị coi thường, chẳng được trân trọng và chỉ được xem như cái bóng của người khác. Thế nhưng, thay vì tiếp tục chấp nhận số phận bất công, cô quyết tâm thay đổi cuộc đời, tìm lại giá trị của chính mình! Từ một nữ phụ không được ai...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/hl9qA6dH_Xc/hqdefault.jpg",
+      "publishedAt": "2026-11-26T11:31:38+00:00",
+      "updatedAt": "2026-11-26T11:31:38+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Nữ Phụ Thế Thân Nghịch Tập: Từ Kẻ Bị Coi Thường Trở Thành Mỹ Nhân Vạn Người Mê!】",
+          "url": "https://www.youtube.com/watch?v=hl9qA6dH_Xc",
+          "id": "hl9qA6dH_Xc",
+          "duration": 8305,
+          "durationStr": "2:18:25",
+          "publishedAt": "2026-11-26T11:31:38+00:00",
+          "views": 4,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_6780",
       "title": "Full Bộ 01~100 | Xuyên Không Thức Tỉnh Hợp Thể, Mang Quyền Năng Về Thanh Trừng Thế Giới Thực",
       "channelId": "huyensutieumuoi",
@@ -253,8 +328,8 @@ window.FILMS_DATA = {
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 8895,
+      "totalDurationStr": "2 giờ 28 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Xuyên không thành nghi phạm bị truy nã, luật sư Tống Uyên bước qua cánh cửa đen vào các phó bản quy tắc quái đàm sinh tử. Anh hợp thể cùng nhân cách thứ hai tà mị, lật tẩy oan khuất đẫm máu và mang quyền năng quỷ dị trở về thanh trừng thế giới thực. 🔔 Nhấn chuông thông báo để không bỏ lỡ các tập phim kỳ ảo, tu chân và đô thị dị năng mới nhất mỗi ngày. ❖...",
@@ -273,8 +348,8 @@ window.FILMS_DATA = {
           "title": "Full Bộ 01~100 | Xuyên Không Thức Tỉnh Hợp Thể, Mang Quyền Năng Về Thanh Trừng Thế Giới Thực",
           "url": "https://www.youtube.com/watch?v=or8EJ21RQyQ",
           "id": "or8EJ21RQyQ",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 8895,
+          "durationStr": "2:28:15",
           "publishedAt": "2026-11-26T11:30:39+00:00",
           "views": 0,
           "likes": 0,
@@ -306905,16 +306980,16 @@ window.FILMS_DATA = {
         "thienanhstudio9",
         "vanmonggiao",
         "nhatanhstudio",
-        "mianhstudio",
-        "vananhstudio"
+        "vananhstudio",
+        "mianhstudio"
       ],
       "memberNames": [
         "Mộng Ảnh Studio",
         "Thiên Ảnh Studio",
         "Vân Mộng Studio",
         "Nhật Ảnh Studio",
-        "Mị Ảnh Studio",
-        "Vạn Ảnh Studio"
+        "Vạn Ảnh Studio",
+        "Mị Ảnh Studio"
       ],
       "countLabel": "6 kênh"
     },
