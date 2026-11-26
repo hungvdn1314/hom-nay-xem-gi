@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6744,
+    "totalFilms": 6745,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T02:00:56.436448+00:00",
+    "lastUpdated": "2026-11-26T02:15:37.636635+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 29,
+      "filmCount": 30,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6747",
+      "title": "【Mùa 1 | Lãnh Chúa: Chỉ Mình Ta Có Thể Nâng Cấp Thiên Phú Nghề Nghiệp!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8380,
+      "totalDurationStr": "2 giờ 19 phút",
+      "totalViews": 5,
+      "totalLikes": 0,
+      "review": "🎬 【Mùa 1 | Lãnh Chúa: Chỉ Mình Ta Có Thể Nâng Cấp Thiên Phú Nghề Nghiệp!】 🏰⚡ Trong thế giới lãnh chúa, nơi thiên phú nghề nghiệp quyết định tiềm năng phát triển và sức mạnh của mỗi người, nhân vật chính lại sở hữu một năng lực độc nhất vô nhị: nâng cấp thiên phú nghề nghiệp! Trong khi những lãnh chúa khác bị giới hạn bởi thiên phú ban đầu, anh có thể...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/-6FO2Hv4-vU/hqdefault.jpg",
+      "publishedAt": "2026-11-26T02:06:43+00:00",
+      "updatedAt": "2026-11-26T02:06:43+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "【Mùa 1 | Lãnh Chúa: Chỉ Mình Ta Có Thể Nâng Cấp Thiên Phú Nghề Nghiệp!】",
+          "url": "https://www.youtube.com/watch?v=-6FO2Hv4-vU",
+          "id": "-6FO2Hv4-vU",
+          "duration": 8380,
+          "durationStr": "2:19:40",
+          "publishedAt": "2026-11-26T02:06:43+00:00",
+          "views": 5,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6746",
       "title": "Sinh Tồn Tầng Lầu Từ Bới Rác Thành Bá Chủ Vạch Trần Âm Mưu Đứng Sau Hệ Thống | Đậu Đậu Vietsub",
