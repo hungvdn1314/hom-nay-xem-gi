@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6758,
+    "totalFilms": 6759,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T06:00:46.806972+00:00",
+    "lastUpdated": "2026-11-26T06:15:40.584575+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 630
+      "filmCount": 631
     },
     {
       "id": "naophangtutien",
@@ -244,6 +244,116 @@
     }
   ],
   "films": [
+    {
+      "id": "film_1232",
+      "title": "Toàn Cầu Tử Khảo: Vừa rời pháp trường đã bắt tôi đi thi?",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLVsJpFPEcxy0",
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 66034,
+      "totalDurationStr": "18 giờ 20 phút",
+      "review": "Vừa rời pháp trường đã bắt tôi đi thi?",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/LlpoHSQEiM4/hqdefault.jpg",
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "Mùa 1 | Toàn Cầu Tử Khảo: Vừa rời pháp trường đã bắt tôi đi thi?",
+          "url": "https://www.youtube.com/watch?v=LlpoHSQEiM4",
+          "id": "LlpoHSQEiM4",
+          "duration": 39616,
+          "durationStr": "11:00:16",
+          "isRedundant": false,
+          "views": 35143,
+          "likes": 442,
+          "publishedAt": "2026-11-07T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 2",
+          "title": "Mùa 2 | Toàn Cầu Tử Khảo: Vừa rời pháp trường đã bắt tôi đi thi?",
+          "url": "https://www.youtube.com/watch?v=eXuNLFtI1gU",
+          "id": "eXuNLFtI1gU",
+          "duration": 12277,
+          "durationStr": "3:24:37",
+          "isRedundant": false,
+          "views": 8946,
+          "likes": 108,
+          "publishedAt": "2026-11-07T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 3",
+          "title": "Mùa 3 | Toàn Cầu Tử Khảo: Vừa rời pháp trường đã bắt tôi đi thi?",
+          "url": "https://www.youtube.com/watch?v=MnvcrKvwA0U",
+          "id": "MnvcrKvwA0U",
+          "duration": 14141,
+          "durationStr": "3:55:41",
+          "publishedAt": "2026-11-26T06:02:44+00:00",
+          "views": 67,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        }
+      ],
+      "totalViews": 44156,
+      "totalLikes": 551,
+      "publishedAt": "2026-11-07T00:00:00+00:00",
+      "updatedAt": "2026-11-26T06:02:44+00:00",
+      "isRecent24h": true,
+      "channelIds": [
+        "melacreview"
+      ]
+    },
+    {
+      "id": "film_6761",
+      "title": "10 GIỜ 30 THỎA MÃN | Đô Thị Tu Tiên: Cao Thủ Xuống Núi Bị Ép Hủy Hôn, Dùng Đạo Pháp Trấn Áp Hào Môn!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 37936,
+      "totalDurationStr": "10 giờ 32 phút",
+      "totalViews": 136,
+      "totalLikes": 5,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **ĐÔ THỊ TU TIÊN – 18 NĂM TU LUYỆN TRÊN NÚI, TA XUỐNG ĐÔ THỊ TRẤN ÁP HÀO MÔN! | 10H32** ⚔️ **Lý Mộc Thần** theo sư phụ tu luyện trên núi suốt nhiều năm. Khi xuống núi lịch luyện, hắn phải tìm vị hôn thê **Lâm Mạn Khanh** theo hôn ước từ 18 năm trước. Nhưng vừa đến Lâm gia, hắn đã...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/C-OxJ1ll7-I/hqdefault.jpg",
+      "publishedAt": "2026-11-26T06:00:29+00:00",
+      "updatedAt": "2026-11-26T06:00:29+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "10 GIỜ 30 THỎA MÃN | Đô Thị Tu Tiên: Cao Thủ Xuống Núi Bị Ép Hủy Hôn, Dùng Đạo Pháp Trấn Áp Hào Môn!",
+          "url": "https://www.youtube.com/watch?v=C-OxJ1ll7-I",
+          "id": "C-OxJ1ll7-I",
+          "duration": 37936,
+          "durationStr": "10:32:16",
+          "publishedAt": "2026-11-26T06:00:29+00:00",
+          "views": 136,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6760",
       "title": "Full P1 | Đặc Công Xuyên Không: Tôi Trở Thành Ông Bố Bỉm Sữa, Thức Tỉnh Hệ Thống Cưng Chiều Con Gái",
@@ -66862,63 +66972,6 @@
       "isRecent24h": false,
       "channelIds": [
         "thienphatreview"
-      ]
-    },
-    {
-      "id": "film_1232",
-      "title": "Toàn Cầu Tử Khảo: Vừa rời pháp trường đã bắt tôi đi thi?",
-      "channelId": "melacreview",
-      "channelName": "Mễ Lạc Review",
-      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "playlistUrl": "https://www.youtube.com/playlist?list=PLVsJpFPEcxy0",
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 51893,
-      "totalDurationStr": "14 giờ 24 phút",
-      "review": "Vừa rời pháp trường đã bắt tôi đi thi?",
-      "genres": [
-        "Hoạt hình 3D Chọn Lọc"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/LlpoHSQEiM4/hqdefault.jpg",
-      "parts": [
-        {
-          "index": 1,
-          "label": "Mùa 1",
-          "title": "Mùa 1 | Toàn Cầu Tử Khảo: Vừa rời pháp trường đã bắt tôi đi thi?",
-          "url": "https://www.youtube.com/watch?v=LlpoHSQEiM4",
-          "id": "LlpoHSQEiM4",
-          "duration": 39616,
-          "durationStr": "11:00:16",
-          "isRedundant": false,
-          "views": 35143,
-          "likes": 442,
-          "publishedAt": "2026-11-07T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 2,
-          "label": "Mùa 2",
-          "title": "Mùa 2 | Toàn Cầu Tử Khảo: Vừa rời pháp trường đã bắt tôi đi thi?",
-          "url": "https://www.youtube.com/watch?v=eXuNLFtI1gU",
-          "id": "eXuNLFtI1gU",
-          "duration": 12277,
-          "durationStr": "3:24:37",
-          "isRedundant": false,
-          "views": 8946,
-          "likes": 108,
-          "publishedAt": "2026-11-07T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        }
-      ],
-      "totalViews": 44089,
-      "totalLikes": 550,
-      "publishedAt": "2026-11-07T00:00:00+00:00",
-      "updatedAt": "2026-11-07T00:00:00+00:00",
-      "isRecent24h": false,
-      "channelIds": [
-        "melacreview"
       ]
     },
     {
