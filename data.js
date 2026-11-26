@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6742,
+    "totalFilms": 6743,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T01:00:55.039540+00:00",
+    "lastUpdated": "2026-11-26T01:15:32.771948+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 28,
+      "filmCount": 29,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6745",
+      "title": "Full Phần 1 | Tôi Là Học Bá Trong Thế Giới Phù Thủy: Dùng Khoa Học Hiện Đại Để Nghịch Thiên Cải Mệnh",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8367,
+      "totalDurationStr": "2 giờ 19 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Tôi Là Học Bá Trong Thế Giới Phù Thủy: Dùng Khoa Học Hiện Đại Để Nghịch Thiên Cải Mệnh!】 🧪🪄 Xuyên không đến thế giới phù thủy đầy huyền bí, nơi ma pháp và tri thức quyết định sức mạnh, nhân vật chính lại lựa chọn một con đường hoàn toàn khác biệt: dùng khoa học hiện đại để nghiên cứu ma pháp! Trong khi các phù thủy truyền thống miệt mài nghiên cứu cổ...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/gwFtEpm4JCw/hqdefault.jpg",
+      "publishedAt": "2026-11-26T01:14:37+00:00",
+      "updatedAt": "2026-11-26T01:14:37+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 | Tôi Là Học Bá Trong Thế Giới Phù Thủy: Dùng Khoa Học Hiện Đại Để Nghịch Thiên Cải Mệnh",
+          "url": "https://www.youtube.com/watch?v=gwFtEpm4JCw",
+          "id": "gwFtEpm4JCw",
+          "duration": 8367,
+          "durationStr": "2:19:27",
+          "publishedAt": "2026-11-26T01:14:37+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6744",
       "title": "S1 | Xe Buýt Sinh Tồn: Kế Hoạch Bồi Dưỡng Toàn Bộ Thành Viên Lên Cấp S | Trùm Phim Sinh Tồn New",
@@ -3641,7 +3679,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/OTyvJr2Ct7o/hqdefault.jpg",
       "publishedAt": "2026-11-25T01:15:08+00:00",
       "updatedAt": "2026-11-25T01:15:08+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
