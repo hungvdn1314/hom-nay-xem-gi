@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6751,
+    "totalFilms": 6752,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T03:45:40.535750+00:00",
+    "lastUpdated": "2026-11-26T04:00:43.730646+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -154,7 +154,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 325
+      "filmCount": 326
     },
     {
       "id": "godsub",
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6754",
+      "title": "Toàn Dân Sinh Tồn Trên Đảo Hoang Thu Phục Người Cá Phá Đảo Mộ Ngư Nhân Vương Cấp A | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11765,
+      "totalDurationStr": "3 giờ 16 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Toàn Dân Sinh Tồn Trên Đảo Hoang Thu Phục Người Cá Phá Đảo Mộ Ngư Nhân Vương Cấp A | Đậu Đậu Vietsub 📋 TÓM TẮT : 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính bạn định nghĩa. Giữ vững bản lĩnh, tinh thần đồng đội và chút lạc quan hài hước sẽ giúp bạn biến thử thách thành bàn đạp để vươn...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/iBmu0Rdwxls/hqdefault.jpg",
+      "publishedAt": "2026-11-26T04:00:00+00:00",
+      "updatedAt": "2026-11-26T04:00:00+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Toàn Dân Sinh Tồn Trên Đảo Hoang Thu Phục Người Cá Phá Đảo Mộ Ngư Nhân Vương Cấp A | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=iBmu0Rdwxls",
+          "id": "iBmu0Rdwxls",
+          "duration": 11765,
+          "durationStr": "3:16:05",
+          "publishedAt": "2026-11-26T04:00:00+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6753",
       "title": "Full P1 |Thức Tỉnh Hệ Thống Mỹ Thực Cấp Thần: Tôi Bán Hàng Rong Khiến Cả Cõi Mạng Thèm Đến Phát Khóc",
@@ -3580,7 +3618,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/b6AG5EvfB1g/hqdefault.jpg",
       "publishedAt": "2026-11-25T04:00:26+00:00",
       "updatedAt": "2026-11-25T04:00:26+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
