@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T18:15:38.050884+00:00",
+    "lastUpdated": "2026-11-26T18:30:43.076988+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -244,6 +244,78 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_1571",
+      "title": "Lựa Chọn Tận Thế: Bắt Đầu Thành Thần Từ Phân Tích Thần Minh",
+      "channelId": "melacreview",
+      "channelIds": [
+        "melacreview"
+      ],
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": null,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 21512,
+      "totalDurationStr": "5 giờ 58 phút",
+      "totalViews": 58302,
+      "totalLikes": 276,
+      "review": "",
+      "genres": [
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/kTsDdN0EZtg/hqdefault.jpg",
+      "publishedAt": "2026-10-05T00:00:00+00:00",
+      "updatedAt": "2026-11-26T18:17:53+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "Mùa 1 | Lựa Chọn Tận Thế: Bắt Đầu Thành Thần Từ Phân Tích Thần Minh",
+          "url": "https://www.youtube.com/watch?v=kTsDdN0EZtg",
+          "id": "kTsDdN0EZtg",
+          "duration": 7820,
+          "durationStr": "2:10:20",
+          "publishedAt": "2026-10-05T00:00:00+00:00",
+          "views": 36000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 3",
+          "title": "Mùa 3 | Lựa Chọn Tận Thế: Bắt Đầu Thành Thần Từ Phân Tích Thần Minh",
+          "url": "https://www.youtube.com/watch?v=wKLlM1J9dcI",
+          "id": "wKLlM1J9dcI",
+          "duration": 7824,
+          "durationStr": "2:10:24",
+          "isRedundant": false,
+          "views": 22238,
+          "likes": 270,
+          "publishedAt": "2026-11-02T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 4 - P1",
+          "title": "Mùa 4 - P1 (EP1-79) | Lựa Chọn Tận Thế: Bắt Đầu Thành Thần Từ Phân Tích Thần Minh",
+          "url": "https://www.youtube.com/watch?v=lqe5qPyCHvM",
+          "id": "lqe5qPyCHvM",
+          "duration": 5868,
+          "durationStr": "1:37:48",
+          "publishedAt": "2026-11-26T18:17:53+00:00",
+          "views": 64,
+          "likes": 6,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        }
+      ]
+    },
     {
       "id": "film_6793",
       "title": "[Full] Sinh Ra Giống Phản Diện Tôi Thức Tỉnh Hệ Thống Mãnh Nam Đốn Tim Đại Hoa Khôi! | MyCherrySub",
@@ -84039,63 +84111,6 @@ window.FILMS_DATA = {
       "isRecent24h": false,
       "channelIds": [
         "thienanhstudio9"
-      ]
-    },
-    {
-      "id": "film_1571",
-      "title": "Lựa Chọn Tận Thế: Bắt Đầu Thành Thần Từ Phân Tích Thần Minh",
-      "channelId": "melacreview",
-      "channelIds": [
-        "melacreview"
-      ],
-      "channelName": "Mễ Lạc Review",
-      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 15644,
-      "totalDurationStr": "4 giờ 20 phút",
-      "totalViews": 58238,
-      "totalLikes": 270,
-      "review": "",
-      "genres": [
-        "Sinh tồn / Mạt thế"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/kTsDdN0EZtg/hqdefault.jpg",
-      "publishedAt": "2026-10-05T00:00:00+00:00",
-      "updatedAt": "2026-11-02T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Mùa 1",
-          "title": "Mùa 1 | Lựa Chọn Tận Thế: Bắt Đầu Thành Thần Từ Phân Tích Thần Minh",
-          "url": "https://www.youtube.com/watch?v=kTsDdN0EZtg",
-          "id": "kTsDdN0EZtg",
-          "duration": 7820,
-          "durationStr": "2:10:20",
-          "publishedAt": "2026-10-05T00:00:00+00:00",
-          "views": 36000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 2,
-          "label": "Mùa 3",
-          "title": "Mùa 3 | Lựa Chọn Tận Thế: Bắt Đầu Thành Thần Từ Phân Tích Thần Minh",
-          "url": "https://www.youtube.com/watch?v=wKLlM1J9dcI",
-          "id": "wKLlM1J9dcI",
-          "duration": 7824,
-          "durationStr": "2:10:24",
-          "isRedundant": false,
-          "views": 22238,
-          "likes": 270,
-          "publishedAt": "2026-11-02T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        }
       ]
     },
     {
