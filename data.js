@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T00:30:41.950370+00:00",
+    "lastUpdated": "2026-11-26T00:45:30.208609+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -244,6 +244,79 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_858",
+      "title": "Thức Tỉnh Hệ Thống Nâng Cấp Siêu Phàm, Biến Chiếc Xe Tàn Thành Chiến Xe Bất Bại",
+      "channelId": "huyensutieumuoi",
+      "channelName": "Huyền Sư Tiểu Muội",
+      "channelUrl": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
+      "playlistUrl": null,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 39503,
+      "totalDurationStr": "10 giờ 58 phút",
+      "totalViews": 377012,
+      "totalLikes": 0,
+      "review": "Trăng máu giáng lâm kéo theo quỷ dị tàn sát thế giới. Chàng trai Trần Dã thức tỉnh Hệ Thống Nâng Cấp và song chuỗi siêu phàm, biến chiếc xe cùi bắp thành chiến xa bọc thép bất bại, kề vai cùng nữ kiếm tiên Na Na trảm sát ác quỷ và đập tan những kẻ phản bội để sinh tồn. 🔔 Nhấn chuông thông báo để không bỏ lỡ các tập phim kỳ ảo, tu chân và đô thị dị năng...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/lz_pCrkizQg/hqdefault.jpg",
+      "publishedAt": "2026-11-01T00:00:00+00:00",
+      "updatedAt": "2026-11-26T00:38:30+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Bộ 01~300 | Thức Tỉnh Hệ Thống Nâng Cấp Siêu Phàm, Biến Chiếc Xe Tàn Thành Chiến Xe Bất Bại",
+          "url": "https://www.youtube.com/watch?v=lz_pCrkizQg",
+          "id": "lz_pCrkizQg",
+          "duration": 17936,
+          "durationStr": "4:58:56",
+          "publishedAt": "2026-11-01T00:00:00+00:00",
+          "views": 364000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "huyensutieumuoi",
+          "channelName": "Huyền Sư Tiểu Muội"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Full P2 01~224 | Thức Tỉnh Hệ Thống Nâng Cấp Siêu Phàm, Biến Chiếc Xe Tàn Thành Chiến Xe Bất Bại",
+          "url": "https://www.youtube.com/watch?v=Sqaf0oMHG9k",
+          "id": "Sqaf0oMHG9k",
+          "duration": 12561,
+          "durationStr": "3:29:21",
+          "publishedAt": "2026-11-10T00:00:00+00:00",
+          "views": 13000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "huyensutieumuoi",
+          "channelName": "Huyền Sư Tiểu Muội"
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Full P3 01~157 | Thức Tỉnh Hệ Thống Nâng Cấp Siêu Phàm, Biến Chiếc Xe Tàn Thành Chiến Xe Bất Bại",
+          "url": "https://www.youtube.com/watch?v=jFREfCFZT88",
+          "id": "jFREfCFZT88",
+          "duration": 9006,
+          "durationStr": "2:30:06",
+          "publishedAt": "2026-11-26T00:38:30+00:00",
+          "views": 12,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "huyensutieumuoi",
+          "channelName": "Huyền Sư Tiểu Muội"
+        }
+      ],
+      "channelIds": [
+        "huyensutieumuoi"
+      ]
+    },
     {
       "id": "film_6741",
       "title": "【Mùa 3】Trường Sinh Giữa Vũ Trụ: Chỉ Cần Sống Đủ Lâu, Ta Có Thể Xưng Bá Toàn Bộ Ngân Hà!",
@@ -55421,64 +55494,6 @@ window.FILMS_DATA = {
       ],
       "channelIds": [
         "daudauvietsub"
-      ]
-    },
-    {
-      "id": "film_858",
-      "title": "Thức Tỉnh Hệ Thống Nâng Cấp Siêu Phàm, Biến Chiếc Xe Tàn Thành Chiến Xe Bất Bại",
-      "channelId": "huyensutieumuoi",
-      "channelName": "Huyền Sư Tiểu Muội",
-      "channelUrl": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
-      "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 30497,
-      "totalDurationStr": "8 giờ 28 phút",
-      "totalViews": 377000,
-      "totalLikes": 0,
-      "review": "Trăng máu giáng lâm kéo theo quỷ dị tàn sát thế giới. Chàng trai Trần Dã thức tỉnh Hệ Thống Nâng Cấp và song chuỗi siêu phàm, biến chiếc xe cùi bắp thành chiến xa bọc thép bất bại, kề vai cùng nữ kiếm tiên Na Na trảm sát ác quỷ và đập tan những kẻ phản bội để sinh tồn. 🔔 Nhấn chuông thông báo để không bỏ lỡ các tập phim kỳ ảo, tu chân và đô thị dị năng...",
-      "genres": [
-        "Hệ thống / Thức tỉnh",
-        "Cao võ / Dị năng"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/lz_pCrkizQg/hqdefault.jpg",
-      "publishedAt": "2026-11-01T00:00:00+00:00",
-      "updatedAt": "2026-11-10T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "Full Bộ 01~300 | Thức Tỉnh Hệ Thống Nâng Cấp Siêu Phàm, Biến Chiếc Xe Tàn Thành Chiến Xe Bất Bại",
-          "url": "https://www.youtube.com/watch?v=lz_pCrkizQg",
-          "id": "lz_pCrkizQg",
-          "duration": 17936,
-          "durationStr": "4:58:56",
-          "publishedAt": "2026-11-01T00:00:00+00:00",
-          "views": 364000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "huyensutieumuoi",
-          "channelName": "Huyền Sư Tiểu Muội"
-        },
-        {
-          "index": 2,
-          "label": "Phần 2",
-          "title": "Full P2 01~224 | Thức Tỉnh Hệ Thống Nâng Cấp Siêu Phàm, Biến Chiếc Xe Tàn Thành Chiến Xe Bất Bại",
-          "url": "https://www.youtube.com/watch?v=Sqaf0oMHG9k",
-          "id": "Sqaf0oMHG9k",
-          "duration": 12561,
-          "durationStr": "3:29:21",
-          "publishedAt": "2026-11-10T00:00:00+00:00",
-          "views": 13000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "huyensutieumuoi",
-          "channelName": "Huyền Sư Tiểu Muội"
-        }
-      ],
-      "channelIds": [
-        "huyensutieumuoi"
       ]
     },
     {
