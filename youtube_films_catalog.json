@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6743,
+    "totalFilms": 6744,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T01:45:34.480042+00:00",
+    "lastUpdated": "2026-11-26T02:00:56.436448+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -154,7 +154,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 323
+      "filmCount": 324
     },
     {
       "id": "godsub",
@@ -244,6 +244,116 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6746",
+      "title": "Sinh Tồn Tầng Lầu Từ Bới Rác Thành Bá Chủ Vạch Trần Âm Mưu Đứng Sau Hệ Thống | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9961,
+      "totalDurationStr": "2 giờ 46 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Sinh Tồn Tầng Lầu Từ Bới Rác Thành Bá Chủ Vạch Trần Âm Mưu Đứng Sau Hệ Thống | Đậu Đậu Vietsub 📋 Tóm Tắt : Thế giới sinh tồn tầng lầu ngập nước, nhân vật nhờ hệ thống \"biến phế thành bảo\", vượt hiểm nguy leo tháp và vạch trần chiếc điện thoại thao túng. 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/KNvfEhwpXe8/hqdefault.jpg",
+      "publishedAt": "2026-11-26T02:00:26+00:00",
+      "updatedAt": "2026-11-26T02:00:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Sinh Tồn Tầng Lầu Từ Bới Rác Thành Bá Chủ Vạch Trần Âm Mưu Đứng Sau Hệ Thống | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=KNvfEhwpXe8",
+          "id": "KNvfEhwpXe8",
+          "duration": 9961,
+          "durationStr": "2:46:01",
+          "publishedAt": "2026-11-26T02:00:26+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_339",
+      "title": "Lộ Bài Rồi, Cô Thanh Mai Ngốc Nghếch Của Tôi Là Đại Minh Tinh Hàng Đầu",
+      "channelId": "akatsukireview",
+      "channelIds": [
+        "akatsukireview"
+      ],
+      "channelName": "Akatsuki Review",
+      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
+      "playlistUrl": null,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 36343,
+      "totalDurationStr": "10 giờ 05 phút",
+      "totalViews": 10308,
+      "totalLikes": 0,
+      "review": "",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/1empXhyijgw/hqdefault.jpg",
+      "publishedAt": "2026-10-25T00:00:00+00:00",
+      "updatedAt": "2026-11-26T01:56:55+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-3",
+          "title": "Full SS1-3 |Lộ Bài Rồi, Cô Thanh Mai Ngốc Nghếch Của Tôi Là Đại Minh Tinh Hàng Đầu |Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=1empXhyijgw",
+          "id": "1empXhyijgw",
+          "duration": 26778,
+          "durationStr": "7:26:18",
+          "publishedAt": "2026-10-25T00:00:00+00:00",
+          "views": 7600,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 4",
+          "title": "Full SS4 | Lộ Bài Rồi, Cô Thanh Mai Ngốc Nghếch Của Tôi Là Đại Minh Tinh Hàng Đầu | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=BJOmKnAvRr0",
+          "id": "BJOmKnAvRr0",
+          "duration": 5822,
+          "durationStr": "1:37:02",
+          "publishedAt": "2026-11-17T00:00:00+00:00",
+          "views": 2700,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 3,
+          "label": "Tập 93-164",
+          "title": "Tập93-164SS4\"|Lộ Bài Rồi, Cô Thanh Mai Ngốc Nghếch Của Tôi Là Đại Minh Tinh Hàng Đầu|Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=Kzji-NPHGWg",
+          "id": "Kzji-NPHGWg",
+          "duration": 3743,
+          "durationStr": "1:02:23",
+          "publishedAt": "2026-11-26T01:56:55+00:00",
+          "views": 8,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        }
+      ]
+    },
     {
       "id": "film_6745",
       "title": "Full Phần 1 | Tôi Là Học Bá Trong Thế Giới Phù Thủy: Dùng Khoa Học Hiện Đại Để Nghịch Thiên Cải Mệnh",
@@ -3395,7 +3505,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xzwU4-J9hkk/hqdefault.jpg",
       "publishedAt": "2026-11-25T02:00:28+00:00",
       "updatedAt": "2026-11-25T02:00:28+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3433,7 +3543,7 @@
       "thumbnail": "https://i2.ytimg.com/vi/YDjoVHZe-2I/hqdefault.jpg",
       "publishedAt": "2026-11-25T02:00:00+00:00",
       "updatedAt": "2026-11-25T02:00:00+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -29260,63 +29370,6 @@
       ],
       "channelIds": [
         "tieumuoingontinh"
-      ]
-    },
-    {
-      "id": "film_339",
-      "title": "Lộ Bài Rồi, Cô Thanh Mai Ngốc Nghếch Của Tôi Là Đại Minh Tinh Hàng Đầu",
-      "channelId": "akatsukireview",
-      "channelIds": [
-        "akatsukireview"
-      ],
-      "channelName": "Akatsuki Review",
-      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
-      "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 32600,
-      "totalDurationStr": "9 giờ 03 phút",
-      "totalViews": 10300,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Đô thị / Ngôn tình"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/1empXhyijgw/hqdefault.jpg",
-      "publishedAt": "2026-10-25T00:00:00+00:00",
-      "updatedAt": "2026-11-17T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Mùa 1-3",
-          "title": "Full SS1-3 |Lộ Bài Rồi, Cô Thanh Mai Ngốc Nghếch Của Tôi Là Đại Minh Tinh Hàng Đầu |Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=1empXhyijgw",
-          "id": "1empXhyijgw",
-          "duration": 26778,
-          "durationStr": "7:26:18",
-          "publishedAt": "2026-10-25T00:00:00+00:00",
-          "views": 7600,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        },
-        {
-          "index": 2,
-          "label": "Mùa 4",
-          "title": "Full SS4 | Lộ Bài Rồi, Cô Thanh Mai Ngốc Nghếch Của Tôi Là Đại Minh Tinh Hàng Đầu | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=BJOmKnAvRr0",
-          "id": "BJOmKnAvRr0",
-          "duration": 5822,
-          "durationStr": "1:37:02",
-          "publishedAt": "2026-11-17T00:00:00+00:00",
-          "views": 2700,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        }
       ]
     },
     {
