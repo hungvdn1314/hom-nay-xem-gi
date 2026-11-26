@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T13:45:31.880100+00:00",
+    "lastUpdated": "2026-11-26T14:00:49.318323+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -3027,7 +3027,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/k8ry-t0yGjs/hqdefault.jpg",
       "publishedAt": "2026-11-25T14:00:22+00:00",
       "updatedAt": "2026-11-25T14:00:22+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3065,7 +3065,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i2.ytimg.com/vi/1Wa17sE2xz4/hqdefault.jpg",
       "publishedAt": "2026-11-25T14:00:13+00:00",
       "updatedAt": "2026-11-25T14:00:13+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3103,7 +3103,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i1.ytimg.com/vi/l0kCCizGIwg/hqdefault.jpg",
       "publishedAt": "2026-11-25T13:58:38+00:00",
       "updatedAt": "2026-11-25T13:58:38+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3141,7 +3141,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/kKOHqpDker4/hqdefault.jpg",
       "publishedAt": "2026-11-25T13:48:29+00:00",
       "updatedAt": "2026-11-25T13:48:29+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
