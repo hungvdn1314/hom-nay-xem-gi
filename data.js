@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T01:30:44.956529+00:00",
+    "lastUpdated": "2026-11-26T01:45:34.480042+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -3577,7 +3577,7 @@ window.FILMS_DATA = {
       "totalLikes": 1555,
       "publishedAt": "2026-07-25T00:00:00+00:00",
       "updatedAt": "2026-11-25T01:37:57+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "channelIds": [
         "melacreview"
       ]
@@ -3603,7 +3603,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i3.ytimg.com/vi/nKJ6Iqbtd2M/hqdefault.jpg",
       "publishedAt": "2026-11-25T01:32:56+00:00",
       "updatedAt": "2026-11-25T01:32:56+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
