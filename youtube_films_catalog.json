@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6752,
+    "totalFilms": 6753,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T04:00:43.730646+00:00",
+    "lastUpdated": "2026-11-26T04:15:31.234366+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 628
+      "filmCount": 629
     },
     {
       "id": "naophangtutien",
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6755",
+      "title": "6 GIỜ |Mạt Thế Quỷ Dị: Thức Tỉnh Hệ Thống Thần Đồ, Khế Ước Đồng Đội Nhận Sức Mạnh Vô Hạn!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 22082,
+      "totalDurationStr": "6 giờ 08 phút",
+      "totalViews": 276,
+      "totalLikes": 12,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **MẠT THẾ QUỶ DỊ – HỆ THỐNG THẦN ĐỒ, KHẾ ƯỚC ĐỒNG ĐỘI CÀNG MẠNH CÀNG BÁ ĐẠO! | 6H08** ⚔️ **Lâm Phàm** bị những người từng được mình cứu giúp phản bội, cướp sạch vật tư và phương tiện giữa mạt thế quỷ dị. Để bảo vệ em trai **Lâm Mãnh**, hắn bất ngờ thức tỉnh **Hệ Thống Thần Đồ**,...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/mxYln0I_qGw/hqdefault.jpg",
+      "publishedAt": "2026-11-26T04:00:31+00:00",
+      "updatedAt": "2026-11-26T04:00:31+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "6 GIỜ |Mạt Thế Quỷ Dị: Thức Tỉnh Hệ Thống Thần Đồ, Khế Ước Đồng Đội Nhận Sức Mạnh Vô Hạn!",
+          "url": "https://www.youtube.com/watch?v=mxYln0I_qGw",
+          "id": "mxYln0I_qGw",
+          "duration": 22082,
+          "durationStr": "6:08:02",
+          "publishedAt": "2026-11-26T04:00:31+00:00",
+          "views": 276,
+          "likes": 12,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6754",
       "title": "Toàn Dân Sinh Tồn Trên Đảo Hoang Thu Phục Người Cá Phá Đảo Mộ Ngư Nhân Vương Cấp A | Đậu Đậu Vietsub",
@@ -3525,7 +3563,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/2AjwD-1E1Gk/hqdefault.jpg",
       "publishedAt": "2026-11-25T04:03:29+00:00",
       "updatedAt": "2026-11-25T04:03:29+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3563,7 +3601,7 @@
       "thumbnail": "https://i2.ytimg.com/vi/mI5ywIToROk/hqdefault.jpg",
       "publishedAt": "2026-11-25T02:12:06+00:00",
       "updatedAt": "2026-11-25T04:01:11+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
