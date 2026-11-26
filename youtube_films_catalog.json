@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6757,
+    "totalFilms": 6758,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T05:00:48.416633+00:00",
+    "lastUpdated": "2026-11-26T05:15:34.199804+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 31,
+      "filmCount": 32,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -245,6 +245,44 @@
   ],
   "films": [
     {
+      "id": "film_6760",
+      "title": "Full P1 | Đặc Công Xuyên Không: Tôi Trở Thành Ông Bố Bỉm Sữa, Thức Tỉnh Hệ Thống Cưng Chiều Con Gái",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12486,
+      "totalDurationStr": "3 giờ 28 phút",
+      "totalViews": 1,
+      "totalLikes": 0,
+      "review": "🎬 【Đặc Công Xuyên Không: Tôi Trở Thành Ông Bố Bỉm Sữa, Thức Tỉnh Hệ Thống Cưng Chiều Con Gái!】 👨‍👧💖 Từng là một đặc công với bản lĩnh phi thường, nhân vật chính bất ngờ xuyên không và trở thành một ông bố bỉm sữa! Từ người quen đối mặt với những nhiệm vụ nguy hiểm, anh giờ đây phải học cách chăm sóc cô con gái nhỏ đáng yêu. Điều bất ngờ hơn cả là anh còn...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/vr8fJAhdJE4/hqdefault.jpg",
+      "publishedAt": "2026-11-26T05:12:42+00:00",
+      "updatedAt": "2026-11-26T05:12:42+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full P1 | Đặc Công Xuyên Không: Tôi Trở Thành Ông Bố Bỉm Sữa, Thức Tỉnh Hệ Thống Cưng Chiều Con Gái",
+          "url": "https://www.youtube.com/watch?v=vr8fJAhdJE4",
+          "id": "vr8fJAhdJE4",
+          "duration": 12486,
+          "durationStr": "3:28:06",
+          "publishedAt": "2026-11-26T05:12:42+00:00",
+          "views": 1,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_6758",
       "title": "Mạt Thế Đóng Băng Tôi Thức Tỉnh Sức Mạnh Dị Năng Không Gian Cấp S | Đậu Đậu Vietsub",
       "channelId": "daudauvietsub",
@@ -253,8 +291,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 13434,
+      "totalDurationStr": "3 giờ 43 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Mạt Thế Đóng Băng Tôi Thức Tỉnh Sức Mạnh Dị Năng Không Gian Cấp S 📋 TÓM TẮT :Trọng sinh 30 ngày trước tận thế băng giá, Giang Hàn dùng dị năng không gian tích trữ vật tư, xây pháo đài, diệt kẻ thù, thu phục đồng minh và dựng căn cứ ngầm. 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính bạn...",
@@ -273,8 +311,8 @@
           "title": "Mạt Thế Đóng Băng Tôi Thức Tỉnh Sức Mạnh Dị Năng Không Gian Cấp S | Đậu Đậu Vietsub",
           "url": "https://www.youtube.com/watch?v=mtri0Rodjag",
           "id": "mtri0Rodjag",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 13434,
+          "durationStr": "3:43:54",
           "publishedAt": "2026-11-26T05:00:32+00:00",
           "views": 0,
           "likes": 0,
@@ -291,8 +329,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 47543,
+      "totalDurationStr": "13 giờ 12 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **MẠT THẾ HUYẾT NGUYỆT – HỆ THỐNG THĂNG CẤP VẠN VẬT, DÙNG ĐIỂM SÁT LỤC ĐỂ SINH TỒN! | SS1–SS3 | 13 GIỜ** 🌕 Khi **Huyết Nguyệt** xuất hiện, hàng loạt quỷ dị trỗi dậy khiến thế giới rơi vào hỗn loạn. Giữa lúc nguy hiểm, **Trần Dã** bất ngờ kích hoạt **Hệ Thống Thăng Cấp**, có thể...",
@@ -311,8 +349,8 @@
           "title": "13 GIỜ THỎA MÃN | Mạt Thế Huyết Nguyệt: Dùng Điểm Sát Lục Nâng Cấp Vạn Vật, Chống Quỷ Dị!",
           "url": "https://www.youtube.com/watch?v=2f8tcGpOF5Q",
           "id": "2f8tcGpOF5Q",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 47543,
+          "durationStr": "13:12:23",
           "publishedAt": "2026-11-26T05:00:25+00:00",
           "views": 0,
           "likes": 0,
