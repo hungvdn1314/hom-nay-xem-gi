@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6738,
+    "totalFilms": 6739,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T00:01:45.689320+00:00",
+    "lastUpdated": "2026-11-26T00:15:38.064549+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 27,
+      "filmCount": 28,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,131 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6741",
+      "title": "【Mùa 3】Trường Sinh Giữa Vũ Trụ: Chỉ Cần Sống Đủ Lâu, Ta Có Thể Xưng Bá Toàn Bộ Ngân Hà!",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8259,
+      "totalDurationStr": "2 giờ 17 phút",
+      "totalViews": 1,
+      "totalLikes": 0,
+      "review": "🎬 【Mùa 3】Trường Sinh Giữa Vũ Trụ: Chỉ Cần Sống Đủ Lâu, Ta Có Thể Xưng Bá Toàn Bộ Ngân Hà! 🌌⚡ Giữa vũ trụ bao la, nơi vô số nền văn minh và các cường giả tinh tế tranh giành quyền lực, nhân vật chính lại lựa chọn một con đường hoàn toàn khác biệt: dựa vào trường sinh để từng bước trở nên vô địch! Trong khi người khác phải tranh đoạt cơ duyên và chạy đua...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/PvUmyij1gJQ/hqdefault.jpg",
+      "publishedAt": "2026-11-26T00:10:24+00:00",
+      "updatedAt": "2026-11-26T00:10:24+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 3",
+          "title": "【Mùa 3】Trường Sinh Giữa Vũ Trụ: Chỉ Cần Sống Đủ Lâu, Ta Có Thể Xưng Bá Toàn Bộ Ngân Hà!",
+          "url": "https://www.youtube.com/watch?v=PvUmyij1gJQ",
+          "id": "PvUmyij1gJQ",
+          "duration": 8259,
+          "durationStr": "2:17:39",
+          "publishedAt": "2026-11-26T00:10:24+00:00",
+          "views": 1,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_657",
+      "title": "Hoa Khôi Trường Lại Là Bạn Gái Trên Mạng Của Tôi",
+      "channelId": "akatsukireview",
+      "channelIds": [
+        "akatsukireview"
+      ],
+      "channelName": "Akatsuki Review",
+      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
+      "playlistUrl": null,
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 135624,
+      "totalDurationStr": "37 giờ 40 phút",
+      "totalViews": 179018,
+      "totalLikes": 3,
+      "review": "",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/euuqUxbcIDI/hqdefault.jpg",
+      "publishedAt": "2026-10-19T00:00:00+00:00",
+      "updatedAt": "2026-11-26T00:09:37+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-3",
+          "title": "Full SS1-3 | Hoa Khôi Trường Lại Là Bạn Gái Trên Mạng Của Tôi | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=euuqUxbcIDI",
+          "id": "euuqUxbcIDI",
+          "duration": 33563,
+          "durationStr": "9:19:23",
+          "publishedAt": "2026-10-19T00:00:00+00:00",
+          "views": 141000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 4",
+          "title": "Full SS4 | Hoa Khôi Trường Lại Là Bạn Gái Trên Mạng Của Tôi | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=mvY3WzLud0E",
+          "id": "mvY3WzLud0E",
+          "duration": 13475,
+          "durationStr": "3:44:35",
+          "publishedAt": "2026-11-09T00:00:00+00:00",
+          "views": 28000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 5",
+          "title": "Full SS5 | Hoa Khôi Trường Lại Là Bạn Gái Trên Mạng Của Tôi | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=X2rd0nokpJc",
+          "id": "X2rd0nokpJc",
+          "duration": 12357,
+          "durationStr": "3:25:57",
+          "publishedAt": "2026-11-13T00:00:00+00:00",
+          "views": 10000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 4,
+          "label": "Mùa 1-6",
+          "title": "Full SS1-6END | Hoa Khôi Trường Lại Là Bạn Gái Trên Mạng Của Tôi | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=hj8yDrDKjSo",
+          "id": "hj8yDrDKjSo",
+          "duration": 76229,
+          "durationStr": "21:10:29",
+          "publishedAt": "2026-11-26T00:09:37+00:00",
+          "views": 18,
+          "likes": 3,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        }
+      ]
+    },
     {
       "id": "film_6740",
       "title": "Vì Tôi Trông Quá Hung Dữ, Lệ Quỷ Báo Cảnh Sát Ngay Trong Đêm, Tố Tôi Tống Tiền | Trùm Phim Sinh Tồn",
@@ -45109,78 +45234,6 @@ window.FILMS_DATA = {
       ],
       "channelIds": [
         "daudauvietsub"
-      ]
-    },
-    {
-      "id": "film_657",
-      "title": "Hoa Khôi Trường Lại Là Bạn Gái Trên Mạng Của Tôi",
-      "channelId": "akatsukireview",
-      "channelIds": [
-        "akatsukireview"
-      ],
-      "channelName": "Akatsuki Review",
-      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
-      "playlistUrl": null,
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 59395,
-      "totalDurationStr": "16 giờ 29 phút",
-      "totalViews": 179000,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Đô thị / Ngôn tình"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/euuqUxbcIDI/hqdefault.jpg",
-      "publishedAt": "2026-10-19T00:00:00+00:00",
-      "updatedAt": "2026-11-13T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Mùa 1-3",
-          "title": "Full SS1-3 | Hoa Khôi Trường Lại Là Bạn Gái Trên Mạng Của Tôi | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=euuqUxbcIDI",
-          "id": "euuqUxbcIDI",
-          "duration": 33563,
-          "durationStr": "9:19:23",
-          "publishedAt": "2026-10-19T00:00:00+00:00",
-          "views": 141000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        },
-        {
-          "index": 2,
-          "label": "Mùa 4",
-          "title": "Full SS4 | Hoa Khôi Trường Lại Là Bạn Gái Trên Mạng Của Tôi | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=mvY3WzLud0E",
-          "id": "mvY3WzLud0E",
-          "duration": 13475,
-          "durationStr": "3:44:35",
-          "publishedAt": "2026-11-09T00:00:00+00:00",
-          "views": 28000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        },
-        {
-          "index": 3,
-          "label": "Mùa 5",
-          "title": "Full SS5 | Hoa Khôi Trường Lại Là Bạn Gái Trên Mạng Của Tôi | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=X2rd0nokpJc",
-          "id": "X2rd0nokpJc",
-          "duration": 12357,
-          "durationStr": "3:25:57",
-          "publishedAt": "2026-11-13T00:00:00+00:00",
-          "views": 10000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        }
       ]
     },
     {
