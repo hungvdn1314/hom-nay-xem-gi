@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T20:00:46.991501+00:00",
+    "lastUpdated": "2026-11-26T20:16:36.326921+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -244,6 +244,109 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_889",
+      "title": "Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu Thiên",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLPDv-BT3TGaA",
+      "totalParts": 5,
+      "partsStr": "5 phần",
+      "totalDurationSec": 57257,
+      "totalDurationStr": "15 giờ 54 phút",
+      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Mùa 6 | Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu ThiênTôi là Diệp Linh Lang, một mai xuyên sách bỗng trở thành nữ phụ pháo hôi chịu cảnh vạn kiếm xuyên tâm trong truyện tu tiên! Để thay đổi kết cục, tôi quyết đoán đá bay nữ chính thiên mệnh, bái nhập vào Thanh Huyền...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/chomgfE_5mg/hqdefault.jpg",
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 6",
+          "title": "Mùa 6 | Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu Thiên",
+          "url": "https://www.youtube.com/watch?v=chomgfE_5mg",
+          "id": "chomgfE_5mg",
+          "duration": 11443,
+          "durationStr": "3:10:43",
+          "isRedundant": false,
+          "views": 99460,
+          "likes": 2042,
+          "publishedAt": "2026-09-26T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 7",
+          "title": "Mùa 7 | Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu Thiên",
+          "url": "https://www.youtube.com/watch?v=p-uGOcQLkAk",
+          "id": "p-uGOcQLkAk",
+          "duration": 11006,
+          "durationStr": "3:03:26",
+          "isRedundant": false,
+          "views": 104204,
+          "likes": 2099,
+          "publishedAt": "2026-10-07T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 8",
+          "title": "Mùa 8 | Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu Thiên",
+          "url": "https://www.youtube.com/watch?v=qvR2Lh9vj8M",
+          "id": "qvR2Lh9vj8M",
+          "duration": 12193,
+          "durationStr": "3:23:13",
+          "isRedundant": false,
+          "views": 90866,
+          "likes": 1611,
+          "publishedAt": "2026-10-25T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 4,
+          "label": "Mùa 9",
+          "title": "Mùa 9 | Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu Thiên",
+          "url": "https://www.youtube.com/watch?v=IFe7eOvM9MQ",
+          "id": "IFe7eOvM9MQ",
+          "duration": 12005,
+          "durationStr": "3:20:05",
+          "isRedundant": false,
+          "publishedAt": "2026-11-10T19:14:30+00:00",
+          "views": 52789,
+          "likes": 1585,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 5,
+          "label": "Mùa 10",
+          "title": "Mùa 10 | Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu Thiên",
+          "url": "https://www.youtube.com/watch?v=Pr_WABDWngM",
+          "id": "Pr_WABDWngM",
+          "duration": 10610,
+          "durationStr": "2:56:50",
+          "publishedAt": "2026-11-26T20:05:09+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        }
+      ],
+      "totalViews": 347319,
+      "totalLikes": 7337,
+      "publishedAt": "2026-09-26T00:00:00+00:00",
+      "updatedAt": "2026-11-26T20:05:09+00:00",
+      "isRecent24h": true,
+      "channelIds": [
+        "melacreview"
+      ]
+    },
     {
       "id": "film_1325",
       "title": "Tiểu sư muội được cả kiếm tông nhà ta sủng ái",
@@ -55379,94 +55482,6 @@ window.FILMS_DATA = {
       "totalLikes": 50,
       "channelIds": [
         "vanmonggiao"
-      ]
-    },
-    {
-      "id": "film_889",
-      "title": "Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu Thiên",
-      "channelId": "melacreview",
-      "channelName": "Mễ Lạc Review",
-      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "playlistUrl": "https://www.youtube.com/playlist?list=PLPDv-BT3TGaA",
-      "totalParts": 4,
-      "partsStr": "4 phần",
-      "totalDurationSec": 46647,
-      "totalDurationStr": "12 giờ 57 phút",
-      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Mùa 6 | Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu ThiênTôi là Diệp Linh Lang, một mai xuyên sách bỗng trở thành nữ phụ pháo hôi chịu cảnh vạn kiếm xuyên tâm trong truyện tu tiên! Để thay đổi kết cục, tôi quyết đoán đá bay nữ chính thiên mệnh, bái nhập vào Thanh Huyền...",
-      "genres": [
-        "Đô thị / Ngôn tình",
-        "Tu tiên / Huyền huyễn"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/chomgfE_5mg/hqdefault.jpg",
-      "parts": [
-        {
-          "index": 1,
-          "label": "Mùa 6",
-          "title": "Mùa 6 | Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu Thiên",
-          "url": "https://www.youtube.com/watch?v=chomgfE_5mg",
-          "id": "chomgfE_5mg",
-          "duration": 11443,
-          "durationStr": "3:10:43",
-          "isRedundant": false,
-          "views": 99460,
-          "likes": 2042,
-          "publishedAt": "2026-09-26T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 2,
-          "label": "Mùa 7",
-          "title": "Mùa 7 | Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu Thiên",
-          "url": "https://www.youtube.com/watch?v=p-uGOcQLkAk",
-          "id": "p-uGOcQLkAk",
-          "duration": 11006,
-          "durationStr": "3:03:26",
-          "isRedundant": false,
-          "views": 104204,
-          "likes": 2099,
-          "publishedAt": "2026-10-07T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 3,
-          "label": "Mùa 8",
-          "title": "Mùa 8 | Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu Thiên",
-          "url": "https://www.youtube.com/watch?v=qvR2Lh9vj8M",
-          "id": "qvR2Lh9vj8M",
-          "duration": 12193,
-          "durationStr": "3:23:13",
-          "isRedundant": false,
-          "views": 90866,
-          "likes": 1611,
-          "publishedAt": "2026-10-25T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 4,
-          "label": "Mùa 9",
-          "title": "Mùa 9 | Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu Thiên",
-          "url": "https://www.youtube.com/watch?v=IFe7eOvM9MQ",
-          "id": "IFe7eOvM9MQ",
-          "duration": 12005,
-          "durationStr": "3:20:05",
-          "isRedundant": false,
-          "publishedAt": "2026-11-10T19:14:30+00:00",
-          "views": 52789,
-          "likes": 1585,
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        }
-      ],
-      "totalViews": 347319,
-      "totalLikes": 7337,
-      "publishedAt": "2026-09-26T00:00:00+00:00",
-      "updatedAt": "2026-11-10T19:14:30+00:00",
-      "isRecent24h": false,
-      "channelIds": [
-        "melacreview"
       ]
     },
     {
