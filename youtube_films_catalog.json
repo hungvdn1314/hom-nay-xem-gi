@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6786,
+    "totalFilms": 6787,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-26T13:15:43.360211+00:00",
+    "lastUpdated": "2026-11-26T13:30:36.640110+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 638
+      "filmCount": 639
     },
     {
       "id": "naophangtutien",
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6789",
+      "title": "15 GIỜ  30 THỎA MÃN | Trọng Sinh Thành Gã Béo 150KG, Ta Thức Tỉnh Hệ Thống Nam Thần Lột Xác!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 55890,
+      "totalDurationStr": "15 giờ 31 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TRỌNG SINH ĐÔ THỊ – TỪ GÃ BÉO 150KG THỨC TỈNH HỆ THỐNG NAM THẦN, LỘT XÁC THÀNH HỌC BÁ! | 15H31** 🔥 **Giang Thần** bất ngờ trọng sinh từ năm 2026 về năm 2016, đúng thời điểm học lớp 12. Trớ trêu thay, hắn lại trở thành gã béo 150KG, vừa bị hoa khôi **Tô Thanh Dao** từ chối tình...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/mSqKjAuY2Fk/hqdefault.jpg",
+      "publishedAt": "2026-11-26T13:30:18+00:00",
+      "updatedAt": "2026-11-26T13:30:18+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "15 GIỜ  30 THỎA MÃN | Trọng Sinh Thành Gã Béo 150KG, Ta Thức Tỉnh Hệ Thống Nam Thần Lột Xác!",
+          "url": "https://www.youtube.com/watch?v=mSqKjAuY2Fk",
+          "id": "mSqKjAuY2Fk",
+          "duration": 55890,
+          "durationStr": "15:31:30",
+          "publishedAt": "2026-11-26T13:30:18+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6788",
       "title": "9 GIỜ | Xuyên Không Cổ Đại: Bị Coi Là Tai Tinh, Ta Đỗ Khoa Cử Trở Thành Thiên Tài Quan Trường!",
