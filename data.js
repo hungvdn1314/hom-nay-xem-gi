@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6838,
+    "totalFilms": 6839,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T14:45:33.739426+00:00",
+    "lastUpdated": "2026-11-27T15:01:09.075212+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 45,
+      "filmCount": 46,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6841",
+      "title": "Trọng Sinh Về Năm 2007: Học Bá Nghịch Tập, Bắt Đầu Con Đường Trở Thành Thiên Tài Nghiên Cứu Khoa Học",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8357,
+      "totalDurationStr": "2 giờ 19 phút",
+      "totalViews": 9,
+      "totalLikes": 0,
+      "review": "🎬 【Trọng Sinh Về Năm 2007: Học Bá Nghịch Tập, Bắt Đầu Con Đường Trở Thành Thiên Tài Nghiên Cứu Khoa Học!】 📚🔬 Bất ngờ trọng sinh trở về năm 2007, nhân vật chính có cơ hội viết lại cuộc đời và thay đổi vận mệnh của mình! Mang theo kiến thức cùng kinh nghiệm từ kiếp trước, anh quyết tâm bước lên con đường học tập và nghiên cứu khoa học. Thay vì chỉ theo...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/tuWgTsIT_3I/hqdefault.jpg",
+      "publishedAt": "2026-11-27T14:44:51+00:00",
+      "updatedAt": "2026-11-27T14:44:51+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trọng Sinh Về Năm 2007: Học Bá Nghịch Tập, Bắt Đầu Con Đường Trở Thành Thiên Tài Nghiên Cứu Khoa Học",
+          "url": "https://www.youtube.com/watch?v=tuWgTsIT_3I",
+          "id": "tuWgTsIT_3I",
+          "duration": 8357,
+          "durationStr": "2:19:17",
+          "publishedAt": "2026-11-27T14:44:51+00:00",
+          "views": 9,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_251",
       "title": "Tụ Bảo Bồn: Cường Hóa Vạn Vật Thành Cực Phẩm, Từ Tu Chân Giới Phi Thăng Tiên Giới",
