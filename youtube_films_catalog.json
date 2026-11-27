@@ -6,7 +6,7 @@
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T04:30:41.924725+00:00",
+    "lastUpdated": "2026-11-27T04:45:34.258518+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -263,8 +263,8 @@
         "Hệ thống / Thức tỉnh"
       ],
       "thumbnail": "https://i.ytimg.com/vi/N0Hx1X_9pYg/hqdefault.jpg",
-      "publishedAt": "2026-11-27T04:30:11.189081+00:00",
-      "updatedAt": "2026-11-27T04:30:11.189081+00:00",
+      "publishedAt": "2026-11-27T04:30:11+00:00",
+      "updatedAt": "2026-11-27T04:30:11+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -275,7 +275,7 @@
           "id": "N0Hx1X_9pYg",
           "duration": 9317,
           "durationStr": "2:35:17",
-          "publishedAt": "2026-11-27T04:30:11.189081+00:00",
+          "publishedAt": "2026-11-27T04:30:11+00:00",
           "views": 0,
           "likes": 0,
           "isRedundant": false
