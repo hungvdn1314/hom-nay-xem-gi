@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6806,
+    "totalFilms": 6808,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T05:01:00.264356+00:00",
+    "lastUpdated": "2026-11-27T05:15:46.248002+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 641
+      "filmCount": 642
     },
     {
       "id": "naophangtutien",
@@ -180,7 +180,7 @@
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 39,
+      "filmCount": 40,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,81 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6809",
+      "title": "6 GIỜ | Đô Thị Siêu Phàm: Thần Minh Không Hồi Đáp, Ta Thức Tỉnh Bóng Đen Bí Ẩn Trấn Áp Quỷ Dị",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **ĐÔ THỊ SIÊU PHÀM – THẦN MINH KHÔNG HỒI ĐÁP CỰU CHÂU, TA TỰ MỞ CON ĐƯỜNG SIÊU PHÀM! | 5H56** ⚔️ **Phương Bạch**, một thiếu niên mồ côi phải tự kiếm sống, bất ngờ bị cuốn vào những sự kiện ô nhiễm quỷ dị. Giữa lúc tính mạng bị đe dọa, hắn phát hiện **cái bóng của mình có thể tự...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/8cdjJkzr94s/hqdefault.jpg",
+      "publishedAt": "2026-11-27T05:15:24+00:00",
+      "updatedAt": "2026-11-27T05:15:24+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "6 GIỜ | Đô Thị Siêu Phàm: Thần Minh Không Hồi Đáp, Ta Thức Tỉnh Bóng Đen Bí Ẩn Trấn Áp Quỷ Dị",
+          "url": "https://www.youtube.com/watch?v=8cdjJkzr94s",
+          "id": "8cdjJkzr94s",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-27T05:15:24+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6810",
+      "title": "【Mùa 1–2】Thần Vực Xâm Lấn: Thành Chủ Đầu Bếp Chuyên Cướp Thiên Phú Của Các Đại Lão!",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 17954,
+      "totalDurationStr": "4 giờ 59 phút",
+      "totalViews": 4,
+      "totalLikes": 0,
+      "review": "🎬 【Mùa 1–2】Thần Vực Xâm Lấn: Thành Chủ Đầu Bếp Chuyên Cướp Thiên Phú Của Các Đại Lão! 🍳⚡ Khi Thần Vực xâm lấn hiện thực, một thời đại đầy biến động chính thức mở ra! Giữa thế giới nơi các cường giả tranh giành tài nguyên và sức mạnh, nhân vật chính lại trở thành một vị Thành Chủ Đầu Bếp vô cùng đặc biệt. Không chỉ sở hữu tài năng nấu nướng, anh còn có...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/Jbfy6BbsODE/hqdefault.jpg",
+      "publishedAt": "2026-11-27T05:07:01+00:00",
+      "updatedAt": "2026-11-27T05:07:01+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Thần Vực Xâm Lấn: Thành Chủ Đầu Bếp Chuyên Cướp Thiên Phú Của Các Đại Lão!",
+          "url": "https://www.youtube.com/watch?v=Jbfy6BbsODE",
+          "id": "Jbfy6BbsODE",
+          "duration": 17954,
+          "durationStr": "4:59:14",
+          "publishedAt": "2026-11-27T05:07:01+00:00",
+          "views": 4,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6808",
       "title": "S1 | Bảo Cậu Vào Phó Bản, Chứ Có Bảo Cậu Làm Đại Ca Đâu | Trùm Phim Sinh Tồn New",
@@ -3867,7 +3942,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/vr8fJAhdJE4/hqdefault.jpg",
       "publishedAt": "2026-11-26T05:12:42+00:00",
       "updatedAt": "2026-11-26T05:12:42+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
