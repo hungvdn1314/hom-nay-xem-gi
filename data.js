@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6819,
+    "totalFilms": 6822,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T10:00:44.084813+00:00",
+    "lastUpdated": "2026-11-27T10:15:48.132645+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,13 +130,13 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 645
+      "filmCount": 646
     },
     {
       "id": "naophangtutien",
       "name": "Não Phẳng Tu Tiên",
       "url": "https://www.youtube.com/@nao-phang",
-      "filmCount": 93
+      "filmCount": 94
     },
     {
       "id": "hoatrenmay3d",
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 41,
+      "filmCount": 42,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,120 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6822",
+      "title": "11 GIỜ 30 THỎA MÃN | Đô Thị Dị Năng: Bị Nữ Sát Thủ Truy Sát, Ta Thức Tỉnh 3 Siêu Năng Lực!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **ĐÔ THỊ DỊ NĂNG – THỨC TỈNH BA SIÊU NĂNG LỰC, TA NHÌN THẤU CẢ TƯƠNG LAI! | 11H31** ⚔️ **Phương Minh**, một sinh viên y khoa nghèo khó, vô tình gặp nữ sát thủ xinh đẹp đang trúng độc. Sau khi cứu cô ta, hắn lại bị truy sát đến mức suýt mất mạng. Không ngờ khi tỉnh dậy, Phương Minh...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/Gr_iZSPpa2Q/hqdefault.jpg",
+      "publishedAt": "2026-11-27T10:15:25+00:00",
+      "updatedAt": "2026-11-27T10:15:25+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "11 GIỜ 30 THỎA MÃN | Đô Thị Dị Năng: Bị Nữ Sát Thủ Truy Sát, Ta Thức Tỉnh 3 Siêu Năng Lực!",
+          "url": "https://www.youtube.com/watch?v=Gr_iZSPpa2Q",
+          "id": "Gr_iZSPpa2Q",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-27T10:15:25+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6824",
+      "title": "【Mùa 1–3】Thương Nhân Xuyên Vạn Giới Giữa Tận Thế: Ta Nắm Giữ Kho Hàng Vạn Giới",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 27806,
+      "totalDurationStr": "7 giờ 43 phút",
+      "totalViews": 0,
+      "totalLikes": 1,
+      "review": "🎬 【Mùa 1–3】Thương Nhân Xuyên Vạn Giới Giữa Tận Thế: Ta Nắm Giữ Kho Hàng Vạn Giới, Làm Chủ Giao Thương Giữa Muôn Ngàn Thế Giới! 🌌💰 Khi tận thế giáng xuống, tài nguyên trở nên khan hiếm và con người phải chật vật tìm cách sinh tồn, nhân vật chính lại sở hữu một cơ duyên nghịch thiên: Kho Hàng Vạn Giới! Với khả năng giao thương giữa muôn ngàn thế giới, anh...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/R9WnP1v0OUs/hqdefault.jpg",
+      "publishedAt": "2026-11-27T10:13:57+00:00",
+      "updatedAt": "2026-11-27T10:13:57+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-3",
+          "title": "【Mùa 1–3】Thương Nhân Xuyên Vạn Giới Giữa Tận Thế: Ta Nắm Giữ Kho Hàng Vạn Giới",
+          "url": "https://www.youtube.com/watch?v=R9WnP1v0OUs",
+          "id": "R9WnP1v0OUs",
+          "duration": 27806,
+          "durationStr": "7:43:26",
+          "publishedAt": "2026-11-27T10:13:57+00:00",
+          "views": 0,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6823",
+      "title": "Phần 3: Phàm Nhân Tu Tiên Ký (Hành Trình Tu Tiên Của Kẻ Hàn Môn)",
+      "channelId": "naophangtutien",
+      "channelName": "Não Phẳng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@nao-phang",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 30043,
+      "totalDurationStr": "8 giờ 20 phút",
+      "totalViews": 53,
+      "totalLikes": 4,
+      "review": "Tên Phim: Hàn Môn Tu Tiên Ký Tên Khác: Phàm Nhân Tu Tiên Ký (Hành Trình Tu Tiên Của Kẻ Hàn Môn) 👉 “Video này chạy bằng cơm với niềm đam mê 🥲 Ai thương thì donate cho ad có động lực tiếp tục nha! Không có gì ngoài lòng biết ơn 🚀” Từ khoá: ✔ Phàm Nhân Bách Thế Thư ✔ Phim Hoạt Hình Trung Quốc ✔ Hoạt Hình 3D ✔ Hoạt Hình Xuyên Không ✔ Hoạt Hình Cổ Trang ✔...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/uUbwOzdE9Bg/hqdefault.jpg",
+      "publishedAt": "2026-11-27T10:07:54+00:00",
+      "updatedAt": "2026-11-27T10:07:54+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 3",
+          "title": "Phần 3: Phàm Nhân Tu Tiên Ký (Hành Trình Tu Tiên Của Kẻ Hàn Môn)",
+          "url": "https://www.youtube.com/watch?v=uUbwOzdE9Bg",
+          "id": "uUbwOzdE9Bg",
+          "duration": 30043,
+          "durationStr": "8:20:43",
+          "publishedAt": "2026-11-27T10:07:54+00:00",
+          "views": 53,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6821",
       "title": "Thức Tỉnh Năng Lực Biến Dị: Thu Phục Quái Vật Bá Chủ Đảo Hoang | Đậu Đậu Vietsub",
