@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6833,
+    "totalFilms": 6834,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T13:00:53.967081+00:00",
+    "lastUpdated": "2026-11-27T13:15:41.761730+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -154,7 +154,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 336
+      "filmCount": 337
     },
     {
       "id": "godsub",
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6836",
+      "title": "|Bị Bạn Gái Chê Nghèo Đòi Chia Tay Tôi Dùng Hệ Thống Biến Cả Nhà Thành Trùm Cuối!   Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9718,
+      "totalDurationStr": "2 giờ 41 phút",
+      "totalViews": 32,
+      "totalLikes": 1,
+      "review": "|Bị Bạn Gái Chê Nghèo Đòi Chia Tay Tôi Dùng Hệ Thống Biến Cả Nhà Thành Trùm Cuối! Đậu Đậu Vietsub 📋 TÓM TẮT : Lâm Vũ dùng hệ thống sửa thân phận biến người nhà thành trùm giàu có, quyền lực, hoàn tiền gấp bội để đổi đời, trả đũa người cũ và phá án hỗ trợ mọi người. 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/Wxf1ojm5NAE/hqdefault.jpg",
+      "publishedAt": "2026-11-27T13:00:36+00:00",
+      "updatedAt": "2026-11-27T13:00:36+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "|Bị Bạn Gái Chê Nghèo Đòi Chia Tay Tôi Dùng Hệ Thống Biến Cả Nhà Thành Trùm Cuối!   Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=Wxf1ojm5NAE",
+          "id": "Wxf1ojm5NAE",
+          "duration": 9718,
+          "durationStr": "2:41:58",
+          "publishedAt": "2026-11-27T13:00:36+00:00",
+          "views": 32,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6834",
       "title": "Full Bộ 01~209 | Thức Tỉnh Ký Ức Tu Tiên Cùng Hệ Thống Hoàn Trả, Khiến Tiên Tử Trúc Cơ Phải Sợ",
