@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6808,
+    "totalFilms": 6809,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T05:30:41.049164+00:00",
+    "lastUpdated": "2026-11-27T05:45:34.608569+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -154,7 +154,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 332
+      "filmCount": 333
     },
     {
       "id": "godsub",
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6811",
+      "title": "Thức Tỉnh Dị Năng Tối Cao  Một Mình Tôi Đập Nát Vùng Đất Hoang Cực Hàn! | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10140,
+      "totalDurationStr": "2 giờ 49 phút",
+      "totalViews": 37,
+      "totalLikes": 4,
+      "review": "Thức Tỉnh Dị Năng Tối Cao Một Mình Tôi Đập Nát Vùng Đất Hoang Cực Hàn! | Đậu Đậu Vietsub 📋 TÓM TẮT : Hạ Ngôn dùng trí tuệ sinh tồn ở Hồng Hoang băng giá, săn thú biến dị, nâng nhà cấp 3, thức dị năng linh hồn rồi bước vào thử thách 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính bạn định...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/TO6cJy89mm4/hqdefault.jpg",
+      "publishedAt": "2026-11-27T05:30:34+00:00",
+      "updatedAt": "2026-11-27T05:30:34+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Thức Tỉnh Dị Năng Tối Cao  Một Mình Tôi Đập Nát Vùng Đất Hoang Cực Hàn! | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=TO6cJy89mm4",
+          "id": "TO6cJy89mm4",
+          "duration": 10140,
+          "durationStr": "2:49:00",
+          "publishedAt": "2026-11-27T05:30:34+00:00",
+          "views": 37,
+          "likes": 4,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6809",
       "title": "6 GIỜ | Đô Thị Siêu Phàm: Thần Minh Không Hồi Đáp, Ta Thức Tỉnh Bóng Đen Bí Ẩn Trấn Áp Quỷ Dị",
