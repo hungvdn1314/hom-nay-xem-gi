@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6796,
+    "totalFilms": 6797,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T01:30:46.664975+00:00",
+    "lastUpdated": "2026-11-27T01:45:59.705138+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -230,7 +230,7 @@ window.FILMS_DATA = {
       "id": "mycherrysub2",
       "name": "Bản Tin Cherry",
       "url": "https://www.youtube.com/@MyCherrySub2",
-      "filmCount": 170,
+      "filmCount": 171,
       "groupId": "group_mycherrysub",
       "groupName": "Hệ Thống MyCherrySub"
     },
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6799",
+      "title": "[Full] Vừa Về Hào Môn Đã Thấy Bố Mẹ Ruột Cưng Chiều Con Kẻ Thù Tôi Lập Tức Đoạn Tuyệt! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 12555,
+      "totalDurationStr": "3 giờ 29 phút",
+      "totalViews": 40,
+      "totalLikes": 7,
+      "review": "📽Phim: [Full] Vừa Về Hào Môn Đã Thấy Bố Mẹ Ruột Cưng Chiều Con Kẻ Thù Tôi Lập Tức Đoạn Tuyệt! | MyCherrySub Tóm tắt: Bị bảo mẫu nhà họ Trần đánh tráo từ nhỏ, Trần Phàm trải qua tuổi thơ địa ngục: bị hành hạ, bỏ đói, đánh gãy chân rồi vứt vào rừng sâu làm mồi cho gấu. May mắn sống sót và tự tay đưa cặp vợ chồng ác quỷ vào tù, cậu được một gia đình bình...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/7pNdbQANDSc/hqdefault.jpg",
+      "publishedAt": "2026-11-27T01:39:33+00:00",
+      "updatedAt": "2026-11-27T01:39:33+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Vừa Về Hào Môn Đã Thấy Bố Mẹ Ruột Cưng Chiều Con Kẻ Thù Tôi Lập Tức Đoạn Tuyệt! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=7pNdbQANDSc",
+          "id": "7pNdbQANDSc",
+          "duration": 12555,
+          "durationStr": "3:29:15",
+          "publishedAt": "2026-11-27T01:39:33+00:00",
+          "views": 40,
+          "likes": 7,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6798",
       "title": "S3 | Mạt Ca – Đại Lộ Siêu Phàm: Quỷ Dị Giáng Lâm | Trùm Phim Sinh Tồn New",
