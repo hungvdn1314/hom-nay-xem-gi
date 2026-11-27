@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6793,
+    "totalFilms": 6794,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T00:15:40.435689+00:00",
+    "lastUpdated": "2026-11-27T00:31:35.509094+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 36,
+      "filmCount": 37,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6796",
+      "title": "P2 |Chuyến Tàu Hoàng Tuyền: Mỗi Nhà Ga Là Một Phó Bản Sinh Tử, Thất Bại Sẽ Không Bao Giờ Được Trở Về",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13739,
+      "totalDurationStr": "3 giờ 48 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Mùa 2 | Chuyến Tàu Hoàng Tuyền: Mỗi Nhà Ga Là Một Phó Bản Sinh Tử, Thất Bại Sẽ Không Bao Giờ Được Trở Về!】 🚂👻 Một chuyến tàu thần bí mang tên Hoàng Tuyền đưa những hành khách bước vào hành trình sinh tồn đầy kinh hoàng! Mỗi khi tàu dừng lại, một phó bản quỷ dị mới lại mở ra với những quy tắc bí ẩn và hiểm nguy khó lường. Muốn tiếp tục hành trình, các...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/P7vLWjPkwL8/hqdefault.jpg",
+      "publishedAt": "2026-11-27T00:17:57+00:00",
+      "updatedAt": "2026-11-27T00:17:57+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "P2 |Chuyến Tàu Hoàng Tuyền: Mỗi Nhà Ga Là Một Phó Bản Sinh Tử, Thất Bại Sẽ Không Bao Giờ Được Trở Về",
+          "url": "https://www.youtube.com/watch?v=P7vLWjPkwL8",
+          "id": "P7vLWjPkwL8",
+          "duration": 13739,
+          "durationStr": "3:48:59",
+          "publishedAt": "2026-11-27T00:17:57+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6795",
       "title": "S1 | Danh Sách Tận Thế: Đoàn Xe Của Tôi Mạnh Hơn Một Chút | Trùm Phim Sinh Tồn New",
