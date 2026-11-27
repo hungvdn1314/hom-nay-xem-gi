@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T02:15:48.428135+00:00",
+    "lastUpdated": "2026-11-27T02:30:48.791680+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -245,6 +245,78 @@ window.FILMS_DATA = {
   ],
   "films": [
     {
+      "id": "film_728",
+      "title": "Cẩm Nang Tự Cứu Của Phản Diện Xuyên Sánh",
+      "channelId": "akatsukireview",
+      "channelIds": [
+        "akatsukireview"
+      ],
+      "channelName": "Akatsuki Review",
+      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
+      "playlistUrl": null,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 32095,
+      "totalDurationStr": "8 giờ 54 phút",
+      "totalViews": 15259,
+      "totalLikes": 11,
+      "review": "",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/eUmiqjEl4NM/hqdefault.jpg",
+      "publishedAt": "2026-10-30T00:00:00+00:00",
+      "updatedAt": "2026-11-27T02:04:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "FullSS1\"1-250\"| Cẩm Nang Tự Cứu Của Phản Diện Xuyên Sánh | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=eUmiqjEl4NM",
+          "id": "eUmiqjEl4NM",
+          "duration": 13110,
+          "durationStr": "3:38:30",
+          "publishedAt": "2026-10-30T00:00:00+00:00",
+          "views": 11000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 2",
+          "title": "Full SS2 | Cẩm Nang Tự Cứu Của Phản Diện Xuyên Sánh | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=-huMvctkoAk",
+          "id": "-huMvctkoAk",
+          "duration": 10003,
+          "durationStr": "2:46:43",
+          "publishedAt": "2026-11-12T00:00:00+00:00",
+          "views": 4200,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 3",
+          "title": "Full SS3 | Cẩm Nang Tự Cứu Của Phản Diện Xuyên Sánh | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=f6pEtTTHsEE",
+          "id": "f6pEtTTHsEE",
+          "duration": 8982,
+          "durationStr": "2:29:42",
+          "publishedAt": "2026-11-27T02:04:22+00:00",
+          "views": 59,
+          "likes": 11,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        }
+      ]
+    },
+    {
       "id": "film_6800",
       "title": "Du Lịch Xuyên Vạn Triều: Tôi Mở Cổng Không Gian, Đưa Các Nhân Vật Lịch Sử Đi Du Lịch Khắp Thời Đại",
       "channelId": "vananhstudio",
@@ -290,8 +362,8 @@ window.FILMS_DATA = {
       "playlistUrl": null,
       "totalParts": 2,
       "partsStr": "2 phần",
-      "totalDurationSec": 37591,
-      "totalDurationStr": "10 giờ 26 phút",
+      "totalDurationSec": 50691,
+      "totalDurationStr": "14 giờ 04 phút",
       "totalViews": 64000,
       "totalLikes": 0,
       "review": "",
@@ -325,8 +397,8 @@ window.FILMS_DATA = {
           "title": "SS3 | Cao Võ: Thức Tỉnh Trảm Long Kiếm SSS, Ta Một Bước Thành Thiên Tài!",
           "url": "https://www.youtube.com/watch?v=q1QQwqs7mBM",
           "id": "q1QQwqs7mBM",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 13100,
+          "durationStr": "3:38:20",
           "publishedAt": "2026-11-27T02:00:31+00:00",
           "views": 0,
           "likes": 0,
@@ -52246,63 +52318,6 @@ window.FILMS_DATA = {
       ],
       "channelIds": [
         "huyensutieumuoi"
-      ]
-    },
-    {
-      "id": "film_728",
-      "title": "Cẩm Nang Tự Cứu Của Phản Diện Xuyên Sánh",
-      "channelId": "akatsukireview",
-      "channelIds": [
-        "akatsukireview"
-      ],
-      "channelName": "Akatsuki Review",
-      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
-      "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 23113,
-      "totalDurationStr": "6 giờ 25 phút",
-      "totalViews": 15200,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Đô thị / Ngôn tình"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/eUmiqjEl4NM/hqdefault.jpg",
-      "publishedAt": "2026-10-30T00:00:00+00:00",
-      "updatedAt": "2026-11-12T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Mùa 1",
-          "title": "FullSS1\"1-250\"| Cẩm Nang Tự Cứu Của Phản Diện Xuyên Sánh | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=eUmiqjEl4NM",
-          "id": "eUmiqjEl4NM",
-          "duration": 13110,
-          "durationStr": "3:38:30",
-          "publishedAt": "2026-10-30T00:00:00+00:00",
-          "views": 11000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        },
-        {
-          "index": 2,
-          "label": "Mùa 2",
-          "title": "Full SS2 | Cẩm Nang Tự Cứu Của Phản Diện Xuyên Sánh | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=-huMvctkoAk",
-          "id": "-huMvctkoAk",
-          "duration": 10003,
-          "durationStr": "2:46:43",
-          "publishedAt": "2026-11-12T00:00:00+00:00",
-          "views": 4200,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        }
       ]
     },
     {
