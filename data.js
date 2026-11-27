@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6804,
+    "totalFilms": 6806,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T04:45:34.258518+00:00",
+    "lastUpdated": "2026-11-27T05:01:00.264356+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -188,7 +188,7 @@ window.FILMS_DATA = {
       "id": "akatsukireview",
       "name": "Akatsuki Review",
       "url": "https://www.youtube.com/@Akatsuki-KT",
-      "filmCount": 123
+      "filmCount": 124
     },
     {
       "id": "mianhstudio",
@@ -202,7 +202,7 @@ window.FILMS_DATA = {
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 314,
+      "filmCount": 315,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -230,7 +230,7 @@ window.FILMS_DATA = {
       "id": "mycherrysub2",
       "name": "Bản Tin Cherry",
       "url": "https://www.youtube.com/@MyCherrySub2",
-      "filmCount": 172,
+      "filmCount": 173,
       "groupId": "group_mycherrysub",
       "groupName": "Hệ Thống MyCherrySub"
     },
@@ -244,6 +244,155 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6808",
+      "title": "S1 | Bảo Cậu Vào Phó Bản, Chứ Có Bảo Cậu Làm Đại Ca Đâu | Trùm Phim Sinh Tồn New",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 18322,
+      "totalDurationStr": "5 giờ 05 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "S1 | Bảo Cậu Vào Phó Bản, Chứ Có Bảo Cậu Làm Đại Ca Đâu | Trùm Phim Sinh Tồn New Khi những người chơi khác bước vào phó bản kinh dị đều run rẩy vì sợ hãi và cố gắng tìm cách sống sót, Trần Kỳ lại xuất hiện với phong thái đầy tự tin. Anh thức tỉnh Hệ Thống Triệu Hồi Đàn Em Quỷ Dị, chỉ cần ra dáng đại ca là có thể trở nên mạnh hơn. Trong khi những người...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/8DvLLaWitSs/hqdefault.jpg",
+      "publishedAt": "2026-11-27T05:00:08+00:00",
+      "updatedAt": "2026-11-27T05:00:08+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S1 | Bảo Cậu Vào Phó Bản, Chứ Có Bảo Cậu Làm Đại Ca Đâu | Trùm Phim Sinh Tồn New",
+          "url": "https://www.youtube.com/watch?v=8DvLLaWitSs",
+          "id": "8DvLLaWitSs",
+          "duration": 18322,
+          "durationStr": "5:05:22",
+          "publishedAt": "2026-11-27T05:00:08+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6807",
+      "title": "Full SS1| Ngày Thứ Một Trăm Triệu Muốn Ở Bên Em | Akatsuki Review",
+      "channelId": "akatsukireview",
+      "channelName": "Akatsuki Review",
+      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7246,
+      "totalDurationStr": "2 giờ 00 phút",
+      "totalViews": 4,
+      "totalLikes": 2,
+      "review": "Chúc mọi người có những phút giây xem phim vui vẻ, nhớ để lại bình luận và cho mình một like + subcribe nhé Mọi Người Ủng Hộ Mình 1 Ly Cafe☕ Để Mình Có Động Lực Làm Video Với Nha🥰🥰🥰 VCB:1026377599",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/Hy1sRKy85AQ/hqdefault.jpg",
+      "publishedAt": "2026-11-27T04:58:05+00:00",
+      "updatedAt": "2026-11-27T04:58:05+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "Full SS1| Ngày Thứ Một Trăm Triệu Muốn Ở Bên Em | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=Hy1sRKy85AQ",
+          "id": "Hy1sRKy85AQ",
+          "duration": 7246,
+          "durationStr": "2:00:46",
+          "publishedAt": "2026-11-27T04:58:05+00:00",
+          "views": 4,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_609",
+      "title": "Xuyên Không Thành Phản Diện, Tôi Điên Cuồng Chiều Chuộng Nữ Chính Để Giữ Mạng",
+      "channelId": "mycherrysub",
+      "channelName": "MyCherrySub",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub",
+      "playlistUrl": null,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 37676,
+      "totalDurationStr": "10 giờ 27 phút",
+      "totalViews": 99024,
+      "totalLikes": 3,
+      "review": "",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/TbU7sfvL3TI/hqdefault.jpg",
+      "publishedAt": "2026-11-03T00:00:00+00:00",
+      "updatedAt": "2026-11-27T04:56:17+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full 1] Xuyên Không Thành Phản Diện, Tôi Điên Cuồng Chiều Chuộng Nữ Chính Để Giữ Mạng | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=TbU7sfvL3TI",
+          "id": "TbU7sfvL3TI",
+          "duration": 15288,
+          "durationStr": "4:14:48",
+          "publishedAt": "2026-11-03T00:00:00+00:00",
+          "views": 62000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "mycherrysub",
+          "channelName": "MyCherrySub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "[Full 2] Xuyên Không Thành Phản Diện, Tôi Điên Cuồng Chiều Chuộng Nữ Chính Để Giữ Mạng | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=EpDkLSf2lIQ",
+          "id": "EpDkLSf2lIQ",
+          "duration": 11962,
+          "durationStr": "3:19:22",
+          "publishedAt": "2026-11-14T09:51:13+00:00",
+          "views": 37000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "mycherrysub",
+          "channelName": "MyCherrySub"
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "[Full 3] Xuyên Không Thành Phản Diện, Tôi Điên Cuồng Chiều Chuộng Nữ Chính Để Giữ Mạng | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=GTq_BhRikzA",
+          "id": "GTq_BhRikzA",
+          "duration": 10426,
+          "durationStr": "2:53:46",
+          "publishedAt": "2026-11-27T04:56:17+00:00",
+          "views": 24,
+          "likes": 3,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
+        }
+      ],
+      "channelIds": [
+        "mycherrysub",
+        "mycherrysub2"
+      ]
+    },
     {
       "id": "film_6806",
       "title": "Full | Tận Thế Đường Ray: Tôi Nâng Cấp Tàu Hỏa Thành Pháo Đài Bọc Thép Càn Quét Vùng Quỷ Vô Tận",
@@ -3756,7 +3905,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i2.ytimg.com/vi/mtri0Rodjag/hqdefault.jpg",
       "publishedAt": "2026-11-26T05:00:32+00:00",
       "updatedAt": "2026-11-26T05:00:32+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3794,7 +3943,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i3.ytimg.com/vi/2f8tcGpOF5Q/hqdefault.jpg",
       "publishedAt": "2026-11-26T05:00:25+00:00",
       "updatedAt": "2026-11-26T05:00:25+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3831,7 +3980,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i3.ytimg.com/vi/R_wDWm_k-IM/hqdefault.jpg",
       "publishedAt": "2026-11-26T05:00:18+00:00",
       "updatedAt": "2026-11-26T05:00:18+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3868,7 +4017,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i3.ytimg.com/vi/BwwqJA8zjzw/hqdefault.jpg",
       "publishedAt": "2026-11-26T04:59:04+00:00",
       "updatedAt": "2026-11-26T04:59:04+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -41704,64 +41853,6 @@ window.FILMS_DATA = {
       "totalLikes": 121,
       "channelIds": [
         "thienphatreview"
-      ]
-    },
-    {
-      "id": "film_609",
-      "title": "Xuyên Không Thành Phản Diện, Tôi Điên Cuồng Chiều Chuộng Nữ Chính Để Giữ Mạng",
-      "channelId": "mycherrysub",
-      "channelName": "MyCherrySub",
-      "channelUrl": "https://www.youtube.com/@MyCherrySub",
-      "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 27250,
-      "totalDurationStr": "7 giờ 34 phút",
-      "totalViews": 99000,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Đô thị / Ngôn tình",
-        "Xuyên không / Trọng sinh"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/TbU7sfvL3TI/hqdefault.jpg",
-      "publishedAt": "2026-11-03T00:00:00+00:00",
-      "updatedAt": "2026-11-14T09:51:13+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "[Full 1] Xuyên Không Thành Phản Diện, Tôi Điên Cuồng Chiều Chuộng Nữ Chính Để Giữ Mạng | MyCherrySub",
-          "url": "https://www.youtube.com/watch?v=TbU7sfvL3TI",
-          "id": "TbU7sfvL3TI",
-          "duration": 15288,
-          "durationStr": "4:14:48",
-          "publishedAt": "2026-11-03T00:00:00+00:00",
-          "views": 62000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "mycherrysub",
-          "channelName": "MyCherrySub"
-        },
-        {
-          "index": 2,
-          "label": "Phần 2",
-          "title": "[Full 2] Xuyên Không Thành Phản Diện, Tôi Điên Cuồng Chiều Chuộng Nữ Chính Để Giữ Mạng | MyCherrySub",
-          "url": "https://www.youtube.com/watch?v=EpDkLSf2lIQ",
-          "id": "EpDkLSf2lIQ",
-          "duration": 11962,
-          "durationStr": "3:19:22",
-          "publishedAt": "2026-11-14T09:51:13+00:00",
-          "views": 37000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "mycherrysub",
-          "channelName": "MyCherrySub"
-        }
-      ],
-      "channelIds": [
-        "mycherrysub"
       ]
     },
     {
