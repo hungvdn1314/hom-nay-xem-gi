@@ -6,7 +6,7 @@
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T21:01:27.749438+00:00",
+    "lastUpdated": "2026-11-27T21:15:55.581476+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -244,6 +244,80 @@
     }
   ],
   "films": [
+    {
+      "id": "film_4319",
+      "title": "Tụ Bảo Tiên Bồn - Ngũ Linh Căn Mới Là BOSS Đích Thực",
+      "channelId": "zzzphim",
+      "channelIds": [
+        "zzzphim",
+        "mycherrysub2"
+      ],
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 67115,
+      "totalDurationStr": "18 giờ 38 phút",
+      "totalViews": 180729,
+      "totalLikes": 568,
+      "review": "",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/pSgu_D39Fco/hqdefault.jpg",
+      "publishedAt": "2026-05-29T00:00:00+00:00",
+      "updatedAt": "2026-11-27T21:05:10+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 4",
+          "title": "Tụ Bảo Tiên Bồn -  Ngũ Linh Căn Mới Là BOSS Đích Thực| Mùa 4",
+          "url": "https://www.youtube.com/watch?v=pSgu_D39Fco",
+          "id": "pSgu_D39Fco",
+          "duration": 16755,
+          "durationStr": "4:39:15",
+          "publishedAt": "2026-05-29T00:00:00+00:00",
+          "views": 125000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "zzzphim",
+          "channelName": "Zzzphim"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 12",
+          "title": "Trọn Bộ Mùa 12 | Tụ Bảo Tiên Bồn - Ngũ Linh Căn Mới Là BOSS Đích Thực | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=fS4mHf9mVH0",
+          "id": "fS4mHf9mVH0",
+          "duration": 26934,
+          "durationStr": "7:28:54",
+          "publishedAt": "2026-09-25T00:00:00+00:00",
+          "views": 55713,
+          "likes": 566,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 17",
+          "title": "Trọn Bộ Mùa 17 | Tụ Bảo Tiên Bồn - Ngũ Linh Căn Mới Là BOSS Đích Thực | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=DKRH9JywuCw",
+          "id": "DKRH9JywuCw",
+          "duration": 23426,
+          "durationStr": "6:30:26",
+          "publishedAt": "2026-11-27T21:05:10+00:00",
+          "views": 16,
+          "likes": 2,
+          "isRedundant": false,
+          "channelId": "mycherrysub2",
+          "channelName": "Bản Tin Cherry"
+        }
+      ]
+    },
     {
       "id": "film_684",
       "title": "Tụ Bảo Tiên Bồn: Tạp Linh Căn Mới Là BOSS Thật Sự",
@@ -152221,65 +152295,6 @@
       "isRecent24h": false,
       "channelIds": [
         "thienanhstudio9"
-      ]
-    },
-    {
-      "id": "film_4319",
-      "title": "Tụ Bảo Tiên Bồn - Ngũ Linh Căn Mới Là BOSS Đích Thực",
-      "channelId": "zzzphim",
-      "channelIds": [
-        "zzzphim",
-        "mycherrysub2"
-      ],
-      "channelName": "Zzzphim",
-      "channelUrl": "https://www.youtube.com/@Zzzphim",
-      "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 43689,
-      "totalDurationStr": "12 giờ 08 phút",
-      "totalViews": 180713,
-      "totalLikes": 566,
-      "review": "",
-      "genres": [
-        "Tu tiên / Huyền huyễn",
-        "Trò chơi / Phó bản"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/pSgu_D39Fco/hqdefault.jpg",
-      "publishedAt": "2026-05-29T00:00:00+00:00",
-      "updatedAt": "2026-09-25T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Mùa 4",
-          "title": "Tụ Bảo Tiên Bồn -  Ngũ Linh Căn Mới Là BOSS Đích Thực| Mùa 4",
-          "url": "https://www.youtube.com/watch?v=pSgu_D39Fco",
-          "id": "pSgu_D39Fco",
-          "duration": 16755,
-          "durationStr": "4:39:15",
-          "publishedAt": "2026-05-29T00:00:00+00:00",
-          "views": 125000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "zzzphim",
-          "channelName": "Zzzphim"
-        },
-        {
-          "index": 2,
-          "label": "Mùa 12",
-          "title": "Trọn Bộ Mùa 12 | Tụ Bảo Tiên Bồn - Ngũ Linh Căn Mới Là BOSS Đích Thực | MyCherrySub",
-          "url": "https://www.youtube.com/watch?v=fS4mHf9mVH0",
-          "id": "fS4mHf9mVH0",
-          "duration": 26934,
-          "durationStr": "7:28:54",
-          "publishedAt": "2026-09-25T00:00:00+00:00",
-          "views": 55713,
-          "likes": 566,
-          "isRedundant": false,
-          "channelId": "mycherrysub2",
-          "channelName": "Bản Tin Cherry"
-        }
       ]
     },
     {
