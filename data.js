@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6800,
+    "totalFilms": 6802,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T03:31:35.418789+00:00",
+    "lastUpdated": "2026-11-27T03:45:38.887161+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -154,7 +154,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 330
+      "filmCount": 331
     },
     {
       "id": "godsub",
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 38,
+      "filmCount": 39,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,82 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6803",
+      "title": "Võ Hồn Cấp D Phế Vật Lật Kèo Cấp S Từ Kẻ Bị Coi Thường Thành Chiến Thần Tiền Tuyến | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11394,
+      "totalDurationStr": "3 giờ 09 phút",
+      "totalViews": 13,
+      "totalLikes": 1,
+      "review": "Võ Hồn Cấp D Phế Vật Lật Kèo Cấp S Từ Kẻ Bị Coi Thường Thành Chiến Thần Tiền Tuyến | Đậu Đậu Vietsub 📋 TÓM TẮT : Sở Uyên mang võ hồn Trảm Phách Đao bị coi là phế vật cấp D, lật ngược thế cờ nhờ đánh thức đao linh, vượt thú triều sinh tử và trở thành chỉ huy tiền tuyến. 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt,...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/dAJvuOSO1fg/hqdefault.jpg",
+      "publishedAt": "2026-11-27T03:39:26+00:00",
+      "updatedAt": "2026-11-27T03:39:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Võ Hồn Cấp D Phế Vật Lật Kèo Cấp S Từ Kẻ Bị Coi Thường Thành Chiến Thần Tiền Tuyến | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=dAJvuOSO1fg",
+          "id": "dAJvuOSO1fg",
+          "duration": 11394,
+          "durationStr": "3:09:54",
+          "publishedAt": "2026-11-27T03:39:26+00:00",
+          "views": 13,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6804",
+      "title": "【Mùa 1–2】Trò Chơi Nhà Tù: Cuộc Chiến Sinh Tồn Trong Ngục Tối!",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 17685,
+      "totalDurationStr": "4 giờ 54 phút",
+      "totalViews": 5,
+      "totalLikes": 0,
+      "review": "🎬 【Mùa 1–2】Trò Chơi Nhà Tù: Cuộc Chiến Sinh Tồn Trong Ngục Tối! ⛓️💀 Bị cuốn vào một trò chơi nhà tù đầy bí ẩn, nhân vật chính phải đối mặt với cuộc chiến sinh tồn khắc nghiệt giữa chốn ngục tối đáng sợ! Nơi đây không chỉ giam cầm thể xác mà còn thử thách trí tuệ, lòng dũng cảm và khả năng phán đoán của mỗi người. Giữa những âm mưu, cạm bẫy và hiểm nguy...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/GqZzfXaI_o4/hqdefault.jpg",
+      "publishedAt": "2026-11-27T03:35:52+00:00",
+      "updatedAt": "2026-11-27T03:35:52+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1–2】Trò Chơi Nhà Tù: Cuộc Chiến Sinh Tồn Trong Ngục Tối!",
+          "url": "https://www.youtube.com/watch?v=GqZzfXaI_o4",
+          "id": "GqZzfXaI_o4",
+          "duration": 17685,
+          "durationStr": "4:54:45",
+          "publishedAt": "2026-11-27T03:35:52+00:00",
+          "views": 5,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_108",
       "title": "Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
