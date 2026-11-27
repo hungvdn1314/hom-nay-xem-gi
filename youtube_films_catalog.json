@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6822,
+    "totalFilms": 6823,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T10:15:48.132645+00:00",
+    "lastUpdated": "2026-11-27T10:30:46.702204+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -74,7 +74,7 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 331
+      "filmCount": 332
     },
     {
       "id": "gianhireview",
@@ -245,6 +245,44 @@
   ],
   "films": [
     {
+      "id": "film_6825",
+      "title": "Xuyên Không Thành Phò Mã Của Cao Dương Công Chúa, Việc Đầu Tiên Lại Là Đòi Ly Hôn!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9969,
+      "totalDurationStr": "2 giờ 46 phút",
+      "totalViews": 31,
+      "totalLikes": 1,
+      "review": "Xuyên Không Thành Phò Mã Của Cao Dương Công Chúa, Việc Đầu Tiên Lại Là Đòi Ly Hôn!",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/YkarTtnY2W4/hqdefault.jpg",
+      "publishedAt": "2026-11-27T10:16:10+00:00",
+      "updatedAt": "2026-11-27T10:16:10+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Thành Phò Mã Của Cao Dương Công Chúa, Việc Đầu Tiên Lại Là Đòi Ly Hôn!",
+          "url": "https://www.youtube.com/watch?v=YkarTtnY2W4",
+          "id": "YkarTtnY2W4",
+          "duration": 9969,
+          "durationStr": "2:46:09",
+          "publishedAt": "2026-11-27T10:16:10+00:00",
+          "views": 31,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_6822",
       "title": "11 GIỜ 30 THỎA MÃN | Đô Thị Dị Năng: Bị Nữ Sát Thủ Truy Sát, Ta Thức Tỉnh 3 Siêu Năng Lực!",
       "channelId": "2ksub",
@@ -253,8 +291,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 41518,
+      "totalDurationStr": "11 giờ 31 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **ĐÔ THỊ DỊ NĂNG – THỨC TỈNH BA SIÊU NĂNG LỰC, TA NHÌN THẤU CẢ TƯƠNG LAI! | 11H31** ⚔️ **Phương Minh**, một sinh viên y khoa nghèo khó, vô tình gặp nữ sát thủ xinh đẹp đang trúng độc. Sau khi cứu cô ta, hắn lại bị truy sát đến mức suýt mất mạng. Không ngờ khi tỉnh dậy, Phương Minh...",
@@ -273,8 +311,8 @@
           "title": "11 GIỜ 30 THỎA MÃN | Đô Thị Dị Năng: Bị Nữ Sát Thủ Truy Sát, Ta Thức Tỉnh 3 Siêu Năng Lực!",
           "url": "https://www.youtube.com/watch?v=Gr_iZSPpa2Q",
           "id": "Gr_iZSPpa2Q",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 41518,
+          "durationStr": "11:31:58",
           "publishedAt": "2026-11-27T10:15:25+00:00",
           "views": 0,
           "likes": 0,
