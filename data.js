@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6831,
+    "totalFilms": 6833,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T12:15:38.615208+00:00",
+    "lastUpdated": "2026-11-27T12:30:39.960691+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -124,13 +124,13 @@ window.FILMS_DATA = {
       "id": "huyensutieumuoi",
       "name": "Huyền Sư Tiểu Muội",
       "url": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
-      "filmCount": 51
+      "filmCount": 52
     },
     {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 647
+      "filmCount": 648
     },
     {
       "id": "naophangtutien",
@@ -244,6 +244,140 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6834",
+      "title": "Full Bộ 01~209 | Thức Tỉnh Ký Ức Tu Tiên Cùng Hệ Thống Hoàn Trả, Khiến Tiên Tử Trúc Cơ Phải Sợ",
+      "channelId": "huyensutieumuoi",
+      "channelName": "Huyền Sư Tiểu Muội",
+      "channelUrl": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13933,
+      "totalDurationStr": "3 giờ 52 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Tận thế ập đến, Trần Phàm bị khóa trên sân thượng bỗng thức tỉnh ký ức tu tiên cùng hệ thống hoàn trả gấp bội. Anh thu phục nữ giám đốc tang thi Lâm Mạn Vi, rèn phi kiếm Huyền Ô, quét sạch kẻ thù và khiến tiên tử Trúc Cơ phải cúi đầu cầu cứu. 🔔 Nhấn chuông thông báo để không bỏ lỡ các tập phim kỳ ảo, tu chân và đô thị dị năng mới nhất mỗi ngày. ❖ Thể...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/CCJRucMWtxk/hqdefault.jpg",
+      "publishedAt": "2026-11-27T12:30:04+00:00",
+      "updatedAt": "2026-11-27T12:30:04+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Bộ 01~209 | Thức Tỉnh Ký Ức Tu Tiên Cùng Hệ Thống Hoàn Trả, Khiến Tiên Tử Trúc Cơ Phải Sợ",
+          "url": "https://www.youtube.com/watch?v=CCJRucMWtxk",
+          "id": "CCJRucMWtxk",
+          "duration": 13933,
+          "durationStr": "3:52:13",
+          "publishedAt": "2026-11-27T12:30:04+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_175",
+      "title": "P1, Xuyên Vào Game Làm Boss Vong Linh, Thiếu Niên Dùng Mưu Trí Và Sức Mạnh Xây Dựng Đế Chế Ma Tộc",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 17353,
+      "totalDurationStr": "4 giờ 49 phút",
+      "totalViews": 40,
+      "totalLikes": 4,
+      "review": "",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/P-MvBf9tPmw/hqdefault.jpg",
+      "publishedAt": "2026-11-21T05:28:56+00:00",
+      "updatedAt": "2026-11-27T12:18:00+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "P1, Xuyên Vào Game Làm Boss Vong Linh, Thiếu Niên Dùng Mưu Trí Và Sức Mạnh Xây Dựng Đế Chế Ma Tộc",
+          "url": "https://www.youtube.com/watch?v=P-MvBf9tPmw",
+          "id": "P-MvBf9tPmw",
+          "duration": 8378,
+          "durationStr": "2:19:38",
+          "publishedAt": "2026-11-21T05:28:56+00:00",
+          "views": 4,
+          "likes": 3,
+          "isRedundant": false,
+          "channelId": "hh3dtrungquoc",
+          "channelName": "Anime 3D Trung Quốc"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "P2, Xuyên Vào Game Làm Boss Vong Linh, Thiếu Niên Dùng Mưu Trí Và Sức Mạnh Xây Dựng Đế Chế Ma Tộc",
+          "url": "https://www.youtube.com/watch?v=y1s6zsSdvLI",
+          "id": "y1s6zsSdvLI",
+          "duration": 8975,
+          "durationStr": "2:29:35",
+          "publishedAt": "2026-11-27T12:18:00+00:00",
+          "views": 36,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "hh3dtrungquoc",
+          "channelName": "Anime 3D Trung Quốc"
+        }
+      ],
+      "channelIds": [
+        "hh3dtrungquoc"
+      ]
+    },
+    {
+      "id": "film_6835",
+      "title": "13 GIỜ THỎA MÃN | Xuyên Không Học Đường: Ta Biến Trường Bét Bảng Thành Thần Trường!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 46921,
+      "totalDurationStr": "13 giờ 02 phút",
+      "totalViews": 220,
+      "totalLikes": 24,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: XUYÊN KHÔNG HỌC ĐƯỜNG: TA BIẾN TRƯỜNG BÉT BẢNG THÀNH THẦN TRƯỜNG! | 13H01 🏫 Một ngày nọ, nam chính bất ngờ xuyên không trở thành hiệu trưởng của Trường Trung Học Số 48 — ngôi trường vốn đội sổ, cơ sở vật chất xuống cấp, học sinh rệu rã và bị tất cả xem là “hết cứu”. 💰 Nhưng mọi...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/k_54rEuMo3Q/hqdefault.jpg",
+      "publishedAt": "2026-11-27T12:15:38+00:00",
+      "updatedAt": "2026-11-27T12:15:38+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "13 GIỜ THỎA MÃN | Xuyên Không Học Đường: Ta Biến Trường Bét Bảng Thành Thần Trường!",
+          "url": "https://www.youtube.com/watch?v=k_54rEuMo3Q",
+          "id": "k_54rEuMo3Q",
+          "duration": 46921,
+          "durationStr": "13:02:01",
+          "publishedAt": "2026-11-27T12:15:38+00:00",
+          "views": 220,
+          "likes": 24,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6833",
       "title": "Xuyên Không Thành Thiên Kim Ốm Yếu, Bách Quỷ Nhường Đường Ép Cô Thành Thần!",
@@ -3966,7 +4100,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i2.ytimg.com/vi/amnf8T18wJo/hqdefault.jpg",
       "publishedAt": "2026-11-26T12:15:59+00:00",
       "updatedAt": "2026-11-26T12:15:59+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -18350,49 +18484,6 @@ window.FILMS_DATA = {
       ],
       "channelIds": [
         "hoatrenmay3d"
-      ]
-    },
-    {
-      "id": "film_175",
-      "title": "P1, Xuyên Vào Game Làm Boss Vong Linh, Thiếu Niên Dùng Mưu Trí Và Sức Mạnh Xây Dựng Đế Chế Ma Tộc",
-      "channelId": "hh3dtrungquoc",
-      "channelName": "Anime 3D Trung Quốc",
-      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 8378,
-      "totalDurationStr": "2 giờ 19 phút",
-      "totalViews": 4,
-      "totalLikes": 3,
-      "review": "",
-      "genres": [
-        "Trò chơi / Phó bản",
-        "Xuyên không / Trọng sinh"
-      ],
-      "thumbnail": "https://i1.ytimg.com/vi/P-MvBf9tPmw/hqdefault.jpg",
-      "publishedAt": "2026-11-21T05:28:56+00:00",
-      "updatedAt": "2026-11-21T05:28:56+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "P1, Xuyên Vào Game Làm Boss Vong Linh, Thiếu Niên Dùng Mưu Trí Và Sức Mạnh Xây Dựng Đế Chế Ma Tộc",
-          "url": "https://www.youtube.com/watch?v=P-MvBf9tPmw",
-          "id": "P-MvBf9tPmw",
-          "duration": 8378,
-          "durationStr": "2:19:38",
-          "publishedAt": "2026-11-21T05:28:56+00:00",
-          "views": 4,
-          "likes": 3,
-          "isRedundant": false,
-          "channelId": "hh3dtrungquoc",
-          "channelName": "Anime 3D Trung Quốc"
-        }
-      ],
-      "channelIds": [
-        "hh3dtrungquoc"
       ]
     },
     {
