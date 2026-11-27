@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6818,
+    "totalFilms": 6819,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T09:45:38.778426+00:00",
+    "lastUpdated": "2026-11-27T10:00:44.084813+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -154,7 +154,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 333
+      "filmCount": 334
     },
     {
       "id": "godsub",
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6821",
+      "title": "Thức Tỉnh Năng Lực Biến Dị: Thu Phục Quái Vật Bá Chủ Đảo Hoang | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9353,
+      "totalDurationStr": "2 giờ 35 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Thức Tỉnh Năng Lực Biến Dị: Thu Phục Quái Vật Bá Chủ Đảo Hoang | Đậu Đậu Vietsub 📋 TÓM TẮT : Tần Thiên biến dị sau tai nạn máy bay rơi xuống đảo hoang, xây căn cứ, thu phục quái vật, chống lại kẻ ích kỷ và âm mưu vu khống 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính bạn định nghĩa. Giữ...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/JdK80yGuYxU/hqdefault.jpg",
+      "publishedAt": "2026-11-27T10:00:20+00:00",
+      "updatedAt": "2026-11-27T10:00:20+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Thức Tỉnh Năng Lực Biến Dị: Thu Phục Quái Vật Bá Chủ Đảo Hoang | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=JdK80yGuYxU",
+          "id": "JdK80yGuYxU",
+          "duration": 9353,
+          "durationStr": "2:35:53",
+          "publishedAt": "2026-11-27T10:00:20+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6820",
       "title": "Full SS1 | Tại Sao Chị Khóa Trên Thanh Mai Trúc Mã Của Tôi Lại Như Thế Này? | Akatsuki Review",
@@ -3924,7 +3962,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i1.ytimg.com/vi/DpNx1LO31-s/hqdefault.jpg",
       "publishedAt": "2026-11-26T10:00:14+00:00",
       "updatedAt": "2026-11-26T10:00:14+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3962,7 +4000,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i2.ytimg.com/vi/e17SmHrrJ6U/hqdefault.jpg",
       "publishedAt": "2026-11-26T09:56:49+00:00",
       "updatedAt": "2026-11-26T09:56:49+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
