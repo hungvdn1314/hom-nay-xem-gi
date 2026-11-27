@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6812,
+    "totalFilms": 6813,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T09:00:50.492439+00:00",
+    "lastUpdated": "2026-11-27T09:15:38.762084+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -202,7 +202,7 @@
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 316,
+      "filmCount": 317,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6815",
+      "title": "S1 | Từ Cổ Đại Đến Hiện Đại: Tôi Trở Thành Thiếu Nữ Hào Môn Bị Xa Lánh | Trùm Phim Sinh Tồn New",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 23724,
+      "totalDurationStr": "6 giờ 35 phút",
+      "totalViews": 26,
+      "totalLikes": 1,
+      "review": "S1 | Từ Cổ Đại Đến Hiện Đại: Tôi Trở Thành Thiếu Nữ Hào Môn Bị Xa Lánh | Trùm Phim Sinh Tồn New Phim: Từ Cổ Đại Đến Hiện Đại: Cô Dựa Vào Tu Tiên Để Sống Phong Sinh Thủy Khởi. Văn Thiển vốn là một cường giả tu hành ở dị giới, bất ngờ hồn xuyên vào thân xác một thiếu nữ bị xa lánh trong gia đình hào môn thời hiện đại. Đối mặt với sự thờ ơ của người thân và...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/CPg58MHWAb0/hqdefault.jpg",
+      "publishedAt": "2026-11-27T09:00:16+00:00",
+      "updatedAt": "2026-11-27T09:00:16+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S1 | Từ Cổ Đại Đến Hiện Đại: Tôi Trở Thành Thiếu Nữ Hào Môn Bị Xa Lánh | Trùm Phim Sinh Tồn New",
+          "url": "https://www.youtube.com/watch?v=CPg58MHWAb0",
+          "id": "CPg58MHWAb0",
+          "duration": 23724,
+          "durationStr": "6:35:24",
+          "publishedAt": "2026-11-27T09:00:16+00:00",
+          "views": 26,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6814",
       "title": "18 GIỜ 50 THỎA MÃN | Xuyên Không Thành Công Tử Si Tình, Ta Dùng Mưu Kế Xoay Chuyển Triều Đình!",
