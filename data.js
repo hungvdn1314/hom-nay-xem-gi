@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6828,
+    "totalFilms": 6830,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T11:45:44.317710+00:00",
+    "lastUpdated": "2026-11-27T12:00:50.682402+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -154,7 +154,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 335
+      "filmCount": 336
     },
     {
       "id": "godsub",
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 43,
+      "filmCount": 44,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,155 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6831",
+      "title": "Thức Tỉnh Hệ Thống Nghề Nghiệp: Từ Đầu Bếp Đêm Đến Kỵ Sĩ Chân Long | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10066,
+      "totalDurationStr": "2 giờ 47 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Thức Tỉnh Hệ Thống Nghề Nghiệp: Từ Đầu Bếp Đêm Đến Kỵ Sĩ Chân Long | Đậu Đậu Vietsub 📋 TÓM TẮT : Trần Phong dùng hệ thống làm Thần Trù, Quỷ Sai, Hextech, Kỵ Sĩ; thắng Kính Thế Giới thực hiện nguyện vọng cho các đồng đội rồi trở về trường học 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/j9ZnuvvLJg0/hqdefault.jpg",
+      "publishedAt": "2026-11-27T12:00:27+00:00",
+      "updatedAt": "2026-11-27T12:00:27+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Thức Tỉnh Hệ Thống Nghề Nghiệp: Từ Đầu Bếp Đêm Đến Kỵ Sĩ Chân Long | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=j9ZnuvvLJg0",
+          "id": "j9ZnuvvLJg0",
+          "duration": 10066,
+          "durationStr": "2:47:46",
+          "publishedAt": "2026-11-27T12:00:27+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_2664",
+      "title": "Trò Chơi Sinh Tồn Phế Tích: Vừa Xuyên Không Đã Gặp Quái Vật, Ta Liều Mạng Xây Căn Cứ",
+      "channelId": "thienphatreview",
+      "channelName": "Thiên Phạt Review",
+      "channelUrl": "https://www.youtube.com/@thienphatreview",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLOjy3w1l1L4U",
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 25122,
+      "totalDurationStr": "6 giờ 58 phút",
+      "review": "Vừa Xuyên Không Đã Gặp Quái Vật, Ta Liều Mạng Xây Căn Cứ",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/5-iu86oXGJk/hqdefault.jpg",
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trò Chơi Sinh Tồn Phế Tích: Vừa Xuyên Không Đã Gặp Quái Vật, Ta Liều Mạng Xây Căn Cứ",
+          "url": "https://www.youtube.com/watch?v=5-iu86oXGJk",
+          "id": "5-iu86oXGJk",
+          "duration": 11336,
+          "durationStr": "3:08:56",
+          "isRedundant": false,
+          "views": 65630,
+          "likes": 400,
+          "publishedAt": "2026-09-17T00:00:00+00:00",
+          "channelId": "thienphatreview",
+          "channelName": "Thiên Phạt Review"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Phần 2 | Trò Chơi Sinh Tồn Phế Tích: Vừa Xuyên Không Đã Gặp Quái Vật, Ta Liều Mạng Xây Căn Cứ",
+          "url": "https://www.youtube.com/watch?v=0iGT7RmZ_Xw",
+          "id": "0iGT7RmZ_Xw",
+          "duration": 6969,
+          "durationStr": "1:56:09",
+          "isRedundant": false,
+          "views": 12142,
+          "likes": 106,
+          "publishedAt": "2026-10-01T00:00:00+00:00",
+          "channelId": "thienphatreview",
+          "channelName": "Thiên Phạt Review"
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Phần 3 | Trò Chơi Sinh Tồn Phế Tích: Vừa Xuyên Không Đã Gặp Quái Vật, Ta Liều Mạng Xây Căn Cứ",
+          "url": "https://www.youtube.com/watch?v=K38T-axFp7E",
+          "id": "K38T-axFp7E",
+          "duration": 6817,
+          "durationStr": "1:53:37",
+          "publishedAt": "2026-11-27T12:00:05+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "thienphatreview",
+          "channelName": "Thiên Phạt Review"
+        }
+      ],
+      "totalViews": 77772,
+      "totalLikes": 506,
+      "publishedAt": "2026-09-17T00:00:00+00:00",
+      "updatedAt": "2026-11-27T12:00:05+00:00",
+      "isRecent24h": true,
+      "channelIds": [
+        "thienphatreview"
+      ]
+    },
+    {
+      "id": "film_6832",
+      "title": "【Mùa 3 | Mất Tích 5 Năm, Tôi Trở Thành Chúa Tể Phó Bản Quỷ Dị!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10255,
+      "totalDurationStr": "2 giờ 50 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Mùa 3 | Mất Tích 5 Năm, Tôi Trở Thành Chúa Tể Phó Bản Quỷ Dị!】 👻🔥 Sau 5 năm mất tích đầy bí ẩn, nhân vật chính bất ngờ trở lại với thân phận khiến tất cả phải kinh ngạc: Chúa Tể Phó Bản Quỷ Dị! Trong khi những người chơi khác phải liều mạng tìm kiếm manh mối, tuân thủ quy tắc và vượt qua những thử thách sinh tử, anh lại đứng ở một vị thế hoàn toàn...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/gADESQ-tnMo/hqdefault.jpg",
+      "publishedAt": "2026-11-27T11:59:17+00:00",
+      "updatedAt": "2026-11-27T11:59:17+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 3",
+          "title": "【Mùa 3 | Mất Tích 5 Năm, Tôi Trở Thành Chúa Tể Phó Bản Quỷ Dị!】",
+          "url": "https://www.youtube.com/watch?v=gADESQ-tnMo",
+          "id": "gADESQ-tnMo",
+          "duration": 10255,
+          "durationStr": "2:50:55",
+          "publishedAt": "2026-11-27T11:59:17+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6830",
       "title": "Full SS1| Trở Lại Mùa Hè: Cô Bạn Thanh Mai Của Tôi Có Chút Ngọt Ngào | Akatsuki Review",
@@ -3854,7 +4003,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i1.ytimg.com/vi/4KdB5V8WFgs/hqdefault.jpg",
       "publishedAt": "2026-11-26T12:00:32+00:00",
       "updatedAt": "2026-11-26T12:00:32+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3939,7 +4088,7 @@ window.FILMS_DATA = {
       "totalLikes": 1267,
       "publishedAt": "2026-09-28T00:00:00+00:00",
       "updatedAt": "2026-11-26T12:00:15+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "channelIds": [
         "thienphatreview"
       ]
@@ -3965,7 +4114,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i2.ytimg.com/vi/QJybmzHAywI/hqdefault.jpg",
       "publishedAt": "2026-11-26T12:00:11+00:00",
       "updatedAt": "2026-11-26T12:00:11+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -145220,64 +145369,6 @@ window.FILMS_DATA = {
       "isRecent24h": false,
       "channelIds": [
         "tieuho_review"
-      ]
-    },
-    {
-      "id": "film_2664",
-      "title": "Trò Chơi Sinh Tồn Phế Tích: Vừa Xuyên Không Đã Gặp Quái Vật, Ta Liều Mạng Xây Căn Cứ",
-      "channelId": "thienphatreview",
-      "channelName": "Thiên Phạt Review",
-      "channelUrl": "https://www.youtube.com/@thienphatreview",
-      "playlistUrl": "https://www.youtube.com/playlist?list=PLOjy3w1l1L4U",
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 18305,
-      "totalDurationStr": "5 giờ 05 phút",
-      "review": "Vừa Xuyên Không Đã Gặp Quái Vật, Ta Liều Mạng Xây Căn Cứ",
-      "genres": [
-        "Sinh tồn / Mạt thế",
-        "Trò chơi / Phó bản"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/5-iu86oXGJk/hqdefault.jpg",
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "Trò Chơi Sinh Tồn Phế Tích: Vừa Xuyên Không Đã Gặp Quái Vật, Ta Liều Mạng Xây Căn Cứ",
-          "url": "https://www.youtube.com/watch?v=5-iu86oXGJk",
-          "id": "5-iu86oXGJk",
-          "duration": 11336,
-          "durationStr": "3:08:56",
-          "isRedundant": false,
-          "views": 65630,
-          "likes": 400,
-          "publishedAt": "2026-09-17T00:00:00+00:00",
-          "channelId": "thienphatreview",
-          "channelName": "Thiên Phạt Review"
-        },
-        {
-          "index": 2,
-          "label": "Phần 2",
-          "title": "Phần 2 | Trò Chơi Sinh Tồn Phế Tích: Vừa Xuyên Không Đã Gặp Quái Vật, Ta Liều Mạng Xây Căn Cứ",
-          "url": "https://www.youtube.com/watch?v=0iGT7RmZ_Xw",
-          "id": "0iGT7RmZ_Xw",
-          "duration": 6969,
-          "durationStr": "1:56:09",
-          "isRedundant": false,
-          "views": 12142,
-          "likes": 106,
-          "publishedAt": "2026-10-01T00:00:00+00:00",
-          "channelId": "thienphatreview",
-          "channelName": "Thiên Phạt Review"
-        }
-      ],
-      "totalViews": 77772,
-      "totalLikes": 506,
-      "publishedAt": "2026-09-17T00:00:00+00:00",
-      "updatedAt": "2026-10-01T00:00:00+00:00",
-      "isRecent24h": false,
-      "channelIds": [
-        "thienphatreview"
       ]
     },
     {
