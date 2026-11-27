@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6798,
+    "totalFilms": 6799,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T02:45:36.373176+00:00",
+    "lastUpdated": "2026-11-27T03:00:44.771486+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -202,7 +202,7 @@ window.FILMS_DATA = {
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 313,
+      "filmCount": 314,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,102 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6801",
+      "title": "S2 | Sinh Tồn Tận Thế: Chỉ Cần Cô Ấy Lấy Tôi Là Có Thể Trở Về Nhà | Trùm Phim Sinh Tồn New",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9548,
+      "totalDurationStr": "2 giờ 39 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "S2 | Sinh Tồn Tận Thế: Chỉ Cần Cô Ấy Lấy Tôi Là Có Thể Trở Về Nhà | Trùm Phim Sinh Tồn New Một trò chơi sinh tồn tận thế đưa toàn bộ nam giới độc thân trên thế giới vào vùng đất hoang tàn, ghép cặp bạn đồng hành và yêu cầu họ vượt qua những tàn tích đầy quái vật để đến đích. Người hoàn thành trò chơi có thể mang năng lực trở về thế giới thực. Giang Trần...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/Fu1eCj0zTFY/hqdefault.jpg",
+      "publishedAt": "2026-11-27T03:00:28+00:00",
+      "updatedAt": "2026-11-27T03:00:28+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S2 | Sinh Tồn Tận Thế: Chỉ Cần Cô Ấy Lấy Tôi Là Có Thể Trở Về Nhà | Trùm Phim Sinh Tồn New",
+          "url": "https://www.youtube.com/watch?v=Fu1eCj0zTFY",
+          "id": "Fu1eCj0zTFY",
+          "duration": 9548,
+          "durationStr": "2:39:08",
+          "publishedAt": "2026-11-27T03:00:28+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_154",
+      "title": "Toàn Dân Chuyển Chức, Nam Chính Hóa Mỹ Nữ Sở Hữu Hỏa Lực Vô Hạn!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 74848,
+      "totalDurationStr": "20 giờ 47 phút",
+      "totalViews": 19000,
+      "totalLikes": 0,
+      "review": "",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/0_TdGO5XlS4/hqdefault.jpg",
+      "publishedAt": "2026-11-20T00:00:00+00:00",
+      "updatedAt": "2026-11-27T03:00:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "17 GIỜ THỎA MÃN | Toàn Dân Chuyển Chức, Nam Chính Hóa Mỹ Nữ Sở Hữu Hỏa Lực Vô Hạn!",
+          "url": "https://www.youtube.com/watch?v=0_TdGO5XlS4",
+          "id": "0_TdGO5XlS4",
+          "duration": 61598,
+          "durationStr": "17:06:38",
+          "publishedAt": "2026-11-20T00:00:00+00:00",
+          "views": 19000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 4",
+          "title": "SS4 | Toàn Dân Chuyển Chức, Nam Chính Hóa Mỹ Nữ Sở Hữu Hỏa Lực Vô Hạn!",
+          "url": "https://www.youtube.com/watch?v=WTcgE2y9BUM",
+          "id": "WTcgE2y9BUM",
+          "duration": 13250,
+          "durationStr": "3:40:50",
+          "publishedAt": "2026-11-27T03:00:22+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        }
+      ],
+      "channelIds": [
+        "2ksub"
+      ]
+    },
     {
       "id": "film_728",
       "title": "Cẩm Nang Tự Cứu Của Phản Diện Xuyên Sánh",
@@ -3601,7 +3697,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i1.ytimg.com/vi/HijEM-fKYIw/hqdefault.jpg",
       "publishedAt": "2026-11-26T03:00:32+00:00",
       "updatedAt": "2026-11-26T03:00:32+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3639,7 +3735,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/WhKUf32HUHQ/hqdefault.jpg",
       "publishedAt": "2026-11-26T03:00:23+00:00",
       "updatedAt": "2026-11-26T03:00:23+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3677,7 +3773,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i3.ytimg.com/vi/nsxpJ5yudMw/hqdefault.jpg",
       "publishedAt": "2026-11-26T03:00:22+00:00",
       "updatedAt": "2026-11-26T03:00:22+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3715,7 +3811,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/w7A9QS5joqU/hqdefault.jpg",
       "publishedAt": "2026-11-26T03:00:20+00:00",
       "updatedAt": "2026-11-26T03:00:20+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -21234,49 +21330,6 @@ window.FILMS_DATA = {
           "durationStr": "5:48:31",
           "publishedAt": "2026-11-20T00:00:00+00:00",
           "views": 9200,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "2ksub",
-          "channelName": "2K Sub"
-        }
-      ],
-      "channelIds": [
-        "2ksub"
-      ]
-    },
-    {
-      "id": "film_154",
-      "title": "Toàn Dân Chuyển Chức, Nam Chính Hóa Mỹ Nữ Sở Hữu Hỏa Lực Vô Hạn!",
-      "channelId": "2ksub",
-      "channelName": "2K Sub",
-      "channelUrl": "https://www.youtube.com/@2KSUB2000",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 61598,
-      "totalDurationStr": "17 giờ 06 phút",
-      "totalViews": 19000,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Trò chơi / Phó bản",
-        "Đô thị / Ngôn tình"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/0_TdGO5XlS4/hqdefault.jpg",
-      "publishedAt": "2026-11-20T00:00:00+00:00",
-      "updatedAt": "2026-11-20T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "17 GIỜ THỎA MÃN | Toàn Dân Chuyển Chức, Nam Chính Hóa Mỹ Nữ Sở Hữu Hỏa Lực Vô Hạn!",
-          "url": "https://www.youtube.com/watch?v=0_TdGO5XlS4",
-          "id": "0_TdGO5XlS4",
-          "duration": 61598,
-          "durationStr": "17:06:38",
-          "publishedAt": "2026-11-20T00:00:00+00:00",
-          "views": 19000,
           "likes": 0,
           "isRedundant": false,
           "channelId": "2ksub",
