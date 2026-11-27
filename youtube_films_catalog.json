@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6834,
+    "totalFilms": 6835,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T13:15:41.761730+00:00",
+    "lastUpdated": "2026-11-27T13:30:44.520111+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 648
+      "filmCount": 649
     },
     {
       "id": "naophangtutien",
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6837",
+      "title": "10 GIỜ 45 THỎA MÃN | Trọng Sinh Chuyển Chức Cấp SSS, Ta Trộm Sạch Thần Khí Của Chư Thần!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 38757,
+      "totalDurationStr": "10 giờ 45 phút",
+      "totalViews": 519,
+      "totalLikes": 33,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TRỌNG SINH CHUYỂN CHỨC CẤP SSS – TA TRỘM SẠCH THẦN KHÍ CỦA CHƯ THẦN! | 10H45** ⚔️ **Cố Nam** từng chiến đấu suốt 10 năm để bảo vệ nhân loại trước sự xâm lăng của Vạn Tộc và Thần Ma. Vì người yêu **Tần Mộng Dao**, hắn lựa chọn nghề đỡ đòn, thậm chí từ bỏ cơ hội thành thần. Không...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/b_6847vu5nU/hqdefault.jpg",
+      "publishedAt": "2026-11-27T13:15:18+00:00",
+      "updatedAt": "2026-11-27T13:15:18+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "10 GIỜ 45 THỎA MÃN | Trọng Sinh Chuyển Chức Cấp SSS, Ta Trộm Sạch Thần Khí Của Chư Thần!",
+          "url": "https://www.youtube.com/watch?v=b_6847vu5nU",
+          "id": "b_6847vu5nU",
+          "duration": 38757,
+          "durationStr": "10:45:57",
+          "publishedAt": "2026-11-27T13:15:18+00:00",
+          "views": 519,
+          "likes": 33,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6836",
       "title": "|Bị Bạn Gái Chê Nghèo Đòi Chia Tay Tôi Dùng Hệ Thống Biến Cả Nhà Thành Trùm Cuối!   Đậu Đậu Vietsub",
@@ -4063,7 +4101,7 @@
       "thumbnail": "https://i2.ytimg.com/vi/mSqKjAuY2Fk/hqdefault.jpg",
       "publishedAt": "2026-11-26T13:30:18+00:00",
       "updatedAt": "2026-11-26T13:30:18+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
