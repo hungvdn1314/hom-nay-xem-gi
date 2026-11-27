@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6809,
+    "totalFilms": 6810,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T06:15:31.044983+00:00",
+    "lastUpdated": "2026-11-27T06:30:43.641368+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 642
+      "filmCount": 643
     },
     {
       "id": "naophangtutien",
@@ -244,6 +244,43 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6812",
+      "title": "11 GIỜ 20 THỎA MÃN | Xuyên Không Tam Quốc: Biết Trước Gia Cát Lượng Bắc Phạt, Ta Cứu Tào Ngụy!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 40816,
+      "totalDurationStr": "11 giờ 20 phút",
+      "totalViews": 128,
+      "totalLikes": 8,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: *XUYÊN KHÔNG TAM QUỐC – BIẾT TRƯỚC GIA CÁT LƯỢNG BẮC PHẠT, TA XOAY CHUYỂN VẬN MỆNH TÀO NGỤY! | 11H20* ⚔️ **Hạ Hầu Hiến**, tự Phượng Minh, bất ngờ xuyên không về thời Tam Quốc, trở thành công tử quyền quý có quan hệ mật thiết với hoàng tộc Tào Ngụy. Biết trước tương lai Tư Mã gia...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/ar1ySiQ0JtQ/hqdefault.jpg",
+      "publishedAt": "2026-11-27T06:16:24.185466+00:00",
+      "updatedAt": "2026-11-27T06:16:24.185466+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "11 GIỜ 20 THỎA MÃN | Xuyên Không Tam Quốc: Biết Trước Gia Cát Lượng Bắc Phạt, Ta Cứu Tào Ngụy!",
+          "url": "https://www.youtube.com/watch?v=ar1ySiQ0JtQ",
+          "id": "ar1ySiQ0JtQ",
+          "duration": 40816,
+          "durationStr": "11:20:16",
+          "publishedAt": "2026-11-27T06:16:24.185466+00:00",
+          "views": 128,
+          "likes": 8,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_185",
       "title": "Ai Nói Công Tử Ăn Chơi Không Thể Làm Trạng Nguyên",
@@ -1851,8 +1888,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 9787,
+      "totalDurationStr": "2 giờ 43 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Tên Phim: Tên Khác: 👉 “Video này chạy bằng cơm với niềm đam mê 🥲 Ai thương thì donate cho ad có động lực tiếp tục nha! Không có gì ngoài lòng biết ơn 🚀” Từ khoá: ✔ Phàm Nhân Bách Thế Thư ✔ Phim Hoạt Hình Trung Quốc ✔ Hoạt Hình 3D ✔ Hoạt Hình Xuyên Không ✔ Hoạt Hình Cổ Trang ✔ Hoạt Hình TQ ✔ HHTQ ✔ HH3D ✔ Hoạt Hình Hay Nhất ✔ Hoạt Hình Tu Tiên ✔ ALL IN ONE",
@@ -1871,8 +1908,8 @@
           "title": "Phần 1-4(P3): Sổ Sinh Tử Ngự Quỷ",
           "url": "https://www.youtube.com/watch?v=tb8waU9I770",
           "id": "tb8waU9I770",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 9787,
+          "durationStr": "2:43:07",
           "publishedAt": "2026-11-26T22:29:07+00:00",
           "views": 0,
           "likes": 0,
