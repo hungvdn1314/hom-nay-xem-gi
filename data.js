@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T07:15:30.956071+00:00",
+    "lastUpdated": "2026-11-27T07:31:33.036499+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -244,6 +244,62 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6773",
+      "title": "30 GIỜ THỎA MÃN | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 176502,
+      "totalDurationStr": "49 giờ 01 phút",
+      "totalViews": 169,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **ĐÊM VĨNH HẰNG – THỨC TỈNH CHUỖI THÔN PHỆ, NUỐT TITAN ĐỂ TRỞ THÀNH CƯỜNG GIẢ! | 30 GIỜ ⚔️ Năm 2000, một con **hắc điểu khổng lồ nuốt chửng Mặt Trời**, khiến Lam Tinh chìm vào Đêm Vĩnh Hằng. Cự thú Titan xuất hiện, tàn phá các thành phố, buộc nhân loại phải ẩn náu trong những khu...",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/rF5LMZpCgIQ/hqdefault.jpg",
+      "publishedAt": "2026-11-26T10:00:28+00:00",
+      "updatedAt": "2026-11-27T07:15:29.350818+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "30 GIỜ THỎA MÃN | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
+          "url": "https://www.youtube.com/watch?v=rF5LMZpCgIQ",
+          "id": "rF5LMZpCgIQ",
+          "duration": 107864,
+          "durationStr": "29:57:44",
+          "publishedAt": "2026-11-26T10:00:28+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Mùa 3",
+          "title": "SS3 | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
+          "url": "https://www.youtube.com/watch?v=ykbzSdUN5zI",
+          "id": "ykbzSdUN5zI",
+          "duration": 68638,
+          "durationStr": "19:03:58",
+          "publishedAt": "2026-11-27T07:15:29.350818+00:00",
+          "views": 169,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        }
+      ],
+      "channelIds": [
+        "2ksub"
+      ]
+    },
     {
       "id": "film_6813",
       "title": "S1 | Thế Giới Biến Động Suốt Trăm Năm, Tôi Sở Hữu Dị Năng Cường Hóa Sinh Mệnh Cấp SS",
@@ -3578,44 +3634,6 @@ window.FILMS_DATA = {
           "duration": 68722,
           "durationStr": "19:05:22",
           "publishedAt": "2026-11-26T11:00:00+00:00",
-          "views": 0,
-          "likes": 0,
-          "isRedundant": false
-        }
-      ]
-    },
-    {
-      "id": "film_6773",
-      "title": "30 GIỜ THỎA MÃN | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
-      "channelId": "2ksub",
-      "channelName": "2K Sub",
-      "channelUrl": "https://www.youtube.com/@2KSUB2000",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 107864,
-      "totalDurationStr": "29 giờ 57 phút",
-      "totalViews": 0,
-      "totalLikes": 0,
-      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **ĐÊM VĨNH HẰNG – THỨC TỈNH CHUỖI THÔN PHỆ, NUỐT TITAN ĐỂ TRỞ THÀNH CƯỜNG GIẢ! | 30 GIỜ ⚔️ Năm 2000, một con **hắc điểu khổng lồ nuốt chửng Mặt Trời**, khiến Lam Tinh chìm vào Đêm Vĩnh Hằng. Cự thú Titan xuất hiện, tàn phá các thành phố, buộc nhân loại phải ẩn náu trong những khu...",
-      "genres": [
-        "Ngự thú / Tiến hóa",
-        "Hệ thống / Thức tỉnh"
-      ],
-      "thumbnail": "https://i3.ytimg.com/vi/rF5LMZpCgIQ/hqdefault.jpg",
-      "publishedAt": "2026-11-26T10:00:28+00:00",
-      "updatedAt": "2026-11-26T10:00:28+00:00",
-      "isRecent24h": true,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "30 GIỜ THỎA MÃN | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
-          "url": "https://www.youtube.com/watch?v=rF5LMZpCgIQ",
-          "id": "rF5LMZpCgIQ",
-          "duration": 107864,
-          "durationStr": "29:57:44",
-          "publishedAt": "2026-11-26T10:00:28+00:00",
           "views": 0,
           "likes": 0,
           "isRedundant": false
