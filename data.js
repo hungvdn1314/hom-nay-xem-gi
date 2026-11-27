@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6797,
+    "totalFilms": 6798,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T01:45:59.705138+00:00",
+    "lastUpdated": "2026-11-27T02:00:55.647904+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 37,
+      "filmCount": 38,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,101 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6800",
+      "title": "Du Lịch Xuyên Vạn Triều: Tôi Mở Cổng Không Gian, Đưa Các Nhân Vật Lịch Sử Đi Du Lịch Khắp Thời Đại",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Đoàn Du Lịch Xuyên Vạn Triều: Tôi Mở Cổng Không Gian, Đưa Các Nhân Vật Lịch Sử Đi Du Lịch Khắp Thời Đại!】 🏯🌌 Sở hữu khả năng mở cổng không gian kết nối các thời đại, nhân vật chính bắt đầu một công việc vô cùng độc đáo: tổ chức đoàn du lịch xuyên vạn triều! Những nhân vật lịch sử vốn sống cách nhau hàng trăm, hàng nghìn năm nay có cơ hội gặp gỡ, khám...",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/fCFXF58ub_8/hqdefault.jpg",
+      "publishedAt": "2026-11-27T02:00:43+00:00",
+      "updatedAt": "2026-11-27T02:00:43+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Du Lịch Xuyên Vạn Triều: Tôi Mở Cổng Không Gian, Đưa Các Nhân Vật Lịch Sử Đi Du Lịch Khắp Thời Đại",
+          "url": "https://www.youtube.com/watch?v=fCFXF58ub_8",
+          "id": "fCFXF58ub_8",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-27T02:00:43+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_390",
+      "title": "Cao Võ: Thức Tỉnh Trảm Long Kiếm SSS, Ta Một Bước Thành Thiên Tài!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 37591,
+      "totalDurationStr": "10 giờ 26 phút",
+      "totalViews": 64000,
+      "totalLikes": 0,
+      "review": "",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/0URFYq4oKSc/hqdefault.jpg",
+      "publishedAt": "2026-11-16T00:00:00+00:00",
+      "updatedAt": "2026-11-27T02:00:31+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "10 GIỜ 30 THỎA MÃN | Cao Võ: Thức Tỉnh Trảm Long Kiếm SSS, Ta Một Bước Thành Thiên Tài!",
+          "url": "https://www.youtube.com/watch?v=0URFYq4oKSc",
+          "id": "0URFYq4oKSc",
+          "duration": 37591,
+          "durationStr": "10:26:31",
+          "publishedAt": "2026-11-16T00:00:00+00:00",
+          "views": 64000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 3",
+          "title": "SS3 | Cao Võ: Thức Tỉnh Trảm Long Kiếm SSS, Ta Một Bước Thành Thiên Tài!",
+          "url": "https://www.youtube.com/watch?v=q1QQwqs7mBM",
+          "id": "q1QQwqs7mBM",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-27T02:00:31+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        }
+      ],
+      "channelIds": [
+        "2ksub"
+      ]
+    },
     {
       "id": "film_6799",
       "title": "[Full] Vừa Về Hào Môn Đã Thấy Bố Mẹ Ruột Cưng Chiều Con Kẻ Thù Tôi Lập Tức Đoạn Tuyệt! | MyCherrySub",
@@ -3661,7 +3756,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/KNvfEhwpXe8/hqdefault.jpg",
       "publishedAt": "2026-11-26T02:00:26+00:00",
       "updatedAt": "2026-11-26T02:00:26+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3701,7 +3796,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i.ytimg.com/vi/1empXhyijgw/hqdefault.jpg",
       "publishedAt": "2026-10-25T00:00:00+00:00",
       "updatedAt": "2026-11-26T01:56:55+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -35672,49 +35767,6 @@ window.FILMS_DATA = {
           "channelId": "2ksub",
           "channelName": "2K Sub"
         }
-      ]
-    },
-    {
-      "id": "film_390",
-      "title": "Cao Võ: Thức Tỉnh Trảm Long Kiếm SSS, Ta Một Bước Thành Thiên Tài!",
-      "channelId": "2ksub",
-      "channelName": "2K Sub",
-      "channelUrl": "https://www.youtube.com/@2KSUB2000",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 37591,
-      "totalDurationStr": "10 giờ 26 phút",
-      "totalViews": 64000,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Cao võ / Dị năng",
-        "Hệ thống / Thức tỉnh"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/0URFYq4oKSc/hqdefault.jpg",
-      "publishedAt": "2026-11-16T00:00:00+00:00",
-      "updatedAt": "2026-11-16T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "10 GIỜ 30 THỎA MÃN | Cao Võ: Thức Tỉnh Trảm Long Kiếm SSS, Ta Một Bước Thành Thiên Tài!",
-          "url": "https://www.youtube.com/watch?v=0URFYq4oKSc",
-          "id": "0URFYq4oKSc",
-          "duration": 37591,
-          "durationStr": "10:26:31",
-          "publishedAt": "2026-11-16T00:00:00+00:00",
-          "views": 64000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "2ksub",
-          "channelName": "2K Sub"
-        }
-      ],
-      "channelIds": [
-        "2ksub"
       ]
     },
     {
@@ -307705,16 +307757,16 @@ window.FILMS_DATA = {
         "hoathinhmonganh",
         "thienanhstudio9",
         "vanmonggiao",
-        "nhatanhstudio",
         "vananhstudio",
+        "nhatanhstudio",
         "mianhstudio"
       ],
       "memberNames": [
         "Mộng Ảnh Studio",
         "Thiên Ảnh Studio",
         "Vân Mộng Studio",
-        "Nhật Ảnh Studio",
         "Vạn Ảnh Studio",
+        "Nhật Ảnh Studio",
         "Mị Ảnh Studio"
       ],
       "countLabel": "6 kênh"
