@@ -6,7 +6,7 @@
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T02:00:55.647904+00:00",
+    "lastUpdated": "2026-11-27T02:15:48.428135+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -253,8 +253,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 15531,
+      "totalDurationStr": "4 giờ 18 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "🎬 【Đoàn Du Lịch Xuyên Vạn Triều: Tôi Mở Cổng Không Gian, Đưa Các Nhân Vật Lịch Sử Đi Du Lịch Khắp Thời Đại!】 🏯🌌 Sở hữu khả năng mở cổng không gian kết nối các thời đại, nhân vật chính bắt đầu một công việc vô cùng độc đáo: tổ chức đoàn du lịch xuyên vạn triều! Những nhân vật lịch sử vốn sống cách nhau hàng trăm, hàng nghìn năm nay có cơ hội gặp gỡ, khám...",
@@ -272,8 +272,8 @@
           "title": "Du Lịch Xuyên Vạn Triều: Tôi Mở Cổng Không Gian, Đưa Các Nhân Vật Lịch Sử Đi Du Lịch Khắp Thời Đại",
           "url": "https://www.youtube.com/watch?v=fCFXF58ub_8",
           "id": "fCFXF58ub_8",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 15531,
+          "durationStr": "4:18:51",
           "publishedAt": "2026-11-27T02:00:43+00:00",
           "views": 0,
           "likes": 0,
@@ -3718,7 +3718,7 @@
       "thumbnail": "https://i2.ytimg.com/vi/-6FO2Hv4-vU/hqdefault.jpg",
       "publishedAt": "2026-11-26T02:06:43+00:00",
       "updatedAt": "2026-11-26T02:06:43+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
