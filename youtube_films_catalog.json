@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6803,
+    "totalFilms": 6804,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T04:15:36.959580+00:00",
+    "lastUpdated": "2026-11-27T04:30:41.924725+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -154,7 +154,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 331
+      "filmCount": 332
     },
     {
       "id": "godsub",
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6806",
+      "title": "Full | Tận Thế Đường Ray: Tôi Nâng Cấp Tàu Hỏa Thành Pháo Đài Bọc Thép Càn Quét Vùng Quỷ Vô Tận",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9317,
+      "totalDurationStr": "2 giờ 35 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Full | Tận Thế Đường Ray: Tôi Nâng Cấp Tàu Hỏa Thành Pháo Đài Bọc Thép Càn Quét Vùng Quỷ Vô Tận 📋 TÓM TẮT : Tần Yến đồng đội nâng cấp tàu thành chiến xa Diễm Hỏa Hiệu, diệt quái vật, kẻ cướp, vươn lên top 1 Vùng Quỷ Vô Tận trước tường Phong Quỷ. 📋 THÔNG ĐIỆP TÍCH CỰC Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/N0Hx1X_9pYg/hqdefault.jpg",
+      "publishedAt": "2026-11-27T04:30:11.189081+00:00",
+      "updatedAt": "2026-11-27T04:30:11.189081+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full | Tận Thế Đường Ray: Tôi Nâng Cấp Tàu Hỏa Thành Pháo Đài Bọc Thép Càn Quét Vùng Quỷ Vô Tận",
+          "url": "https://www.youtube.com/watch?v=N0Hx1X_9pYg",
+          "id": "N0Hx1X_9pYg",
+          "duration": 9317,
+          "durationStr": "2:35:17",
+          "publishedAt": "2026-11-27T04:30:11.189081+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6805",
       "title": "7 GIỜ 30 | Sinh Tồn Sương Mù: Mỗi Ngày Nhận Một Thiên Phú, Ta Tích Lũy Sức Mạnh Vô Hạn!",
