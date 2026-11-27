@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6824,
+    "totalFilms": 6827,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T11:00:47.658585+00:00",
+    "lastUpdated": "2026-11-27T11:15:33.914483+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 646
+      "filmCount": 647
     },
     {
       "id": "naophangtutien",
@@ -154,7 +154,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 334
+      "filmCount": 335
     },
     {
       "id": "godsub",
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 42,
+      "filmCount": 43,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,120 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6827",
+      "title": "10 GIỜ 40 THỎA MÃN | Tu Tiên: Bị Người Yêu Phản Bội, Ta Nhờ Huyết Văn Giới Thức Tỉnh Bá Thể!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 38392,
+      "totalDurationStr": "10 giờ 39 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TU TIÊN NGHỊCH TẬP – BỊ PHẾ LINH MẠCH, NGƯỜI YÊU RUỒNG BỎ, TA THỨC TỈNH BÁ THỂ! | 10H40** ⚔️ **Đinh Liệt** từng là thiên tài sở hữu năm đạo linh mạch và Tiên Thiên Chi Thể. Vì cứu **Giang Tuyết Nguyệt** khỏi hàn độc, hắn hy sinh thiên phú, tu vi suy giảm và bị mọi người coi là...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/YHq61e42IGo/hqdefault.jpg",
+      "publishedAt": "2026-11-27T11:15:13+00:00",
+      "updatedAt": "2026-11-27T11:15:13+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "10 GIỜ 40 THỎA MÃN | Tu Tiên: Bị Người Yêu Phản Bội, Ta Nhờ Huyết Văn Giới Thức Tỉnh Bá Thể!",
+          "url": "https://www.youtube.com/watch?v=YHq61e42IGo",
+          "id": "YHq61e42IGo",
+          "duration": 38392,
+          "durationStr": "10:39:52",
+          "publishedAt": "2026-11-27T11:15:13+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6829",
+      "title": "Full Phần 1 |【Cao Võ: Thức Tỉnh Hệ Thống Mỗi Tháng Chọn 4 Trong 9 Phần Thưởng!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8255,
+      "totalDurationStr": "2 giờ 17 phút",
+      "totalViews": 4,
+      "totalLikes": 1,
+      "review": "🎬 【Cao Võ: Thức Tỉnh Hệ Thống Mỗi Tháng Chọn 4 Trong 9 Phần Thưởng!】 ⚡🔥 Trong thế giới cao võ, nơi thiên phú và thực lực quyết định địa vị, nhân vật chính bất ngờ thức tỉnh một hệ thống vô cùng đặc biệt: mỗi tháng được lựa chọn 4 trong 9 phần thưởng! Trong khi người khác phải vất vả tu luyện và tranh đoạt tài nguyên, anh lại có cơ hội lựa chọn những phần...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/LljZV7Tt3-w/hqdefault.jpg",
+      "publishedAt": "2026-11-27T11:07:34+00:00",
+      "updatedAt": "2026-11-27T11:07:34+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Cao Võ: Thức Tỉnh Hệ Thống Mỗi Tháng Chọn 4 Trong 9 Phần Thưởng!】",
+          "url": "https://www.youtube.com/watch?v=LljZV7Tt3-w",
+          "id": "LljZV7Tt3-w",
+          "duration": 8255,
+          "durationStr": "2:17:35",
+          "publishedAt": "2026-11-27T11:07:34+00:00",
+          "views": 4,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6828",
+      "title": "Thức Tỉnh Hệ Thống Trùng Sinh Tôi Xây Dựng Đế Chế Khoáng Sản | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9096,
+      "totalDurationStr": "2 giờ 31 phút",
+      "totalViews": 41,
+      "totalLikes": 3,
+      "review": "Thức Tỉnh Hệ Thống Trùng Sinh Tôi Xây Dựng Đế Chế Khoáng Sản | Đậu Đậu Vietsub 📋 TÓM TẮT : Diệp Vũ Hàng trùng sinh về năm 2002 với hệ thống khoáng sản, cứu bố mẹ, trừng trị kẻ phản bội, đỗ đại học điểm cao và xây dựng đế chế tỷ phú. 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính bạn định...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/ZTsPi-Lperw/hqdefault.jpg",
+      "publishedAt": "2026-11-27T11:00:19+00:00",
+      "updatedAt": "2026-11-27T11:00:19+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Thức Tỉnh Hệ Thống Trùng Sinh Tôi Xây Dựng Đế Chế Khoáng Sản | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=ZTsPi-Lperw",
+          "id": "ZTsPi-Lperw",
+          "duration": 9096,
+          "durationStr": "2:31:36",
+          "publishedAt": "2026-11-27T11:00:19+00:00",
+          "views": 41,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6826",
       "title": "S1 | Thiên Mệnh Ngự Sủng: Giới Ngự Thú Xuất Hiện Một Tên Hãn Phỉ | Trùm Phim Sinh Tồn New",
@@ -4002,7 +4116,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i1.ytimg.com/vi/lw4qMP_NJYw/hqdefault.jpg",
       "publishedAt": "2026-11-26T11:15:28+00:00",
       "updatedAt": "2026-11-26T11:15:28+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
