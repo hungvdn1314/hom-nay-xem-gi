@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T14:30:41.808722+00:00",
+    "lastUpdated": "2026-11-27T14:45:33.739426+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -244,6 +244,94 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_251",
+      "title": "Tụ Bảo Bồn: Cường Hóa Vạn Vật Thành Cực Phẩm, Từ Tu Chân Giới Phi Thăng Tiên Giới",
+      "channelId": "2ksub",
+      "channelIds": [
+        "2ksub"
+      ],
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 192348,
+      "totalDurationStr": "53 giờ 25 phút",
+      "totalViews": 393100,
+      "totalLikes": 6,
+      "review": "",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/K3ce-o0IbB4/hqdefault.jpg",
+      "publishedAt": "2026-10-25T00:00:00+00:00",
+      "updatedAt": "2026-11-27T14:30:32+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "44 Giờ Thỏa Mãn | Tụ Bảo Bồn: Cường Hóa Vạn Vật Thành Cực Phẩm, Từ Tu Chân Giới Phi Thăng Tiên Giới",
+          "url": "https://www.youtube.com/watch?v=K3ce-o0IbB4",
+          "id": "K3ce-o0IbB4",
+          "duration": 158055,
+          "durationStr": "43:54:15",
+          "publishedAt": "2026-10-25T00:00:00+00:00",
+          "views": 349000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 12",
+          "title": "Ss12 | Tụ Bảo Bồn: Cường Hóa Vạn Vật Thành Cực Phẩm, Từ Tu Chân Giới Phi Thăng Tiên Giới",
+          "url": "https://www.youtube.com/watch?v=TWPGKj89xo0",
+          "id": "TWPGKj89xo0",
+          "duration": 11890,
+          "durationStr": "3:18:10",
+          "publishedAt": "2026-10-26T00:00:00+00:00",
+          "views": 25000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 14",
+          "title": "Ss14 | Tụ Bảo Bồn: Cường Hóa Vạn Vật Thành Cực Phẩm, Từ Tu Chân Giới Phi Thăng Tiên Giới",
+          "url": "https://www.youtube.com/watch?v=lgUMB9TMV3o",
+          "id": "lgUMB9TMV3o",
+          "duration": 11793,
+          "durationStr": "3:16:33",
+          "publishedAt": "2026-11-18T00:00:00+00:00",
+          "views": 19000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 4,
+          "label": "Mùa 15",
+          "title": "SS15 | TỤ BẢO BỒN: CƯỜNG HÓA VẠN VẬT THÀNH CỰC PHẨM, TỪ TU CHÂN GIỚI PHI THĂNG TIÊN GIỚI",
+          "url": "https://www.youtube.com/watch?v=XiKgucfAbNM",
+          "id": "XiKgucfAbNM",
+          "duration": 10610,
+          "durationStr": "2:56:50",
+          "publishedAt": "2026-11-27T14:30:32+00:00",
+          "views": 100,
+          "likes": 6,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        }
+      ]
+    },
     {
       "id": "film_718",
       "title": "Hàn Môn Tu Tiên Ký",
@@ -30009,79 +30097,6 @@ window.FILMS_DATA = {
           "views": 6364,
           "likes": 126,
           "isRedundant": false
-        }
-      ]
-    },
-    {
-      "id": "film_251",
-      "title": "Tụ Bảo Bồn: Cường Hóa Vạn Vật Thành Cực Phẩm, Từ Tu Chân Giới Phi Thăng Tiên Giới",
-      "channelId": "2ksub",
-      "channelIds": [
-        "2ksub"
-      ],
-      "channelName": "2K Sub",
-      "channelUrl": "https://www.youtube.com/@2KSUB2000",
-      "playlistUrl": null,
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 181738,
-      "totalDurationStr": "50 giờ 28 phút",
-      "totalViews": 393000,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Tu tiên / Huyền huyễn",
-        "Hệ thống / Thức tỉnh"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/K3ce-o0IbB4/hqdefault.jpg",
-      "publishedAt": "2026-10-25T00:00:00+00:00",
-      "updatedAt": "2026-11-18T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "44 Giờ Thỏa Mãn | Tụ Bảo Bồn: Cường Hóa Vạn Vật Thành Cực Phẩm, Từ Tu Chân Giới Phi Thăng Tiên Giới",
-          "url": "https://www.youtube.com/watch?v=K3ce-o0IbB4",
-          "id": "K3ce-o0IbB4",
-          "duration": 158055,
-          "durationStr": "43:54:15",
-          "publishedAt": "2026-10-25T00:00:00+00:00",
-          "views": 349000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "2ksub",
-          "channelName": "2K Sub"
-        },
-        {
-          "index": 2,
-          "label": "Mùa 12",
-          "title": "Ss12 | Tụ Bảo Bồn: Cường Hóa Vạn Vật Thành Cực Phẩm, Từ Tu Chân Giới Phi Thăng Tiên Giới",
-          "url": "https://www.youtube.com/watch?v=TWPGKj89xo0",
-          "id": "TWPGKj89xo0",
-          "duration": 11890,
-          "durationStr": "3:18:10",
-          "publishedAt": "2026-10-26T00:00:00+00:00",
-          "views": 25000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "2ksub",
-          "channelName": "2K Sub"
-        },
-        {
-          "index": 3,
-          "label": "Mùa 14",
-          "title": "Ss14 | Tụ Bảo Bồn: Cường Hóa Vạn Vật Thành Cực Phẩm, Từ Tu Chân Giới Phi Thăng Tiên Giới",
-          "url": "https://www.youtube.com/watch?v=lgUMB9TMV3o",
-          "id": "lgUMB9TMV3o",
-          "duration": 11793,
-          "durationStr": "3:16:33",
-          "publishedAt": "2026-11-18T00:00:00+00:00",
-          "views": 19000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "2ksub",
-          "channelName": "2K Sub"
         }
       ]
     },
