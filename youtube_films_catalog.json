@@ -6,7 +6,7 @@
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T11:30:36.952887+00:00",
+    "lastUpdated": "2026-11-27T11:45:44.317710+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -4003,7 +4003,7 @@
       "thumbnail": "https://i4.ytimg.com/vi/oRXKEyoH-fA/hqdefault.jpg",
       "publishedAt": "2026-11-26T11:32:21+00:00",
       "updatedAt": "2026-11-26T11:32:21+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4040,7 +4040,7 @@
       "thumbnail": "https://i1.ytimg.com/vi/hl9qA6dH_Xc/hqdefault.jpg",
       "publishedAt": "2026-11-26T11:31:38+00:00",
       "updatedAt": "2026-11-26T11:31:38+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4078,7 +4078,7 @@
       "thumbnail": "https://i4.ytimg.com/vi/or8EJ21RQyQ/hqdefault.jpg",
       "publishedAt": "2026-11-26T11:30:39+00:00",
       "updatedAt": "2026-11-26T11:30:39+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
