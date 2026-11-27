@@ -6,7 +6,7 @@
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T22:30:45.454231+00:00",
+    "lastUpdated": "2026-11-27T22:45:38.528687+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -4190,7 +4190,7 @@
       "totalLikes": 1412,
       "publishedAt": "2026-07-03T00:00:00+00:00",
       "updatedAt": "2026-11-26T22:40:41+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "channelIds": [
         "melacreview"
       ]
