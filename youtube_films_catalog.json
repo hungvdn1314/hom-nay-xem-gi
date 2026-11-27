@@ -6,7 +6,7 @@
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T12:54:01.184152+00:00",
+    "lastUpdated": "2026-11-27T13:00:53.967081+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -4063,7 +4063,7 @@
       "thumbnail": "https://i4.ytimg.com/vi/Wv99x0WJR3M/hqdefault.jpg",
       "publishedAt": "2026-11-26T13:00:20+00:00",
       "updatedAt": "2026-11-26T13:00:20+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
