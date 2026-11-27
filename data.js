@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6839,
+    "totalFilms": 6840,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T17:30:50.654057+00:00",
+    "lastUpdated": "2026-11-27T17:45:38.136938+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -202,7 +202,7 @@ window.FILMS_DATA = {
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 318,
+      "filmCount": 319,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6842",
+      "title": "Mùa 1-3: Chê Hệ Ám Của Ta Yếu Ta Chính Là Quân Vương Bóng Tối Trở Về!",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7170,
+      "totalDurationStr": "1 giờ 59 phút",
+      "totalViews": 9,
+      "totalLikes": 0,
+      "review": "Phim: Chê Hệ Ám Của Ta Yếu? Ta Chính Là Quân Vương Bóng Tối Trở Về! Tô Trần xuyên không đến thế giới võ đạo cao cấp, thức tỉnh dị năng hệ Ám cấp S nhưng lại bị mọi người xem thường, cho rằng không thể sánh bằng các hệ Băng, Lôi và Hỏa. Nhờ kích hoạt Hệ Thống Sát Lục, anh săn yêu thú tích lũy điểm để nâng cấp sức mạnh, từng bước tiến hóa từ Quân Vương...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/xYoa2dBahT4/hqdefault.jpg",
+      "publishedAt": "2026-11-27T17:43:30+00:00",
+      "updatedAt": "2026-11-27T17:43:30+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-3",
+          "title": "Mùa 1-3: Chê Hệ Ám Của Ta Yếu Ta Chính Là Quân Vương Bóng Tối Trở Về!",
+          "url": "https://www.youtube.com/watch?v=xYoa2dBahT4",
+          "id": "xYoa2dBahT4",
+          "duration": 7170,
+          "durationStr": "1:59:30",
+          "publishedAt": "2026-11-27T17:43:30+00:00",
+          "views": 9,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6582",
       "title": "Phần 3 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
