@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6811,
+    "totalFilms": 6812,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T08:15:41.231646+00:00",
+    "lastUpdated": "2026-11-27T08:30:52.201382+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 643
+      "filmCount": 644
     },
     {
       "id": "naophangtutien",
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6814",
+      "title": "18 GIỜ 50 THỎA MÃN | Xuyên Không Thành Công Tử Si Tình, Ta Dùng Mưu Kế Xoay Chuyển Triều Đình!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 67765,
+      "totalDurationStr": "18 giờ 49 phút",
+      "totalViews": 158,
+      "totalLikes": 17,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: ⚔️ Sở Vân vừa mở mắt đã phát hiện mình xuyên không thành một công tử si tình trong thế giới cổ đại. Trong nguyên tác, hắn chỉ là kẻ bị An Ninh công chúa lợi dụng để nâng đỡ Tô Vân Châu, cuối cùng còn khiến cả gia tộc rơi vào kết cục thảm bại. 🔥 Biết rõ cốt truyện phía trước, Sở...",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/t68dQrR6OMc/hqdefault.jpg",
+      "publishedAt": "2026-11-27T08:15:22+00:00",
+      "updatedAt": "2026-11-27T08:15:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "18 GIỜ 50 THỎA MÃN | Xuyên Không Thành Công Tử Si Tình, Ta Dùng Mưu Kế Xoay Chuyển Triều Đình!",
+          "url": "https://www.youtube.com/watch?v=t68dQrR6OMc",
+          "id": "t68dQrR6OMc",
+          "duration": 67765,
+          "durationStr": "18:49:25",
+          "publishedAt": "2026-11-27T08:15:22+00:00",
+          "views": 158,
+          "likes": 17,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6773",
       "title": "30 GIỜ THỎA MÃN | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
