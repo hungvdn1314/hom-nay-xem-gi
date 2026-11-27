@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6840,
+    "totalFilms": 6841,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T18:30:48.026605+00:00",
+    "lastUpdated": "2026-11-27T18:45:49.379456+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -210,7 +210,7 @@ window.FILMS_DATA = {
       "id": "sinhtontanthe",
       "name": "Sinh Tồn Tận Thế",
       "url": "https://www.youtube.com/@SinhT%E1%BB%93nT%E1%BA%ADnTh%E1%BA%BFNew",
-      "filmCount": 181,
+      "filmCount": 182,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -31638,6 +31638,44 @@ window.FILMS_DATA = {
       ],
       "channelIds": [
         "zzzphim"
+      ]
+    },
+    {
+      "id": "film_6843",
+      "title": "Ta Lái Tàu Cao Tốc Giữa Tận Thế, Hành Khách Càng Đông Ta Càng Mạnh | Sinh Tồn Tận Thế",
+      "channelId": "sinhtontanthe",
+      "channelName": "Sinh Tồn Tận Thế",
+      "channelUrl": "https://www.youtube.com/@SinhT%E1%BB%93nT%E1%BA%ADnTh%E1%BA%BFNew",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 15468,
+      "totalDurationStr": "4 giờ 17 phút",
+      "totalViews": 4940,
+      "totalLikes": 53,
+      "review": "Phim: Ta Lái Tàu Cao Tốc Giữa Tận Thế, Hành Khách Càng Đông Ta Càng Mạnh. Khi trăng máu giáng xuống, vô số thành phố thất thủ, trở thành vùng cấm của nhân loại, buộc con người phải liên tục di cư để sinh tồn. Lâm Tụ, một sinh viên đại học bình thường, bất ngờ liên kết với đoàn tàu Thương Khung, sở hữu năng lực càng có nhiều người sống sót trên tàu thì...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/4Iwmtyi80C4/hqdefault.jpg",
+      "publishedAt": "2026-11-17T12:30:24+00:00",
+      "updatedAt": "2026-11-17T12:30:24+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Ta Lái Tàu Cao Tốc Giữa Tận Thế, Hành Khách Càng Đông Ta Càng Mạnh | Sinh Tồn Tận Thế",
+          "url": "https://www.youtube.com/watch?v=4Iwmtyi80C4",
+          "id": "4Iwmtyi80C4",
+          "duration": 15468,
+          "durationStr": "4:17:48",
+          "publishedAt": "2026-11-17T12:30:24+00:00",
+          "views": 4940,
+          "likes": 53,
+          "isRedundant": false
+        }
       ]
     },
     {
