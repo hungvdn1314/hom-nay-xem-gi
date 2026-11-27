@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6842,
+    "totalFilms": 6843,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T22:45:38.528687+00:00",
+    "lastUpdated": "2026-11-27T23:01:00.933029+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -202,7 +202,7 @@
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 319,
+      "filmCount": 320,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6845",
+      "title": "S1 | Thiếu Niên Thiên Phú Cấp E Sở Hữu Thể Lực Vô Hạn, Nghịch Tập Võ Đạo | Trùm Phim Sinh Tồn New",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19297,
+      "totalDurationStr": "5 giờ 21 phút",
+      "totalViews": 0,
+      "totalLikes": 1,
+      "review": "S1 | Thiếu Niên Thiên Phú Cấp E Sở Hữu Thể Lực Vô Hạn, Nghịch Tập Võ Đạo | Trùm Phim Sinh Tồn New Phim: Tôi Dựa Vào Thể Lực Vô Hạn Để Thành Thần. Tóm tắt nội dung: Dị thú bất ngờ tấn công tàu điện ngầm, thiếu niên Từ Lai chỉ có thiên phú cấp E nhưng vẫn đứng ra cứu người. Cậu có khả năng khôi phục thể lực vô hạn khi thể lực giảm xuống dưới 10%, đồng thời...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/fnwiMWMfVyU/hqdefault.jpg",
+      "publishedAt": "2026-11-27T23:00:15+00:00",
+      "updatedAt": "2026-11-27T23:00:15+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S1 | Thiếu Niên Thiên Phú Cấp E Sở Hữu Thể Lực Vô Hạn, Nghịch Tập Võ Đạo | Trùm Phim Sinh Tồn New",
+          "url": "https://www.youtube.com/watch?v=fnwiMWMfVyU",
+          "id": "fnwiMWMfVyU",
+          "duration": 19297,
+          "durationStr": "5:21:37",
+          "publishedAt": "2026-11-27T23:00:15+00:00",
+          "views": 0,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6844",
       "title": "[Full 2] Tôi Chỉ Muốn Học Toán Ai Ngờ Hoa Khôi Băng Lãnh Lại Ép Tôi Làm Bạn Trai! | MyCherrySub",
@@ -4031,7 +4069,7 @@
       "thumbnail": "https://i2.ytimg.com/vi/9X6uQoObZnU/hqdefault.jpg",
       "publishedAt": "2026-11-26T23:00:11+00:00",
       "updatedAt": "2026-11-26T23:00:11+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
