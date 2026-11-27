@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6841,
+    "totalFilms": 6842,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T22:00:53.109977+00:00",
+    "lastUpdated": "2026-11-27T22:15:43.026212+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -230,7 +230,7 @@ window.FILMS_DATA = {
       "id": "mycherrysub2",
       "name": "Bản Tin Cherry",
       "url": "https://www.youtube.com/@MyCherrySub2",
-      "filmCount": 174,
+      "filmCount": 175,
       "groupId": "group_mycherrysub",
       "groupName": "Hệ Thống MyCherrySub"
     },
@@ -244,6 +244,43 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6844",
+      "title": "[Full 2] Tôi Chỉ Muốn Học Toán Ai Ngờ Hoa Khôi Băng Lãnh Lại Ép Tôi Làm Bạn Trai! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13161,
+      "totalDurationStr": "3 giờ 39 phút",
+      "totalViews": 36,
+      "totalLikes": 3,
+      "review": "📽Phim: [Full 2] Tôi Chỉ Muốn Học Toán Ai Ngờ Hoa Khôi Băng Lãnh Lại Ép Tôi Làm Bạn Trai! | MyCherrySub Tóm tắt: Nam chính Tạ Yến Từ - một thiên tài toán học năm nhất thường bị hiểu lầm là \"mọt sách ngố tàu\" - bỗng chốc trở thành cái gai trong mắt Tống Thiển, nàng hoa khôi kiêm thiên kim tiểu thư đình đám của Đại học Giang. Hết hất đổ cà phê vào người...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/Q7Ww-hs30OQ/hqdefault.jpg",
+      "publishedAt": "2026-11-27T22:03:44+00:00",
+      "updatedAt": "2026-11-27T22:03:44+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "[Full 2] Tôi Chỉ Muốn Học Toán Ai Ngờ Hoa Khôi Băng Lãnh Lại Ép Tôi Làm Bạn Trai! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=Q7Ww-hs30OQ",
+          "id": "Q7Ww-hs30OQ",
+          "duration": 13161,
+          "durationStr": "3:39:21",
+          "publishedAt": "2026-11-27T22:03:44+00:00",
+          "views": 36,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_80",
       "title": "Thái Huyền Thai Châu Truyện",
