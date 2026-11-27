@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T20:00:57.772427+00:00",
+    "lastUpdated": "2026-11-27T20:15:35.700913+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -3985,7 +3985,7 @@ window.FILMS_DATA = {
       "totalLikes": 7337,
       "publishedAt": "2026-09-26T00:00:00+00:00",
       "updatedAt": "2026-11-26T20:05:09+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "channelIds": [
         "melacreview"
       ]
