@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6810,
+    "totalFilms": 6811,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T06:45:37.002152+00:00",
+    "lastUpdated": "2026-11-27T07:00:48.516125+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -202,7 +202,7 @@ window.FILMS_DATA = {
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 315,
+      "filmCount": 316,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6813",
+      "title": "S1 | Thế Giới Biến Động Suốt Trăm Năm, Tôi Sở Hữu Dị Năng Cường Hóa Sinh Mệnh Cấp SS",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13050,
+      "totalDurationStr": "3 giờ 37 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "S1 | Thế Giới Biến Động Suốt Trăm Năm, Tôi Sở Hữu Dị Năng Cường Hóa Sinh Mệnh Cấp SS | Trùm Phim Sinh Tồn New Phim: Dị Năng Trị Liệu Cấp SS Dẫn Dắt Đồng Đội Vươn Lên – Mùa 1. Một trăm năm trước, hiện tượng bí ẩn chưa rõ nguồn gốc lan khắp mặt đất, khiến thế giới rơi vào biến động. Các thế hệ người thức tỉnh kiên trì bảo vệ thế giới, trải qua những năm...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/y-KMMaKvykU/hqdefault.jpg",
+      "publishedAt": "2026-11-27T07:00:27.342596+00:00",
+      "updatedAt": "2026-11-27T07:00:27.342596+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S1 | Thế Giới Biến Động Suốt Trăm Năm, Tôi Sở Hữu Dị Năng Cường Hóa Sinh Mệnh Cấp SS",
+          "url": "https://www.youtube.com/watch?v=y-KMMaKvykU",
+          "id": "y-KMMaKvykU",
+          "duration": 13050,
+          "durationStr": "3:37:30",
+          "publishedAt": "2026-11-27T07:00:27.342596+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6812",
       "title": "11 GIỜ 20 THỎA MÃN | Xuyên Không Tam Quốc: Biết Trước Gia Cát Lượng Bắc Phạt, Ta Cứu Tào Ngụy!",
@@ -3963,7 +4001,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/3z4ggXFcwlM/hqdefault.jpg",
       "publishedAt": "2026-11-26T07:00:12+00:00",
       "updatedAt": "2026-11-26T07:00:12+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4001,7 +4039,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i2.ytimg.com/vi/mztZeTytN_g/hqdefault.jpg",
       "publishedAt": "2026-11-26T07:00:01+00:00",
       "updatedAt": "2026-11-26T07:00:01+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
