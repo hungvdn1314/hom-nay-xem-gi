@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6843,
+    "totalFilms": 6844,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T23:30:39.411687+00:00",
+    "lastUpdated": "2026-11-27T23:45:43.248035+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -210,7 +210,7 @@ window.FILMS_DATA = {
       "id": "sinhtontanthe",
       "name": "Sinh Tồn Tận Thế",
       "url": "https://www.youtube.com/@SinhT%E1%BB%93nT%E1%BA%ADnTh%E1%BA%BFNew",
-      "filmCount": 182,
+      "filmCount": 183,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -28526,6 +28526,44 @@ window.FILMS_DATA = {
       ],
       "channelIds": [
         "zzzphim"
+      ]
+    },
+    {
+      "id": "film_6846",
+      "title": "Phong Thần Thời Tận Thế: Thế Giới Này Từ Bao Giờ Đến Lượt Các Ngươi Làm Chủ? | Sinh Tồn Tận Thế",
+      "channelId": "sinhtontanthe",
+      "channelName": "Sinh Tồn Tận Thế",
+      "channelUrl": "https://www.youtube.com/@SinhT%E1%BB%93nT%E1%BA%ADnTh%E1%BA%BFNew",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 23522,
+      "totalDurationStr": "6 giờ 32 phút",
+      "totalViews": 311,
+      "totalLikes": 15,
+      "review": "Phim: Phong Thần Thời Tận Thế: Thế Giới Này Từ Bao Giờ Đến Lượt Các Ngươi Làm Chủ? Lâm Dạ, một cao thủ trò chơi, bất ngờ xuyên không đến thế giới kỳ ảo phương Tây mang màu sắc Cthulhu, trở thành thiếu gia ăn chơi của một gia đình giàu có tại thành phố Thiên Khung. Tưởng chừng có thể tận hưởng cuộc sống nhàn nhã, anh lại phát hiện ngày tận thế đang đến...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/vgIdBBNn2Nc/hqdefault.jpg",
+      "publishedAt": "2026-11-18T12:30:00+00:00",
+      "updatedAt": "2026-11-18T12:30:00+00:00",
+      "isRecent24h": false,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phong Thần Thời Tận Thế: Thế Giới Này Từ Bao Giờ Đến Lượt Các Ngươi Làm Chủ? | Sinh Tồn Tận Thế",
+          "url": "https://www.youtube.com/watch?v=vgIdBBNn2Nc",
+          "id": "vgIdBBNn2Nc",
+          "duration": 23522,
+          "durationStr": "6:32:02",
+          "publishedAt": "2026-11-18T12:30:00+00:00",
+          "views": 311,
+          "likes": 15,
+          "isRedundant": false
+        }
       ]
     },
     {
