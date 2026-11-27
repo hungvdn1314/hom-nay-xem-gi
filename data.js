@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6837,
+    "totalFilms": 6838,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T14:00:47.319378+00:00",
+    "lastUpdated": "2026-11-27T14:15:37.210366+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -230,7 +230,7 @@ window.FILMS_DATA = {
       "id": "mycherrysub2",
       "name": "Bản Tin Cherry",
       "url": "https://www.youtube.com/@MyCherrySub2",
-      "filmCount": 173,
+      "filmCount": 174,
       "groupId": "group_mycherrysub",
       "groupName": "Hệ Thống MyCherrySub"
     },
@@ -244,6 +244,203 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_718",
+      "title": "Hàn Môn Tu Tiên Ký",
+      "channelId": "naophangtutien",
+      "channelName": "Não Phẳng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@nao-phang",
+      "playlistUrl": null,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 99334,
+      "totalDurationStr": "27 giờ 35 phút",
+      "totalViews": 58000,
+      "totalLikes": 0,
+      "review": "",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/JjArxZh-pAQ/hqdefault.jpg",
+      "publishedAt": "2026-11-09T00:00:00+00:00",
+      "updatedAt": "2026-11-27T14:14:59+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1: Hàn Môn Tu Tiên Ký",
+          "url": "https://www.youtube.com/watch?v=JjArxZh-pAQ",
+          "id": "JjArxZh-pAQ",
+          "duration": 32528,
+          "durationStr": "9:02:08",
+          "publishedAt": "2026-11-09T00:00:00+00:00",
+          "views": 33000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Phần 2: Hàn Môn Tu Tiên Ký",
+          "url": "https://www.youtube.com/watch?v=iosP7pNtZZc",
+          "id": "iosP7pNtZZc",
+          "duration": 36729,
+          "durationStr": "10:12:09",
+          "publishedAt": "2026-11-12T00:00:00+00:00",
+          "views": 25000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Phần 3: Hàn Môn Tu Tiên Ký",
+          "url": "https://www.youtube.com/watch?v=FWVWEwhnb3A",
+          "id": "FWVWEwhnb3A",
+          "duration": 30077,
+          "durationStr": "8:21:17",
+          "publishedAt": "2026-11-27T14:14:59+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        }
+      ],
+      "channelIds": [
+        "naophangtutien"
+      ]
+    },
+    {
+      "id": "film_6840",
+      "title": "[Full] Vừa Tốt Nghiệp Đã Ở Chung Với Dì Họ, Tôi Vô Tình Phát Hiện 1 Bí Mật Động Trời! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9613,
+      "totalDurationStr": "2 giờ 40 phút",
+      "totalViews": 73,
+      "totalLikes": 14,
+      "review": "📽Phim: [Full] Vừa Tốt Nghiệp Đã Ở Chung Với Dì Họ, Tôi Vô Tình Phát Hiện 1 Bí Mật Động Trời! | MyCherrySub Tóm tắt: Nam chính Khương Từ là sinh viên chuyên ngành nhiếp ảnh vừa tốt nghiệp đại học, lên thành phố tìm việc và được gia đình sắp xếp ở nhờ nhà Lâm Dao – người dì họ không cùng huyết thống mới 32 tuổi, sở hữu nhan sắc trẻ trung nhưng tính tình vô...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/n4x_rZs7IjQ/hqdefault.jpg",
+      "publishedAt": "2026-11-27T14:03:59+00:00",
+      "updatedAt": "2026-11-27T14:03:59+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Vừa Tốt Nghiệp Đã Ở Chung Với Dì Họ, Tôi Vô Tình Phát Hiện 1 Bí Mật Động Trời! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=n4x_rZs7IjQ",
+          "id": "n4x_rZs7IjQ",
+          "duration": 9613,
+          "durationStr": "2:40:13",
+          "publishedAt": "2026-11-27T14:03:59+00:00",
+          "views": 73,
+          "likes": 14,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_620",
+      "title": "Vào Tây Du Cấp SSS, Bái Bồ Đề Tổ Sư Và Trở Thành Sư Đệ Tôn Ngộ Không",
+      "channelId": "2ksub",
+      "channelIds": [
+        "2ksub"
+      ],
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 185375,
+      "totalDurationStr": "51 giờ 29 phút",
+      "totalViews": 119072,
+      "totalLikes": 4,
+      "review": "",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/yOld0qaRjDo/hqdefault.jpg",
+      "publishedAt": "2026-10-27T00:00:00+00:00",
+      "updatedAt": "2026-11-27T14:00:23+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "39 Giờ Thỏa Mãn | Vào Tây Du Cấp SSS, Bái Bồ Đề Tổ Sư Và Trở Thành Sư Đệ Tôn Ngộ Không | 2k",
+          "url": "https://www.youtube.com/watch?v=yOld0qaRjDo",
+          "id": "yOld0qaRjDo",
+          "duration": 140899,
+          "durationStr": "39:08:19",
+          "publishedAt": "2026-10-27T00:00:00+00:00",
+          "views": 90000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 9",
+          "title": "Ss9 | Vào Tây Du Cấp SSS, Bái Bồ Đề Tổ Sư Và Trở Thành Sư Đệ Tôn Ngộ Không | 2k",
+          "url": "https://www.youtube.com/watch?v=nxNV2aqQl9M",
+          "id": "nxNV2aqQl9M",
+          "duration": 12809,
+          "durationStr": "3:33:29",
+          "publishedAt": "2026-11-06T00:00:00+00:00",
+          "views": 15000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 10",
+          "title": "Ss10 | Vào Tây Du Cấp SSS, Bái Bồ Đề Tổ Sư Và Trở Thành Sư Đệ Tôn Ngộ Không",
+          "url": "https://www.youtube.com/watch?v=tQiFNkw0r4E",
+          "id": "tQiFNkw0r4E",
+          "duration": 16415,
+          "durationStr": "4:33:35",
+          "publishedAt": "2026-11-13T00:00:00+00:00",
+          "views": 14000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 4,
+          "label": "Mùa 11",
+          "title": "SS11 | VÀO TÂY DU CẤP SSS, BÁI BỒ ĐỀ TỔ SƯ VÀ TRỞ THÀNH SƯ ĐỆ TÔN NGỘ KHÔNG",
+          "url": "https://www.youtube.com/watch?v=5HM54_cXCoI",
+          "id": "5HM54_cXCoI",
+          "duration": 15252,
+          "durationStr": "4:14:12",
+          "publishedAt": "2026-11-27T14:00:23+00:00",
+          "views": 72,
+          "likes": 4,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        }
+      ]
+    },
     {
       "id": "film_6839",
       "title": "Cả Thế Giới Đều Tưởng Ta Vô Địch: Xuyên Không Thành Ma Vương, Mọi Hành Động Vô Tình Đều Bị Hiểu Lầm",
@@ -4101,7 +4298,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i2.ytimg.com/vi/abE_IUf57u0/hqdefault.jpg",
       "publishedAt": "2026-11-26T14:09:33+00:00",
       "updatedAt": "2026-11-26T14:09:33+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -49488,79 +49685,6 @@ window.FILMS_DATA = {
       ]
     },
     {
-      "id": "film_620",
-      "title": "Vào Tây Du Cấp SSS, Bái Bồ Đề Tổ Sư Và Trở Thành Sư Đệ Tôn Ngộ Không",
-      "channelId": "2ksub",
-      "channelIds": [
-        "2ksub"
-      ],
-      "channelName": "2K Sub",
-      "channelUrl": "https://www.youtube.com/@2KSUB2000",
-      "playlistUrl": null,
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 170123,
-      "totalDurationStr": "47 giờ 15 phút",
-      "totalViews": 119000,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Tu tiên / Huyền huyễn",
-        "Hệ thống / Thức tỉnh"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/yOld0qaRjDo/hqdefault.jpg",
-      "publishedAt": "2026-10-27T00:00:00+00:00",
-      "updatedAt": "2026-11-13T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "39 Giờ Thỏa Mãn | Vào Tây Du Cấp SSS, Bái Bồ Đề Tổ Sư Và Trở Thành Sư Đệ Tôn Ngộ Không | 2k",
-          "url": "https://www.youtube.com/watch?v=yOld0qaRjDo",
-          "id": "yOld0qaRjDo",
-          "duration": 140899,
-          "durationStr": "39:08:19",
-          "publishedAt": "2026-10-27T00:00:00+00:00",
-          "views": 90000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "2ksub",
-          "channelName": "2K Sub"
-        },
-        {
-          "index": 2,
-          "label": "Mùa 9",
-          "title": "Ss9 | Vào Tây Du Cấp SSS, Bái Bồ Đề Tổ Sư Và Trở Thành Sư Đệ Tôn Ngộ Không | 2k",
-          "url": "https://www.youtube.com/watch?v=nxNV2aqQl9M",
-          "id": "nxNV2aqQl9M",
-          "duration": 12809,
-          "durationStr": "3:33:29",
-          "publishedAt": "2026-11-06T00:00:00+00:00",
-          "views": 15000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "2ksub",
-          "channelName": "2K Sub"
-        },
-        {
-          "index": 3,
-          "label": "Mùa 10",
-          "title": "Ss10 | Vào Tây Du Cấp SSS, Bái Bồ Đề Tổ Sư Và Trở Thành Sư Đệ Tôn Ngộ Không",
-          "url": "https://www.youtube.com/watch?v=tQiFNkw0r4E",
-          "id": "tQiFNkw0r4E",
-          "duration": 16415,
-          "durationStr": "4:33:35",
-          "publishedAt": "2026-11-13T00:00:00+00:00",
-          "views": 14000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "2ksub",
-          "channelName": "2K Sub"
-        }
-      ]
-    },
-    {
       "id": "film_621",
       "title": "Phàm Nhân Tu Tiên Sở Hữu Ma Vương Đỉnh, Luyện Quái Thành Đan, Nghịch Thiên Đổi Mệnh!",
       "channelId": "2ksub",
@@ -53764,63 +53888,6 @@ window.FILMS_DATA = {
       ],
       "channelIds": [
         "vananhstudio"
-      ]
-    },
-    {
-      "id": "film_718",
-      "title": "Hàn Môn Tu Tiên Ký",
-      "channelId": "naophangtutien",
-      "channelName": "Não Phẳng Tu Tiên",
-      "channelUrl": "https://www.youtube.com/@nao-phang",
-      "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 69257,
-      "totalDurationStr": "19 giờ 14 phút",
-      "totalViews": 58000,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Tu tiên / Huyền huyễn"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/JjArxZh-pAQ/hqdefault.jpg",
-      "publishedAt": "2026-11-09T00:00:00+00:00",
-      "updatedAt": "2026-11-12T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "Phần 1: Hàn Môn Tu Tiên Ký",
-          "url": "https://www.youtube.com/watch?v=JjArxZh-pAQ",
-          "id": "JjArxZh-pAQ",
-          "duration": 32528,
-          "durationStr": "9:02:08",
-          "publishedAt": "2026-11-09T00:00:00+00:00",
-          "views": 33000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "naophangtutien",
-          "channelName": "Não Phẳng Tu Tiên"
-        },
-        {
-          "index": 2,
-          "label": "Phần 2",
-          "title": "Phần 2: Hàn Môn Tu Tiên Ký",
-          "url": "https://www.youtube.com/watch?v=iosP7pNtZZc",
-          "id": "iosP7pNtZZc",
-          "duration": 36729,
-          "durationStr": "10:12:09",
-          "publishedAt": "2026-11-12T00:00:00+00:00",
-          "views": 25000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "naophangtutien",
-          "channelName": "Não Phẳng Tu Tiên"
-        }
-      ],
-      "channelIds": [
-        "naophangtutien"
       ]
     },
     {
