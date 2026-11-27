@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6794,
+    "totalFilms": 6796,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T00:45:35.850631+00:00",
+    "lastUpdated": "2026-11-27T01:00:47.386757+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 639
+      "filmCount": 640
     },
     {
       "id": "naophangtutien",
@@ -202,7 +202,7 @@
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 312,
+      "filmCount": 313,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6798",
+      "title": "S3 | Mạt Ca – Đại Lộ Siêu Phàm: Quỷ Dị Giáng Lâm | Trùm Phim Sinh Tồn New",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11072,
+      "totalDurationStr": "3 giờ 04 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "S3 | Mạt Ca – Đại Lộ Siêu Phàm: Quỷ Dị Giáng Lâm | Trùm Phim Sinh Tồn New Huyết nguyệt treo cao, quỷ dị hoành hành, những người sống sót tập hợp thành các đoàn xe để tìm đường sống trên những tuyến đường đầy nguy hiểm. Bất kỳ ai tụt lại phía sau đều có nguy cơ trở thành con mồi trong bóng tối. Trần Dã chỉ mong sống sót nhưng liên tục tiến vào những địa...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/pPxdbcxu_H0/hqdefault.jpg",
+      "publishedAt": "2026-11-27T01:00:22+00:00",
+      "updatedAt": "2026-11-27T01:00:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S3 | Mạt Ca – Đại Lộ Siêu Phàm: Quỷ Dị Giáng Lâm | Trùm Phim Sinh Tồn New",
+          "url": "https://www.youtube.com/watch?v=pPxdbcxu_H0",
+          "id": "pPxdbcxu_H0",
+          "duration": 11072,
+          "durationStr": "3:04:32",
+          "publishedAt": "2026-11-27T01:00:22+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6797",
+      "title": "SS3 | Cao Võ Thức Tỉnh Phế Đao Cấp D, Ta Mở Vạn Giải Thiêu Rụi 30 Vạn Hung Thú!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9136,
+      "totalDurationStr": "2 giờ 32 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **CAO VÕ THỨC TỈNH – MỘT ĐAO THIÊU RỤI 30 VẠN HUNG THÚ, CHIẾN THẦN LONG QUỐC TRỖI DẬY! | SS3 | 2H32** ⚔️ **Sở Uyên**, thiên tài 19 tuổi sở hữu võ hồn **Trảm Phá Đao – Lưu Nhẫn Nhược Hỏa**, sau khi đánh bại thú triều và chém giết hung thú Bát Giai đỉnh phong, chính thức được phong...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/PtVVZLBz0sg/hqdefault.jpg",
+      "publishedAt": "2026-11-27T01:00:20+00:00",
+      "updatedAt": "2026-11-27T01:00:20+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 3",
+          "title": "SS3 | Cao Võ Thức Tỉnh Phế Đao Cấp D, Ta Mở Vạn Giải Thiêu Rụi 30 Vạn Hung Thú!",
+          "url": "https://www.youtube.com/watch?v=PtVVZLBz0sg",
+          "id": "PtVVZLBz0sg",
+          "duration": 9136,
+          "durationStr": "2:32:16",
+          "publishedAt": "2026-11-27T01:00:20+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6796",
       "title": "P2 |Chuyến Tàu Hoàng Tuyền: Mỗi Nhà Ga Là Một Phó Bản Sinh Tử, Thất Bại Sẽ Không Bao Giờ Được Trở Về",
@@ -3695,7 +3771,7 @@
       "thumbnail": "https://i1.ytimg.com/vi/hhdmJtQcgXk/hqdefault.jpg",
       "publishedAt": "2026-11-26T01:00:20+00:00",
       "updatedAt": "2026-11-26T01:00:20+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3733,7 +3809,7 @@
       "thumbnail": "https://i1.ytimg.com/vi/HTE5Jwb0ego/hqdefault.jpg",
       "publishedAt": "2026-11-26T00:52:38+00:00",
       "updatedAt": "2026-11-26T00:52:38+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3770,7 +3846,7 @@
       "thumbnail": "https://i1.ytimg.com/vi/4Es8Ki1HduA/hqdefault.jpg",
       "publishedAt": "2026-11-26T00:52:34+00:00",
       "updatedAt": "2026-11-26T00:52:34+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
