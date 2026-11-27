@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6835,
+    "totalFilms": 6837,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T13:30:44.520111+00:00",
+    "lastUpdated": "2026-11-27T13:45:42.769902+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -106,7 +106,7 @@
       "id": "tieumuoingontinh",
       "name": "Tiểu Muội Ngôn Tình",
       "url": "https://www.youtube.com/@TieuMuoiNgonTinh",
-      "filmCount": 80
+      "filmCount": 81
     },
     {
       "id": "cibiisub",
@@ -180,7 +180,7 @@
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 44,
+      "filmCount": 45,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6839",
+      "title": "Cả Thế Giới Đều Tưởng Ta Vô Địch: Xuyên Không Thành Ma Vương, Mọi Hành Động Vô Tình Đều Bị Hiểu Lầm",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8278,
+      "totalDurationStr": "2 giờ 17 phút",
+      "totalViews": 2,
+      "totalLikes": 0,
+      "review": "🎬 【Cả Thế Giới Đều Tưởng Ta Vô Địch: Xuyên Không Thành Ma Vương, Mọi Hành Động Vô Tình Đều Bị Hiểu Lầm Là Mưu Kế Nghịch Thiên!】 😈👑 Một nhân viên văn phòng bình thường bất ngờ xuyên không thành Ma Vương tại dị giới! Chỉ mong tìm được cách trở về quê hương, anh lại liên tục rơi vào những tình huống dở khóc dở cười. Mỗi lời nói vô tình đều bị thuộc hạ suy...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/VejM3x54tEQ/hqdefault.jpg",
+      "publishedAt": "2026-11-27T13:32:09+00:00",
+      "updatedAt": "2026-11-27T13:32:09+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Cả Thế Giới Đều Tưởng Ta Vô Địch: Xuyên Không Thành Ma Vương, Mọi Hành Động Vô Tình Đều Bị Hiểu Lầm",
+          "url": "https://www.youtube.com/watch?v=VejM3x54tEQ",
+          "id": "VejM3x54tEQ",
+          "duration": 8278,
+          "durationStr": "2:17:58",
+          "publishedAt": "2026-11-27T13:32:09+00:00",
+          "views": 2,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6838",
+      "title": "Full Tập 01~100 | Thiên Kim Huyền Môn Trở Về, Dùng Thần Lôi Đánh Trà Xanh Diệt Tà Tu",
+      "channelId": "tieumuoingontinh",
+      "channelName": "Tiểu Muội Ngôn Tình",
+      "channelUrl": "https://www.youtube.com/@TieuMuoiNgonTinh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7841,
+      "totalDurationStr": "2 giờ 10 phút",
+      "totalViews": 44,
+      "totalLikes": 10,
+      "review": "Bị tráo phận 18 năm, thiên kim thật Thẩm Chi Vi từ Huyền Môn hạ sơn, tung một đạo thần lôi phá giải tử trận trộm vận gia tộc. Cùng Cục trưởng Lục Trầm Uyên, cô lật tẩy thiên kim giả Thẩm Vũ Nhu, diệt trừ tà tu cứu Giang Thành và được sáu anh trai cưng chiều. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt Nhật,...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/Tw2fqLStwNc/hqdefault.jpg",
+      "publishedAt": "2026-11-27T13:31:53+00:00",
+      "updatedAt": "2026-11-27T13:31:53+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1",
+          "title": "Full Tập 01~100 | Thiên Kim Huyền Môn Trở Về, Dùng Thần Lôi Đánh Trà Xanh Diệt Tà Tu",
+          "url": "https://www.youtube.com/watch?v=Tw2fqLStwNc",
+          "id": "Tw2fqLStwNc",
+          "duration": 7841,
+          "durationStr": "2:10:41",
+          "publishedAt": "2026-11-27T13:31:53+00:00",
+          "views": 44,
+          "likes": 10,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6837",
       "title": "10 GIỜ 45 THỎA MÃN | Trọng Sinh Chuyển Chức Cấp SSS, Ta Trộm Sạch Thần Khí Của Chư Thần!",
@@ -4063,7 +4139,7 @@
       "thumbnail": "https://i1.ytimg.com/vi/TTmg0rHMMYo/hqdefault.jpg",
       "publishedAt": "2026-11-26T13:39:00+00:00",
       "updatedAt": "2026-11-26T13:39:00+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
