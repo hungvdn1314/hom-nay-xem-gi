@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T16:30:47.136494+00:00",
+    "lastUpdated": "2026-11-27T16:45:34.281737+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -244,6 +244,121 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6582",
+      "title": "Phần 3 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
+      "channelId": "larasub22",
+      "channelName": "Lara Sub",
+      "channelUrl": "https://www.youtube.com/@larasub22",
+      "playlistUrl": null,
+      "totalParts": 6,
+      "partsStr": "6 phần",
+      "totalDurationSec": 72574,
+      "totalDurationStr": "20 giờ 09 phút",
+      "totalViews": 8710,
+      "totalLikes": 114,
+      "review": "Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh — Tuyển tập hoạt hình 3D đặc sắc từ kênh Lara Sub.",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/fCcBA0btNKk/hqdefault.jpg",
+      "publishedAt": "2026-10-13T07:11:10+00:00",
+      "updatedAt": "2026-11-27T16:35:05+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=pj5tG4C1YeE",
+          "id": "pj5tG4C1YeE",
+          "duration": 10801,
+          "durationStr": "3:00:01",
+          "publishedAt": "2026-10-13T07:11:10+00:00",
+          "views": 2546,
+          "likes": 26,
+          "isRedundant": false,
+          "channelId": "larasub22",
+          "channelName": "Lara Sub"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Phần 2 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=vOy7SN6Mvok",
+          "id": "vOy7SN6Mvok",
+          "duration": 10801,
+          "durationStr": "3:00:01",
+          "publishedAt": "2026-10-14T04:00:09+00:00",
+          "views": 1470,
+          "likes": 23,
+          "isRedundant": false,
+          "channelId": "larasub22",
+          "channelName": "Lara Sub"
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Phần 3 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=fCcBA0btNKk",
+          "id": "fCcBA0btNKk",
+          "duration": 9544,
+          "durationStr": "2:39:04",
+          "publishedAt": "2026-10-16T11:36:35+00:00",
+          "views": 1882,
+          "likes": 25,
+          "isRedundant": false
+        },
+        {
+          "index": 4,
+          "label": "Phần 4",
+          "title": "Phần 4 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=IN103uj8Lw0",
+          "id": "IN103uj8Lw0",
+          "duration": 8180,
+          "durationStr": "2:16:20",
+          "publishedAt": "2026-11-04T10:30:21+00:00",
+          "views": 1462,
+          "likes": 22,
+          "isRedundant": false,
+          "channelId": "larasub22",
+          "channelName": "Lara Sub"
+        },
+        {
+          "index": 5,
+          "label": "Phần 5",
+          "title": "Phần 5 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=toOHkqW5HCQ",
+          "id": "toOHkqW5HCQ",
+          "duration": 10836,
+          "durationStr": "3:00:36",
+          "publishedAt": "2026-11-15T16:53:31+00:00",
+          "views": 1347,
+          "likes": 17,
+          "isRedundant": false,
+          "channelId": "larasub22",
+          "channelName": "Lara Sub"
+        },
+        {
+          "index": 6,
+          "label": "Phần 6",
+          "title": "Phần 6 End | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
+          "url": "https://www.youtube.com/watch?v=hdrFD_AvBcA",
+          "id": "hdrFD_AvBcA",
+          "duration": 22412,
+          "durationStr": "6:13:32",
+          "publishedAt": "2026-11-27T16:35:05+00:00",
+          "views": 3,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "larasub22",
+          "channelName": "Lara Sub"
+        }
+      ],
+      "channelIds": [
+        "larasub22"
+      ]
+    },
     {
       "id": "film_6841",
       "title": "Trọng Sinh Về Năm 2007: Học Bá Nghịch Tập, Bắt Đầu Con Đường Trở Thành Thiên Tài Nghiên Cứu Khoa Học",
@@ -38750,106 +38865,6 @@ window.FILMS_DATA = {
       ],
       "channelIds": [
         "mycherrysub"
-      ]
-    },
-    {
-      "id": "film_6582",
-      "title": "Phần 3 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
-      "channelId": "larasub22",
-      "channelName": "Lara Sub",
-      "channelUrl": "https://www.youtube.com/@larasub22",
-      "playlistUrl": null,
-      "totalParts": 5,
-      "partsStr": "5 phần",
-      "totalDurationSec": 50162,
-      "totalDurationStr": "13 giờ 56 phút",
-      "totalViews": 8707,
-      "totalLikes": 113,
-      "review": "Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh — Tuyển tập hoạt hình 3D đặc sắc từ kênh Lara Sub.",
-      "genres": [
-        "Hoạt hình 3D Chọn Lọc"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/fCcBA0btNKk/hqdefault.jpg",
-      "publishedAt": "2026-10-13T07:11:10+00:00",
-      "updatedAt": "2026-11-15T16:53:31+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "Phần 1 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
-          "url": "https://www.youtube.com/watch?v=pj5tG4C1YeE",
-          "id": "pj5tG4C1YeE",
-          "duration": 10801,
-          "durationStr": "3:00:01",
-          "publishedAt": "2026-10-13T07:11:10+00:00",
-          "views": 2546,
-          "likes": 26,
-          "isRedundant": false,
-          "channelId": "larasub22",
-          "channelName": "Lara Sub"
-        },
-        {
-          "index": 2,
-          "label": "Phần 2",
-          "title": "Phần 2 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
-          "url": "https://www.youtube.com/watch?v=vOy7SN6Mvok",
-          "id": "vOy7SN6Mvok",
-          "duration": 10801,
-          "durationStr": "3:00:01",
-          "publishedAt": "2026-10-14T04:00:09+00:00",
-          "views": 1470,
-          "likes": 23,
-          "isRedundant": false,
-          "channelId": "larasub22",
-          "channelName": "Lara Sub"
-        },
-        {
-          "index": 3,
-          "label": "Phần 3",
-          "title": "Phần 3 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
-          "url": "https://www.youtube.com/watch?v=fCcBA0btNKk",
-          "id": "fCcBA0btNKk",
-          "duration": 9544,
-          "durationStr": "2:39:04",
-          "publishedAt": "2026-10-16T11:36:35+00:00",
-          "views": 1882,
-          "likes": 25,
-          "isRedundant": false
-        },
-        {
-          "index": 4,
-          "label": "Phần 4",
-          "title": "Phần 4 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
-          "url": "https://www.youtube.com/watch?v=IN103uj8Lw0",
-          "id": "IN103uj8Lw0",
-          "duration": 8180,
-          "durationStr": "2:16:20",
-          "publishedAt": "2026-11-04T10:30:21+00:00",
-          "views": 1462,
-          "likes": 22,
-          "isRedundant": false,
-          "channelId": "larasub22",
-          "channelName": "Lara Sub"
-        },
-        {
-          "index": 5,
-          "label": "Phần 5",
-          "title": "Phần 5 | Tưởng Là Nghiệt Duyên , Hóa Ra Là Định Mệnh | Lara Sub",
-          "url": "https://www.youtube.com/watch?v=toOHkqW5HCQ",
-          "id": "toOHkqW5HCQ",
-          "duration": 10836,
-          "durationStr": "3:00:36",
-          "publishedAt": "2026-11-15T16:53:31+00:00",
-          "views": 1347,
-          "likes": 17,
-          "isRedundant": false,
-          "channelId": "larasub22",
-          "channelName": "Lara Sub"
-        }
-      ],
-      "channelIds": [
-        "larasub22"
       ]
     },
     {
