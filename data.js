@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6827,
+    "totalFilms": 6828,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T11:15:33.914483+00:00",
+    "lastUpdated": "2026-11-27T11:30:36.952887+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -188,7 +188,7 @@ window.FILMS_DATA = {
       "id": "akatsukireview",
       "name": "Akatsuki Review",
       "url": "https://www.youtube.com/@Akatsuki-KT",
-      "filmCount": 125
+      "filmCount": 126
     },
     {
       "id": "mianhstudio",
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6830",
+      "title": "Full SS1| Trở Lại Mùa Hè: Cô Bạn Thanh Mai Của Tôi Có Chút Ngọt Ngào | Akatsuki Review",
+      "channelId": "akatsukireview",
+      "channelName": "Akatsuki Review",
+      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10962,
+      "totalDurationStr": "3 giờ 02 phút",
+      "totalViews": 7,
+      "totalLikes": 0,
+      "review": "Chúc mọi người có những phút giây xem phim vui vẻ, nhớ để lại bình luận và cho mình một like + subcribe nhé Mọi Người Ủng Hộ Mình 1 Ly Cafe☕ Để Mình Có Động Lực Làm Video Với Nha🥰🥰🥰 VCB:1026377599",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/HRv4jnYaj0E/hqdefault.jpg",
+      "publishedAt": "2026-11-27T11:27:33+00:00",
+      "updatedAt": "2026-11-27T11:27:33+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "Full SS1| Trở Lại Mùa Hè: Cô Bạn Thanh Mai Của Tôi Có Chút Ngọt Ngào | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=HRv4jnYaj0E",
+          "id": "HRv4jnYaj0E",
+          "duration": 10962,
+          "durationStr": "3:02:42",
+          "publishedAt": "2026-11-27T11:27:33+00:00",
+          "views": 7,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6827",
       "title": "10 GIỜ 40 THỎA MÃN | Tu Tiên: Bị Người Yêu Phản Bội, Ta Nhờ Huyết Văn Giới Thức Tỉnh Bá Thể!",
@@ -4078,7 +4116,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/gQWvISN18E4/hqdefault.jpg",
       "publishedAt": "2026-11-26T11:21:03+00:00",
       "updatedAt": "2026-11-26T11:21:03+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
