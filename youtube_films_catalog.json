@@ -6,7 +6,7 @@
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T07:45:42.470824+00:00",
+    "lastUpdated": "2026-11-27T08:00:42.401591+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -264,7 +264,7 @@
       ],
       "thumbnail": "https://i3.ytimg.com/vi/rF5LMZpCgIQ/hqdefault.jpg",
       "publishedAt": "2026-11-26T10:00:28+00:00",
-      "updatedAt": "2026-11-27T07:15:29.350818+00:00",
+      "updatedAt": "2026-11-27T07:15:22+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -288,7 +288,7 @@
           "id": "ykbzSdUN5zI",
           "duration": 68638,
           "durationStr": "19:03:58",
-          "publishedAt": "2026-11-27T07:15:29.350818+00:00",
+          "publishedAt": "2026-11-27T07:15:22+00:00",
           "views": 169,
           "likes": 0,
           "isRedundant": false,
@@ -319,8 +319,8 @@
         "Hệ thống / Thức tỉnh"
       ],
       "thumbnail": "https://i.ytimg.com/vi/y-KMMaKvykU/hqdefault.jpg",
-      "publishedAt": "2026-11-27T07:00:27.342596+00:00",
-      "updatedAt": "2026-11-27T07:00:27.342596+00:00",
+      "publishedAt": "2026-11-27T07:00:27+00:00",
+      "updatedAt": "2026-11-27T07:00:27+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -331,7 +331,7 @@
           "id": "y-KMMaKvykU",
           "duration": 13050,
           "durationStr": "3:37:30",
-          "publishedAt": "2026-11-27T07:00:27.342596+00:00",
+          "publishedAt": "2026-11-27T07:00:27+00:00",
           "views": 0,
           "likes": 0,
           "isRedundant": false
@@ -356,8 +356,8 @@
         "Xuyên không / Trọng sinh"
       ],
       "thumbnail": "https://i.ytimg.com/vi/ar1ySiQ0JtQ/hqdefault.jpg",
-      "publishedAt": "2026-11-27T06:16:24.185466+00:00",
-      "updatedAt": "2026-11-27T06:16:24.185466+00:00",
+      "publishedAt": "2026-11-27T06:15:34+00:00",
+      "updatedAt": "2026-11-27T06:15:34+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -368,7 +368,7 @@
           "id": "ar1ySiQ0JtQ",
           "duration": 40816,
           "durationStr": "11:20:16",
-          "publishedAt": "2026-11-27T06:16:24.185466+00:00",
+          "publishedAt": "2026-11-27T06:15:34+00:00",
           "views": 128,
           "likes": 8,
           "isRedundant": false
@@ -3981,7 +3981,7 @@
       "thumbnail": "https://i4.ytimg.com/vi/7fzk8kmZM-A/hqdefault.jpg",
       "publishedAt": "2026-11-26T08:00:03+00:00",
       "updatedAt": "2026-11-26T08:00:03+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
