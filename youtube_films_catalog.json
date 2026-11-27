@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6802,
+    "totalFilms": 6803,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T03:45:38.887161+00:00",
+    "lastUpdated": "2026-11-27T04:00:43.804512+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 640
+      "filmCount": 641
     },
     {
       "id": "naophangtutien",
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6805",
+      "title": "7 GIỜ 30 | Sinh Tồn Sương Mù: Mỗi Ngày Nhận Một Thiên Phú, Ta Tích Lũy Sức Mạnh Vô Hạn!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 27459,
+      "totalDurationStr": "7 giờ 37 phút",
+      "totalViews": 0,
+      "totalLikes": 1,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TOÀN DÂN SINH TỒN TRONG SƯƠNG MÙ – MỖI NGÀY NHẬN MỘT THIÊN PHÚ, TÍCH LŨY SỨC MẠNH VÔ HẠN! | SS1–SS2 | 7H37** 🌫️ **Lý Mạt** bất ngờ bị đưa vào trò chơi sinh tồn cùng toàn nhân loại. Mỗi người chỉ có một căn phòng làm nơi trú ẩn, ban ngày phải tìm kiếm vật tư, ban đêm đối mặt với...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/fFpcKG0T9eA/hqdefault.jpg",
+      "publishedAt": "2026-11-27T04:00:06+00:00",
+      "updatedAt": "2026-11-27T04:00:06+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "7 GIỜ 30 | Sinh Tồn Sương Mù: Mỗi Ngày Nhận Một Thiên Phú, Ta Tích Lũy Sức Mạnh Vô Hạn!",
+          "url": "https://www.youtube.com/watch?v=fFpcKG0T9eA",
+          "id": "fFpcKG0T9eA",
+          "duration": 27459,
+          "durationStr": "7:37:39",
+          "publishedAt": "2026-11-27T04:00:06+00:00",
+          "views": 0,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6803",
       "title": "Võ Hồn Cấp D Phế Vật Lật Kèo Cấp S Từ Kẻ Bị Coi Thường Thành Chiến Thần Tiền Tuyến | Đậu Đậu Vietsub",
@@ -3830,7 +3868,7 @@
       "thumbnail": "https://i2.ytimg.com/vi/mxYln0I_qGw/hqdefault.jpg",
       "publishedAt": "2026-11-26T04:00:31+00:00",
       "updatedAt": "2026-11-26T04:00:31+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3868,7 +3906,7 @@
       "thumbnail": "https://i2.ytimg.com/vi/iBmu0Rdwxls/hqdefault.jpg",
       "publishedAt": "2026-11-26T04:00:00+00:00",
       "updatedAt": "2026-11-26T04:00:00+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
