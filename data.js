@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6814,
+    "totalFilms": 6818,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T09:30:38.183902+00:00",
+    "lastUpdated": "2026-11-27T09:45:38.778426+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -106,7 +106,7 @@ window.FILMS_DATA = {
       "id": "tieumuoingontinh",
       "name": "Tiểu Muội Ngôn Tình",
       "url": "https://www.youtube.com/@TieuMuoiNgonTinh",
-      "filmCount": 79
+      "filmCount": 80
     },
     {
       "id": "cibiisub",
@@ -124,7 +124,7 @@ window.FILMS_DATA = {
       "id": "huyensutieumuoi",
       "name": "Huyền Sư Tiểu Muội",
       "url": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
-      "filmCount": 50
+      "filmCount": 51
     },
     {
       "id": "2ksub",
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 40,
+      "filmCount": 41,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -188,7 +188,7 @@ window.FILMS_DATA = {
       "id": "akatsukireview",
       "name": "Akatsuki Review",
       "url": "https://www.youtube.com/@Akatsuki-KT",
-      "filmCount": 124
+      "filmCount": 125
     },
     {
       "id": "mianhstudio",
@@ -244,6 +244,157 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6820",
+      "title": "Full SS1 | Tại Sao Chị Khóa Trên Thanh Mai Trúc Mã Của Tôi Lại Như Thế Này? | Akatsuki Review",
+      "channelId": "akatsukireview",
+      "channelName": "Akatsuki Review",
+      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8799,
+      "totalDurationStr": "2 giờ 26 phút",
+      "totalViews": 19,
+      "totalLikes": 3,
+      "review": "Chúc mọi người có những phút giây xem phim vui vẻ, nhớ để lại bình luận và cho mình một like + subcribe nhé Mọi Người Ủng Hộ Mình 1 Ly Cafe☕ Để Mình Có Động Lực Làm Video Với Nha🥰🥰🥰 VCB:1026377599",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/rpRAXdc7Ay8/hqdefault.jpg",
+      "publishedAt": "2026-11-27T09:37:30+00:00",
+      "updatedAt": "2026-11-27T09:37:30+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "Full SS1 | Tại Sao Chị Khóa Trên Thanh Mai Trúc Mã Của Tôi Lại Như Thế Này? | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=rpRAXdc7Ay8",
+          "id": "rpRAXdc7Ay8",
+          "duration": 8799,
+          "durationStr": "2:26:39",
+          "publishedAt": "2026-11-27T09:37:30+00:00",
+          "views": 19,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6817",
+      "title": "Full Tập 01~158 | Mẹ Tiên Tôn Tu Tiên Vạn Năm Trở Về, Cử Thần Thú Giả Hệ Thống Giúp Con Gái",
+      "channelId": "tieumuoingontinh",
+      "channelName": "Tiểu Muội Ngôn Tình",
+      "channelUrl": "https://www.youtube.com/@TieuMuoiNgonTinh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7802,
+      "totalDurationStr": "2 giờ 10 phút",
+      "totalViews": 43,
+      "totalLikes": 8,
+      "review": "Tu tiên vạn năm trở về, Tiên Tôn Thẩm Ly thấy con gái Thẩm Kinh Kiều bị hủy dung, ép vào đường cùng. Cô liền thu phục hào môn họ Tạ, cử thần thú giả hệ thống, hóa bạn cùng bàn chữa lành dung mạo, vạch trần kẻ ác và giúp con gái đổi đời rực rỡ. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt Nhật, Phim Ngôn Tình...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/KOqffodRCpo/hqdefault.jpg",
+      "publishedAt": "2026-11-27T09:31:58+00:00",
+      "updatedAt": "2026-11-27T09:31:58+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1",
+          "title": "Full Tập 01~158 | Mẹ Tiên Tôn Tu Tiên Vạn Năm Trở Về, Cử Thần Thú Giả Hệ Thống Giúp Con Gái",
+          "url": "https://www.youtube.com/watch?v=KOqffodRCpo",
+          "id": "KOqffodRCpo",
+          "duration": 7802,
+          "durationStr": "2:10:02",
+          "publishedAt": "2026-11-27T09:31:58+00:00",
+          "views": 43,
+          "likes": 8,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6818",
+      "title": "Full Bộ 01~469 | Trọng Sinh Thức Tỉnh Cửu Giới Thần Nhãn, Đổi Đời Thành Chủ Tịch Tỷ Đô",
+      "channelId": "huyensutieumuoi",
+      "channelName": "Huyền Sư Tiểu Muội",
+      "channelUrl": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 34748,
+      "totalDurationStr": "9 giờ 39 phút",
+      "totalViews": 35,
+      "totalLikes": 3,
+      "review": "Từ sinh viên mồ côi nghèo khó, Phương Dân vô tình cứu nữ sát thủ lạnh lùng Tiêu Y Vân rồi bị ép làm chồng. Chết đi sống lại, anh thức tỉnh Cửu Giới Thần Nhãn, dùng y thuật diệt trừ tổ chức U Ám Môn, đổi đời thành Chủ tịch tập đoàn tỷ đô. 🔔 Nhấn chuông thông báo để không bỏ lỡ các tập phim kỳ ảo, tu chân và đô thị dị năng mới nhất mỗi ngày. ❖ Thể loại:...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/kzwWalybrig/hqdefault.jpg",
+      "publishedAt": "2026-11-27T09:30:54+00:00",
+      "updatedAt": "2026-11-27T09:30:54+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Bộ 01~469 | Trọng Sinh Thức Tỉnh Cửu Giới Thần Nhãn, Đổi Đời Thành Chủ Tịch Tỷ Đô",
+          "url": "https://www.youtube.com/watch?v=kzwWalybrig",
+          "id": "kzwWalybrig",
+          "duration": 34748,
+          "durationStr": "9:39:08",
+          "publishedAt": "2026-11-27T09:30:54+00:00",
+          "views": 35,
+          "likes": 3,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6819",
+      "title": "Xuyên Không Thành Nha Hoàn Đốt Lửa: Tôi Dùng Món Lòng Heo Khiến Cả Vương Phủ Phát Cuồng Vì Mỹ Thực!",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 30646,
+      "totalDurationStr": "8 giờ 30 phút",
+      "totalViews": 12,
+      "totalLikes": 2,
+      "review": "🎬 【Xuyên Không Thành Nha Hoàn Đốt Lửa: Tôi Dùng Món Lòng Heo Khiến Cả Vương Phủ Phát Cuồng Vì Mỹ Thực!】 🍲🏯 Bất ngờ xuyên không về thời cổ đại, nữ chính lại trở thành một nha hoàn đốt lửa có địa vị thấp bé trong Vương phủ! Không cam chịu số phận, cô quyết định tận dụng tài năng nấu nướng của mình để thay đổi cuộc sống. Từ những nguyên liệu bình dân bị...",
+      "genres": [
+        "Xuyên không / Trọng sinh",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/jEb-Hnlp4eE/hqdefault.jpg",
+      "publishedAt": "2026-11-27T09:17:35+00:00",
+      "updatedAt": "2026-11-27T09:17:35+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Thành Nha Hoàn Đốt Lửa: Tôi Dùng Món Lòng Heo Khiến Cả Vương Phủ Phát Cuồng Vì Mỹ Thực!",
+          "url": "https://www.youtube.com/watch?v=jEb-Hnlp4eE",
+          "id": "jEb-Hnlp4eE",
+          "duration": 30646,
+          "durationStr": "8:30:46",
+          "publishedAt": "2026-11-27T09:17:35+00:00",
+          "views": 12,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6816",
       "title": "17 GIỜ 50 THỎA MÃN | Tu Tiên Trọng Nữ Khinh Nam: Từ Nô Lệ Hầm Mỏ, Ta Nghịch Thiên Đổi Mệnh!",
@@ -3849,7 +4000,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i3.ytimg.com/vi/2iCjuPAzjFs/hqdefault.jpg",
       "publishedAt": "2026-11-26T09:42:01+00:00",
       "updatedAt": "2026-11-26T09:42:01+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3887,7 +4038,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i3.ytimg.com/vi/B8R5PSO6yUs/hqdefault.jpg",
       "publishedAt": "2026-11-26T09:37:44+00:00",
       "updatedAt": "2026-11-26T09:37:44+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
