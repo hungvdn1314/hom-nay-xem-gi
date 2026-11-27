@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6830,
+    "totalFilms": 6831,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-27T12:00:50.682402+00:00",
+    "lastUpdated": "2026-11-27T12:15:38.615208+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -74,7 +74,7 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 332
+      "filmCount": 333
     },
     {
       "id": "gianhireview",
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6833",
+      "title": "Xuyên Không Thành Thiên Kim Ốm Yếu, Bách Quỷ Nhường Đường Ép Cô Thành Thần!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 21730,
+      "totalDurationStr": "6 giờ 02 phút",
+      "totalViews": 10,
+      "totalLikes": 1,
+      "review": "Xuyên Không Thành Thiên Kim Ốm Yếu, Bách Quỷ Nhường Đường Ép Cô Thành Thần!",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/GnVXT3sfc2A/hqdefault.jpg",
+      "publishedAt": "2026-11-27T12:05:24+00:00",
+      "updatedAt": "2026-11-27T12:05:24+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Thành Thiên Kim Ốm Yếu, Bách Quỷ Nhường Đường Ép Cô Thành Thần!",
+          "url": "https://www.youtube.com/watch?v=GnVXT3sfc2A",
+          "id": "GnVXT3sfc2A",
+          "duration": 21730,
+          "durationStr": "6:02:10",
+          "publishedAt": "2026-11-27T12:05:24+00:00",
+          "views": 10,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6831",
       "title": "Thức Tỉnh Hệ Thống Nghề Nghiệp: Từ Đầu Bếp Đêm Đến Kỵ Sĩ Chân Long | Đậu Đậu Vietsub",
@@ -3965,7 +4003,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/bHem-yEWwhI/hqdefault.jpg",
       "publishedAt": "2026-11-26T12:11:36+00:00",
       "updatedAt": "2026-11-26T12:11:36+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
