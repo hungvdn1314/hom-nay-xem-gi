@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6849,
+    "totalFilms": 6850,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T02:01:44.303303+00:00",
+    "lastUpdated": "2026-11-28T02:15:37.590007+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 48,
+      "filmCount": 49,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -245,6 +245,43 @@
   ],
   "films": [
     {
+      "id": "film_6852",
+      "title": "END |【Ca Thần Đi Dép Lào: Xuyên Không Thành Đại Gia Thu Tiền Nhà, Tôi Dựa Vào Âm Nhạc Để Kiếm Tiền!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "🎬 【Ca Thần Đi Dép Lào: Xuyên Không Thành Đại Gia Thu Tiền Nhà, Tôi Dựa Vào Âm Nhạc Để Kiếm Tiền!】 🎤💰 Bất ngờ xuyên không và trở thành một đại gia chuyên thu tiền thuê nhà, nhân vật chính tưởng chừng có thể tận hưởng cuộc sống an nhàn mà chẳng cần lo cơm áo gạo tiền! Thế nhưng, anh lại lựa chọn một con đường thú vị hơn: dựa vào tài năng âm nhạc để kiếm...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/G5S6evBv88s/hqdefault.jpg",
+      "publishedAt": "2026-11-28T02:15:24+00:00",
+      "updatedAt": "2026-11-28T02:15:24+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "END |【Ca Thần Đi Dép Lào: Xuyên Không Thành Đại Gia Thu Tiền Nhà, Tôi Dựa Vào Âm Nhạc Để Kiếm Tiền!】",
+          "url": "https://www.youtube.com/watch?v=G5S6evBv88s",
+          "id": "G5S6evBv88s",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-28T02:15:24+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_6851",
       "title": "S1 | Tận Thế Zombie, Nam Sinh Phát Hiện 4 Quy Luật Sinh Tồn Trong Ký Túc Xá | Trùm Phim Sinh Tồn New",
       "channelId": "trumphimsinhton",
@@ -253,8 +290,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 9990,
+      "totalDurationStr": "2 giờ 46 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "S1 | Tận Thế Zombie, Nam Sinh Phát Hiện 4 Quy Luật Sinh Tồn Trong Ký Túc Xá | Trùm Phim Sinh Tồn New Phim: Ký Túc Xá Tận Thế: Zombie Cũng Đi Kiểm Tra Phòng. Hơn vạn giáo viên và học sinh bị đàn zombie dưới lầu nuốt chửng, những người bị cắn nhanh chóng biến thành xác sống. Điện, mạng và nước đều bị cắt. Năm người trong ký túc xá chặn kín cửa, dựa vào...",
@@ -273,8 +310,8 @@
           "title": "S1 | Tận Thế Zombie, Nam Sinh Phát Hiện 4 Quy Luật Sinh Tồn Trong Ký Túc Xá | Trùm Phim Sinh Tồn New",
           "url": "https://www.youtube.com/watch?v=XkAbXuGa_Lo",
           "id": "XkAbXuGa_Lo",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 9990,
+          "durationStr": "2:46:30",
           "publishedAt": "2026-11-28T02:00:33+00:00",
           "views": 0,
           "likes": 0,
@@ -4309,7 +4346,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eUmiqjEl4NM/hqdefault.jpg",
       "publishedAt": "2026-10-30T00:00:00+00:00",
       "updatedAt": "2026-11-27T02:04:22+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
