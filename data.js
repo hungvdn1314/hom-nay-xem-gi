@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6844,
+    "totalFilms": 6845,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T00:15:34.953099+00:00",
+    "lastUpdated": "2026-11-28T00:30:40.011263+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 46,
+      "filmCount": 47,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6847",
+      "title": "【Cương Thi Tung Hoành Dị Giới: Một Viên Kim Sắc Thi Đan Trấn Áp Vạn Pháp, Nghiền Nát Thiên Kiêu!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9924,
+      "totalDurationStr": "2 giờ 45 phút",
+      "totalViews": 6,
+      "totalLikes": 0,
+      "review": "🎬 【Cương Thi Tung Hoành Dị Giới: Một Viên Kim Sắc Thi Đan Trấn Áp Vạn Pháp, Nghiền Nát Thiên Kiêu!】 🧟⚡ Giữa dị giới rộng lớn, nơi vạn tộc tranh bá và thiên kiêu không ngừng xuất hiện, nhân vật chính lại mang thân phận vô cùng đặc biệt: một cương thi sở hữu Kim Sắc Thi Đan! Trong khi các tu sĩ miệt mài tu luyện công pháp, tranh đoạt cơ duyên, anh lại bước...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/NxKqsJO4ZZI/hqdefault.jpg",
+      "publishedAt": "2026-11-28T00:19:37+00:00",
+      "updatedAt": "2026-11-28T00:19:37+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "【Cương Thi Tung Hoành Dị Giới: Một Viên Kim Sắc Thi Đan Trấn Áp Vạn Pháp, Nghiền Nát Thiên Kiêu!】",
+          "url": "https://www.youtube.com/watch?v=NxKqsJO4ZZI",
+          "id": "NxKqsJO4ZZI",
+          "duration": 9924,
+          "durationStr": "2:45:24",
+          "publishedAt": "2026-11-28T00:19:37+00:00",
+          "views": 6,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6845",
       "title": "S1 | Thiếu Niên Thiên Phú Cấp E Sở Hữu Thể Lực Vô Hạn, Nghịch Tập Võ Đạo | Trùm Phim Sinh Tồn New",
@@ -4031,7 +4069,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i1.ytimg.com/vi/P7vLWjPkwL8/hqdefault.jpg",
       "publishedAt": "2026-11-27T00:17:57+00:00",
       "updatedAt": "2026-11-27T00:17:57+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
