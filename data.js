@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T06:00:43.223225+00:00",
+    "lastUpdated": "2026-11-28T06:15:33.416552+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -244,6 +244,164 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_756",
+      "title": "Giác Tỉnh Thập Điện Diêm La, Ta Chính Là Hồng Tán Quỷ Tiên",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLdBBMj6NIHTQ",
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 38640,
+      "totalDurationStr": "10 giờ 44 phút",
+      "review": "Giác Tỉnh Thập Điện Diêm La, Ta Chính Là Hồng Tán Quỷ Tiên",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/aD3zWAK5ycc/hqdefault.jpg",
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 10",
+          "title": "Mùa 10 | Giác Tỉnh Thập Điện Diêm La, Ta Chính Là Hồng Tán Quỷ Tiên",
+          "url": "https://www.youtube.com/watch?v=aD3zWAK5ycc",
+          "id": "aD3zWAK5ycc",
+          "duration": 8471,
+          "durationStr": "2:21:11",
+          "isRedundant": false,
+          "views": 17030,
+          "likes": 126,
+          "publishedAt": "2026-10-01T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 11",
+          "title": "Mùa 11 | Giác Tỉnh Thập Điện Diêm La, Ta Chính Là Hồng Tán Quỷ Tiên",
+          "url": "https://www.youtube.com/watch?v=yTL0-S8yPA4",
+          "id": "yTL0-S8yPA4",
+          "duration": 10110,
+          "durationStr": "2:48:30",
+          "isRedundant": false,
+          "views": 21134,
+          "likes": 105,
+          "publishedAt": "2026-10-17T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 12",
+          "title": "Mùa 12 | Giác Tỉnh Thập Điện Diêm La, Ta Chính Là Hồng Tán Quỷ Tiên",
+          "url": "https://www.youtube.com/watch?v=Z-II3mbe3qw",
+          "id": "Z-II3mbe3qw",
+          "duration": 9537,
+          "durationStr": "2:38:57",
+          "publishedAt": "2026-11-12T18:25:40+00:00",
+          "isRedundant": false,
+          "views": 6944,
+          "likes": 51,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 4,
+          "label": "Mùa 13",
+          "title": "Mùa 13 | Giác Tỉnh Thập Điện Diêm La, Ta Chính Là Hồng Tán Quỷ Tiên",
+          "url": "https://www.youtube.com/watch?v=preu-mM-Kh4",
+          "id": "preu-mM-Kh4",
+          "duration": 10522,
+          "durationStr": "2:55:22",
+          "publishedAt": "2026-11-28T06:11:16.830127+00:00",
+          "views": 27,
+          "likes": 4,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        }
+      ],
+      "updatedAt": "2026-11-28T06:11:16.830127+00:00",
+      "isRecent24h": true,
+      "publishedAt": "2026-11-12T18:25:40+00:00",
+      "totalViews": 45135,
+      "totalLikes": 286,
+      "channelIds": [
+        "melacreview"
+      ]
+    },
+    {
+      "id": "film_6773",
+      "title": "30 GIỜ THỎA MÃN | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 240893,
+      "totalDurationStr": "66 giờ 54 phút",
+      "totalViews": 299,
+      "totalLikes": 8,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **ĐÊM VĨNH HẰNG – THỨC TỈNH CHUỖI THÔN PHỆ, NUỐT TITAN ĐỂ TRỞ THÀNH CƯỜNG GIẢ! | 30 GIỜ ⚔️ Năm 2000, một con **hắc điểu khổng lồ nuốt chửng Mặt Trời**, khiến Lam Tinh chìm vào Đêm Vĩnh Hằng. Cự thú Titan xuất hiện, tàn phá các thành phố, buộc nhân loại phải ẩn náu trong những khu...",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/rF5LMZpCgIQ/hqdefault.jpg",
+      "publishedAt": "2026-11-26T10:00:28+00:00",
+      "updatedAt": "2026-11-28T06:01:18.938948+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "30 GIỜ THỎA MÃN | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
+          "url": "https://www.youtube.com/watch?v=rF5LMZpCgIQ",
+          "id": "rF5LMZpCgIQ",
+          "duration": 107864,
+          "durationStr": "29:57:44",
+          "publishedAt": "2026-11-26T10:00:28+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Mùa 3",
+          "title": "SS3 | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
+          "url": "https://www.youtube.com/watch?v=ykbzSdUN5zI",
+          "id": "ykbzSdUN5zI",
+          "duration": 68638,
+          "durationStr": "19:03:58",
+          "publishedAt": "2026-11-27T07:15:22+00:00",
+          "views": 169,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 4",
+          "title": "SS4 | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
+          "url": "https://www.youtube.com/watch?v=i8hhU9-FO9g",
+          "id": "i8hhU9-FO9g",
+          "duration": 64391,
+          "durationStr": "17:53:11",
+          "publishedAt": "2026-11-28T06:01:18.938948+00:00",
+          "views": 130,
+          "likes": 8,
+          "isRedundant": false,
+          "channelId": "2ksub",
+          "channelName": "2K Sub"
+        }
+      ],
+      "channelIds": [
+        "2ksub"
+      ]
+    },
     {
       "id": "film_6864",
       "title": "14 GIỜ 20 THỎA MÃN | Xuyên Không Hoàng Tử: Hệ Thống Tặng 1 Triệu Điểm, Nâng Công Pháp Max Cấp!",
@@ -3771,62 +3929,6 @@ window.FILMS_DATA = {
           "likes": 17,
           "isRedundant": false
         }
-      ]
-    },
-    {
-      "id": "film_6773",
-      "title": "30 GIỜ THỎA MÃN | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
-      "channelId": "2ksub",
-      "channelName": "2K Sub",
-      "channelUrl": "https://www.youtube.com/@2KSUB2000",
-      "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 176502,
-      "totalDurationStr": "49 giờ 01 phút",
-      "totalViews": 169,
-      "totalLikes": 0,
-      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **ĐÊM VĨNH HẰNG – THỨC TỈNH CHUỖI THÔN PHỆ, NUỐT TITAN ĐỂ TRỞ THÀNH CƯỜNG GIẢ! | 30 GIỜ ⚔️ Năm 2000, một con **hắc điểu khổng lồ nuốt chửng Mặt Trời**, khiến Lam Tinh chìm vào Đêm Vĩnh Hằng. Cự thú Titan xuất hiện, tàn phá các thành phố, buộc nhân loại phải ẩn náu trong những khu...",
-      "genres": [
-        "Ngự thú / Tiến hóa",
-        "Hệ thống / Thức tỉnh"
-      ],
-      "thumbnail": "https://i3.ytimg.com/vi/rF5LMZpCgIQ/hqdefault.jpg",
-      "publishedAt": "2026-11-26T10:00:28+00:00",
-      "updatedAt": "2026-11-27T07:15:22+00:00",
-      "isRecent24h": true,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "30 GIỜ THỎA MÃN | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
-          "url": "https://www.youtube.com/watch?v=rF5LMZpCgIQ",
-          "id": "rF5LMZpCgIQ",
-          "duration": 107864,
-          "durationStr": "29:57:44",
-          "publishedAt": "2026-11-26T10:00:28+00:00",
-          "views": 0,
-          "likes": 0,
-          "isRedundant": false
-        },
-        {
-          "index": 2,
-          "label": "Mùa 3",
-          "title": "SS3 | Đêm Vĩnh Hằng: Thức Tỉnh Chuỗi Thôn Phệ, Ta Nuốt Titan Để Tiến Hóa!",
-          "url": "https://www.youtube.com/watch?v=ykbzSdUN5zI",
-          "id": "ykbzSdUN5zI",
-          "duration": 68638,
-          "durationStr": "19:03:58",
-          "publishedAt": "2026-11-27T07:15:22+00:00",
-          "views": 169,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "2ksub",
-          "channelName": "2K Sub"
-        }
-      ],
-      "channelIds": [
-        "2ksub"
       ]
     },
     {
@@ -52778,78 +52880,6 @@ window.FILMS_DATA = {
       ],
       "totalViews": 9507,
       "totalLikes": 49,
-      "channelIds": [
-        "melacreview"
-      ]
-    },
-    {
-      "id": "film_756",
-      "title": "Giác Tỉnh Thập Điện Diêm La, Ta Chính Là Hồng Tán Quỷ Tiên",
-      "channelId": "melacreview",
-      "channelName": "Mễ Lạc Review",
-      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "playlistUrl": "https://www.youtube.com/playlist?list=PLdBBMj6NIHTQ",
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 28118,
-      "totalDurationStr": "7 giờ 48 phút",
-      "review": "Giác Tỉnh Thập Điện Diêm La, Ta Chính Là Hồng Tán Quỷ Tiên",
-      "genres": [
-        "Hoạt hình 3D Chọn Lọc"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/aD3zWAK5ycc/hqdefault.jpg",
-      "parts": [
-        {
-          "index": 1,
-          "label": "Mùa 10",
-          "title": "Mùa 10 | Giác Tỉnh Thập Điện Diêm La, Ta Chính Là Hồng Tán Quỷ Tiên",
-          "url": "https://www.youtube.com/watch?v=aD3zWAK5ycc",
-          "id": "aD3zWAK5ycc",
-          "duration": 8471,
-          "durationStr": "2:21:11",
-          "isRedundant": false,
-          "views": 17030,
-          "likes": 126,
-          "publishedAt": "2026-10-01T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 2,
-          "label": "Mùa 11",
-          "title": "Mùa 11 | Giác Tỉnh Thập Điện Diêm La, Ta Chính Là Hồng Tán Quỷ Tiên",
-          "url": "https://www.youtube.com/watch?v=yTL0-S8yPA4",
-          "id": "yTL0-S8yPA4",
-          "duration": 10110,
-          "durationStr": "2:48:30",
-          "isRedundant": false,
-          "views": 21134,
-          "likes": 105,
-          "publishedAt": "2026-10-17T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 3,
-          "label": "Mùa 12",
-          "title": "Mùa 12 | Giác Tỉnh Thập Điện Diêm La, Ta Chính Là Hồng Tán Quỷ Tiên",
-          "url": "https://www.youtube.com/watch?v=Z-II3mbe3qw",
-          "id": "Z-II3mbe3qw",
-          "duration": 9537,
-          "durationStr": "2:38:57",
-          "publishedAt": "2026-11-12T18:25:40+00:00",
-          "isRedundant": false,
-          "views": 6944,
-          "likes": 51,
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        }
-      ],
-      "updatedAt": "2026-11-12T18:25:40+00:00",
-      "isRecent24h": false,
-      "publishedAt": "2026-11-12T18:25:40+00:00",
-      "totalViews": 45108,
-      "totalLikes": 282,
       "channelIds": [
         "melacreview"
       ]
