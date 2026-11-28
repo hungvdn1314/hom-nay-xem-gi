@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6868,
+    "totalFilms": 6869,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T08:15:29.095046+00:00",
+    "lastUpdated": "2026-11-28T08:30:40.903007+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 653
+      "filmCount": 654
     },
     {
       "id": "naophangtutien",
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6871",
+      "title": "14 GIỜ 20 THỎA MÃN | Ngự Thú: Thức Tỉnh Hạch Tâm Hố Đen, Ta Truyền Kỹ Năng Tiến Hóa Thần Thú!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 51835,
+      "totalDurationStr": "14 giờ 23 phút",
+      "totalViews": 262,
+      "totalLikes": 16,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **NGỰ THÚ XUYÊN KHÔNG – THỨC TỈNH HẠCH TÂM HỐ ĐEN, TA TRUYỀN KỸ NĂNG CHO VẠN LINH THÚ! | 14H24** 🐉 **Phú Hàm** bất ngờ xuyên không đến thế giới Ngự Thú, trở thành học viên của **Học Viện Trúc Tâm**. Trong khi những người khác được lựa chọn linh thú mạnh mẽ, hắn lại nhận phải một...",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/17z6bLYzI5g/hqdefault.jpg",
+      "publishedAt": "2026-11-28T08:16:43+00:00",
+      "updatedAt": "2026-11-28T08:16:43+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "14 GIỜ 20 THỎA MÃN | Ngự Thú: Thức Tỉnh Hạch Tâm Hố Đen, Ta Truyền Kỹ Năng Tiến Hóa Thần Thú!",
+          "url": "https://www.youtube.com/watch?v=17z6bLYzI5g",
+          "id": "17z6bLYzI5g",
+          "duration": 51835,
+          "durationStr": "14:23:55",
+          "publishedAt": "2026-11-28T08:16:43+00:00",
+          "views": 262,
+          "likes": 16,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6870",
       "title": "S1 | Cao Võ: Thức Tỉnh Khí Linh Cấp SSS, Chỉ Cần Uống Rượu Là Tăng Tu Vi | Trùm Phim Sinh Tồn New",
