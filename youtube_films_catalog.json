@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6858,
+    "totalFilms": 6859,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T04:00:52.591584+00:00",
+    "lastUpdated": "2026-11-28T04:15:31.910001+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -136,7 +136,7 @@
       "id": "naophangtutien",
       "name": "Não Phẳng Tu Tiên",
       "url": "https://www.youtube.com/@nao-phang",
-      "filmCount": 94
+      "filmCount": 95
     },
     {
       "id": "hoatrenmay3d",
@@ -245,6 +245,44 @@
   ],
   "films": [
     {
+      "id": "film_6861",
+      "title": "Phần 2: Tu Tiên: Hóa Ra Bàn Tay Vàng Đều Phải Cướp Mới Có!",
+      "channelId": "naophangtutien",
+      "channelName": "Não Phẳng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@nao-phang",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7711,
+      "totalDurationStr": "2 giờ 08 phút",
+      "totalViews": 12,
+      "totalLikes": 0,
+      "review": "Tên Phim: Tu Tiên: Hóa Ra Bàn Tay Vàng Đều Phải Cướp Mới Có! 👉 “Video này chạy bằng cơm với niềm đam mê 🥲 Ai thương thì donate cho ad có động lực tiếp tục nha! Không có gì ngoài lòng biết ơn 🚀” Từ khoá: ✔ Phàm Nhân Bách Thế Thư ✔ Phim Hoạt Hình Trung Quốc ✔ Hoạt Hình 3D ✔ Hoạt Hình Xuyên Không ✔ Hoạt Hình Cổ Trang ✔ Hoạt Hình TQ ✔ HHTQ ✔ HH3D ✔ Hoạt Hình...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/MPU1vVdg6iw/hqdefault.jpg",
+      "publishedAt": "2026-11-28T04:11:03+00:00",
+      "updatedAt": "2026-11-28T04:11:03+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Phần 2: Tu Tiên: Hóa Ra Bàn Tay Vàng Đều Phải Cướp Mới Có!",
+          "url": "https://www.youtube.com/watch?v=MPU1vVdg6iw",
+          "id": "MPU1vVdg6iw",
+          "duration": 7711,
+          "durationStr": "2:08:31",
+          "publishedAt": "2026-11-28T04:11:03+00:00",
+          "views": 12,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_6859",
       "title": "Bị Bỏ Mặc Bên Đường Ở Mạt Thế Tôi Thức Tỉnh Hệ Thống Thôn Phệ Mọi Quy Tắc | Đậu Đậu Vietsub",
       "channelId": "daudauvietsub",
@@ -253,8 +291,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 9133,
+      "totalDurationStr": "2 giờ 32 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Bị Bỏ Mặc Bên Đường Ở Mạt Thế Tôi Thức Tỉnh Hệ Thống Thôn Phệ Mọi Quy Tắc | Đậu Đậu Vietsub 📋 TÓM TẮT : Bị phản bội ở mạt thế, Thẩm Dạ thức tỉnh hệ thống thôn phệ, nhìn thấu quy tắc sinh tử, bảo vệ đồng đội đánh bại kẻ ác mạt thế 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính bạn định...",
@@ -273,8 +311,8 @@
           "title": "Bị Bỏ Mặc Bên Đường Ở Mạt Thế Tôi Thức Tỉnh Hệ Thống Thôn Phệ Mọi Quy Tắc | Đậu Đậu Vietsub",
           "url": "https://www.youtube.com/watch?v=QWAYq1p6rqI",
           "id": "QWAYq1p6rqI",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 9133,
+          "durationStr": "2:32:13",
           "publishedAt": "2026-11-28T04:00:35+00:00",
           "views": 0,
           "likes": 0,
@@ -291,8 +329,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 34105,
+      "totalDurationStr": "9 giờ 28 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **NGỰ THÚ ĐÔ THỊ – THỨC TỈNH HUYẾT MẠCH NGỰ LONG, TA KHỐNG CHẾ CẢ HẮC LONG THẦN THOẠI! | 9H28** 🐉 **Hứa Nguyện** vốn tưởng mình chỉ là một thanh niên bình thường, nào ngờ bất ngờ bị đưa đến **Viện Nghiên Cứu Ích Thọ Bắc Cực** để thực hiện nhiệm vụ không tưởng: thu phục một con...",
@@ -311,8 +349,8 @@
           "title": "9 GIỜ 30 | Ngự Thú Đô Thị: Thức Tỉnh Huyết Mạch Ngự Long, Ta Thu Phục Băng Long Và Hắc Long!",
           "url": "https://www.youtube.com/watch?v=BuI4Bcy4oxk",
           "id": "BuI4Bcy4oxk",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 34105,
+          "durationStr": "9:28:25",
           "publishedAt": "2026-11-28T04:00:29+00:00",
           "views": 0,
           "likes": 0,
