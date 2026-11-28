@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T01:30:40.648736+00:00",
+    "lastUpdated": "2026-11-28T01:45:34.205843+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -4304,7 +4304,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/7pNdbQANDSc/hqdefault.jpg",
       "publishedAt": "2026-11-27T01:39:33+00:00",
       "updatedAt": "2026-11-27T01:39:33+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
