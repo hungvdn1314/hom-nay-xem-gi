@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6861,
+    "totalFilms": 6864,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T05:00:55.343821+00:00",
+    "lastUpdated": "2026-11-28T05:15:39.719695+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 651
+      "filmCount": 652
     },
     {
       "id": "naophangtutien",
@@ -180,7 +180,7 @@
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 50,
+      "filmCount": 51,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -202,7 +202,7 @@
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 321,
+      "filmCount": 322,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6864",
+      "title": "14 GIỜ 20 THỎA MÃN | Xuyên Không Hoàng Tử: Hệ Thống Tặng 1 Triệu Điểm, Nâng Công Pháp Max Cấp!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 51451,
+      "totalDurationStr": "14 giờ 17 phút",
+      "totalViews": 653,
+      "totalLikes": 59,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **XUYÊN KHÔNG HOÀNG TỬ – HỆ THỐNG CẬP NHẬT SUỐT 1 NĂM, VỪA MỞ ĐÃ TẶNG 1 TRIỆU ĐIỂM KỸ NĂNG! | 14H17** ⚔️ **Tô Thần** xuyên không đến Huyền Nhai Đại Lục, trở thành hoàng tử Long Quốc. Vì hệ thống bất ngờ cập nhật suốt một năm, hắn thất bại trong cuộc tranh đoạt hoàng vị, bị đưa...",
+      "genres": [
+        "Võ hiệp / Cổ trang",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/E-VQ_FLQ5qk/hqdefault.jpg",
+      "publishedAt": "2026-11-28T05:00:31+00:00",
+      "updatedAt": "2026-11-28T05:00:31+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "14 GIỜ 20 THỎA MÃN | Xuyên Không Hoàng Tử: Hệ Thống Tặng 1 Triệu Điểm, Nâng Công Pháp Max Cấp!",
+          "url": "https://www.youtube.com/watch?v=E-VQ_FLQ5qk",
+          "id": "E-VQ_FLQ5qk",
+          "duration": 51451,
+          "durationStr": "14:17:31",
+          "publishedAt": "2026-11-28T05:00:31+00:00",
+          "views": 653,
+          "likes": 59,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6866",
+      "title": "S1 | Vĩnh Dạ Giáng Lâm, Thiếu Niên Sở Hữu Sức Mạnh Hắc Ảnh Bí Ẩn | Trùm Phim Sinh Tồn New",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 21390,
+      "totalDurationStr": "5 giờ 56 phút",
+      "totalViews": 82,
+      "totalLikes": 5,
+      "review": "S1 | Vĩnh Dạ Giáng Lâm, Thiếu Niên Sở Hữu Sức Mạnh Hắc Ảnh Bí Ẩn | Trùm Phim Sinh Tồn New Phim: Vĩnh Dạ Giáng Lâm, Ta Khiêu Vũ Cùng Vực Sâu. Tóm tắt nội dung: Thiếu niên Phương Bạch ở Cựu Châu chỉ mong tích đủ học phí để vào Đại học Thánh Đường và có cuộc sống tốt hơn. Tuy nhiên, một cuộc tập kích của quái vật trong đêm khiến cậu phát hiện cái bóng của...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/y2XwH1Mf9IU/hqdefault.jpg",
+      "publishedAt": "2026-11-28T05:00:26+00:00",
+      "updatedAt": "2026-11-28T05:00:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S1 | Vĩnh Dạ Giáng Lâm, Thiếu Niên Sở Hữu Sức Mạnh Hắc Ảnh Bí Ẩn | Trùm Phim Sinh Tồn New",
+          "url": "https://www.youtube.com/watch?v=y2XwH1Mf9IU",
+          "id": "y2XwH1Mf9IU",
+          "duration": 21390,
+          "durationStr": "5:56:30",
+          "publishedAt": "2026-11-28T05:00:26+00:00",
+          "views": 82,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6862",
       "title": "Trọng Sinh Thành Cổ Sư Nuốt Thọ Nguyên Hốt Trọn Cơ Duyên! | Đậu Đậu Vietsub",
@@ -313,6 +389,43 @@
           "durationStr": "3:55:10",
           "publishedAt": "2026-11-28T04:59:49+00:00",
           "views": 2,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6865",
+      "title": "Full P1 | Con Người Không Thể Chống Lại Ma Quỷ, Nhưng Nếu Chính Ta Cũng Không Còn Là Người Thì Sao",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8761,
+      "totalDurationStr": "2 giờ 26 phút",
+      "totalViews": 10,
+      "totalLikes": 0,
+      "review": "🎬 【Con Người Không Thể Chống Lại Ma Quỷ, Nhưng Nếu Chính Ta Cũng Không Còn Là Người Thì Sao?!】 👻💀 Trong một thế giới nơi ma quỷ hoành hành, con người trở nên nhỏ bé và bất lực trước những tồn tại quỷ dị đáng sợ. Khi sức mạnh của người phàm không đủ để chống lại ma quỷ, nhân vật chính lại đặt ra một câu hỏi điên rồ: Nếu chính mình cũng không còn là con...",
+      "genres": [
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/EDz9xdUCxV0/hqdefault.jpg",
+      "publishedAt": "2026-11-28T04:58:07+00:00",
+      "updatedAt": "2026-11-28T04:58:07+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full P1 | Con Người Không Thể Chống Lại Ma Quỷ, Nhưng Nếu Chính Ta Cũng Không Còn Là Người Thì Sao",
+          "url": "https://www.youtube.com/watch?v=EDz9xdUCxV0",
+          "id": "EDz9xdUCxV0",
+          "duration": 8761,
+          "durationStr": "2:26:01",
+          "publishedAt": "2026-11-28T04:58:07+00:00",
+          "views": 10,
           "likes": 0,
           "isRedundant": false
         }
@@ -3982,7 +4095,7 @@
       "thumbnail": "https://i1.ytimg.com/vi/8cdjJkzr94s/hqdefault.jpg",
       "publishedAt": "2026-11-27T05:15:24+00:00",
       "updatedAt": "2026-11-27T05:15:24+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4019,7 +4132,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/Jbfy6BbsODE/hqdefault.jpg",
       "publishedAt": "2026-11-27T05:07:01+00:00",
       "updatedAt": "2026-11-27T05:07:01+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
