@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T07:30:33.824671+00:00",
+    "lastUpdated": "2026-11-28T07:45:34.380342+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -244,6 +244,93 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_658",
+      "title": "Thiên Giáng Long Phượng Thai",
+      "channelId": "akatsukireview",
+      "channelIds": [
+        "akatsukireview"
+      ],
+      "channelName": "Akatsuki Review",
+      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
+      "playlistUrl": null,
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 12770,
+      "totalDurationStr": "3 giờ 32 phút",
+      "totalViews": 3773,
+      "totalLikes": 1,
+      "review": "",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/izKcUv2gpAw/hqdefault.jpg",
+      "publishedAt": "2026-10-27T00:00:00+00:00",
+      "updatedAt": "2026-11-28T07:36:21.143234+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1-36",
+          "title": "Tập 1-36 | Thiên Giáng Long Phượng Thai | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=izKcUv2gpAw",
+          "id": "izKcUv2gpAw",
+          "duration": 7287,
+          "durationStr": "2:01:27",
+          "publishedAt": "2026-10-27T00:00:00+00:00",
+          "views": 1900,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 2,
+          "label": "Tập 37-46",
+          "title": "Tập 37-46 | Thiên Giáng Long Phượng Thai | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=fQn2jSilRJk",
+          "id": "fQn2jSilRJk",
+          "duration": 1990,
+          "durationStr": "33:10",
+          "publishedAt": "2026-11-06T00:00:00+00:00",
+          "views": 962,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 3,
+          "label": "Tập 47-53",
+          "title": "Tập 47-53 | Thiên Giáng Long Phượng Thai | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=1L27XJFmC9I",
+          "id": "1L27XJFmC9I",
+          "duration": 1515,
+          "durationStr": "25:15",
+          "publishedAt": "2026-11-13T00:00:00+00:00",
+          "views": 903,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 4,
+          "label": "Tập 58-67",
+          "title": "Tập 58-67 | Thiên Giáng Long Phượng Thai | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=puOAqoH5TGI",
+          "id": "puOAqoH5TGI",
+          "duration": 1978,
+          "durationStr": "32:58",
+          "publishedAt": "2026-11-28T07:36:21.143234+00:00",
+          "views": 8,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        }
+      ]
+    },
     {
       "id": "film_6044",
       "title": "Phần 2(1-450): Truyền Thuyết Tà Đỉnh Vô Sỉ-Bị Coi Là Phế Vật, Ta Dựa Vào Ma Đỉnh Để Nghịch Thiên",
@@ -52453,78 +52540,6 @@ window.FILMS_DATA = {
       ],
       "channelIds": [
         "daudauvietsub"
-      ]
-    },
-    {
-      "id": "film_658",
-      "title": "Thiên Giáng Long Phượng Thai",
-      "channelId": "akatsukireview",
-      "channelIds": [
-        "akatsukireview"
-      ],
-      "channelName": "Akatsuki Review",
-      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
-      "playlistUrl": null,
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 10792,
-      "totalDurationStr": "2 giờ 59 phút",
-      "totalViews": 3765,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Hoạt hình 3D Chọn Lọc"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/izKcUv2gpAw/hqdefault.jpg",
-      "publishedAt": "2026-10-27T00:00:00+00:00",
-      "updatedAt": "2026-11-13T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Tập 1-36",
-          "title": "Tập 1-36 | Thiên Giáng Long Phượng Thai | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=izKcUv2gpAw",
-          "id": "izKcUv2gpAw",
-          "duration": 7287,
-          "durationStr": "2:01:27",
-          "publishedAt": "2026-10-27T00:00:00+00:00",
-          "views": 1900,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        },
-        {
-          "index": 2,
-          "label": "Tập 37-46",
-          "title": "Tập 37-46 | Thiên Giáng Long Phượng Thai | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=fQn2jSilRJk",
-          "id": "fQn2jSilRJk",
-          "duration": 1990,
-          "durationStr": "33:10",
-          "publishedAt": "2026-11-06T00:00:00+00:00",
-          "views": 962,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        },
-        {
-          "index": 3,
-          "label": "Tập 47-53",
-          "title": "Tập 47-53 | Thiên Giáng Long Phượng Thai | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=1L27XJFmC9I",
-          "id": "1L27XJFmC9I",
-          "duration": 1515,
-          "durationStr": "25:15",
-          "publishedAt": "2026-11-13T00:00:00+00:00",
-          "views": 903,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        }
       ]
     },
     {
