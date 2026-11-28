@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6859,
+    "totalFilms": 6861,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T04:45:33.770177+00:00",
+    "lastUpdated": "2026-11-28T05:00:55.343821+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -154,7 +154,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 339
+      "filmCount": 340
     },
     {
       "id": "godsub",
@@ -230,7 +230,7 @@
       "id": "mycherrysub2",
       "name": "Bản Tin Cherry",
       "url": "https://www.youtube.com/@MyCherrySub2",
-      "filmCount": 176,
+      "filmCount": 177,
       "groupId": "group_mycherrysub",
       "groupName": "Hệ Thống MyCherrySub"
     },
@@ -244,6 +244,80 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6862",
+      "title": "Trọng Sinh Thành Cổ Sư Nuốt Thọ Nguyên Hốt Trọn Cơ Duyên! | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9206,
+      "totalDurationStr": "2 giờ 33 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Trọng Sinh Thành Cổ Sư Nuốt Thọ Nguyên Hốt Trọn Cơ Duyên! | Đậu Đậu Vietsub 📋 TÓM TẮT : Cố Văn trọng sinh 30 năm trước, dùng Thọ Nguyên Cổ nuốt thọ nguyên kẻ thù, gia nhập Thanh Đạo Phủ diệt Tà Cổ Sư, giành vạn năm thọ nguyên 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính bạn định nghĩa....",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/tO5SSxjuYQk/hqdefault.jpg",
+      "publishedAt": "2026-11-28T05:00:19+00:00",
+      "updatedAt": "2026-11-28T05:00:19+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trọng Sinh Thành Cổ Sư Nuốt Thọ Nguyên Hốt Trọn Cơ Duyên! | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=tO5SSxjuYQk",
+          "id": "tO5SSxjuYQk",
+          "duration": 9206,
+          "durationStr": "2:33:26",
+          "publishedAt": "2026-11-28T05:00:19+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6863",
+      "title": "[Full] Nghe Được Tiếng Lòng Của Hoa Khôi Lạnh Lùng, Hóa Ra Cô Ấy Mê Tôi Đến Phát Cuồng | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 14110,
+      "totalDurationStr": "3 giờ 55 phút",
+      "totalViews": 2,
+      "totalLikes": 0,
+      "review": "📽Phim: [Full] Nghe Được Tiếng Lòng Của Hoa Khôi Lạnh Lùng, Hóa Ra Cô Ấy Mê Tôi Đến Phát Cuồng! | MyCherrySub Tóm tắt: Nam chính Diệp Chu bất ngờ phát hiện bản thân có thể nghe thấy tiếng lòng của Lâm Thiển Nguyệt — nàng hoa khôi tiểu thư nổi tiếng lạnh lùng, khó gần nhất trường. Trái ngược hoàn toàn với vẻ ngoài băng giá, thế giới nội tâm của cô lại vô...",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/OuLa1CsDvhs/hqdefault.jpg",
+      "publishedAt": "2026-11-28T04:59:49+00:00",
+      "updatedAt": "2026-11-28T04:59:49+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Nghe Được Tiếng Lòng Của Hoa Khôi Lạnh Lùng, Hóa Ra Cô Ấy Mê Tôi Đến Phát Cuồng | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=OuLa1CsDvhs",
+          "id": "OuLa1CsDvhs",
+          "duration": 14110,
+          "durationStr": "3:55:10",
+          "publishedAt": "2026-11-28T04:59:49+00:00",
+          "views": 2,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_924",
       "title": "Nhặt Được Kẻ Mù, Hắn Vác Quan Tài Trảm Chư Thần",
@@ -3983,7 +4057,7 @@
       "thumbnail": "https://i1.ytimg.com/vi/8DvLLaWitSs/hqdefault.jpg",
       "publishedAt": "2026-11-27T05:00:08+00:00",
       "updatedAt": "2026-11-27T05:00:08+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4020,7 +4094,7 @@
       "thumbnail": "https://i1.ytimg.com/vi/Hy1sRKy85AQ/hqdefault.jpg",
       "publishedAt": "2026-11-27T04:58:05+00:00",
       "updatedAt": "2026-11-27T04:58:05+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4058,7 +4132,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TbU7sfvL3TI/hqdefault.jpg",
       "publishedAt": "2026-11-03T00:00:00+00:00",
       "updatedAt": "2026-11-27T04:56:17+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
