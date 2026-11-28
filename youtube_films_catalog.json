@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6887,
+    "totalFilms": 6888,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T13:45:36.998102+00:00",
+    "lastUpdated": "2026-11-28T14:00:45.562324+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 56,
+      "filmCount": 57,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,43 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6890",
+      "title": "END | Con Gái Thiên Tài, Mẹ Bị Coi Là Phế Vật: Nào Ngờ Khi Cởi Bỏ Ngụy Trang Lại Là Đại Lão Cấp Thần",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8620,
+      "totalDurationStr": "2 giờ 23 phút",
+      "totalViews": 7,
+      "totalLikes": 0,
+      "review": "🎬 【Con Gái Thiên Tài, Mẹ Bị Coi Là Phế Vật: Nào Ngờ Khi Cởi Bỏ Thân Phận Ngụy Trang, Cô Lại Là Đại Lão Cấp Thần!】 🌸💎 Trong khi cô con gái thiên tài được mọi người ngưỡng mộ, người mẹ lại bị coi thường, thậm chí bị xem là một phế vật chẳng có chút tài năng nào! Thế nhưng, chẳng ai ngờ rằng đằng sau vẻ ngoài bình thường ấy lại ẩn giấu thân phận vô cùng...",
+      "genres": [
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/udpvRlqIEK0/hqdefault.jpg",
+      "publishedAt": "2026-11-28T13:48:49+00:00",
+      "updatedAt": "2026-11-28T13:48:49+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "END | Con Gái Thiên Tài, Mẹ Bị Coi Là Phế Vật: Nào Ngờ Khi Cởi Bỏ Ngụy Trang Lại Là Đại Lão Cấp Thần",
+          "url": "https://www.youtube.com/watch?v=udpvRlqIEK0",
+          "id": "udpvRlqIEK0",
+          "duration": 8620,
+          "durationStr": "2:23:40",
+          "publishedAt": "2026-11-28T13:48:49+00:00",
+          "views": 7,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6889",
       "title": "S3 | Trò Chơi Văn Minh Hoang Tàn: Bắt Đầu Sinh Tồn Từ Cống Ngầm | Trùm Phim Sinh Tồn New",
@@ -4761,7 +4798,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yOld0qaRjDo/hqdefault.jpg",
       "publishedAt": "2026-10-27T00:00:00+00:00",
       "updatedAt": "2026-11-27T14:00:23+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
