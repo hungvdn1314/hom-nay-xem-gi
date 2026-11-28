@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6870,
+    "totalFilms": 6871,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T09:30:38.875217+00:00",
+    "lastUpdated": "2026-11-28T09:45:38.702508+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 53,
+      "filmCount": 54,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,43 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6873",
+      "title": "Full Phần 1 |【Bộ Xương Vác Súng Gatling: Ta Chính Là Chúa Tể Phó Bản!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 17683,
+      "totalDurationStr": "4 giờ 54 phút",
+      "totalViews": 4,
+      "totalLikes": 0,
+      "review": "🎬 【Bộ Xương Vác Súng Gatling: Ta Chính Là Chúa Tể Phó Bản!】 💀🔥 Giữa thế giới phó bản đầy rẫy quái vật và những thử thách sinh tử, một bộ xương tưởng chừng yếu ớt lại xuất hiện với vũ khí khiến tất cả phải kinh ngạc: súng Gatling! Thay vì chiến đấu bằng kiếm và ma pháp như những sinh vật thông thường, bộ xương này lại mang đến một phong cách chiến đấu...",
+      "genres": [
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/5u0KffEk5AI/hqdefault.jpg",
+      "publishedAt": "2026-11-28T09:36:42+00:00",
+      "updatedAt": "2026-11-28T09:36:42+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Bộ Xương Vác Súng Gatling: Ta Chính Là Chúa Tể Phó Bản!】",
+          "url": "https://www.youtube.com/watch?v=5u0KffEk5AI",
+          "id": "5u0KffEk5AI",
+          "duration": 17683,
+          "durationStr": "4:54:43",
+          "publishedAt": "2026-11-28T09:36:42+00:00",
+          "views": 4,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6872",
       "title": "Tiền Truyện | [Phần Phù Kiêu] - Tiểu sư muội được cả kiếm tông nhà ta sủng ái",
@@ -4392,7 +4429,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i3.ytimg.com/vi/rpRAXdc7Ay8/hqdefault.jpg",
       "publishedAt": "2026-11-27T09:37:30+00:00",
       "updatedAt": "2026-11-27T09:37:30+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4430,7 +4467,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/KOqffodRCpo/hqdefault.jpg",
       "publishedAt": "2026-11-27T09:31:58+00:00",
       "updatedAt": "2026-11-27T09:31:58+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4468,7 +4505,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/kzwWalybrig/hqdefault.jpg",
       "publishedAt": "2026-11-27T09:30:54+00:00",
       "updatedAt": "2026-11-27T09:30:54+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
