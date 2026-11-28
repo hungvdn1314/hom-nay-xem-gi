@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6886,
+    "totalFilms": 6887,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T13:00:44.528068+00:00",
+    "lastUpdated": "2026-11-28T13:15:33.206102+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -202,7 +202,7 @@ window.FILMS_DATA = {
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 323,
+      "filmCount": 324,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6889",
+      "title": "S3 | Trò Chơi Văn Minh Hoang Tàn: Bắt Đầu Sinh Tồn Từ Cống Ngầm | Trùm Phim Sinh Tồn New",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9248,
+      "totalDurationStr": "2 giờ 34 phút",
+      "totalViews": 24,
+      "totalLikes": 2,
+      "review": "S3 | Trò Chơi Văn Minh Hoang Tàn: Bắt Đầu Sinh Tồn Từ Cống Ngầm | Trùm Phim Sinh Tồn New Vu Uyên vô tình bước vào một trò chơi sinh tồn chân thực trong thế giới hoang tàn. Ngay từ đầu, anh từ bỏ cứ điểm trên mặt đất, tiến vào hệ thống cống ngầm và mở khóa danh hiệu ẩn Chuột Khu Phố. Dựa vào thông tin từ báo chí hằng ngày, Vu Uyên thu thập vật tư một cách...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/6pvTSIoUiW4/hqdefault.jpg",
+      "publishedAt": "2026-11-28T13:03:32+00:00",
+      "updatedAt": "2026-11-28T13:03:32+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S3 | Trò Chơi Văn Minh Hoang Tàn: Bắt Đầu Sinh Tồn Từ Cống Ngầm | Trùm Phim Sinh Tồn New",
+          "url": "https://www.youtube.com/watch?v=6pvTSIoUiW4",
+          "id": "6pvTSIoUiW4",
+          "duration": 9248,
+          "durationStr": "2:34:08",
+          "publishedAt": "2026-11-28T13:03:32+00:00",
+          "views": 24,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6887",
       "title": "Xuyên Không Thành Xe Đạp Rách Biết Nói Tôi Tiến Hóa Thành Chiến Xa Mạt Thế Bất Bại | Đậu Đậu Vietsub",
@@ -4884,7 +4922,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i3.ytimg.com/vi/b_6847vu5nU/hqdefault.jpg",
       "publishedAt": "2026-11-27T13:15:18+00:00",
       "updatedAt": "2026-11-27T13:15:18+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
