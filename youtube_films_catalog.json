@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6884,
+    "totalFilms": 6886,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T12:45:38.414864+00:00",
+    "lastUpdated": "2026-11-28T13:00:44.528068+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -154,7 +154,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 343
+      "filmCount": 344
     },
     {
       "id": "godsub",
@@ -230,7 +230,7 @@
       "id": "mycherrysub2",
       "name": "Bản Tin Cherry",
       "url": "https://www.youtube.com/@MyCherrySub2",
-      "filmCount": 177,
+      "filmCount": 178,
       "groupId": "group_mycherrysub",
       "groupName": "Hệ Thống MyCherrySub"
     },
@@ -244,6 +244,82 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6887",
+      "title": "Xuyên Không Thành Xe Đạp Rách Biết Nói Tôi Tiến Hóa Thành Chiến Xa Mạt Thế Bất Bại | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10822,
+      "totalDurationStr": "3 giờ 00 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Xuyên Không Thành Xe Đạp Rách Biết Nói Tôi Tiến Hóa Thành Chiến Xa Mạt Thế Bất Bại | Đậu Đậu Vietsub 📋 TÓM TẮT : Lý Tài Đại xuyên không thành xe đạp biết nói trong game sinh tồn mạt thế, nâng cấp phương tiện qua các cấp, đối đầu Huyết Đồ Hội, tranh hạng Đồng bằng Tang Thi rồi bước vào chiến tranh khu vực 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/BomdVaGmzfk/hqdefault.jpg",
+      "publishedAt": "2026-11-28T13:00:13+00:00",
+      "updatedAt": "2026-11-28T13:00:13+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Xuyên Không Thành Xe Đạp Rách Biết Nói Tôi Tiến Hóa Thành Chiến Xa Mạt Thế Bất Bại | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=BomdVaGmzfk",
+          "id": "BomdVaGmzfk",
+          "duration": 10822,
+          "durationStr": "3:00:22",
+          "publishedAt": "2026-11-28T13:00:13+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6888",
+      "title": "[Full] Sau 3 Năm Quay Lại Làm Tân Sinh Viên, Hoa Khôi Khóc Nấc Cứ Tưởng Tôi Đã Chớt! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9056,
+      "totalDurationStr": "2 giờ 30 phút",
+      "totalViews": 4,
+      "totalLikes": 13,
+      "review": "📽Phim: [Full] Sau 3 Năm Quay Lại Làm Tân Sinh Viên, Hoa Khôi Khóc Nấc Cứ Tưởng Tôi Đã Chớt! | MyCherrySub Tóm tắt: Nam chính Tô Thần ba năm trước đột ngột biến mất không một lời từ biệt vì được tuyển chọn vào một dự án nghiên cứu khoa học tuyệt mật cấp SSS của quốc gia. Sau ba năm cống hiến và tạo ra kỳ tích công nghệ Mật Quang, anh từ chối chức danh...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/EI3T6QxI9TQ/hqdefault.jpg",
+      "publishedAt": "2026-11-28T12:48:58+00:00",
+      "updatedAt": "2026-11-28T12:48:58+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Sau 3 Năm Quay Lại Làm Tân Sinh Viên, Hoa Khôi Khóc Nấc Cứ Tưởng Tôi Đã Chớt! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=EI3T6QxI9TQ",
+          "id": "EI3T6QxI9TQ",
+          "duration": 9056,
+          "durationStr": "2:30:56",
+          "publishedAt": "2026-11-28T12:48:58+00:00",
+          "views": 4,
+          "likes": 13,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6886",
       "title": "5  GIỜ 30 | ĐÔ THỊ QUỶ DỊ | Chỉ Làm Bảo Vệ Chung Cư, Nào Ngờ Cư Dân Đều Là Quỷ Cấp SSS!",
@@ -4846,7 +4922,7 @@
       "thumbnail": "https://i4.ytimg.com/vi/Wxf1ojm5NAE/hqdefault.jpg",
       "publishedAt": "2026-11-27T13:00:36+00:00",
       "updatedAt": "2026-11-27T13:00:36+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
