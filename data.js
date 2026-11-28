@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6855,
+    "totalFilms": 6858,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T03:45:37.316752+00:00",
+    "lastUpdated": "2026-11-28T04:00:52.591584+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 650
+      "filmCount": 651
     },
     {
       "id": "naophangtutien",
@@ -154,7 +154,7 @@ window.FILMS_DATA = {
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 338
+      "filmCount": 339
     },
     {
       "id": "godsub",
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 49,
+      "filmCount": 50,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,120 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6859",
+      "title": "Bị Bỏ Mặc Bên Đường Ở Mạt Thế Tôi Thức Tỉnh Hệ Thống Thôn Phệ Mọi Quy Tắc | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Bị Bỏ Mặc Bên Đường Ở Mạt Thế Tôi Thức Tỉnh Hệ Thống Thôn Phệ Mọi Quy Tắc | Đậu Đậu Vietsub 📋 TÓM TẮT : Bị phản bội ở mạt thế, Thẩm Dạ thức tỉnh hệ thống thôn phệ, nhìn thấu quy tắc sinh tử, bảo vệ đồng đội đánh bại kẻ ác mạt thế 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính bạn định...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/QWAYq1p6rqI/hqdefault.jpg",
+      "publishedAt": "2026-11-28T04:00:35+00:00",
+      "updatedAt": "2026-11-28T04:00:35+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Bị Bỏ Mặc Bên Đường Ở Mạt Thế Tôi Thức Tỉnh Hệ Thống Thôn Phệ Mọi Quy Tắc | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=QWAYq1p6rqI",
+          "id": "QWAYq1p6rqI",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-28T04:00:35+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6858",
+      "title": "9 GIỜ 30 | Ngự Thú Đô Thị: Thức Tỉnh Huyết Mạch Ngự Long, Ta Thu Phục Băng Long Và Hắc Long!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **NGỰ THÚ ĐÔ THỊ – THỨC TỈNH HUYẾT MẠCH NGỰ LONG, TA KHỐNG CHẾ CẢ HẮC LONG THẦN THOẠI! | 9H28** 🐉 **Hứa Nguyện** vốn tưởng mình chỉ là một thanh niên bình thường, nào ngờ bất ngờ bị đưa đến **Viện Nghiên Cứu Ích Thọ Bắc Cực** để thực hiện nhiệm vụ không tưởng: thu phục một con...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/BuI4Bcy4oxk/hqdefault.jpg",
+      "publishedAt": "2026-11-28T04:00:29+00:00",
+      "updatedAt": "2026-11-28T04:00:29+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "9 GIỜ 30 | Ngự Thú Đô Thị: Thức Tỉnh Huyết Mạch Ngự Long, Ta Thu Phục Băng Long Và Hắc Long!",
+          "url": "https://www.youtube.com/watch?v=BuI4Bcy4oxk",
+          "id": "BuI4Bcy4oxk",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-28T04:00:29+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6860",
+      "title": "Full Phần 1 |【Cẩu Đạo Trường Sinh: Tôi Dựa Vào Cộng Điểm Tu Tiên Trên Đại Lục Ma Võ!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8330,
+      "totalDurationStr": "2 giờ 18 phút",
+      "totalViews": 8,
+      "totalLikes": 0,
+      "review": "🎬 【Cẩu Đạo Trường Sinh: Tôi Dựa Vào Cộng Điểm Tu Tiên Trên Đại Lục Ma Võ!】 ⚔️✨ Xuyên không đến Đại Lục Ma Võ, nơi ma pháp và võ đạo cùng tồn tại, nhân vật chính lại lựa chọn một con đường hoàn toàn khác biệt: dựa vào cộng điểm để tu tiên, theo đuổi đại đạo trường sinh! Thay vì tranh giành danh vọng và mạo hiểm đối đầu với các cường giả, anh kiên trì tu...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/kKbMdqDKhb0/hqdefault.jpg",
+      "publishedAt": "2026-11-28T03:47:09+00:00",
+      "updatedAt": "2026-11-28T03:47:09+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Cẩu Đạo Trường Sinh: Tôi Dựa Vào Cộng Điểm Tu Tiên Trên Đại Lục Ma Võ!】",
+          "url": "https://www.youtube.com/watch?v=kKbMdqDKhb0",
+          "id": "kKbMdqDKhb0",
+          "duration": 8330,
+          "durationStr": "2:18:50",
+          "publishedAt": "2026-11-28T03:47:09+00:00",
+          "views": 8,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6857",
       "title": "Trọng Sinh Mở Quan Tài Cứu Vương Gia, Nghịch Thiên Đổi Mệnh!",
@@ -3871,7 +3985,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i3.ytimg.com/vi/fFpcKG0T9eA/hqdefault.jpg",
       "publishedAt": "2026-11-27T04:00:06+00:00",
       "updatedAt": "2026-11-27T04:00:06+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
