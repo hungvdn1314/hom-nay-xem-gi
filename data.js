@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6882,
+    "totalFilms": 6884,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T12:37:00.555767+00:00",
+    "lastUpdated": "2026-11-28T12:45:38.414864+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -106,7 +106,7 @@ window.FILMS_DATA = {
       "id": "tieumuoingontinh",
       "name": "Tiểu Muội Ngôn Tình",
       "url": "https://www.youtube.com/@TieuMuoiNgonTinh",
-      "filmCount": 84
+      "filmCount": 85
     },
     {
       "id": "cibiisub",
@@ -130,7 +130,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 656
+      "filmCount": 657
     },
     {
       "id": "naophangtutien",
@@ -244,6 +244,82 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6886",
+      "title": "5  GIỜ 30 | ĐÔ THỊ QUỶ DỊ | Chỉ Làm Bảo Vệ Chung Cư, Nào Ngờ Cư Dân Đều Là Quỷ Cấp SSS!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19370,
+      "totalDurationStr": "5 giờ 22 phút",
+      "totalViews": 295,
+      "totalLikes": 25,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: ĐÔ THỊ QUỶ DỊ | CHỈ ĐI LÀM BẢO VỆ CHUNG CƯ, AI NGỜ CƯ DÂN TOÀN QUỶ CẤP SSS! | SS1-SS2 | 5H23 🏢 Diêu Viễn chỉ nghĩ mình nhận một công việc bảo vệ bình thường tại chung cư Thang Thần Nhất Phẩm. Nhưng ngay ngày đầu đi làm, hắn đã phát hiện nơi này hoàn toàn không đơn giản: cư dân...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/wnTsWnm3cKs/hqdefault.jpg",
+      "publishedAt": "2026-11-28T12:30:36+00:00",
+      "updatedAt": "2026-11-28T12:30:36+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "5  GIỜ 30 | ĐÔ THỊ QUỶ DỊ | Chỉ Làm Bảo Vệ Chung Cư, Nào Ngờ Cư Dân Đều Là Quỷ Cấp SSS!",
+          "url": "https://www.youtube.com/watch?v=wnTsWnm3cKs",
+          "id": "wnTsWnm3cKs",
+          "duration": 19370,
+          "durationStr": "5:22:50",
+          "publishedAt": "2026-11-28T12:30:36+00:00",
+          "views": 295,
+          "likes": 25,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6885",
+      "title": "Full Tập 01~149 | Sát Thủ Đệ Nhất Trùng Sinh Vào Nữ Sinh Yếu Đuối, Giúp Cô Chinh Phục Thủ Lĩnh",
+      "channelId": "tieumuoingontinh",
+      "channelName": "Tiểu Muội Ngôn Tình",
+      "channelUrl": "https://www.youtube.com/@TieuMuoiNgonTinh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7600,
+      "totalDurationStr": "2 giờ 06 phút",
+      "totalViews": 61,
+      "totalLikes": 8,
+      "review": "Sát thủ đệ nhất quốc tế mật danh Xà Vương bị truy sát vì Huyết Ngọc, bất ngờ trùng sinh thành nữ sinh yếu đuối Lạc Anh. Để bảo vệ gia đình nghèo ấm áp, cô giả heo ăn hổ, vả mặt kẻ thù, quét sạch đặc nhiệm và chinh phục Thủ lĩnh Lục Hằng. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt Nhật, Phim Ngôn Tình Tổng...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/kDRKsVeKWSg/hqdefault.jpg",
+      "publishedAt": "2026-11-28T12:30:18+00:00",
+      "updatedAt": "2026-11-28T12:30:18+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1",
+          "title": "Full Tập 01~149 | Sát Thủ Đệ Nhất Trùng Sinh Vào Nữ Sinh Yếu Đuối, Giúp Cô Chinh Phục Thủ Lĩnh",
+          "url": "https://www.youtube.com/watch?v=kDRKsVeKWSg",
+          "id": "kDRKsVeKWSg",
+          "duration": 7600,
+          "durationStr": "2:06:40",
+          "publishedAt": "2026-11-28T12:30:18+00:00",
+          "views": 61,
+          "likes": 8,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6884",
       "title": "Full Phần 1 |【Nhật Ký Công Viên Kỳ Tích: Khách Đến Từ Địa Phủ, Nhà Ma Thông Thẳng Xuống Âm Phủ!】",
