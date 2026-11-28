@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6866,
+    "totalFilms": 6868,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T07:45:34.380342+00:00",
+    "lastUpdated": "2026-11-28T08:00:54.414460+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 52,
+      "filmCount": 53,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -202,7 +202,7 @@
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 322,
+      "filmCount": 323,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -245,6 +245,228 @@
   ],
   "films": [
     {
+      "id": "film_6870",
+      "title": "S1 | Cao Võ: Thức Tỉnh Khí Linh Cấp SSS, Chỉ Cần Uống Rượu Là Tăng Tu Vi | Trùm Phim Sinh Tồn New",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 13425,
+      "totalDurationStr": "3 giờ 43 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "S1 | Cao Võ: Thức Tỉnh Khí Linh Cấp SSS, Chỉ Cần Uống Rượu Là Tăng Tu Vi | Trùm Phim Sinh Tồn New Phim: Thi Tửu Song Tuyệt: Đừng Nói Hồng Trần Không Có Kiếm Tiên. Tóm tắt nội dung: Diệp Hiên xuyên không đến thế giới cao võ, thức tỉnh khí linh Tửu Kiếm Tiên cấp SSS cùng hệ thống Tửu Kiếm Tiên, chỉ cần uống rượu là có thể tăng tu vi. Hắn lấy thơ và rượu...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/_vIRGTmfncQ/hqdefault.jpg",
+      "publishedAt": "2026-11-28T08:00:24+00:00",
+      "updatedAt": "2026-11-28T08:00:24+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S1 | Cao Võ: Thức Tỉnh Khí Linh Cấp SSS, Chỉ Cần Uống Rượu Là Tăng Tu Vi | Trùm Phim Sinh Tồn New",
+          "url": "https://www.youtube.com/watch?v=_vIRGTmfncQ",
+          "id": "_vIRGTmfncQ",
+          "duration": 13425,
+          "durationStr": "3:43:45",
+          "publishedAt": "2026-11-28T08:00:24+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_879",
+      "title": "Phần 1, Ông Bố Thức Tỉnh Hệ Thống Trở Thành Võ Giả, Tu Vi Vĩnh Viễn Cao Hơn Con Trai 5 Cảnh Giới",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 17650,
+      "totalDurationStr": "4 giờ 54 phút",
+      "totalViews": 106495,
+      "totalLikes": 2234,
+      "review": "",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/VwgK9LdDGZM/hqdefault.jpg",
+      "publishedAt": "2026-11-11T04:53:59.404293+00:00",
+      "updatedAt": "2026-11-28T07:57:04+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1, Ông Bố Thức Tỉnh Hệ Thống Trở Thành Võ Giả, Tu Vi Vĩnh Viễn Cao Hơn Con Trai 5 Cảnh Giới",
+          "url": "https://www.youtube.com/watch?v=VwgK9LdDGZM",
+          "id": "VwgK9LdDGZM",
+          "duration": 8783,
+          "durationStr": "2:26:23",
+          "publishedAt": "2026-11-11T04:53:59.404293+00:00",
+          "views": 106477,
+          "likes": 2231,
+          "isRedundant": false,
+          "channelId": "hh3dtrungquoc",
+          "channelName": "Anime 3D Trung Quốc"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Phần 2, Ông Bố Thức Tỉnh Hệ Thống Trở Thành Võ Giả, Tu Vi Vĩnh Viễn Cao Hơn Con Trai 5 Cảnh Giới",
+          "url": "https://www.youtube.com/watch?v=8rmsfBRvTSk",
+          "id": "8rmsfBRvTSk",
+          "duration": 8867,
+          "durationStr": "2:27:47",
+          "publishedAt": "2026-11-28T07:57:04+00:00",
+          "views": 18,
+          "likes": 3,
+          "isRedundant": false,
+          "channelId": "hh3dtrungquoc",
+          "channelName": "Anime 3D Trung Quốc"
+        }
+      ],
+      "channelIds": [
+        "hh3dtrungquoc"
+      ]
+    },
+    {
+      "id": "film_556",
+      "title": "Tụ Bảo Tiên Bồn - Nhặt Được Chậu Mẻ Có Thể Nâng Cấp Bảo Vật, Ta Nghịch Thiên Cải Mệnh",
+      "channelId": "naophangtutien",
+      "channelIds": [
+        "naophangtutien"
+      ],
+      "channelName": "Não Phẳng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@nao-phang",
+      "playlistUrl": null,
+      "totalParts": 4,
+      "partsStr": "4 phần",
+      "totalDurationSec": 73226,
+      "totalDurationStr": "20 giờ 20 phút",
+      "totalViews": 132013,
+      "totalLikes": 0,
+      "review": "",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/O8D909QPiu8/hqdefault.jpg",
+      "publishedAt": "2026-08-11T00:00:00+00:00",
+      "updatedAt": "2026-11-28T07:55:21+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1-4",
+          "title": "Phần 1-4: Tụ Bảo Tiên Bồn - Nhặt Được Chậu Mẻ Có Thể Nâng Cấp Bảo Vật, Ta Nghịch Thiên Cải Mệnh",
+          "url": "https://www.youtube.com/watch?v=O8D909QPiu8",
+          "id": "O8D909QPiu8",
+          "duration": 16770,
+          "durationStr": "4:39:30",
+          "publishedAt": "2026-08-11T00:00:00+00:00",
+          "views": 83000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 2,
+          "label": "Phần 12",
+          "title": "Phần 12: Tụ Bảo Tiên Bồn - Nhặt Được Chậu Mẻ Có Thể Nâng Cấp Bảo Vật, Ta Nghịch Thiên Cải Mệnh",
+          "url": "https://www.youtube.com/watch?v=W9FuLG-JyuM",
+          "id": "W9FuLG-JyuM",
+          "duration": 20209,
+          "durationStr": "5:36:49",
+          "publishedAt": "2026-09-25T00:00:00+00:00",
+          "views": 38000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 3,
+          "label": "Phần 16",
+          "title": "Phần 16: Tụ Bảo Tiên Bồn - Nhặt Được Chậu Mẻ Có Thể Nâng Cấp Bảo Vật, Ta Nghịch Thiên Cải Mệnh",
+          "url": "https://www.youtube.com/watch?v=TJVDCLNHeTo",
+          "id": "TJVDCLNHeTo",
+          "duration": 17459,
+          "durationStr": "4:50:59",
+          "publishedAt": "2026-11-15T10:49:42.537089+00:00",
+          "views": 11000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        },
+        {
+          "index": 4,
+          "label": "Phần 17",
+          "title": "Phần 17: Tụ Bảo Tiên Bồn - Nhặt Được Chậu Mẻ Có Thể Nâng Cấp Bảo Vật, Ta Nghịch Thiên Cải Mệnh",
+          "url": "https://www.youtube.com/watch?v=IMQyFcuNrGA",
+          "id": "IMQyFcuNrGA",
+          "duration": 18788,
+          "durationStr": "5:13:08",
+          "publishedAt": "2026-11-28T07:55:21+00:00",
+          "views": 13,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        }
+      ]
+    },
+    {
+      "id": "film_6869",
+      "title": "Full Phần 1 |【Sinh Tồn Trên Đường Cao Tốc: Xe Nhà Di Động Của Top 1 Bảng Xếp Hạng Có Tới 18 Tầng!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10831,
+      "totalDurationStr": "3 giờ 00 phút",
+      "totalViews": 5,
+      "totalLikes": 0,
+      "review": "🎬 【Sinh Tồn Trên Đường Cao Tốc: Xe Nhà Di Động Của Top 1 Bảng Xếp Hạng Có Tới 18 Tầng!】 🚐🌍 Khi trò chơi sinh tồn trên đường cao tốc bắt đầu, mọi người phải không ngừng thu thập vật tư, tìm kiếm tài nguyên và nâng cấp phương tiện để sống sót giữa những hiểm nguy. Trong khi những người chơi khác còn đang chật vật với chiếc xe nhỏ bé của mình, nhân vật đứng...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/-4zCQ3XSD6o/hqdefault.jpg",
+      "publishedAt": "2026-11-28T07:52:24+00:00",
+      "updatedAt": "2026-11-28T07:52:24+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Sinh Tồn Trên Đường Cao Tốc: Xe Nhà Di Động Của Top 1 Bảng Xếp Hạng Có Tới 18 Tầng!】",
+          "url": "https://www.youtube.com/watch?v=-4zCQ3XSD6o",
+          "id": "-4zCQ3XSD6o",
+          "duration": 10831,
+          "durationStr": "3:00:31",
+          "publishedAt": "2026-11-28T07:52:24+00:00",
+          "views": 5,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_658",
       "title": "Thiên Giáng Long Phượng Thai",
       "channelId": "akatsukireview",
@@ -266,7 +488,7 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/izKcUv2gpAw/hqdefault.jpg",
       "publishedAt": "2026-10-27T00:00:00+00:00",
-      "updatedAt": "2026-11-28T07:36:21.143234+00:00",
+      "updatedAt": "2026-11-28T07:35:41+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -322,7 +544,7 @@
           "id": "puOAqoH5TGI",
           "duration": 1978,
           "durationStr": "32:58",
-          "publishedAt": "2026-11-28T07:36:21.143234+00:00",
+          "publishedAt": "2026-11-28T07:35:41+00:00",
           "views": 8,
           "likes": 1,
           "isRedundant": false,
@@ -351,7 +573,7 @@
       ],
       "thumbnail": "https://i2.ytimg.com/vi/iJYAkozObhs/hqdefault.jpg",
       "publishedAt": "2026-11-25T11:46:11+00:00",
-      "updatedAt": "2026-11-28T07:22:22.767198+00:00",
+      "updatedAt": "2026-11-28T07:21:45+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -375,7 +597,7 @@
           "id": "xaySaw-lHp8",
           "duration": 10476,
           "durationStr": "2:54:36",
-          "publishedAt": "2026-11-28T07:22:22.767198+00:00",
+          "publishedAt": "2026-11-28T07:21:45+00:00",
           "views": 16,
           "likes": 0,
           "isRedundant": false,
@@ -406,8 +628,8 @@
         "Tu tiên / Huyền huyễn"
       ],
       "thumbnail": "https://i.ytimg.com/vi/Yo3H0vv1-CE/hqdefault.jpg",
-      "publishedAt": "2026-11-28T07:16:22.045399+00:00",
-      "updatedAt": "2026-11-28T07:16:22.045399+00:00",
+      "publishedAt": "2026-11-28T07:15:23+00:00",
+      "updatedAt": "2026-11-28T07:15:23+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -418,7 +640,7 @@
           "id": "Yo3H0vv1-CE",
           "duration": 8697,
           "durationStr": "2:24:57",
-          "publishedAt": "2026-11-28T07:16:22.045399+00:00",
+          "publishedAt": "2026-11-28T07:15:23+00:00",
           "views": 36,
           "likes": 5,
           "isRedundant": false
@@ -444,8 +666,8 @@
         "Xuyên không / Trọng sinh"
       ],
       "thumbnail": "https://i.ytimg.com/vi/K0i0JopTwQo/hqdefault.jpg",
-      "publishedAt": "2026-11-28T07:00:08.854757+00:00",
-      "updatedAt": "2026-11-28T07:00:08.854757+00:00",
+      "publishedAt": "2026-11-28T07:00:10+00:00",
+      "updatedAt": "2026-11-28T07:00:10+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -456,7 +678,7 @@
           "id": "K0i0JopTwQo",
           "duration": 50839,
           "durationStr": "14:07:19",
-          "publishedAt": "2026-11-28T07:00:08.854757+00:00",
+          "publishedAt": "2026-11-28T07:00:10+00:00",
           "views": 0,
           "likes": 1,
           "isRedundant": false
@@ -518,7 +740,7 @@
           "id": "6K9XQbtMUYs",
           "duration": 9929,
           "durationStr": "2:45:29",
-          "publishedAt": "2026-11-28T06:53:30.462102+00:00",
+          "publishedAt": "2026-11-28T06:52:40+00:00",
           "views": 4,
           "likes": 0,
           "isRedundant": false,
@@ -526,7 +748,7 @@
           "channelName": "Vạn Ảnh Studio"
         }
       ],
-      "updatedAt": "2026-11-28T06:53:30.462102+00:00",
+      "updatedAt": "2026-11-28T06:52:40+00:00",
       "isRecent24h": true,
       "publishedAt": "2026-10-26T00:00:00+00:00",
       "totalViews": 18736,
@@ -559,7 +781,7 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/rXE66_BmuIk/hqdefault.jpg",
       "publishedAt": "2026-07-28T00:00:00+00:00",
-      "updatedAt": "2026-11-28T06:24:22.699399+00:00",
+      "updatedAt": "2026-11-28T06:24:02+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -585,7 +807,7 @@
           "id": "9Zeq5OIskMk",
           "duration": 6756,
           "durationStr": "1:52:36",
-          "publishedAt": "2026-11-28T06:24:22.699399+00:00",
+          "publishedAt": "2026-11-28T06:24:02+00:00",
           "views": 24,
           "likes": 2,
           "isRedundant": false,
@@ -616,7 +838,7 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/5k_HGjp1n3c/hqdefault.jpg",
       "publishedAt": "2026-10-24T00:00:00+00:00",
-      "updatedAt": "2026-11-28T06:18:26.136879+00:00",
+      "updatedAt": "2026-11-28T06:18:08+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -642,7 +864,7 @@
           "id": "XOVeWxkTqIc",
           "duration": 10230,
           "durationStr": "2:50:30",
-          "publishedAt": "2026-11-28T06:18:26.136879+00:00",
+          "publishedAt": "2026-11-28T06:18:08+00:00",
           "views": 23,
           "likes": 1,
           "isRedundant": false,
@@ -721,7 +943,7 @@
           "id": "preu-mM-Kh4",
           "duration": 10522,
           "durationStr": "2:55:22",
-          "publishedAt": "2026-11-28T06:11:16.830127+00:00",
+          "publishedAt": "2026-11-28T06:10:59+00:00",
           "views": 27,
           "likes": 4,
           "isRedundant": false,
@@ -729,7 +951,7 @@
           "channelName": "Mễ Lạc Review"
         }
       ],
-      "updatedAt": "2026-11-28T06:11:16.830127+00:00",
+      "updatedAt": "2026-11-28T06:10:59+00:00",
       "isRecent24h": true,
       "publishedAt": "2026-10-01T00:00:00+00:00",
       "totalViews": 45135,
@@ -758,7 +980,7 @@
       ],
       "thumbnail": "https://i3.ytimg.com/vi/rF5LMZpCgIQ/hqdefault.jpg",
       "publishedAt": "2026-11-26T10:00:28+00:00",
-      "updatedAt": "2026-11-28T06:01:18.938948+00:00",
+      "updatedAt": "2026-11-28T06:00:37+00:00",
       "isRecent24h": true,
       "parts": [
         {
@@ -797,7 +1019,7 @@
           "id": "i8hhU9-FO9g",
           "duration": 64391,
           "durationStr": "17:53:11",
-          "publishedAt": "2026-11-28T06:01:18.938948+00:00",
+          "publishedAt": "2026-11-28T06:00:37+00:00",
           "views": 130,
           "likes": 8,
           "isRedundant": false,
@@ -41138,79 +41360,6 @@
       ]
     },
     {
-      "id": "film_556",
-      "title": "Tụ Bảo Tiên Bồn - Nhặt Được Chậu Mẻ Có Thể Nâng Cấp Bảo Vật, Ta Nghịch Thiên Cải Mệnh",
-      "channelId": "naophangtutien",
-      "channelIds": [
-        "naophangtutien"
-      ],
-      "channelName": "Não Phẳng Tu Tiên",
-      "channelUrl": "https://www.youtube.com/@nao-phang",
-      "playlistUrl": null,
-      "totalParts": 3,
-      "partsStr": "3 phần",
-      "totalDurationSec": 54438,
-      "totalDurationStr": "15 giờ 07 phút",
-      "totalViews": 132000,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Tu tiên / Huyền huyễn",
-        "Hệ thống / Thức tỉnh"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/O8D909QPiu8/hqdefault.jpg",
-      "publishedAt": "2026-08-11T00:00:00+00:00",
-      "updatedAt": "2026-11-15T10:49:42.537089+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1-4",
-          "title": "Phần 1-4: Tụ Bảo Tiên Bồn - Nhặt Được Chậu Mẻ Có Thể Nâng Cấp Bảo Vật, Ta Nghịch Thiên Cải Mệnh",
-          "url": "https://www.youtube.com/watch?v=O8D909QPiu8",
-          "id": "O8D909QPiu8",
-          "duration": 16770,
-          "durationStr": "4:39:30",
-          "publishedAt": "2026-08-11T00:00:00+00:00",
-          "views": 83000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "naophangtutien",
-          "channelName": "Não Phẳng Tu Tiên"
-        },
-        {
-          "index": 2,
-          "label": "Phần 12",
-          "title": "Phần 12: Tụ Bảo Tiên Bồn - Nhặt Được Chậu Mẻ Có Thể Nâng Cấp Bảo Vật, Ta Nghịch Thiên Cải Mệnh",
-          "url": "https://www.youtube.com/watch?v=W9FuLG-JyuM",
-          "id": "W9FuLG-JyuM",
-          "duration": 20209,
-          "durationStr": "5:36:49",
-          "publishedAt": "2026-09-25T00:00:00+00:00",
-          "views": 38000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "naophangtutien",
-          "channelName": "Não Phẳng Tu Tiên"
-        },
-        {
-          "index": 3,
-          "label": "Phần 16",
-          "title": "Phần 16: Tụ Bảo Tiên Bồn - Nhặt Được Chậu Mẻ Có Thể Nâng Cấp Bảo Vật, Ta Nghịch Thiên Cải Mệnh",
-          "url": "https://www.youtube.com/watch?v=TJVDCLNHeTo",
-          "id": "TJVDCLNHeTo",
-          "duration": 17459,
-          "durationStr": "4:50:59",
-          "publishedAt": "2026-11-15T10:49:42.537089+00:00",
-          "views": 11000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "naophangtutien",
-          "channelName": "Não Phẳng Tu Tiên"
-        }
-      ]
-    },
-    {
       "id": "film_568",
       "title": "Nữ Luật Sư Kiêm Luôn Thiên Sư Bắt Ma, Đến Diêm Vương Cũng Phải Nể Vài Phần",
       "channelId": "tieumuoingontinh",
@@ -57627,49 +57776,6 @@
       "totalLikes": 297,
       "channelIds": [
         "thienanhstudio9"
-      ]
-    },
-    {
-      "id": "film_879",
-      "title": "Phần 1, Ông Bố Thức Tỉnh Hệ Thống Trở Thành Võ Giả, Tu Vi Vĩnh Viễn Cao Hơn Con Trai 5 Cảnh Giới",
-      "channelId": "hh3dtrungquoc",
-      "channelName": "Anime 3D Trung Quốc",
-      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 8783,
-      "totalDurationStr": "2 giờ 26 phút",
-      "totalViews": 106477,
-      "totalLikes": 2231,
-      "review": "",
-      "genres": [
-        "Cao võ / Dị năng",
-        "Hệ thống / Thức tỉnh"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/VwgK9LdDGZM/hqdefault.jpg",
-      "publishedAt": "2026-11-11T04:53:59.404293+00:00",
-      "updatedAt": "2026-11-11T04:53:59.404293+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "Phần 1, Ông Bố Thức Tỉnh Hệ Thống Trở Thành Võ Giả, Tu Vi Vĩnh Viễn Cao Hơn Con Trai 5 Cảnh Giới",
-          "url": "https://www.youtube.com/watch?v=VwgK9LdDGZM",
-          "id": "VwgK9LdDGZM",
-          "duration": 8783,
-          "durationStr": "2:26:23",
-          "publishedAt": "2026-11-11T04:53:59.404293+00:00",
-          "views": 106477,
-          "likes": 2231,
-          "isRedundant": false,
-          "channelId": "hh3dtrungquoc",
-          "channelName": "Anime 3D Trung Quốc"
-        }
-      ],
-      "channelIds": [
-        "hh3dtrungquoc"
       ]
     },
     {
