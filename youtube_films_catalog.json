@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6871,
+    "totalFilms": 6872,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T10:00:41.206293+00:00",
+    "lastUpdated": "2026-11-28T10:15:37.946947+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -154,7 +154,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 340
+      "filmCount": 341
     },
     {
       "id": "godsub",
@@ -244,6 +244,102 @@
     }
   ],
   "films": [
+    {
+      "id": "film_675",
+      "title": "Phần 1, Thức Tỉnh Dung Hợp Vô Hạn SSS, Tôi Làm Trùm Mạt Thế, Lập Tổ Đội Toàn Gái Xinh",
+      "channelId": "hh3dtrungquoc",
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 35408,
+      "totalDurationStr": "9 giờ 50 phút",
+      "totalViews": 9588,
+      "totalLikes": 229,
+      "review": "",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/4O5BGYEj24o/hqdefault.jpg",
+      "publishedAt": "2026-11-12T00:00:00+00:00",
+      "updatedAt": "2026-11-28T10:09:12+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Phần 1, Thức Tỉnh Dung Hợp Vô Hạn SSS, Tôi Làm Trùm Mạt Thế, Lập Tổ Đội Toàn Gái Xinh",
+          "url": "https://www.youtube.com/watch?v=4O5BGYEj24o",
+          "id": "4O5BGYEj24o",
+          "duration": 14912,
+          "durationStr": "4:08:32",
+          "publishedAt": "2026-11-12T00:00:00+00:00",
+          "views": 9553,
+          "likes": 222,
+          "isRedundant": false,
+          "channelId": "hh3dtrungquoc",
+          "channelName": "Anime 3D Trung Quốc"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Phần 2, Thức Tỉnh Dung Hợp Vô Hạn SSS, Tôi Làm Trùm Mạt Thế, Lập Tổ Đội Toàn Gái Xinh",
+          "url": "https://www.youtube.com/watch?v=R2ogvJ6MO80",
+          "id": "R2ogvJ6MO80",
+          "duration": 20496,
+          "durationStr": "5:41:36",
+          "publishedAt": "2026-11-28T10:09:12+00:00",
+          "views": 35,
+          "likes": 7,
+          "isRedundant": false,
+          "channelId": "hh3dtrungquoc",
+          "channelName": "Anime 3D Trung Quốc"
+        }
+      ],
+      "channelIds": [
+        "hh3dtrungquoc"
+      ]
+    },
+    {
+      "id": "film_6874",
+      "title": "Mạt Thế Lựa Chọn Bị Bỏ Rơi Thành Phế Vật Tôi Thức Tỉnh Năng Lực Thôn Phệ Quy Tắc! | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9106,
+      "totalDurationStr": "2 giờ 31 phút",
+      "totalViews": 87,
+      "totalLikes": 12,
+      "review": "Mạt Thế Lựa Chọn Bị Bỏ Rơi Thành Phế Vật Tôi Thức Tỉnh Năng Lực Thôn Phệ Quy Tắc! | Đậu Đậu Vietsub 📋 TÓM TẮT : Bị phản bội giữa mạt thế, Thẩm Dạ thức tỉnh năng lực thôn phệ, nhìn thấu lựa chọn sinh tử, cùng đồng đội lập Nguyệt Hạ Phượng Hoàng bảo vệ con người và vượt qua hiểm nguy 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh...",
+      "genres": [
+        "Cao võ / Dị năng",
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/wASAbcI5foY/hqdefault.jpg",
+      "publishedAt": "2026-11-28T10:00:09+00:00",
+      "updatedAt": "2026-11-28T10:00:09+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Mạt Thế Lựa Chọn Bị Bỏ Rơi Thành Phế Vật Tôi Thức Tỉnh Năng Lực Thôn Phệ Quy Tắc! | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=wASAbcI5foY",
+          "id": "wASAbcI5foY",
+          "duration": 9106,
+          "durationStr": "2:31:46",
+          "publishedAt": "2026-11-28T10:00:09+00:00",
+          "views": 87,
+          "likes": 12,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6873",
       "title": "Full Phần 1 |【Bộ Xương Vác Súng Gatling: Ta Chính Là Chúa Tể Phó Bản!】",
@@ -4278,7 +4374,7 @@
       "thumbnail": "https://i4.ytimg.com/vi/Gr_iZSPpa2Q/hqdefault.jpg",
       "publishedAt": "2026-11-27T10:15:25+00:00",
       "updatedAt": "2026-11-27T10:15:25+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4316,7 +4412,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/R9WnP1v0OUs/hqdefault.jpg",
       "publishedAt": "2026-11-27T10:13:57+00:00",
       "updatedAt": "2026-11-27T10:13:57+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4354,7 +4450,7 @@
       "thumbnail": "https://i2.ytimg.com/vi/uUbwOzdE9Bg/hqdefault.jpg",
       "publishedAt": "2026-11-27T10:07:54+00:00",
       "updatedAt": "2026-11-27T10:07:54+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -55219,49 +55315,6 @@
           "publishedAt": "2026-11-12T00:00:00+00:00",
           "views": 2166,
           "likes": 32,
-          "isRedundant": false,
-          "channelId": "hh3dtrungquoc",
-          "channelName": "Anime 3D Trung Quốc"
-        }
-      ],
-      "channelIds": [
-        "hh3dtrungquoc"
-      ]
-    },
-    {
-      "id": "film_675",
-      "title": "Phần 1, Thức Tỉnh Dung Hợp Vô Hạn SSS, Tôi Làm Trùm Mạt Thế, Lập Tổ Đội Toàn Gái Xinh",
-      "channelId": "hh3dtrungquoc",
-      "channelName": "Anime 3D Trung Quốc",
-      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 14912,
-      "totalDurationStr": "4 giờ 08 phút",
-      "totalViews": 9553,
-      "totalLikes": 222,
-      "review": "",
-      "genres": [
-        "Sinh tồn / Mạt thế",
-        "Hệ thống / Thức tỉnh"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/4O5BGYEj24o/hqdefault.jpg",
-      "publishedAt": "2026-11-12T00:00:00+00:00",
-      "updatedAt": "2026-11-12T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "Phần 1, Thức Tỉnh Dung Hợp Vô Hạn SSS, Tôi Làm Trùm Mạt Thế, Lập Tổ Đội Toàn Gái Xinh",
-          "url": "https://www.youtube.com/watch?v=4O5BGYEj24o",
-          "id": "4O5BGYEj24o",
-          "duration": 14912,
-          "durationStr": "4:08:32",
-          "publishedAt": "2026-11-12T00:00:00+00:00",
-          "views": 9553,
-          "likes": 222,
           "isRedundant": false,
           "channelId": "hh3dtrungquoc",
           "channelName": "Anime 3D Trung Quốc"
