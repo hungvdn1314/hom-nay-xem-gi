@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6880,
+    "totalFilms": 6881,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T12:00:49.968099+00:00",
+    "lastUpdated": "2026-11-28T12:15:31.249477+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -124,7 +124,7 @@ window.FILMS_DATA = {
       "id": "huyensutieumuoi",
       "name": "Huyền Sư Tiểu Muội",
       "url": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
-      "filmCount": 53
+      "filmCount": 54
     },
     {
       "id": "2ksub",
@@ -245,6 +245,44 @@ window.FILMS_DATA = {
   ],
   "films": [
     {
+      "id": "film_6883",
+      "title": "Full Bộ 01~141 | Hồi Sinh Thức Tỉnh Quỷ Nhãn Nghịch Thiên, Sức Mạnh Vô Hạn Thu Phục Vạn Quỷ",
+      "channelId": "huyensutieumuoi",
+      "channelName": "Huyền Sư Tiểu Muội",
+      "channelUrl": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7425,
+      "totalDurationStr": "2 giờ 03 phút",
+      "totalViews": 33,
+      "totalLikes": 2,
+      "review": "Giữa kỷ nguyên quỷ dị hồi sinh, Lâm Vũ kích hoạt Hệ Thống Thu Quỷ, thức tỉnh Quỷ Nhãn nghịch thiên. Từ kẻ nhận thông báo tử thần, anh vươn lên làm Đội trưởng Tổng bộ, dùng sức mạnh vô hạn thu phục vạn quỷ, bảo vệ gia đình và bình định thế giới. 🔔 Nhấn chuông thông báo để không bỏ lỡ các tập phim kỳ ảo, tu chân và đô thị dị năng mới nhất mỗi ngày. ❖ Thể...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/1B0kcX51ZI4/hqdefault.jpg",
+      "publishedAt": "2026-11-28T12:00:26+00:00",
+      "updatedAt": "2026-11-28T12:00:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Bộ 01~141 | Hồi Sinh Thức Tỉnh Quỷ Nhãn Nghịch Thiên, Sức Mạnh Vô Hạn Thu Phục Vạn Quỷ",
+          "url": "https://www.youtube.com/watch?v=1B0kcX51ZI4",
+          "id": "1B0kcX51ZI4",
+          "duration": 7425,
+          "durationStr": "2:03:45",
+          "publishedAt": "2026-11-28T12:00:26+00:00",
+          "views": 33,
+          "likes": 2,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_6882",
       "title": "Trôi Dạt Đảo Dị Thế: Tôi Mang Hệ Thống Thống Trị Đảo Hoang | Đậu Đậu Vietsub",
       "channelId": "daudauvietsub",
@@ -280,6 +318,184 @@ window.FILMS_DATA = {
           "likes": 0,
           "isRedundant": false
         }
+      ]
+    },
+    {
+      "id": "film_278",
+      "title": "Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLZAwolVYfoAs",
+      "totalParts": 10,
+      "partsStr": "10 phần",
+      "totalDurationSec": 76061,
+      "totalDurationStr": "21 giờ 07 phút",
+      "review": "tóm tắt: Tiêu Trần — một chiến binh thời hiện đại bất ngờ trùng sinh vào thân xác một thiếu niên yếu đuối ở thời cổ đại đúng lúc lệnh trưng binh tàn khốc ban xuống. Đối mặt với lão thái bà thiên vị độc ác và gia đình người bác cả mưu mô ép anh đi lính thế mạng cho kẻ khác, Tiêu Trần dứt khoát đòi phân gia, mang theo thanh đao rỉ sét lên đường ra chiến...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/0lTK7k-WWB4/hqdefault.jpg",
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 4",
+          "title": "Mùa 4 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
+          "url": "https://www.youtube.com/watch?v=0lTK7k-WWB4",
+          "id": "0lTK7k-WWB4",
+          "duration": 6754,
+          "durationStr": "1:52:34",
+          "isRedundant": false,
+          "views": 105036,
+          "likes": 357,
+          "publishedAt": "2026-07-06T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 5",
+          "title": "Mùa 5 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
+          "url": "https://www.youtube.com/watch?v=6q1pjxaTZnY",
+          "id": "6q1pjxaTZnY",
+          "duration": 5176,
+          "durationStr": "1:26:16",
+          "isRedundant": false,
+          "views": 93002,
+          "likes": 349,
+          "publishedAt": "2026-07-14T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 3,
+          "label": "Mùa 31",
+          "title": "Mùa 31 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
+          "url": "https://www.youtube.com/watch?v=0-rprFLc4p4",
+          "id": "0-rprFLc4p4",
+          "duration": 8392,
+          "durationStr": "2:19:52",
+          "isRedundant": false,
+          "views": 61172,
+          "likes": 611,
+          "publishedAt": "2026-10-23T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 4,
+          "label": "Mùa 32",
+          "title": "Mùa 32 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
+          "url": "https://www.youtube.com/watch?v=Y14zt8qRuA8",
+          "id": "Y14zt8qRuA8",
+          "duration": 7819,
+          "durationStr": "2:10:19",
+          "isRedundant": false,
+          "views": 63781,
+          "likes": 660,
+          "publishedAt": "2026-10-24T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 5,
+          "label": "Mùa 34",
+          "title": "Mùa 34 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
+          "url": "https://www.youtube.com/watch?v=xZRLlOoc1lU",
+          "id": "xZRLlOoc1lU",
+          "duration": 7753,
+          "durationStr": "2:09:13",
+          "isRedundant": false,
+          "views": 70677,
+          "likes": 729,
+          "publishedAt": "2026-10-27T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 6,
+          "label": "Mùa 35",
+          "title": "Mùa 35 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
+          "url": "https://www.youtube.com/watch?v=svMYR-yeJRI",
+          "id": "svMYR-yeJRI",
+          "duration": 7767,
+          "durationStr": "2:09:27",
+          "isRedundant": false,
+          "views": 66438,
+          "likes": 749,
+          "publishedAt": "2026-10-28T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 7,
+          "label": "Mùa 36",
+          "title": "Mùa 36 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
+          "url": "https://www.youtube.com/watch?v=30YxiwOXKLs",
+          "id": "30YxiwOXKLs",
+          "duration": 7439,
+          "durationStr": "2:03:59",
+          "isRedundant": false,
+          "views": 52608,
+          "likes": 462,
+          "publishedAt": "2026-10-31T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 8,
+          "label": "Mùa 38",
+          "title": "Mùa 38 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
+          "url": "https://www.youtube.com/watch?v=fQr1L56RF5c",
+          "id": "fQr1L56RF5c",
+          "duration": 8252,
+          "durationStr": "2:17:32",
+          "isRedundant": false,
+          "views": 129476,
+          "likes": 664,
+          "publishedAt": "2026-10-31T00:00:00+00:00",
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 9,
+          "label": "Mùa 39",
+          "title": "Mùa 39 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
+          "url": "https://www.youtube.com/watch?v=y-riWO4bpr0",
+          "id": "y-riWO4bpr0",
+          "duration": 8608,
+          "durationStr": "2:23:28",
+          "publishedAt": "2026-11-19T08:38:26+00:00",
+          "views": 75,
+          "likes": 13,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        },
+        {
+          "index": 10,
+          "label": "Mùa 40",
+          "title": "Mùa 40 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
+          "url": "https://www.youtube.com/watch?v=0IxUBqeKPFQ",
+          "id": "0IxUBqeKPFQ",
+          "duration": 8101,
+          "durationStr": "2:15:01",
+          "publishedAt": "2026-11-28T11:58:28+00:00",
+          "views": 316,
+          "likes": 30,
+          "isRedundant": false,
+          "channelId": "melacreview",
+          "channelName": "Mễ Lạc Review"
+        }
+      ],
+      "totalViews": 642581,
+      "totalLikes": 4624,
+      "publishedAt": "2026-07-06T00:00:00+00:00",
+      "updatedAt": "2026-11-28T11:58:28+00:00",
+      "isRecent24h": true,
+      "channelIds": [
+        "melacreview"
       ]
     },
     {
@@ -4631,7 +4847,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/GnVXT3sfc2A/hqdefault.jpg",
       "publishedAt": "2026-11-27T12:05:24+00:00",
       "updatedAt": "2026-11-27T12:05:24+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -27517,169 +27733,6 @@ window.FILMS_DATA = {
       ],
       "channelIds": [
         "kasvietsub"
-      ]
-    },
-    {
-      "id": "film_278",
-      "title": "Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
-      "channelId": "melacreview",
-      "channelName": "Mễ Lạc Review",
-      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "playlistUrl": "https://www.youtube.com/playlist?list=PLZAwolVYfoAs",
-      "totalParts": 9,
-      "partsStr": "9 phần",
-      "totalDurationSec": 67960,
-      "totalDurationStr": "18 giờ 52 phút",
-      "review": "tóm tắt: Tiêu Trần — một chiến binh thời hiện đại bất ngờ trùng sinh vào thân xác một thiếu niên yếu đuối ở thời cổ đại đúng lúc lệnh trưng binh tàn khốc ban xuống. Đối mặt với lão thái bà thiên vị độc ác và gia đình người bác cả mưu mô ép anh đi lính thế mạng cho kẻ khác, Tiêu Trần dứt khoát đòi phân gia, mang theo thanh đao rỉ sét lên đường ra chiến...",
-      "genres": [
-        "Tu tiên / Huyền huyễn",
-        "Võ hiệp / Cổ trang"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/0lTK7k-WWB4/hqdefault.jpg",
-      "parts": [
-        {
-          "index": 1,
-          "label": "Mùa 4",
-          "title": "Mùa 4 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
-          "url": "https://www.youtube.com/watch?v=0lTK7k-WWB4",
-          "id": "0lTK7k-WWB4",
-          "duration": 6754,
-          "durationStr": "1:52:34",
-          "isRedundant": false,
-          "views": 105036,
-          "likes": 357,
-          "publishedAt": "2026-07-06T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 2,
-          "label": "Mùa 5",
-          "title": "Mùa 5 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
-          "url": "https://www.youtube.com/watch?v=6q1pjxaTZnY",
-          "id": "6q1pjxaTZnY",
-          "duration": 5176,
-          "durationStr": "1:26:16",
-          "isRedundant": false,
-          "views": 93002,
-          "likes": 349,
-          "publishedAt": "2026-07-14T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 3,
-          "label": "Mùa 31",
-          "title": "Mùa 31 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
-          "url": "https://www.youtube.com/watch?v=0-rprFLc4p4",
-          "id": "0-rprFLc4p4",
-          "duration": 8392,
-          "durationStr": "2:19:52",
-          "isRedundant": false,
-          "views": 61172,
-          "likes": 611,
-          "publishedAt": "2026-10-23T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 4,
-          "label": "Mùa 32",
-          "title": "Mùa 32 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
-          "url": "https://www.youtube.com/watch?v=Y14zt8qRuA8",
-          "id": "Y14zt8qRuA8",
-          "duration": 7819,
-          "durationStr": "2:10:19",
-          "isRedundant": false,
-          "views": 63781,
-          "likes": 660,
-          "publishedAt": "2026-10-24T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 5,
-          "label": "Mùa 34",
-          "title": "Mùa 34 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
-          "url": "https://www.youtube.com/watch?v=xZRLlOoc1lU",
-          "id": "xZRLlOoc1lU",
-          "duration": 7753,
-          "durationStr": "2:09:13",
-          "isRedundant": false,
-          "views": 70677,
-          "likes": 729,
-          "publishedAt": "2026-10-27T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 6,
-          "label": "Mùa 35",
-          "title": "Mùa 35 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
-          "url": "https://www.youtube.com/watch?v=svMYR-yeJRI",
-          "id": "svMYR-yeJRI",
-          "duration": 7767,
-          "durationStr": "2:09:27",
-          "isRedundant": false,
-          "views": 66438,
-          "likes": 749,
-          "publishedAt": "2026-10-28T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 7,
-          "label": "Mùa 36",
-          "title": "Mùa 36 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
-          "url": "https://www.youtube.com/watch?v=30YxiwOXKLs",
-          "id": "30YxiwOXKLs",
-          "duration": 7439,
-          "durationStr": "2:03:59",
-          "isRedundant": false,
-          "views": 52608,
-          "likes": 462,
-          "publishedAt": "2026-10-31T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 8,
-          "label": "Mùa 38",
-          "title": "Mùa 38 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
-          "url": "https://www.youtube.com/watch?v=fQr1L56RF5c",
-          "id": "fQr1L56RF5c",
-          "duration": 8252,
-          "durationStr": "2:17:32",
-          "isRedundant": false,
-          "views": 129476,
-          "likes": 664,
-          "publishedAt": "2026-10-31T00:00:00+00:00",
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        },
-        {
-          "index": 9,
-          "label": "Mùa 39",
-          "title": "Mùa 39 | Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn",
-          "url": "https://www.youtube.com/watch?v=y-riWO4bpr0",
-          "id": "y-riWO4bpr0",
-          "duration": 8608,
-          "durationStr": "2:23:28",
-          "publishedAt": "2026-11-19T08:38:26+00:00",
-          "views": 75,
-          "likes": 13,
-          "isRedundant": false,
-          "channelId": "melacreview",
-          "channelName": "Mễ Lạc Review"
-        }
-      ],
-      "totalViews": 642265,
-      "totalLikes": 4594,
-      "publishedAt": "2026-07-06T00:00:00+00:00",
-      "updatedAt": "2026-11-19T08:38:26+00:00",
-      "isRecent24h": false,
-      "channelIds": [
-        "melacreview"
       ]
     },
     {
