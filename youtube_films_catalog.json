@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6865,
+    "totalFilms": 6866,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T07:15:29.501988+00:00",
+    "lastUpdated": "2026-11-28T07:30:33.824671+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -106,7 +106,7 @@
       "id": "tieumuoingontinh",
       "name": "Tiểu Muội Ngôn Tình",
       "url": "https://www.youtube.com/@TieuMuoiNgonTinh",
-      "filmCount": 82
+      "filmCount": 83
     },
     {
       "id": "cibiisub",
@@ -244,6 +244,100 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6044",
+      "title": "Phần 2(1-450): Truyền Thuyết Tà Đỉnh Vô Sỉ-Bị Coi Là Phế Vật, Ta Dựa Vào Ma Đỉnh Để Nghịch Thiên",
+      "channelId": "naophangtutien",
+      "channelName": "Não Phẳng Tu Tiên",
+      "channelUrl": "https://www.youtube.com/@nao-phang",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 33503,
+      "totalDurationStr": "9 giờ 18 phút",
+      "totalViews": 303,
+      "totalLikes": 9,
+      "review": "Tên Phim:Truyền Thuyết Tà Đỉnh Vô Sỉ Tên Khác: Bị Coi Là Phế Vật, Ta Dựa Vào Ma Đỉnh Để Nghịch Thiên 👉 “Video này chạy bằng cơm với niềm đam mê 🥲 Ai thương thì donate cho ad có động lực tiếp tục nha! Không có gì ngoài lòng biết ơn 🚀” Từ khoá: ✔ Phàm Nhân Bách Thế Thư ✔ Phim Hoạt Hình Trung Quốc ✔ Hoạt Hình 3D ✔ Hoạt Hình Xuyên Không ✔ Hoạt Hình Cổ Trang...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/iJYAkozObhs/hqdefault.jpg",
+      "publishedAt": "2026-11-25T11:46:11+00:00",
+      "updatedAt": "2026-11-28T07:22:22.767198+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 2",
+          "title": "Phần 2(1-450): Truyền Thuyết Tà Đỉnh Vô Sỉ-Bị Coi Là Phế Vật, Ta Dựa Vào Ma Đỉnh Để Nghịch Thiên",
+          "url": "https://www.youtube.com/watch?v=iJYAkozObhs",
+          "id": "iJYAkozObhs",
+          "duration": 23027,
+          "durationStr": "6:23:47",
+          "publishedAt": "2026-11-25T11:46:11+00:00",
+          "views": 287,
+          "likes": 9,
+          "isRedundant": false
+        },
+        {
+          "index": 2,
+          "label": "Phần 2-4",
+          "title": "Phần 2- P4: Truyền Thuyết Tà Đỉnh Vô Sỉ-Bị Coi Là Phế Vật, Ta Dựa Vào Ma Đỉnh Để Nghịch Thiên",
+          "url": "https://www.youtube.com/watch?v=xaySaw-lHp8",
+          "id": "xaySaw-lHp8",
+          "duration": 10476,
+          "durationStr": "2:54:36",
+          "publishedAt": "2026-11-28T07:22:22.767198+00:00",
+          "views": 16,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "naophangtutien",
+          "channelName": "Não Phẳng Tu Tiên"
+        }
+      ],
+      "channelIds": [
+        "naophangtutien"
+      ]
+    },
+    {
+      "id": "film_6868",
+      "title": "Full Tập 01~120 | Xuyên Thành Đại Tiểu Thư Chỉ Muốn Nằm Hưởng, Nào Ngờ Trị Sạch 7 Tổng Tài Bá Đạo",
+      "channelId": "tieumuoingontinh",
+      "channelName": "Tiểu Muội Ngôn Tình",
+      "channelUrl": "https://www.youtube.com/@TieuMuoiNgonTinh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 8697,
+      "totalDurationStr": "2 giờ 24 phút",
+      "totalViews": 36,
+      "totalLikes": 5,
+      "review": "Đọc trăm truyện tổng tài, Thẩm Lộc Dao xuyên thành đại tiểu thư chỉ muốn làm cá mặn hưởng phúc. Nào ngờ bảy đại BOSS liên tiếp tới từ hôn, ép yêu, tráo thân thế. Thuộc lòng mọi mô-típ, cô tương kế tựu kế vả mặt từng tên, thu phục dàn đại lão và giữ vững gia tộc. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Yo3H0vv1-CE/hqdefault.jpg",
+      "publishedAt": "2026-11-28T07:16:22.045399+00:00",
+      "updatedAt": "2026-11-28T07:16:22.045399+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1",
+          "title": "Full Tập 01~120 | Xuyên Thành Đại Tiểu Thư Chỉ Muốn Nằm Hưởng, Nào Ngờ Trị Sạch 7 Tổng Tài Bá Đạo",
+          "url": "https://www.youtube.com/watch?v=Yo3H0vv1-CE",
+          "id": "Yo3H0vv1-CE",
+          "duration": 8697,
+          "durationStr": "2:24:57",
+          "publishedAt": "2026-11-28T07:16:22.045399+00:00",
+          "views": 36,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6867",
       "title": "14 GIỜ THỎA MÃN | Trọng Sinh Thành Cóc Ghẻ, Ta Thức Tỉnh Thôn Thiên Nuốt Vạn Vật Thành Yêu Vương!",
@@ -9528,44 +9622,6 @@
           "publishedAt": "2026-11-25T12:00:12+00:00",
           "views": 156,
           "likes": 7,
-          "isRedundant": false
-        }
-      ]
-    },
-    {
-      "id": "film_6044",
-      "title": "Phần 2(1-450): Truyền Thuyết Tà Đỉnh Vô Sỉ-Bị Coi Là Phế Vật, Ta Dựa Vào Ma Đỉnh Để Nghịch Thiên",
-      "channelId": "naophangtutien",
-      "channelName": "Não Phẳng Tu Tiên",
-      "channelUrl": "https://www.youtube.com/@nao-phang",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 23027,
-      "totalDurationStr": "6 giờ 23 phút",
-      "totalViews": 287,
-      "totalLikes": 9,
-      "review": "Tên Phim:Truyền Thuyết Tà Đỉnh Vô Sỉ Tên Khác: Bị Coi Là Phế Vật, Ta Dựa Vào Ma Đỉnh Để Nghịch Thiên 👉 “Video này chạy bằng cơm với niềm đam mê 🥲 Ai thương thì donate cho ad có động lực tiếp tục nha! Không có gì ngoài lòng biết ơn 🚀” Từ khoá: ✔ Phàm Nhân Bách Thế Thư ✔ Phim Hoạt Hình Trung Quốc ✔ Hoạt Hình 3D ✔ Hoạt Hình Xuyên Không ✔ Hoạt Hình Cổ Trang...",
-      "genres": [
-        "Tu tiên / Huyền huyễn",
-        "Võ hiệp / Cổ trang"
-      ],
-      "thumbnail": "https://i2.ytimg.com/vi/iJYAkozObhs/hqdefault.jpg",
-      "publishedAt": "2026-11-25T11:46:11+00:00",
-      "updatedAt": "2026-11-25T11:46:11+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 2",
-          "title": "Phần 2(1-450): Truyền Thuyết Tà Đỉnh Vô Sỉ-Bị Coi Là Phế Vật, Ta Dựa Vào Ma Đỉnh Để Nghịch Thiên",
-          "url": "https://www.youtube.com/watch?v=iJYAkozObhs",
-          "id": "iJYAkozObhs",
-          "duration": 23027,
-          "durationStr": "6:23:47",
-          "publishedAt": "2026-11-25T11:46:11+00:00",
-          "views": 287,
-          "likes": 9,
           "isRedundant": false
         }
       ]
