@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6888,
+    "totalFilms": 6890,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T14:00:45.562324+00:00",
+    "lastUpdated": "2026-11-28T14:15:42.910042+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -74,7 +74,7 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 337
+      "filmCount": 338
     },
     {
       "id": "gianhireview",
@@ -230,7 +230,7 @@
       "id": "mycherrysub2",
       "name": "Bản Tin Cherry",
       "url": "https://www.youtube.com/@MyCherrySub2",
-      "filmCount": 178,
+      "filmCount": 179,
       "groupId": "group_mycherrysub",
       "groupName": "Hệ Thống MyCherrySub"
     },
@@ -244,6 +244,81 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6892",
+      "title": "[Full] Trọng Sinh Bị Đuổi Khỏi Nhà Giàu Tôi Về Nhà Bố Mẹ Ruột Có 7 Chị Gái Nghìn Tỷ! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6667,
+      "totalDurationStr": "1 giờ 51 phút",
+      "totalViews": 1,
+      "totalLikes": 0,
+      "review": "📽Phim: [Full] Trọng Sinh Bị Đuổi Khỏi Nhà Giàu Tôi Về Nhà Bố Mẹ Ruột Có 7 Chị Gái Nghìn Tỷ! | MyCherrySub Tóm tắt: Kiếp trước, Tần Vũ (từng mang họ Tô) làm trâu làm ngựa cho gia đình nuôi nhưng cuối cùng lại bị vu oan và chết thảm. Trọng sinh về đúng ngày bị cậu ấm thật Tô Tử Hào gài bẫy tội ăn trộm váy của chị cả Tô Bạch Niệm, Tần Vũ không còn nhẫn...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/i3JaT0KN4ew/hqdefault.jpg",
+      "publishedAt": "2026-11-28T14:15:17+00:00",
+      "updatedAt": "2026-11-28T14:15:17+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Trọng Sinh Bị Đuổi Khỏi Nhà Giàu Tôi Về Nhà Bố Mẹ Ruột Có 7 Chị Gái Nghìn Tỷ! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=i3JaT0KN4ew",
+          "id": "i3JaT0KN4ew",
+          "duration": 6667,
+          "durationStr": "1:51:07",
+          "publishedAt": "2026-11-28T14:15:17+00:00",
+          "views": 1,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6891",
+      "title": "Mạt Thế Không Thể Thức Tỉnh Vẫn Khiến Cường Giả Theo Đội Xe, Kẻ Phản Bội Hoảng Loạn!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 18741,
+      "totalDurationStr": "5 giờ 12 phút",
+      "totalViews": 13,
+      "totalLikes": 0,
+      "review": "Mạt Thế Không Thể Thức Tỉnh Vẫn Khiến Cường Giả Theo Đội Xe, Kẻ Phản Bội Hoảng Loạn!",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/JniE4yKTOIs/hqdefault.jpg",
+      "publishedAt": "2026-11-28T14:00:46+00:00",
+      "updatedAt": "2026-11-28T14:00:46+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Mạt Thế Không Thể Thức Tỉnh Vẫn Khiến Cường Giả Theo Đội Xe, Kẻ Phản Bội Hoảng Loạn!",
+          "url": "https://www.youtube.com/watch?v=JniE4yKTOIs",
+          "id": "JniE4yKTOIs",
+          "duration": 18741,
+          "durationStr": "5:12:21",
+          "publishedAt": "2026-11-28T14:00:46+00:00",
+          "views": 13,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6890",
       "title": "END | Con Gái Thiên Tài, Mẹ Bị Coi Là Phế Vật: Nào Ngờ Khi Cởi Bỏ Ngụy Trang Lại Là Đại Lão Cấp Thần",
@@ -4685,7 +4760,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JjArxZh-pAQ/hqdefault.jpg",
       "publishedAt": "2026-11-09T00:00:00+00:00",
       "updatedAt": "2026-11-27T14:14:59+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4757,7 +4832,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/n4x_rZs7IjQ/hqdefault.jpg",
       "publishedAt": "2026-11-27T14:03:59+00:00",
       "updatedAt": "2026-11-27T14:03:59+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
