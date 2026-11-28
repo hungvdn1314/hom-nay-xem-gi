@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6852,
+    "totalFilms": 6854,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T02:45:36.029773+00:00",
+    "lastUpdated": "2026-11-28T03:00:59.417555+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 649
+      "filmCount": 650
     },
     {
       "id": "naophangtutien",
@@ -154,7 +154,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 337
+      "filmCount": 338
     },
     {
       "id": "godsub",
@@ -244,6 +244,81 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6855",
+      "title": "16 GIỜ 20 THỎA MÃN | Trọng Sinh Thập Niên 80: Ta Săn Thú, Đào Dược Liệu Làm Giàu Nuôi Cả Nhà!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TRỌNG SINH THẬP NIÊN 80 – TA SĂN THÚ, ĐÀO DƯỢC LIỆU LÀM GIÀU NUÔI CẢ NHÀ! | SS1–SS5 | 16H24** ⚔️ **Lý Long** từng là kẻ lười biếng, ăn bám gia đình, bị nhà máy thực phẩm đuổi việc và khiến anh trai, chị dâu phải chịu nhiều khổ cực. Sau hàng chục năm sống trong hối hận, hắn bất...",
+      "genres": [
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/4Df7FxigVZg/hqdefault.jpg",
+      "publishedAt": "2026-11-28T03:00:30+00:00",
+      "updatedAt": "2026-11-28T03:00:30+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "16 GIỜ 20 THỎA MÃN | Trọng Sinh Thập Niên 80: Ta Săn Thú, Đào Dược Liệu Làm Giàu Nuôi Cả Nhà!",
+          "url": "https://www.youtube.com/watch?v=4Df7FxigVZg",
+          "id": "4Df7FxigVZg",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-28T03:00:30+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6856",
+      "title": "Full | Tận Thế Giáng Xuống Cướp Thiên Phú SSS Trở Thành Bá Chủ Nhờ Hệ Thống Phản Diện Thiên Mệnh",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 6833,
+      "totalDurationStr": "1 giờ 53 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Full | Tận Thế Giáng Xuống Cướp Thiên Phú SSS Trở Thành Bá Chủ Nhờ Hệ Thống Phản Diện Thiên Mệnh 📋 TÓM TẮT : Sở Tiêu sở hữu hệ thống phản diện, cướp cơ duyên của nam chính trọng sinh Lâm Thạc, thiết lập trật tự tàn khốc ở Đông Đô rồi dẫn quân chinh phạt, thu phục các thế lực 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/mrkha3pfQhM/hqdefault.jpg",
+      "publishedAt": "2026-11-28T03:00:26+00:00",
+      "updatedAt": "2026-11-28T03:00:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full | Tận Thế Giáng Xuống Cướp Thiên Phú SSS Trở Thành Bá Chủ Nhờ Hệ Thống Phản Diện Thiên Mệnh",
+          "url": "https://www.youtube.com/watch?v=mrkha3pfQhM",
+          "id": "mrkha3pfQhM",
+          "duration": 6833,
+          "durationStr": "1:53:53",
+          "publishedAt": "2026-11-28T03:00:26+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6854",
       "title": "[Full] Xuyên Thành Phản Diện Tôi Lấy Ảnh Nam Chính Yêu Qua Mạng Ai Ngờ Lại Là Con Gái! | MyCherrySub",
@@ -4324,7 +4399,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/Fu1eCj0zTFY/hqdefault.jpg",
       "publishedAt": "2026-11-27T03:00:28+00:00",
       "updatedAt": "2026-11-27T03:00:28+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4362,7 +4437,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0_TdGO5XlS4/hqdefault.jpg",
       "publishedAt": "2026-11-20T00:00:00+00:00",
       "updatedAt": "2026-11-27T03:00:22+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
