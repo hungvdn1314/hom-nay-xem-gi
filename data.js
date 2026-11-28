@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6881,
+    "totalFilms": 6882,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T12:15:31.249477+00:00",
+    "lastUpdated": "2026-11-28T12:30:38.220282+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 55,
+      "filmCount": 56,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,101 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6884",
+      "title": "Full Phần 1 |【Nhật Ký Công Viên Kỳ Tích: Khách Đến Từ Địa Phủ, Nhà Ma Thông Thẳng Xuống Âm Phủ!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 23654,
+      "totalDurationStr": "6 giờ 34 phút",
+      "totalViews": 10,
+      "totalLikes": 1,
+      "review": "🎬 【Nhật Ký Công Viên Kỳ Tích: Khách Đến Từ Địa Phủ, Nhà Ma Thông Thẳng Xuống Âm Phủ!】 🎡👻 Tưởng chừng chỉ là một công viên giải trí bình thường, nào ngờ nơi đây lại sở hữu những điều kỳ diệu vượt xa trí tưởng tượng! Không chỉ đón tiếp du khách nhân gian, Công Viên Kỳ Tích còn có những vị khách đặc biệt đến từ Địa Phủ. Điều kinh ngạc hơn cả là khu nhà ma...",
+      "genres": [
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/q6m9owePyp0/hqdefault.jpg",
+      "publishedAt": "2026-11-28T12:19:22+00:00",
+      "updatedAt": "2026-11-28T12:19:22+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Nhật Ký Công Viên Kỳ Tích: Khách Đến Từ Địa Phủ, Nhà Ma Thông Thẳng Xuống Âm Phủ!】",
+          "url": "https://www.youtube.com/watch?v=q6m9owePyp0",
+          "id": "q6m9owePyp0",
+          "duration": 23654,
+          "durationStr": "6:34:14",
+          "publishedAt": "2026-11-28T12:19:22+00:00",
+          "views": 10,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_1362",
+      "title": "Trò Chơi Sinh Tồn Cao Tốc: Nhận Hệ Thống Sào Huyệt, Triệu Hồi Goblin Xây Dựng Quân Đội Hùng Mạnh",
+      "channelId": "thienphatreview",
+      "channelName": "Thiên Phạt Review",
+      "channelUrl": "https://www.youtube.com/@thienphatreview",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 19211,
+      "totalDurationStr": "5 giờ 20 phút",
+      "review": "Nhận Hệ Thống Sào Huyệt, Triệu Hồi Goblin Xây Dựng Quân Đội Hùng Mạnh",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Trò chơi / Phó bản"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/ibHgbFpFW8w/hqdefault.jpg",
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trò Chơi Sinh Tồn Cao Tốc: Nhận Hệ Thống Sào Huyệt, Triệu Hồi Goblin Xây Dựng Quân Đội Hùng Mạnh",
+          "url": "https://www.youtube.com/watch?v=ibHgbFpFW8w",
+          "id": "ibHgbFpFW8w",
+          "duration": 9447,
+          "durationStr": "2:37:27",
+          "isRedundant": false,
+          "views": 4349,
+          "likes": 59,
+          "publishedAt": "2026-11-04T00:00:00+00:00",
+          "channelId": "thienphatreview",
+          "channelName": "Thiên Phạt Review"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "P2 |Trò Chơi Sinh Tồn Cao Tốc: Nhận Hệ Thống Sào Huyệt, Triệu Hồi Goblin Xây Dựng Quân Đội Hùng Mạnh",
+          "url": "https://www.youtube.com/watch?v=4tBk6mhxSK0",
+          "id": "4tBk6mhxSK0",
+          "duration": 9764,
+          "durationStr": "2:42:44",
+          "publishedAt": "2026-11-28T12:00:39+00:00",
+          "views": 20,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "thienphatreview",
+          "channelName": "Thiên Phạt Review"
+        }
+      ],
+      "totalViews": 4369,
+      "totalLikes": 60,
+      "publishedAt": "2026-11-04T00:00:00+00:00",
+      "updatedAt": "2026-11-28T12:00:39+00:00",
+      "isRecent24h": true,
+      "channelIds": [
+        "thienphatreview"
+      ]
+    },
     {
       "id": "film_6883",
       "title": "Full Bộ 01~141 | Hồi Sinh Thức Tỉnh Quỷ Nhãn Nghịch Thiên, Sức Mạnh Vô Hạn Thu Phục Vạn Quỷ",
@@ -4713,7 +4808,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/CCJRucMWtxk/hqdefault.jpg",
       "publishedAt": "2026-11-27T12:30:04+00:00",
       "updatedAt": "2026-11-27T12:30:04+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4751,7 +4846,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i1.ytimg.com/vi/P-MvBf9tPmw/hqdefault.jpg",
       "publishedAt": "2026-11-21T05:28:56+00:00",
       "updatedAt": "2026-11-27T12:18:00+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4809,7 +4904,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/k_54rEuMo3Q/hqdefault.jpg",
       "publishedAt": "2026-11-27T12:15:38+00:00",
       "updatedAt": "2026-11-27T12:15:38+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -83191,49 +83286,6 @@ window.FILMS_DATA = {
       ],
       "totalViews": 3444,
       "totalLikes": 42,
-      "publishedAt": "2026-11-04T00:00:00+00:00",
-      "updatedAt": "2026-11-04T00:00:00+00:00",
-      "isRecent24h": false,
-      "channelIds": [
-        "thienphatreview"
-      ]
-    },
-    {
-      "id": "film_1362",
-      "title": "Trò Chơi Sinh Tồn Cao Tốc: Nhận Hệ Thống Sào Huyệt, Triệu Hồi Goblin Xây Dựng Quân Đội Hùng Mạnh",
-      "channelId": "thienphatreview",
-      "channelName": "Thiên Phạt Review",
-      "channelUrl": "https://www.youtube.com/@thienphatreview",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 9447,
-      "totalDurationStr": "2 giờ 37 phút",
-      "review": "Nhận Hệ Thống Sào Huyệt, Triệu Hồi Goblin Xây Dựng Quân Đội Hùng Mạnh",
-      "genres": [
-        "Sinh tồn / Mạt thế",
-        "Trò chơi / Phó bản"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/ibHgbFpFW8w/hqdefault.jpg",
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "Trò Chơi Sinh Tồn Cao Tốc: Nhận Hệ Thống Sào Huyệt, Triệu Hồi Goblin Xây Dựng Quân Đội Hùng Mạnh",
-          "url": "https://www.youtube.com/watch?v=ibHgbFpFW8w",
-          "id": "ibHgbFpFW8w",
-          "duration": 9447,
-          "durationStr": "2:37:27",
-          "isRedundant": false,
-          "views": 4349,
-          "likes": 59,
-          "publishedAt": "2026-11-04T00:00:00+00:00",
-          "channelId": "thienphatreview",
-          "channelName": "Thiên Phạt Review"
-        }
-      ],
-      "totalViews": 4349,
-      "totalLikes": 59,
       "publishedAt": "2026-11-04T00:00:00+00:00",
       "updatedAt": "2026-11-04T00:00:00+00:00",
       "isRecent24h": false,
