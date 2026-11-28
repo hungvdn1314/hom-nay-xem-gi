@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6872,
+    "totalFilms": 6873,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T10:15:37.946947+00:00",
+    "lastUpdated": "2026-11-28T10:30:42.209060+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 654
+      "filmCount": 655
     },
     {
       "id": "naophangtutien",
@@ -244,6 +244,101 @@
     }
   ],
   "films": [
+    {
+      "id": "film_413",
+      "title": "Mối Duyên Tình Của Những Đứa Trẻ Đáng Yêu",
+      "channelId": "akatsukireview",
+      "channelIds": [
+        "akatsukireview"
+      ],
+      "channelName": "Akatsuki Review",
+      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 11401,
+      "totalDurationStr": "3 giờ 10 phút",
+      "totalViews": 3017,
+      "totalLikes": 1,
+      "review": "",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/mCjynakxYXk/hqdefault.jpg",
+      "publishedAt": "2026-11-16T00:00:00+00:00",
+      "updatedAt": "2026-11-28T10:21:52+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1-44",
+          "title": "Tập 1-44 | Mối Duyên Tình Của Những Đứa Trẻ Đáng Yêu | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=mCjynakxYXk",
+          "id": "mCjynakxYXk",
+          "duration": 9401,
+          "durationStr": "2:36:41",
+          "publishedAt": "2026-11-16T00:00:00+00:00",
+          "views": 3000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 2,
+          "label": "Tập 45-52",
+          "title": "Tập 45-52END | Mối Duyên Tình Của Những Đứa Trẻ Đáng Yêu | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=vCyqXOkuufE",
+          "id": "vCyqXOkuufE",
+          "duration": 2000,
+          "durationStr": "33:20",
+          "publishedAt": "2026-11-28T10:21:52+00:00",
+          "views": 17,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        }
+      ]
+    },
+    {
+      "id": "film_6875",
+      "title": "11 GIỜ  20  THỎA MÃN | Xuyên Không: Khế Ước Mỹ Nhân Hóa Chiến Cơ, Ta Thành Phi Công Vô Địch!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 40804,
+      "totalDurationStr": "11 giờ 20 phút",
+      "totalViews": 252,
+      "totalLikes": 18,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **XUYÊN KHÔNG CƠ NƯƠNG – THẾ GIỚI MỸ NHÂN BIẾN THÀNH CHIẾN CƠ, TA KHẾ ƯỚC MỘT NÀNG ĐỂ XƯNG BÁ! | 11H20** ✈️ **Giang Không** vốn là phi công át chủ bài, bất ngờ xuyên không đến thế giới nơi các cô gái có thể biến thành máy bay chiến đấu, được gọi là **Cơ Nương**. Tại đây, mỗi phi...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i2.ytimg.com/vi/1WQJu45x5TY/hqdefault.jpg",
+      "publishedAt": "2026-11-28T10:15:07+00:00",
+      "updatedAt": "2026-11-28T10:15:07+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "11 GIỜ  20  THỎA MÃN | Xuyên Không: Khế Ước Mỹ Nhân Hóa Chiến Cơ, Ta Thành Phi Công Vô Địch!",
+          "url": "https://www.youtube.com/watch?v=1WQJu45x5TY",
+          "id": "1WQJu45x5TY",
+          "duration": 40804,
+          "durationStr": "11:20:04",
+          "publishedAt": "2026-11-28T10:15:07+00:00",
+          "views": 252,
+          "likes": 18,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_675",
       "title": "Phần 1, Thức Tỉnh Dung Hợp Vô Hạn SSS, Tôi Làm Trùm Mạt Thế, Lập Tổ Đội Toàn Gái Xinh",
@@ -4336,7 +4431,7 @@
       "thumbnail": "https://i2.ytimg.com/vi/YkarTtnY2W4/hqdefault.jpg",
       "publishedAt": "2026-11-27T10:16:10+00:00",
       "updatedAt": "2026-11-27T10:16:10+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -40968,48 +41063,6 @@
       ],
       "channelIds": [
         "huyensutieumuoi"
-      ]
-    },
-    {
-      "id": "film_413",
-      "title": "Mối Duyên Tình Của Những Đứa Trẻ Đáng Yêu",
-      "channelId": "akatsukireview",
-      "channelIds": [
-        "akatsukireview"
-      ],
-      "channelName": "Akatsuki Review",
-      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 9401,
-      "totalDurationStr": "2 giờ 36 phút",
-      "totalViews": 3000,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Hoạt hình 3D Chọn Lọc"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/mCjynakxYXk/hqdefault.jpg",
-      "publishedAt": "2026-11-16T00:00:00+00:00",
-      "updatedAt": "2026-11-16T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Tập 1-44",
-          "title": "Tập 1-44 | Mối Duyên Tình Của Những Đứa Trẻ Đáng Yêu | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=mCjynakxYXk",
-          "id": "mCjynakxYXk",
-          "duration": 9401,
-          "durationStr": "2:36:41",
-          "publishedAt": "2026-11-16T00:00:00+00:00",
-          "views": 3000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        }
       ]
     },
     {
