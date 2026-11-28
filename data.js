@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6851,
+    "totalFilms": 6852,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T02:40:17.820367+00:00",
+    "lastUpdated": "2026-11-28T02:45:36.029773+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -230,7 +230,7 @@ window.FILMS_DATA = {
       "id": "mycherrysub2",
       "name": "Bản Tin Cherry",
       "url": "https://www.youtube.com/@MyCherrySub2",
-      "filmCount": 175,
+      "filmCount": 176,
       "groupId": "group_mycherrysub",
       "groupName": "Hệ Thống MyCherrySub"
     },
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6854",
+      "title": "[Full] Xuyên Thành Phản Diện Tôi Lấy Ảnh Nam Chính Yêu Qua Mạng Ai Ngờ Lại Là Con Gái! | MyCherrySub",
+      "channelId": "mycherrysub2",
+      "channelName": "Bản Tin Cherry",
+      "channelUrl": "https://www.youtube.com/@MyCherrySub2",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9621,
+      "totalDurationStr": "2 giờ 40 phút",
+      "totalViews": 52,
+      "totalLikes": 5,
+      "review": "📽Phim: [Full] Xuyên Thành Phản Diện Tôi Lấy Ảnh Nam Chính Yêu Qua Mạng Ai Ngờ Lại Là Con Gái! | MyCherrySub Tóm tắt: Nam chính Trần Ngạn xuyên sách thành một tên phản diện chuyên lấy ảnh của nam chính Thẩm Niệm đi yêu qua mạng với hàng loạt nữ chính có gia thế khuynh đảo, đồng thời liên tục bắt nạt cậu ta ở trường. Biết trước kết cục thảm khốc của bản...",
+      "genres": [
+        "Đô thị / Ngôn tình",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/su0RmMX65RA/hqdefault.jpg",
+      "publishedAt": "2026-11-28T02:36:57+00:00",
+      "updatedAt": "2026-11-28T02:36:57+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "[Full] Xuyên Thành Phản Diện Tôi Lấy Ảnh Nam Chính Yêu Qua Mạng Ai Ngờ Lại Là Con Gái! | MyCherrySub",
+          "url": "https://www.youtube.com/watch?v=su0RmMX65RA",
+          "id": "su0RmMX65RA",
+          "duration": 9621,
+          "durationStr": "2:40:21",
+          "publishedAt": "2026-11-28T02:36:57+00:00",
+          "views": 52,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6853",
       "title": "Full Bộ 01~147 | Hóa Tang Thi Nhưng Giữ Được Ý Thức, Điều Khiển Zombie Bá Chủ Thế Giới",
