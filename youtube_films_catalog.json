@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6873,
+    "totalFilms": 6874,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T10:45:30.939308+00:00",
+    "lastUpdated": "2026-11-28T11:00:53.909693+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -106,7 +106,7 @@
       "id": "tieumuoingontinh",
       "name": "Tiểu Muội Ngôn Tình",
       "url": "https://www.youtube.com/@TieuMuoiNgonTinh",
-      "filmCount": 83
+      "filmCount": 84
     },
     {
       "id": "cibiisub",
@@ -244,6 +244,44 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6876",
+      "title": "Full Tập 01~278 | Họa Thần Hạ Phàm Trọng Sinh, Lập Khế Ước Trừ Tà Thu Phục Yêu Ma Làm Chủ Quyền Lực",
+      "channelId": "tieumuoingontinh",
+      "channelName": "Tiểu Muội Ngôn Tình",
+      "channelUrl": "https://www.youtube.com/@TieuMuoiNgonTinh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Bị ông nội đá khỏi Thần Giới, Họa Thần Mãn Nguyệt trọng sinh thành thí sinh đáng thương bị hãm hại. Hạ phàm, cô lập khế ước trừ tà với thủ phú Sở Tẫn, lật ngược thế cờ thành kim chủ quyền lực, vả mặt kẻ ác, thu phục yêu ma và giải mã thảm kịch năm xưa. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt Nhật, Phim...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/48XSRWUZSOw/hqdefault.jpg",
+      "publishedAt": "2026-11-28T11:00:30+00:00",
+      "updatedAt": "2026-11-28T11:00:30+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1",
+          "title": "Full Tập 01~278 | Họa Thần Hạ Phàm Trọng Sinh, Lập Khế Ước Trừ Tà Thu Phục Yêu Ma Làm Chủ Quyền Lực",
+          "url": "https://www.youtube.com/watch?v=48XSRWUZSOw",
+          "id": "48XSRWUZSOw",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-28T11:00:30+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_413",
       "title": "Mối Duyên Tình Của Những Đứa Trẻ Đáng Yêu",
@@ -4355,7 +4393,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/ZTsPi-Lperw/hqdefault.jpg",
       "publishedAt": "2026-11-27T11:00:19+00:00",
       "updatedAt": "2026-11-27T11:00:19+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4393,7 +4431,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/671nYNcgo1I/hqdefault.jpg",
       "publishedAt": "2026-11-27T11:00:02+00:00",
       "updatedAt": "2026-11-27T11:00:02+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
