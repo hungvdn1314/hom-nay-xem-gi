@@ -6,7 +6,7 @@ window.FILMS_DATA = {
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T03:30:40.806542+00:00",
+    "lastUpdated": "2026-11-28T03:40:03.080095+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -3909,7 +3909,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i1.ytimg.com/vi/dAJvuOSO1fg/hqdefault.jpg",
       "publishedAt": "2026-11-27T03:39:26+00:00",
       "updatedAt": "2026-11-27T03:39:26+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -3947,7 +3947,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/GqZzfXaI_o4/hqdefault.jpg",
       "publishedAt": "2026-11-27T03:35:52+00:00",
       "updatedAt": "2026-11-27T03:35:52+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
