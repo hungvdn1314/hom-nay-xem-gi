@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6878,
+    "totalFilms": 6880,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T11:46:32.397615+00:00",
+    "lastUpdated": "2026-11-28T12:00:49.968099+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -74,7 +74,7 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 336
+      "filmCount": 337
     },
     {
       "id": "gianhireview",
@@ -154,7 +154,7 @@
       "id": "daudauvietsub",
       "name": "Đậu Đậu Vietsub",
       "url": "https://www.youtube.com/@daudau.vietsub",
-      "filmCount": 342
+      "filmCount": 343
     },
     {
       "id": "godsub",
@@ -244,6 +244,81 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6882",
+      "title": "Trôi Dạt Đảo Dị Thế: Tôi Mang Hệ Thống Thống Trị Đảo Hoang | Đậu Đậu Vietsub",
+      "channelId": "daudauvietsub",
+      "channelName": "Đậu Đậu Vietsub",
+      "channelUrl": "https://www.youtube.com/@daudau.vietsub",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 14890,
+      "totalDurationStr": "4 giờ 08 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Trôi Dạt Đảo Dị Thế: Tôi Mang Hệ Thống Thống Trị Đảo Hoang | Đậu Đậu Vietsub 📋 TÓM TẮT : Bị đuổi khỏi nhóm trên đảo hoang dị thế, Lục Thần cùng Lâm Dã dùng hệ thống phép thuật sinh tồn, lôi kéo nhân tài và liên minh săn gấu khẳng định vị thế. 📋 THÔNG ĐIỆP TÍCH CỰC * Dù bị người đời gắn mác hay rơi vào nghịch cảnh khắc nghiệt, giá trị của bạn vẫn do chính...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/8KLcR_zm_lU/hqdefault.jpg",
+      "publishedAt": "2026-11-28T12:00:18+00:00",
+      "updatedAt": "2026-11-28T12:00:18+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trôi Dạt Đảo Dị Thế: Tôi Mang Hệ Thống Thống Trị Đảo Hoang | Đậu Đậu Vietsub",
+          "url": "https://www.youtube.com/watch?v=8KLcR_zm_lU",
+          "id": "8KLcR_zm_lU",
+          "duration": 14890,
+          "durationStr": "4:08:10",
+          "publishedAt": "2026-11-28T12:00:18+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6881",
+      "title": "Bị Streamer Phản Bội Đuổi Việc, Tôi Mở Quán Bữa Sáng 2 Giờ Chiều, Khiến Cả Thành Phố Xếp Hàng Dài!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 11387,
+      "totalDurationStr": "3 giờ 09 phút",
+      "totalViews": 4,
+      "totalLikes": 0,
+      "review": "Bị Streamer Phản Bội Đuổi Việc, Tôi Mở Quán Bữa Sáng 2 Giờ Chiều, Khiến Cả Thành Phố Xếp Hàng Dài!",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/RColMwpFtxY/hqdefault.jpg",
+      "publishedAt": "2026-11-28T11:55:28+00:00",
+      "updatedAt": "2026-11-28T11:55:28+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Bị Streamer Phản Bội Đuổi Việc, Tôi Mở Quán Bữa Sáng 2 Giờ Chiều, Khiến Cả Thành Phố Xếp Hàng Dài!",
+          "url": "https://www.youtube.com/watch?v=RColMwpFtxY",
+          "id": "RColMwpFtxY",
+          "duration": 11387,
+          "durationStr": "3:09:47",
+          "publishedAt": "2026-11-28T11:55:28+00:00",
+          "views": 4,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6879",
       "title": "9 GIỜ 30 | Toàn Dân Sinh Tồn: Khởi Đầu Xe Ba Gác, Ta Cường Hóa Sào Huyệt Xây Quân Đoàn Yêu Tinh!",
@@ -4594,7 +4669,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/j9ZnuvvLJg0/hqdefault.jpg",
       "publishedAt": "2026-11-27T12:00:27+00:00",
       "updatedAt": "2026-11-27T12:00:27+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4679,7 +4754,7 @@
       "totalLikes": 506,
       "publishedAt": "2026-09-17T00:00:00+00:00",
       "updatedAt": "2026-11-27T12:00:05+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "channelIds": [
         "thienphatreview"
       ]
@@ -4705,7 +4780,7 @@
       "thumbnail": "https://i4.ytimg.com/vi/gADESQ-tnMo/hqdefault.jpg",
       "publishedAt": "2026-11-27T11:59:17+00:00",
       "updatedAt": "2026-11-27T11:59:17+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
