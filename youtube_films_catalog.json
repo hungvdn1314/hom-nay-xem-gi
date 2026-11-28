@@ -6,7 +6,7 @@
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T06:15:33.416552+00:00",
+    "lastUpdated": "2026-11-28T06:30:40.977302+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -245,6 +245,121 @@
   ],
   "films": [
     {
+      "id": "film_3505",
+      "title": "Cơ Giáp Sư Trọng Sinh Vào Thế Giới Trùng Tộc, Dẫn Dắt Binh Đoàn Tiêu Diệt Trùng Vương",
+      "channelId": "hh3dtrungquoc",
+      "channelIds": [
+        "hh3dtrungquoc"
+      ],
+      "channelName": "Anime 3D Trung Quốc",
+      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 14659,
+      "totalDurationStr": "4 giờ 04 phút",
+      "totalViews": 481024,
+      "totalLikes": 2,
+      "review": "",
+      "genres": [
+        "Ngự thú / Tiến hóa",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/rXE66_BmuIk/hqdefault.jpg",
+      "publishedAt": "2026-07-28T00:00:00+00:00",
+      "updatedAt": "2026-11-28T06:24:22.699399+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Cơ Giáp Sư Trọng Sinh Vào Thế Giới Trùng Tộc, Dẫn Dắt Binh Đoàn Tiêu Diệt Trùng Vương",
+          "url": "https://www.youtube.com/watch?v=rXE66_BmuIk",
+          "id": "rXE66_BmuIk",
+          "duration": 7903,
+          "durationStr": "2:11:43",
+          "publishedAt": "2026-07-28T00:00:00+00:00",
+          "views": 481000,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "hh3dtrungquoc",
+          "channelName": "Anime 3D Trung Quốc"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Phần 2, Cơ Giáp Sư Trọng Sinh Vào Thế Giới Trùng Tộc, Dẫn Dắt Binh Đoàn Tiêu Diệt Trùng Vương",
+          "url": "https://www.youtube.com/watch?v=9Zeq5OIskMk",
+          "id": "9Zeq5OIskMk",
+          "duration": 6756,
+          "durationStr": "1:52:36",
+          "publishedAt": "2026-11-28T06:24:22.699399+00:00",
+          "views": 24,
+          "likes": 2,
+          "isRedundant": false,
+          "channelId": "hh3dtrungquoc",
+          "channelName": "Anime 3D Trung Quốc"
+        }
+      ]
+    },
+    {
+      "id": "film_1731",
+      "title": "Dì Ơi, Xin Hãy Tha Mạng Cho Cháu",
+      "channelId": "akatsukireview",
+      "channelIds": [
+        "akatsukireview"
+      ],
+      "channelName": "Akatsuki Review",
+      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 12972,
+      "totalDurationStr": "3 giờ 36 phút",
+      "totalViews": 2823,
+      "totalLikes": 1,
+      "review": "",
+      "genres": [
+        "Hoạt hình 3D Chọn Lọc"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/5k_HGjp1n3c/hqdefault.jpg",
+      "publishedAt": "2026-10-24T00:00:00+00:00",
+      "updatedAt": "2026-11-28T06:18:26.136879+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1-11",
+          "title": "Tập 1-11| Dì Ơi, Xin Hãy Tha Mạng Cho Cháu | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=5k_HGjp1n3c",
+          "id": "5k_HGjp1n3c",
+          "duration": 2742,
+          "durationStr": "45:42",
+          "publishedAt": "2026-10-24T00:00:00+00:00",
+          "views": 2800,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 2,
+          "label": "Tập 1-42",
+          "title": "Tập 1-42 | Dì Ơi, Xin Hãy Tha Mạng Cho Cháu | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=XOVeWxkTqIc",
+          "id": "XOVeWxkTqIc",
+          "duration": 10230,
+          "durationStr": "2:50:30",
+          "publishedAt": "2026-11-28T06:18:26.136879+00:00",
+          "views": 23,
+          "likes": 1,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        }
+      ]
+    },
+    {
       "id": "film_756",
       "title": "Giác Tỉnh Thập Điện Diêm La, Ta Chính Là Hồng Tán Quỷ Tiên",
       "channelId": "melacreview",
@@ -324,7 +439,7 @@
       ],
       "updatedAt": "2026-11-28T06:11:16.830127+00:00",
       "isRecent24h": true,
-      "publishedAt": "2026-11-12T18:25:40+00:00",
+      "publishedAt": "2026-10-01T00:00:00+00:00",
       "totalViews": 45135,
       "totalLikes": 286,
       "channelIds": [
@@ -3989,7 +4104,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ar1ySiQ0JtQ/hqdefault.jpg",
       "publishedAt": "2026-11-27T06:15:34+00:00",
       "updatedAt": "2026-11-27T06:15:34+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -108021,48 +108136,6 @@
       ]
     },
     {
-      "id": "film_1731",
-      "title": "Dì Ơi, Xin Hãy Tha Mạng Cho Cháu",
-      "channelId": "akatsukireview",
-      "channelIds": [
-        "akatsukireview"
-      ],
-      "channelName": "Akatsuki Review",
-      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 2742,
-      "totalDurationStr": "45 phút 42 giây",
-      "totalViews": 2800,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Hoạt hình 3D Chọn Lọc"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/5k_HGjp1n3c/hqdefault.jpg",
-      "publishedAt": "2026-10-24T00:00:00+00:00",
-      "updatedAt": "2026-10-24T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Tập 1-11",
-          "title": "Tập 1-11| Dì Ơi, Xin Hãy Tha Mạng Cho Cháu | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=5k_HGjp1n3c",
-          "id": "5k_HGjp1n3c",
-          "duration": 2742,
-          "durationStr": "45:42",
-          "publishedAt": "2026-10-24T00:00:00+00:00",
-          "views": 2800,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        }
-      ]
-    },
-    {
       "id": "film_1732",
       "title": "Sau Khi Trọng Sinh, Cô Thanh Mai Kiêu Ngạo Thật Hết Cách Rồi",
       "channelId": "akatsukireview",
@@ -204871,49 +204944,6 @@
           "isRedundant": false,
           "channelId": "zzzphim",
           "channelName": "Zzzphim"
-        }
-      ]
-    },
-    {
-      "id": "film_3505",
-      "title": "Cơ Giáp Sư Trọng Sinh Vào Thế Giới Trùng Tộc, Dẫn Dắt Binh Đoàn Tiêu Diệt Trùng Vương",
-      "channelId": "hh3dtrungquoc",
-      "channelIds": [
-        "hh3dtrungquoc"
-      ],
-      "channelName": "Anime 3D Trung Quốc",
-      "channelUrl": "https://www.youtube.com/@HH3dTrungQuocAI",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 7903,
-      "totalDurationStr": "2 giờ 11 phút",
-      "totalViews": 481000,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Ngự thú / Tiến hóa",
-        "Cao võ / Dị năng"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/rXE66_BmuIk/hqdefault.jpg",
-      "publishedAt": "2026-07-28T00:00:00+00:00",
-      "updatedAt": "2026-07-28T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "Cơ Giáp Sư Trọng Sinh Vào Thế Giới Trùng Tộc, Dẫn Dắt Binh Đoàn Tiêu Diệt Trùng Vương",
-          "url": "https://www.youtube.com/watch?v=rXE66_BmuIk",
-          "id": "rXE66_BmuIk",
-          "duration": 7903,
-          "durationStr": "2:11:43",
-          "publishedAt": "2026-07-28T00:00:00+00:00",
-          "views": 481000,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "hh3dtrungquoc",
-          "channelName": "Anime 3D Trung Quốc"
         }
       ]
     },
