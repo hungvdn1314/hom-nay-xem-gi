@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6846,
+    "totalFilms": 6849,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T01:45:34.205843+00:00",
+    "lastUpdated": "2026-11-28T02:01:44.303303+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -74,7 +74,7 @@
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 333
+      "filmCount": 334
     },
     {
       "id": "gianhireview",
@@ -106,7 +106,7 @@
       "id": "tieumuoingontinh",
       "name": "Tiểu Muội Ngôn Tình",
       "url": "https://www.youtube.com/@TieuMuoiNgonTinh",
-      "filmCount": 81
+      "filmCount": 82
     },
     {
       "id": "cibiisub",
@@ -202,7 +202,7 @@
       "id": "trumphimsinhton",
       "name": "Trùm Phim Sinh Tồn New",
       "url": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
-      "filmCount": 320,
+      "filmCount": 321,
       "groupId": "group_trumphimsinhton",
       "groupName": "Hệ Thống Trùm Phim Sinh Tồn New"
     },
@@ -244,6 +244,176 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6851",
+      "title": "S1 | Tận Thế Zombie, Nam Sinh Phát Hiện 4 Quy Luật Sinh Tồn Trong Ký Túc Xá | Trùm Phim Sinh Tồn New",
+      "channelId": "trumphimsinhton",
+      "channelName": "Trùm Phim Sinh Tồn New",
+      "channelUrl": "https://www.youtube.com/@Tr%C3%B9mPhimSinhT%E1%BB%93n1",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 0,
+      "totalDurationStr": "Đang cập nhật",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "S1 | Tận Thế Zombie, Nam Sinh Phát Hiện 4 Quy Luật Sinh Tồn Trong Ký Túc Xá | Trùm Phim Sinh Tồn New Phim: Ký Túc Xá Tận Thế: Zombie Cũng Đi Kiểm Tra Phòng. Hơn vạn giáo viên và học sinh bị đàn zombie dưới lầu nuốt chửng, những người bị cắn nhanh chóng biến thành xác sống. Điện, mạng và nước đều bị cắt. Năm người trong ký túc xá chặn kín cửa, dựa vào...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Ngự thú / Tiến hóa"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/XkAbXuGa_Lo/hqdefault.jpg",
+      "publishedAt": "2026-11-28T02:00:33+00:00",
+      "updatedAt": "2026-11-28T02:00:33+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "S1 | Tận Thế Zombie, Nam Sinh Phát Hiện 4 Quy Luật Sinh Tồn Trong Ký Túc Xá | Trùm Phim Sinh Tồn New",
+          "url": "https://www.youtube.com/watch?v=XkAbXuGa_Lo",
+          "id": "XkAbXuGa_Lo",
+          "duration": 0,
+          "durationStr": "",
+          "publishedAt": "2026-11-28T02:00:33+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6850",
+      "title": "Full Tập 01~80 | Thiên Sư Bắt Ma Xuống Núi Báo Thù, Vạch Trần Trà Xanh Được Gia Tộc Đón Về Kinh",
+      "channelId": "tieumuoingontinh",
+      "channelName": "Tiểu Muội Ngôn Tình",
+      "channelUrl": "https://www.youtube.com/@TieuMuoiNgonTinh",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7695,
+      "totalDurationStr": "2 giờ 08 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Vừa chào đời đã bị cha ruột m.o.i tim vứt sông, thiên kim thật Quý Tang Ninh được cao nhân cứu sống, tu luyện mười tám năm thành Thiên Sư bắt ma. Hạ sơn báo thù, cô vạch trần thiên kim giả, phá đường dây b.u.ô.n nội tạng và được gia tộc Kinh Thành đón về. ❖ Thể loại: Phim Hoạt Hình 3D, Donghua Thuyết Minh, Tiên Tôn Trùng Sinh Đô Thị, Cơ Giáp Mạt Nhật,...",
+      "genres": [
+        "Quỷ dị / Linh dị",
+        "Tu tiên / Huyền huyễn"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/hkbhr67CBQ4/hqdefault.jpg",
+      "publishedAt": "2026-11-28T01:56:02+00:00",
+      "updatedAt": "2026-11-28T01:56:02+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Tập 1",
+          "title": "Full Tập 01~80 | Thiên Sư Bắt Ma Xuống Núi Báo Thù, Vạch Trần Trà Xanh Được Gia Tộc Đón Về Kinh",
+          "url": "https://www.youtube.com/watch?v=hkbhr67CBQ4",
+          "id": "hkbhr67CBQ4",
+          "duration": 7695,
+          "durationStr": "2:08:15",
+          "publishedAt": "2026-11-28T01:56:02+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_659",
+      "title": "Đừng Hòng Trốn Thoát, Hoa Khôi Đã Lên Kế Hoạch Chinh Phục Anh Từ Lâu",
+      "channelId": "akatsukireview",
+      "channelIds": [
+        "akatsukireview"
+      ],
+      "channelName": "Akatsuki Review",
+      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
+      "playlistUrl": null,
+      "totalParts": 2,
+      "partsStr": "2 phần",
+      "totalDurationSec": 21357,
+      "totalDurationStr": "5 giờ 55 phút",
+      "totalViews": 9500,
+      "totalLikes": 0,
+      "review": "",
+      "genres": [
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/fEjFbNiBOIA/hqdefault.jpg",
+      "publishedAt": "2026-11-13T00:00:00+00:00",
+      "updatedAt": "2026-11-28T01:54:49+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1",
+          "title": "FULLSS1 | Đừng Hòng Trốn Thoát, Hoa Khôi Đã Lên Kế Hoạch Chinh Phục Anh Từ Lâu | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=fEjFbNiBOIA",
+          "id": "fEjFbNiBOIA",
+          "duration": 10105,
+          "durationStr": "2:48:25",
+          "publishedAt": "2026-11-13T00:00:00+00:00",
+          "views": 9500,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        },
+        {
+          "index": 2,
+          "label": "Mùa 2",
+          "title": "FULLSS2 | Đừng Hòng Trốn Thoát, Hoa Khôi Đã Lên Kế Hoạch Chinh Phục Anh Từ Lâu | Akatsuki Review",
+          "url": "https://www.youtube.com/watch?v=Ty6Vs5pPQrc",
+          "id": "Ty6Vs5pPQrc",
+          "duration": 11252,
+          "durationStr": "3:07:32",
+          "publishedAt": "2026-11-28T01:54:49+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "akatsukireview",
+          "channelName": "Akatsuki Review"
+        }
+      ]
+    },
+    {
+      "id": "film_6849",
+      "title": "Bé Gái Lưu Lạc Hóa Ra Là Cửu Công Chúa, Nghe Hiểu Tiếng Cỏ Cây, Lật Tẩy Âm Mưu Hậu Cung",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 5769,
+      "totalDurationStr": "1 giờ 36 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Bé Gái Lưu Lạc Hóa Ra Là Cửu Công Chúa, Nghe Hiểu Tiếng Cỏ Cây, Lật Tẩy Âm Mưu Hậu Cung",
+      "genres": [
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/Sy87N9sm21E/hqdefault.jpg",
+      "publishedAt": "2026-11-28T01:50:56+00:00",
+      "updatedAt": "2026-11-28T01:50:56+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Bé Gái Lưu Lạc Hóa Ra Là Cửu Công Chúa, Nghe Hiểu Tiếng Cỏ Cây, Lật Tẩy Âm Mưu Hậu Cung",
+          "url": "https://www.youtube.com/watch?v=Sy87N9sm21E",
+          "id": "Sy87N9sm21E",
+          "duration": 5769,
+          "durationStr": "1:36:09",
+          "publishedAt": "2026-11-28T01:50:56+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_26",
       "title": "Bị Nguyền Chết Tuổi 40, Ta Kết 3 Đan Vượt Tam Sắc Lôi Kiếp",
@@ -4208,7 +4378,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/fCFXF58ub_8/hqdefault.jpg",
       "publishedAt": "2026-11-27T02:00:43+00:00",
       "updatedAt": "2026-11-27T02:00:43+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4246,7 +4416,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0URFYq4oKSc/hqdefault.jpg",
       "publishedAt": "2026-11-16T00:00:00+00:00",
       "updatedAt": "2026-11-27T02:00:31+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -51254,48 +51424,6 @@
           "durationStr": "25:15",
           "publishedAt": "2026-11-13T00:00:00+00:00",
           "views": 903,
-          "likes": 0,
-          "isRedundant": false,
-          "channelId": "akatsukireview",
-          "channelName": "Akatsuki Review"
-        }
-      ]
-    },
-    {
-      "id": "film_659",
-      "title": "Đừng Hòng Trốn Thoát, Hoa Khôi Đã Lên Kế Hoạch Chinh Phục Anh Từ Lâu",
-      "channelId": "akatsukireview",
-      "channelIds": [
-        "akatsukireview"
-      ],
-      "channelName": "Akatsuki Review",
-      "channelUrl": "https://www.youtube.com/@Akatsuki-KT",
-      "playlistUrl": null,
-      "totalParts": 1,
-      "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 10105,
-      "totalDurationStr": "2 giờ 48 phút",
-      "totalViews": 9500,
-      "totalLikes": 0,
-      "review": "",
-      "genres": [
-        "Đô thị / Ngôn tình"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/fEjFbNiBOIA/hqdefault.jpg",
-      "publishedAt": "2026-11-13T00:00:00+00:00",
-      "updatedAt": "2026-11-13T00:00:00+00:00",
-      "isRecent24h": false,
-      "parts": [
-        {
-          "index": 1,
-          "label": "Mùa 1",
-          "title": "FULLSS1 | Đừng Hòng Trốn Thoát, Hoa Khôi Đã Lên Kế Hoạch Chinh Phục Anh Từ Lâu | Akatsuki Review",
-          "url": "https://www.youtube.com/watch?v=fEjFbNiBOIA",
-          "id": "fEjFbNiBOIA",
-          "duration": 10105,
-          "durationStr": "2:48:25",
-          "publishedAt": "2026-11-13T00:00:00+00:00",
-          "views": 9500,
           "likes": 0,
           "isRedundant": false,
           "channelId": "akatsukireview",
