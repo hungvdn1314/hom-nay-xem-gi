@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6869,
+    "totalFilms": 6870,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T08:45:31.990654+00:00",
+    "lastUpdated": "2026-11-28T09:01:47.171948+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -32,7 +32,7 @@ window.FILMS_DATA = {
       "id": "melacreview",
       "name": "Mễ Lạc Review",
       "url": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
-      "filmCount": 158
+      "filmCount": 159
     },
     {
       "id": "thienanhstudio9",
@@ -244,6 +244,44 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6872",
+      "title": "Tiền Truyện | [Phần Phù Kiêu] - Tiểu sư muội được cả kiếm tông nhà ta sủng ái",
+      "channelId": "melacreview",
+      "channelName": "Mễ Lạc Review",
+      "channelUrl": "https://www.youtube.com/@M%E1%BB%85L%E1%BA%A1cReview",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 9609,
+      "totalDurationStr": "2 giờ 40 phút",
+      "totalViews": 0,
+      "totalLikes": 0,
+      "review": "Ủng hộ AD qua Tpbank 0396 0012 601 (NTL) or ghé shopee dưới cmt Tiền Truyện | [Phần Phù Kiêu] - Tiểu sư muội được cả kiếm tông nhà ta sủng ái(Nội dung giải trí hư cấu hỗ trợ bởi AI • Phù hợp khán giả từ 16 tuổi)Bộ phim kể về hành trình dở khóc dở cười của Phù Tần, vị tiểu công chúa ba tuổi mang nửa dòng máu Ma tộc. Do Ma giới lâm vào cảnh nợ nần nghèo...",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Đô thị / Ngôn tình"
+      ],
+      "thumbnail": "https://i1.ytimg.com/vi/pX_Ma-gJrBc/hqdefault.jpg",
+      "publishedAt": "2026-11-28T08:54:46+00:00",
+      "updatedAt": "2026-11-28T08:54:46+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Tiền Truyện | [Phần Phù Kiêu] - Tiểu sư muội được cả kiếm tông nhà ta sủng ái",
+          "url": "https://www.youtube.com/watch?v=pX_Ma-gJrBc",
+          "id": "pX_Ma-gJrBc",
+          "duration": 9609,
+          "durationStr": "2:40:09",
+          "publishedAt": "2026-11-28T08:54:46+00:00",
+          "views": 0,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_6871",
       "title": "14 GIỜ 20 THỎA MÃN | Ngự Thú: Thức Tỉnh Hạch Tâm Hố Đen, Ta Truyền Kỹ Năng Tiến Hóa Thần Thú!",
@@ -4543,7 +4581,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i4.ytimg.com/vi/CPg58MHWAb0/hqdefault.jpg",
       "publishedAt": "2026-11-27T09:00:16+00:00",
       "updatedAt": "2026-11-27T09:00:16+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
