@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6864,
+    "totalFilms": 6865,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T06:45:29.519851+00:00",
+    "lastUpdated": "2026-11-28T07:00:43.939926+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 652
+      "filmCount": 653
     },
     {
       "id": "naophangtutien",
@@ -180,7 +180,7 @@
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 51,
+      "filmCount": 52,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,117 @@
     }
   ],
   "films": [
+    {
+      "id": "film_6867",
+      "title": "14 GIỜ THỎA MÃN | Trọng Sinh Thành Cóc Ghẻ, Ta Thức Tỉnh Thôn Thiên Nuốt Vạn Vật Thành Yêu Vương!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 50839,
+      "totalDurationStr": "14 giờ 07 phút",
+      "totalViews": 0,
+      "totalLikes": 1,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: *TRỌNG SINH THÀNH CÓC GHẺ – THỨC TỈNH THẦN THÔNG THÔN THIÊN, NUỐT VẠN VẬT TIẾN HÓA YÊU VƯƠNG! | 14H07* 🐸 *Mạc Phàm* vốn là một người hiện đại, bất ngờ trọng sinh thành một con cóc ghẻ tại **Yêu Linh Sơn**. Sau nửa năm sống dưới hình dạng cóc, hắn tìm được Tiên Thiên Linh Quả nhưng...",
+      "genres": [
+        "Hệ thống / Thức tỉnh",
+        "Xuyên không / Trọng sinh"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/K0i0JopTwQo/hqdefault.jpg",
+      "publishedAt": "2026-11-28T07:00:08.854757+00:00",
+      "updatedAt": "2026-11-28T07:00:08.854757+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "14 GIỜ THỎA MÃN | Trọng Sinh Thành Cóc Ghẻ, Ta Thức Tỉnh Thôn Thiên Nuốt Vạn Vật Thành Yêu Vương!",
+          "url": "https://www.youtube.com/watch?v=K0i0JopTwQo",
+          "id": "K0i0JopTwQo",
+          "duration": 50839,
+          "durationStr": "14:07:19",
+          "publishedAt": "2026-11-28T07:00:08.854757+00:00",
+          "views": 0,
+          "likes": 1,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_822",
+      "title": "Sau Lưng Có Cả Thiên Đình Chư Tiên, Mà Ngươi Lại Bảo Ta Sợ Quỷ Dị Phục Tô Sao?!",
+      "channelId": "hoathinhmonganh",
+      "channelName": "Mộng Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
+      "playlistUrl": null,
+      "totalParts": 3,
+      "partsStr": "3 phần",
+      "totalDurationSec": 31523,
+      "totalDurationStr": "8 giờ 45 phút",
+      "review": "Sau Lưng Có Cả Thiên Đình Chư Tiên, Mà Ngươi Lại Bảo Ta Sợ Quỷ Dị Phục Tô Sao?!",
+      "genres": [
+        "Quỷ dị / Linh dị"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/WECeF5RzZT4/hqdefault.jpg",
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Phần 1 |【Sau Lưng Có Cả Thiên Đình Chư Tiên, Mà Ngươi Lại Bảo Ta Sợ Quỷ Dị Phục Tô Sao?!】",
+          "url": "https://www.youtube.com/watch?v=WECeF5RzZT4",
+          "id": "WECeF5RzZT4",
+          "duration": 11867,
+          "durationStr": "3:17:47",
+          "isRedundant": false,
+          "views": 13871,
+          "likes": 463,
+          "publishedAt": "2026-10-26T00:00:00+00:00",
+          "channelId": "hoathinhmonganh",
+          "channelName": "Mộng Ảnh Studio"
+        },
+        {
+          "index": 2,
+          "label": "Phần 2",
+          "title": "Full Phần 2 |【Sau Lưng Có Cả Thiên Đình Chư Tiên, Mà Ngươi Lại Bảo Ta Sợ Quỷ Dị Phục Tô Sao?!】",
+          "url": "https://www.youtube.com/watch?v=cNDp0Q-vhqI",
+          "id": "cNDp0Q-vhqI",
+          "duration": 9727,
+          "durationStr": "2:42:07",
+          "isRedundant": false,
+          "publishedAt": "2026-11-11T12:24:15+00:00",
+          "views": 4861,
+          "likes": 154,
+          "channelId": "hoathinhmonganh",
+          "channelName": "Mộng Ảnh Studio"
+        },
+        {
+          "index": 3,
+          "label": "Phần 3",
+          "title": "Full Phần 3 |【Sau Lưng Có Cả Thiên Đình Chư Tiên, Mà Ngươi Lại Bảo Ta Sợ Quỷ Dị Phục Tô Sao?!】",
+          "url": "https://www.youtube.com/watch?v=6K9XQbtMUYs",
+          "id": "6K9XQbtMUYs",
+          "duration": 9929,
+          "durationStr": "2:45:29",
+          "publishedAt": "2026-11-28T06:53:30.462102+00:00",
+          "views": 4,
+          "likes": 0,
+          "isRedundant": false,
+          "channelId": "vananhstudio",
+          "channelName": "Vạn Ảnh Studio"
+        }
+      ],
+      "updatedAt": "2026-11-28T06:53:30.462102+00:00",
+      "isRecent24h": true,
+      "publishedAt": "2026-11-11T12:24:15+00:00",
+      "totalViews": 18736,
+      "totalLikes": 617,
+      "channelIds": [
+        "hoathinhmonganh",
+        "vananhstudio"
+      ]
+    },
     {
       "id": "film_3505",
       "title": "Cơ Giáp Sư Trọng Sinh Vào Thế Giới Trùng Tộc, Dẫn Dắt Binh Đoàn Tiêu Diệt Trùng Vương",
@@ -4067,7 +4178,7 @@
       "thumbnail": "https://i.ytimg.com/vi/y-KMMaKvykU/hqdefault.jpg",
       "publishedAt": "2026-11-27T07:00:27+00:00",
       "updatedAt": "2026-11-27T07:00:27+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -56688,63 +56799,6 @@
       "totalLikes": 108,
       "channelIds": [
         "chiuchiusubtv"
-      ]
-    },
-    {
-      "id": "film_822",
-      "title": "Sau Lưng Có Cả Thiên Đình Chư Tiên, Mà Ngươi Lại Bảo Ta Sợ Quỷ Dị Phục Tô Sao?!",
-      "channelId": "hoathinhmonganh",
-      "channelName": "Mộng Ảnh Studio",
-      "channelUrl": "https://www.youtube.com/@HoatHinhMongAnh",
-      "playlistUrl": null,
-      "totalParts": 2,
-      "partsStr": "2 phần",
-      "totalDurationSec": 21594,
-      "totalDurationStr": "5 giờ 59 phút",
-      "review": "Sau Lưng Có Cả Thiên Đình Chư Tiên, Mà Ngươi Lại Bảo Ta Sợ Quỷ Dị Phục Tô Sao?!",
-      "genres": [
-        "Quỷ dị / Linh dị"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/WECeF5RzZT4/hqdefault.jpg",
-      "parts": [
-        {
-          "index": 1,
-          "label": "Phần 1",
-          "title": "Full Phần 1 |【Sau Lưng Có Cả Thiên Đình Chư Tiên, Mà Ngươi Lại Bảo Ta Sợ Quỷ Dị Phục Tô Sao?!】",
-          "url": "https://www.youtube.com/watch?v=WECeF5RzZT4",
-          "id": "WECeF5RzZT4",
-          "duration": 11867,
-          "durationStr": "3:17:47",
-          "isRedundant": false,
-          "views": 13871,
-          "likes": 463,
-          "publishedAt": "2026-10-26T00:00:00+00:00",
-          "channelId": "hoathinhmonganh",
-          "channelName": "Mộng Ảnh Studio"
-        },
-        {
-          "index": 2,
-          "label": "Phần 2",
-          "title": "Full Phần 2 |【Sau Lưng Có Cả Thiên Đình Chư Tiên, Mà Ngươi Lại Bảo Ta Sợ Quỷ Dị Phục Tô Sao?!】",
-          "url": "https://www.youtube.com/watch?v=cNDp0Q-vhqI",
-          "id": "cNDp0Q-vhqI",
-          "duration": 9727,
-          "durationStr": "2:42:07",
-          "isRedundant": false,
-          "publishedAt": "2026-11-11T12:24:15+00:00",
-          "views": 4861,
-          "likes": 154,
-          "channelId": "hoathinhmonganh",
-          "channelName": "Mộng Ảnh Studio"
-        }
-      ],
-      "updatedAt": "2026-11-11T12:24:15+00:00",
-      "isRecent24h": false,
-      "publishedAt": "2026-11-11T12:24:15+00:00",
-      "totalViews": 18732,
-      "totalLikes": 617,
-      "channelIds": [
-        "hoathinhmonganh"
       ]
     },
     {
