@@ -1,12 +1,12 @@
 {
   "stats": {
-    "totalFilms": 6850,
+    "totalFilms": 6851,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T02:15:37.590007+00:00",
+    "lastUpdated": "2026-11-28T02:30:44.828161+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -124,7 +124,7 @@
       "id": "huyensutieumuoi",
       "name": "Huyền Sư Tiểu Muội",
       "url": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
-      "filmCount": 52
+      "filmCount": 53
     },
     {
       "id": "2ksub",
@@ -245,6 +245,44 @@
   ],
   "films": [
     {
+      "id": "film_6853",
+      "title": "Full Bộ 01~147 | Hóa Tang Thi Nhưng Giữ Được Ý Thức, Điều Khiển Zombie Bá Chủ Thế Giới",
+      "channelId": "huyensutieumuoi",
+      "channelName": "Huyền Sư Tiểu Muội",
+      "channelUrl": "https://www.youtube.com/@Huy%E1%BB%81nS%C6%B0Ti%E1%BB%83uMu%E1%BB%99i",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 10305,
+      "totalDurationStr": "2 giờ 51 phút",
+      "totalViews": 16,
+      "totalLikes": 0,
+      "review": "Mạt thế ập đến, thiếu nữ An Nhã \"sợ xã hội nặng\" chọn hóa tang thi để trốn tránh thế gian nhưng vẫn giữ được ý thức. Đồng hành cùng chiến thần Lăng Kiêu, dị năng giả Bùi Tẫn và chó con Bruce, cô lật mở âm mưu khống chế tang thi của Ngụy Minh Viễn, dắt đàn zombie nhí tìm kiếm Utopia yên bình. 🔔 Nhấn chuông thông báo để không bỏ lỡ các tập phim kỳ ảo, tu...",
+      "genres": [
+        "Sinh tồn / Mạt thế",
+        "Cao võ / Dị năng"
+      ],
+      "thumbnail": "https://i3.ytimg.com/vi/Ri136vkCPH0/hqdefault.jpg",
+      "publishedAt": "2026-11-28T02:19:52+00:00",
+      "updatedAt": "2026-11-28T02:19:52+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Full Bộ 01~147 | Hóa Tang Thi Nhưng Giữ Được Ý Thức, Điều Khiển Zombie Bá Chủ Thế Giới",
+          "url": "https://www.youtube.com/watch?v=Ri136vkCPH0",
+          "id": "Ri136vkCPH0",
+          "duration": 10305,
+          "durationStr": "2:51:45",
+          "publishedAt": "2026-11-28T02:19:52+00:00",
+          "views": 16,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_6852",
       "title": "END |【Ca Thần Đi Dép Lào: Xuyên Không Thành Đại Gia Thu Tiền Nhà, Tôi Dựa Vào Âm Nhạc Để Kiếm Tiền!】",
       "channelId": "vananhstudio",
@@ -253,8 +291,8 @@
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 9613,
+      "totalDurationStr": "2 giờ 40 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "🎬 【Ca Thần Đi Dép Lào: Xuyên Không Thành Đại Gia Thu Tiền Nhà, Tôi Dựa Vào Âm Nhạc Để Kiếm Tiền!】 🎤💰 Bất ngờ xuyên không và trở thành một đại gia chuyên thu tiền thuê nhà, nhân vật chính tưởng chừng có thể tận hưởng cuộc sống an nhàn mà chẳng cần lo cơm áo gạo tiền! Thế nhưng, anh lại lựa chọn một con đường thú vị hơn: dựa vào tài năng âm nhạc để kiếm...",
@@ -272,8 +310,8 @@
           "title": "END |【Ca Thần Đi Dép Lào: Xuyên Không Thành Đại Gia Thu Tiền Nhà, Tôi Dựa Vào Âm Nhạc Để Kiếm Tiền!】",
           "url": "https://www.youtube.com/watch?v=G5S6evBv88s",
           "id": "G5S6evBv88s",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 9613,
+          "durationStr": "2:40:13",
           "publishedAt": "2026-11-28T02:15:24+00:00",
           "views": 0,
           "likes": 0,
