@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6876,
+    "totalFilms": 6878,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T11:15:31.838850+00:00",
+    "lastUpdated": "2026-11-28T11:30:41.260673+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -130,7 +130,7 @@ window.FILMS_DATA = {
       "id": "2ksub",
       "name": "2K Sub",
       "url": "https://www.youtube.com/@2KSUB2000",
-      "filmCount": 655
+      "filmCount": 656
     },
     {
       "id": "naophangtutien",
@@ -180,7 +180,7 @@ window.FILMS_DATA = {
       "id": "vananhstudio",
       "name": "Vạn Ảnh Studio",
       "url": "https://www.youtube.com/@vananhanhstudio",
-      "filmCount": 54,
+      "filmCount": 55,
       "groupId": "group_hoathinhmonganh",
       "groupName": "Hệ Thống Mộng Ảnh Studio"
     },
@@ -244,6 +244,82 @@ window.FILMS_DATA = {
     }
   ],
   "films": [
+    {
+      "id": "film_6879",
+      "title": "9 GIỜ 30 | Toàn Dân Sinh Tồn: Khởi Đầu Xe Ba Gác, Ta Cường Hóa Sào Huyệt Xây Quân Đoàn Yêu Tinh!",
+      "channelId": "2ksub",
+      "channelName": "2K Sub",
+      "channelUrl": "https://www.youtube.com/@2KSUB2000",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 34331,
+      "totalDurationStr": "9 giờ 32 phút",
+      "totalViews": 61,
+      "totalLikes": 5,
+      "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TOÀN DÂN SINH TỒN BẰNG XE – TA DÙNG BA GÁC XÂY QUÂN ĐOÀN YÊU TINH BÁ ĐẠO! | SS1–SS3 | 9H32** 🚲 Toàn bộ nhân loại bất ngờ bị kéo vào **Trò Chơi Sinh Tồn Sào Huyệt**, nơi mỗi người chỉ có một phương tiện, một sào huyệt binh chủng và một mạng sống duy nhất. Trong khi người khác sở...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Sinh tồn / Mạt thế"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/3DYl1muPDDI/hqdefault.jpg",
+      "publishedAt": "2026-11-28T11:26:26+00:00",
+      "updatedAt": "2026-11-28T11:26:26+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "9 GIỜ 30 | Toàn Dân Sinh Tồn: Khởi Đầu Xe Ba Gác, Ta Cường Hóa Sào Huyệt Xây Quân Đoàn Yêu Tinh!",
+          "url": "https://www.youtube.com/watch?v=3DYl1muPDDI",
+          "id": "3DYl1muPDDI",
+          "duration": 34331,
+          "durationStr": "9:32:11",
+          "publishedAt": "2026-11-28T11:26:26+00:00",
+          "views": 61,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
+      "id": "film_6880",
+      "title": "【Mùa 1-2 | Boss Đang Đăng Nhập Diễn Đàn Người Chơi!】",
+      "channelId": "vananhstudio",
+      "channelName": "Vạn Ảnh Studio",
+      "channelUrl": "https://www.youtube.com/@vananhanhstudio",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 19299,
+      "totalDurationStr": "5 giờ 21 phút",
+      "totalViews": 24,
+      "totalLikes": 5,
+      "review": "🎬 【Mùa 1 | Boss Đang Đăng Nhập Diễn Đàn Người Chơi!】 🎮👑 Trong thế giới trò chơi đầy rẫy những phó bản và thử thách, nhân vật chính lại mang thân phận vô cùng đặc biệt: Boss có thể đăng nhập vào diễn đàn người chơi! Trong khi các game thủ đang thảo luận chiến thuật, chia sẻ kinh nghiệm và tìm cách đánh bại Boss, anh lại có thể âm thầm theo dõi những cuộc...",
+      "genres": [
+        "Trò chơi / Phó bản",
+        "Hệ thống / Thức tỉnh"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/OR0kqf6imMA/hqdefault.jpg",
+      "publishedAt": "2026-11-28T11:15:38+00:00",
+      "updatedAt": "2026-11-28T11:15:38+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Mùa 1-2",
+          "title": "【Mùa 1-2 | Boss Đang Đăng Nhập Diễn Đàn Người Chơi!】",
+          "url": "https://www.youtube.com/watch?v=OR0kqf6imMA",
+          "id": "OR0kqf6imMA",
+          "duration": 19299,
+          "durationStr": "5:21:39",
+          "publishedAt": "2026-11-28T11:15:38+00:00",
+          "views": 24,
+          "likes": 5,
+          "isRedundant": false
+        }
+      ]
+    },
     {
       "id": "film_108",
       "title": "Mang Linh Căn Tầm Thường, Thiếu Niên Khổ Tu Tiên Đạo, Nghịch Thiên Cải Mệnh",
@@ -4667,7 +4743,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i1.ytimg.com/vi/HRv4jnYaj0E/hqdefault.jpg",
       "publishedAt": "2026-11-27T11:27:33+00:00",
       "updatedAt": "2026-11-27T11:27:33+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
