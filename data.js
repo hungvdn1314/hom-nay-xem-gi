@@ -1,12 +1,12 @@
 window.FILMS_DATA = {
   "stats": {
-    "totalFilms": 6854,
+    "totalFilms": 6855,
     "totalDurationSec": 90217099,
     "totalDurationFormatted": "25060 giờ 18 phút",
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T03:00:59.417555+00:00",
+    "lastUpdated": "2026-11-28T03:15:37.855248+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -74,7 +74,7 @@ window.FILMS_DATA = {
       "id": "zzzphim",
       "name": "Zzzphim",
       "url": "https://www.youtube.com/@Zzzphim",
-      "filmCount": 334
+      "filmCount": 335
     },
     {
       "id": "gianhireview",
@@ -245,6 +245,44 @@ window.FILMS_DATA = {
   ],
   "films": [
     {
+      "id": "film_6857",
+      "title": "Trọng Sinh Mở Quan Tài Cứu Vương Gia, Nghịch Thiên Đổi Mệnh!",
+      "channelId": "zzzphim",
+      "channelName": "Zzzphim",
+      "channelUrl": "https://www.youtube.com/@Zzzphim",
+      "playlistUrl": null,
+      "totalParts": 1,
+      "partsStr": "1 phần (Phần 1)",
+      "totalDurationSec": 7527,
+      "totalDurationStr": "2 giờ 05 phút",
+      "totalViews": 8,
+      "totalLikes": 0,
+      "review": "Trọng Sinh Mở Quan Tài Cứu Vương Gia, Nghịch Thiên Đổi Mệnh Khiến Thiên Kim Cướp Mệnh Hoảng Loạn!",
+      "genres": [
+        "Tu tiên / Huyền huyễn",
+        "Võ hiệp / Cổ trang"
+      ],
+      "thumbnail": "https://i4.ytimg.com/vi/clZ_0G3SfYs/hqdefault.jpg",
+      "publishedAt": "2026-11-28T03:06:43+00:00",
+      "updatedAt": "2026-11-28T03:06:43+00:00",
+      "isRecent24h": true,
+      "parts": [
+        {
+          "index": 1,
+          "label": "Phần 1",
+          "title": "Trọng Sinh Mở Quan Tài Cứu Vương Gia, Nghịch Thiên Đổi Mệnh!",
+          "url": "https://www.youtube.com/watch?v=clZ_0G3SfYs",
+          "id": "clZ_0G3SfYs",
+          "duration": 7527,
+          "durationStr": "2:05:27",
+          "publishedAt": "2026-11-28T03:06:43+00:00",
+          "views": 8,
+          "likes": 0,
+          "isRedundant": false
+        }
+      ]
+    },
+    {
       "id": "film_6855",
       "title": "16 GIỜ 20 THỎA MÃN | Trọng Sinh Thập Niên 80: Ta Săn Thú, Đào Dược Liệu Làm Giàu Nuôi Cả Nhà!",
       "channelId": "2ksub",
@@ -253,8 +291,8 @@ window.FILMS_DATA = {
       "playlistUrl": null,
       "totalParts": 1,
       "partsStr": "1 phần (Phần 1)",
-      "totalDurationSec": 0,
-      "totalDurationStr": "Đang cập nhật",
+      "totalDurationSec": 59038,
+      "totalDurationStr": "16 giờ 23 phút",
       "totalViews": 0,
       "totalLikes": 0,
       "review": "Nhớ tăng tốc video 1,25 - 1,5 coi cho đã nhé ! Cảnh giới : 📌 Tóm Tắt Phim: **TRỌNG SINH THẬP NIÊN 80 – TA SĂN THÚ, ĐÀO DƯỢC LIỆU LÀM GIÀU NUÔI CẢ NHÀ! | SS1–SS5 | 16H24** ⚔️ **Lý Long** từng là kẻ lười biếng, ăn bám gia đình, bị nhà máy thực phẩm đuổi việc và khiến anh trai, chị dâu phải chịu nhiều khổ cực. Sau hàng chục năm sống trong hối hận, hắn bất...",
@@ -272,8 +310,8 @@ window.FILMS_DATA = {
           "title": "16 GIỜ 20 THỎA MÃN | Trọng Sinh Thập Niên 80: Ta Săn Thú, Đào Dược Liệu Làm Giàu Nuôi Cả Nhà!",
           "url": "https://www.youtube.com/watch?v=4Df7FxigVZg",
           "id": "4Df7FxigVZg",
-          "duration": 0,
-          "durationStr": "",
+          "duration": 59038,
+          "durationStr": "16:23:58",
           "publishedAt": "2026-11-28T03:00:30+00:00",
           "views": 0,
           "likes": 0,
@@ -3946,7 +3984,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i.ytimg.com/vi/c5iiDKLQcZg/hqdefault.jpg",
       "publishedAt": "2026-11-04T00:00:00+00:00",
       "updatedAt": "2026-11-27T03:14:41+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4246,7 +4284,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i.ytimg.com/vi/USM4zJtNuao/hqdefault.jpg",
       "publishedAt": "2026-09-21T00:00:00+00:00",
       "updatedAt": "2026-11-27T03:10:58+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4361,7 +4399,7 @@ window.FILMS_DATA = {
       "thumbnail": "https://i1.ytimg.com/vi/pe0MxsIATtM/hqdefault.jpg",
       "publishedAt": "2026-11-27T03:04:59+00:00",
       "updatedAt": "2026-11-27T03:04:59+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
