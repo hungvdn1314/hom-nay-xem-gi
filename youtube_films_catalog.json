@@ -6,7 +6,7 @@
     "totalViews": 346486975,
     "totalLikes": 1226002,
     "totalChannels": 35,
-    "lastUpdated": "2026-11-28T09:15:31.101418+00:00",
+    "lastUpdated": "2026-11-28T09:30:38.875217+00:00",
     "totalChannelGroups": 27
   },
   "channels": [
@@ -4506,7 +4506,7 @@
       "thumbnail": "https://i3.ytimg.com/vi/jEb-Hnlp4eE/hqdefault.jpg",
       "publishedAt": "2026-11-27T09:17:35+00:00",
       "updatedAt": "2026-11-27T09:17:35+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
@@ -4543,7 +4543,7 @@
       "thumbnail": "https://i2.ytimg.com/vi/iNkW9TY3gpY/hqdefault.jpg",
       "publishedAt": "2026-11-27T09:15:29+00:00",
       "updatedAt": "2026-11-27T09:15:29+00:00",
-      "isRecent24h": true,
+      "isRecent24h": false,
       "parts": [
         {
           "index": 1,
